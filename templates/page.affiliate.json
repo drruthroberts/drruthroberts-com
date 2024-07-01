@@ -1,0 +1,445 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-collection"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animalbiome"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ef19d89c-189d-45a1-ac1f-7395d0135cef": {
+      "type": "affiliatebanner",
+      "custom_css": [
+        "h2.affbanerhead {width: 35%;}",
+        "@media screen and (max-width: 991px) {h2.affbanerhead {width: 50%; }}",
+        "@media screen and (max-width: 440px) {h2.affbanerhead {width: 85%; } .affbannerbtn {flex-wrap: wrap; } .affbanersign {margin-bottom: 2%; }}"
+      ],
+      "settings": {
+        "rbanehead": "Happy Paws Affiliate Program  ",
+        "rebanneddes": "Dr. Ruth Roberts’ Happy Paws Affiliate Program is designed for pet lovers with a strong network of pet parents. Earn 10% commission for every sale made through your unique referral link.",
+        "rebanner": "shopify:\/\/shop_images\/pexels-snapwire-46024_1.png",
+        "affbannrsubbtn": "sign in",
+        "affbannersuburl": "https:\/\/affiliate.drruthroberts.com\/login",
+        "affbannrsub1btn": "sign up",
+        "affbannrsub1url": "https:\/\/affiliate.drruthroberts.com\/create-account"
+      }
+    },
+    "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
+      "type": "affiliate-richtext",
+      "custom_css": [
+        "h2.affrichhead {color: #184b44;}"
+      ],
+      "settings": {
+        "affrichtitle": "We provide our Happy Paws affiliates with access to a range of marketing materials, including banners, images, and text links, to help you promote our products effectively. Plus, you'll have access to real-time reporting and analytics to track your earnings and optimize your marketing strategy.",
+        "affrichhead": "Who can join our affiliate program? ",
+        "rewarddes": "Our Happy Paws Affiliate Program by Dr. Ruth Roberts is open to anyone who is passionate about promoting pet health and wellness! Whether you're a pet parent, a pet blogger, pet social media influencer, pet shop owner, or simply a vet or a vet technician with a strong network, you're welcome to join our program."
+      }
+    },
+    "14344ee5-e775-4532-916a-9fd39507dca1": {
+      "type": "rewardhow-work",
+      "blocks": {
+        "049a7ad1-17b7-4138-8b6f-8a49ec40fca9": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 1",
+            "reworksubtitl": "Click on the \"Sign Up\" button to create your account and fill out the application form."
+          }
+        },
+        "07c6fca2-e84a-4002-be1a-31d94f4a8206": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 2",
+            "reworksubtitl": "Our team will review your application and notify you of your approval status via email."
+          }
+        },
+        "0bae6c9b-4859-432b-8457-6a3a1d14a364": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 3",
+            "reworksubtitl": "Once approved, you can share your unique referral link with your audience."
+          }
+        },
+        "46de3f7a-dc68-474c-af8f-7855954b952b": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 4",
+            "reworksubtitl": "Earn a 10% commission on every sale made through your referral link."
+          }
+        },
+        "482d6b06-4cb3-4b4b-84e3-2849ba7e6a14": {
+          "type": "block",
+          "settings": {
+            "reworktitle": "Step 5",
+            "reworksubtitl": "Track your earnings and optimize your marketing strategy using our real-time reporting and analytics."
+          }
+        }
+      },
+      "block_order": [
+        "049a7ad1-17b7-4138-8b6f-8a49ec40fca9",
+        "07c6fca2-e84a-4002-be1a-31d94f4a8206",
+        "0bae6c9b-4859-432b-8457-6a3a1d14a364",
+        "46de3f7a-dc68-474c-af8f-7855954b952b",
+        "482d6b06-4cb3-4b4b-84e3-2849ba7e6a14"
+      ],
+      "custom_css": [
+        "h2.reworktitlle {margin-bottom: 0; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #000000;}",
+        "h3.reworkdescc {text-align: center;}"
+      ],
+      "settings": {
+        "reworkhead": "Join the Happy Paws Affiliate Community",
+        "rewworkdes": "All you need to do is sign up for our program online and start promoting our products to your audience.",
+        "howbtn": "Apply Now",
+        "howbtnurl": "https:\/\/affiliate.drruthroberts.com\/"
+      }
+    },
+    "0fa81b89-378e-4db6-b61b-7c08bcde9479": {
+      "type": "affiliate-iconblock",
+      "blocks": {
+        "5cc0c06a-4e72-4b18-bfc9-b8ede0664c27": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/Image_8.png",
+            "afficonheadtitl": "High-quality products",
+            "afficonsubtitl": "Our organic pet supplements and products are made from the finest natural ingredients and are scientifically formulated to promote pet health and wellness."
+          }
+        },
+        "202a0da8-8ff7-4c0f-90b3-f51388c78c04": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/Image_10.png",
+            "afficonheadtitl": "Positive impact",
+            "afficonsubtitl": "By promoting Happy Paws' organic pet supplements, you'll be contributing to the well-being of pets everywhere, and helping pet owners take the best possible care of their furry friends."
+          }
+        },
+        "1b43b53f-1f87-4039-9b54-e4f190fb5fcf": {
+          "type": "block",
+          "settings": {
+            "rewardpoint": "shopify:\/\/shop_images\/Image_9.png",
+            "afficonheadtitl": "Dedicated support",
+            "afficonsubtitl": "Our team is always available to support our affiliates and answer any questions they may have. We're committed to helping our affiliates succeed and earn maximum commission."
+          }
+        }
+      },
+      "block_order": [
+        "5cc0c06a-4e72-4b18-bfc9-b8ede0664c27",
+        "202a0da8-8ff7-4c0f-90b3-f51388c78c04",
+        "1b43b53f-1f87-4039-9b54-e4f190fb5fcf"
+      ],
+      "custom_css": [
+        "h2.rewordhead {font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; font-size: 30px; line-height: 40px; text-align: center; color: #1e1e1e;}",
+        "@media screen and (max-width: 520px) {h2.rewordhead {font-size: 22px !important; line-height: 30px; }}"
+      ],
+      "settings": {
+        "afficonhead": "Promote Pet Health and Wellness with Happy Paws Affiliate Program"
+      }
+    },
+    "6a71e337-32ab-49c3-bb32-9946d20250ed": {
+      "type": "aff-img-text",
+      "blocks": {
+        "3fb09566-8492-4f1e-9c2d-0676fb8d2c38": {
+          "type": "block",
+          "settings": {
+            "affimgicon": "shopify:\/\/shop_images\/facebook_logo_443dafea-7c35-43d3-98af-2e9f1c7e2e4a.png",
+            "affimgurl": "https:\/\/www.facebook.com\/crockpetdiet"
+          }
+        },
+        "9d75e536-77c4-46cf-a65e-0a1f3d6748fe": {
+          "type": "block",
+          "settings": {
+            "affimgicon": "shopify:\/\/shop_images\/Frame_7.png",
+            "affimgurl": "https:\/\/www.instagram.com\/dr.ruthroberts\/"
+          }
+        },
+        "04c2f0be-1cc1-4821-989b-573c5aaccedc": {
+          "type": "block",
+          "settings": {
+            "affimgicon": "shopify:\/\/shop_images\/Vector_6.png",
+            "affimgurl": "https:\/\/www.linkedin.com\/in\/dr-ruth-roberts-72473970"
+          }
+        }
+      },
+      "block_order": [
+        "3fb09566-8492-4f1e-9c2d-0676fb8d2c38",
+        "9d75e536-77c4-46cf-a65e-0a1f3d6748fe",
+        "04c2f0be-1cc1-4821-989b-573c5aaccedc"
+      ],
+      "settings": {
+        "affimghead": "Join Our Affiliate Program Today!",
+        "affimgdes": "Our Happy Paws pet health affiliates program is free and easy to join, with no setup fees or hidden costs. Plus, there's no limit to how much you can earn!",
+        "affimgbg": "shopify:\/\/shop_images\/Image_4.png"
+      }
+    },
+    "4549672f-831b-40be-806c-6108ae362ecf": {
+      "type": "affiliate",
+      "blocks": {
+        "1fdb8924-f6a0-40c0-8bba-68ec32b5aaf3": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "The Happy Paws Affiliate Program is a partnership program that focuses on promoting pet health and wellness, where affiliates can earn a commission on sales generated through their exclusive referral link for our range of natural pet supplements, pet wellness courses, and our comprehensive Holistic Pet Health Coaching Program.",
+            "faqid": "",
+            "faqbtn": "What is the Happy Paws Affiliate Program?"
+          }
+        },
+        "ecde324b-ce9f-4f7a-b7fe-446baf62e751": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Anyone can join our program, whether you are a pet owner, pet blogger, social media influencer, a pet groomer, vet, vet technician or simply someone who loves promoting high-quality pet products.",
+            "faqid": "",
+            "faqbtn": "Who can join the Happy Paws Affiliate Program?"
+          }
+        },
+        "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Affiliates earn a 10% commission on all sales made through their referral linkn",
+            "faqid": "",
+            "faqbtn": "How much commission do affiliates earn?"
+          }
+        },
+        "890bba72-8c78-4dcf-acc8-492eb8e2a479": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Signing up is quick and easy. Simply visit our affiliate sign-up page and fill in your details. Once you are approved, you will receive your unique referral link and marketing materials to start promoting our products.",
+            "faqid": "",
+            "faqbtn": "How do I join the Happy Paws Affiliate Program?"
+          }
+        },
+        "c1c6e62e-6f82-4e3a-8c46-500656ff03a1": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We pay our affiliates through PayPal on a monthly basis, provided that the commission balance reaches the minimum threshold of $25.",
+            "faqid": "",
+            "faqbtn": "How do I get paid for my commissions?"
+          }
+        },
+        "aa1cc560-518e-4d9f-aeed-1df1a25977a2": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Yes, you can promote our products on social media platforms such as Facebook, Instagram, Twitter, and others. Just be sure to follow our guidelines and terms of service.",
+            "faqid": "",
+            "faqbtn": "Can I promote Happy Paws products on my social media accounts?"
+          }
+        },
+        "44438e7f-bc8a-40ff-8125-f9e125e5a677": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We provide a range of high-quality marketing materials, including banners, images, and text links. You can choose the materials that best fit your style and audience.",
+            "faqid": "",
+            "faqbtn": "What kind of marketing materials do you provide?"
+          }
+        },
+        "03ba806c-21cd-4d5c-804f-7e21267d7b6a": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, you do not need to have a website to join our program. However, having a website or blog can help you promote our products more effectively and reach a larger audience.",
+            "faqid": "",
+            "faqbtn": "Do I need to have a website to join the Happy Paws Affiliate Program?"
+          }
+        },
+        "5d636acb-defc-420d-82ba-d2d730f32047": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We aim to review and approve all affiliate applications within 24-48 hours. Once your account is approved, you will receive an email notification with further instructions.",
+            "faqid": "",
+            "faqbtn": "How long does it take for my affiliate account to be approved?"
+          }
+        },
+        "876d2a40-8f05-4430-89e7-cc154b70ea77": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, there are no costs involved in joining our program. It is completely free to sign up and start promoting our products. The commission transaction fees will be covered by you.",
+            "faqid": "",
+            "faqbtn": "Are there any costs involved in joining the Happy Paws Affiliate Program?"
+          }
+        },
+        "c2006c23-be94-436d-97be-5ab0f3345bb9": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We provide our affiliates with access to a user-friendly dashboard where you can track your earnings, referrals, clicks, and other key metrics in real-time.",
+            "faqid": "",
+            "faqbtn": "How do I track my commission earnings and referrals?"
+          }
+        },
+        "6fb090ed-b0f6-414c-bb44-9ef754f1661e": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "No, using your own referral link to purchase products for yourself is not allowed and will result in the commission being voided.",
+            "faqid": "",
+            "faqbtn": "Can I use my own referral link to purchase Happy Paws products for myself?"
+          }
+        },
+        "78f47e34-e66d-49ac-9ef5-f5b239959388": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "If a customer returns a product, the commission for that sale will be deducted from your earnings.",
+            "faqid": "",
+            "faqbtn": "What happens if a customer returns a product that I referred them to?"
+          }
+        },
+        "7d5c79ed-6633-4d33-8bbb-81dff8359128": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Yes, you can change the marketing materials you use at any time, and we encourage our affiliates to test different materials to find what works best for them.",
+            "faqid": "",
+            "faqbtn": "Can I change the marketing materials I use once I've started promoting Happy Paws products?"
+          }
+        },
+        "42e2751e-fd52-4769-93b0-b547b87b0092": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "We offer dedicated support to all our affiliates, including access to our support team and a range of resources to help you succeed in promoting our products.<br><br>If you have any further questions about our Affiliate Program, please don't hesitate to contact us.",
+            "faqid": "",
+            "faqbtn": "What kind of support do you offer to your affiliates?"
+          }
+        }
+      },
+      "block_order": [
+        "1fdb8924-f6a0-40c0-8bba-68ec32b5aaf3",
+        "ecde324b-ce9f-4f7a-b7fe-446baf62e751",
+        "4ba4d95e-87ce-4dbf-adc1-f3b18157f4ad",
+        "890bba72-8c78-4dcf-acc8-492eb8e2a479",
+        "c1c6e62e-6f82-4e3a-8c46-500656ff03a1",
+        "aa1cc560-518e-4d9f-aeed-1df1a25977a2",
+        "44438e7f-bc8a-40ff-8125-f9e125e5a677",
+        "03ba806c-21cd-4d5c-804f-7e21267d7b6a",
+        "5d636acb-defc-420d-82ba-d2d730f32047",
+        "876d2a40-8f05-4430-89e7-cc154b70ea77",
+        "c2006c23-be94-436d-97be-5ab0f3345bb9",
+        "6fb090ed-b0f6-414c-bb44-9ef754f1661e",
+        "78f47e34-e66d-49ac-9ef5-f5b239959388",
+        "7d5c79ed-6633-4d33-8bbb-81dff8359128",
+        "42e2751e-fd52-4769-93b0-b547b87b0092"
+      ],
+      "custom_css": [
+        ".accordion-container {max-height: 320px;}",
+        "@media screen and (max-width: 420px) {.howworkorder svg {margin-left: 22px; }}"
+      ],
+      "settings": {
+        "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
+        "mfaqhead": "FAQS",
+        "afffaqbtn": "learn more",
+        "affaqurl": "shopify:\/\/pages\/contact-us"
+      }
+    },
+    "78624dc2-84f9-4cfa-910b-8fb91908a1b1": {
+      "type": "reword_order",
+      "custom_css": [
+        "::placeholder {color: #fff;}",
+        ".reordebtn {float: left;}",
+        "@media screen and (max-width: 749px) {.rx_read_more_btn_green.cust-emil {border: 2px solid #fff !important; } .newsletter-form__button.field__button path {stroke: #fff; } .ordercont {padding: 12% 0; }}",
+        "@media screen and (max-width: 520px) {.ordercont {padding-bottom: 17%; }}",
+        ".rx-email-field input {text-transform: capitalize !important;}"
+      ],
+      "settings": {
+        "reordrhead": "get 10% of your first order",
+        "reorderdes": "Join our email list for exclusive offers and the latest news.",
+        "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
+        "reorderbtn": "email",
+        "reorderbtnurl": "shopify:\/\/pages\/contact-us"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "1655751929e34d4e57",
+    "ef19d89c-189d-45a1-ac1f-7395d0135cef",
+    "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af",
+    "14344ee5-e775-4532-916a-9fd39507dca1",
+    "0fa81b89-378e-4db6-b61b-7c08bcde9479",
+    "6a71e337-32ab-49c3-bb32-9946d20250ed",
+    "4549672f-831b-40be-806c-6108ae362ecf",
+    "78624dc2-84f9-4cfa-910b-8fb91908a1b1"
+  ]
+}

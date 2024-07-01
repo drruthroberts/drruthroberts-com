@@ -1,0 +1,178 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-collection"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animalbiome"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9e54add2-d186-4186-a214-48cd55fb1ea3": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Thank you<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>for applying to our Holistic Pet Health Program by Dr. Ruth Roberts! We appreciate your interest in our program and the opportunity to help you achieve your goals.<\/p>"
+          }
+        },
+        "56d37f78-2771-4e9e-a3d6-fc778b9c9aab": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have received your application and our team is currently reviewing it. If you meet the requirements for the program, one of our team members will reach out to you to schedule an interview.<br\/><\/p>"
+          }
+        },
+        "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BACK TO HOME PAGE",
+            "button_link": "\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-0",
+        "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-1",
+        "56d37f78-2771-4e9e-a3d6-fc778b9c9aab",
+        "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-2"
+      ],
+      "custom_css": [
+        ".rich-text__text.rte {margin-top: 2rem; width: 860px; height: 90px; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;}",
+        ".rich-text__heading.rte {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; letter-spacing: 0.02em; color: #000000;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d27e8302-481a-4761-b358-607827838867": {
+      "type": "thank-you",
+      "custom_css": [
+        "@media screen and (max-width: 330px) {.thankyoumain {margin-top: 8%; }}",
+        ".thankwrap {display: flex; align-items: center; justify-content: center;}",
+        ".thankwrap .pop-up-content-wrap {padding: 0px 5%;}"
+      ],
+      "settings": {
+        "thankyop": "Thank you",
+        "thankyousub": "for applying to our Holistic Pet Health Program by Dr. Ruth Roberts! We appreciate your interest in our program and the opportunity to help you achieve your goals.",
+        "thankdes": "We have received your application and our team is currently reviewing it. If you meet the requirements for the program, one of our team members will reach out to you to schedule an interview.",
+        "button_home": "BACK TO HOME PAGE",
+        "homeurl": "\/"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "1655751929e34d4e57",
+    "9e54add2-d186-4186-a214-48cd55fb1ea3",
+    "d27e8302-481a-4761-b358-607827838867"
+  ]
+}

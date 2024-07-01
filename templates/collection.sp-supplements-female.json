@@ -1,0 +1,433 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "rx_image_banner_fxy9re": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "heading_Jap98B": {
+          "type": "heading",
+          "settings": {
+            "heading": "Happy Grandmother's Day!"
+          }
+        },
+        "text_UbRJi3": {
+          "type": "text",
+          "settings": {
+            "text": "Give the gift of health and joy to yourself and your loved ones. Taking care of yourself means you can take even better care of them."
+          }
+        },
+        "buttons_mKdmG8": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Use Code GRANDMOM for 15% Off!",
+            "button_link_1": "https:\/\/drruthroberts.com\/collections\/womens-health#product-grid"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jap98B",
+        "text_UbRJi3",
+        "buttons_mKdmG8"
+      ],
+      "custom_css": [
+        ".banner__content {opacity: 70%;}",
+        ".rx_banner__heading {font-size: 2.5em;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_4325_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "container_bg": "#ffffff",
+        "desktop_content_alignment": "center",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rx_rich_text_Q4A4AD": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "heading_aiFUXq": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>"
+          }
+        },
+        "text_TJGLQy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let's celebrate the incredible women in our lives! Giving a gift that makes them feel good shows how important their health and happiness are.<\/p>"
+          }
+        },
+        "button_rN8VDn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aiFUXq",
+        "text_TJGLQy",
+        "button_rN8VDn"
+      ],
+      "custom_css": [
+        "p {font-size: 0.6em;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 52
+      }
+    },
+    "rx_img_with_text_slider_PGdhNm": {
+      "type": "rx-img-with-text-slider",
+      "blocks": {
+        "slide_kekqHU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/850_x_950_650_x_700_px.png",
+            "height": "adapt",
+            "desktop_image_width": "medium",
+            "layout": "image_first",
+            "desktop_title_alignment": "left",
+            "desktop_content_alignment": "left",
+            "desktop_button_alignment": "center",
+            "content_layout": "no-overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "left",
+            "heading": "Balance the Hormones",
+            "description": "<p>Motherhood brings profound hormonal shifts that can impact your well-being. Standard Process endocrine supplement is crafted to support these changes, ensuring hormonal balance and enhancing your overall health. Ideal for busy moms, this supplement helps stabilize mood, boost energy, and promote recovery, helping you feel your best every day.<\/p>",
+            "button_label": "Buy Now",
+            "button_link": "https:\/\/drruthroberts.com\/products\/standardprocess-general-female-endocrine-pack-13030"
+          }
+        },
+        "slide_wXHdBt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/folic-acid-b12-SP_main_1.jpg",
+            "height": "adapt",
+            "desktop_image_width": "medium",
+            "layout": "image_first",
+            "desktop_title_alignment": "left",
+            "desktop_content_alignment": "left",
+            "desktop_button_alignment": "center",
+            "content_layout": "no-overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "left",
+            "heading": "Folic Acid for Expectant Mothers",
+            "description": "<p>Folic acid and vitamin B12 are essential for expectant mothers, promoting cellular health and supporting fetal nervous system development. These nutrients aid in healthy cell production, regulate homocysteine levels for vascular function, and are crucial for DNA replication. This supplement is a rich source of folate and vitamin B12, helping to reduce the risk of neural tube defects. Start strong with our trusted folic acid and vitamin B12 supplement for a healthier pregnancy.<\/p>",
+            "button_label": "Buy Now",
+            "button_link": "https:\/\/drruthroberts.com\/products\/standardprocess-folic-acid-b12-4410"
+          }
+        },
+        "slide_amDqrW": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vitamin_D.png",
+            "height": "adapt",
+            "desktop_image_width": "medium",
+            "layout": "image_first",
+            "desktop_title_alignment": "left",
+            "desktop_content_alignment": "left",
+            "desktop_button_alignment": "center",
+            "content_layout": "no-overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "left",
+            "heading": "Vital Vitamin D",
+            "description": "<p>Vitamin D is vital for calcium absorption, which is important for maintaining strong bones and minimize the risk of osteoporosis, a condition that women are more prone to, especially post-menopause. Vitamin D also supports immune function and may help regulate mood, which is beneficial for mothers who may be at risk of postpartum depression.<\/p>",
+            "button_label": "Buy Now",
+            "button_link": "https:\/\/drruthroberts.com\/products\/standardprocess-cataplex-d-3405"
+          }
+        }
+      },
+      "block_order": [
+        "slide_kekqHU",
+        "slide_wXHdBt",
+        "slide_amDqrW"
+      ],
+      "custom_css": [
+        "content-container {padding: 5px;}"
+      ],
+      "settings": {
+        "desktopMaxWidth": "100%",
+        "auto_play": true
+      }
+    },
+    "rx_rich_text_pxCkEY": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "heading_PiYpWq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Grandmother's Day Care Package<\/p>"
+          }
+        },
+        "text_jL7tfY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standard Process and Dr. Ruth Roberts share visions to advance health through a holistic approach, focusing on supporting the body’s interconnected systems rather than just treating symptoms. These supplements are specially curated collections aimed at enhancing women's health, providing comprehensive support for wellness and vitality. Shop now to experience the benefits of our holistic approach to women's health.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PiYpWq",
+        "text_jL7tfY"
+      ],
+      "custom_css": [
+        "p {font-weight: normal; font-size: 0.6em;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#f5f8f1",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 15,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "show_special_offer": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 8,
+        "padding_bottom": 60,
+        "rating": 5
+      }
+    },
+    "rx_rich_text_F6pACg": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "heading_LCytme": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Standard Process<\/p>"
+          }
+        },
+        "caption_7Rzziq": {
+          "type": "caption",
+          "settings": {
+            "caption": "Looking for Specific Supplements for You and Your Pet? Explore Our Collections"
+          }
+        },
+        "text_yqihqP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LCytme",
+        "caption_7Rzziq",
+        "text_yqihqP"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#f5f8f1",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16451381264ffdaa6a": {
+      "type": "rich-text",
+      "blocks": {
+        "16451381268ca1da6a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standard Process is a multi-generational, family-owned and operated, nutritional supplement company for over 90 years. Dr. Royal Lee, the Founder recognized the negative impact the Standard American Diet had on overall health. He believed that processed foods depleted our food sources of the rich nutrition once found in them.<\/p><p>Dr. Lee dedicated his life to perfecting the production of whole-food-based supplements from the soil used to grow crops to the manufacturing processes used to create the supplement – Standard Process has always focused on putting vitality into every bottle.<\/p>"
+          }
+        },
+        "16451381268ca1da6a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16451381268ca1da6a-1",
+        "16451381268ca1da6a-2"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\";}",
+        "p {font-size: 1em; font-weight: normal;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 52
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sp-canine-collection"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-feline-collection"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-human-products"
+          }
+        },
+        "2da0902d-0935-4c65-abe6-98ef650caa77": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-immune-collection"
+          }
+        },
+        "61ed9610-5469-4ee0-97b7-9fcf6e9e22a5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-liver-support-collection"
+          }
+        },
+        "870e57d8-fe83-4ff2-a79a-5217229765c2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-renal-support-collection"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2",
+        "2da0902d-0935-4c65-abe6-98ef650caa77",
+        "61ed9610-5469-4ee0-97b7-9fcf6e9e22a5",
+        "870e57d8-fe83-4ff2-a79a-5217229765c2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rx_rich_text_WRCyKm": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "text_88DDQd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+          }
+        },
+        "button_MzCRzJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "https:\/\/drruthroberts.com\/pages\/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_88DDQd",
+        "button_MzCRzJ"
+      ],
+      "custom_css": [
+        ".rx_rich-text__text {font-size: 1em; font-weight: bold;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rx_image_banner_fxy9re",
+    "rx_rich_text_Q4A4AD",
+    "rx_img_with_text_slider_PGdhNm",
+    "rx_rich_text_pxCkEY",
+    "product-grid",
+    "rx_rich_text_F6pACg",
+    "16451381264ffdaa6a",
+    "1631859338560c9b4a",
+    "rx_rich_text_WRCyKm"
+  ]
+}

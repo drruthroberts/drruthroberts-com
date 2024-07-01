@@ -1,0 +1,871 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "40ccc761-5f8c-45d8-bc43-9a94c4dffcd7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "We Will Do Anything For Their Wellness From Nose To Tail.",
+            "heading_size": "h0"
+          }
+        },
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-heading-1",
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-text-1",
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 0;}",
+        ".image-with-text {background-color: #2d4b49; margin: 0; max-width: 100%;}",
+        ".grid__item > div {background: #fff0; justify-content: center;}",
+        ".image-with-text__media-item img {object-fit: contain;}",
+        ".image-with-text__heading {font-family: \"BLT-Heirloom\"; color: #fff; text-align: left; font-size: 60px; line-height: 60px;}",
+        ".image-with-text__grid {max-width: 1300px; margin: auto;}",
+        ".image-with-text__text p {color: #fff; font-size: 18px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Group_832-min.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "33dcf6b1-6e13-44cf-99dd-765cf3a44117": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921792946241__33dcf6b1-6e13-44cf-99dd-765cf3a44117-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__33dcf6b1-6e13-44cf-99dd-765cf3a44117-column-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Why Us?",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Expertise",
+            "text": "<p>Our pet consultants have undergone rigorous training in holistic pet care by Dr. Ruth Roberts, equipping them with in-depth knowledge and practical skills to address a wide range of health concerns for dogs and cats.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Holistic Approach",
+            "text": "<p>We believe in treating pets as whole beings, considering their physical, emotional, and nutritional needs. Our coaches specialize in holistic approaches that emphasize natural remedies and balanced lifestyles.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Personalized Care",
+            "text": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-1",
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-2",
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-family: \"BLT-Heirloom\"; font-size: 44px; line-height: 40px; font-weight: 300; min-height: 85px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-card__info {background: #f5f8f1; border-radius: 28px; height: 100%; \/* padding: 6rem 4rem; *\/ padding: 65px 35px;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "3270ceca-463c-4a94-837a-eab99dd78163": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921792946241__3270ceca-463c-4a94-837a-eab99dd78163-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Comprehensive Services",
+            "text": "<p>Our pet consultants can assist you with various aspects of pet health, including nutrition advice, behavior modification, exercise plans, and preventive care strategies. Whatever your pet's needs may be, we're here to help.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14921792946241__3270ceca-463c-4a94-837a-eab99dd78163-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Practical Recommendations",
+            "text": "<p>You'll receive clear and actionable recommendations to address your pet's health concerns, enhance their behavior, or improve their overall quality of life.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__3270ceca-463c-4a94-837a-eab99dd78163-column-1",
+        "template--14921792946241__3270ceca-463c-4a94-837a-eab99dd78163-column-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-family: \"BLT-Heirloom\"; font-size: 38px; line-height: 40px; font-weight: 300; min-height: 85px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-card__info {background: #f5f8f1; border-radius: 28px; height: 100%; padding: 6rem 4rem;}",
+        ".grid:last-child {margin-bottom: 0; justify-content: center;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "fadcc9ee-5901-42d9-8139-51be2d304bad": {
+      "type": "coachingmainblog",
+      "disabled": true,
+      "custom_css": [
+        "svg {display: none;}"
+      ],
+      "settings": {
+        "c_head": "",
+        "pro_btn1": "Check our consultant",
+        "program_link1": ""
+      }
+    },
+    "872df224-c2bf-4a52-9d67-ad2d05e43f28": {
+      "type": "multicolumn",
+      "blocks": {
+        "edf487dd-37df-420a-96e3-c65a9c0b9d6a": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Embrace the amazing benefits of collaboration as we work together to enhance your pet's well-being.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "edf487dd-37df-420a-96e3-c65a9c0b9d6a"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px;}",
+        ".button.button--primary {display: none;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Our Collaboration Approach ",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "b165d27c-cf73-4142-863a-ca8961ce2bf7": {
+      "type": "multicolumn",
+      "blocks": {
+        "8bbda40f-a648-4ccd-992c-ea2b00742e1b": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Discover personalized solutions for your pet's well-being with our professional  and certified Holistic Pet Health Coach<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8bbda40f-a648-4ccd-992c-ea2b00742e1b"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Our Pet Consultants",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "ef80614e-ead4-4437-b084-e1bc8ddff2d4": {
+      "type": "multicolumn",
+      "blocks": {
+        "ecd00adf-9645-4a9e-9b34-afa80daf4ab8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hear the Feedback from Our Valued Clients on Our Consultations.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ecd00adf-9645-4a9e-9b34-afa80daf4ab8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Our Client’s Testimonials ",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "3d80628c-ea6f-48fc-8760-085a2af33b6e": {
+      "type": "multicolumn",
+      "blocks": {
+        "bfe304ff-7cf7-4d4b-ad41-f2e8ba00cf9c": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hear the Feedback from Our Valued Clients on Our Consultations.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bfe304ff-7cf7-4d4b-ad41-f2e8ba00cf9c"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "c310de0e-f268-4dff-8278-ea581c28a408": {
+      "type": "multicolumn",
+      "blocks": {
+        "18ea8e42-e20a-426d-87db-407cbf6d1ff5": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "18ea8e42-e20a-426d-87db-407cbf6d1ff5"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px; text-align: center; max-width: 800px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn > div {max-width: 1200px;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__grid.grid {background: #e0ecbe; padding: 35px; border-radius: 50px;}",
+        ".image-with-text__grid.grid div {background-color: #fff0;}",
+        ".image-with-text__heading {text-align: left;}",
+        ".image-with-text__media-item {width: 25% !important;}",
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 2%;}",
+        ".image-with-text__media.media {max-width: 250px; margin: auto;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        "h2.image-with-text__heading.h1 {font-size: 54px; line-height: 50px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/image_4_ba456788-5c27-4b4d-b5d1-19eacd0079a5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76": {
+      "type": "rx-image-banner-v2",
+      "blocks": {
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The opportunity to become a professional pet Pet Health Coach has come very close to you"
+          }
+        },
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "APPLY TO THE PROGRAM",
+            "button_link_1": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1",
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-buttons-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner__media.media {padding: 0;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".banner__media.media {padding: 0;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".rx_read_more_btn_green {border-color: #fff; color: #fff;}",
+        ".rx_banner__heading {font-size: 44px; max-width: 750px; line-height: 54px;}"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/ba9f58a211abaad2ea28ee2b4f2ebef0.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "container_bg": "rgba(0,0,0,0)",
+        "desktop_content_alignment": "left",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "4f906579-b062-4ab8-babd-9cc9b73db3d9": {
+      "type": "rx-testimonial",
+      "blocks": {
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Mind Blowing!",
+            "testimonial": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies<\/p>",
+            "reviewer_name": "Missy Springer & Kenzie South Paw Aussies",
+            "rating": "5"
+          }
+        },
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-2": {
+          "type": "title",
+          "settings": {
+            "title": "Best Product",
+            "testimonial": "<p>Review Text<\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        },
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-3": {
+          "type": "title",
+          "settings": {
+            "title": "Best Product",
+            "testimonial": "<p>Review Text<\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        },
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-4": {
+          "type": "title",
+          "settings": {
+            "title": "Best Product",
+            "testimonial": "<p>Review Text<\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-1",
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-2",
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-3",
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktopColumns": "2",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "100%",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#ffffff",
+        "card_bgcolor": "#ffffff",
+        "filled_star_color": "",
+        "empty_star_color": ""
+      }
+    },
+    "product_banner_KPEpcW": {
+      "type": "product_banner",
+      "settings": {
+        "heading": "Courses, Ebooks, & Certifications",
+        "product": "the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
+        "botton": "Course Outlines",
+        "btn_url": "#",
+        "outline": false
+      }
+    },
+    "image_with_text_GzmrL8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_phqjny": {
+          "type": "heading",
+          "settings": {
+            "heading": "eBOOK: Plants & Medicinal Mushroom Benefits for pets",
+            "heading_size": "h2"
+          }
+        },
+        "caption_KccE3i": {
+          "type": "caption",
+          "settings": {
+            "caption": "written By: Angela Ardolino",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "text_FLnKpW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>mushrooms for your pet with Angela Ardolino's \"Plants and Medicinal wellbeing.<\/p><p>Whether you're looking to bo...<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_dPQwqg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Add to cart",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_phqjny",
+        "caption_KccE3i",
+        "text_FLnKpW",
+        "button_dPQwqg"
+      ],
+      "custom_css": [
+        ".image-with-text__content {width: 660px; background-color: #f5f8f1;}",
+        ".image-with-text__heading {width: 80%; text-align: left; color: #1e1e1e; font-family: Lato; font-size: 30px;}",
+        ".image-with-text__text {color: #1e1e1e; font-family: Lato; font-size: 16px;}",
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__media > img {height: 75%; width: 80%;}",
+        ".button {background-color: transparent;}"
+      ],
+      "settings": {
+        "unique_class": "new class",
+        "image": "shopify:\/\/shop_images\/AngelaArdolino_sPlantandMushroomGuide_ver1_jpg.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_n6hfXP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ABPCBB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr. Ruth Roberts Pet Wellness Courses",
+            "heading_size": "h1"
+          }
+        },
+        "text_bKU7VY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TAKE CHARGE OF YOUR PET'S WELLNESS AND HAPPINESS WITH DR. RUTH ROBERTS' ONLINE COURSES<\/p><p>I’ve had the honor of helping thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_PBMcKj": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ABPCBB",
+        "text_bKU7VY",
+        "button_PBMcKj"
+      ],
+      "custom_css": [
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__heading {color: #184b44; font-family: Lato; text-align: left !important; font-size: 30px; font-style: normal; font-weight: 300; line-height: 40px; letter-spacing: 0.6px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Section_Rectangle_1_dc0dc1f0-b86c-4d15-829f-35b7c0b34c4d_1400x_jpg.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_X3wfY8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dDRT6Q": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr. Ruth Roberts Pet Wellness Courses",
+            "heading_size": "h1"
+          }
+        },
+        "text_PXNHPr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>is the ultimate online learning platform for individuals looking to enhance their skills and knowledge in the Pet Wellness field. Dr. Ruth Roberts Pet Wellness Courses elieve that learning about Pets' Health and Wellness should be accessible to everyone, no matter where you are in the world or what your background is. That's why I offer a range of courses that can help thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer. Get access to Pet Health Education, E-Books, Videos, Supplement guide, and worksheets.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_wEnjWN": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dDRT6Q",
+        "text_PXNHPr",
+        "button_wEnjWN"
+      ],
+      "custom_css": [
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__heading {color: #184b44; font-family: Lato; text-align: left !important; font-size: 30px; font-style: normal; font-weight: 300; line-height: 40px; letter-spacing: 0.6px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Section_Image_2_f9f90f01-197e-418a-8d09-d68697b73003_png.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_nqtA3N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qpxxwz": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Empower Yourself to Be Your Pet's Best Advocate<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qpxxwz"
+      ],
+      "custom_css": [
+        ".rich-text__heading {color: #1e1e1e; text-align: center; font-family: Lato; font-size: 52px; font-style: normal; font-weight: 300; line-height: 70.5px; letter-spacing: 0.6px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_KkLM64": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_a8Yzqp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover the Best Ways to Nurture Your Pet’s Wellness With Our Online Courses",
+            "heading_size": "h1"
+          }
+        },
+        "text_HaLBHG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>So why wait? Enroll in our courses today and join our community of learners who are passionate about nurturing their pet's wellness with the best solutions available. Start empowering yourself to be the best pet parent you can be!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_WWa7d9": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a8Yzqp",
+        "text_HaLBHG",
+        "button_WWa7d9"
+      ],
+      "custom_css": [
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__heading {color: #1e1e1e; font-family: Lato; font-size: 24px; font-style: normal; font-weight: 300; line-height: 33px; text-align: left !important; letter-spacing: 0.6px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Section_Image_37643cb3-dfa4-4e71-b741-ec74a061f7e4_800x_png.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "course_list_bmcrqc": {
+      "type": "course_list",
+      "settings": {
+        "course_heading": "rgwert",
+        "course_subheading": "<p>hrthertyh<\/p>",
+        "collection": "pet-products"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "40ccc761-5f8c-45d8-bc43-9a94c4dffcd7",
+    "33dcf6b1-6e13-44cf-99dd-765cf3a44117",
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c",
+    "3270ceca-463c-4a94-837a-eab99dd78163",
+    "fadcc9ee-5901-42d9-8139-51be2d304bad",
+    "872df224-c2bf-4a52-9d67-ad2d05e43f28",
+    "b165d27c-cf73-4142-863a-ca8961ce2bf7",
+    "ef80614e-ead4-4437-b084-e1bc8ddff2d4",
+    "3d80628c-ea6f-48fc-8760-085a2af33b6e",
+    "c310de0e-f268-4dff-8278-ea581c28a408",
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3",
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76",
+    "4f906579-b062-4ab8-babd-9cc9b73db3d9",
+    "product_banner_KPEpcW",
+    "image_with_text_GzmrL8",
+    "image_with_text_n6hfXP",
+    "image_with_text_X3wfY8",
+    "rich_text_nqtA3N",
+    "image_with_text_KkLM64",
+    "course_list_bmcrqc"
+  ]
+}

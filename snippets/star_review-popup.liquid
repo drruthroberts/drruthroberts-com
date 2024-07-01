@@ -1,0 +1,60 @@
+
+        
+        <div class="custom-model-main aaa" id="myPopup{{ id }}">
+            <div class="custom-model-inner popup">        
+                <div class="close-btn">×</div>
+                    <div class="custom-model-wrap ">
+                        <div class="pop-up-content-wrap">
+                      <div class="popflex">
+                             <div> {{title}}</div>
+                        <div class="stardiv">
+                            {% if icon == 5 %}
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            {% endif %}
+                            {% if icon == 4 %}
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            {% endif %}
+                            {% if icon == 3 %}
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            {% endif %}
+                            {% if icon == 2 %}
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            {% endif %}
+                            {% if icon == 1 %}
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            <span class="fa fa-star-o"></span>
+                            {% endif %}
+                        </div>
+                    </div>
+           
+                       {{ discription }}
+                       <div class="popflex">
+                       <img src="{{ image |img_url: '800x' }}">
+                      <div> {{Sub-title}}</div>
+                       
+                        </div> 
+                    </div>  
+            </div>  
+            <div class="bg-overlay"></div>
+        </div> 
+        </div>
+        </div>

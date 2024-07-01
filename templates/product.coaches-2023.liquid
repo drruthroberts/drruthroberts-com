@@ -1,0 +1,799 @@
+{{ 'rx-product-list.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'rx-product-list.js' | asset_url }}" defer="defer"></script>
+<style>
+  .rx-reviews  {
+    margin-top: 0 !important;
+  }
+  .rx-reviews .stamped-header-title {
+    text-align: center;
+    margin: 0;
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    line-height: 50px;
+    color: #1E1E1E;
+  }
+
+  .rx-reviews .stamped-header, .stamped-summary-text-1 strong {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 30px;
+    color: #1E1E1E;
+  }
+
+  .stamped-summary-caption .stamped-summary-text {
+    font-size: 18px !important;
+    line-height: 30px;
+  }
+
+  .rx-reviews .stamped-summary-caption {
+    color: #5F5E66;
+  }
+
+  .rx-reviews .stamped-review-avatar {
+    background: #F5F8F1 !important;
+    color:#184B44 !important;
+   
+  }
+
+  .rx-reviews .stamped-review-avatar-content {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px !important;
+  }
+
+  .rx-reviews .stamped-review[data-verified=buyer] .stamped-review-avatar:before {
+    content: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/verifiedLogo.png?v=1682310178");
+  }
+
+  .rx-reviews .stamped-content {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    color: #1E1E1E;
+  }
+
+  .rx-reviews .stamped-fa-star {
+    color: #184B44 !important;
+  }
+
+  .rx-reviews .stamped-container ul.stamped-tabs li {
+    color: #5F5E66 !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .rx-reviews .stamped-container ul.stamped-tabs li.active {
+    border-bottom: 3px solid #184B44 !important;
+    color: #184B44 !important;
+    font-weight: 500;
+  }
+
+  .rx-reviews .stamped-summary-actions-newreview:before,
+  .rx-reviews .stamped-summary-actions-newquestion:before {
+    {% comment %} font-family: unset !important;
+    box-shadow: unset !important; {% endcomment %}
+    display: none;
+  }
+
+  .rx-reviews .stamped-summary-actions-newquestion, 
+  .rx-reviews .stamped-summary-actions-newreview { 
+    background: #F5F8F1 !important;
+    {% comment %} border: 2px solid #184B44 !important; {% endcomment %}
+    border: none;
+    box-shadow: unset !important;
+    border-radius: 24px !important;
+    font-family: 'Josefin Sans';
+    font-style: normal !important;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1E1E1E !important;
+    padding: 10px 25px;
+  }
+
+   .stamped-summary-actions-newquestion:hover, 
+   .stamped-summary-actions-newreview:hover {
+    border: #184B44 2px solid;
+  }
+
+  .stamped-form-input.stamped-starrating a {
+    color: #184B44 !important;
+  }
+
+  .rx-reviews .author {
+    color: #184B44 !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .rx-reviews .stamped-verified-badge {
+    color: #6CB177 !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .rx-reviews .review-location {
+    visibility: hidden;
+    height: 5px;
+  }
+
+  .rx-reviews .stamped-review-header-title {
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .rx-reviews .stamped-review-content-body {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px !important;
+  }
+
+  .stamped-review-header-byline {
+    font-size: 18px;
+    font-weight: 500 !important;
+    line-height: 30px !important;
+    color:  #184B44 !important;
+  }
+
+  .rx-reviews .stamped-review-header .created {
+    color: #5F5E66 !important;
+    font-size: 18px;
+  }
+
+  .rx-reviews .stamped-container[data-widget-show-product-variant=true] .stamped-review-product {
+    display: none !important;
+  }
+
+  .rx-reviews .stamped-review-footer {
+    display: none;
+  }
+
+  .rx-reviews .stamped-review-reply {
+    margin-top: 0;
+    border-left: 2px solid #e0e0e0
+  }
+
+  .rx-reviews .stamped-review-reply .stamped-review-header-title  {
+    color: #184B44 !important;
+    font-weight: 500;
+    text-transform: none;
+  }
+  
+  .rx-reviews .stamped-pagination.stamped-reviews-ul li a {
+    color: #1E1E1E !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+
+  }
+
+  .rx-reviews .stamped-pagination .page.active {
+    background: #F5F8F1;
+    border-radius: 8px;
+    text-decoration: none !important;
+  }
+
+  .rx-reviews div.stamped-container[data-widget-style], 
+  .rx-reviews div[data-widget-style] div.stamped-container {
+    max-width: 1100px !important;
+  }
+
+  .product-coaches, .coach-description, .similar-coaches, .coach-courses {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      padding: 5rem 5rem;
+      font-family: 'Josefin Sans';
+  }
+  .product-coaches > * {
+      width: 50%;
+  }
+  .coach-image {
+      padding-bottom: 50%;
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+  }
+  .coach-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  .coach-details .inner {
+      position: relative;
+      background: #fff;
+      padding: 50px;
+      width: 110%;
+      margin-left: -10%;
+      border-radius: 24px;
+      text-align: CENTER;
+  }
+  h2.coach-title {
+      font-size: 85%;
+      color: #939393;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+  }
+  .coach-details h1 {
+      margin: 0;
+      font-family: "BLT-Heirloom";
+  }
+  .coach-price {
+      color: #184B44;
+      font-size: 24px;
+      margin: 20px 0;
+  }
+  .coach-description {
+      padding-top: 0;
+      align-items: flex-start;
+      gap: 30px;
+  }
+  .coach-description h2 {
+      font-family: 'BLT-Heirloom';
+      color: #184B44;
+       font-weight: bold;
+  }
+  .coach-description p {
+      font-family: 'Josefin Sans';
+      color: black;
+       font-weight: normal;
+  }
+  .coach-info {
+      width: 90%;
+  }
+  .coach-description strong {
+      color: #000;
+  }
+
+  .coach-contact {
+    padding-top: 0;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin-left: 10%;
+    padding-left: 1%;
+    padding-bottom: 5%;
+  }
+
+  .coach-contact h2{
+    font-family: "BLT-Heirloom";
+    color: #184B44;
+    font-weight: bold;
+  } 
+  .coach-contact p{
+    font-family: 'Josefin Sans';
+    color: black;
+    font-weight: normal;
+    list-style-type: none; 
+    margin-bottom: 8px;
+    color: inherit;
+    margin: 0;
+  }
+
+  .coach-specialty {
+    padding-top: 0;
+    align-items: flex-start;
+    gap: 20px;
+    width: 90%;
+    margin-left: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+  }
+
+  .coach-specialty h2 {
+    font-family: "BLT-Heirloom";
+    color: #184B44;
+    font-weight: bold;
+  } 
+  .coach-specialty p {
+    font-family: 'Josefin Sans';
+    color: black;
+    font-weight: normal;
+  }
+  
+  input#quantity {
+      display: none;
+  }
+  
+  input.btn {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #1E1E1E;
+      background-color: white;
+      border: 2.7px solid #184B44;
+      border-radius: 24px;
+      padding: 17px 35px 15px;
+      width: 100%;
+      cursor: pointer;
+      background: #fff;
+  }
+  input.btn:hover {
+      background: #184B44;
+      color: #fff;
+  }
+
+  .similar-coaches h2 {
+      font-family: "Oakley Script";
+      font-weight: 400;
+      color: #1E1E1E;
+      font-size: 64px;
+      text-align: center;
+      display: block;
+      width: 100%;
+    }
+    .similar-coaches {
+      flex-direction: COLUMN;
+      padding-top: 0;
+  }
+  .rebuy-widget .rebuy-product-block .rebuy-product-actions {
+    display: none;
+    margin: 0 !important;
+  }
+  .rebuy-widget {
+    padding: 0 !important;
+  }
+  .rebuy-product-review {
+    float: left;
+  }
+  span.rebuy-money span {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    line-height: 22px;
+    color: #184b44;
+  }
+  span.rebuy-review-count-label {
+    display: none;
+  }
+  .rebuy {
+      width: 100%;
+  }
+  span.rebuy-money span {
+      align-items: center;
+      justify-content: center;
+  }
+  .rebuy-product-media {
+      border-radius: 16px;
+      overflow: hidden;
+  }
+
+  .coach-courses {
+      padding-top: 0;
+    flex-direction: column;
+  }
+  .coach-courses h2 {
+      font-family: "Oakley Script";
+      font-weight: 400;
+      color: #1E1E1E;
+      font-size: 64px;
+      text-align: center;
+      display: block;
+      width: 100%;
+      margin: 0;
+  }
+  .coach-courses h3 {
+      font-family: "BLT-Heirloom";
+      font-weight: 300;
+      font-size: 30px;
+      color: #1E1E1E;
+      line-height: 35px;
+      text-align: center;
+      display: block;
+      width: 100%;
+      margin: 0 0 30px;
+  }
+
+  .rx-product-list {
+      width: 100%;
+  }
+  a.slider-links {
+      text-decoration: none !important;
+      color: #1e1e1e !important;
+  }
+
+  a.button.button--secondary {
+      border: 2px solid #184b44;
+      color: #184b44;
+      border-radius: 50px;
+      text-transform: uppercase;
+      font-family: "Josefin Sans";
+      gap: 15px;
+  }
+  .similar-coaches  + .rich-text__blocks.center {
+      margin-bottom: 6rem;
+      margin-top: -5rem;
+  }
+
+  @media screen and (max-width: 767px) {
+      .product-coaches {
+          flex-direction: column;
+      }
+      .coach-image {
+          width: 100%;
+          padding-bottom: 100%;
+      }
+      .coach-details .inner {
+          width: 90%;
+          margin: -50px auto 0;
+          padding: 20px;
+      }
+      .coach-details {
+          width: 100%;
+      }
+      input.btn {
+          font-size: 12px;
+          padding: 17px 20px 15px;
+      }
+      .rx-reviews .stamped-header-title,
+      .similar-coaches h2,
+      .coach-courses h2 {
+          font-size: 50px;
+          line-height: 1;
+      }
+      .coach-courses h3 {
+          font-size: 24px;
+      }
+      .product-coaches, .coach-description, .similar-coaches, .coach-courses {
+          padding-left: 15px;
+          padding-right: 15px;
+      }
+      .coach-courses {
+          padding-bottom: 0;
+      }
+      .custom-box.rx_banner__box.content-container.content-container--full-width-mobile.rx-container-bg {
+          padding: 50px 15px !important;
+      }
+      #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__text:last-child {
+          font-size: 50px !important;
+      }
+      .coach-description {
+          flex-direction: column;
+          gap: 0;
+      }
+      .coach-info {
+          width: 100%;
+      }
+      .coach-description h2 {
+          font-size: 24px
+      }
+      .coach-description {
+          padding-bottom: 3rem;
+          margin-top: -3rem;
+      }
+  }
+
+</style>
+
+<div class="product-coaches">
+  <div class="coach-image">
+      {{ product.featured_image | img_url: '800x800' | img_tag }}
+  </div>
+  <div class="coach-details">
+      <div class="inner">
+        <h1>{{ product.title }}</h1>
+        <h2 class="coach-title">{{ product.metafields.my_fields._1_badge_text_2 }}</h2>
+        <div class="coach-price">{{ product.price | money_with_currency }}</div>
+        <form method="post" action="/cart/add">
+          <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+          <input min="1" type="number" id="quantity" name="quantity" value="1"/>
+          <input type="button" value="Book A Consult" class="btn" onclick="window.location='{{ product.metafields.custom.coach_booklink }}'"/>
+        </form>
+      </div>
+  </div>
+</div>
+
+<div class="coach-description">
+    <div class="coach-info">
+      <h2>Coach Information</h2>
+      {{ product.description }}
+    </div>
+    <div class="coach-specialty">
+      <h2>Coach Specialty</h2>
+      {{ product.metafields.custom.coach_specialty}}
+    </div>
+</div>
+
+<div class="coach-contact">
+      <h2>Coach Contact</h2>
+          <p>Website: <a href="{{ product.metafields.Consult-button.redirect }}">{{ product.metafields.Consult-button.redirect }}</a></p>
+          <p>Social Media: <a href="mailto:{{ product.metafields.my_fields.product_direction_for_use }}">{{ product.metafields.my_fields.product_direction_for_use }}</a></p>
+</div>
+
+
+<div 
+  class="rx-reviews"
+  id="stamped-main-widget"   
+  data-product-id="{{ product.id }}"   
+  data-name="{{ product.title | escape }}"   
+  data-url="{{ shop.url }}{{ product.url }}"   
+  data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" 
+  data-description="{{ product.description | escape }}"   
+  data-product-sku="{{product.handle}}"
+  data-product-title="{{product.title}}" 
+  data-product-type="{{product.type}}">   
+  {{product.metafields.stamped.reviews}}   
+</div>
+
+<script>
+  const avatarContentList = document.querySelectorAll(".rx-{{section.id}} .stamped-review-avatar-content");
+  const authorList = document.getElementsByClassName("author");
+  for(let i=0; i< avatarContentList.length; i++ ) {
+    avatarContentList[i].innerHTML = authorList[i].innerHTML[0];
+  }
+
+</script>
+
+<div class="similar-coaches">
+  <h2>You may also like</h2>
+  <div class="rebuy" data-rebuy-id="84689" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
+</div>
+<div class="rich-text__blocks center"><div class="rich-text__buttons"><a href="https://drruthroberts.com/collections/coaches" class="button button--secondary">view all pet coaches<svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+<path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"></path>
+</svg>
+                  </a></div></div>
+
+<div class="coach-courses">
+  <h2>Skip the consultation?</h2>
+  <h3>Dive into our holistic courses – DIY guides to kickstart your pet's holistic journey</h3>
+  <rx-slider class="rx-sections rx-wrapper rx-product-list rx-product-list-style1" data-max-mobile-size="479" data-min-tablet-size="480" data-max-tablet-size="1023" data-min-desktop-size="1024" data-columns="3" data-medium-columns="2" data-small-columns="1" data-auto-play="true">
+
+    <div class="rx-product-list-list-container">
+      <div class="rx-slider-list rx-product-list-list"><div class="rx-slider-item rx-product-list-item" >
+            
+            
+              <a class="slider-links" href="/products/the-original-crockpet-diet-membership">
+                
+              <div class="rx-product-list-item-inner"><img src="//drruthroberts.com/cdn/shop/files/TheOriginalCrockPetDiet-ExclusiveMembership2_ver1_1.jpg?crop=center&amp;height=300&amp;v=1693602911&amp;width=300" alt="The Original Crockpet Diet by Dr. Ruth - Annual Membership" srcset="//drruthroberts.com/cdn/shop/files/TheOriginalCrockPetDiet-ExclusiveMembership2_ver1_1.jpg?crop=center&amp;height=300&amp;v=1693602911&amp;width=300 300w" width="300" height="300" loading="lazy" class="cover-image">
+<div class="rx-thinkific-circle">
+                  <p>COURSE</p>
+                </div>
+
+                <div class="rx-product-description">
+                  <div class="rx-product-title">
+                    
+                      The Original Crockpet Diet by Dr. Ruth - Annual Membership
+                    
+                  </div>
+                  
+                  <div class="rx-product-price">
+                    
+                      <span style="text-decoration: line-through">$149.00</span> $49.99
+                    
+                  </div>
+                </div>
+              </div>
+            
+              </a>
+            
+          </div><div class="rx-slider-item rx-product-list-item" >
+            
+            
+              <a class="slider-links" href="/products/1986957">
+                
+              <div class="rx-product-list-item-inner"><img src="//drruthroberts.com/cdn/shop/files/MiniGutHealthCourse_ver1.jpg?crop=center&amp;height=300&amp;v=1693603069&amp;width=300" alt="Gut Health Starter Kit For Dogs and Cats" srcset="//drruthroberts.com/cdn/shop/files/MiniGutHealthCourse_ver1.jpg?crop=center&amp;height=300&amp;v=1693603069&amp;width=300 300w" width="300" height="300" loading="lazy" class="cover-image">
+<div class="rx-thinkific-circle">
+                  <p>COURSE</p>
+                </div>
+
+                <div class="rx-product-description">
+                  <div class="rx-product-title">
+                    
+                      Gut Health Starter Kit For Dogs and Cats
+                    
+                  </div>
+                  
+                  <div class="rx-product-price">
+                    
+                      <span style="text-decoration: line-through"></span> $11.99
+                    
+                  </div>
+                </div>
+              </div>
+            
+              </a>
+            
+          </div><div class="rx-slider-item rx-product-list-item" >
+            
+            
+              <a class="slider-links" href="/products/plant-and-mushroom-for-pets-by-angela-ardolino-medical-plants-book">
+                
+              <div class="rx-product-list-item-inner"><img src="//drruthroberts.com/cdn/shop/files/AngelaArdolino_sPlantandMushroomGuide_ver1.jpg?crop=center&amp;height=300&amp;v=1693602029&amp;width=300" alt="Plants &amp; Medicinal Mushroom Benefits for Pets By Angela Ardolino" srcset="//drruthroberts.com/cdn/shop/files/AngelaArdolino_sPlantandMushroomGuide_ver1.jpg?crop=center&amp;height=300&amp;v=1693602029&amp;width=300 300w" width="300" height="300" loading="lazy" class="cover-image">
+<div class="rx-thinkific-circle">
+                  <p>COURSE</p>
+                </div>
+
+                <div class="rx-product-description">
+                  <div class="rx-product-title">
+                    
+                      Plants & Medicinal Mushroom Benefits for Pets By Angela Ardolino
+                    
+                  </div>
+                  
+                  <div class="rx-product-price">
+                    
+                      <span style="text-decoration: line-through"></span> $9.99
+                    
+                  </div>
+                </div>
+              </div>
+            
+              </a>
+            
+          </div><div class="rx-slider-item rx-product-list-item" >
+            
+            
+              <a class="slider-links" href="/products/gut-instincts-natural-digestion-gi-health">
+                
+              <div class="rx-product-list-item-inner"><img src="//drruthroberts.com/cdn/shop/files/GutInstinctsNaturalDigestionandGIHealthCourse_ver1_1.jpg?crop=center&amp;height=300&amp;v=1693602317&amp;width=300" alt="The Comprehensive Gut Instincts Natural Digestion &amp; GI Health for Dogs and Cats" srcset="//drruthroberts.com/cdn/shop/files/GutInstinctsNaturalDigestionandGIHealthCourse_ver1_1.jpg?crop=center&amp;height=300&amp;v=1693602317&amp;width=300 300w" width="300" height="300" loading="lazy" class="cover-image">
+<div class="rx-thinkific-circle">
+                  <p>COURSE</p>
+                </div>
+
+                <div class="rx-product-description">
+                  <div class="rx-product-title">
+                    
+                      The Comprehensive Gut Instincts Natural Digestion & GI Health for Dogs and Cats
+                    
+                  </div>
+                  
+                  <div class="rx-product-price">
+                    
+                      <span style="text-decoration: line-through">$97.00</span> $31.99
+                    
+                  </div>
+                </div>
+              </div>
+            
+              </a>
+            
+          </div></div>
+    </div>
+  </rx-slider>
+</div>
+
+<section id="shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137" class="shopify-section section"><link href="//drruthroberts.com/cdn/shop/t/47/assets/rx-section-image-banner.css?v=146433665511289034811685340401" rel="stylesheet" type="text/css" media="all"><strong><em><em>
+<style data-shopify="">#Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137::after {
+    opacity: 0.0;
+  }
+
+  #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .custom-box.rx_banner__box {
+    max-width: 76rem;
+    padding: 10px;
+  }
+
+  .section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__heading {
+    font-family: "BLT-Heirloom";
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__text {
+    font-family: "Josefin Sans";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #ffffff
+  }
+
+  .section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__buttons {
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    padding: 7px 20px;
+    border-color: #FFFFFF;
+    max-width: 30rem;
+    margin:0;
+  }
+
+
+  @media screen and (min-width: 750px) {
+    .section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .banner--desktop-transparent .rx_banner__box {
+      background: transparent;
+      --color-foreground: 255, 255, 255;
+      --color-button: 255, 255, 255;
+      --color-button-text: 0, 0, 0;
+      max-width: 89rem;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__box.rx-container-bg {
+      background-color: 
+    }
+
+    .section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .custom-box.rx_banner__box {
+      width: auto;
+      max-width: 66rem;
+      min-width: 45rem;
+      padding: ;
+    }
+
+  }
+
+  #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .banner__media img {
+    /* width: unset; */
+    height: unset;
+    position: unset;
+    margin: auto;
+  } 
+
+  #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .banner__media.media {
+    background: none;
+  }
+
+  @media screen and (max-width: 920px) {
+    #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_read_more_arrow_img_banner {
+      display: ;
+    }
+
+    #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .banner__media.media {
+      height: unset;
+    }
+
+    #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_read_more_btn_white {
+      color: #1E1E1E;
+      border-color: #184B44;
+    }
+
+    #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137  .rx_read_more_btn_white img {
+      content: url("https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191")
+    }
+
+    #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__heading {
+      color: #000;
+    }
+    
+    #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .custom-box {
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width: 920px) and (min-width: 760px) {
+    #Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .custom-box {
+      transform: translateY(35%);
+    }
+  }</style><div id="Banner-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137" class="page-width banner banner--content-align-left banner--content-align-mobile-center banner--medium banner--mobile-bottom banner--desktop-transparent">
+  
+<div class="page-width banner__media media"><img src="//drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=3500" alt="" srcset="//drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=375 375w, //drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=550 550w, //drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=750 750w, //drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=1100 1100w, //drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=1500 1500w, //drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=1780 1780w, //drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=2000 2000w, //drruthroberts.com/cdn/shop/files/cta.png?v=1696352228&amp;width=3000 3000w" width="2160" height="938.0" loading="lazy" sizes="100vw">
+    </div><div class="section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 banner__content banner__content--middle-center page-width">
+    <div class="custom-box rx_banner__box content-container content-container--full-width-mobile rx-container-bg"><p class="rx_banner__heading">
+              <span>Become a Certified Holistic Pet Health Coach</span>
+            </p><div class="rx_banner__text">
+              <span>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.</span>
+            </div><div><a href="https://www.holisticpethealthcoach.com/hphcp_optin_sws-page-5804" class=" rx_read_more_btn_white ">LEARN MORE<img id="rx_read_more_arrow_black" src=" https://cdn.shopify.com/s/files/1/0017/5443/1553/files/white-arrow.png?v=1680565711 " class="rx_read_more_arrow_img_banner">
+                </a></div><div class="rx_banner__text">
+              <span>Join Our Team!</span>
+            </div></div>
+  </div>
+</div>
+
+
+<style> #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .banner, #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .banner__media {width: 100%; max-width: 100%; padding: 0;} #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .custom-box {width: 100% !important; max-width: 1200px !important;} #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .banner__media img {object-position: 50% 50% !important; height: 100% !important;} #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__heading {max-width: 50%;} #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__text {max-width: 50%; margin-bottom: 30px !important;} #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__text:last-child {font-family: "Oakley Script"; font-size: 64px; margin-top: 50px; margin-bottom: 20px !important;} @media screen and (max-width: 767px) {#shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__text, #shopify-section-template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137 .rx_banner__heading {max-width: 100%; }} </style></em></em></strong></section>

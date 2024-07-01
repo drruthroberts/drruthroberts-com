@@ -1,0 +1,218 @@
+<style>
+.amr_person_detail_slider {
+    position: relative;
+    padding: 60px 0px;
+    overflow:hidden;
+}
+.amr_slider_box {
+    /* max-width: 580px; */
+    margin: 0 auto;
+    width: 100%;
+}
+.amr_person_detail_slider .slick-track {
+    display: flex;
+}
+.anr_slider_box_inner {
+    padding: 40px 25px;
+    /* max-width:580px; */
+}
+/* .anr_slider_box_inner.slick-slide.slick-current.slick-active {
+    min-width: 375px;
+} */
+.amr_person_detail_slider .slick-center
+.anr_slider_box_inner.slick-slide:not(.slick-current.slick-active) {
+   /* padding: 40px 0px;
+     max-width: 430px; */
+}
+.anr_slider_box_inner.slick-slide.slick-current.slick-active {
+    padding: 40px 80px;
+    max-width: 580px;
+}
+
+.anr_slider_box_inner.slick-slide.slick-current.slick-active .amr_PSND_header {
+  margin-bottom:30px;
+  visibility:visible;
+}
+.amr_PSND_header {
+  visibility:hidden;
+}
+.amr_PSND_header h2 {
+    color: #2D4B49;
+    font-family: BLT-Heirloom;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    margin: 0 0 4px;
+}
+.amr_PSND_header p {
+    color: #2D4B49;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.424px;
+    letter-spacing: -0.32px;
+    margin: 0;
+}
+  .anr_slider_box_inner img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 30px;
+}
+.anr_slider_box_inner.slick-slide.slick-current.slick-active img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 30px;
+}
+
+.amr_PSND_detail p {
+    /* font-size: 0px; */
+    display:none;
+}
+.anr_slider_box_inner.slick-slide.slick-current.slick-active .amr_PSND_detail p {
+    color: #2D4B49;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.424px;
+    letter-spacing: -0.32px;
+    margin: 0 0 30px;
+    display:block;
+}
+a.amr_PSND_btn {
+    display:none;
+}
+.anr_slider_box_inner.slick-slide.slick-current.slick-active a.amr_PSND_btn {
+    border-radius: 30px;
+    background: #2D4B49;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.21px;
+    padding: 10px 14px;
+    display:block;
+}
+  /* .amr_slider_box .slick-list{overflow:visible;}
+.anr_slider_box_inner.slick-slide:not(.slick-current) {
+    background: unset !important;
+    max-width: 420px;
+}
+.anr_slider_box_inner.slick-slide:not(.slick-current) .amr_PSND_header, .anr_slider_box_inner.slick-slide:not(.slick-current) .amr_PSND_detail, .anr_slider_box_inner.slick-slide:not(.slick-current) .amr_PSND_btn {
+    display: none;
+} */
+  /* .amr_person_detail_slider .slick-list {
+    overflow: visible;
+} */
+  {% for block in section.blocks %}
+  .anr_slider_box_inner.slick-slide.slick-current.slick-active{
+    background-color:{{ block.settings.bg_color }};
+  }
+    {% endfor %}
+@media screen and (max-width:575px){
+.anr_slider_box_inner {
+    padding: 40px 25px;
+}
+.anr_slider_box_inner.slick-slide.slick-current.slick-active {
+    min-width: 100%;
+}
+}
+</style>
+<div class="amr_person_detail_slider">
+  <div class="amr_container_1170">
+    <div class="amr_pet_consultants_header">
+      {% if section.settings.heading != blank %}<h2>{{ section.settings.heading }}</h2>{% endif %}
+      {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
+    </div>
+    <!-- slide grup -->
+    <div class="amr_slider_box">
+      {% for block in section.blocks %}
+        <div class="anr_slider_box_inner">
+      <div class="amr_PSND_header">
+          <h2>{{ block.settings.title }}</h2>
+          <div>{{ block.settings.short_detail }}</div>
+      </div>
+        <img src="{{ block.settings.main_img | img_url:'master' }}">
+      <div class="amr_PSND_detail">{{ block.settings.detail }}</div>
+      {% if block.settings.btn_txt != blank %}<a class="amr_PSND_btn" href="{{ block.settings.btn_txt }}">{{ block.settings.btn_txt }}</a>{% endif %}
+      </div>
+        {% endfor %}
+      
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Person Detail Slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label":"Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label":"Description"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "person_detail",
+      "name": "Person Detail",
+      "settings": [
+        {
+          "type":"color",
+          "id":"bg_color",
+          "label":"Background Color"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "short_detail",
+          "label":"Short Detail"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_img",
+          "label":"Main Image",
+          "info":"upload same size image in each block"
+        },
+        {
+          "type": "richtext",
+          "id": "detail",
+          "label":"Detail"
+        },
+        {
+          "type": "text",
+          "id": "btn_txt",
+          "label":"Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Person Detail Slider"
+      }
+    ]
+}
+{% endschema %}

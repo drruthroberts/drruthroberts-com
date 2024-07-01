@@ -1,0 +1,125 @@
+<div class="bortop">
+    <div class="rewordmax_container howrewardflex">
+        <div class="rewardwork">
+                <h2 class="rewordhead">{{section.settings.afficonhead}}</h2>
+        </div>
+        <div class=" afficoncontent">
+            {%- for block in section.blocks -%}
+                    <div class="rewordworkspace">
+                        <div class="affsvgicon">
+                            <img src="{{ block.settings.rewardpoint | img_url: 'small' }}" alt="">
+                        </div>
+                        <h2 class="reworkdeshesd">{{block.settings.afficonheadtitl}}</h3>
+                        <h3 class="reworkdescc">{{block.settings.afficonsubtitl}}</h3>
+                    </div> 
+            {%- endfor -%}
+        </div>
+   
+   
+    </div>
+</div>
+{% if page.handle == "happy-paws-affiliate-program" %}
+<style>
+.rewordmax_container  .rewordhead{
+ padding-top:0;
+}
+</style>
+{% endif %}
+{% schema %} 
+{
+  "name": "affiliate-iconblock",
+  "tag": "section",
+  "class": "affiliate-iconblock",
+  "settings": [
+    {
+      "type": "text",
+      "id": "afficonhead",
+      "label": "Heading"
+    }
+   
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit":3,
+    "settings": [
+      
+     {
+          "type": "image_picker",
+          "label": "Select Image",
+          "id": "rewardpoint"
+        },
+          {
+    "type": "text",
+    "id": "afficonheadtitl",
+    "label": "Heading"
+      },
+      {
+    "type": "text",
+    "id": "afficonsubtitl",
+    "label": "Sub Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "affiliate-iconblock"
+    }
+  ]
+}
+{% endschema %}
+<style>
+h2.reworkdeshesd {
+   font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+    margin-bottom: 0;
+}
+.bortop{
+    /* border-top: 1px solid #F5F8F1; */
+/*     display:none; */
+}
+.rewardwork {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.afficoncontent{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        margin-top: 3%;
+        margin-bottom:5%;
+}
+.rewordhead{
+
+    padding-top: 5%;
+    margin-bottom: 10px;
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+}
+.affsvgicon {
+    display: flex;
+    justify-content: center;
+}
+.afficoncontent .rewordworkspace .reworkdescc{
+  text-align: center;
+}
+@media screen and (max-width: 520px) {
+    h2.rewordhead{
+        font-size:38px;
+    }
+}
+</style>

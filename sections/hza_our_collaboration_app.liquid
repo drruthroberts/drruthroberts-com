@@ -1,0 +1,162 @@
+<div class="amr_pet_consultants">
+  <div class="amr_container_1170">
+    <div class="amr_pet_consultants_header">
+      {% if section.settings.heading != blank %}<h2>{{ section.settings.heading }}</h2>{% endif %}
+      {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
+    </div>
+    <div class="amr_collaboration_approach_grup">
+      {% for block in section.blocks %}
+        {% if block.type == 'collab_approach_left' %}
+        <div class="amr_collaboration_approach_content_left">
+          <div class="amr_collaboration_approach_content">
+            {% if block.settings.title != blank %}<h3>{{ block.settings.title }}</h3>{% endif %}
+            {% if block.settings.detail != blank %}<div>{{ block.settings.detail }}</div>{% endif %}
+          </div>
+          <div class="amr_collaboration_approach_content">
+            {% if block.settings.title_1 != blank %}<h3>{{ block.settings.title_1 }}</h3>{% endif %}
+            {% if block.settings.detail_1 != blank %}<div>{{ block.settings.detail_1 }}</div>{% endif %}
+          </div>
+          <div class="amr_collaboration_approach_content">
+            {% if block.settings.title_2 != blank %}<h3>{{ block.settings.title_2 }}</h3>{% endif %}
+            {% if block.settings.detail_2 != blank %}<div>{{ block.settings.detail_2 }}</div>{% endif %}
+          </div>
+        </div>
+      {% endif %}
+        {% if block.type == 'main_img' %}
+          <div class="amr_collaboration_approach_img">
+            <img src="{{ block.settings.main_img | img_url:'master' }}">
+          </div>
+        {% endif %}
+        {% if block.type == 'collab_approach_right' %}
+        <div class="amr_collaboration_approach_content_right">
+          <div class="amr_collaboration_approach_content">
+            {% if block.settings.title_r != blank %}<h3>{{ block.settings.title_r }}</h3>{% endif %}
+            {% if block.settings.detail_r != blank %}<div>{{ block.settings.detail_r }}</div>{% endif %}
+          </div>
+          <div class="amr_collaboration_approach_content">
+            {% if block.settings.title_r_2 != blank %}<h3>{{ block.settings.title_r_2 }}</h3>{% endif %}
+            {% if block.settings.detail_r_2 != blank %}<div>{{ block.settings.detail_r_2 }}</div>{% endif %}
+          </div>
+          <div class="amr_collaboration_approach_content">
+            {% if block.settings.title_r_3 != blank %}<h3>{{ block.settings.title_r_3 }}</h3>{% endif %}
+            {% if block.settings.detail_r_3 != blank %}<div>{{ block.settings.detail_r_3 }}</div>{% endif %}
+          </div>
+        </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    
+  </div>
+  
+</div>
+{% schema %}
+{
+  "name": "Our Collab Approach",
+  "max_blocks":3,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label":"Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label":"Description"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collab_approach_left",
+      "name": "Collab Point Left",
+      "limit":1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail",
+          "label":"Detail"
+        },
+        {
+          "type": "text",
+          "id": "title_1",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail_1",
+          "label":"Detail"
+        },
+        {
+          "type": "text",
+          "id": "title_2",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail_2",
+          "label":"Detail"
+        }
+      ]
+    },
+    {
+      "type": "collab_approach_right",
+      "name": "Collab Point Right",
+      "limit":1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title_r",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail_r",
+          "label":"Detail"
+        },
+        {
+          "type": "text",
+          "id": "title_r_2",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail_r_2",
+          "label":"Detail"
+        },
+        {
+          "type": "text",
+          "id": "title_r_3",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail_r_3",
+          "label":"Detail"
+        }
+      ]
+    },
+    {
+      "type": "main_img",
+      "name": "Main Image",
+      "limit":1,
+      "settings": [
+        {
+          "type":"image_picker",
+          "id":"main_img",
+          "label":"Main Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Our Collab Approach"
+      }
+    ]
+}
+{% endschema %}

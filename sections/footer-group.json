@@ -1,0 +1,137 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "39a610ad-ed18-4916-9406-868dcf02a3d5": {
+      "type": "rx-footer",
+      "blocks": {
+        "61cdae29-0e27-4c99-ae13-1a4b6e4f0ed0": {
+          "type": "rx_brand_info",
+          "settings": {
+            "rx_brand_image": "shopify:\/\/shop_images\/drRuthLogo.png",
+            "rx_brand_description": "<p>\"I am not just a holistic veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p>",
+            "rx_store_email": "customercare@drruthroberts.com",
+            "rx_store_phone": "+1 213 394 2923",
+            "rx_brand_info_show_social": true
+          }
+        },
+        "a91f38b1-9990-48cb-b0d6-cb69bbb033ee": {
+          "type": "link_list",
+          "settings": {
+            "heading": "QUICK LINKS",
+            "menu": "footer-menu-revamp-support"
+          }
+        },
+        "14974bdb-6efe-46d6-83a3-40209dd31089": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SUPPORT",
+            "menu": "footer"
+          }
+        },
+        "f5e5a2ad-a38c-4121-83a4-2455eef7335f": {
+          "type": "link_list",
+          "settings": {
+            "heading": "DISCLAIMER",
+            "menu": "diclaimer-1"
+          }
+        }
+      },
+      "block_order": [
+        "61cdae29-0e27-4c99-ae13-1a4b6e4f0ed0",
+        "a91f38b1-9990-48cb-b0d6-cb69bbb033ee",
+        "14974bdb-6efe-46d6-83a3-40209dd31089",
+        "f5e5a2ad-a38c-4121-83a4-2455eef7335f"
+      ],
+      "custom_css": [
+        ".rx-email-field input {text-transform: capitalize !important;}",
+        "li {text-align: left;}",
+        "p {text-align: left;}"
+      ],
+      "settings": {
+        "footer-bg-color": "#f5f8f1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Sign up for more holistic pet care tips",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "fb_url": "https:\/\/www.facebook.com\/crockpetdiet",
+        "ig_url": "https:\/\/instagram.com\/dr.ruthroberts?igshid=MzRlODBiNWFlZA==",
+        "linkedin_url": "https:\/\/www.linkedin.com\/in\/dr-ruth-roberts-72473970",
+        "margin_top": 0,
+        "padding_top": 100,
+        "padding_bottom": 36
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_width": 200,
+            "alignment": "center"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "heading": "ABOUT DR. RUTH",
+            "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p>"
+          }
+        },
+        "c79de260-1d0a-478c-9f24-40bf9c7f5c47": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": ""
+          }
+        },
+        "linklist": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SUPPORT",
+            "menu": "footer"
+          }
+        },
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Disclaimer",
+            "subtext": "<p>These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent disease.<\/p><p>“Dr. Ruth Roberts is authorized to sell Standard Process Products, but is not a partner, franchisor, joint venturer, agent, or employee of Standard Process Inc.”<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text-1",
+        "c79de260-1d0a-478c-9f24-40bf9c7f5c47",
+        "linklist",
+        "text-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "39a610ad-ed18-4916-9406-868dcf02a3d5",
+    "footer"
+  ]
+}

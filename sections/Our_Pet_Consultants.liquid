@@ -1,0 +1,95 @@
+<div class="amr_pet_consultants"  id="our_consultants">
+  <div class="amr_container_1170">
+    <div class="amr_pet_consultants_header">
+      {% if section.settings.heading != blank %}<h2>{{ section.settings.heading }}</h2>{% endif %}
+      {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
+    </div>
+    <div class="amr_pet_consultants_list amr_pet_consultants_list_desktp">
+      {% for block in section.blocks %}
+        <div class="amr_pet_consultants_item amr_pet_consultants_item_{{ forloop.index }}" style="{% if block.settings.bg_color != blank %}background-color:{{ block.settings.bg_color }};{% endif %} background-image:url('{{ block.settings.bg_img | img_url:'master' }}');">
+          <div class="pc-img" style="background-image:url('{{ block.settings.bg_img | img_url:'master' }}');"></div>
+          <div class="amr_pet_consultants_item_upper">
+            {% if block.settings.title != blank %}<h3>{{ block.settings.title }}</h3>{% endif %}
+            {% if block.settings.detail != blank %}<div>{{ block.settings.detail }}</div>{% endif %}
+          </div>
+          {% if block.settings.btn_txt != blank %}<a href="{{ block.settings.btn_url }}">{{ block.settings.btn_txt }}</a>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+    
+    <div class="amr_pet_consultants_list amr_pet_consultants_list_mobile">
+      {% for block in section.blocks %}
+        <div class="amr_pet_consultants_item amr_pet_consultants_item_{{ forloop.index }}" style="{% if block.settings.bg_color != blank %}background-color:{{ block.settings.bg_color }};{% endif %} background-image:url('{{ block.settings.bg_img | img_url:'master' }}');">
+          <div class="amr_pet_consultants_item_upper">
+            <div class="pc-img" style="background-image:url('{{ block.settings.bg_img | img_url:'master' }}');"></div>
+            {% if block.settings.title != blank %}<h3>{{ block.settings.title }}</h3>{% endif %}
+            {% if block.settings.detail != blank %}<div>{{ block.settings.detail }}</div>{% endif %}
+          </div>
+          {% if block.settings.btn_txt != blank %}<a href="{{ block.settings.btn_url }}">{{ block.settings.btn_txt }}</a>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+</div>
+{% schema %}
+{
+  "name": "Our Pet Consultants",
+  "max_blocks":50,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label":"Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label":"Description"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "consultants",
+      "name": "Consultants",
+      "settings": [
+        {
+          "type":"color",
+          "id":"bg_color",
+          "label":"Background Color"
+        },
+        {
+          "type": "image_picker",
+          "id": "bg_img",
+          "label":"Background Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail",
+          "label":"Detail"
+        },
+        {
+          "type": "text",
+          "id": "btn_txt",
+          "label":"Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Our Pet Consultants"
+      }
+    ]
+}
+{% endschema %}

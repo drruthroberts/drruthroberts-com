@@ -1,0 +1,113 @@
+<div class="rewordmax_container redemwidth">
+    <div class="reddempoint">
+            <h2 class="redempointhead">{{section.settings.pohead}}</h2>
+            <p class="redempointhead">{{section.settings.poides}}</p>
+            <p class="redempointhead">{{section.settings.poisubdes}}</p>
+    </div>
+    <div class=" redemcontent">
+        {%- for block in section.blocks -%}
+                <div class="redemspace">
+                    <h2 class="redemcon">{{block.settings.redeid}}</h2>
+                    <h3 class="redemdes">{{block.settings.redemdesc}}</h3>
+                </div> 
+        {%- endfor -%}
+    </div>
+    <div class="redersubcontent">
+        <h2 class="redersubtitl">{{section.settings.rsubtitlte}}</h2>
+        <p class="redemsubdes">{{section.settings.rsubdes}}</p>
+        <h2 class="redertitlle">{{section.settings.rttitl11}}</h2>
+        <h2 class="redertitlle11">{{section.settings.rtitle12}}</h2>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "rewardreddem-point",
+  "tag": "section",
+  "class": "rewardreddem-point",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pohead",
+      "label": "Heading"
+    },
+       {
+      "type": "text",
+      "id": "poides",
+      "label": "Description"
+    }, 
+    {
+      "type": "text",
+      "id": "poisubdes",
+      "label": "Sub Heading"
+    }
+    , 
+      {
+      "type": "text",
+      "id": "rsubtitlte",
+      "label": "  Title"
+    },
+     {
+      "type": "text",
+      "id": "rsubdes",
+      "label": "Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "rttitl11",
+      "label": "Sub-Title1"
+    },
+    {
+      "type": "text",
+      "id": "rtitle12",
+      "label": "Sub-Title2"
+    }
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "limit":4,
+    "settings": [
+      
+       {
+    "type": "text",
+    "id": "redeid",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "redemdesc",
+    "label": "Sub Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "rewardreddem-point"
+    }
+  ]
+}
+{% endschema %}
+<style>
+h2.redertitlle {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+    margin-bottom:0;
+    margin-top: 3%;
+}
+h2.redertitlle11 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+        margin-top: 0;
+}
+</style>

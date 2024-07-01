@@ -1,0 +1,1073 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "88dc8e05-4d1f-46d6-914e-3350b2d40130": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "template--14969681084481__88dc8e05-4d1f-46d6-914e-3350b2d40130-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Will Do Anything For Their Wellness From Nose To Tail.",
+            "font_family": "font_blt"
+          }
+        },
+        "template--14969681084481__88dc8e05-4d1f-46d6-914e-3350b2d40130-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schedule your personalized online session with our certified Holistic Pet Health Coach now. We'll help you make a real difference in your pet's life. <\/p>"
+          }
+        },
+        "template--14969681084481__88dc8e05-4d1f-46d6-914e-3350b2d40130-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "EXPLORE COACHES",
+            "button_link": "#shopify-section-template--14969681084481__a72bf7b9-a058-49bf-b799-6bccc3a7ddb7"
+          }
+        }
+      },
+      "block_order": [
+        "template--14969681084481__88dc8e05-4d1f-46d6-914e-3350b2d40130-heading-1",
+        "template--14969681084481__88dc8e05-4d1f-46d6-914e-3350b2d40130-text-1",
+        "template--14969681084481__88dc8e05-4d1f-46d6-914e-3350b2d40130-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Consultations.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_title_alignment": "center",
+        "desktop_content_alignment": "center",
+        "desktop_button_alignment": "center",
+        "content_layout": "overlap",
+        "grid_type": "type2",
+        "imgText-bg-color": "#ffffff",
+        "show_arrow_mobile": "no",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76": {
+      "type": "rx-image-banner-v2",
+      "blocks": {
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Us?"
+          }
+        },
+        "d6fa0458-c3a0-4bbf-a363-3c9a6c9034f6": {
+          "type": "text",
+          "settings": {
+            "text": "Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and esperience a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. "
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1",
+        "d6fa0458-c3a0-4bbf-a363-3c9a6c9034f6"
+      ],
+      "custom_css": [
+        ".banner__media.media {padding: 0;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".banner__media.media {padding: 0; opacity: 0.8;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".rx_read_more_btn_green {border-color: #fff; color: #fff;}",
+        ".rx_banner__heading {font-size: 4em; max-width: 750px; line-height: 54px; color: #184b44; font-family: \"oakley script\";}",
+        ".rx_banner__text {color: black;}",
+        ".content-container {opacity: 0.7;}"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/pexels-blue-bird-7210501_6f6b13c2-ea0b-4124-b785-5b1860d25ca3.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "container_bg": "#f5f8f1",
+        "desktop_content_alignment": "center",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "40ccc761-5f8c-45d8-bc43-9a94c4dffcd7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We Will Do Anything For Their Wellness From Nose To Tail.",
+            "heading_size": "h0"
+          }
+        },
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-heading-1",
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-text-1",
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 0;}",
+        ".image-with-text {background-color: #2d4b49; margin: 0; max-width: 100%;}",
+        ".grid__item > div {background: #fff0; justify-content: center;}",
+        ".image-with-text__media-item img {object-fit: contain;}",
+        ".image-with-text__heading {font-family: \"BLT-Heirloom\"; color: #fff; text-align: left; font-size: 60px; line-height: 60px;}",
+        ".image-with-text__grid {max-width: 1300px; margin: auto;}",
+        ".image-with-text__text p {color: #fff; font-size: 18px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Group_832-min.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_2_0b6efdba-4141-4ad8-8d40-6456beb00467.png",
+            "title": "1. Expertise",
+            "text": "<p>Our pet consultants have undergone rigorous training in holistic pet care by Dr. Ruth Roberts, equipping them with in-depth knowledge and practical skills to address a wide range of health concerns for dogs and cats.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_3_79467cfa-61cf-47ff-9378-ad6cc996b933.png",
+            "title": "2. Holistic Approach",
+            "text": "<p>We believe in treating pets as whole beings, considering their physical, emotional, and nutritional needs. Our coaches specialize in holistic approaches that emphasize natural remedies and balanced lifestyles.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_4_b8ab86f7-f535-40b0-9509-c54d8672a704.png",
+            "title": "3. Personalized Care",
+            "text": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a586b105-e86e-4cc2-a807-cae11ef2f45b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_5_698150cc-d6df-49ed-b5bc-b36b4fafc844.png",
+            "title": "4. Comprehensive Services",
+            "text": "<p>Our pet consultants can assist you with various aspects of pet health, including nutrition advice, behavior modification, exercise plans, and preventive care strategies. Whatever your pet's needs may be, we're here to help.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a01b409b-4d42-4ee3-beb9-b7ca182daec9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_6_4f8013b2-c8b2-4249-b6fb-911b69d4b938.png",
+            "title": "5. Practical Recommendations",
+            "text": "<p>You'll receive clear and actionable recommendations to address your pet's health concerns, enhance their behavior, or improve their overall quality of life.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-1",
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-2",
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3",
+        "a586b105-e86e-4cc2-a807-cae11ef2f45b",
+        "a01b409b-4d42-4ee3-beb9-b7ca182daec9"
+      ],
+      "custom_css": [
+        ".multicolumn-list {justify-content: center;}",
+        ".multicolumn-list h3,p {font-family: \"BLT-Heirloom\";}",
+        ".multicolumn-list h3 {text-transform: uppercase;}",
+        ".multicolumn .button {background: transparent; border: 2px solid #184b44; border-radius: 25px; color: #184b44; text-transform: uppercase; font-family: \"Josefin Sans\"; font-size: 14px; padding: 15px 20px 12px; margin-top: 2.5rem;}",
+        ".multicolumn .media {padding-bottom: 0 !important;}",
+        ".multicolumn .media img {transform: none !important; position: unset !important; height: 86px !important; margin: 0 auto;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Check Our Consultants",
+        "button_link": "#shopify-section-template--14969681084481__a72bf7b9-a058-49bf-b799-6bccc3a7ddb7",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
+    "872df224-c2bf-4a52-9d67-ad2d05e43f28": {
+      "type": "multicolumn",
+      "blocks": {
+        "edf487dd-37df-420a-96e3-c65a9c0b9d6a": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<ol><li><strong>Select a Pet Consultant<\/strong><br\/>Browse through our team of dedicated petconsultants and select the one who best fits your needs. Each consultant brings a unique skill set, experience, and specialization in holistic pet care. Take into account their expertise and areas of focus to find the perfect match for your pet's specific requirements.<\/li><li><strong>Book Our Pet Consultant<\/strong><br\/>Once you've chosen your preferred consultant, it's time to book a consultation. Utilize our convenient booking system or contact our team directly to schedule an appointment with your selected consultant. This step ensures that you have dedicated time to discuss your pet's situation and work collaboratively towards their well-being.<\/li><li><strong>Assess Your Pet's Situation<\/strong><br\/>During the consultation, your chosen pet consultant will conduct a thorough assessment of your dog’s or cat’s situation. They will actively listen to your concerns, ask relevant questions, and gather information about your pet's health, behavior, and lifestyle. This comprehensive evaluation forms the basis for creating a personalized care plan.<\/li><li><strong>Receive a Personalized Care Plan<\/strong><br\/>Based on the assessment, your consultant will develop a personalized care plan tailored to your pet's specific needs. The care plan will encompass recommendations and interventions designed to address your dog’s or cat’s health concerns and enhance their overall well-being.<\/li><li><strong>Implement the Care Plan<\/strong><br\/>With the personalized care plan in hand, it's time to put it into action. Your consultant will guide you through the implementation process, providing clear instructions and practical guidance. They will help you make necessary adjustments to your pet's diet, exercise routine, and other aspects of their care. This collaborative effort ensures a seamless integration of the care plan into your pet's daily life.<\/li><li><strong>Get Ongoing Support<\/strong><br\/>We understand that ongoing support is crucial for the success of your pet's well-being. Your consultant will be available to provide continuous support and guidance. They will address any questions, concerns, or challenges you may have along the way. Regular check-ins and follow-up consultations will allow for monitoring progress, making adjustments to the pet care plan, and providing ongoing support.<\/li><\/ol>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "edf487dd-37df-420a-96e3-c65a9c0b9d6a"
+      ],
+      "custom_css": [
+        ".abc.multicolumn.color-background-1.gradient.background-primary {background: #f6f8f1;}",
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"Oakley Script\"; color: #2d4b49; font-weight: 300; font-size: 64px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}"
+      ],
+      "settings": {
+        "custom_class": "list-numbers",
+        "title": "Our Collaboration Approach ",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 52
+      }
+    },
+    "a72bf7b9-a058-49bf-b799-6bccc3a7ddb7": {
+      "type": "Our_Pet_Consultants",
+      "blocks": {
+        "f19fa966-9d30-44e4-98e1-fa9c62889672": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/4_1d1301d1-ca7a-4671-b739-f368326b5c23.png",
+            "title": "Jessica Fisher",
+            "detail": "<p><strong>Canine Nutritionist, CHPHC, R+ Dog Trainer<\/strong><\/p><p>After earning a BS from ODU and becoming a positive reinforcement dog trainer, she embraced the power of food therapy and integrated nutrition into her training program. She's now certified as a Holistic Pet Health Coach and a Professional Canine Nutritionist, while also hosting a podcast.<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/jessica-fisher"
+          }
+        },
+        "b9981614-69c3-4713-a81c-17e5e2fb1d3c": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/3_c6374565-c132-4c8a-9083-6a4796a45437.png",
+            "title": "Dlorah deVore",
+            "detail": "<p><strong>FNTP, CHPHC<\/strong><\/p><p>Dlorah deVore transitioned from human health coaching to become one of the first graduates of Dr. Roberts' Certified Holistic Pet Health Coach program. Now, as a course mentor and pet health coach practitioner, she's dedicated to advancing her knowledge in pet health while building on her background in human health coaching.<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "shopify:\/\/products\/bookaconsultdlorahdevore"
+          }
+        },
+        "6ad00ef3-388d-44dc-abe1-ea95410b2dfd": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/7_699cf92d-a05f-460f-b24e-606a291b04e1.png",
+            "title": "Michael Daly",
+            "detail": "<p><strong>CCMT, CESMP, CHPHC<\/strong><\/p><p>Michael Daly is a seasoned Veterinary Assistant with over two decades of experience, including five years at the renowned Sun Dog Cat Moon clinic under Dr. Ruth Roberts. As a graduate of the pioneering Holistic Pet Health Coach Certification course and armed with expertise in Eastern, Western, and Functional medicine, Michael possesses a diverse skill set for pet treatments. <\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "shopify:\/\/products\/michael-daly"
+          }
+        },
+        "c6c0fe23-a73a-4a2d-979a-f6fca90df1f6": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/20_ae8214e6-f236-496a-91d1-890add26ceaf.png",
+            "title": "Leah Bookhamer",
+            "detail": "<p><strong>NTP, MRWP, CHPHC<\/strong><\/p><p>a Clinical Nutritionist and Certified Pet Health Coach, with a focus on promoting longevity and guiding people to live their healthiest lives alongside their pets. My passion lies in helping individuals and their pets make informed, natural, and healthy choices to avoid the heartache, confusion, and frustration that I once faced.<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/leah-bookhamer"
+          }
+        },
+        "a0675608-47c8-45c6-9152-614b3b86964f": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/21.png",
+            "title": "Maggie Shellhammer",
+            "detail": "<p><strong>Certified Dog Groomer, Certified Dog Trainer, CHPHC<\/strong><\/p><p>Certified as a dog trainer at National K9 in Columbus, Ohio. With subsequent roles in  pet services, grooming and veterinary care, Maggie expanded her expertise. Over the past 15 years, she has become a certified groomer and established her own grooming shop in northeast Ohio in 2012.<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/maggie-shellhammer"
+          }
+        },
+        "0d977f26-6907-4961-a6fb-f1564c7b6048": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/24.png",
+            "title": "Wilma Shaw",
+            "detail": "<p><strong>FNTP, BCHN, CHPHC<\/strong><\/p><p>After a fulfilling career as a Systems Engineer, Wilma found her true calling in helping people and their pets achieve optimal health. She launched Embrace Nutrition in 2016, guiding individuals toward improved well-being through personalized and group sessions.<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/wilma-shaw"
+          }
+        },
+        "0dce4194-92b4-410c-8da5-46d90aa82d30": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/9_ccb7701c-2cb2-44fa-b042-17de53b59a6d.png",
+            "title": "Lori Gammon",
+            "detail": "<p><strong>RN, CCMT, CAAP, CHPHC<\/strong><\/p><p>With a nursing background, Lori transitioned from the healthcare system to follow her passion for dogs, founding her Pet Health Business, The Peaceful Paw, offering all-natural and organic products and promoting holistic alternatives for pet parents.<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/lori-gammon"
+          }
+        },
+        "cccff466-28bf-4cf3-9d2d-389355829f3a": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/19_e28f9e3d-24d6-44de-b462-da34e285f0ef.png",
+            "title": "Kristy Green",
+            "detail": "<p><strong>Certified Dog Trainer, CHPHC<\/strong><\/p><p>a Certified Dog Trainer and HPHC, boasts a diverse background in animal care, training, and breeding, offering a well-rounded perspective on pet health and behavior. <\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/kristy-green"
+          }
+        },
+        "2461caae-9520-48d4-9ef4-2690dd29defa": {
+          "type": "consultants",
+          "disabled": true,
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/6_f799242e-25c6-4072-b8aa-8762df4cf156.png",
+            "title": "Paris Reed",
+            "detail": "<p><strong>FDN-P, CHPHC, FBCS, HHP<\/strong><\/p><p>With certifications including FDN-P, CHPHC, FBCS, and HHP, enrolling in Dr. Ruth's Certification Course has further enriched my understanding of holistic remedies, and I'm eager to share this knowledge with you.<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/paris-reed"
+          }
+        },
+        "7cc2fec6-d703-42a8-a762-e0099a922482": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/17.png",
+            "title": "Bea Swasey",
+            "detail": "<p><strong>MBA, NTP, RWS II, CHPHC<\/strong><\/p><p><em>A Nutritional Therapy Practitioner and a Holistic Pet Health Coach with a passion for caring for dogs. Believing in the transformative power of gut healing and a whole foods diet, she provides actionable steps to guide her clients towards better health and wellness – by honoring each dog’s unique needs. Bea specializes in working with small breed dogs.<\/em><\/p><p><\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/bea-swasey"
+          }
+        },
+        "0a8b9450-2a0d-47d3-a7b3-d15e6fb19b9d": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/10_901c5b10-dd68-494f-8067-4a9be860a371.png",
+            "title": "Amanda Delgado",
+            "detail": "<p><strong>CHPHC, NNCP, FDN-P<\/strong><\/p><p>A holistic nutritionist who uses functional labs to help educate people on what is going on in their bodies and the benefits of living a healthy, clean, and stress-free life. With a passion for helping others, she has made significant contributions to spreading the importance of how food plays a big part in our health and continues to inspire others through her work.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/amanda-delgado"
+          }
+        },
+        "b96f1129-785a-40f5-a606-0db226134a1d": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/18.png",
+            "title": "Laura Muzal",
+            "detail": "<p><strong>Intuitive Animal Practitioner, CHPHC<\/strong><\/p><p>As an Intuitive Animal Practitioner and certified Holistic Pet Health Coach with a biology background, I'm dedicated to enhancing the well-being of your beloved pets. I employ holistic methods encompassing nutrition, lifestyle adjustments, alternative therapies, and energy work to care for your pets comprehensively, nurturing their mind, body, and spirit. <\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/laura-muzal"
+          }
+        },
+        "d903e999-b054-45e6-80e2-b14285c3b142": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Deb_teubert.jpg",
+            "title": "Deb Teubert",
+            "detail": "<p><strong>Holistic & Animal Practitioner, CHPHC<\/strong><\/p><p>Deb Teubert, AHHP, is a seasoned holistic healthcare practitioner with a nationwide clientele. Rooted in Traditional Chinese Medicine, she honed her skills in acupressure at the Tallgrass Animal Institute in Colorado. Deb also holds a rare certificate in Animal PsychAromatica from the Mayana Morag School of Essential Balance, with only three such certifications in the United States.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/deb-teubert"
+          }
+        },
+        "8c135360-aaf4-4822-8380-001ab86501b0": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/5_5cb7016c-a663-463c-9858-59f2c8bd142e.png",
+            "title": "Patty Kalvelage",
+            "detail": "<p><strong>Pet Store Owner, CHPHC<\/strong><\/p><p>Patty's passion for German Short Haired Pointers drives her quest to explore holistic pet care. Her background in graphic design and UX fuels her research into bridging the gap between the veterinary community and pet parents' needs. With a mission fueled by personal experience, Patty's store is growing, enriching her community's pets' lives.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/patty-kalvelage"
+          }
+        },
+        "39738d21-58f4-4eae-b441-23f13cdcdf6f": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/8_7ec9a741-5d28-4b3d-a47f-404d802636fa.png",
+            "title": "Rina Gressett",
+            "detail": "<p><strong>Pet sitter, CHPHC<\/strong><\/p><p>I'm Rina Gressett, a passionate Petsitter in San Diego, CA, and a devoted Dog Mom to two senior Poodle mixes, Coco and Muffin. With a lifelong love for pets and a focus on senior dogs, I've fostered many and volunteer with local rescue groups to help shelter dogs find loving homes through social media networking.<\/p>",
+            "btn_txt": "BOOK A CONSULT",
+            "btn_url": "shopify:\/\/products\/rina-gressett"
+          }
+        },
+        "c7f0d6e0-fa31-40ef-82b9-9174e6e5bed2": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/MellissaZOllars.png",
+            "title": "Melissa Zollars",
+            "detail": "<p><strong>CPCN, CHPHC, Certified Pet Saver <\/strong><\/p><p>Now, as a holistic pet health coach, my mission is clear: to empower you with the knowledge and tools necessary for making informed decisions for your pets. With a wealth of expertise, I offer comprehensive services, ensuring your pets lead healthy lives through a holistic approach. <\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/melissa-zollars"
+          }
+        },
+        "784f00a7-570e-4cca-a74b-b5f7062b5eba": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/DanaBrigman.jpg",
+            "title": "Dana Brigman",
+            "detail": "<p><strong>CHPHC, Cert. CN<\/strong><\/p><p>I'm Dana Brigman for the last 11 years I have been training dogs with an emphasis on complex behavioral issues. I am certified in animal aromatherapy, reiki, nutrition, and homeopathy, and I describe myself as a learning junkie regarding natural wellness.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/dana-brigman"
+          }
+        },
+        "de89c6fc-d122-4548-9050-3ab528d11a4c": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/melissa.jpg",
+            "title": "Melissa Sherman",
+            "detail": "<p><strong>Animal communicator, Reiki Master, Certified Canine Herbalist, CPN, HPHC<\/strong><\/p><p>I'm Melissa, and my heartfelt commitment lies in helping individuals build profound connections with their furry companions. I'm committed to helping pets and empowering pet parents to take control of their pets' health.<\/p><p> <\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/melissa-sherman"
+          }
+        },
+        "3211157e-c6f6-40e0-a1c7-abc974807288": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/ashleykeeshen.jpg",
+            "title": "Ashley Keeshen",
+            "detail": "<p>Health Sciences and Business Management graduate turned passionate rescue advocate. Furbaby parent, fostering over 100 dogs, and founder of Bark N' Bunk. Committed to holistic pet wellness and promoting the magic of adoption. <\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/ashley-keeshen"
+          }
+        },
+        "e1efd98b-f1ed-41a3-9912-5b60a6c462bd": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/HPHC_headshots.png",
+            "title": "Elena Grafton",
+            "detail": "<p><strong>B.A., M.A., Ed.S., HPHC<\/strong><\/p><p>Elena, a lifelong animal lover and experienced educator, adopted a rescue dog named Charlotte, inspiring her to explore alternative pet healthcare. She's now eager to help you create a customized wellness plan for your furry friend.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "shopify:\/\/products\/elena-grafton"
+          }
+        },
+        "31cbbafb-55be-443b-978c-a8de6b6c48d7": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/LisaMayer_2.jpg",
+            "title": "Lisa Mayer",
+            "detail": "<p><strong>CHPHC<\/strong><\/p><p>I'm the founder of KK's Paws for Wellness and Health, a Certified Holistic Pet Health Coach with seven years of experience. My goal is to simplify fresh feeding and supplements, helping you address your pets' challenges and promote their health and wellness.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/lisa-mayer"
+          }
+        },
+        "67aa50ed-6771-4be3-b89a-64671d36051e": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/KarinDruckenmiller.jpg",
+            "title": "Karin Druckenmiller",
+            "detail": "<p><em><strong>CHPHC, AAS IN BIOTECHNOLOGY<\/strong><\/em><\/p><p>I'm a Certified Holistic Pet Health Coach with a background in biotechnology and experience in EPA water reporting and quality assurance. I've been rescuing pets since 1995 and am dedicated to assisting and educating pet parents.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/karin-druckenmiller"
+          }
+        },
+        "consultants_tpXa4W": {
+          "type": "consultants",
+          "settings": {
+            "bg_color": "",
+            "bg_img": "shopify:\/\/shop_images\/Tania.jpg",
+            "title": "Tania Bachesais",
+            "detail": "<p><strong>HPHC, PMP<\/strong><\/p><p>With over 25 years in IT and a background in mathematics, I'm dedicated to sharing holistic options for your pet's well-being, driven by my experience with my own beloved Border Collie who battled Hemangiosarcoma. I'm here to assist you in making informed holistic choices for your pets' long and healthy lives.<\/p>",
+            "btn_txt": "BOOK A CONSULTATION",
+            "btn_url": "https:\/\/drruthroberts.com\/products\/tania-bachesais"
+          }
+        }
+      },
+      "block_order": [
+        "f19fa966-9d30-44e4-98e1-fa9c62889672",
+        "b9981614-69c3-4713-a81c-17e5e2fb1d3c",
+        "6ad00ef3-388d-44dc-abe1-ea95410b2dfd",
+        "c6c0fe23-a73a-4a2d-979a-f6fca90df1f6",
+        "a0675608-47c8-45c6-9152-614b3b86964f",
+        "0d977f26-6907-4961-a6fb-f1564c7b6048",
+        "0dce4194-92b4-410c-8da5-46d90aa82d30",
+        "cccff466-28bf-4cf3-9d2d-389355829f3a",
+        "2461caae-9520-48d4-9ef4-2690dd29defa",
+        "7cc2fec6-d703-42a8-a762-e0099a922482",
+        "0a8b9450-2a0d-47d3-a7b3-d15e6fb19b9d",
+        "b96f1129-785a-40f5-a606-0db226134a1d",
+        "d903e999-b054-45e6-80e2-b14285c3b142",
+        "8c135360-aaf4-4822-8380-001ab86501b0",
+        "39738d21-58f4-4eae-b441-23f13cdcdf6f",
+        "c7f0d6e0-fa31-40ef-82b9-9174e6e5bed2",
+        "784f00a7-570e-4cca-a74b-b5f7062b5eba",
+        "de89c6fc-d122-4548-9050-3ab528d11a4c",
+        "3211157e-c6f6-40e0-a1c7-abc974807288",
+        "e1efd98b-f1ed-41a3-9912-5b60a6c462bd",
+        "31cbbafb-55be-443b-978c-a8de6b6c48d7",
+        "67aa50ed-6771-4be3-b89a-64671d36051e",
+        "consultants_tpXa4W"
+      ],
+      "custom_css": [
+        ".amr_pet_consultants_item_1 {grid-row-start: unset !important; grid-column-end: unset !important;}",
+        ".amr_pet_consultants_item_6 {grid-row-start: unset !important; grid-column-end: unset !important;}",
+        ".amr_pet_consultants_item_11 {grid-row-start: unset !important; grid-column-end: unset !important;}"
+      ],
+      "settings": {
+        "heading": "",
+        "desc": ""
+      }
+    },
+    "b165d27c-cf73-4142-863a-ca8961ce2bf7": {
+      "type": "multicolumn",
+      "blocks": {
+        "8bbda40f-a648-4ccd-992c-ea2b00742e1b": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Explore personalized well-being solutions for your pet with our  professional, certified Holistic Pet Health Coach, who brings diverse expertise in pet health and wellness.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8bbda40f-a648-4ccd-992c-ea2b00742e1b"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"Oakley Script\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px;}",
+        ".multicolumn-card__info {font-family: Josefin Sans;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Our Pet Consultants",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "ef80614e-ead4-4437-b084-e1bc8ddff2d4": {
+      "type": "multicolumn",
+      "blocks": {
+        "ecd00adf-9645-4a9e-9b34-afa80daf4ab8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hear the Feedback from Our Valued Clients on Our Consultations.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ecd00adf-9645-4a9e-9b34-afa80daf4ab8"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Our Client’s Testimonials ",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "3d80628c-ea6f-48fc-8760-085a2af33b6e": {
+      "type": "multicolumn",
+      "blocks": {
+        "bfe304ff-7cf7-4d4b-ad41-f2e8ba00cf9c": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Hear the Feedback from Our Valued Clients on Our Consultations.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "bfe304ff-7cf7-4d4b-ad41-f2e8ba00cf9c"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "c310de0e-f268-4dff-8278-ea581c28a408": {
+      "type": "multicolumn",
+      "blocks": {
+        "18ea8e42-e20a-426d-87db-407cbf6d1ff5": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "link_label": "",
+            "link": "https:\/\/www.holisticpethealthcoach.com\/hphcp_optin_sws-page-5804"
+          }
+        }
+      },
+      "block_order": [
+        "18ea8e42-e20a-426d-87db-407cbf6d1ff5"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px; text-align: center; max-width: 800px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn > div {max-width: 1200px;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__grid.grid {background: #e0ecbe; padding: 35px; border-radius: 50px;}",
+        ".image-with-text__grid.grid div {background-color: #fff0;}",
+        ".image-with-text__heading {text-align: left;}",
+        ".image-with-text__media-item {width: 25% !important;}",
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 2%;}",
+        ".image-with-text__media.media {max-width: 250px; margin: auto;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        "h2.image-with-text__heading.h1 {font-size: 54px; line-height: 50px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/image_4_ba456788-5c27-4b4d-b5d1-19eacd0079a5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "79c998c5-068f-4b26-8de9-0d335a608ace": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14969681084481__79c998c5-068f-4b26-8de9-0d335a608ace-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "view all pet coaches",
+            "button_link": "https:\/\/drruthroberts.com\/collections\/coaches",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14969681084481__79c998c5-068f-4b26-8de9-0d335a608ace-button-1"
+      ],
+      "custom_css": [
+        "a.button.button--secondary {border: 2px solid #184b44; color: #184b44; border-radius: 50px; text-transform: uppercase; font-family: \"Josefin Sans\"; gap: 15px;}",
+        ".isolate .rich-text__buttons {margin: 0 !important; text-align: center !important; width: 100% !important; max-width: 100%;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "7c824f73-1291-494a-89ba-8520efb97ca2": {
+      "type": "consultation-testimonials",
+      "blocks": {
+        "cfe3813e-837c-42a1-949a-b51a4e622117": {
+          "type": "title",
+          "settings": {
+            "title": "Laura Muzal",
+            "title-desig": "Intuitive Animal Practitioner, HPHC",
+            "testimonial": "<p>“Laura has made such a huge difference in my dog’s life. I have eternal gratitude for her. My dog Brynn has a platelet condition that was causing her some issues, so I called Laura and she did Quantum Healing with her. A few days later we go her blood tested and her platelet production was through the roof! It has since stayed that way and her tests have continued to be normal! We are so grateful for her and definitely recommend her.” <br\/><\/p>",
+            "reviewer_name": "Rhiannon Cote",
+            "rating": "5"
+          }
+        },
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-4": {
+          "type": "title",
+          "settings": {
+            "title": "Dlorah Devore",
+            "title-desig": "FNTP, HPHC",
+            "testimonial": "<p>I really enjoyed connecting with the Dlorah. It was great to connect with someone who has a similar educational background and experiences. It was also very inspiring to hear how the program allowed her to help dogs improve their health and get better through food and movement. It was also reassuring to learn the is the ongoing support from Dr. Roberts and the rest of the team. Well, after the course is over, I am super excited to dive in and learn all I can to help dogs thrive and live their best life. Thanks.<\/p>",
+            "reviewer_name": "Amanda Delgado",
+            "rating": "5"
+          }
+        },
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-2": {
+          "type": "title",
+          "settings": {
+            "title": "Lori Megginson",
+            "title-desig": "RN, CCMT, CAAP, HPHC",
+            "testimonial": "<p>Blue, a 4-year-old Dalmatian, faced urinary issues with crystals and stones. Under a Holistic Pet Health Coach's guidance, a dietary shift to the CP Diet and the introduction of holistic remedies led to remarkable results. Stones vanished, urine cleared up, and Blue's weight is now ideal. Blue's owner, appreciates the transformative journey and holistic approach that made it possible.<\/p>",
+            "reviewer_name": "Consultant' Patient",
+            "rating": "5"
+          }
+        },
+        "6f029f60-3adc-46c6-bf4c-05338206bd52": {
+          "type": "title",
+          "settings": {
+            "title": "Wilma Shaw",
+            "title-desig": "FNTP, BCHN, HPHC",
+            "testimonial": "<p>I was shocked to really understand what was in the prescription pet food I was feeding Toby.  It was recommended after all by his vet.  He is so much more full of life than he has been in a couple years.  We are both doing so much better because while Wilma was helping me help him...I got a lot of help as well.  Thank you!<\/p>",
+            "reviewer_name": "Cindy & Toby",
+            "rating": "5"
+          }
+        },
+        "709c9d8b-78c9-4547-87f1-7530b25c8ad3": {
+          "type": "title",
+          "settings": {
+            "title": "Laura Muzal",
+            "title-desig": "Intuitive Animal Practitioner, HPHC",
+            "testimonial": "<p>Laura was amazing, very intuitive and knowledgeable.  I have 3 rescue dogs and 3 cats who are also rescues. Within 10 minutes Laura exceeded my expectations.  She was able see what their challenges were and restore balance to all of my animals as well as myself. Everything she said made perfect sense. During the session all of them were calmer than usual and the results are incredible! They are all much more relaxed as well as wanting to walk longer, 2 of them are over 10 years old and back to acting like younger animals while outside running and playing with each other. As for my experience after the session, I've been feeling much calmer yet energetic and centered. Thank you, Laura, for all you do and your perfect love for all animals. Much appreciated. I will be connecting again. I highly recommend Laura! We will book Laura again! <\/p>",
+            "reviewer_name": "Pete Socco",
+            "rating": "5"
+          }
+        },
+        "a24bf2da-026c-4e3f-b4ef-787a6ed66825": {
+          "type": "title",
+          "settings": {
+            "title": "Bea Swasey",
+            "title-desig": "MBA. NTP, RWS II, HPHC",
+            "testimonial": "<p><em>I highly recommend Bea for her holistic pet coaching. She definitely over delivered during our sessions. Even though I had researched a LOT on how to improve my dog's health, Bea was able to highlight certain things I didn't even think of. It was a blessing having this support from her. The report she provided was extremely detailed, showing that Bea had put in a lot of effort into her work since my dog has a lot of health issues. I highly appreciate her help.<\/em><\/p>",
+            "reviewer_name": "Queen S. ",
+            "rating": "5"
+          }
+        },
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Michael Daly",
+            "title-desig": "CANINE\/EQUINE MASSAGE THERAPIST, HPHC",
+            "testimonial": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help.<\/p><p>Missy Springer SouthPaw Aussies<\/p>",
+            "reviewer_name": "Missy Springer, SouthPaw Aussies",
+            "rating": "5"
+          }
+        },
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-3": {
+          "type": "title",
+          "settings": {
+            "title": "Dlorah de Vore",
+            "title-desig": "FNTP, HPHC",
+            "testimonial": "<p>Dlorah was very helpful and I am happy to have her as my mentor. She walked me through the homework, answered my questions, shared her screen to show me how to get to the information that I had not been able to find. The pet consultation was informative and she had good suggestions on additional things to do for my dog. It was interesting to learn that he is a metal type dog, I looked up information on a metal dog and it fits his personality well.<\/p>",
+            "reviewer_name": "Consultant' Patient",
+            "rating": "5"
+          }
+        },
+        "27d51795-b09d-4514-975c-57962fa67783": {
+          "type": "title",
+          "settings": {
+            "title": "Laura Muzal",
+            "title-desig": "Intuitive Animal Practitioner, HPHC",
+            "testimonial": "<p>\"Laura has worked with my 15 year old cat, Sheba, several times and has been so helpful in so many ways. My cat is a Siamese and has some behavioral issues on top of being a rescue. Laura has helped her calm down and get balanced. She had digestive issues that Laura cleared, and she continues to help Sheba so, so much. She is 15 years old, so change and my traveling have been a lot for Sheba. I can't imagine what I would do without Laura.\"<br\/><\/p>",
+            "reviewer_name": "Olga Saburov",
+            "rating": "5"
+          }
+        },
+        "dc1ffabe-8081-4f99-bf0c-ac13f7349d37": {
+          "type": "title",
+          "settings": {
+            "title": "Wilma Shaw",
+            "title-desig": "FNTP, BCHN, HPHC",
+            "testimonial": "<p>We went to many vets and tried many allergy medicines to calm Ginger's itchiness.  We are so grateful to Wilma for helping us get to the root of what was causing the skin sensitivity.  Now we know what to feed and what not to feed.  We are off all allergy meds and Ginger is doing great!  Thank you <\/p>",
+            "reviewer_name": "Susan T, Renton",
+            "rating": "5"
+          }
+        },
+        "d6432beb-6629-4793-a311-9b76bcf69daa": {
+          "type": "title",
+          "settings": {
+            "title": "Wilma Shaw",
+            "title-desig": "FNTP, BCHN, HPHC",
+            "testimonial": "<p><strong>No more flea medicine..\"<\/strong><\/p><p>I had no idea what chemicals were actually in the drops I was putting on fluffy's fur each summer. It was recommended so I trusted it.  I'm so happy that I have other solutions now thanks to Wilma.  It's kind of scary to think I might have continued those treatments for years.<\/p><p> <strong>- Shirley, Atlanta<\/strong><\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        },
+        "67e94b91-4414-4ce1-b82d-d52d57e4967f": {
+          "type": "title",
+          "settings": {
+            "title": "Bea Swasey",
+            "title-desig": "MBA. NTP, RWS II, HPHC",
+            "testimonial": "<p><em>I've had a Holistic Pet Health Coach consultation about my Shih Tzu's chronic skin condition.<\/em><\/p><p><em>Bea was so friendly and informative and gave me a detailed account of the pros and cons of the current food, shampoo and medications I've been using.<\/em><\/p><p><em>I've come away with a variety of natural food recipes and vitamins specific to my dog's health issues that will allow me to stop using the harmful medications that the Vet had prescribed.<\/em><\/p><p><em>I'm so thankful to Bea and highly recommend her Holistic Pet health coaching sessions.<\/em><\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        },
+        "3e0b0aa2-7f42-4770-b9fe-ce851d41dc6b": {
+          "type": "title",
+          "settings": {
+            "title": "Bea Swasey",
+            "title-desig": "MBA. NTP, RWS II, HPHC",
+            "testimonial": "<p><em>I am thrilled to recommend Bea for her outstanding expertise in dog nutrition and health advice. She has deep knowledge in this field. She has given me a comprehensive outline on what my dog needs for his unique body type and personality. With her guidance, I have gained valuable insights into providing optimal nutrition for my dog’s well-being. I am so grateful and highly recommend Bea!<\/em><\/p><p><\/p>",
+            "reviewer_name": "Meg B.",
+            "rating": "5"
+          }
+        }
+      },
+      "block_order": [
+        "cfe3813e-837c-42a1-949a-b51a4e622117",
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-4",
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-2",
+        "6f029f60-3adc-46c6-bf4c-05338206bd52",
+        "709c9d8b-78c9-4547-87f1-7530b25c8ad3",
+        "a24bf2da-026c-4e3f-b4ef-787a6ed66825",
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-1",
+        "template--14969681084481__7c824f73-1291-494a-89ba-8520efb97ca2-title-3",
+        "27d51795-b09d-4514-975c-57962fa67783",
+        "dc1ffabe-8081-4f99-bf0c-ac13f7349d37",
+        "d6432beb-6629-4793-a311-9b76bcf69daa",
+        "67e94b91-4414-4ce1-b82d-d52d57e4967f",
+        "3e0b0aa2-7f42-4770-b9fe-ce851d41dc6b"
+      ],
+      "custom_css": [
+        ".rx-review-container {padding-top: 70px;}",
+        ".rx-container-title {gap: 20px; justify-content: flex-start; align-items: center;}",
+        "h3 {margin: 0; font-family: \"BLT-Heirloom\"; font-size: 24px;}",
+        "h4 {margin: 0; font-family: \"BLT-Heirloom\"; font-size: 18px;}"
+      ],
+      "settings": {
+        "desktopColumns": "2",
+        "tabletColumns": "1",
+        "desktopMaxWidth": "1200px",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#f5f8f1",
+        "card_bgcolor": "#ffffff",
+        "filled_star_color": "#2d4b49",
+        "empty_star_color": ""
+      }
+    },
+    "fb7f463b-0835-4876-941d-2251ce392137": {
+      "type": "rx-image-banner-v2",
+      "blocks": {
+        "template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Certified Holistic Pet Health Coach"
+          }
+        },
+        "template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness."
+          }
+        },
+        "template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "LEARN MORE",
+            "button_link_1": "https:\/\/www.holisticpethealthcoach.com\/hphcp_optin_sws-page-5804"
+          }
+        },
+        "0af9b1f4-9270-4c3a-be12-49abcd4fb707": {
+          "type": "text",
+          "settings": {
+            "text": "Join Our Team!"
+          }
+        }
+      },
+      "block_order": [
+        "template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137-heading-1",
+        "template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137-text-1",
+        "template--14969681084481__fb7f463b-0835-4876-941d-2251ce392137-buttons-1",
+        "0af9b1f4-9270-4c3a-be12-49abcd4fb707"
+      ],
+      "custom_css": [
+        ".banner,.banner__media {width: 100%; max-width: 100%; padding: 0;}",
+        ".custom-box {width: 100% !important; max-width: 1200px !important;}",
+        ".banner__media img {object-position: 50% 50% !important; height: 100% !important;}",
+        ".rx_banner__heading {max-width: 50%;}",
+        ".rx_banner__text {max-width: 50%; margin-bottom: 30px !important;}",
+        ".rx_banner__text:last-child {font-family: \"Oakley Script\"; font-size: 64px; margin-top: 50px; margin-bottom: 20px !important;}",
+        "@media screen and (max-width: 767px) {.rx_banner__text, .rx_banner__heading {max-width: 100%; }}"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/cta.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "container_bg": "rgba(0,0,0,0)",
+        "desktop_content_alignment": "left",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "88dc8e05-4d1f-46d6-914e-3350b2d40130",
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76",
+    "40ccc761-5f8c-45d8-bc43-9a94c4dffcd7",
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c",
+    "872df224-c2bf-4a52-9d67-ad2d05e43f28",
+    "a72bf7b9-a058-49bf-b799-6bccc3a7ddb7",
+    "b165d27c-cf73-4142-863a-ca8961ce2bf7",
+    "ef80614e-ead4-4437-b084-e1bc8ddff2d4",
+    "3d80628c-ea6f-48fc-8760-085a2af33b6e",
+    "c310de0e-f268-4dff-8278-ea581c28a408",
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3",
+    "79c998c5-068f-4b26-8de9-0d335a608ace",
+    "7c824f73-1291-494a-89ba-8520efb97ca2",
+    "fb7f463b-0835-4876-941d-2251ce392137"
+  ]
+}

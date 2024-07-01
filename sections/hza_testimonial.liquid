@@ -1,0 +1,197 @@
+<div class="amr_testimonial">
+  <div class="amr_container_1170">
+    <div class="amr_pet_consultants_header">
+      {% if section.settings.heading != blank %}<h2>{{ section.settings.heading }}</h2>{% endif %}
+      {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
+    </div>
+      
+          <div class="amr_testimonial_item_upr_grup">
+            {% for block in section.blocks %}
+        {% if block.type == 'testimonial_image' %}
+          {% if block.settings.side_img != blank %}
+            <div class="amr_testi_img_side" style="background-color:{{ block.settings.bg_img_color }};">
+              {% if block.settings.side_img %}<img src="{{ block.settings.side_img | img_url:'master' }}">{% endif %}
+            </div>
+            <div class="amr_testimonial_item" style="{% if block.settings.testi_bg_img != blank %}background-image:url('{{ block.settings.testi_bg_img | img_url:'master' }}');{% endif %}">
+             <div class="amr_testimonial_item_inner">
+              <h3 style="color:{{ block.settings.testi_title_color }};">{{ block.settings.testi_title }}</h3>
+              {% if block.settings.main_img %}<img src={{ block.settings.main_img | img_url:'master' }}>{% endif %}
+              <h4 style="color:{{ block.settings.testi_name_color }};">{{ block.settings.testi_name }}</h4>
+              <div style="color:{{ block.settings.testi_message_color }};">{{ block.settings.testi_message }}</div>
+               </div>
+              <div class="stars_list">
+                <img src="{{ block.settings.testi_star_img | img_url:'master' }}" class="star">
+                <img src="{{ block.settings.testi_star_img | img_url:'master' }}" class="star">
+                <img src="{{ block.settings.testi_star_img | img_url:'master' }}" class="star">
+                <img src="{{ block.settings.testi_star_img | img_url:'master' }}" class="star">
+                <img src="{{ block.settings.testi_star_img | img_url:'master' }}" class="star">
+              </div>
+            </div>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+          </div>
+            
+    <div class="amr_testimonial_items">
+      {% for block in section.blocks %}
+        {% if block.type == 'testimonial' %}
+        <div class="amr_testimonial_item" style="{% if block.settings.bg_color != blank %}background-color:{{ block.settings.bg_color }};{% endif %}">
+         <div class="amr_testimonial_item_inner">
+          <h3 style="color:{{ block.settings.title_color }};">{{ block.settings.title }}</h3>
+          <img src={{ block.settings.main_img | img_url:'master' }}>
+          <h4 style="color:{{ block.settings.name_color }};">{{ block.settings.name }}</h4>
+          <div style="color:{{ block.settings.message_color }};">{{ block.settings.message }}</div>
+           </div>
+          <div class="stars_list">
+            <img src="{{ block.settings.star_img | img_url:'master' }}" class="star">
+            <img src="{{ block.settings.star_img | img_url:'master' }}" class="star">
+            <img src="{{ block.settings.star_img | img_url:'master' }}" class="star">
+            <img src="{{ block.settings.star_img | img_url:'master' }}" class="star">
+            <img src="{{ block.settings.star_img | img_url:'master' }}" class="star">
+          </div>
+        </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Testimonial Section",
+  "max_blocks":4,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label":"Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label":"Description"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "limit":3,
+      "settings": [
+        {
+          "type":"color",
+          "id":"bg_color",
+          "label":"Background Color"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label":"Title"
+        },
+        {
+          "type":"color",
+          "id":"title_color",
+          "label":"Title Color"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_img",
+          "label":"Image"
+        },
+        {
+          "type":"text",
+          "id":"name",
+          "label":"Name"
+        },
+        {
+          "type":"color",
+          "id":"name_color",
+          "label":"Name Color"
+        },
+        {
+          "type": "richtext",
+          "id": "message",
+          "label":"Message"
+        },
+        {
+          "type":"color",
+          "id":"message_color",
+          "label":"Message Color"
+        },
+        {
+          "type":"image_picker",
+          "id":"star_img",
+          "label":"Star Image"
+        }
+      ]
+    },
+    {
+      "type": "testimonial_image",
+      "name": "Testimonial With Image",
+      "limit":1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "side_img",
+          "label":"Side Image"
+        },
+        {
+          "type":"color",
+          "id":"bg_img_color",
+          "label":"Image background Color"
+        },
+        {
+          "type": "image_picker",
+          "id": "testi_bg_img",
+          "label":"Testimonial Background Image"
+        },
+        {
+          "type": "text",
+          "id": "testi_title",
+          "label":"Title"
+        },
+        {
+          "type":"color",
+          "id":"testi_title_color",
+          "label":"Title Color"
+        },
+        {
+          "type": "image_picker",
+          "id": "testi_main_img",
+          "label":"Image"
+        },
+        {
+          "type":"text",
+          "id":"testi_name",
+          "label":"Name"
+        },
+        {
+          "type":"color",
+          "id":"testi_name_color",
+          "label":"Name Color"
+        },
+        {
+          "type": "richtext",
+          "id": "testi_message",
+          "label":"Message"
+        },
+        {
+          "type":"color",
+          "id":"testi_message_color",
+          "label":"Message Color"
+        },
+        {
+          "type":"image_picker",
+          "id":"testi_star_img",
+          "label":"Star Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Testimonial Section"
+      }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,478 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "anxiety-support-protocol"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "autoimmune-disease-support"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cancer-support"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "general-detox-protocol"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cardiovascular-support-protocol"
+          }
+        },
+        "57ac96c7-6522-49c4-beac-4bbc21fe8795": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "allergy-support-supplement"
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8",
+        "57ac96c7-6522-49c4-beac-4bbc21fe8795"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1684272298d585cb7f": {
+      "type": "apps",
+      "blocks": {
+        "db2a1af8-ac62-4337-9bd8-6cca37487096": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "db2a1af8-ac62-4337-9bd8-6cca37487096"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "d8433540-0e67-4e79-9d87-f0b413179952": {
+      "type": "image-with-text-60-40",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "txtfirst": "Dr. Ruth Roberts Pet Wellness Courses",
+        "txtsecond": "Take Charge of Your Pet's Wellness and Happiness with Dr. Ruth Roberts' Online Courses",
+        "txtthired": "I’ve had the honor of helping thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.  I combine scientific facts, decades of clinical work, and a holistic, integrated health and wellness approach to help you find solutions that’ll nurture your furry friend back to optimum health.",
+        "imagesingle": "shopify:\/\/shop_images\/Rectangle_1_dc0dc1f0-b86c-4d15-829f-35b7c0b34c4d.jpg"
+      }
+    },
+    "323d0ef8-4212-42e9-9e2c-63a170d19707": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14923163369537__323d0ef8-4212-42e9-9e2c-63a170d19707-168474851967db6ec4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you love your pets like I love mine, you want the very best and safest way to treat and prevent disease in your four-legged family members. If your pet has been sick or has a terrible diagnosis, I bet you’ve been scouring the internet for information on your pet’s health issues. Your search for guidance to gain your pet’s total wellness, has no doubt left you feeling overwhelmed.  Here we provide you with reliable sources of information and professionals who can help guide you in maintaining your pets' wellness.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14923163369537__323d0ef8-4212-42e9-9e2c-63a170d19707-168474851967db6ec4-1"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 120rem;}",
+        ".rich-text__text > p {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-transform: uppercase; color: #1e1e1e; text-align: left;}",
+        ".content-container {background: #f5f8f1;}",
+        ".rich-text__text.rte {padding: 4% 0;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "43e0a268-a273-49f8-aebf-556332935db2": {
+      "type": "rx-banner-text",
+      "custom_css": [
+        ".container .rx-text .rx-text-desc {max-width: 765px;}",
+        ".rx-template--14923163369537__43e0a268-a273-49f8-aebf-556332935db2 {max-width: 100%; margin-bottom: 0px;}",
+        ".container {align-items: center;}"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/Image_2_f9f90f01-197e-418a-8d09-d68697b73003.png",
+        "heading": "",
+        "caption": "Dr. Ruth Roberts Pet Wellness Courses",
+        "content": "<p> is the ultimate online learning platform for individuals looking to enhance their skills and knowledge in the Pet Wellness field. Dr. Ruth Roberts Pet Wellness Courses elieve that learning about Pets' Health and Wellness should be accessible to everyone, no matter where you are in the world or what your background is. That's why I offer a range of courses that can help thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.  Get access to Pet Health Education, E-Books, Videos, Supplement guide, and worksheets.<\/p>",
+        "content2": "",
+        "image_max_height": "450px",
+        "layout": "text_first"
+      }
+    },
+    "3818f637-8ac3-46c3-ba5a-7340140cdaeb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14923163369537__3818f637-8ac3-46c3-ba5a-7340140cdaeb-168474851967db6ec4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The courses are created based on my 35+  years of experience as a Veterinarian and a Holistic Pets Health Coach. You'll receive top-quality instruction that's engaging, interactive, and tailored to your learning style. I understand that time is precious, which is why our courses are designed to fit your busy schedule. You can learn at your own pace, from anywhere in the world, and on any device. Plus, you'll have access to our support team and community of learners, so you'll never feel alone on your learning journey.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14923163369537__3818f637-8ac3-46c3-ba5a-7340140cdaeb-168474851967db6ec4-1"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 120rem;}",
+        ".rich-text__text {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; color: #1e1e1e; text-align: left;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "416ff0cd-e5c1-44da-853e-04c83e543faa": {
+      "type": "petwellness_tabing",
+      "blocks": {
+        "c994cc58-f2bc-43a1-8b44-6fcab3f7267b": {
+          "type": "Block",
+          "settings": {
+            "idtittle": "The Original Crockpet Diet"
+          }
+        },
+        "ec0e0274-9f06-46b3-aea9-97abda177f32": {
+          "type": "Block",
+          "settings": {
+            "idtittle": "EBOOKS"
+          }
+        },
+        "f0948772-2617-449c-9630-5ccde675187f": {
+          "type": "Block",
+          "settings": {
+            "idtittle": "Kidney Health"
+          }
+        },
+        "b14a6230-66cf-40a7-8851-0d1df863d6dc": {
+          "type": "Block",
+          "settings": {
+            "idtittle": "Gut Health"
+          }
+        },
+        "4ad0eb22-6600-4f34-9840-5ea1860ba3f1": {
+          "type": "Block",
+          "settings": {
+            "idtittle": "THE ORIGINAL CROCKPET Diet CLUB"
+          }
+        }
+      },
+      "block_order": [
+        "c994cc58-f2bc-43a1-8b44-6fcab3f7267b",
+        "ec0e0274-9f06-46b3-aea9-97abda177f32",
+        "f0948772-2617-449c-9630-5ccde675187f",
+        "b14a6230-66cf-40a7-8851-0d1df863d6dc",
+        "4ad0eb22-6600-4f34-9840-5ea1860ba3f1"
+      ],
+      "settings": {
+      }
+    },
+    "0c7c6903-a265-4582-be57-0b58a60d5fd1": {
+      "type": "crockpet-diet",
+      "blocks": {
+        "51b806fc-692d-48fd-a415-71655d1e5799": {
+          "type": "collection",
+          "settings": {
+            "product": "the-original-crockpet-diet™-recipes-and-course",
+            "btnlink": "https:\/\/drruthroberts.com\/products\/the-original-crockpet-diet%E2%84%A2-recipes-and-course",
+            "outlinkbtn": "Course Outlines"
+          }
+        },
+        "55512c97-b642-4262-9f01-222661d219c4": {
+          "type": "collection",
+          "settings": {
+            "product": "",
+            "btnlink": "",
+            "outlinkbtn": ""
+          }
+        }
+      },
+      "block_order": [
+        "51b806fc-692d-48fd-a415-71655d1e5799",
+        "55512c97-b642-4262-9f01-222661d219c4"
+      ],
+      "custom_css": [
+        "input.btn.add_cart {cursor: pointer;}",
+        ".outlink {margin-right: 12%;}",
+        ".input.btn.add_cart {background: transparent;}",
+        ".crockpettitle {text-transform: capitalize;}"
+      ],
+      "settings": {
+        "tabiingid": "The Original Crockpet Diet Course"
+      }
+    },
+    "ce0edac7-24b9-4237-811e-e0bf9b32ee17": {
+      "type": "crockpet-diet",
+      "blocks": {
+        "f124a283-f045-4f8e-a4a3-d962cca9debc": {
+          "type": "collection",
+          "settings": {
+            "product": "the-crockpet-diet-natural-pet-food-ebook",
+            "btnlink": "shopify:\/\/products\/1986957",
+            "outlinkbtn": "Course Outlines"
+          }
+        },
+        "596e1740-d641-4e33-b5d3-5f4f46cbd8e0": {
+          "type": "collection",
+          "settings": {
+            "product": "plant-and-mushroom-for-pets-by-angela-ardolino-medical-plants-book",
+            "btnlink": "shopify:\/\/products\/plant-and-mushroom-for-pets-by-angela-ardolino-medical-plants-book",
+            "outlinkbtn": "Course Outlines"
+          }
+        }
+      },
+      "block_order": [
+        "f124a283-f045-4f8e-a4a3-d962cca9debc",
+        "596e1740-d641-4e33-b5d3-5f4f46cbd8e0"
+      ],
+      "custom_css": [
+        "input.btn.add_cart {cursor: pointer;}",
+        ".outlink {margin-right: 12%;}",
+        ".input.btn.add_cart {background: transparent;}",
+        ".crockpettitle {margin-top: 10px;}",
+        ".crockpettitle {text-transform: capitalize;}",
+        ".cropet_content p:nth-child(2) {margin-top: 0;}"
+      ],
+      "settings": {
+        "tabiingid": "Ebooks"
+      }
+    },
+    "c9ae6930-e6be-41f4-a8fd-ca0fc8a52780": {
+      "type": "health",
+      "blocks": {
+        "2261eb1e-7610-4d87-aee8-21d473e6504f": {
+          "type": "collection",
+          "settings": {
+            "product": "1984272",
+            "btnlink": "shopify:\/\/products\/1984272",
+            "outlinkbtn": "Course Outlines"
+          }
+        },
+        "dec76305-a159-4e2c-8519-ac92ab46450f": {
+          "type": "collection",
+          "settings": {
+            "product": "kidney-health-care-course-for-dogs-and-cats",
+            "btnlink": "shopify:\/\/products\/kidney-health-care-course-for-dogs-and-cats",
+            "outlinkbtn": "Course Outlines"
+          }
+        }
+      },
+      "block_order": [
+        "2261eb1e-7610-4d87-aee8-21d473e6504f",
+        "dec76305-a159-4e2c-8519-ac92ab46450f"
+      ],
+      "custom_css": [
+        "input.btn.add_cart {cursor: pointer;}",
+        ".input.btn.add_cart {background: transparent;}",
+        ".crockpettitle {text-transform: capitalize;}"
+      ],
+      "settings": {
+        "tabiingid": "Kidney Health Course"
+      }
+    },
+    "a8f7eda4-98ef-4806-aed7-7aedc7c76d95": {
+      "type": "health",
+      "blocks": {
+        "00ee5649-e933-4437-8e04-b50c669fb761": {
+          "type": "collection",
+          "settings": {
+            "product": "1986957",
+            "btnlink": "shopify:\/\/products\/1986957",
+            "outlinkbtn": "Course Outlines"
+          }
+        },
+        "3f0d25f8-ec9f-453c-917d-4236c721d144": {
+          "type": "collection",
+          "settings": {
+            "product": "gut-instincts-natural-digestion-gi-health",
+            "btnlink": "shopify:\/\/products\/gut-instincts-natural-digestion-gi-health",
+            "outlinkbtn": "Course Outlines"
+          }
+        }
+      },
+      "block_order": [
+        "00ee5649-e933-4437-8e04-b50c669fb761",
+        "3f0d25f8-ec9f-453c-917d-4236c721d144"
+      ],
+      "custom_css": [
+        "input.btn.add_cart {cursor: pointer;}",
+        ".outlink {margin-right: 6%;}",
+        ".input.btn.add_cart {background: transparent;}",
+        ".crockpettitle {text-transform: capitalize;}"
+      ],
+      "settings": {
+        "tabiingid": "Gut Health Course"
+      }
+    },
+    "fbd88868-6fc5-4c7a-b24a-09cb08f59313": {
+      "type": "health",
+      "blocks": {
+        "93e5c064-279e-4d29-a5b9-269440ac04e6": {
+          "type": "collection",
+          "settings": {
+            "product": "the-original-crockpet-diet-membership",
+            "btnlink": "",
+            "outlinkbtn": ""
+          }
+        },
+        "b8ae9dfc-a1de-4a86-93e0-b7817176c81b": {
+          "type": "collection",
+          "settings": {
+            "product": "certified-pet-holistic-health-coach-program",
+            "btnlink": "",
+            "outlinkbtn": ""
+          }
+        }
+      },
+      "block_order": [
+        "93e5c064-279e-4d29-a5b9-269440ac04e6",
+        "b8ae9dfc-a1de-4a86-93e0-b7817176c81b"
+      ],
+      "custom_css": [
+        "p {font-family: Josefin Sans;}"
+      ],
+      "settings": {
+        "tabiingid": "Membership\/Community"
+      }
+    },
+    "62381508-aea7-4f01-b23e-f76d360b4513": {
+      "type": "petwellness_moth_year",
+      "disabled": true,
+      "custom_css": [
+        ".width50_cou.crocpet_img img {width: 100%;}"
+      ],
+      "settings": {
+        "prevhead": "The Original CrockPet Diet Club",
+        "petwellimg": "shopify:\/\/shop_images\/Image_1_7daff97e-5691-4aad-8419-cd2c74716fee.png",
+        "pdiscription": "Dr. Ruth Roberts invites you to our vibrant community of pet owners passionate about feeding their pets healthy, home-cooked meals. Embark on a journey of community learning and growth as we guide you on the path to optimal pet nutrition and the benefits of all-natural pet food",
+        "pdiscription1": "Get expert guidance on balanced nutrition through live Q&A sessions with Dr. Roberts herself. Explore Angela Ardolino's plant medicine guide, a bonus gut health course, and a wealth of content including previous Q&A sessions, audio files, transcripts, and PDF recipes. Revolutionize the way you feed your furry friend alongside thousands of like-minded pet owners. Join the Original CrockPet DietTM Club, your gateway to natural pet food solutions!",
+        "pack1": "Annual $4.99",
+        "pack1price": "  $119.88\/year",
+        "pack2": "Monthly $9.99",
+        "pack2price": " 59.88\/year",
+        "joinlinkbnt": "join now",
+        "joinbtn": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+      }
+    },
+    "7d80b91c-0905-4611-affb-51fe2d1dc13f": {
+      "type": "petwellness_image_with_text",
+      "custom_css": [
+        ".headingpetwellness {width: 35%; margin: 0 auto;}",
+        "@media screen and (max-width: 620px) {.headingpetwellness {width: 80%; margin: 0 auto; }}"
+      ],
+      "settings": {
+        "reviewimg": "shopify:\/\/shop_images\/Image_37643cb3-dfa4-4e71-b741-ec74a061f7e4.png",
+        "prevhead": "Empower Yourself to Be Your Pet's Best Advocate with Dr. Ruth Roberts Pet Wellness Courses",
+        "prevdes": "Discover the Best Ways to Nurture Your Pet's Wellness with Our Online Courses",
+        "discription": "Investing in pet wellness education is essential for your furry friend's health. Dr. Ruth Roberts’ comprehensive online courses provide you with the knowledge and confidence to make informed decisions regarding your pet’s wellness. You will  learn about the benefits of all natural pet food and discover the natural pet food solutions.",
+        "discription1": "So why wait? Enroll in our courses today and join our community of learners who are passionate about nurturing their pet's wellness with the best solutions available. Start empowering yourself to be the best pet parent you can be!",
+        "previwbtn": "Enroll Now",
+        "previwurl": "https:\/\/www.holisticpethealthcoach.com\/"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "newsletter",
+    "1655751929e34d4e57",
+    "1684272298d585cb7f",
+    "d8433540-0e67-4e79-9d87-f0b413179952",
+    "323d0ef8-4212-42e9-9e2c-63a170d19707",
+    "43e0a268-a273-49f8-aebf-556332935db2",
+    "3818f637-8ac3-46c3-ba5a-7340140cdaeb",
+    "416ff0cd-e5c1-44da-853e-04c83e543faa",
+    "0c7c6903-a265-4582-be57-0b58a60d5fd1",
+    "ce0edac7-24b9-4237-811e-e0bf9b32ee17",
+    "c9ae6930-e6be-41f4-a8fd-ca0fc8a52780",
+    "a8f7eda4-98ef-4806-aed7-7aedc7c76d95",
+    "fbd88868-6fc5-4c7a-b24a-09cb08f59313",
+    "62381508-aea7-4f01-b23e-f76d360b4513",
+    "7d80b91c-0905-4611-affb-51fe2d1dc13f"
+  ]
+}

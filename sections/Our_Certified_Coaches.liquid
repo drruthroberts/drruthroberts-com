@@ -1,0 +1,86 @@
+<div class="amr_certified_coaches">
+  <div class="amr_container_1170">
+    <div class="amr_pet_consultants_header">
+      {% if section.settings.heading != blank %}<h2>{{ section.settings.heading }}</h2>{% endif %}
+      {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
+    </div>
+    <div class="amr_CC_items">
+      {% for block in section.blocks %}
+          <div class="amr_CC_item" style="background-image:url('{{ block.settings.bg_img | img_url:'master' }}');">
+            <div class="amr_CC_item_header">
+              <h3>{{ block.settings.title }}</h3>
+              <div>{{ block.settings.detail }}</div>
+            </div>
+            {% if block.settings.btn_txt != blank %}<a class="amr_CC_item_btn" href="{{ block.settings.btn_url }}">{{ block.settings.btn_txt }}</a>{% endif %}
+          </div>
+      {% endfor %}
+    </div>
+    {% if section.settings.btn_txt_main != blank %}<a class="amr_CC_main_btn" href="{{ section.settings.btn_url_main }}">{{ section.settings.btn_txt_main }} <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Vector_3.svg?v=1692151879"></a>{% endif %}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Our Certified Coaches",
+  "max_blocks":8,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label":"Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label":"Description"
+    },
+    {
+      "type": "text",
+      "id": "btn_txt_main",
+      "label":"Button Text"
+    },
+    {
+      "type": "url",
+      "id": "btn_url_main",
+      "label": "Button URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "consultants",
+      "name": "Consultant",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg_img",
+          "label":"Background Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label":"Title"
+        },
+        {
+          "type": "richtext",
+          "id": "detail",
+          "label":"Short Detail"
+        },
+        {
+          "type": "text",
+          "id": "btn_txt",
+          "label":"Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Our Certified Coaches"
+      }
+    ]
+}
+{% endschema %}

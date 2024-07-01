@@ -1,0 +1,175 @@
+<div class="thankyoumain">
+           
+      <div class="thankwrap">
+          <div class="pop-up-content-wrap">
+                  <div>
+                        <h2 class="thanktitle">{{ section.settings.thankyop }}</h2>
+                        <p class="thank-text">{{ section.settings.thankyousub }}</p>
+                        <p class="thank-des">{{ section.settings.thankdes }}</p>
+                  </div>
+                  <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/ranaprogramofficer/30min?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:600px!important;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                  <!-- Calendly inline widget end -->
+                  <div class="notify_btn ">
+                      <a href="{{ section.settings.homeurl }}" class="hrefbtn"> 
+                     {{ section.settings.button_home }}
+                          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none" >
+                              <path d="M1.25391 4.5L32.9002 4.5M32.9002 4.5L26.4537 1M32.9002 4.5L26.4537 8" stroke="#184B44" stroke-linecap="round"/>
+                          </svg>
+                      </a>
+                  </div>
+                 
+          </div>
+      </div>  
+</div> 
+{% schema %}
+  {
+    "name": "thank-you",
+    "settings": [
+       {
+         "type" : "text", 
+          "id" : "thankyop",
+         "label" : "Thankyou Heading"
+        },
+      {
+          "id" : "thankyousub",
+          "type" : "text",
+          "label" : "Thankyou Sub-Heading"
+        },
+       {
+          "type" : "text",
+          "id" : "thankdes",
+          "label" : "Thankyou Description"
+        },
+      {
+          "type" : "text",
+          "id" : "button_home",
+          "label" : "Thankyou-Button"
+      },
+       {
+          "type" : "url",
+          "id" : "homeurl",
+          "label" : "Thankyou-Button-link"
+      }
+    ],
+      "presets" : [
+  {
+    "name" : "thank-you",
+    "category" : "thank-you"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+  .thankwrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+  .thankyoumain{
+  text-align: center;
+ }
+  .thankwrap {
+    padding: 5% 0;
+}
+h2.thanktitle {
+    font-family: Oakley Script;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: .02em;
+    color: #000;
+    margin-top: 0;
+}
+p.thank-text {
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+p.thank-des {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.notify_btn {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    display: inline-block;
+}
+.notify_btn a {
+   font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+.notify_btn svg{
+    margin-left: 20px;
+
+}
+@media screen and (max-width:991px){
+   .thankwrap{
+  width: 750px;}
+}
+  @media screen and (max-width:768px){
+   h2.thanktitle{
+    font-size: 48px;
+    line-height: 48px;
+  }
+  p.thank-text{
+    font-size: 16px;
+  }
+     .thankwrap{
+  width: 90%;}
+}
+}
+@media screen and (max-width:540px){
+  p.thank-des{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  p.thank-text{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  h2.thanktitle{
+    font-size: 55px;
+  }
+
+}
+@media screen and (max-width:520px){
+  .thankyoumain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media screen and (max-width:430px){
+  .notify_btn a{
+    letter-spacing:0;
+    padding: 14px 8px;
+  }
+ 
+.notify_btn svg {
+    margin-left: 10px;
+}
+}
+
+{% endstylesheet %}

@@ -1,0 +1,84 @@
+<div id="title-listing">
+  <ul>
+    <div class="breadcrumbcontainer">
+      {% for block in section.blocks %}
+        {% if block.settings.idtittle != '' %}
+          <li class="display-inlinetitle">
+            <a class="titlesustainability" href="#{{ block.settings.idtittle | downcase  }}">{{ block.settings.idtittle }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </ul>
+</div>
+{% schema %}
+  {
+    "name": "Pet Wellness Tabing",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "Block",
+        "name": "Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "idtittle",
+            "label": "Breadcrumb Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Pet Wellness Tabing"
+      }
+    ]
+  }
+{% endschema %}
+<style>
+  #title-listing {
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: #fff;
+    margin: 25px 0 1%;
+
+  }
+  #title-listing.overflow {
+    overflow: auto;
+  }
+  #title-listing .titlesustainability {
+    color: #184B44;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+
+  }
+  #title-listing .display-inlinetitle:hover {
+    border: 2px solid #184B44;
+    border-radius: 24px;
+    transition: all 0.1s ease-in-out;
+  }
+  .display-inlinetitle.active {
+    border: 2px solid #184B44;
+    border-radius: 24px;
+  }
+  .breadcrumbcontainer {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .breadcrumbcontainer.overflow {
+    /*     width: 799px; */
+    width: 1300px;
+  }
+  .display-inlinetitle {
+    display: inline-block;
+    padding: 8px;
+  }
+</style>

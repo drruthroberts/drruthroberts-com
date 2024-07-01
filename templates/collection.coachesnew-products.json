@@ -1,0 +1,817 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "785dee0f-be6d-4dbd-84a6-964a4ce5b0f0": {
+      "type": "image-banner",
+      "blocks": {
+        "75f8b834-2989-4cd9-8f87-b52303a677dc": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are experts in enhancing your pet's well-being from nose to tail.",
+            "heading_size": "h2"
+          }
+        },
+        "b1a1bd7d-4684-4962-9a30-44fb4cadcdcd": {
+          "type": "text",
+          "settings": {
+            "text": "Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts.",
+            "text_style": "body"
+          }
+        },
+        "4cb8a473-a13b-40c0-b678-2f4f9681467f": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Book Now",
+            "button_link_1": "#shopify-section-template--14940389605441__main-collection-product-grid",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "75f8b834-2989-4cd9-8f87-b52303a677dc",
+        "b1a1bd7d-4684-4962-9a30-44fb4cadcdcd",
+        "4cb8a473-a13b-40c0-b678-2f4f9681467f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pet-and-owner-on-fall-walk.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "ca075de0-606f-4393-99bb-5311518b5033": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Our Featured Pet Coaches<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover personalized solutions for your pet's well-being with our professional and certified Holistic Pet Health Coach<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033-heading-1",
+        "template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033-text-1"
+      ],
+      "custom_css": [
+        "h2 {padding-top: 50px; padding-bottom: 0;}",
+        "p {font-size: 2rem; padding-left: 5rem; padding-right: 5rem; font-family: \"Josefin Sans\";}",
+        ".rich-text__heading span {font-family: \"Oakley Script\" !important;}",
+        ".rich-text__heading span strong {font-weight: normal !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "5b10af01-9fda-4f74-9dd6-340a797a06d6": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Jessica Fisher",
+            "text": "<p>Certified Dog Trainer, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": ""
+          }
+        },
+        "template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Kelly Cogen",
+            "text": "<p>Cert. CN, B.S.c Naturopathic Animal Science, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-column-2",
+        "template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c08e6889-5b82-408c-9262-d16cee6dceb5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-column-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WilmaSHaw.png",
+            "title": "Wilma Shaw",
+            "text": "<p>FNTP, BCHN, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": "#1"
+          }
+        },
+        "template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Leah Bookhamer",
+            "text": "<p>NTP, MRWP, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": "#2"
+          }
+        },
+        "template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Michael Daly",
+            "text": "<p>Canine\/Equine Massage Therapist, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": "#3"
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-column-1",
+        "template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-column-2",
+        "template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a39cad73-abdc-4fc4-b7fe-773016710e31": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Rhiannon Andrus",
+            "text": "<p>Certified Holistic Human Coach, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": "#4"
+          }
+        },
+        "template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Kristy Green",
+            "text": "<p>Certified Dog Trainer, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": "#5"
+          }
+        },
+        "template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Bea Swasey",
+            "text": "<p>MBA, NTP, RWS II, HPHC<\/p>",
+            "link_label": "Book A Consultant",
+            "link": "#6"
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-column-1",
+        "template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-column-2",
+        "template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ba04b83f-d846-4952-99a7-7ed1feec335c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14940389605441__ba04b83f-d846-4952-99a7-7ed1feec335c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Find the right coach for you<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14940389605441__ba04b83f-d846-4952-99a7-7ed1feec335c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Filter down coaches that matches your needs.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__ba04b83f-d846-4952-99a7-7ed1feec335c-heading-1",
+        "template--14940389605441__ba04b83f-d846-4952-99a7-7ed1feec335c-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: BLT-Heirloom; font-weight: bold; font-size: 6rem; color: #2e484a;}",
+        "p {font-size: 2rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
+    },
+    "a5f089ba-3650-4246-ae3f-4ccdabd7ea10": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+        ".grid {row-gap: 30px;}",
+        ".card--card:after {display: none;}",
+        ".slider__slide {border-radius: 16px; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07); overflow: HIDDEN;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "coaches",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "accent-2",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 40
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".grid {row-gap: 30px;}",
+        ".card--card:after {display: none;}",
+        ".facets-vertical {\/* display: block; *\/}",
+        ".facets-wrapper {display: none;}",
+        ".card-wrapper.product-card-wrapper.underline-links-hover {border-radius: 16px; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.07); overflow: hidden;}",
+        "img.motion-reduce {object-fit: cover !important;}",
+        ".card__information {text-align: center; align-items: center; justify-content: center;}",
+        ".product-grid-container .card-information {text-align: center; width: 100%;}",
+        ".price {width: 100%;}"
+      ],
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "show_special_offer": false,
+        "enable_filtering": false,
+        "filter_type": "vertical",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "rating": 5
+      }
+    },
+    "2b31f80e-4e7d-4513-af0a-4798a32f6996": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14940389605441__2b31f80e-4e7d-4513-af0a-4798a32f6996-16896001679a828a7a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW ALL COACHES",
+            "button_link": "shopify:\/\/collections\/coaches",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__2b31f80e-4e7d-4513-af0a-4798a32f6996-16896001679a828a7a-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 24
+      }
+    },
+    "5ce5e0ec-f55b-483a-9a6f-6202107380a7": {
+      "type": "coachingmainblog",
+      "blocks": {
+        "00bf2a00-1364-421f-958b-7b1339d5c711": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/1_800x_de6ebfa2-84bc-46e2-b6cd-dd7c7fe22542.webp",
+            "c_head": "Comprehensive Training",
+            "c_desc": "We help you develop the knowledge and skills you need to provide effective and compassionate care for pets."
+          }
+        },
+        "a8ac626c-5be7-45d8-9a9c-76a76df4b7ae": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/2_800x_8de13a57-a6a6-499b-8db3-c9e2282fc5c4.webp",
+            "c_head": "Personalized Learning",
+            "c_desc": "We can help you develop a unique niche in the field and differentiate yourself from other professionals.​"
+          }
+        },
+        "82ff08a3-7b88-445a-9a80-1c66f38350d9": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/5_800x_d4ae4d24-2b72-4805-b764-28eec48de0dc.webp",
+            "c_head": "One-to-One Mentorship",
+            "c_desc": "We support you through the program by offering weekly mentorship sessions over the duration of the program (16 weeks) with the mentor assigned to you by Dr.Ruth."
+          }
+        },
+        "8dc5168f-25f2-4efa-b320-5a75f02fa601": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/6_800x_985495bb-eb44-4524-890e-dd137ec027e3.webp",
+            "c_head": "Networking Opportunities",
+            "c_desc": "Network with other professionals in the field and build relationships that can help you grow your business and advance your career."
+          }
+        },
+        "810072af-55bf-476e-ad03-28f283912f4d": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/3_800x_ba406a30-1f50-4a9c-b5da-cfecf2195215.webp",
+            "c_head": "Personal Fulfillment",
+            "c_desc": "Help pets live healthier, happier lives, and provide owners with the guidance and support they need to make informed decisions about their pets' health."
+          }
+        },
+        "598e83b9-dabd-4c31-8f78-7029a352e249": {
+          "type": "block",
+          "settings": {
+            "blogimg": "shopify:\/\/shop_images\/4_800x_0ec685cc-bebd-4e35-ad7f-8b2d8dc9635e.webp",
+            "c_head": "In-Demand Career",
+            "c_desc": "As pet ownership continues to rise, so does the demand for qualified professionals who can offer holistic, integrative approaches to pet health."
+          }
+        }
+      },
+      "block_order": [
+        "00bf2a00-1364-421f-958b-7b1339d5c711",
+        "a8ac626c-5be7-45d8-9a9c-76a76df4b7ae",
+        "82ff08a3-7b88-445a-9a80-1c66f38350d9",
+        "8dc5168f-25f2-4efa-b320-5a75f02fa601",
+        "810072af-55bf-476e-ad03-28f283912f4d",
+        "598e83b9-dabd-4c31-8f78-7029a352e249"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "div {border-radius: 30px;}",
+        ".cmax_container {padding-top: 60px;}"
+      ],
+      "settings": {
+        "c_head": "",
+        "pro_btn1": "",
+        "program_link1": ""
+      }
+    },
+    "233e2f87-a490-4f13-9d3f-02abbd7d7154": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14940389605441__233e2f87-a490-4f13-9d3f-02abbd7d7154-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Collaboration Approach <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14940389605441__233e2f87-a490-4f13-9d3f-02abbd7d7154-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Embrace the amazing benefits of collaboration as we work together to enhance your pet's well-being.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__233e2f87-a490-4f13-9d3f-02abbd7d7154-heading-1",
+        "template--14940389605441__233e2f87-a490-4f13-9d3f-02abbd7d7154-text-1"
+      ],
+      "custom_css": [
+        "h2 {font-size: 6rem; color: #2e484a;}",
+        "h2.rich-text__heading.rte.h1 {font-family: \"Oakley Script\" !important;}",
+        "h2.rich-text__heading.rte.h1 span {font-weight: normal;}",
+        "p {font-size: 2rem; padding-left: 5rem; padding-right: 5rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 88,
+        "padding_bottom": 52
+      }
+    },
+    "b2f3b937-1143-4f76-80ce-c460c16b1f5e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "1-Select a Pet Consultant",
+            "text": "<p>Browse through our team of dedicated petconsultants and select the one who best fits your needs. Each consultant brings a unique skill set, experience, and specialization in holistic pet care. Take into account their expertise and areas of focus to find the perfect match for your pet's specific requirements.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "4-Receive a Personalized Care Plan",
+            "text": "<p>Based on the assessment, your consultant will develop a personalized care plan tailored to your pet's specific needs. The care plan will encompass recommendations and interventions designed to address your dog’s or cat’s health concerns and enhance their overall well-being. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "2-Book Our Pet Consultant",
+            "text": "<p>Once you've chosen your preferred consultant, it's time to book a consultation. Utilize our convenient booking system or contact our team directly to schedule an appointment with your selected consultant. This step ensures that you have dedicated time to discuss your pet's situation and work collaboratively towards their well-being.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5c254a84-506e-4a97-9bb8-cdc6343d2800": {
+          "type": "column",
+          "settings": {
+            "title": "5-Implement the Care Plan",
+            "text": "<p>With the personalized care plan in hand, it's time to put it into action. Your consultant will guide you through the implementation process, providing clear instructions and practical guidance. They will help you make necessary adjustments to your pet's diet, exercise routine, and other aspects of their care. This collaborative effort ensures a seamless integration of the care plan into your pet's daily life.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7bac4568-2513-4e9f-9536-84cd75de1ff5": {
+          "type": "column",
+          "settings": {
+            "title": "3-Assess Your Pet's Situation",
+            "text": "<p>During the consultation, your chosen pet consultant will conduct a thorough assessment of your dog’s or cat’s situation. They will actively listen to your concerns, ask relevant questions, and gather information about your pet's health, behavior, and lifestyle. This comprehensive evaluation forms the basis for creating a personalized care plan.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7572deba-4700-4b6f-97c7-8c914f40aba9": {
+          "type": "column",
+          "settings": {
+            "title": "6-Get Ongoing Support",
+            "text": "<p>We understand that ongoing support is crucial for the success of your pet's well-being. Your consultant will be available to provide continuous support and guidance. They will address any questions, concerns, or challenges you may have along the way. Regular check-ins and follow-up consultations will allow for monitoring progress, making adjustments to the pet care plan, and providing ongoing support.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-column-1",
+        "template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-column-2",
+        "template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-column-3",
+        "5c254a84-506e-4a97-9bb8-cdc6343d2800",
+        "7bac4568-2513-4e9f-9536-84cd75de1ff5",
+        "7572deba-4700-4b6f-97c7-8c914f40aba9"
+      ],
+      "custom_css": [
+        "p {text-align: justify; line-height: 1.9rem; font-family: \"Josefin Sans\";}",
+        "@media screen and (max-width: 989px) {.grid--1-col-tablet-down .grid__item {background: #f6f8f1 !important; }}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "8969544c-04f4-43a5-8d9a-50ad67e04785": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14940389605441__8969544c-04f4-43a5-8d9a-50ad67e04785-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>What Real Pet Parents Are Saying<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14940389605441__8969544c-04f4-43a5-8d9a-50ad67e04785-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__8969544c-04f4-43a5-8d9a-50ad67e04785-heading-1",
+        "template--14940389605441__8969544c-04f4-43a5-8d9a-50ad67e04785-text-1"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 0;}",
+        "h2 {font-family: \"Oakley Script\" !important; font-weight: normal !important; font-size: 5rem; color: #2e484a;}",
+        "p {font-size: 1.8rem; max-width: 650px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1d09ce56-d815-4da4-9b2c-a947a3eaafd5": {
+      "type": "Custom-rating",
+      "blocks": {
+        "0fa4b522-518c-4890-9175-e67d6cab8ad5": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "rating": 5,
+            "confimed": "",
+            "confimedp": "",
+            "signtext": ""
+          }
+        }
+      },
+      "block_order": [
+        "0fa4b522-518c-4890-9175-e67d6cab8ad5"
+      ],
+      "custom_css": [
+        ".container-content {width: 67%;}",
+        ".sub_container {background: #f5f8f1;}",
+        ".Maincontainer {max-width: 1090px; margin-bottom: 15px;}",
+        "@media screen and (max-width: 989px) {img {width: 100% !important; max-width: 100%; } .container-content {width: 100% !important; max-width: 100% !important; } .block_container {width: calc(100% - 40px); padding: 0; } .containerimg {margin: 0; width: 100%; float: none; }}"
+      ],
+      "settings": {
+        "starreviewhead": "asdsad"
+      }
+    },
+    "e67404e9-fd71-4531-8d5f-8711d8c7e57d": {
+      "type": "custom-reviews",
+      "blocks": {
+        "b10d071f-0463-4698-be2f-20a12e0c49d7": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "rating": 5,
+            "confimed": "Mind Blowing!",
+            "confimedp": "Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies",
+            "signtext": "Amanda Delgado"
+          }
+        },
+        "375e34dc-c0c2-4c56-a135-0c0aa37c83bc": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "rating": 5,
+            "confimed": "Mind Blowing!",
+            "confimedp": "I really enjoyed connecting with Dlorah who is a recent graduate of Dr. Roberts holistic pet health coach program. I found it helpful to hear all about her experience with the course and what she found useful in her journey to become a certified pet health coach. It was great to connect with someone who has a similar educational background and experiences. To me, at the beginning, I was feeling hesitant and having doubts if this was the right path, but the onboarding call just reconfirmed for me that it absolutely is... Read more",
+            "signtext": "Lori Schmidt"
+          }
+        },
+        "a8457623-efb4-431b-80d7-6f544e870a15": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "rating": 5,
+            "confimed": "Mind Blowing!",
+            "confimedp": "Dlorah was very helpful and I am happy to have her as my mentor. She walked me through the homework, answered my questions, shared her screen to show me how to get to the information that I had not been able to find. The pet consultation was informative and she had good suggestions on additional things to do for my dog. It was interesting to learn that he is a metal type dog, I looked up information on a metal dog and it fits his personality well.",
+            "signtext": "Missy Springer & Kenzie South Paw Aussies"
+          }
+        }
+      },
+      "block_order": [
+        "b10d071f-0463-4698-be2f-20a12e0c49d7",
+        "375e34dc-c0c2-4c56-a135-0c0aa37c83bc",
+        "a8457623-efb4-431b-80d7-6f544e870a15"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".customercontainer {margin: auto; margin-top: -110px; max-width: 1340px;}",
+        ".customercontainer .truncate {text-align: justify; line-height: 26px;}",
+        ".customercontainer span {}",
+        ".stardiv {display: none;}",
+        ".customerdetail {min-height: 600px;}"
+      ],
+      "settings": {
+        "starreviewhead": ""
+      }
+    },
+    "5efeecd2-8694-45de-be2b-896ec57af114": {
+      "type": "consultation-testimonials",
+      "blocks": {
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-1": {
+          "type": "title",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Untitled_design_4.png",
+            "title": "Laura Muzal",
+            "title-desig": "Intuitive Animal Practitioner, HPHC",
+            "testimonial": "<p>“Laura has made such a huge difference in my dog’s life. I have eternal gratitude for her. My dog Brynn has a platelet condition that was causing her some issues, so I called Laura and she did Quantum Healing with her. A few days later we go her blood tested and her platelet production was through the roof! It has since stayed that way and her tests have continued to be normal! We are so grateful for her and definitely recommend her.” <br\/><\/p>",
+            "reviewer_name": "Rhiannon Cote",
+            "rating": "5"
+          }
+        },
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-2": {
+          "type": "title",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/amanda.png",
+            "title": "Dlorah Devore",
+            "title-desig": "FNTP, HPHC",
+            "testimonial": "<p>I really enjoyed connecting with the Dlorah. It was great to connect with someone who has a similar educational background and experiences. It was also very inspiring to hear how the program allowed her to help dogs improve their health and get better through food and movement. It was also reassuring to learn the is the ongoing support from Dr. Roberts and the rest of the team. Well, after the course is over, I am super excited to dive in and learn all I can to help dogs thrive and live their best life. Thanks.<\/p>",
+            "reviewer_name": "Amanda Delgado",
+            "rating": "5"
+          }
+        },
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-3": {
+          "type": "title",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Untitled_design_3.png",
+            "title": "Lori Megginson",
+            "title-desig": "RN, CCMT, CAAP, HPHC",
+            "testimonial": "<p>Blue, a 4-year-old Dalmatian, faced urinary issues with crystals and stones. Under a Holistic Pet Health Coach's guidance, a dietary shift to the CP Diet and the introduction of holistic remedies led to remarkable results. Stones vanished, urine cleared up, and Blue's weight is now ideal. Blue's owner, appreciates the transformative journey and holistic approach that made it possible.<\/p>",
+            "reviewer_name": "Consultant' Patient",
+            "rating": "5"
+          }
+        },
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-4": {
+          "type": "title",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "title": "Wilma Shaw",
+            "title-desig": "FNTP, BCHN, HPHC",
+            "testimonial": "<p>I was shocked to really understand what was in the prescription pet food I was feeding Toby.  It was recommended after all by his vet.  He is so much more full of life than he has been in a couple years.  We are both doing so much better because while Wilma was helping me help him...I got a lot of help as well.  Thank you!<\/p>",
+            "reviewer_name": "Cindy & Toby",
+            "rating": "5"
+          }
+        },
+        "2381b3a3-d7ce-4e66-9d22-953a2caef9fb": {
+          "type": "title",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.svg",
+            "title": "Laura Muzal",
+            "title-desig": "Intuitive Animal Practitioner, HPHC",
+            "testimonial": "<p>Laura was amazing, very intuitive and knowledgeable.  I have 3 rescue dogs and 3 cats who are also rescues. Within 10 minutes Laura exceeded my expectations.  She was able see what their challenges were and restore balance to all of my animals as well as myself. Everything she said made perfect sense. During the session all of them were calmer than usual and the results are incredible! They are all much more relaxed as well as wanting to walk longer, 2 of them are over 10 years old and back to acting like younger animals while outside running and playing with each other. As for my experience after the session, I've been feeling much calmer yet energetic and centered. Thank you, Laura, for all you do and your perfect love for all animals. Much appreciated. I will be connecting again. I highly recommend Laura! We will book Laura again! <\/p>",
+            "reviewer_name": "Pete Socco",
+            "rating": "5"
+          }
+        },
+        "bd0f7b48-aa51-4909-98bd-11bcb4f1fde5": {
+          "type": "title",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Untitled_design_1_3598aeaf-1544-42df-bed0-0869fff3bf2e.png",
+            "title": "Bea Swasey",
+            "title-desig": "MBA. NTP, RWS II, HPHC",
+            "testimonial": "<p><em>I highly recommend Bea for her holistic pet coaching. She definitely over delivered during our sessions. Even though I had researched a LOT on how to improve my dog's health, Bea was able to highlight certain things I didn't even think of. It was a blessing having this support from her. The report she provided was extremely detailed, showing that Bea had put in a lot of effort into her work since my dog has a lot of health issues. I highly appreciate her help.<\/em><\/p>",
+            "reviewer_name": "Queen S. ",
+            "rating": "5"
+          }
+        },
+        "4977b87f-59e8-43e9-a1f0-dad4628f1fa1": {
+          "type": "title",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/kenxie.png",
+            "title": "Michael Daly",
+            "title-desig": "CANINE\/EQUINE MASSAGE THERAPIST, HPHC",
+            "testimonial": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help.<\/p><p>Missy Springer SouthPaw Aussies<\/p>",
+            "reviewer_name": "Missy Springer, SouthPaw Aussies",
+            "rating": "5"
+          }
+        }
+      },
+      "block_order": [
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-1",
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-2",
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-3",
+        "template--14940389605441__5efeecd2-8694-45de-be2b-896ec57af114-title-4",
+        "2381b3a3-d7ce-4e66-9d22-953a2caef9fb",
+        "bd0f7b48-aa51-4909-98bd-11bcb4f1fde5",
+        "4977b87f-59e8-43e9-a1f0-dad4628f1fa1"
+      ],
+      "custom_css": [
+        ".rx-container-title {justify-content: flex-start; gap: 20px; align-items: center;}",
+        ".rx-testimonial-item-title h3 {margin: 0 0 5px;}",
+        ".rx-testimonial-item-title h4 {margin: 0;}"
+      ],
+      "settings": {
+        "desktopColumns": "2",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "1200px",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#ffffff",
+        "card_bgcolor": "#f4f8f1",
+        "filled_star_color": "",
+        "empty_star_color": ""
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "785dee0f-be6d-4dbd-84a6-964a4ce5b0f0",
+    "ca075de0-606f-4393-99bb-5311518b5033",
+    "5b10af01-9fda-4f74-9dd6-340a797a06d6",
+    "c08e6889-5b82-408c-9262-d16cee6dceb5",
+    "a39cad73-abdc-4fc4-b7fe-773016710e31",
+    "ba04b83f-d846-4952-99a7-7ed1feec335c",
+    "a5f089ba-3650-4246-ae3f-4ccdabd7ea10",
+    "main-collection-product-grid",
+    "2b31f80e-4e7d-4513-af0a-4798a32f6996",
+    "5ce5e0ec-f55b-483a-9a6f-6202107380a7",
+    "233e2f87-a490-4f13-9d3f-02abbd7d7154",
+    "b2f3b937-1143-4f76-80ce-c460c16b1f5e",
+    "8969544c-04f4-43a5-8d9a-50ad67e04785",
+    "1d09ce56-d815-4da4-9b2c-a947a3eaafd5",
+    "e67404e9-fd71-4531-8d5f-8711d8c7e57d",
+    "5efeecd2-8694-45de-be2b-896ec57af114"
+  ]
+}

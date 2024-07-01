@@ -1,0 +1,70 @@
+<div class="amr_person_detail">
+  <img class="amr_person_detail_img" src="{{ section.settings.bg_img | img_url: 'master' }}">
+  <div class="amr_container_1050">
+    <img src="{{ section.settings.main_img | img_url:'master' }}">
+    {% if section.settings.name != blank %}<h2>{{ section.settings.name }}</h2>{% endif %}
+    {% if section.settings.short_desc != blank %}<h4>{{ section.settings.short_desc }}</h4>{% endif %}
+    {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
+    <div class="amr_PD_btn_grup">
+      {% if section.settings.btn_txt != blank %}<a href="{{ section.settings.btn_txt }}">{{ section.settings.btn_txt }}</a>{% endif %}
+      {% if section.settings.btn_txt2 != blank %}<a href="{{ section.settings.btn_txt2 }}">{{ section.settings.btn_txt2 }}</a>{% endif %}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Person Detail",
+  "settings": [
+    {
+      "type":"image_picker",
+      "id":"bg_img",
+      "label":"background Image"
+    },
+    {
+      "type":"image_picker",
+      "id":"main_img",
+      "label":"Person Image"
+    },
+    {
+      "type":"text",
+      "id":"name",
+      "label":"Name"   
+    },
+    {
+      "type": "text",
+      "id": "short_desc",
+      "label":"Short Description"
+    },
+    {
+      "type": "richtext",
+      "id": "desc",
+      "label":"Description"
+    },
+    {
+      "type":"text",
+      "id":"btn_txt",
+      "label":"Button Text"
+    },
+    {
+      "type":"url",
+      "id":"btn_url",
+      "label":"Button URL"
+    },
+    {
+      "type":"text",
+      "id":"btn_txt2",
+      "label":"Button Text"
+    },
+    {
+      "type":"url",
+      "id":"btn_url2",
+      "label":"Button URL"
+    }
+  ],
+  "presets": [
+      {
+        "name": "Person Detail"
+      }
+    ]
+}
+{% endschema %}

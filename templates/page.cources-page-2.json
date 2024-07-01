@@ -1,0 +1,523 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1188d89b-a5aa-4533-9982-6d2c6c29f339": {
+      "type": "image-with-text-cources",
+      "blocks": {
+        "07be0be1-0e84-448c-a9fd-fff06ebdc6a2": {
+          "type": "collection",
+          "settings": {
+            "txet_blog": "The Original CrockPet Diet Cooking Video"
+          }
+        },
+        "f1651cf1-1267-4d9b-a715-150c5479615a": {
+          "type": "collection",
+          "settings": {
+            "txet_blog": "Downloadable PDFs: instructions, template and recipes"
+          }
+        },
+        "b4c24aa9-f4a7-49fc-9de0-74f389337882": {
+          "type": "collection",
+          "settings": {
+            "txet_blog": "Weekly Live Q&A Session"
+          }
+        }
+      },
+      "block_order": [
+        "07be0be1-0e84-448c-a9fd-fff06ebdc6a2",
+        "f1651cf1-1267-4d9b-a715-150c5479615a",
+        "b4c24aa9-f4a7-49fc-9de0-74f389337882"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "product": "the-original-crockpet-diet-holistic-total-body-support-multivitamins"
+      }
+    },
+    "2db1b70b-a212-469f-9c06-348c0ff32f8b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What Will You Learn<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-0",
+        "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-1",
+        "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-2"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; \/* identical to box height, or 89% *\/ letter-spacing: 0.02em; color: #184b44;}",
+        ".content-container {padding-bottom: 0px; padding-top: 85px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "25952c9c-d185-495e-b1b9-b5555a7b4972": {
+      "type": "modulearrow",
+      "blocks": {
+        "2a735ae1-1cca-445e-b155-47ece918a161": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 1  - The Original Crockpet Diet Cooking Essential",
+            "arrowdes": "In this section, you will learn how to prepare the crockpet diet, rotation diet template for dogs and cats and also learn the science behind this diet"
+          }
+        },
+        "423ebf4d-5709-4802-8685-55c333a54b6b": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 2 – The Original Crockpet Diet  for Dogs",
+            "arrowdes": "This module contains five different recipes for The Original CrockPET Diet (TOCPD) for dogs, using various protein sources including beef, pork, and turkey. Each recipe provides a template for preparing a homemade, nutritionally balanced meal for your dog, with the option to exclude beans for those who prefer a bean-free diet"
+          }
+        },
+        "a046938b-2af8-4fc8-a593-601fdabc0d7e": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 3 – The Original Crockpet Diet  for Cats",
+            "arrowdes": "This module contains seven different recipes for The Original CrockPET Diet (TOCPD) for cats, using various protein sources such as chicken breast, beef, turkey, and pork. Each recipe provides a template for preparing a homemade, nutritionally balanced meal with the option to exclude beans for those who prefer a bean-free diet"
+          }
+        },
+        "2af52bc7-9804-4b86-81c1-ea3f84e93101": {
+          "type": "collection",
+          "settings": {
+            "arrowhead": "Module 4 – The Original Crockpet Diet  Kidney Disease Version",
+            "arrowdes": "This module covers the Original CrockPET Diet Recipe for cats and dogs, specifically tailored for pets with kidney disease. It offers instructions for preparing and serving the meals and highlights the benefits of this diet for pets with kidney disease."
+          }
+        }
+      },
+      "block_order": [
+        "2a735ae1-1cca-445e-b155-47ece918a161",
+        "423ebf4d-5709-4802-8685-55c333a54b6b",
+        "a046938b-2af8-4fc8-a593-601fdabc0d7e",
+        "2af52bc7-9804-4b86-81c1-ea3f84e93101"
+      ],
+      "custom_css": [
+        ".arroww_btn {display: none;}",
+        ".arrowheight {height: auto; overflow-y: unset;}",
+        ".publickbg {background: #fff;}",
+        ".arrorrad {background: #f5f8f1;}",
+        ".arrorrad {margin: 12px 6% 30px 12px;}"
+      ],
+      "settings": {
+        "arrowid": "",
+        "arrowtextbtn": ""
+      }
+    },
+    "20ccae23-ebf6-4f3d-b4fb-0b2d1f4341f9": {
+      "type": "benefits",
+      "blocks": {
+        "082171f5-b295-45bd-a122-1ce80e76c1ec": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefit_head": "",
+            "benefit_desc": "Lifetime Subscription : This exclusive digital membership gives you lifetime access to The Original CrockPet Diet online. You can access it via your phone, tablet, or computer. You'll get immediate online access to the ebook, TOCPD recipe, and its many variations, including Keto versions,Dr. Ruth's recipe for pets with kidney disease, holiday recipes, and more!"
+          }
+        },
+        "0da9f2d4-0ac3-4fe3-ad3d-ef244bb2100e": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefit_head": "",
+            "benefit_desc": "Weekly Q&A Session : Michael Daly, a certified premier pet health coach, visits this group each week in a live broadcast to answer your questions about recipes. Ingredients or product substitution, share her latest thoughts, strategies, inspirations, and program information here. The Original CrockPet Diet team is dedicated to supporting you through a lifetime of healthy pets and home cooking for your furry friends."
+          }
+        },
+        "125f39a1-fe3c-4d05-9c71-cf64f9b95303": {
+          "type": "block",
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefit_head": "",
+            "benefit_desc": "The Original Crockpet Diet eBook : Learn more about the history and science behind The Original Crockpet Diet, the foods that go into it, and how you can optimize each back for your pet's best health"
+          }
+        },
+        "a86a7f6f-a83f-49b2-a11c-8ac9349a1d7d": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefit_head": "",
+            "benefit_desc": "Written by a renowned veterinarian with over 30 years of experiences in pet nutrition"
+          }
+        },
+        "b7f0de8a-9cb8-440a-99a8-94a2a9309040": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefit_head": "",
+            "benefit_desc": "You'll get immediate online access to the CrockPET recipes and its many variations, including Keto versions, Dr. Ruth's recipe for pets with kidney disease, Liver disease, Keto Diet, holiday recipes, and more! "
+          }
+        }
+      },
+      "block_order": [
+        "082171f5-b295-45bd-a122-1ce80e76c1ec",
+        "0da9f2d4-0ac3-4fe3-ad3d-ef244bb2100e",
+        "125f39a1-fe3c-4d05-9c71-cf64f9b95303",
+        "a86a7f6f-a83f-49b2-a11c-8ac9349a1d7d",
+        "b7f0de8a-9cb8-440a-99a8-94a2a9309040"
+      ],
+      "custom_css": [
+        "section {background: #f5f8f1;}",
+        "h2.bhead {color: #184b44;}",
+        ".benefitblog {padding: 1%; background: #f5f8f1;}",
+        "p.benefitdes {text-align: left;}",
+        ".benefitblog {padding: 10px;}",
+        ".benefittext {margin-top: 2%; margin-bottom: 18px;}",
+        ".benefitdes {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; color: #1e1e1e;}",
+        ".benefitblog {width: 49%; flex-direction: row; align-items: flex-start;}"
+      ],
+      "settings": {
+        "bhead": "What Will You Get",
+        "bsubhead": ""
+      }
+    },
+    "72aa2fdf-a036-4044-b542-af8a45d6f69f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14922816258113__72aa2fdf-a036-4044-b542-af8a45d6f69f-1684565616e7b57384-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The CrockPET Diet Course is a comprehensive online course that provides you with all the information and guidance you need to transition your pets to a healthy, home-cooked diet. Dr. Ruth Roberts has designed this course to help you understand the benefits of all-natural pet food, nutritional needs of your cats and dogs and how to meet them with delicious and nutritious meals.<\/p>"
+          }
+        },
+        "1f873972-8f8f-47b0-a875-cb2d69deb759": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This course is divided into five modules, including a cooking essential module that teaches the basics of cooking for cats and dogs. The following modules are dedicated to different versions of the diet tailored for specific conditions such as kidney disease, liver disease, and a keto version.<\/p>"
+          }
+        },
+        "11d55611-3f27-4aa6-8ec4-3cb342c69b00": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With easy-to-follow video lessons, recipe guides, and expert tips, you'll learn how to create tasty meals that your pets will love. And with ongoing support from Dr. Roberts and the CrockPet community, you'll have all the resources you need to succeed.<\/p>"
+          }
+        },
+        "template--14922816258113__72aa2fdf-a036-4044-b542-af8a45d6f69f-1684565616e7b57384-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "BUY Now",
+            "button_link": "shopify:\/\/pages\/holistic-pet-health-coaching-program",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14922816258113__72aa2fdf-a036-4044-b542-af8a45d6f69f-1684565616e7b57384-1",
+        "1f873972-8f8f-47b0-a875-cb2d69deb759",
+        "11d55611-3f27-4aa6-8ec4-3cb342c69b00",
+        "template--14922816258113__72aa2fdf-a036-4044-b542-af8a45d6f69f-1684565616e7b57384-2"
+      ],
+      "custom_css": [
+        ".rich-text__text p {text-align: left; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; color: #1e1e1e;}",
+        ".rich-text__blocks {max-width: 120rem;}",
+        ".rich-text__buttons {border: 2px solid #184b44; border-radius: 24px; margin-top: 50px;}",
+        ".rich-text__buttons a {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 150%; text-transform: uppercase; letter-spacing: 0.3em;}",
+        ".rich-text__buttons a svg {display: none;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "db3104ef-cb1a-4789-8d6a-2d71312daf98": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14922816258113__db3104ef-cb1a-4789-8d6a-2d71312daf98-16847272668e3f6836-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Don't wait to take the first step towards a healthier, happier life for your pets. Enroll in The CrockPet Diet Course for Dogs & Cats by Dr. Ruth Roberts today and start providing your furry friends with the best possible nutrition!<\/p>"
+          }
+        },
+        "2e860384-3d3e-42ed-99f7-a21c0a01406d": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY Now",
+            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-holistic-total-body-support-multivitamins",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14922816258113__db3104ef-cb1a-4789-8d6a-2d71312daf98-16847272668e3f6836-1",
+        "2e860384-3d3e-42ed-99f7-a21c0a01406d"
+      ],
+      "custom_css": [
+        ".rich-text__text p {text-align: left; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; color: #1e1e1e;}",
+        ".rich-text__blocks {max-width: 120rem;}",
+        ".rich-text__buttons {border: 2px solid #184b44; border-radius: 24px; margin-top: 50px;}",
+        ".rich-text__buttons a {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 600; font-size: 14px; line-height: 150%; text-transform: uppercase; letter-spacing: 0.3em; background: unset; color: #1e1e1e;}",
+        ".rich-text__buttons a svg {display: none;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "7a572359-7330-470b-97a5-4c3a6489944b": {
+      "type": "star_review",
+      "blocks": {
+        "7c8d86ba-fd3e-4442-9994-2f224069133c": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
+            "rating": 5,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”",
+            "signtext": "- Pam Hayes"
+          }
+        },
+        "f16a004e-9c5f-4a69-90e9-5cc736ba7a7f": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
+            "rating": 5,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”",
+            "signtext": "- Pam Hayes"
+          }
+        },
+        "467f4625-df80-4e9d-aae2-5cb72622fea9": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
+            "rating": 5,
+            "confimed": "lorem ipsum dolor",
+            "confimedp": "“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”",
+            "signtext": "- Pam Hayes"
+          }
+        }
+      },
+      "block_order": [
+        "7c8d86ba-fd3e-4442-9994-2f224069133c",
+        "f16a004e-9c5f-4a69-90e9-5cc736ba7a7f",
+        "467f4625-df80-4e9d-aae2-5cb72622fea9"
+      ],
+      "settings": {
+        "starreviewhead": "What our graduates say"
+      }
+    },
+    "1655751929e34d4e57": {
+      "type": "collection-list",
+      "disabled": true,
+      "blocks": {
+        "16557519296bd204f0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "herbsmith-products"
+          }
+        },
+        "16557519296bd204f0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-collection"
+          }
+        },
+        "16557519296bd204f0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "animalbiome"
+          }
+        },
+        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "assisi-loop-calmer-canine®"
+          }
+        },
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16557519296bd204f0-0",
+        "16557519296bd204f0-1",
+        "16557519296bd204f0-2",
+        "aa1c3c69-2ce2-435d-81c8-18b114024961",
+        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "5b15151e-67d8-4d2c-942b-d054aa163a4f": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "d89bc2d2-f263-436c-b86a-a25911d3ecd5": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "In this section, you will learn how to prepare the crockpet diet, rotation diet template for dogs and cats and also learn the science behind this diet",
+            "faqid": "",
+            "faqbtn": "The Original Crockpet Diet Cooking Essential"
+          }
+        }
+      },
+      "block_order": [
+        "d89bc2d2-f263-436c-b86a-a25911d3ecd5"
+      ],
+      "custom_css": [
+        ".set > a > svg {display: none;}"
+      ],
+      "settings": {
+        "mfaqhead": "heading"
+      }
+    },
+    "961ef4f2-4f2b-4901-81f7-336545b188ca": {
+      "type": "affiliate",
+      "disabled": true,
+      "blocks": {
+        "685b5f99-55e8-4458-9441-e666240d0171": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "In this section, you will learn how to prepare the crockpet diet, rotation diet template for dogs and cats and also learn the science behind this diet",
+            "faqid": "",
+            "faqbtn": "The Original Crockpet Diet Cooking Essential"
+          }
+        }
+      },
+      "block_order": [
+        "685b5f99-55e8-4458-9441-e666240d0171"
+      ],
+      "settings": {
+        "addhead": "",
+        "mfaqhead": "",
+        "afffaqbtn": "",
+        "affaqurl": ""
+      }
+    },
+    "c255ee60-d5db-40bf-876e-0e659dd4283e": {
+      "type": "reward_faq",
+      "disabled": true,
+      "blocks": {
+        "cd37d0ad-f00f-4126-b850-dd1e472eadee": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "In this section, you will learn how to prepare the crockpet diet, rotation diet template for dogs and cats and also learn the science behind this diet",
+            "faqid": "",
+            "faqbtn": "The Original Crockpet Diet Cooking Essential"
+          }
+        }
+      },
+      "block_order": [
+        "cd37d0ad-f00f-4126-b850-dd1e472eadee"
+      ],
+      "settings": {
+        "mfaqhead": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1188d89b-a5aa-4533-9982-6d2c6c29f339",
+    "2db1b70b-a212-469f-9c06-348c0ff32f8b",
+    "25952c9c-d185-495e-b1b9-b5555a7b4972",
+    "20ccae23-ebf6-4f3d-b4fb-0b2d1f4341f9",
+    "72aa2fdf-a036-4044-b542-af8a45d6f69f",
+    "db3104ef-cb1a-4789-8d6a-2d71312daf98",
+    "7a572359-7330-470b-97a5-4c3a6489944b",
+    "1655751929e34d4e57",
+    "newsletter",
+    "5b15151e-67d8-4d2c-942b-d054aa163a4f",
+    "961ef4f2-4f2b-4901-81f7-336545b188ca",
+    "c255ee60-d5db-40bf-876e-0e659dd4283e"
+  ]
+}

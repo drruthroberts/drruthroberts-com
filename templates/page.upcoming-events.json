@@ -1,0 +1,364 @@
+{
+  "sections": {
+    "rx_rich_text_bbJARD": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "heading_eWqazG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Upcoming Events<\/p>"
+          }
+        },
+        "text_aEPraH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join Dr. Ruth Roberts and HPHC Coaches for weekly pet health insights!<\/p>"
+          }
+        },
+        "button_Rfjebj": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "caption_enKaUR": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eWqazG",
+        "text_aEPraH",
+        "button_Rfjebj",
+        "caption_enKaUR"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rx_rich_text_yXXLjK": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "heading_inbmWH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Featured Events<\/p>"
+          }
+        },
+        "text_jQj9UA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From conferences to panels, join Dr. Ruth Roberts at insightful events where you can gain valuable insights and connect with others<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_inbmWH",
+        "text_jQj9UA"
+      ],
+      "custom_css": [
+        "p {font-size: 2rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Appearances_and_events_8.png",
+            "title": "Win 2 Tickets to Feed Real Summit in San Diego! 🎉",
+            "text": "<p>Hey Pet Parents!<\/p><p>Have a success story about switching to holistic practices and Dr. Ruth's CrockPet Diet? Share it and you could win 2 tickets to the <a href=\"https:\/\/www.feedreal.com\/summitP.S.: Also on the FRS ticket giveaway, please note that the event is sold out and there's no way to get tickets other than through entering this contest.\" target=\"_blank\" title=\"https:\/\/www.feedreal.com\/summitP.S.: Also on the FRS ticket giveaway, please note that the event is sold out and there's no way to get tickets other than through entering this contest.\">Feed Real Summit <\/a>in San Diego on October 5 & 6, 2024! That's a $400 value! <br\/><\/p><p>📍Location: Oct 5-6, 2024The Alexandria at Torrey Pines10996 Torreyana Rd Ste 240San Diego, CA 92121<\/p>",
+            "link_label": "",
+            "link": "https:\/\/riverside.fm\/studio\/gutsy-fertility-podcast?t=2c6b2af3acdad27e0bb5"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3"
+      ],
+      "custom_css": [
+        "h3 {font-family: \"BLT-Heirloom\"; font-size: 44px; line-height: 40px; font-weight: 300; min-height: 85px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-card__info {background: #f5f8f1; border-radius: 28px; height: 100%; padding: 65px 35px;}",
+        "p,ul,li {font-family: \"Josefin Sans\"; font-weight: normal;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "after_program_JiyKVR": {
+      "type": "after_program",
+      "blocks": {
+        "collection_wYT7cf": {
+          "type": "collection",
+          "settings": {
+            "aftertext": "HOW TO JOIN",
+            "afterdesc": "Share your video story in our Circle community by posting a video detailing your journey into holistic practices and the CrockPet Diet. Ensure your video is clear with good video and audio quality, includes your pet, and features you discussing your firsthand experience with the diet. Don't forget to use hashtag #feedrealsummit #feedCrockPetdiet upon posting."
+          }
+        },
+        "collection_kFNhjq": {
+          "type": "collection",
+          "settings": {
+            "aftertext": "VIDEO REQUIREMENTS",
+            "afterdesc": "Your video story should include key elements: the turning point that prompted your shift to holistic practices, whether due to a pet health issue or a lack of reliable resources; how you discovered Dr. Ruth's CrockPet Diet; your reasons for switching to a home-cooked diet through CrockPet; and notable improvements in your pet's health since adopting this diet."
+          }
+        },
+        "collection_Djhc9n": {
+          "type": "collection",
+          "settings": {
+            "aftertext": "WHAT WILL YOU GAIN",
+            "afterdesc": "By sharing your journey, you could win 2 FRS tickets valued at $400 for a relaxing weekend getaway in San Diego. Additionally, your story has the power to inspire fellow pet parents on their own holistic health paths. Engage in community fun as you connect with like-minded pet lovers and esteemed leaders such as Rodney Habib, Conor Brady, Angela Ardolino, Judy Morgan, Dr. Ruth Roberts, and many other notable speakers and panelists lined up for the event."
+          }
+        },
+        "collection_dcLKnP": {
+          "type": "collection",
+          "settings": {
+            "aftertext": "JUDGING CRITERIA",
+            "afterdesc": "The judging criteria for the video story contest are designed to highlight various aspects of your submission. Your story will be evaluated based on authenticity, accounting for 25% of the score, which values genuine and heartfelt narratives. Creativity in presentation, making it fun and engaging, also counts for 25%. High-quality production, including clear video and audio, contributes another 25%. Finally, your engagement with other members' posts will make up the remaining 25%."
+          }
+        }
+      },
+      "block_order": [
+        "collection_wYT7cf",
+        "collection_kFNhjq",
+        "collection_Djhc9n",
+        "collection_dcLKnP"
+      ],
+      "custom_css": [
+        "p {text-align: center;}"
+      ],
+      "settings": {
+        "programhead": "",
+        "programsubhead": "",
+        "pro_btn": "Join Our Community and Share Your Video",
+        "program_link": "https:\/\/courses.drruthroberts.com\/c\/start-here\/"
+      }
+    },
+    "fadcc9ee-5901-42d9-8139-51be2d304bad": {
+      "type": "coachingmainblog",
+      "disabled": true,
+      "custom_css": [
+        "svg {display: none;}"
+      ],
+      "settings": {
+        "c_head": "",
+        "pro_btn1": "Check our consultant",
+        "program_link1": ""
+      }
+    },
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__grid.grid {background: #e0ecbe; padding: 35px; border-radius: 50px;}",
+        ".image-with-text__grid.grid div {background-color: #fff0;}",
+        ".image-with-text__heading {text-align: left;}",
+        ".image-with-text__media-item {width: 25% !important;}",
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 2%;}",
+        ".image-with-text__media.media {max-width: 250px; margin: auto;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        "h2.image-with-text__heading.h1 {font-size: 54px; line-height: 50px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/image_4_ba456788-5c27-4b4d-b5d1-19eacd0079a5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rx_blog_cANfJE": {
+      "type": "rx-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "More Events",
+        "heading_size": "h1",
+        "blog": "events",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_CGdj4T": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_TYKeWt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe for Event Updates",
+            "heading_size": "h1"
+          }
+        },
+        "text_HGE8tc": {
+          "type": "text",
+          "settings": {
+            "text": "Don't miss a beat! Be the first to know about our latest events and exclusive offers. Our dynamic calendar is packed with exciting experiences just waiting for you.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TYKeWt",
+        "text_HGE8tc"
+      ],
+      "custom_css": [
+        ".banner__heading {font-color: black;}",
+        ".banner__text {font-family: \"BLT-Heirloom\";}",
+        ".banner__box {opacity: 0.8;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-samson-katt-5255645.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "newsletter_jDqKF8": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_BY4Nwe": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Subscribe for Event Updates",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_kM4q3L": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Don't Miss a Beat! Be the first to know about our latest events and exclusive offers. Our dynamic calendar is packed with exciting experiences just waiting for you.<\/p>"
+          }
+        },
+        "email_form_iBaAmz": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_BY4Nwe",
+        "paragraph_kM4q3L",
+        "email_form_iBaAmz"
+      ],
+      "settings": {
+        "bg_color": "#f5f8f1",
+        "full_width": false,
+        "padding_top": 8,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "rx_rich_text_bbJARD",
+    "main",
+    "rx_rich_text_yXXLjK",
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c",
+    "after_program_JiyKVR",
+    "fadcc9ee-5901-42d9-8139-51be2d304bad",
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3",
+    "rx_blog_cANfJE",
+    "image_banner_CGdj4T",
+    "newsletter_jDqKF8"
+  ]
+}

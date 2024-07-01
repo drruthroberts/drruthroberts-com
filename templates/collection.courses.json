@@ -1,0 +1,394 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "product_banner_CNbaeP": {
+      "type": "product_banner",
+      "disabled": true,
+      "settings": {
+        "heading": "Courses, Ebooks, & Certifications",
+        "product": "the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
+        "botton": "",
+        "btn_url": "",
+        "outline": false
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 6,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "show_special_offer": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "rating": 5
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "pet-products"
+          }
+        }
+      },
+      "block_order": [
+        "product",
+        "collection"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Discover more of our favorites",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "e491d85b-7b19-467a-b6fd-355cc47e0849": {
+      "type": "aff-img-text",
+      "disabled": true,
+      "settings": {
+        "affimghead": "",
+        "affimgdes": "",
+        "affimgbg": "shopify:\/\/shop_images\/Image_2_f9f90f01-197e-418a-8d09-d68697b73003.png"
+      }
+    },
+    "courses_list_section_jf3JGr": {
+      "type": "courses-list-section",
+      "settings": {
+        "heading": "Courses, Ebooks, & Certifications",
+        "product": "the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
+        "products_per_page": 5,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "show_special_offer": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "rating": 5
+      }
+    },
+    "product_section_46KnJp": {
+      "type": "product_section",
+      "settings": {
+        "heading": "",
+        "product": "the-crockpet-diet-natural-pet-food-ebook",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "image_placement": "row",
+        "learn_more_btn": true
+      }
+    },
+    "product_section_NKXqEj": {
+      "type": "product_section",
+      "settings": {
+        "heading": "",
+        "product": "kidney-health-care-course-for-dogs-and-cats",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "image_placement": "row",
+        "learn_more_btn": true
+      }
+    },
+    "image_with_text_yjNmcd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nwUydV": {
+          "type": "heading",
+          "settings": {
+            "heading": "eBOOK: Plants & Medicinal Mushroom Benefits for pets",
+            "heading_size": "h1"
+          }
+        },
+        "text_8rcPCd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YzdX4g": {
+          "type": "button",
+          "settings": {
+            "button_label": "Add to cart",
+            "button_link": "shopify:\/\/products\/plant-and-mushroom-for-pets-by-angela-ardolino-medical-plants-book"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nwUydV",
+        "text_8rcPCd",
+        "button_YzdX4g"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__content {width: 660px; background-color: #f5f8f1;}",
+        ".image-with-text__heading {width: 80%; text-align: left; color: #1e1e1e; font-family: Lato; font-size: 30px;}",
+        ".image-with-text__text {color: #1e1e1e; font-family: Lato; font-size: 16px;}",
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__media > img {height: 75%; width: 80%;}",
+        ".button {background-color: transparent;}",
+        "@media (max-width: 750px) {.image-with-text__media > img {height: 100%; width: 100%; } .image-with-text__content {width: 100%; }}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/AngelaArdolino_sPlantandMushroomGuide_ver1_jpg.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_r8A93T": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_33jiYM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr. Ruth Roberts Pet Wellness Courses",
+            "heading_size": "h1"
+          }
+        },
+        "text_J9jEBq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TAKE CHARGE OF YOUR PET'S WELLNESS AND HAPPINESS WITH DR. RUTH ROBERTS' ONLINE COURSES<\/p><p>I’ve had the honor of helping thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_TRMRCC": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "heading_33jiYM",
+        "text_J9jEBq",
+        "button_TRMRCC"
+      ],
+      "custom_css": [
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__heading {color: #184b44; font-family: Lato; text-align: left !important; font-size: 30px; font-style: normal; font-weight: 300; line-height: 40px; letter-spacing: 0.6px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Section_Rectangle_1_dc0dc1f0-b86c-4d15-829f-35b7c0b34c4d_1400x_jpg.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NbXLnB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VCA8r4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dr. Ruth Roberts Pet Wellness Courses",
+            "heading_size": "h1"
+          }
+        },
+        "text_TeBGV7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>is the ultimate online learning platform for individuals looking to enhance their skills and knowledge in the Pet Wellness field. Dr. Ruth Roberts Pet Wellness Courses elieve that learning about Pets' Health and Wellness should be accessible to everyone, no matter where you are in the world or what your background is. That's why I offer a range of courses that can help thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer. Get access to Pet Health Education, E-Books, Videos, Supplement guide, and worksheets.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_6WVfPK": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VCA8r4",
+        "text_TeBGV7",
+        "button_6WVfPK"
+      ],
+      "custom_css": [
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__heading {color: #184b44; font-family: Lato; text-align: left !important; font-size: 30px; font-style: normal; font-weight: 300; line-height: 40px; letter-spacing: 0.6px;}",
+        ".image-with-text__media {border-radius: 0;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Section_Image_2_f9f90f01-197e-418a-8d09-d68697b73003_png.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "simple_heading_section_V3AeKi": {
+      "type": "Simple_heading_section",
+      "settings": {
+        "heading": "Empower Yourself to Be Your Pet's Best Advocate",
+        "content_position": "center"
+      }
+    },
+    "image_with_text_NpN8CC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6d96Wa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover the Best Ways to Nurture Your Pet’s Wellness With Our Online Courses",
+            "heading_size": "h1"
+          }
+        },
+        "text_GQgCLw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>So why wait? Enroll in our courses today and join our community of learners who are passionate about nurturing their pet's wellness with the best solutions available. Start empowering yourself to be the best pet parent you can be!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_QYhziG": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_6d96Wa",
+        "text_GQgCLw",
+        "button_QYhziG"
+      ],
+      "custom_css": [
+        ".image-with-text__text-item {padding: 40px 0 !important;}",
+        ".image-with-text__heading {color: #1e1e1e; font-family: Lato; font-size: 24px; font-style: normal; font-weight: 300; line-height: 33px; text-align: left !important; letter-spacing: 0.6px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/Section_Image_37643cb3-dfa4-4e71-b741-ec74a061f7e4_800x_png.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "product_banner_CNbaeP",
+    "main-collection-product-grid",
+    "collage",
+    "newsletter",
+    "e491d85b-7b19-467a-b6fd-355cc47e0849",
+    "courses_list_section_jf3JGr",
+    "product_section_46KnJp",
+    "product_section_NKXqEj",
+    "image_with_text_yjNmcd",
+    "image_with_text_r8A93T",
+    "image_with_text_NbXLnB",
+    "simple_heading_section_V3AeKi",
+    "image_with_text_NpN8CC"
+  ]
+}

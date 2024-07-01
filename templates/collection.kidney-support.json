@@ -1,0 +1,523 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "1644361594fa530990": {
+      "type": "image-with-text",
+      "blocks": {
+        "164436159488e9de81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kidney Support Protocol",
+            "heading_size": "h1"
+          }
+        },
+        "164436159488e9de81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The kidneys play a crucial role in filtering waste products from the blood, regulating electrolytes and fluid balance, and producing hormones that control various bodily functions. When the kidneys are not functioning properly, it can lead to a buildup of waste products in the body, electrolyte imbalances, and other health issues. Advanced Kidney Disease is heartbreaking, but there are so many  methods to slow the worsening of Kidney Disease. Dr. Ruth Roberts create these kidney health protocols for your pet, aimed at providing support and aiding in the management of kidney disease.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164436159488e9de81-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "DOWNLOAD SUPPORT PROTOCOL",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/Kidney+Support+Program.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "164436159488e9de81-0",
+        "164436159488e9de81-1",
+        "164436159488e9de81-2"
+      ],
+      "custom_css": [
+        "h2 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/11.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16454756786f49406a": {
+      "type": "featured-product",
+      "blocks": {
+        "16454756786ef745d9-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "16454756786ef745d9-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "16454756786ef745d9-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "16454756786ef745d9-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16454756786ef745d9-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "16454756786ef745d9-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "16454756786ef745d9-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "16454756786ef745d9-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "16454756786ef745d9-0",
+        "16454756786ef745d9-1",
+        "16454756786ef745d9-2",
+        "16454756786ef745d9-3",
+        "16454756786ef745d9-4",
+        "16454756786ef745d9-5",
+        "16454756786ef745d9-6",
+        "16454756786ef745d9-7"
+      ],
+      "settings": {
+        "product": "the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
+        "color_scheme": "accent-1",
+        "secondary_background": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 12px; padding-bottom: 0px;}",
+        ".quick-add {padding-top: 0px; margin-top: 0px; border: 3px solid #184b44; border-radius: 15px; background-color: transparent; color: #184b44;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "show_special_offer": false,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "rating": 5
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bars"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boards"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "core-kites"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SHOP MORE",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Nutrition and Supplements for Holistic Veterinary Care<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While it’s natural to view your pet as a member of your family, do you view their health needs in the same manner you view yours?<\/p><p>As a human dedicated to a healthier lifestyle, you take a daily vitamin and may supplement that routine with different additions, be it fish oil or Vitamin C. <\/p><p>In this regard, your pet is no different from you. To ensure that your beloved animal is getting the nutrients and she needs, here are five supplements you can consider adding to your pet’s routine. <\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1644362911e27a17cd": {
+      "type": "multicolumn",
+      "blocks": {
+        "1644362911ff49262e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Capture.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644362911ff49262e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644362911ff49262e-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-02-20_103611.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b5900dc0-f343-402a-9fe7-0eb98426b80b": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644362911ff49262e-0",
+        "1644362911ff49262e-1",
+        "1644362911ff49262e-2",
+        "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2",
+        "b5900dc0-f343-402a-9fe7-0eb98426b80b"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16451372445fbe7db4": {
+      "type": "newsletter",
+      "blocks": {
+        "1645137244617a2009-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be one of our VIP Clients",
+            "heading_size": "h1"
+          }
+        },
+        "1645137244617a2009-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1645137244617a2009-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1645137244617a2009-0",
+        "1645137244617a2009-1",
+        "1645137244617a2009-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1c30c43d-90bc-4707-a817-43fbb7821950": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "",
+            "icon": "none",
+            "row_content": "<p>Kidney disease in pets, also known as renal disease or renal failure, refers to a condition where the kidneys are unable to adequately perform their essential functions. The kidneys play a critical role in maintaining a pet's overall health by filtering waste products, regulating electrolyte balance, managing blood pressure, and producing essential hormones. When the kidneys are compromised, these functions are impaired, which can lead to a range of health issues.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Common Causes of Kidney Disease in Pets",
+            "icon": "paw_print",
+            "row_content": "<p>🐱 <strong>Aging: <\/strong>As pets grow older, their kidneys naturally undergo wear and tear, making them more susceptible to kidney-related issues.<\/p><p>🐱 <strong>Genetic Predisposition: <\/strong>Certain breeds may have a higher predisposition to kidney disease due to inherited factors.<\/p><p>🐱 <strong>Toxins: <\/strong>Exposure to harmful substances like certain plants, chemicals, and medications can lead to kidney damage.<\/p><p>🐱 <strong>Infections: <\/strong>Bacterial or viral infections can directly affect the kidneys or lead to secondary complications.<\/p><p>🐱 <strong>High Blood Pressure:<\/strong> Elevated blood pressure levels can strain the kidneys over time, contributing to kidney disease.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Common Symptoms to Watch For",
+            "icon": "paw_print",
+            "row_content": "<p>🐶 <strong>Increased Thirst and Urination: <\/strong>Excessive drinking and urination are early signs of kidney dysfunction.<\/p><p>🐶<strong> Loss of Appetite and Weight: <\/strong>Kidney disease can lead to a decreased appetite and subsequent weight loss.<\/p><p>🐶 <strong>Lethargy and Weakness:<\/strong> Pets with kidney issues may exhibit reduced energy levels and overall weakness.<\/p><p>🐶 <strong>Vomiting and Diarrhea: <\/strong>Gastrointestinal disturbances are common in pets with kidney disease.<\/p><p>🐶 <strong>Changes in Urine Color and Frequency:<\/strong> Look for alterations in urine color, consistency, and frequency of urination.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Types of Kidney Disease in Pets",
+            "icon": "paw_print",
+            "row_content": "<p><strong>Acute Kidney Disease (AKD):<\/strong> This type of kidney disease occurs suddenly and often as a result of a specific event or condition, such as ingestion of toxic substances, severe dehydration, or certain infections. With prompt and appropriate treatment, some cases of AKD can be reversible.<\/p><p><strong>Chronic Kidney Disease (CKD):<\/strong> This form of kidney disease develops over a longer period, often due to age-related wear and tear on the kidneys. It can also result from underlying conditions like high blood pressure, diabetes, or certain genetic factors. CKD is a progressive condition that requires ongoing management.<\/p>",
+            "page": ""
+          }
+        },
+        "d80e92c5-536f-44f7-9c77-e1ab38a643ac": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Supportive Relief For Pets With Kidney Disease",
+            "icon": "clipboard",
+            "row_content": "<p>✅ Provide a balanced, renal-friendly diet for vital nutrition.<\/p><p>✅ Encourage hydration with accessible, clean water sources.<\/p><p>✅ Combat inflammation with Omega-3 fatty acids from fish oil.<\/p><p>✅ Support kidney function with supplements tailored to your pet's needs.<\/p><p>✅ Promote gut health with probiotics, prebiotics, and fiber-rich foods<\/p>",
+            "page": ""
+          }
+        },
+        "eea68e09-2b3d-410b-9c76-6754788aae15": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "IRIS Treatment Recommendations for Chronic Kidney Disease (CKD)",
+            "icon": "clipboard",
+            "row_content": "<p>All chronic kidney disease (CKD) treatments must be personalized for each patient. For the majority of animals at each stage, the following suggestions are good places to start. Serial monitoring of these individuals is ideal, and treatment should be tailored to the patient's reaction.<\/p><p>I use the products above for all my consulting clients, to get fantastic health outcomes. I've recommended them for years, and use them for my own pets to keep their health and immune function top notch. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-1",
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-3",
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-4",
+        "template--14921795305537__1c30c43d-90bc-4707-a817-43fbb7821950-collapsible_row-2",
+        "d80e92c5-536f-44f7-9c77-e1ab38a643ac",
+        "eea68e09-2b3d-410b-9c76-6754788aae15"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 30;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; font-size: 20px;}",
+        "p {font-family: \"BLT-heirloom\", sans-serif; text-align: justify; text-color: black; font-size: 16px;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Kidney Disease in Pets",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c844998d-90a6-441a-b89c-bf3d36e1da55": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14921795305537__c844998d-90a6-441a-b89c-bf3d36e1da55-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liver-support"
+          }
+        },
+        "template--14921795305537__c844998d-90a6-441a-b89c-bf3d36e1da55-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "post-surgical-care-collection"
+          }
+        },
+        "template--14921795305537__c844998d-90a6-441a-b89c-bf3d36e1da55-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cardiovascular-support-protocol"
+          }
+        },
+        "47d3ec59-2b85-40f6-9760-4f25ba5ec189": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "respiratory-support"
+          }
+        },
+        "bf8dd978-99ce-4e32-ac72-6161a1d6a060": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "post-surgical-care-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921795305537__c844998d-90a6-441a-b89c-bf3d36e1da55-featured_collection-1",
+        "template--14921795305537__c844998d-90a6-441a-b89c-bf3d36e1da55-featured_collection-2",
+        "template--14921795305537__c844998d-90a6-441a-b89c-bf3d36e1da55-featured_collection-3",
+        "47d3ec59-2b85-40f6-9760-4f25ba5ec189",
+        "bf8dd978-99ce-4e32-ac72-6161a1d6a060"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 25px; padding-top: 30px;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; text-color: black; padding-top: 15px;}",
+        ".button {font-family: \"BLT-heirloom\", sans-serif; text-color: white;}",
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "title": "See More Pet Protocols",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1644361594fa530990",
+    "16454756786f49406a",
+    "product-grid",
+    "1631859338560c9b4a",
+    "164434556097d46afd",
+    "1644362911e27a17cd",
+    "16451372445fbe7db4",
+    "1c30c43d-90bc-4707-a817-43fbb7821950",
+    "c844998d-90a6-441a-b89c-bf3d36e1da55"
+  ]
+}

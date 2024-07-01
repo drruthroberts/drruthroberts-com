@@ -1,0 +1,462 @@
+{
+  "sections": {
+    "1644361594fa530990": {
+      "type": "image-with-text",
+      "blocks": {
+        "164436159488e9de81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Puppy & Kitten Health Support",
+            "heading_size": "h1"
+          }
+        },
+        "164436159488e9de81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The early stages of a puppy or kitten's life are a critical period of growth and development. Just like with humans, the habits and routines established during this time can have a profound and lasting impact on their overall health and well-being throughout their entire lives.<br\/>For instance, providing a balanced and nutritious diet during puppyhood or kittenhood ensures they receive the essential nutrients needed for proper growth and development. This not only contributes to their physical health but also helps in building a strong immune system, making them more resilient to illnesses as they age.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164436159488e9de81-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book A Holistic Consultation",
+            "button_link": "https:\/\/drruthroberts.com\/certified-holistic-pet-health-coaches\/"
+          }
+        }
+      },
+      "block_order": [
+        "164436159488e9de81-0",
+        "164436159488e9de81-1",
+        "164436159488e9de81-2"
+      ],
+      "custom_css": [
+        "h2 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/krista-mangulsone-9gz3wfHr65U-unsplash.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Provide your pup\/kitty with nutrients that are found in nature but aren’t always found in the average pet diet. These formulas supply vitamins, minerals, trace minerals, and phytonutrients in forms as close as possible to how nature intended, providing nutritional support at the cellular level.<\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "custom_css": [
+        "h2 {font-family: BLT-Heirloom;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}",
+        ".quick-add {padding-top: 0px; margin-top: 0px; border: 3px solid #184b44; border-radius: 15px; background-color: transparent; color: #184b44;}"
+      ],
+      "settings": {
+        "products_per_page": 8,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "show_special_offer": false,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "rating": 5
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bars"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boards"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "core-kites"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SHOP MORE",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1644346673ab5cde9c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1644346673215909db-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22_021ec101-093c-4b42-b781-feabf8925764-opt.jpg",
+            "title": "Multivitamin ",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements"
+          }
+        },
+        "1644346673215909db-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/RuthNewFishOil-1.webp",
+            "title": "Fish Oil",
+            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/crockpet-fish-oil-supplement"
+          }
+        },
+        "1644346673215909db-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20.jpg",
+            "title": "Probiotics",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/fidospore-by-microlabs-digestive-probiotic-for-pets"
+          }
+        },
+        "7e2f260b-9426-4f80-b237-654daa7af150": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ClarityBottle.png",
+            "title": "Antioxidants",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "https:\/\/shop.drruthroberts.com\/products\/clarity-mushrooms-for-dogs-mushroom-extract-adaptogen-tincture"
+          }
+        },
+        "851298dd-4488-4c37-bd0a-47c632e1f888": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/turmeric_with_bioperine.jpg",
+            "title": "Turmeric",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify:\/\/products\/turmeric-with-bioperine®-organic-coconut-oil-for-cats-dogs-60-chews"
+          }
+        }
+      },
+      "block_order": [
+        "1644346673215909db-0",
+        "1644346673215909db-1",
+        "1644346673215909db-2",
+        "7e2f260b-9426-4f80-b237-654daa7af150",
+        "851298dd-4488-4c37-bd0a-47c632e1f888"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "While this is not a one-size-fits-all list, it does address some of the most common holistic pet care needs. ",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16451372445fbe7db4": {
+      "type": "newsletter",
+      "blocks": {
+        "1645137244617a2009-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be one of our VIP Clients",
+            "heading_size": "h1"
+          }
+        },
+        "1645137244617a2009-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1645137244617a2009-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1645137244617a2009-0",
+        "1645137244617a2009-1",
+        "1645137244617a2009-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "9ca5f611-a015-4aea-9c94-7a2753f16782": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14921794748481__9ca5f611-a015-4aea-9c94-7a2753f16782-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "",
+            "icon": "none",
+            "row_content": "<p>Welcoming a puppy or kitten into your home is a heartwarming experience filled with joy and anticipation. As responsible pet owners, it's our duty to ensure they receive the best care possible during their early stages of life. Let's explore essential tips and practices to support the health and well-being of your young furball companions. From nutrition and exercise to preventive care and socialization, let's lay the groundwork for a lifetime of vitality and happiness.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14921794748481__9ca5f611-a015-4aea-9c94-7a2753f16782-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Considered as Puppy\/Kitten",
+            "icon": "paw_print",
+            "row_content": "<p>🐶 <strong>Puppy:<\/strong><\/p><ul><li>Newborn to 4 weeks: During this time, puppies are entirely dependent on their mother for nourishment and care.<\/li><li>4 weeks to 12 weeks: Puppies start to wean off their mother's milk and transition to solid food. They become more mobile and start to explore their environment.<\/li><li>3 months to 6 months: This stage is often referred to as \"puppyhood.\" Puppies are still growing rapidly, and their energy levels are high. They may begin basic training and socialization.<\/li><\/ul><p>🐱 <strong>Kitten:<\/strong><\/p><ul><li>Newborn to 4 weeks: Like puppies, kittens are completely reliant on their mother for nutrition and care.<\/li><li>4 weeks to 12 weeks: Kittens begin the process of weaning and learning to eat solid food. They also become more playful and curious about their surroundings.<\/li><li>3 months to 6 months: This stage is commonly referred to as \"kittenhood.\" Kittens continue to grow and develop, displaying high levels of energy and playfulness. They may start to learn basic litter box training and socialization.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "template--14921794748481__9ca5f611-a015-4aea-9c94-7a2753f16782-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How To Maintain Your Puppy\/Kitten's Health",
+            "icon": "paw_print",
+            "row_content": "<p>✅ <strong>Nutrition<br\/><\/strong>Providing the right nutrition is paramount for growing puppies and kittens. Opt for high-quality, age-appropriate diets rich in essential nutrients to support their rapid growth and development.<\/p><p>✅ <strong>Vaccinations and Preventive Care<br\/><\/strong>Vaccinations are key to protecting your young pets from common diseases. Establish a vaccination schedule with your veterinarian and ensure they receive regular check-ups for preventive care.<\/p><p>✅ <strong>Socialization<br\/><\/strong>Early socialization introduces your pets to different environments, people, and other animals. This crucial step builds their confidence and helps prevent behavioral issues as they grow older.<\/p><p>✅ <strong>Exercise<br\/><\/strong>Engaging in age-appropriate play and exercise activities is essential for their physical and mental well-being. It helps burn off excess energy and keeps them mentally stimulated.<\/p><p>✅ <strong>Grooming and Hygiene<br\/><\/strong>Regular grooming practices, such as brushing and nail trimming, promote good hygiene and prevent discomfort or health issues. Introduce these routines early to make them part of your pet's normal life.<\/p><p>✅ <strong>Monitoring Growth and Development<br\/><\/strong>Keep a close eye on your young pet's growth and development. If you notice any abnormalities or concerns, consult your veterinarian promptly for guidance.<\/p><p>✅ <strong>Flea, Tick, and Parasite Control<br\/><\/strong>Implement a regular flea, tick, and parasite control regimen to ensure your pets stay comfortable and free from infestations.<\/p><p>✅ <strong>Spaying or Neutering<br\/><\/strong>Discuss the appropriate time for spaying or neutering your pet with your veterinarian. This not only prevents unwanted litters but also offers health benefits.<\/p><p>✅ <strong>Positive Reinforcement and Training<br\/><\/strong>Use positive reinforcement techniques to train your young pet. This not only fosters trust but also establishes obedience and good behavior early on.<\/p><p>✅ <strong>Lots of Love and Attention<\/strong><\/p><p>Shower your puppy or kitten with love and attention. This creates a strong bond between you and your pet, leading to a happy, harmonious life together.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921794748481__9ca5f611-a015-4aea-9c94-7a2753f16782-collapsible_row-1",
+        "template--14921794748481__9ca5f611-a015-4aea-9c94-7a2753f16782-collapsible_row-2",
+        "template--14921794748481__9ca5f611-a015-4aea-9c94-7a2753f16782-collapsible_row-3"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 30;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; font-size: 20px;}",
+        "p {font-family: \"BLT-heirloom\", sans-serif; text-align: justify; text-color: black; font-size: 15px;}",
+        "li {font-family: \"BLT-Heirloom\"; text-align: justify;}"
+      ],
+      "settings": {
+        "caption": "Let's learn more about",
+        "heading": "Puppy & Kitten Health Tips",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1645140795e31deed7": {
+      "type": "collection-list",
+      "blocks": {
+        "99543df5-f1be-456d-bfb0-730b21137132": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "supplements-for-senior-dog"
+          }
+        },
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cardiovascular-support-protocol"
+          }
+        },
+        "9f92ea5b-3c3a-4989-99e5-3087b4f2b250": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "respiratory-support"
+          }
+        },
+        "dabafafd-5561-4ae3-b324-578d725a5f05": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tick-flea-prevention"
+          }
+        },
+        "ddde14f6-e734-4fe6-90f2-e690e202718c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "autoimmune-disease-support"
+          }
+        }
+      },
+      "block_order": [
+        "99543df5-f1be-456d-bfb0-730b21137132",
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3",
+        "9f92ea5b-3c3a-4989-99e5-3087b4f2b250",
+        "dabafafd-5561-4ae3-b324-578d725a5f05",
+        "ddde14f6-e734-4fe6-90f2-e690e202718c"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 25px; padding-top: 30px;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; text-color: black; padding-top: 15px;}",
+        ".button {font-family: \"BLT-heirloom\", sans-serif; text-color: white;}",
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "title": "See More Pet Protocols",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "164514111230637097": {
+      "type": "rich-text",
+      "blocks": {
+        "164514111261d9da74-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Contact Us!<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "164514111261d9da74-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+          }
+        },
+        "164514111261d9da74-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164514111261d9da74-0",
+        "164514111261d9da74-1",
+        "164514111261d9da74-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1644361594fa530990",
+    "banner",
+    "164434556097d46afd",
+    "product-grid",
+    "1631859338560c9b4a",
+    "1644346673ab5cde9c",
+    "16451372445fbe7db4",
+    "9ca5f611-a015-4aea-9c94-7a2753f16782",
+    "1645140795e31deed7",
+    "164514111230637097"
+  ]
+}

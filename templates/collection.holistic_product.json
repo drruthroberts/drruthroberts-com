@@ -1,0 +1,819 @@
+{
+  "sections": {
+    "db372327-cb3a-4987-a1fc-b47b6a11e8ed": {
+      "type": "shop_help",
+      "blocks": {
+        "48572696-b895-4231-934a-b67869f4f393": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.webp",
+            "slide_text": "Allergy Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Allergy Support",
+            "link": "shopify:\/\/collections\/allergy-support-supplement"
+          }
+        },
+        "f23e499c-52f7-47ca-8e24-073513a6d32c": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_6.webp",
+            "slide_text": "Anxious & Scared Pet",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Anxious & Scared Pet",
+            "link": "shopify:\/\/collections\/anxiety-support-protocol"
+          }
+        },
+        "ff0fe0c0-cd60-4dcd-a9f4-12e4813aef8a": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_6.webp",
+            "slide_text": "Stiff & Sore Pet",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Stiff & Sore Pet",
+            "link": "shopify:\/\/collections\/bone-and-joint-health-protocol"
+          }
+        },
+        "41be0c2f-3d9f-4ebc-9710-ed0a3787b146": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_3.webp",
+            "slide_text": "Cancer Support Protocol",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Cancer Support Protocol",
+            "link": "shopify:\/\/collections\/cancer-support"
+          }
+        },
+        "1f23e6ed-5c22-4aa8-91de-a08b6ec788b7": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_4.webp",
+            "slide_text": "Digestive (GI) Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Digestive (GI) Support",
+            "link": "shopify:\/\/collections\/gastrointestinal-support"
+          }
+        },
+        "c87258ea-13bf-4613-97d4-e7e257d264c7": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_4.webp",
+            "slide_text": "General Detox Protocol",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "General Detox Protocol",
+            "link": "shopify:\/\/collections\/general-detox-protocol"
+          }
+        },
+        "f61e2815-d780-43e1-b691-f106f89200d6": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_3.webp",
+            "slide_text": "Kidney Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Kidney Support",
+            "link": "shopify:\/\/collections\/kidney-support"
+          }
+        },
+        "7c83ab62-7769-4ff6-93df-dac21f806032": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.webp",
+            "slide_text": "Liver Support Protocol",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Liver Support Protocol",
+            "link": "shopify:\/\/collections\/liver-support"
+          }
+        },
+        "01c60548-1add-47c9-bfde-ee80bbd3a247": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac_1.webp",
+            "slide_text": "Post Surgery Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Post Surgery Support",
+            "link": "shopify:\/\/collections\/post-surgical-care-collection"
+          }
+        },
+        "6bfbfa35-c205-4c78-897d-72bf9f7841cf": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_5.webp",
+            "slide_text": "Senior Pet Care",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Senior Pet Care",
+            "link": "shopify:\/\/collections\/supplements-for-senior-dog"
+          }
+        },
+        "2ea3c12d-8333-42da-a858-d8ce008e0640": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_6.webp",
+            "slide_text": "Puppy\/Kitten Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Puppy\/Kitten Support",
+            "link": "shopify:\/\/collections\/puppy-kitten-support"
+          }
+        },
+        "fdb600d7-1608-4be9-ad50-7ccdc9d79f50": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac_1.webp",
+            "slide_text": "Heart Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Heart Support",
+            "link": "shopify:\/\/collections\/cardiovascular-support-protocol"
+          }
+        },
+        "ff179595-84cf-4dc8-86f9-19b51235a7e9": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac_1.webp",
+            "slide_text": "Respiratory Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Respiratory Support",
+            "link": "shopify:\/\/collections\/respiratory-support"
+          }
+        },
+        "4047f92a-42e0-4aca-a63e-87db7fc2fea4": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_5.webp",
+            "slide_text": "Tick & Flea Prevention",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Tick & Flea Prevention",
+            "link": "shopify:\/\/collections\/tick-flea-prevention"
+          }
+        },
+        "f9ea5ce3-9528-4111-bb47-5a6f10983b7e": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_4.webp",
+            "slide_text": "Autoimmune Disease Support",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Autoimmune Disease Support",
+            "link": "shopify:\/\/collections\/autoimmune-disease-support"
+          }
+        },
+        "875cb5b6-fbb8-40ef-8b14-12680dfc8b0b": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_4.webp",
+            "slide_text": "Standar Process Canine Collection",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Standar Process Canine Collection",
+            "link": "shopify:\/\/collections\/sp-canine-collection"
+          }
+        },
+        "aa00118e-9637-4ef8-9268-93412fcb5a45": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_4.webp",
+            "slide_text": "Standar Process Feline Collection",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Standar Process Feline Collection",
+            "link": "shopify:\/\/collections\/standard-process-feline-collection"
+          }
+        },
+        "d7dc5cfb-eb13-4bb1-84ac-44c0dcff29ae": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.webp",
+            "slide_text": "Standar Process Immune Collection",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Standar Process Immune Collection",
+            "link": "shopify:\/\/collections\/standard-process-immune-collection"
+          }
+        },
+        "b051e3b0-d04a-46d9-b072-c397ffa0f578": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_5.webp",
+            "slide_text": "Standar Process Liver Collection",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Standar Process Liver Collection",
+            "link": "shopify:\/\/collections\/standard-process-liver-support-collection"
+          }
+        },
+        "12db348e-5b71-4b4d-bcf1-fee74bd24759": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_6.webp",
+            "slide_text": "Standar Process Renal Collection",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Standar Process Renal Collection",
+            "link": "shopify:\/\/collections\/standard-process-renal-support-collection"
+          }
+        },
+        "eeb51a4a-42eb-45ed-9b89-dcb5f6927c35": {
+          "type": "slider",
+          "settings": {
+            "allshopicon": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac_1.webp",
+            "slide_text": "Standar Process Veterinary Collection",
+            "slide_type": "Pet device System Supported",
+            "slide_val": "Standar Process Veterinary Collection",
+            "link": "shopify:\/\/collections\/sp-veterinary-collection"
+          }
+        }
+      },
+      "block_order": [
+        "48572696-b895-4231-934a-b67869f4f393",
+        "f23e499c-52f7-47ca-8e24-073513a6d32c",
+        "ff0fe0c0-cd60-4dcd-a9f4-12e4813aef8a",
+        "41be0c2f-3d9f-4ebc-9710-ed0a3787b146",
+        "1f23e6ed-5c22-4aa8-91de-a08b6ec788b7",
+        "c87258ea-13bf-4613-97d4-e7e257d264c7",
+        "f61e2815-d780-43e1-b691-f106f89200d6",
+        "7c83ab62-7769-4ff6-93df-dac21f806032",
+        "01c60548-1add-47c9-bfde-ee80bbd3a247",
+        "6bfbfa35-c205-4c78-897d-72bf9f7841cf",
+        "2ea3c12d-8333-42da-a858-d8ce008e0640",
+        "fdb600d7-1608-4be9-ad50-7ccdc9d79f50",
+        "ff179595-84cf-4dc8-86f9-19b51235a7e9",
+        "4047f92a-42e0-4aca-a63e-87db7fc2fea4",
+        "f9ea5ce3-9528-4111-bb47-5a6f10983b7e",
+        "875cb5b6-fbb8-40ef-8b14-12680dfc8b0b",
+        "aa00118e-9637-4ef8-9268-93412fcb5a45",
+        "d7dc5cfb-eb13-4bb1-84ac-44c0dcff29ae",
+        "b051e3b0-d04a-46d9-b072-c397ffa0f578",
+        "12db348e-5b71-4b4d-bcf1-fee74bd24759",
+        "eeb51a4a-42eb-45ed-9b89-dcb5f6927c35"
+      ],
+      "custom_css": [
+        ".slidecontent {text-align: center;}",
+        "@media screen and (max-width:1300px){.slidebg{min-height:150px;}"
+      ],
+      "settings": {
+        "shop_head": "Shop by health concern and life stages"
+      }
+    },
+    "1644361594fa530990": {
+      "type": "image-with-text",
+      "blocks": {
+        "164436159488e9de81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Itchy & Irritated Pet Support",
+            "heading_size": "h1"
+          }
+        },
+        "164436159488e9de81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If your pet has severe allergies and is itchy, try this effective protocol to reduce circulating histamines. Quercetin paired with nettles, powerful herbal antihistamines, and Omega 3 Fatty Acids (O3FA) have been shown to stabilize the itch-inducing histamine molecule, helping to improve your pet’s comfort.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164436159488e9de81-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Allergy Brochure",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/%5BSensitive+Skin%5D+Supplement+Brochure.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "164436159488e9de81-0",
+        "164436159488e9de81-1",
+        "164436159488e9de81-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_460808f2-0175-4325-9466-ed0dd936c712.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16452282691bf020ea": {
+      "type": "image-with-text",
+      "blocks": {
+        "164522826959604e49-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Chill The Itch",
+            "heading_size": "h1"
+          }
+        },
+        "164522826959604e49-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For pets with itchy skin, allergy and to calm the fire naturally.<br\/><\/p><p><em><strong>Hista-Paws For Cats And Dogs<\/strong><\/em><\/p><p><em><strong>Vitality- Mushroom Supplement<\/strong><\/em><\/p><p><em><strong>Omega Pawz- Omega 3 Fatty Acids<\/strong><\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "164522826959604e49-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Bundle Now",
+            "button_link": "shopify:\/\/products\/chill-the-itch-itchy-skin-relief-for-dogs-cats"
+          }
+        }
+      },
+      "block_order": [
+        "164522826959604e49-0",
+        "164522826959604e49-1",
+        "164522826959604e49-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/12_6b203ac2-5d10-486f-af03-6774b3193bd7.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "h3 a {text-align: left;}",
+        ".price-item {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 15px; line-height: 22px; letter-spacing: 0.04em; text-transform: uppercase; color: #184b44;}",
+        ".full-unstyled-link {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 14px; line-height: 20px; letter-spacing: 0.04em; color: #1e1e1e;}",
+        ".card__heading {margin-top: 30px;}",
+        ".card__content {grid-template-rows: none;}",
+        ".quick-add__submit {margin-top: -17%; margin-bottom: 8%; background: #007a5c; color: white;}",
+        ".card__information {min-height: 150px;}"
+      ],
+      "settings": {
+        "products_per_page": 9,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "show_special_offer": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "rating": 5
+      }
+    },
+    "1631859338560c9b4a": {
+      "type": "collection-list",
+      "blocks": {
+        "1631859338560c9b4a-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bars"
+          }
+        },
+        "1631859338560c9b4a-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boards"
+          }
+        },
+        "1631859338560c9b4a-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "core-kites"
+          }
+        }
+      },
+      "block_order": [
+        "1631859338560c9b4a-0",
+        "1631859338560c9b4a-1",
+        "1631859338560c9b4a-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SHOP MORE",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>A Healthy Gut, is a Happy Pet<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rebuilding the gut is the place to start. As you strengthen the gut, you reduce the chances your pet will absorb allergens from what she is eating, grooming off of herself, and otherwise ingesting.<br\/><br\/>Though it may not make sense to work on improving gut function to reduce allergic disease, 70% of the immune system is in the gut. If your pet has taken antibiotics, steroids, or other potent anti-allergy meds, the normal microbiome has been destroyed.<\/p><p>I use the products above for all my consulting clients, to get fantastic health outcomes. I've recommended them for years, and use them for my own pets to keep their health and immune function top notch. <\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1644346673ab5cde9c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1644346673215909db-0": {
+          "type": "column",
+          "settings": {
+            "title": "Multivitamin ",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644346673215909db-1": {
+          "type": "column",
+          "settings": {
+            "title": "Fish Oil",
+            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644346673215909db-2": {
+          "type": "column",
+          "settings": {
+            "title": "Probiotics",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7e2f260b-9426-4f80-b237-654daa7af150": {
+          "type": "column",
+          "settings": {
+            "title": "Antioxidants",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "851298dd-4488-4c37-bd0a-47c632e1f888": {
+          "type": "column",
+          "settings": {
+            "title": "Turmeric",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644346673215909db-0",
+        "1644346673215909db-1",
+        "1644346673215909db-2",
+        "7e2f260b-9426-4f80-b237-654daa7af150",
+        "851298dd-4488-4c37-bd0a-47c632e1f888"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "While this is not a one-size-fits-all list, it does address some of the most common holistic pet care needs. ",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1644362911e27a17cd": {
+      "type": "multicolumn",
+      "blocks": {
+        "1644362911ff49262e-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644362911ff49262e-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644362911ff49262e-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b5900dc0-f343-402a-9fe7-0eb98426b80b": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644362911ff49262e-0",
+        "1644362911ff49262e-1",
+        "1644362911ff49262e-2",
+        "c8e6142f-83cd-40f6-bb7b-2ad9fdf00bd2",
+        "b5900dc0-f343-402a-9fe7-0eb98426b80b"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "Holistic Veterinary Care Packages",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16451372445fbe7db4": {
+      "type": "newsletter",
+      "blocks": {
+        "1645137244617a2009-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be one of our VIP Clients",
+            "heading_size": "h1"
+          }
+        },
+        "1645137244617a2009-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1645137244617a2009-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1645137244617a2009-0",
+        "1645137244617a2009-1",
+        "1645137244617a2009-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16443635858774eb64": {
+      "type": "rich-text",
+      "blocks": {
+        "1644363585f56cc491-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "1644363585f56cc491-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/p>"
+          }
+        },
+        "1644363585f56cc491-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644363585f56cc491-0",
+        "1644363585f56cc491-1",
+        "1644363585f56cc491-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1ee7ec2f-9d8d-48b7-88ba-da1ac3cd0a2c": {
+      "type": "shop_blog",
+      "blocks": {
+        "31676a7d-3f04-42b4-a644-a4855f1f823e": {
+          "type": "blogs",
+          "settings": {
+            "bhead": "High-quality products",
+            "bdes": "Our pet supplements and products are made from the finest natural ingredients and are formulated to promote pet health and wellness."
+          }
+        },
+        "43313def-158e-4b20-ba09-62ce3e81aec4": {
+          "type": "blogs",
+          "settings": {
+            "bhead": "Get rewarded for your loyalty",
+            "bdes": "We value our loyal customers. The more you shop and engage with us, the more rewards you can earn with our Happy Paws program."
+          }
+        },
+        "1eb8ccb4-52ef-4221-a35c-e0788bae722c": {
+          "type": "blogs",
+          "settings": {
+            "bhead": "Wide selection",
+            "bdes": "Our shop offers a wide variety of products to suit every pet's needs and preferences. Whether you have a dog, cat, or a horse, we have something for everyone."
+          }
+        }
+      },
+      "block_order": [
+        "31676a7d-3f04-42b4-a644-a4855f1f823e",
+        "43313def-158e-4b20-ba09-62ce3e81aec4",
+        "1eb8ccb4-52ef-4221-a35c-e0788bae722c"
+      ],
+      "custom_css": [
+        ".shopbhead {padding: 0 10%;}",
+        "@media screen and (max-width: 1100px) {.shop_block {margin-left: 0; }}",
+        "@media screen and (max-width: 1000px) {.shopbhead {padding: 0; }}",
+        ".shop-pos {display: flex; flex-direction: column; align-items: center;}",
+        ".blogbodr1 {margin-top: 5%;}",
+        "@media screen and (max-width: 620px) {.blogbodr1 a {padding: 14px 6px; }}",
+        "@media screen and (max-width: 520px) {.blogbodr1 a {padding: 14px 20px; }}",
+        "@media screen and (max-width: 400px) {.shop_content {min-height: 300px; }}",
+        ".blogbodr1 a {padding: 14px 24px !important;}"
+      ],
+      "settings": {
+        "shop_head": ""
+      }
+    },
+    "bf439973-440a-472f-9457-8fcc42a11409": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Subscribe & save",
+            "heading_size": "h1"
+          }
+        },
+        "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "You'll get free shipping on orders $100 above plus 5% off every time you shop, and the comfort of knowing that your pet's favorite product will arrive month after month.",
+            "text_style": "body"
+          }
+        },
+        "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Email",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-0",
+        "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-1",
+        "template--14900946337857__bf439973-440a-472f-9457-8fcc42a11409-16796542453a418556-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner__box.content-container.content-container--full-width-mobile.color-background-1.gradient {width: 60%;}",
+        ".imagedes {display: none;}",
+        "*:focus-visible {outline: none; box-shadow: none;}",
+        ".newsletter-form__field-wrapper {margin-left: 0%;}",
+        "::placeholder {font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; color: #ffffff; opacity: 1;}",
+        "@media screen and (max-width: 748px) {.banner__box.content-container. {width: 98%; } ::placeholder {color: #000; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_10.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "3121c95f-4eec-43f7-b3cd-3add1d3fa814": {
+      "type": "klaviyo_subscriptionform",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "db372327-cb3a-4987-a1fc-b47b6a11e8ed",
+    "1644361594fa530990",
+    "16452282691bf020ea",
+    "banner",
+    "product-grid",
+    "1631859338560c9b4a",
+    "164434556097d46afd",
+    "1644346673ab5cde9c",
+    "1644362911e27a17cd",
+    "16451372445fbe7db4",
+    "16443635858774eb64",
+    "1ee7ec2f-9d8d-48b7-88ba-da1ac3cd0a2c",
+    "bf439973-440a-472f-9457-8fcc42a11409",
+    "3121c95f-4eec-43f7-b3cd-3add1d3fa814"
+  ]
+}

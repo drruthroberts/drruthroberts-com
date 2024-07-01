@@ -1,0 +1,958 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "29966739-8bcc-421d-8e19-368ce7459253": {
+      "type": "image-with-text-2",
+      "blocks": {
+        "template--14952470151233__29966739-8bcc-421d-8e19-368ce7459253-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become a Certified Holistic Pet Health Coach Dr. Ruth Roberts",
+            "heading_size": "h1"
+          }
+        },
+        "template--14952470151233__29966739-8bcc-421d-8e19-368ce7459253-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform  your passion for pet health & wellness into a meaningful and rewarding career<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14952470151233__29966739-8bcc-421d-8e19-368ce7459253-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "https:\/\/drruthroberts.com\/pages\/application-form"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952470151233__29966739-8bcc-421d-8e19-368ce7459253-heading-1",
+        "template--14952470151233__29966739-8bcc-421d-8e19-368ce7459253-text-1",
+        "template--14952470151233__29966739-8bcc-421d-8e19-368ce7459253-button-1"
+      ],
+      "custom_css": [
+        ".image-with-text .global-media-settings {margin: -85px auto -50px !important;}",
+        ".image-with-text {background-color: #2d4b49; margin: 0; max-width: 100%;}",
+        ".grid__item > div {background: #fff0; justify-content: center;}",
+        ".image-with-text__media-item img {object-fit: contain;}",
+        ".image-with-text__heading {font-family: \"BLT-Heirloom\"; color: #fff; font-size: 60px; line-height: 60px;}",
+        ".image-with-text__grid {max-width: 1300px; margin: auto;}",
+        ".image-with-text__text p {color: #fff; font-size: 18px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_832_7a816a15-551a-4e45-9168-810aaa54d922.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "33dcf6b1-6e13-44cf-99dd-765cf3a44117": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921792946241__33dcf6b1-6e13-44cf-99dd-765cf3a44117-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>A Comprehensive Training in Pet Health and Wellness: Guide pet owners towards natural and holistic health solutions for their beloved animals as a certified pet health coach.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__33dcf6b1-6e13-44cf-99dd-765cf3a44117-column-1"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300;}",
+        ".button.button--primary,.multicolumn-card__info .icon-wrap {display: none;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Design Your Dream Career and Lifestyle",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "fadcc9ee-5901-42d9-8139-51be2d304bad": {
+      "type": "coachingmainblog",
+      "custom_css": [
+        "svg {display: none;}"
+      ],
+      "settings": {
+        "c_head": "",
+        "pro_btn1": "Check our consultants",
+        "program_link1": "https:\/\/drruthroberts.com\/pages\/consulting-page#our_consultants"
+      }
+    },
+    "91d75749-340e-4f9a-9bba-f82d8c67429a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14952470151233__91d75749-340e-4f9a-9bba-f82d8c67429a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Design Your Dream Career and Lifestyle",
+            "heading_size": "h1"
+          }
+        },
+        "template--14952470151233__91d75749-340e-4f9a-9bba-f82d8c67429a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Certified Holistic Pet Health Coaches are trained professionals who specialize in providing guidance and support to pet owners in achieving optimal health and well-being for their pets using holistic, integrative and natural approaches. These coaches have an understanding of the various factors that impact pet health, such as nutrition, exercise, emotional health, and environmental factors. <\/p><p>By becoming a certified Holistic Pet Health Coach, they may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. You may also offer  a range of services, the science behind Functional Medicine, supporting dogs and cats with Traditional Chinese Veterinary Medicine, developing food and supplement plans tailored to each cat and dog, and lifestyle coaching to help domestic animals thrive and live healthier, happier lives. Additionally, the program has received approval for 40 hours of RACE CE Credits through AAVSB. Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952470151233__91d75749-340e-4f9a-9bba-f82d8c67429a-heading-1",
+        "template--14952470151233__91d75749-340e-4f9a-9bba-f82d8c67429a-text-1"
+      ],
+      "custom_css": [
+        ".image-with-text__grid {background: #fdc530; padding: 35px 35px 40px; border-radius: 50px;}",
+        ".image-with-text__grid div {background-color: #fff0;}",
+        ".image-with-text__heading {text-align: left;}",
+        ".image-with-text__media-item {width: 5% !important;}",
+        ".image-with-text__text-item {padding-left: 0%;}",
+        ".image-with-text__text {padding-right: 0%;}",
+        ".image-with-text__media {max-width: 250px; margin: auto;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        "h2.image-with-text__heading {font-size: 46px; line-height: 50px;}",
+        "p {color: #1e1e1e;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_2261.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "43dd9016-3eb5-4a94-9f3b-f0265f70480f": {
+      "type": "Our_services",
+      "blocks": {
+        "845d34e5-ddd8-4741-a362-976266a5baa1": {
+          "type": "link",
+          "settings": {
+            "btn_txt": "Comprehensive Training",
+            "btn_url": "#"
+          }
+        },
+        "48e5eb75-f5bb-4aad-abdc-4d783fe7ae01": {
+          "type": "link",
+          "settings": {
+            "btn_txt": "Personalized Learning",
+            "btn_url": "#"
+          }
+        },
+        "0d616814-72c7-4118-beba-e41885924e3f": {
+          "type": "link",
+          "settings": {
+            "btn_txt": "One-to-One Mentorship",
+            "btn_url": "#"
+          }
+        },
+        "3744653d-a085-4b64-a48f-01d14e8410a7": {
+          "type": "link",
+          "settings": {
+            "btn_txt": "Networking Opportunities",
+            "btn_url": "#"
+          }
+        },
+        "1a2cdd71-cbc2-427f-a254-7e6253dcd7b1": {
+          "type": "img",
+          "settings": {
+            "main_img": "shopify:\/\/shop_images\/our_service.png"
+          }
+        },
+        "0365add8-b5ce-4b53-a25e-97e33cba76c4": {
+          "type": "detail",
+          "settings": {
+            "detail": "<p>We help you develop the knowledge and skills you need to provide effective and compassionate care for pets.<\/p>",
+            "btn_txtm": "Apply Now",
+            "btn_urlm": "https:\/\/drruthroberts.com\/pages\/application-form"
+          }
+        }
+      },
+      "block_order": [
+        "845d34e5-ddd8-4741-a362-976266a5baa1",
+        "48e5eb75-f5bb-4aad-abdc-4d783fe7ae01",
+        "0d616814-72c7-4118-beba-e41885924e3f",
+        "3744653d-a085-4b64-a48f-01d14e8410a7",
+        "1a2cdd71-cbc2-427f-a254-7e6253dcd7b1",
+        "0365add8-b5ce-4b53-a25e-97e33cba76c4"
+      ],
+      "settings": {
+        "heading": "Our services"
+      }
+    },
+    "9b0d08f1-a76e-458f-b2a5-8a8355d1c83f": {
+      "type": "how_it_work",
+      "blocks": {
+        "47588844-3245-4d6c-9603-2f57d9c9a97e": {
+          "type": "points",
+          "settings": {
+            "title": "1. Apply",
+            "detail": "<p>Fill out our application form and let us know why you’re a good fit for the program.<\/p>"
+          }
+        },
+        "7d168ce2-2327-4063-9aa1-d7a5cbd368d3": {
+          "type": "points",
+          "settings": {
+            "title": "2. Application Review",
+            "detail": "<p>We will review your application and assess your qualifications and suitability for the program.<\/p>"
+          }
+        },
+        "e351c8f7-fbce-48ff-98e5-345154581af5": {
+          "type": "points",
+          "settings": {
+            "title": "3. Interview",
+            "detail": "<p>If your application is accepted, you'll have the opportunity to discuss your goals and motivations for becoming a Certified Holistic <br\/>Pet Health Coach.<\/p>"
+          }
+        },
+        "4b5ffca6-e232-4387-8a17-7f4324bcdc14": {
+          "type": "points",
+          "settings": {
+            "title": "4. Acceptance",
+            "detail": "<p>After the interview, the team will notify you of your acceptance into the program<\/p>"
+          }
+        },
+        "f1f6b848-95b4-47bb-8c1e-09e984ece23d": {
+          "type": "points",
+          "settings": {
+            "title": "5. Coaching",
+            "detail": "<p>You'll begin the coaching 16 sessions where you'll learn about a variety of topics related to pet health with Dr. Ruth Roberts<\/p>"
+          }
+        },
+        "2c14436e-eb21-4989-9caf-2029bce86a79": {
+          "type": "points",
+          "settings": {
+            "title": "6. Mentorship",
+            "detail": "<p>16  sessions with experienced professionals in the field for personalized guidance and support as you work towards completing the program.<\/p>"
+          }
+        },
+        "fdd39b0a-8a80-4db4-a898-d1bca1c442f5": {
+          "type": "points",
+          "settings": {
+            "title": "7. Exam",
+            "detail": "<p>After completing the coaching sessions, you'll take an exam to assess your understanding of the material covered in the program.<\/p>"
+          }
+        },
+        "132c0fa1-9ebf-491b-95c8-de367a84b647": {
+          "type": "points",
+          "settings": {
+            "title": "8. Graduate",
+            "detail": "<p>Receive your certification as a Certified Holistic Pet Health Coach and be recognized as a qualified professional in the field.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "47588844-3245-4d6c-9603-2f57d9c9a97e",
+        "7d168ce2-2327-4063-9aa1-d7a5cbd368d3",
+        "e351c8f7-fbce-48ff-98e5-345154581af5",
+        "4b5ffca6-e232-4387-8a17-7f4324bcdc14",
+        "f1f6b848-95b4-47bb-8c1e-09e984ece23d",
+        "2c14436e-eb21-4989-9caf-2029bce86a79",
+        "fdd39b0a-8a80-4db4-a898-d1bca1c442f5",
+        "132c0fa1-9ebf-491b-95c8-de367a84b647"
+      ],
+      "settings": {
+        "heading": "How it Works during the program",
+        "desc": "<p>From application to graduation, our program offers a comprehensive journey towards becoming a certified holistic pet health coach. In this guide, we will walk you through each step of the process and provide an overview of what you can expect as you embark on this exciting career path<\/p>",
+        "btn_txt": "Apply Now",
+        "btn_url": "https:\/\/drruthroberts.com\/pages\/application-form"
+      }
+    },
+    "295c072c-7667-4bf1-80ae-c3bbfee4074b": {
+      "type": "multicolumn",
+      "blocks": {
+        "a4163be9-97d5-4fcf-9a5e-9aca993ab405": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>From application to graduation, our program offers a comprehensive journey towards becoming a certified holistic pet health coach. In this guide, we will walk you through each step of the process and provide an overview of what you can expect as you embark on this exciting career path<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a4163be9-97d5-4fcf-9a5e-9aca993ab405"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; text-align: center !important;}",
+        ".button.button--primary,.multicolumn-card__info .icon-wrap {display: none;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "After the program, Join our network of certified Holistic Pet Health Coaches",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "068f4c7f-2708-4af0-9ba4-5926ffd56208": {
+      "type": "custom-testimonial",
+      "blocks": {
+        "template--14952470151233__068f4c7f-2708-4af0-9ba4-5926ffd56208-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Dr. Ruth Referral Program",
+            "subtitle": "Column",
+            "text": "<p>After graduation, you'll have the opportunity to be listed on our consultants’ page and  join a network of other Certified Holistic Pet Health Coaches. This program connects certified holistic pet health coaches with potential clients who are seeking high-quality, personalized care for their dogs and cats. By joining the Dr. Ruth Referral Program, you'll be listed on a dedicated page, giving you exposure to a wide audience of pet owners who are actively seeking holistic pet care services.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14952470151233__068f4c7f-2708-4af0-9ba4-5926ffd56208-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Dr. Ruth Live Q&A Sessions",
+            "subtitle": "Column",
+            "text": "<p>We follow up with graduates on a weekly basis via live Q&A sessions run by Dr. Ruth. All graduates will have free access to the Q&A sessions for a year after graduation ensuring that graduates have ample time to take advantage of this resource and continue to refine their knowledge and skillsThe Q&A sessions are a great way for graduates of the program to stay connected and continue to learn and develop their skills as Certified Holistic Pet Health Coaches. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14952470151233__068f4c7f-2708-4af0-9ba4-5926ffd56208-column-1",
+        "template--14952470151233__068f4c7f-2708-4af0-9ba4-5926ffd56208-column-2"
+      ],
+      "custom_css": [
+        "h3 {color: #fff; font-family: Montserrat; font-size: 29.533px;}",
+        ".multicolumn-list__item {border-radius: 25px; color: #fff; font-family: \"Josefin Sans\"; font-weight: 400;}",
+        ".multicolumn-list__item:nth-of-type(1) {background-color: #2d4b49;}",
+        ".multicolumn-list__item:nth-of-type(2) {background: linear-gradient(0deg, #a6b7ff 0%, #a6b7ff 100%), #e9deff;}",
+        ".button {color: #2d4b49; background: #a6b7ff; border-radius: 50px; padding: 16px 40px 11px; font-family: Josefin Sans; text-transform: uppercase; letter-spacing: 4.2px; margin-top: 90px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Apply Now",
+        "button_link": "https:\/\/drruthroberts.com\/pages\/application-form",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 84
+      }
+    },
+    "0967645d-51d5-4ed7-98bb-13a79e9edfe7": {
+      "type": "What_you_will_learn",
+      "blocks": {
+        "024a2427-e055-42eb-81ad-5662bc9a068f": {
+          "type": "points",
+          "settings": {
+            "point_number": "Module 1",
+            "title": "Endocrine",
+            "detail": "<p>This module will cover the endocrine system and how it impacts pet health, including strategies for supporting healthy hormonal balance.<\/p>"
+          }
+        },
+        "f00d98b6-df92-4541-8a11-006a712afbc5": {
+          "type": "points",
+          "settings": {
+            "point_number": "Module 2",
+            "title": "BusinessLogistics\/Essentials",
+            "detail": "<p>You'll learn about the business side of pet health coaching, including legal and financial considerations.<\/p>"
+          }
+        },
+        "c561e895-a20b-43dc-b392-369b330f98b5": {
+          "type": "points",
+          "settings": {
+            "point_number": "Module 3",
+            "title": "Skin",
+            "detail": "<p>This module will cover common skin issues in pets and how to support healthy skin through nutrition and other holistic approaches.<\/p>"
+          }
+        },
+        "a6fc9c43-9b86-44c5-b3f9-1f35c182e186": {
+          "type": "points",
+          "settings": {
+            "point_number": "Module 4",
+            "title": "Endocrine",
+            "detail": "<p>This module will cover the endocrine system and how it impacts pet health, including strategies for supporting healthy hormonal balance.<\/p>"
+          }
+        },
+        "8aee48a5-24f0-4d5e-8789-08251dcd1730": {
+          "type": "points",
+          "settings": {
+            "point_number": "Module 5",
+            "title": "BusinessLogistics\/Essentials",
+            "detail": "<p>You'll learn about the business side of pet health coaching, including legal and financial considerations.<\/p>"
+          }
+        },
+        "a5bb3e43-58bc-474a-a576-cb705f0f9e8d": {
+          "type": "points",
+          "settings": {
+            "point_number": "Module 6",
+            "title": "Skin",
+            "detail": "<p>This module will cover common skin issues in pets and how to support healthy skin through nutrition and other holistic approaches.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "024a2427-e055-42eb-81ad-5662bc9a068f",
+        "f00d98b6-df92-4541-8a11-006a712afbc5",
+        "c561e895-a20b-43dc-b392-369b330f98b5",
+        "a6fc9c43-9b86-44c5-b3f9-1f35c182e186",
+        "8aee48a5-24f0-4d5e-8789-08251dcd1730",
+        "a5bb3e43-58bc-474a-a576-cb705f0f9e8d"
+      ],
+      "custom_css": [
+        ".amr_what_learn {padding: 135px 0 160px;}"
+      ],
+      "settings": {
+        "bg_color": "#2d4b49",
+        "heading": "What you will learn",
+        "desc": "<p>The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to get started on your career path without worrying about financial constraints. By becoming a certified holistic pet health coach, you'll be able to make a positive impact on the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!<\/p>"
+      }
+    },
+    "6062b1f4-3e8c-4f90-a072-e18850ceccfd": {
+      "type": "Our_Certified_Coaches",
+      "blocks": {
+        "5b7b62f2-c989-440a-b405-910eb37bba51": {
+          "type": "consultants",
+          "settings": {
+            "bg_img": "shopify:\/\/shop_images\/c1.png",
+            "title": "Sandy Giles",
+            "detail": "<p>Certified Dog Trainer, HPHC<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": ""
+          }
+        },
+        "d034838f-3f9c-4c6a-b33f-6daf7069d80f": {
+          "type": "consultants",
+          "settings": {
+            "bg_img": "shopify:\/\/shop_images\/c2.png",
+            "title": "Leah Bookhammer",
+            "detail": "<p>Certified Dog Trainer, HPHC<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": ""
+          }
+        },
+        "e979b194-067e-4cb4-b46c-a187dc2a3d8f": {
+          "type": "consultants",
+          "settings": {
+            "bg_img": "shopify:\/\/shop_images\/c3.png",
+            "title": "Wilma Shaw",
+            "detail": "<p>Certified Dog Trainer, HPHC<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": ""
+          }
+        },
+        "b8677903-5d45-4e90-a170-cdf32471689e": {
+          "type": "consultants",
+          "settings": {
+            "bg_img": "shopify:\/\/shop_images\/c4.png",
+            "title": "Dlorah Devore",
+            "detail": "<p>Certified Dog Trainer, HPHC<\/p>",
+            "btn_txt": "Book A Consultation",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "5b7b62f2-c989-440a-b405-910eb37bba51",
+        "d034838f-3f9c-4c6a-b33f-6daf7069d80f",
+        "e979b194-067e-4cb4-b46c-a187dc2a3d8f",
+        "b8677903-5d45-4e90-a170-cdf32471689e"
+      ],
+      "settings": {
+        "heading": "Our Certified Coaches",
+        "desc": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. <\/p>",
+        "btn_txt_main": "Book A Consultation",
+        "btn_url_main": "https:\/\/drruthroberts.com\/pages\/consulting-page#our_consultants"
+      }
+    },
+    "cdb9ea8d-5b05-4219-930a-f46075180e68": {
+      "type": "Pricing_plan",
+      "blocks": {
+        "254dd3d0-2108-4bf5-908f-d4509561a67d": {
+          "type": "plan",
+          "settings": {
+            "custom_class": "",
+            "title": "Four",
+            "detail": "Monthly Installments",
+            "price": "$1500",
+            "time": "4 months",
+            "kpoints": "<ul><li>The program's total cost $6000. <\/li><li>You will pay $1,500 admission fees <\/li><li> $1,500 per month.<\/li><\/ul>",
+            "btn_txt": "Apply Now",
+            "btn_url": ""
+          }
+        },
+        "2b6855a9-d2fa-4d40-acec-c6390a5355e6": {
+          "type": "plan",
+          "settings": {
+            "custom_class": "PP_dark",
+            "title": "one",
+            "detail": "Advanced Payment",
+            "price": "$5000",
+            "time": "",
+            "kpoints": "<ul><li>Pay in full for $5000 (one-time fee). <\/li><li>You will pay $5,000 all at once, <\/li><li>No additional payments will be required.<\/li><\/ul>",
+            "btn_txt": "Apply Now",
+            "btn_url": ""
+          }
+        },
+        "df7b49a3-8db0-4fb1-930b-2baf4adf828f": {
+          "type": "plan",
+          "settings": {
+            "custom_class": "",
+            "title": "Sixteen",
+            "detail": "Weekly Installments",
+            "price": "$367",
+            "time": "15 months",
+            "kpoints": "<ul><li>The program's total cost is $6005.<\/li><li>You will pay $500 admission fees<\/li><li>$367 per week.<\/li><\/ul>",
+            "btn_txt": "Apply Now",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "254dd3d0-2108-4bf5-908f-d4509561a67d",
+        "2b6855a9-d2fa-4d40-acec-c6390a5355e6",
+        "df7b49a3-8db0-4fb1-930b-2baf4adf828f"
+      ],
+      "custom_css": [
+        ".amr_pricing_plan {padding-top: 0;}"
+      ],
+      "settings": {
+        "heading": "Program fees",
+        "desc": "<p>The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to get started on your career path without worrying about financial constraints.By becoming a certified holistic pet health coach, you'll be able to make a positive impact on the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!<\/p>"
+      }
+    },
+    "feaf7099-4632-4f4a-beb7-b14a2f6dfcb7": {
+      "type": "hza_testimonial",
+      "blocks": {
+        "ae1b5ffd-9b16-4754-9c48-8d0724c96157": {
+          "type": "testimonial",
+          "settings": {
+            "bg_color": "#2d4b49",
+            "title": "Mind Blowing!",
+            "title_color": "#ffffff",
+            "main_img": "shopify:\/\/shop_images\/b716bc8363553aa644c12de5d484544e.png",
+            "name": "Missy Springer & Kenzie South Paw Aussies",
+            "name_color": "#ffffff",
+            "message": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies<\/p>",
+            "message_color": "#ffffff",
+            "star_img": "shopify:\/\/shop_images\/Vector.svg"
+          }
+        },
+        "239b2bd7-f911-4dae-8651-5f0d8d3fb84b": {
+          "type": "testimonial",
+          "settings": {
+            "bg_color": "#2d4b49",
+            "title": "Mind Blowing!",
+            "title_color": "#ffffff",
+            "main_img": "shopify:\/\/shop_images\/b716bc8363553aa644c12de5d484544e.png",
+            "name": "Missy Springer & Kenzie South Paw Aussies",
+            "name_color": "#ffffff",
+            "message": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies<\/p>",
+            "message_color": "#ffffff",
+            "star_img": "shopify:\/\/shop_images\/Vector.svg"
+          }
+        },
+        "ed7e48d5-5e44-435e-b6b6-358458977a8d": {
+          "type": "testimonial",
+          "settings": {
+            "bg_color": "#2d4b49",
+            "title": "Mind Blowing!",
+            "title_color": "#ffffff",
+            "main_img": "shopify:\/\/shop_images\/b716bc8363553aa644c12de5d484544e.png",
+            "name": "Missy Springer & Kenzie South Paw Aussies",
+            "name_color": "#ffffff",
+            "message": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies<\/p>",
+            "message_color": "#ffffff",
+            "star_img": "shopify:\/\/shop_images\/Vector.svg"
+          }
+        }
+      },
+      "block_order": [
+        "ae1b5ffd-9b16-4754-9c48-8d0724c96157",
+        "239b2bd7-f911-4dae-8651-5f0d8d3fb84b",
+        "ed7e48d5-5e44-435e-b6b6-358458977a8d"
+      ],
+      "custom_css": [
+        ".amr_testimonial {padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "heading": "our client’s Testimonials ",
+        "desc": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>"
+      }
+    },
+    "9f022617-6581-4393-bae2-558209a185d9": {
+      "type": "More_Resources",
+      "blocks": {
+        "fac4d375-0ef5-48cc-8181-b1ad452aeb6e": {
+          "type": "Images",
+          "settings": {
+            "custom_class": "",
+            "main_img": "shopify:\/\/shop_images\/unsplash_cqbLg3lZEpk.png"
+          }
+        },
+        "f47dc291-f07c-4659-9f80-a7b505d775de": {
+          "type": "Images",
+          "settings": {
+            "custom_class": "",
+            "main_img": "shopify:\/\/shop_images\/unsplash_cqbLg3lZEpk.png"
+          }
+        },
+        "ff87ec09-4d69-43b9-bdf1-679474997618": {
+          "type": "Images",
+          "settings": {
+            "custom_class": "",
+            "main_img": "shopify:\/\/shop_images\/unsplash_cqbLg3lZEpk.png"
+          }
+        },
+        "5b15c045-1da5-45f0-8669-29995cf41db3": {
+          "type": "Images",
+          "settings": {
+            "custom_class": "",
+            "main_img": "shopify:\/\/shop_images\/unsplash_cqbLg3lZEpk.png"
+          }
+        },
+        "a6cedd1d-73e7-4819-be03-1eb592650289": {
+          "type": "Images",
+          "settings": {
+            "custom_class": "",
+            "main_img": "shopify:\/\/shop_images\/unsplash_cqbLg3lZEpk.png"
+          }
+        }
+      },
+      "block_order": [
+        "fac4d375-0ef5-48cc-8181-b1ad452aeb6e",
+        "f47dc291-f07c-4659-9f80-a7b505d775de",
+        "ff87ec09-4d69-43b9-bdf1-679474997618",
+        "5b15c045-1da5-45f0-8669-29995cf41db3",
+        "a6cedd1d-73e7-4819-be03-1eb592650289"
+      ],
+      "settings": {
+        "bg_color": "#2d4b49",
+        "slide_bg_color": "#f2e8e7",
+        "heading": "More Resources from Dr. Ruth Roberts Dr. Ruth Pet Wellness Courses  ",
+        "desc": "<p>Dr. Ruth Roberts is passionate about promoting holistic health and wellness for pets, and she offers a range of resources beyond the certified holistic pet health coach program. Explore her courses and discover how you can further your education and passion for pet wellness.<\/p>",
+        "btn_txt": "Enroll Now",
+        "btn_url": "",
+        "btn_txt2": "all courses",
+        "btn_url2": ""
+      }
+    },
+    "c310de0e-f268-4dff-8278-ea581c28a408": {
+      "type": "multicolumn",
+      "blocks": {
+        "aa805a4c-34ab-45f2-9cf6-a4833ba05365": {
+          "type": "column",
+          "settings": {
+            "title": "Years Of Saving Pet Lives",
+            "text": "<p>35+<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3430656a-6166-4bf9-a2a0-c8567cdf30ff": {
+          "type": "column",
+          "settings": {
+            "title": "Successful Students",
+            "text": "<p>100+<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "fec3f12f-a2b1-4d2d-b023-d9cf792a59fb": {
+          "type": "column",
+          "settings": {
+            "title": "Happy Tails",
+            "text": "<p>30,000<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "aa805a4c-34ab-45f2-9cf6-a4833ba05365",
+        "3430656a-6166-4bf9-a2a0-c8567cdf30ff",
+        "fec3f12f-a2b1-4d2d-b023-d9cf792a59fb"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px; text-align: center; max-width: 800px;}",
+        ".button {display: none;}",
+        ".rte {font-size: 50px; font-family: \"BLT-Heirloom\"; font-weight: 300; text-align: left;}",
+        ".multicolumn-list h3 {font-family: Josefin Sans; text-align: left; font-size: 18px; font-weight: 400;}",
+        ".grid__item {border-radius: 44px; padding: 12px 12px 0px;}",
+        ".grid__item:nth-of-type(3) h3 {color: #fff;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Honoring a Legacy of Compassionate Care",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 92
+      }
+    },
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__grid.grid {background: #e0ecbe; padding: 35px; border-radius: 50px;}",
+        ".image-with-text__grid.grid div {background-color: #fff0;}",
+        ".image-with-text__heading {text-align: left;}",
+        ".image-with-text__media-item {width: 25% !important;}",
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 2%;}",
+        ".image-with-text__media.media {max-width: 250px; margin: auto;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        "h2.image-with-text__heading.h1 {font-size: 54px; line-height: 50px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_4_ba456788-5c27-4b4d-b5d1-19eacd0079a5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76": {
+      "type": "rx-image-banner-v2",
+      "blocks": {
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "“If you have a strong purpose in life, you don’t have to be pushed. Your passion will drive you there.” "
+          }
+        },
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "-Dr. Ruth",
+            "button_link_1": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1",
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-buttons-1"
+      ],
+      "custom_css": [
+        ".banner__media.media {padding: 0;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".banner__media.media {padding: 0;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".rx_read_more_btn_green {font-family: \"Oakley Script\"; font-size: 42px; font-weight: 100; border: 0; cursor: text; pointer-events: none; color: #fff;}",
+        ".rx_banner__heading {font-size: 34px; max-width: 750px; line-height: 45px; margin-bottom: -18px;}",
+        ".rx_read_more_btn_green img {display: none;}"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/Rectangle_b77a9a5f-54b5-400f-be26-5ea80af4cd73.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "container_bg": "rgba(0,0,0,0)",
+        "desktop_content_alignment": "center",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "652c7008-877b-454a-9171-63f8615c96e1": {
+      "type": "hza_our_services",
+      "blocks": {
+        "c5e0c7ec-b536-46f2-9412-e2d7f1eb9f95": {
+          "type": "service_link",
+          "settings": {
+            "title": "",
+            "servicelink": ""
+          }
+        },
+        "dd0fff3b-0f01-4482-b43a-99de79a5f33c": {
+          "type": "main_img",
+          "settings": {
+            "main_img": "shopify:\/\/shop_images\/our_service.png"
+          }
+        },
+        "09d5f1fc-7c17-49f3-8a81-3ff241900467": {
+          "type": "service_right",
+          "settings": {
+            "detail": "<p>We help you develop the knowledge and skills you need to provide effective and compassionate care for pets.<\/p>",
+            "btnText": "APPLY NOW",
+            "btnlink": "#"
+          }
+        }
+      },
+      "block_order": [
+        "c5e0c7ec-b536-46f2-9412-e2d7f1eb9f95",
+        "dd0fff3b-0f01-4482-b43a-99de79a5f33c",
+        "09d5f1fc-7c17-49f3-8a81-3ff241900467"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Our Services",
+        "desc": ""
+      }
+    },
+    "188b6026-4685-4149-a4b8-c350bf080da4": {
+      "type": "faq_accordion",
+      "blocks": {
+        "0d03e849-08be-4fee-9b08-57b6cae38dd0": {
+          "type": "FAQ",
+          "settings": {
+            "title": "What will I learn from this certification?",
+            "detail": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        },
+        "1c9d3ab8-2b89-44cd-a369-63212937a027": {
+          "type": "FAQ",
+          "settings": {
+            "title": "What can I do as a Certified Holistic Pet Health Coach?",
+            "detail": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        },
+        "ee6663e4-97c7-43bc-92e4-ff248dfbf205": {
+          "type": "FAQ",
+          "settings": {
+            "title": "What is one-to-one mentorship work?",
+            "detail": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        },
+        "3e9f562b-edfe-482f-9d72-382a23cb236a": {
+          "type": "FAQ",
+          "settings": {
+            "title": "What are the Q&A Weekly sessions?",
+            "detail": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        },
+        "7cc8c0ad-d8e9-4cf9-8b03-649b7e80aa38": {
+          "type": "FAQ",
+          "settings": {
+            "title": "What can I do as a Certified Holistic Pet Health Coach?",
+            "detail": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0d03e849-08be-4fee-9b08-57b6cae38dd0",
+        "1c9d3ab8-2b89-44cd-a369-63212937a027",
+        "ee6663e4-97c7-43bc-92e4-ff248dfbf205",
+        "3e9f562b-edfe-482f-9d72-382a23cb236a",
+        "7cc8c0ad-d8e9-4cf9-8b03-649b7e80aa38"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "desc": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. <\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "29966739-8bcc-421d-8e19-368ce7459253",
+    "33dcf6b1-6e13-44cf-99dd-765cf3a44117",
+    "fadcc9ee-5901-42d9-8139-51be2d304bad",
+    "91d75749-340e-4f9a-9bba-f82d8c67429a",
+    "43dd9016-3eb5-4a94-9f3b-f0265f70480f",
+    "9b0d08f1-a76e-458f-b2a5-8a8355d1c83f",
+    "295c072c-7667-4bf1-80ae-c3bbfee4074b",
+    "068f4c7f-2708-4af0-9ba4-5926ffd56208",
+    "0967645d-51d5-4ed7-98bb-13a79e9edfe7",
+    "6062b1f4-3e8c-4f90-a072-e18850ceccfd",
+    "cdb9ea8d-5b05-4219-930a-f46075180e68",
+    "feaf7099-4632-4f4a-beb7-b14a2f6dfcb7",
+    "9f022617-6581-4393-bae2-558209a185d9",
+    "c310de0e-f268-4dff-8278-ea581c28a408",
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3",
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76",
+    "652c7008-877b-454a-9171-63f8615c96e1",
+    "188b6026-4685-4149-a4b8-c350bf080da4"
+  ]
+}

@@ -1,0 +1,119 @@
+{{ 'course-test.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .single_product_block{
+   width : 30%;
+  }
+    .visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+  
+.pagination li {
+  display: inline; 
+  margin: 0 5px;
+}
+</style>
+
+<div class="course_list">
+  <h1>{{ section.settings.course_heading }}</h1>
+  <div class="courses">
+    {% paginate section.settings.collection.products by 6 %}
+      {% for product in section.settings.collection.products %}
+        <div class="single_product_block">
+          <h2>{{ product.title }}</h2>
+          <div class="fliter_product_image_box">
+            {% assign images = product.images %}
+            {% for image in images %}
+              {% if forloop.index == 1 %}
+                <img class="fliter_product_image" src="{{ image.src | product_img_url: 'grande' }}">
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+      {%- if paginate.pages > 1 -%}
+        <nav role="navigation">
+          <ol class="pagination">
+            {%- if paginate['previous-'] %}
+              <li>
+                <a href="{{ paginate.previous.url }}">
+                  <span aria-hidden="true">&laquo;</span>
+                  Previous <span class="visuallyhidden">page</span>
+                </a>
+              </li>
+            {%- else -%}
+              <li class="disabled">
+                <span aria-hidden="true">&laquo;</span>
+                Previous <span class="visuallyhidden">page</span>
+              </li>
+            {%- endif -%}
+
+            {%- for part in paginate.parts -%}
+              {%- if part.is_link -%}
+                <li>
+                  <a href="{{ part.url }}"> <span class="visuallyhidden">page</span> {{ part.title }} </a>
+                </li>
+              {%- else -%}
+                {%- if part.title == paginate.current_page -%}
+                  <li class="active" aria-current="page"><span class="visuallyhidden">page</span> {{ part.title }}</li>
+                {%- else -%}
+                  <li><span class="visuallyhidden">page</span> {{ part.title }}</li>
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+            {%- if paginate.next -%}
+              <li>
+                <a href="{{ paginate.next.url }}">
+                  Next <span class="visuallyhidden">page</span>
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            {%- else -%}
+              <li class="disabled">
+                Next <span class="visuallyhidden">page</span>
+                <span aria-hidden="true">&raquo;</span>
+              </li>
+            {%- endif -%}
+          </ol>
+        </nav>
+      {%- endif -%}
+    {% endpaginate %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Course List",
+  "settings": [
+    {
+      "type" : "text",
+      "id" : "course_heading",
+      "label" : "Add Heading For Section"
+    },
+    {
+      "type" : "richtext",
+      "id" : "course_subheading",
+      "label" : "Add Sub Heading For Section"
+    },
+    {
+      "type" : "collection",
+      "id" : "collection",
+      "label" : "Add Collection"
+    }
+  ],
+  "presets" : [
+    {
+      "name" : "Course List"
+    }
+  ]
+}
+{% endschema %}

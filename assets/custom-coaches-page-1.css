@@ -1,0 +1,4074 @@
+/*Coaches Cards*/
+.multicolumn.background-primary .multicolumn-card{
+  background: none !important;
+}
+
+
+/*Excerp for products collection pages*/
+.collection-product-description{
+  display: none;
+}
+#coaches .collection-product-description{
+
+  display: block;
+  position: absolute;
+top: 75px;
+left: 0px;
+width: 700px;
+text-align: left;
+}
+#MainProduct-template--14942166286401__main{
+   border-radius: 20px;
+}
+#MainProduct-template--14942166286401__main .collection-product-description{
+
+  display: block !important;
+
+}
+#test-product-4 .collection-product-description{
+
+  display: block !important;
+
+}
+
+/*Collectins page applying theme*/
+.image_content .button{
+
+border: 2px solid #184B44;
+color: #184B44 !important;
+}
+
+.image_content .button svg{
+  display: none;
+  
+}
+.image_content .button--primary{
+
+border: 2px solid #184B44 !important;
+
+}
+
+.image-with-text__media{
+
+height: 500px !important;
+
+}
+
+
+
+/*Shop slider design css*/
+#shopify-section-template--14921794027585__db372327-cb3a-4987-a1fc-b47b6a11e8ed .slick-slide img{
+display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+
+}
+#shopify-section-template--14921794027585__db372327-cb3a-4987-a1fc-b47b6a11e8ed .slidecontent {
+
+padding-bottom: 8%;
+
+}
+#shopify-section-template--14921794027585__db372327-cb3a-4987-a1fc-b47b6a11e8ed .slick-initialized .slick-slide {
+
+text-decoration: none !important;
+
+}
+
+
+
+/*Description positioning*/
+
+#MainProduct-template--14942166286401__main .product_tab_content{
+
+position: relative;
+top: -403px;
+left: 154px;
+padding-right: 75px;
+}
+#MainProduct-template--14942166286401__main .rx-product-title-tab{
+
+display: none;
+
+}
+
+/*Section column coaches css adjusments*/
+#shopify-section-template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9 .multicolumn-card__info h3{
+
+  background: #E0ECBE;
+  padding-left: 10px;
+  border-radius: 8px;
+}
+
+#MainProduct-template--14942166286401__main .section-template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9-padding{
+
+padding-top: 229px !important;
+  
+}
+
+
+#shopify-section-template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9 .rte p{
+padding-left: 10px
+}
+
+/*Video full width products page*/
+#shopify-section-template--14942166286401__01b656ad-4c3f-458a-8166-7e6ac363dbd0 .page-width iframe{
+
+max-width: 100%;
+width: 100%;
+height: 530px;
+}
+
+
+
+/*Coache Products CSS*/
+#MainProduct-template--14942166286401__main .quantity{
+
+ display: none;
+}
+#MainProduct-template--14942166286401__main #ProductInfo-template--14942166286401__main{
+
+display: flex;
+flex-direction: column-reverse;
+height: 98px;
+}
+
+/*Testimonial review*/
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .starflex1{
+position: relative !important;
+top: -470px;
+  
+
+}
+#shopify-section-template--14942166286401__265f2342-4de6-43b2-b80e-755f956e15b4 .starflex1{
+
+  z-index: 10;
+}
+
+#shopify-section-template--14942166286401__265f2342-4de6-43b2-b80e-755f956e15b4 .starbg{
+display: none;
+}
+
+#shopify-section-template--14942166286401__265f2342-4de6-43b2-b80e-755f956e15b4 .popflex{
+
+display: none;
+}
+
+#shopify-section-template--14942166286401__265f2342-4de6-43b2-b80e-755f956e15b4 .customerdetail{
+width: 686px;
+  
+    display: block !important;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Group_1_9aa27c2c-90ff-4361-b055-0b27c3ce8c1a.png?v=1690635227) !important;
+    background-color: transparent !important;
+    background-size: 691px !important;
+    background-repeat: no-repeat;
+    background-position-x: right !important;
+    background-position-y: center !important;
+
+
+
+  
+}
+
+#shopify-section-template--14942166286401__265f2342-4de6-43b2-b80e-755f956e15b4 .customreviewside{
+
+max-width: 1442px !important;
+
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .checked{
+color: #A6B7FF !important;
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .customercontainer{
+
+background: white !important;
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .confirmedetail{
+position: relative;
+left: 106px;
+    
+  
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .truncate{
+margin-top: 165px;
+
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .truncate span{
+color: #A6B7FF !important;
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .stardiv{
+position: relative;
+top: 546px;
+left: -121px;
+
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .starflex1{
+  display: block !important;
+}
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .starbg{
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .customreviewside{
+max-width: 1440px;
+}
+
+#shopify-section-template--14942166286401__d23ab1ba-25cd-4e5c-b53d-83583af5eeee .customerdetail{
+ min-height: 680px;
+  border-radius: 33.17px;
+background: #FAF2E9;
+}
+
+
+#Slide-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-4{
+
+margin-left: 207px;
+  margin-top: 50px;
+}
+#Slide-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-5{
+
+  margin-top: 50px;
+}
+
+#shopify-section-template--14942166286401__ae7e2baf-a177-490c-b4e0-b7818383f201 .accordion-container{
+background: #E0ECBE; 
+padding-right: 125px;
+padding-top: 50px;
+padding-bottom: 40px;
+padding-left: 66px;
+border-radius: 30px;
+  
+}
+
+#Slider-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd .content-container{
+background: #F5F8F1;
+
+}
+
+#Slider-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd .multicolumn-list__item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#Slide-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd{
+padding-bottom: 50px;
+}
+
+
+#MainProduct-template--14942166286401__main .rx_product__title{
+
+margin-bottom: -44px !important;
+}
+
+#shopify-section-template--14942166286401__37ea8ed4-d5e6-4949-9d37-c1e0ef98dcfd .rich-text__buttons{
+position: relative;
+top: -79px;
+left: 56px;
+  
+}
+#shopify-section-template--14942166286401__37ea8ed4-d5e6-4949-9d37-c1e0ef98dcfd .rich-text__buttons a{
+
+    border: solid 1px #2D4B49;
+  border-radius: 50px;
+  background: none;
+  color: #2D4B49;
+}
+#shopify-section-template--14942166286401__37ea8ed4-d5e6-4949-9d37-c1e0ef98dcfd .rich-text__buttons a:hover{
+
+  background: #2D4B49;
+  color: white;
+}
+
+#shopify-section-template--14942166286401__37ea8ed4-d5e6-4949-9d37-c1e0ef98dcfd .rich-text__buttons svg{
+display: none;
+}
+
+#MainProduct-template--14942166286401__main .price--show-badge {
+    display: none;
+}
+#MainProduct-template--14942166286401__main .rx_product__title{
+margin-top: -47px;
+
+}
+
+#MainProduct-template--14942166286401__main .slick-list {
+margin-left: -24px;
+}
+#MainProduct-template--14942166286401__main .product__info-wrapper p:nth-child(1){
+  
+  margin-bottom: 44px;
+}
+
+#MainProduct-template--14942166286401__main .product__info-wrapper p:nth-child(8){
+  
+   margin-top: -20px;
+  text-transform: none !important;
+  font-size: 11.908px;
+  
+}
+
+#MainProduct-template--14942166286401__main .product__info-wrapper div:nth-child(12){
+  
+display: none;
+  
+}
+#MainProduct-template--14942166286401__main .select{
+position: absolute;
+top: 241px;
+  display: none;
+}
+
+
+#MainProduct-template--14942166286401__main .price--show-badge{
+position: absolute;
+top: 200px;
+  
+}
+#MainProduct-template--14942166286401__main{
+max-width: 1200px;
+   background: #E0ECBE;
+  height: 348px;
+  
+}
+#MainProduct-template--14942166286401__main .product__info-wrapper{
+
+ margin-left: -30%;
+}
+
+#MainProduct-template--14942166286401__main .product-media-container{
+border-radius: 20px;
+}
+
+#MainProduct-template--14942166286401__main .product-form__buttons{
+    max-width: 36% !important;
+  position: absolute;
+top: 240px;
+left: 50px;
+}
+#MainProduct-template--14942166286401__main .product-form__buttons .prosvg{
+   display: none !important;
+}
+
+
+
+#MainProduct-template--14942166286401__main .slider-galeria-thumbs{
+display: none;
+}
+
+
+#MainProduct-template--14942166286401__main [data-slick-index="0"]{
+width: 40% !important;
+}
+#MainProduct-template--14942166286401__main #ProductSubmitButton-template--14942166286401__main {
+border: 1px solid #184B44 !important;
+}
+
+#MainProduct-template--14942166286401__main .slick-list.draggable{
+height: 330.133px;
+
+}
+
+
+#MainProduct-template--14942166286401__main .rx-qty-selector{
+
+display: block !important;
+}
+
+
+#MainProduct-template--14942166286401__main .rx-review-price{
+
+margin-bottom: 0px !important; 
+}
+#coaches .card__heading a{
+cursor: pointer;
+}
+#coaches .card__content a{
+cursor: pointer;
+  
+}
+
+#coaches .card--standard:before{
+content: "View Profile";
+  border: solid 1px #184B44;
+  position: absolute;
+  top: 215px;
+    z-index: 99999;
+    padding: 10px;
+   border-radius: 25px;
+  left: 248px;
+  cursor: pointer;
+  line-height: 15px;
+}
+#coaches .card--standard:hover::before{
+background-color: #184B44;
+  color: white;
+}
+#coaches #StandardCardNoMediaLink-template--14940389605441__main-collection-product-grid-6969375948865{
+
+ 
+}
+
+
+
+
+
+
+
+
+/*Mobile and tab responsive*/
+
+@media screen and (max-width: 1130px) {
+
+#MainProduct-template--14942166286401__main .product_tab_content {
+    position: relative;
+    top: -362px;
+    left: 125px;
+}
+
+
+}
+
+/*Custom Css in Coaches page with filtering*/
+
+#shopify-section-template--14940389605441__1d09ce56-d815-4da4-9b2c-a947a3eaafd5 .Sub_main{
+display: flex;
+}
+
+#shopify-section-template--14940389605441__1d09ce56-d815-4da4-9b2c-a947a3eaafd5 .container-content {
+    width: 95% !important;
+  padding-left: 51px;
+}
+
+.sub_container{
+background: #faf2e9;
+border-radius: 25px;
+
+}
+
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0{
+background: #2D4B49;
+  
+}
+
+#coaches #shopify-section-template--14940389605441__b91aacd7-274e-463c-ae0b-232a798895dc .image-with-text__media svg{
+  display: none !important;
+  
+}
+
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left{
+      
+    display: block !important;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Group_1_56139d94-3d93-4fe3-93cb-623da02909de.png?v=1688630759) !important;
+    background-color: transparent !important;
+    background-size: 917px !important;
+    background-repeat: no-repeat;
+    background-position-x: right !important;
+    background-position-y: center !important;
+    position: relative;
+    left: 7%;
+    width: 81%;
+}
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container{
+
+margin-left: -24%;
+
+}
+#shopify-section-template--14940389605441__5ce5e0ec-f55b-483a-9a6f-6202107380a7 .cmax_container{
+background: #E0ECBE;
+}
+
+#shopify-section-template--14940389605441__5ce5e0ec-f55b-483a-9a6f-6202107380a7 .btnspace1{
+
+display: none;
+}
+
+#coaches .product-grid{
+display: block !important;
+
+}
+
+#coaches .section-template--14940389605441__main-collection-product-grid-padding .color-background-1{
+
+border: 1px solid #184B44;
+border-radius: 20px;
+  background-image: linear-gradient(#E0ECBE,#f5f8f1 100%);
+}
+#coaches .section-template--14940389605441__main-collection-product-grid-padding .facets-wrapper{
+opacity: 0;
+}
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__media svg{
+
+  display: none;
+}
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0{
+
+background: #F5F8F1;
+}
+#coaches .section-template--14940389605441__main-collection-product-grid-padding .card-wrapper .card__information h3{
+
+color: white;
+font-family: BLT-Heirloom;
+font-size: 40.908px;
+font-style: normal;
+font-weight: 400;
+line-height: 40.917px; /* 106.476% */
+text-transform: capitalize; 
+
+}
+
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container--full-width-mobile h2{
+color: white;
+  font-family: BLT-Heirloom;
+font-size: 61.908px;
+font-style: normal;
+font-weight: 300;
+line-height: 65.917px; /* 106.476% */
+text-transform: capitalize; 
+
+}
+
+
+
+ #coaches .section-template--14940389605441__main-collection-product-grid-padding .price {
+top: 220px;
+position: absolute;
+   display: none;
+}
+
+
+#coaches .section-template--14940389605441__main-collection-product-grid-padding .card__content {
+/*border: solid #dcdae1 2px;*/
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  border-bottom: none !important;
+
+
+}
+
+#coaches .section-template--14940389605441__main-collection-product-grid-padding .product-card-wrapper{
+
+width: 1000px;
+padding-top: 20px;
+padding-bottom: 30px;
+
+}
+#coaches .section-template--14940389605441__main-collection-product-grid-padding .card__information{
+   background: none;
+  position: absolute;
+top: 0px;
+left: 250px;
+display: block ruby-base;
+
+}
+#coaches .section-template--14940389605441__2b31f80e-4e7d-4513-af0a-4798a32f6996-padding .button--primary{
+display:none;
+ background: none;
+color: #2D4B49;
+font-family: BLT-Heirloom;
+font-size: 25.908px;
+text-transform: capitalize;
+border: solid 2px #2D4B49;
+border-radius: 55px;
+}
+
+#coaches .section-template--14940389605441__main-collection-product-grid-padding .card__media .media img{
+
+object-position: left !important;
+  width: 195px;
+  padding-left: 18px;
+ 
+}
+#coaches .section-template--14940389605441__2b31f80e-4e7d-4513-af0a-4798a32f6996-padding .button--primary svg{
+
+ display: none;
+}
+
+/*Featured consultant first column*/
+
+#shopify-section-template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033 .rich-text__heading span{
+
+color: #2D4B49;
+text-align: center;
+font-family: BLT-Heirloom;
+font-size: 61.908px;
+font-style: normal;
+font-weight: 300;
+line-height: 65.917px; /* 106.476% */
+text-transform: capitalize;
+}
+
+
+#shopify-section-template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033 .rich-text__heading rich-text__text p{
+color: #1E1E1E;
+text-align: center;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26.034px; /* 144.635% */
+
+}
+
+
+
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a79 .multicolumn-card{
+width: 470px;
+  
+
+}
+
+
+#Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info h3{
+color: #FFF;
+font-family: BLT-Heirloom;
+font-size: 39.287px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.786px;
+
+}
+
+#Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info p{
+color: #FFF;
+font-family: Josefin Sans;
+font-size: 14.74px;
+font-style: normal;
+font-weight: 500;
+line-height: 22.11px; /* 150% */
+letter-spacing: -0.295px;
+
+}
+
+#Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card {
+
+  padding-left: 62px;
+
+}
+
+#Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info{
+height: 380px !important;
+
+}
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card{
+width: 420px;
+  
+}
+
+#Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info .animate-arrow{
+  position: relative;
+top: 180px;
+border: solid 2px white;
+padding: 5px;
+border-radius: 25px;
+background: white;
+
+}
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+    display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_37.png?v=1690636113) !important;
+    background-color: transparent !important;
+    background-size: 530px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    width: 651px;
+
+}
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card{
+position: relative;
+left: 137px;
+
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card {
+display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_38.png?v=1690636114) !important;
+    background-color: transparent !important;
+    background-size: 251px !important;
+    background-repeat: no-repeat  !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+
+
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_38_1.png?v=1690636113) !important;
+    background-color: transparent !important;
+    background-size: 251px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+
+
+}
+
+
+/*Featured consultant second column*/
+
+#Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5{
+
+margin-top: -67px;
+}
+
+#Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info h3{
+color: #FFF;
+font-family: BLT-Heirloom;
+font-size: 39.287px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.786px;
+
+}
+
+#Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info p{
+color: #FFF;
+font-family: Josefin Sans;
+font-size: 14.74px;
+font-style: normal;
+font-weight: 500;
+line-height: 22.11px; /* 150% */
+letter-spacing: -0.295px;
+
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+
+position: relative;
+    left: -272px;
+}
+
+#Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card {
+
+  padding-left: 62px;
+
+}
+
+#Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info{
+height: 380px !important;
+
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card{
+width: 420px;
+  
+}
+
+#Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info .animate-arrow{
+  position: relative;
+top: 180px;
+border: solid 2px white;
+padding: 5px;
+border-radius: 25px;
+background: white;
+
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_37_1.png?v=1690790011) !important;
+    background-color: transparent !important;
+    background-size: 530px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    width: 651px;
+
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card{
+position: relative;
+left: -137px;
+
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card__info{
+padding-left: 4px !important;
+
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card {
+display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_38_3.png?v=1690790011) !important;
+    background-color: transparent !important;
+    background-size: 263px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+
+
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card {
+display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_38_2.png?v=1690790007) !important;
+    background-color: transparent !important;
+    background-size: 251px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+
+
+}
+/*Featured consultant third column*/
+
+#Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31{
+
+margin-top: -67px;
+}
+
+#Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info h3{
+color: #FFF;
+font-family: BLT-Heirloom;
+font-size: 39.287px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.786px;
+
+}
+
+#Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info p{
+color: #FFF;
+font-family: Josefin Sans;
+font-size: 14.74px;
+font-style: normal;
+font-weight: 500;
+line-height: 22.11px; /* 150% */
+letter-spacing: -0.295px;
+
+}
+
+#Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card {
+
+  padding-left: 62px;
+
+}
+
+#Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info{
+height: 380px !important;
+
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card{
+width: 420px;
+  
+}
+
+#Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info .animate-arrow{
+  position: relative;
+top: 180px;
+border: solid 2px white;
+padding: 5px;
+border-radius: 25px;
+background: white;
+
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+    display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_37_1_we.png?v=1690792201) !important;
+    background-color: transparent !important;
+    background-size: 530px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    width: 651px;
+
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card{
+position: relative;
+left: 137px;
+
+}
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card {
+display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_38_4.png?v=1690790924) !important;
+    background-color: transparent !important;
+    background-size: 251px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+
+
+}
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+display: block;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Rectangle_38_5.png?v=1690790924) !important;
+    background-color: transparent !important;
+    background-size: 251px !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+
+
+}
+
+/*Testimonial Review collection page*/
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starflex1{
+position: relative !important;
+top: -470px;
+  
+
+}
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starflex1{
+
+  z-index: 10;
+}
+
+
+
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .customreviewside{
+
+max-width: 1442px !important;
+
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .checked{
+color: #A6B7FF !important;
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .customercontainer{
+
+background: white !important;
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .confirmedetail{
+position: relative;
+left: 89px;
+    
+  
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .truncate{
+margin-top: 165px;
+
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .truncate span{
+color: #A6B7FF !important;
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .stardiv{
+position: relative;
+top: 546px;
+left: -121px;
+
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starflex1{
+  display: block !important;
+}
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starbg{
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .customreviewside{
+max-width: 1440px;
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .customerdetail{
+ min-height: 680px;
+  border-radius: 33.17px;
+background: #FAF2E9;
+}
+
+
+#Slide-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-4{
+
+margin-left: 207px;
+  margin-top: 50px;
+}
+#Slide-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-5{
+
+  margin-top: 50px;
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .accordion-container{
+background: #E0ECBE; 
+padding-right: 125px;
+padding-top: 50px;
+padding-bottom: 40px;
+padding-left: 66px;
+border-radius: 30px;
+  
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .content-container{
+background: #F5F8F1;
+
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .multicolumn-list__item{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#Slide-template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd{
+padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+/*Our collaboration approach in coaches collections page*/
+#coaches #shopify-section-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e .section-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-padding{
+
+    background: var(--gradient-background);
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Group_1_6bf642d4-d490-44ed-b4b0-baabd744ce61.png?v=1688561682&width=3840) !important;
+    background-color: transparent !important;
+    background-position: top left !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: center !important;
+    background-position-y: 28px !important;
+
+  
+}
+
+#coaches #Slider-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e .multicolumn-card{
+    background: none;
+}
+
+#coaches .section-template--14940389605441__233e2f87-a490-4f13-9d3f-02abbd7d7154-padding .rich-text__heading {
+    color: #2D4B49;
+    text-align: center;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+#coaches .section-template--14940389605441__233e2f87-a490-4f13-9d3f-02abbd7d7154-padding .rich-text__text {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.034px; 
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e h3{
+    color: var(--style, #1E1E1E);
+    font-size: 24.765px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e p{
+    color: var(--style, #1E1E1E);
+    text-align: justify !important;
+    font-size: 15px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
+
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-1{
+    padding-left: 65px;
+    padding-right: 65px;
+  text-align: justify !important;
+  line-height: 18px !important;
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-2{
+    padding-left: 65px;
+    padding-right: 65px;
+    text-align: justify !important;
+  line-height: 18px !important;
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-3{
+    padding-left: 65px;
+    padding-right: 65px;
+   
+   text-align: justify !important;
+line-height: 18px !important;
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-4{
+    padding-left: 65px;
+    padding-right: 65px;
+   text-align: justify !important;
+   line-height: 18px !important;
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-5{
+    padding-left: 65px;
+    padding-right: 65px;
+   line-height: 18px !important;
+ text-align: justify !important;
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-6{
+    padding-left: 65px;
+    padding-right: 65px;
+line-height: 18px !important;
+  text-align: justify !important;
+  
+}
+
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-1 .multicolumn-card{
+    margin-left: -128px;
+    margin-right: 140px;
+background: none;
+  
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-3 .multicolumn-card{
+    margin-left: -128px;
+    margin-right:  140px;
+background: none;
+
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-5 .multicolumn-card{
+    margin-left: -128px;
+    margin-right:  140px;
+background: none;
+ 
+}
+
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-2 .multicolumn-card{
+    margin-left: 145px;
+    margin-right: -103px;
+  background: none;
+ 
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-4 .multicolumn-card{
+    margin-left: 145px;
+    margin-right: -103px;
+background: none;
+  
+}
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-6 .multicolumn-card{
+    margin-left: 145px;
+    margin-right: -103px;
+background: none;
+ 
+}
+
+
+
+
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e{
+  
+
+}
+
+#coaches #Banner-template--14937751814209__611aca1b-1c32-433c-b02e-b51ba1a09f1e .banner__media{
+    background: none;
+   /* margin-top: -1202px; */
+}
+
+
+#coaches #shopify-section-template--14937751814209__611aca1b-1c32-433c-b02e-b51ba1a09f1e{
+    /* padding: 430px; */
+}
+
+/*#coaches .section-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-padding .image-with-text__media-item{
+    width: 10px;
+}*/
+
+
+/*Hiding coaches category in shopify shop live page=================================================================*/
+#main-collection-filters #Details-10-template--14921794027585__product-grid{
+     display: none;
+}
+#coaches .facet-filters {
+display: none;
+}
+/*coaches category custom css=======================================================================================*/
+
+
+
+
+
+
+
+
+
+
+/*Home page banner Pet Advice*/
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .banner__media{
+      
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Group_1_1bcba6ba-16a9-4fc9-bc76-acf062406664_430x.png?v=1688549752#) !important;
+    background-color: transparent !important;
+    background-size: 733px !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+
+}
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .banner__buttons{
+    
+    justify-content: center;
+    gap: 5.824px;
+    flex-shrink: 0; 
+    border-radius: 25.624px;
+    background: #A6B7FF; 
+    color: #2D4B49;
+    font-family: BLT-Heirloom;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51.085px;
+    
+
+}
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .button--primary{
+    border: none !important;
+  color: #2d4b49;
+}
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .button--primary svg{
+      display: none;
+}
+
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .banner__box{
+   margin-left: 0px !important;
+
+}
+
+
+#shopify-section-template--14937751814209__f0e23169-5134-4565-9873-7cd58bc042a9{
+  display: block ruby;
+}
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .banner__media svg{
+  display: none;
+}
+#shopify-section-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5{
+  background: #2d4b49;
+}
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .banner__heading .imghead{ 
+  color: #FFF;
+  font-size: 61.908px;
+  font-family: BLT-Heirloom;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 65.917px;
+  text-transform: capitalize; 
+
+}
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .imagedes{
+  color: #FFF;
+  font-size: 18px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.034px; 
+}
+
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .banner__heading{ 
+
+  text-align: left !important;
+}
+#coaches-home-page #Banner-template--14937751814209__3ac46ddb-f068-497f-93b7-9cd2136791f5 .banner__text{
+  
+  text-align: left !important;
+}
+
+/*Home page banner section 2*/
+#coaches-home-page .section-template--14937751814209__6b2946dd-f39e-4224-b59c-2a0d194d9616-padding .rich-text__heading{
+  color: #2D4B49;
+  text-align: center;
+  font-size: 61.908px;
+  font-family: BLT-Heirloom;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 65.917px;
+  text-transform: capitalize; 
+}
+#coaches-home-page .section-template--14937751814209__6b2946dd-f39e-4224-b59c-2a0d194d9616-padding .rich-text__text{
+  color: #1E1E1E;
+  text-align: center;
+  font-size: 18px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.034px; 
+}
+
+#coaches-home-page #Slider-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1 .multicolumn-card{
+ background: #97ae9a;
+}
+
+#coaches-home-page #Slide-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1-4{
+  margin-left: 18%;
+  padding: 12px;
+  width: 352px;
+  height: 352px;
+  flex-shrink: 0; 
+}
+#coaches-home-page #Slide-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1-2{
+  padding: 12px;
+  width: 352px;
+  height: 352px;
+  flex-shrink: 0; 
+}
+#coaches-home-page #Slide-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1-3{
+  padding: 12px;
+  width: 352px;
+  height: 352px;
+  flex-shrink: 0; 
+}
+#coaches-home-page #Slide-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1-5{
+  padding: 12px;
+  width: 352px;
+  height: 352px;
+  flex-shrink: 0; 
+}
+#coaches-home-page #Slide-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1-1{
+  padding: 12px;
+  width: 352px;
+  height: 352px;
+  flex-shrink: 0; 
+}
+#coaches-home-page #Slider-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1 h3{
+  color: var(--style, #1E1E1E);
+  text-align: center;
+  font-size: 32px;
+  font-family: BLT-Heirloom;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32.593px; 
+}
+#coaches-home-page #Slider-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1 p{
+  color: var(--style, #1E1E1E);
+  text-align: center;
+  font-size: 16px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.444px; 
+}
+#coaches-home-page .section-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1-padding .button--primary{
+  color: var(--style, #1E1E1E);
+/* bottom */
+  font-size: 14px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 4.2px;
+  text-transform: uppercase; 
+  background: none !important;
+  border-radius: 50px !important;
+  border: solid 2px #2d4b49 !important;
+ 
+}
+
+/*Home page section 3*/
+
+
+#coaches-home-page #shopify-section-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e .section-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-padding{
+
+    background: var(--gradient-background);
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Group_1_6bf642d4-d490-44ed-b4b0-baabd744ce61.png?v=1688561682&width=3840) !important;
+    background-color: transparent !important;
+    background-position: top left !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: center !important;
+}
+
+#coaches-home-page #Slider-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e .multicolumn-card{
+    background: none;
+}
+
+#coaches-home-page .section-template--14937751814209__da26dabf-6762-4369-9f3c-0976a5eded34-padding .rich-text__heading {
+    color: #2D4B49;
+    text-align: center;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+#coaches-home-page .section-template--14937751814209__da26dabf-6762-4369-9f3c-0976a5eded34-padding .rich-text__text {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.034px; 
+}
+#coaches-home-page #Slider-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e h3{
+    color: var(--style, #1E1E1E);
+    font-size: 24.765px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 33.019px; 
+}
+#coaches-home-page #Slider-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e p{
+    color: var(--style, #1E1E1E);
+    text-align: justify !important;
+    font-size: 15px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.573px; 
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-1{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+    
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-2{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+  
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-3{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+   
+ 
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-4{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+   
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-5{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+ 
+ 
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-6{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+  
+  
+}
+
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-1 .multicolumn-card{
+    margin-left: -128px;
+    margin-right: 125px;
+
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-3 .multicolumn-card{
+    margin-left: -128px;
+    margin-right: 125px;
+
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-5 .multicolumn-card{
+    margin-left: -128px;
+    margin-right: 125px;
+
+}
+
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-2 .multicolumn-card{
+    margin-left: 128px;
+    margin-right: -103px;
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-4 .multicolumn-card{
+    margin-left: 128px;
+    margin-right: -103px;
+
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-6 .multicolumn-card{
+    margin-left: 128px;
+    margin-right: -103px;
+
+}
+
+#coaches-home-page #Slider-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e{
+    margin-top: -56px;
+
+}
+
+#coaches-home-page #Banner-template--14937751814209__611aca1b-1c32-433c-b02e-b51ba1a09f1e .banner__media{
+    background: none;
+   /* margin-top: -1202px; */
+}
+
+
+#coaches-home-page #shopify-section-template--14937751814209__611aca1b-1c32-433c-b02e-b51ba1a09f1e{
+    /* padding: 430px; */
+}
+
+#coaches-home-page .section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845-padding .image-with-text__media-item{
+    width: 10px;
+}
+
+/* Home page blog section */
+#coaches-home-page .section-template--14937751814209__8ae142a3-fab7-4889-9433-d9dbb0db392a-padding .title-wrapper-with-link{
+    text-align: center !important;
+    display: block;
+
+    color: #2D4B49;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+  
+}
+
+#coaches-home-page .section-template--14937751814209__8ae142a3-fab7-4889-9433-d9dbb0db392a-padding .title-wrapper-with-link .h1{
+    color: #2D4B49;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+  
+}
+
+#coaches-home-page #Slider-template--14937751814209__8ae142a3-fab7-4889-9433-d9dbb0db392a .card__inner{
+    height: 377px;
+}
+#coaches-home-page .section-template--14937751814209__717906c2-8187-4068-835b-4ee8ee6b7a48-padding .button--primary{
+    border-radius: 25.5px;
+    border: 2px solid var(--1, #184B44); 
+    color: var(--style, #1E1E1E);
+/* bottom */
+    font-size: 14px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 4.2px;
+    text-transform: uppercase; 
+    width: 373px;
+    height: 51px;
+    flex-shrink: 0; 
+    align-items: center;
+    gap: 66px;
+    background: none;
+    margin-top: -10px;
+}
+#coaches-home-page .slider-buttons{
+    margin-top: -79px;
+}
+
+#coaches-home-page .section-template--14937751814209__717906c2-8187-4068-835b-4ee8ee6b7a48-padding{
+  /* margin-top: -38px; */
+}
+
+/* Home page last section */
+
+#coaches-home-page .section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845-padding .image-with-text__media-item{
+    width: 188px;
+}
+#coaches-home-page #ImageWithText--template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845{
+   background: #abc5ae;
+
+}
+#coaches-home-page .section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845-padding .image-with-text__media img{
+   background: #abc5ae;
+
+}
+#coaches-home-page .section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845-padding{
+   background: #abc5ae;
+   border-radius: 50px;
+}
+#coaches-home-page #ImageWithText--template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__heading{
+    color: #2D4B49;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+
+#coaches-home-page #ImageWithText--template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__text{
+    color: #1E1E1E;
+    font-size: 13.545px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.591px; 
+}
+
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__media{
+    
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/image_4_6114c6cf-5417-426c-8e2f-55c22b1c8868_150x.png?v=1688564665) !important;
+    background-color: transparent !important;
+    background-size: 333px !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+   
+
+}
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .button--primary svg{
+    display:none;
+
+}
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__text-item{
+    padding-left: 0px !important;
+}
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__grid{
+    margin: 0px !important;
+}
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__text{
+    padding-right: 0px !important;
+}
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__media-item{
+    background: #abc5ae;
+  
+}
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__media--adapt .placeholder-svg path{
+    
+    display: none;
+
+}
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845{
+    padding-bottom: 60px;
+}
+
+#coaches-home-page #shopify-section-template--14937751814209__8df4d345-ee7e-4d44-aea5-db81d7daa6ee .container img{
+
+}
+/* Added custom section */
+ .bmg img{
+    
+    max-width: 100%;
+height: 400px;
+ }
+/* Mobile Responsive */
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1289px) {
+  
+
+    #coaches-home-page #shopify-section-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e .section-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-padding{
+
+    background: var(--gradient-background);
+    background-attachment: cover;
+    background-image: url("") !important;
+    background-color: transparent !important;
+    background-position: top left !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: center !important;
+}
+
+
+
+#coaches-home-page #Slider-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e .multicolumn-card{
+    background: none;
+}
+
+
+
+
+
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-1{
+    padding-left: 0px;
+    padding-right: 0px;
+    background: none;
+    
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-2{
+    padding-left: 0px;
+    padding-right: 0px;
+    background: none;
+  
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-3{
+    padding-left: 0px;
+    padding-right: 0px;
+    background: none;
+    margin-top: -39px;
+ 
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-4{
+    padding-left: 0px;
+    padding-right: 0px;
+    background: none;
+    margin-top: -39px;
+}
+
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-5{
+    padding-left: 0px;
+    padding-right: 0px;
+    background: none;
+ 
+ 
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-6{
+    padding-left: 0px;
+    padding-right: 0px;
+    background: none;
+  
+  
+}
+
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-1 .multicolumn-card{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-3 .multicolumn-card{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-5 .multicolumn-card{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-2 .multicolumn-card{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-4 .multicolumn-card{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#coaches-home-page #Slide-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e-6 .multicolumn-card{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+#coaches-home-page #Slider-template--14937751814209__e1e9826a-371c-43e4-a3d2-a88b2fd16e3e{
+    margin-top: -56px;
+
+}
+  
+      }
+
+
+@media screen and (max-width: 1000px) {
+#coaches-home-page #Slide-template--14937751814209__5c33b42b-d3e2-421f-9b72-f4dd25a4d2e1-4{
+        margin-left: 0px;
+        }
+  
+}
+@media screen and (max-width: 980px) {
+#coaches-home-page #shopify-section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845 .image-with-text__media{
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/image_4_6114c6cf-5417-426c-8e2f-55c22b1c8868_150x.png?v=1688564665) !important;
+    background-color: transparent !important;
+    background-size: 213px !important;
+    background-repeat: no-repeat;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+   
+}
+  
+}
+  
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Banner coaches page 1*/
+#coaches-page-1 .section-template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-padding {
+    background: #2d4b49;
+}
+#coaches-page-1 .banner__media {
+    background: #2d4b49;
+}
+
+#Banner-template--14937311805505__d490cb76-46ac-4bb2-832c-c029560ed07c{
+  margin-top: -110px;
+}
+/* First text*/
+#coaches-page-1 .section-template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-padding .rich-text__heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+    margin-bottom: 16px;
+}
+#coaches-page-1 .section-template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-padding .rich-text__text {
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    font-size: 15.029px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.034px; 
+    margin-top: -6px;
+}
+#coaches-page-1 .section-template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-padding .rich-text__heading{
+    color: #2D4B49;
+    text-align: center;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+
+#coaches-page-1 .section-template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-padding .rich-text__text{
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 15.029px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.034px;
+}
+#coaches-page-1 .section-template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-padding .button--primary{
+    color: var(--style, #1E1E1E);
+/* bottom */
+    font-size: 14px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 4.2px;
+    text-transform: uppercase; 
+    background: none;
+    border: solid 2px #2d4b49;
+    border-radius: 50px;
+}
+/* Second text*/
+#coaches-page-1 .section-template--14937311805505__9dada5cc-fc40-492e-86a1-8bd668ef1cbf-padding .rich-text__heading{
+    color: #2D4B49;
+    text-align: center;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize;
+}
+
+#coaches-page-1 .section-template--14937311805505__9dada5cc-fc40-492e-86a1-8bd668ef1cbf-padding .rich-text__text{
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 15.029px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.034px;
+}
+#coaches-page-1 .section-template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-padding .button--primary svg{
+    display:none;
+  
+}
+
+#coaches-page-1 .section-template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-padding {
+    background: white;
+}
+#coaches-page-1 .section-template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-padding .button--primary {
+    border-radius: 50px;
+    background: #a6b7ff;
+    color: #2d4b49;
+}
+#coaches-page-1 .section-template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-padding .button--primary svg {
+    display: none;
+}
+
+
+
+#coaches-page-1 .section-template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-padding .rich-text__blocks{
+    max-width: 150rem !important;
+}
+/*Banner page 1 image adjust*/
+#shopify-section-template--14937311805505__d490cb76-46ac-4bb2-832c-c029560ed07c{
+    padding: 40px;
+    background: #2d4b49;
+}
+
+#become-a-certified-holistic-pet-health-coach-dr-ruth-roberts .section-template--14921794486337__38bceb66-17fa-4539-8d15-e78489d9a302-padding .rich-text__heading{
+  padding: 20px;
+}
+
+/*Nav Menu Center*/
+.header--middle-left{
+  grid-template-columns: 1fr auto 1fr !important;
+}
+.header--middle-left .header__inline-menu {
+  margin-top: 10px;
+}
+
+#coaches-page-1 .section-template--14937311805505__4e4ded4d-ded3-468a-ade7-88b2d92f34e0-padding .rich-text__heading{
+    color: white;
+    text-align: center;
+    font-family: BLT-Heirloom;
+    font-size: 61.908px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+    padding-top: 50px;
+}
+#coaches-page-1 .section-template--14937311805505__4e4ded4d-ded3-468a-ade7-88b2d92f34e0-padding .rich-text__text{
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.034px; 
+    padding-bottom: 65px;
+}
+
+/* 3rd section of coaching page*/
+#coaches-page-1 #shopify-section-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd .section-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd-padding{
+
+    background: var(--gradient-background);
+    background-attachment: cover !important;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Dr_Ruth_Roberts_-_Coaching_Pages_150x.png?v=1688483372) !important;
+    background-color: transparent !important;
+    background-size: 500px !important;
+    background-repeat: no-repeat;
+    background-position-x: center !important;
+   
+}
+
+#coaches-page-1 #shopify-section-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd .multicolumn-card{
+    background: none;
+}
+#coaches-page-1 .section-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd-padding .multicolumn-card{
+ 
+margin-top: -20px
+
+}
+#coaches-page-1 .section-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd-padding .rich-text__heading {
+    color: #2D4B49;
+    text-align: center;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+#coaches-page-1 .section-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd-padding .rich-text__text {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.034px; 
+}
+#coaches-page-1 #Slider-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd h3{
+    color: var(--style, #1E1E1E);
+    font-size: 24.765px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 33.019px; 
+}
+#coaches-page-1 #Slider-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd p{
+    color: var(--style, #1E1E1E);
+    text-align: justify !important;
+    font-size: 15px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.573px; 
+}
+#coaches-page-1 .section-template--14937311805505__89de9d09-bc4b-41ea-97c3-4bc536fb44fd-padding{
+    padding-bottom: 250px;
+}
+
+
+/*Coaches page 1 last 3rd section*/
+#coaches-page-1 .section-template--14937311805505__d5a2c720-aba5-48e1-a191-0f234a43e439-padding{
+ 
+  background: #abc5ae;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+#coaches-page-1 .section-template--14937311805505__4e4ded4d-ded3-468a-ade7-88b2d92f34e0-padding .rich-text__wrapper--center{
+  background: #abc5ae;
+  margin-bottom: -53px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+#coaches-page-1 .section-template--14937311805505__4e4ded4d-ded3-468a-ade7-88b2d92f34e0-padding .rich-text__blocks{
+
+  max-width: 100% !important;
+}
+#coaches-page-1 #Slide-template--14937311805505__d5a2c720-aba5-48e1-a191-0f234a43e439-1 .multicolumn-card{
+  background: #abc5ae;
+  border: 5px solid white;
+  border-radius: 80px;
+}
+
+#coaches-page-1 #Slide-template--14937311805505__d5a2c720-aba5-48e1-a191-0f234a43e439-2 .multicolumn-card{
+  background: #abc5ae;
+  border: 5px solid white;
+  border-radius: 80px;
+}
+
+
+
+
+
+
+
+
+/*Coaches page 1 last section*/
+
+#coaches-page-1 .section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68-padding .image-with-text__media-item{
+    width: 188px;
+}
+#coaches-page-1 #ImageWithText--template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68{
+   background: #abc5ae;
+
+}
+#coaches-page-1 .section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68-padding .image-with-text__media img{
+   background: #abc5ae;
+
+}
+#coaches-page-1 .section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68-padding{
+   background: #abc5ae;
+   border-radius: 50px;
+}
+#coaches-page-1 #ImageWithText--template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__heading {
+    color: #2D4B49;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+
+#coaches-page-1 #ImageWithText--template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__text p{
+    color: black;
+    font-size: 17.545px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.591px; 
+}
+
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__media{
+    
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/image_4_6114c6cf-5417-426c-8e2f-55c22b1c8868_150x.png?v=1688564665) !important;
+    background-color: transparent !important;
+    background-size: 333px !important;
+    background-repeat: no-repeat;
+    background-position-x: center !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+   
+
+}
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .button--primary svg{
+    display:none;
+
+}
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__text-item{
+    padding-left: 0px !important;
+}
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__grid{
+    margin: 0px !important;
+}
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__text{
+    padding-right: 0px !important;
+}
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__media-item{
+    background: #abc5ae;
+  
+}
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68 .image-with-text__media--adapt .placeholder-svg path{
+    
+    display: none;
+
+}
+#coaches-page-1 #shopify-section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68{
+    padding-bottom: 60px;
+}
+#coaches-page-1 .section-template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68-padding .button--primary{
+    color: #2D4B49 !important;
+}
+
+
+
+
+
+
+
+/*======================================================================================================================*/
+/*Home Page Coaches*/
+
+#home-page-coaches .section-template--14938865434689__29c00ec2-c01f-4761-badc-f2f4b3db20b7-padding .rich-text__heading{
+color: #2D4B49;
+text-align: center;
+font-family: BLT-Heirloom;
+font-size: 61.908px;
+font-style: normal;
+font-weight: 300;
+line-height: 65.917px;
+text-transform: capitalize; 
+
+}
+#home-page-coaches #RX_ImageWithText--template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06{
+background: #abc5ae;
+}
+
+
+#home-page-coaches .section-template--14938865434689__29c00ec2-c01f-4761-badc-f2f4b3db20b7-padding .rich-text__text{
+color: #1E1E1E;
+text-align: center;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26.034px; 
+}
+#home-page-coaches .section-template--14938865434689__b5296532-5fb5-4f6d-b195-bb7e7a845180-padding .rich-text__heading{
+color: #2D4B49;
+text-align: center;
+font-family: BLT-Heirloom;
+font-size: 61.908px;
+font-style: normal;
+font-weight: 300;
+line-height: 65.917px;
+text-transform: capitalize;
+
+}
+
+#home-page-coaches .section-template--14938865434689__b5296532-5fb5-4f6d-b195-bb7e7a845180-padding .rich-text__text{
+color: #1E1E1E;
+text-align: center;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26.034px; 
+}
+
+#home-page-coaches .rebuy-product-actions{
+ display: none;
+}
+
+/*6th section*/
+#home-page-coaches #shopify-section-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb .section-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-padding{
+
+    background: var(--gradient-background);
+    background-attachment: cover !important;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Group_1_6bf642d4-d490-44ed-b4b0-baabd744ce61.png?v=1688561682&width=3840) !important;
+    background-color: transparent !important;
+    background-position: top left !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: center !important;
+}
+
+#home-page-coaches #shopify-section-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb .multicolumn-card{
+    background: none;
+}
+#home-page-coaches .section-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-padding .multicolumn-card{
+ 
+margin-top: -20px
+
+}
+#home-page-coaches .section-template--14938865434689__a3836bec-fa69-49c3-8eb5-ea7d7a5a3234-padding .rich-text__heading {
+    color: #2D4B49;
+    text-align: center;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+#home-page-coaches .section-template--14938865434689__a3836bec-fa69-49c3-8eb5-ea7d7a5a3234-padding .rich-text__text {
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 18px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.034px; 
+}
+#home-page-coaches #Slider-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb h3{
+    color: var(--style, #1E1E1E);
+    font-size: 24.765px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 33.019px; 
+}
+#home-page-coaches #Slider-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb p{
+    color: var(--style, #1E1E1E);
+    text-align: justify !important;
+    font-size: 15px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.573px; 
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-1{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+    
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-2{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+  
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-3{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+   
+ 
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-4{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+   
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-5{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+ 
+ 
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-6{
+    padding-left: 65px;
+    padding-right: 65px;
+    background: none;
+  
+  
+}
+
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-1 .multicolumn-card{
+    margin-left: -128px;
+    margin-right: 125px;
+
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-3 .multicolumn-card{
+    margin-left: -128px;
+    margin-right: 125px;
+
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-5 .multicolumn-card{
+    margin-left: -128px;
+    margin-right: 125px;
+
+}
+
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-2 .multicolumn-card{
+    margin-left: 128px;
+    margin-right: -103px;
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-4 .multicolumn-card{
+    margin-left: 128px;
+    margin-right: -103px;
+
+}
+#home-page-coaches #Slide-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb-6 .multicolumn-card{
+    margin-left: 128px;
+    margin-right: -103px;
+
+}
+
+#home-page-coaches #Slider-template--14938865434689__0b8f6540-0805-4dd3-98aa-a1a0d6937cbb{
+   
+
+}
+
+#home-page-coaches #Banner-template--14937751814209__611aca1b-1c32-433c-b02e-b51ba1a09f1e .banner__media{
+    background: none;
+   /* margin-top: -1202px; */
+}
+
+
+#home-page-coaches #shopify-section-template--14937751814209__611aca1b-1c32-433c-b02e-b51ba1a09f1e{
+    /* padding: 430px; */
+}
+
+#home-page-coaches .section-template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845-padding .image-with-text__media-item{
+    width: 10px;
+}
+
+/*Home Page Last section*/
+
+#home-page-coaches .section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403-padding .image-with-text__media-item{
+    width: 188px;
+}
+#home-page-coaches #ImageWithText--template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403{
+   background: #abc5ae;
+
+}
+#home-page-coaches .section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403-padding .image-with-text__media img{
+   background: #abc5ae;
+
+}
+#home-page-coaches .section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403-padding{
+   background: #abc5ae;
+   border-radius: 50px;
+}
+#home-page-coaches #ImageWithText--template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__heading{
+    color: #2D4B49;
+    font-size: 61.908px;
+    font-family: BLT-Heirloom;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 65.917px;
+    text-transform: capitalize; 
+}
+
+#home-page-coaches #ImageWithText--template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__text{
+    color: #1E1E1E;
+    font-size: 13.545px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.591px; 
+}
+
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__media{
+    
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/image_4_6114c6cf-5417-426c-8e2f-55c22b1c8868_150x.png?v=1688564665) !important;
+    background-color: transparent !important;
+    background-size: 333px !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+   
+
+}
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .button--primary svg{
+    display:none;
+
+}
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__text-item{
+    padding-left: 0px !important;
+}
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__grid{
+    margin: 0px !important;
+}
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__text{
+    padding-right: 0px !important;
+}
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__media-item{
+    background: #abc5ae;
+  
+}
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403 .image-with-text__media--adapt .placeholder-svg path{
+    
+    display: none;
+
+}
+#home-page-coaches #shopify-section-template--14938865434689__ac13195c-53bc-424b-9b40-fe74d88a6403{
+    padding-bottom: 60px;
+}
+
+
+
+/*Banner Home page ===========================================================================================*/
+
+
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .banner__media{
+      
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url("") !important;
+    background-color: transparent !important;
+    background-size: 733px !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+
+}
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .banner__buttons{
+    
+    justify-content: center;
+    gap: 5.824px;
+    flex-shrink: 0; 
+    border-radius: 25.624px;
+    background: white; 
+    color: #2D4B49;
+    font-family: BLT-Heirloom;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51.085px;
+    
+
+}
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .button--primary{
+    border: none !important;
+    color: #2d4b49;
+}
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .button--primary svg{
+      display: none;
+}
+
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .banner__box{
+   margin-left: 0px !important;
+
+}
+
+
+#shopify-section-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965{
+  display: block ruby;
+}
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .banner__media svg{
+  display: none;
+}
+#shopify-section-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965{
+  background: #abc5ae;
+}
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .banner__heading .imghead{ 
+  color: #2d4b49;
+  font-size: 61.908px;
+  font-family: BLT-Heirloom;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 65.917px;
+  text-transform: capitalize; 
+
+}
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .imagedes{
+  color: #2d4b49;
+  font-size: 18px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.034px; 
+}
+
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .banner__heading{ 
+
+  text-align: left !important;
+}
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .banner__text{
+  
+  text-align: left !important;
+}
+
+#home-page-coaches #Banner-template--14938865434689__fc64388b-f9d8-4d17-acb7-0b14046cd965 .content-container{
+  width: 100% !important;
+  
+}
+#home-page-coaches #RX_ImageWithText--template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06{
+	border-radius: 50px;
+	margin-right: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#home-page-coaches #shopify-section-template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06 .image-with-text__text-item{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	margin-right: -50px;
+	z-index: 10;
+	border-radius: 25px !important;
+}
+#home-page-coaches #shopify-section-template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06 .rx_read_more_btn_green img{
+	display:none;
+}
+#home-page-coaches #shopify-section-template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06 .rx-template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06 .dot{
+  width: 20px !important;
+  height: 20px;
+  border: 2px solid #2d4b49;;
+}
+#home-page-coaches .section-template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06 .rx-img-with-text__heading{
+color: #FFF;
+font-weight: 600;
+}
+
+#home-page-coaches .section-template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06-padding .rx_read_more_btn_green{
+background: white;
+  border: none;
+}
+
+/*Fetured consultant section*/
+
+#home-page-coaches #Slide-template--14938865434689__594c240f-ed4c-4768-af6c-be62ff8a2a03-1 .content-container{
+
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Component_14_150x.png?v=1688976349) !important;
+    background-color: transparent !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+}
+#home-page-coaches #Slide-template--14938865434689__594c240f-ed4c-4768-af6c-be62ff8a2a03-2 .content-container{
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Component_15_150x.png?v=1688976349) !important;
+    background-color: transparent !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+
+}
+#home-page-coaches #Slide-template--14938865434689__594c240f-ed4c-4768-af6c-be62ff8a2a03-3 .content-container{
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Component_17_150x.png?v=1688976349) !important;
+    background-color: transparent !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+
+}
+#home-page-coaches #Slide-template--14938865434689__594c240f-ed4c-4768-af6c-be62ff8a2a03-4 .content-container{
+    background: var(--gradient-background);
+    display: block !important;
+    background-attachment: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Component_18_150x.png?v=1688976348) !important;
+    background-color: transparent !important;
+    background-size: auto !important;
+    background-repeat: no-repeat;
+    background-position-x: right 50px !important;
+    background-position-y: center !important;
+    padding-left: 20px;
+    border: none;
+}
+
+
+
+
+/*====================================================================Editing CSS of live site==========================================================================*/
+
+/*Home page last image banner*/
+@media screen and (max-width: 380px) {
+ #natural-supplements-for-dogs-and-cats-amp-holistic-veterinary-care-dr .section-template--14921793798209__a22eed67-71d2-4d24-9266-adb3dc0550e6 .rx_read_more_btn_white {
+ font-size: 9px;
+
+}
+}
+
+
+/*Shop page*/
+@media screen and (max-width: 1000px) {
+#multivitamin-for-dogs-and-cats-mushroom-supplements-for-dogs-and-cats-pet-supplements .pagination__list .show-btn{
+    margin-left: -235px;
+}
+}
+
+@media screen and (max-width: 750px) {
+#multivitamin-for-dogs-and-cats-mushroom-supplements-for-dogs-and-cats-pet-supplements .pagination__list .show-btn{
+    margin-left: 31px;
+}
+}
+
+/*Courses page*/
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 288px;
+
+}
+
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text-desc{
+	max-width: 760px;
+
+}
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .review60text{
+
+	padding-right: 128px;
+}
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .petwellness p{
+    margin-top: -7px;
+}
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .petwellness.review60text p {
+text-align: justify;
+
+}
+
+@media screen and (max-width: 1400px) {
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .review60text {
+    padding-right: 0px;
+}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .petwellness.review60text{
+width: 54%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .petwellness p{
+    margin-top: 5px;
+}
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .petwellness.review60text {
+    text-align: center;
+    margin-right: 3%;
+   
+    
+}
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .petwellness.review60text{
+width: 94%;
+}
+  
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .review60text{
+
+	padding-right: 0px !important;
+}
+}
+@media screen and (max-width: 1150px) {
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__7d80b91c-0905-4611-affb-51fe2d1dc13f .headingpetwellness {
+ 
+    width: 80%; 
+}
+}
+
+
+/*Responsive design*/
+@media screen and (max-width: 1628px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 207px;
+
+}
+  
+}
+@media screen and (max-width: 1519px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 152px;
+
+}
+}
+
+@media screen and (max-width: 1519px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 152px;
+
+}
+}
+
+@media screen and (max-width: 1516px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 65px;
+
+}
+}
+
+@media screen and (max-width: 1500px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 64px;
+
+}
+}
+
+@media screen and (max-width: 1498px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 64px;
+
+}
+}
+
+@media screen and (max-width: 1502px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 143px;
+
+}
+}
+
+
+@media screen and (max-width: 1337px) {
+
+#dr-ruth-pet-wellness-courses-nurturing-pet-wellness-and-holistic-care #shopify-section-template--14923208032321__43e0a268-a273-49f8-aebf-556332935db2 .rx-text{
+	margin: auto;
+	padding-left: 55px;
+
+}
+}
+
+
+/*Ruths Talks*/
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__db04c4f4-51de-4290-a61a-0abfc410e04c .container .rx-text .rx-text-desc {
+
+    max-width: 804px !important;
+}
+
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__076f80ac-eb59-4ff5-8321-5e4abc4978de .container .rx-text .rx-text-desc {
+    max-width: 795px !important;
+}
+
+
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker #shopify-section-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .content{
+
+ margin-left: 282px;
+}
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .container .rx-image {
+ border-radius: 100px;
+}
+ #dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .collapsible {
+
+     padding-right: 0px !important;
+}
+
+
+@media screen and (max-width: 1500px) {
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker #shopify-section-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .content{
+
+  margin-left: 200px;
+}
+}
+@media screen and (max-width: 1400px) {
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker #shopify-section-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .content{
+
+  margin-left: 106px;
+}
+}
+
+@media screen and (max-width: 1407px) {
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker #shopify-section-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .content{
+
+  margin-left: 140px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+
+
+.rx-template--14921793273921__076f80ac-eb59-4ff5-8321-5e4abc4978de .container .rx-text {
+    padding-left: 72px !important;
+    padding-right: 30px !important;
+   
+}
+}
+
+@media screen and (max-width: 1170px) {
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .collapsible p{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media screen and (max-width: 1100px) {
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker #shopify-section-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .content{
+
+  margin-left: 95px;
+}
+}
+@media screen and (max-width: 950px) {
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker #shopify-section-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .content{
+
+  margin-left: 0px;
+}
+  #dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .collapsible p{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .rx-template--14921793273921__076f80ac-eb59-4ff5-8321-5e4abc4978de .container .rx-text {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+  
+
+}
+@media screen and (max-width: 760px) {
+ #dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .collapsible {
+text-align: center !important;
+
+}
+
+#dr-ruth-roberts-integrative-veterinary-medicine-keynote-speaker .rx-template--14921793273921__ca0c59bb-2d80-4170-9d37-833a328f0ca3 .collabsible-arrow{
+ display: none !important;
+}
+}
+
+
+
+
+
+/*My Story Page*/
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 .rx-image{
+  width: 46%;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__09b0af44-a9f1-4a92-a2d0-9addd848789b{
+  max-width: 65% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__09b0af44-a9f1-4a92-a2d0-9addd848789b .container .rx-text {
+
+padding-right: 0px !important;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts #shopify-section-template--14921794945089__09b0af44-a9f1-4a92-a2d0-9addd848789b .rx-text {
+ padding-right: 0px !important;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__bd7ea1b0-5c57-4106-a7e6-a09658dca609{
+
+max-width: 65% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__bd7ea1b0-5c57-4106-a7e6-a09658dca609 .container .rx-text {
+padding-left: 0px !important;
+
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 .container .rx-text {
+
+ 
+  padding-right: 0px !important;
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 {
+ max-width: 65% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__c9a2c67f-3a6d-403f-878a-60e098bc9d55{
+max-width: 65% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__c9a2c67f-3a6d-403f-878a-60e098bc9d55 .container .rx-text {
+padding-left: 0px !important;
+
+}
+
+
+@media screen and (max-width: 1255px) {
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__09b0af44-a9f1-4a92-a2d0-9addd848789b{
+  max-width: 100% !important;
+   padding-left: 50px;
+    padding-right: 50px;
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__09b0af44-a9f1-4a92-a2d0-9addd848789b .container .rx-text {
+
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts #shopify-section-template--14921794945089__09b0af44-a9f1-4a92-a2d0-9addd848789b .rx-text {
+
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__bd7ea1b0-5c57-4106-a7e6-a09658dca609{
+
+max-width: 100% !important;
+  padding-left: 50px;
+    padding-right: 50px;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__bd7ea1b0-5c57-4106-a7e6-a09658dca609 .container .rx-text {
+padding-left: 0px !important;
+padding-right: 0px !important;
+
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 .container .rx-text {
+
+ 
+  padding-left: 0px !important;
+padding-right: 0px !important;
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 {
+ max-width: 100% !important;
+   padding-left: 50px;
+    padding-right: 50px;
+}
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__c9a2c67f-3a6d-403f-878a-60e098bc9d55{
+max-width: 100% !important;
+  padding-left: 50px;
+    padding-right: 50px;
+}
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__c9a2c67f-3a6d-403f-878a-60e098bc9d55 .container .rx-text {
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+}
+@media screen and (max-width: 1253px) {
+.rx-template--14921794945089__bd7ea1b0-5c57-4106-a7e6-a09658dca609 .container .rx-text .rx-text-desc {
+  padding-right: 30px;
+}
+  .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 .container .rx-text .rx-text-desc {
+   padding-left: 30px;
+}
+  .rx-template--14921794945089__c9a2c67f-3a6d-403f-878a-60e098bc9d55 .container .rx-text .rx-text-desc {
+    padding-right: 30px;
+  }
+}
+
+  
+/*Pet advice*/
+#dr-ruth-roberts-blog-expert-pet-wellness-insights-top-pet-blogs #shopify-section-template--14921793241153__da5d6bea-f7a2-4311-9dfa-c51f9b8cfc8b{
+padding-right: 10%;
+
+}
+#dr-ruth-roberts-blog-expert-pet-wellness-insights-top-pet-blogs #shopify-section-template--14921793241153__da5d6bea-f7a2-4311-9dfa-c51f9b8cfc8b .blog50{
+width: 44% !important;
+
+}
+@media screen and (max-width: 1000px) {
+
+#dr-ruth-roberts-blog-expert-pet-wellness-insights-top-pet-blogs #shopify-section-template--14921793241153__da5d6bea-f7a2-4311-9dfa-c51f9b8cfc8b{
+padding-right: 0px;
+
+}
+  
+#dr-ruth-roberts-blog-expert-pet-wellness-insights-top-pet-blogs .blogcerflex{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#dr-ruth-roberts-blog-expert-pet-wellness-insights-top-pet-blogs #shopify-section-template--14921793241153__da5d6bea-f7a2-4311-9dfa-c51f9b8cfc8b .blog50 {
+    width: 100% !important;
+}
+
+  
+}
+@media screen and (max-width: 950px) {
+
+#my-holistic-veterinary-healing-story-dr-ruth-roberts .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 .rx-image {
+    width: 75%!important;
+}
+  .rx-template--14921794945089__bd7ea1b0-5c57-4106-a7e6-a09658dca609 .container .rx-text .rx-text-desc {
+  padding-right: 0px;
+}
+  .rx-template--14921794945089__ad2b506a-a006-4757-abea-111ff8635172 .container .rx-text .rx-text-desc {
+   padding-left: 0px;
+}
+  .rx-template--14921794945089__c9a2c67f-3a6d-403f-878a-60e098bc9d55 .container .rx-text .rx-text-desc {
+    padding-right: 0px;
+  }
+}
+
+  
+
+/*Contact Page*/
+  
+@media screen and (max-width: 1050px) {
+.rx-template--14921793077313__78640aa1-5398-49e4-acaf-4132e75b97af .container .rx-text { 
+
+padding-right: 29px !important;
+padding-left: 20px !important;
+padding-top: 0px !important;
+}
+
+  }
+
+
+
+
+/*--------------------------------------------------------------Tablet Responsive (1024)-----------------------------------------------------------*/
+@media screen and (max-width: 1024px) {
+  
+/*-------------------------1st Section--------------------------*/
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left{
+    background-size: 480px !important;
+    left: 0px;
+    width: 600px;
+    margin-right: 5rem;
+    background-position-y: unset;
+    height: 430px;
+}
+
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container{
+
+margin-left: -78%;
+padding-top: 0px;
+}
+
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container--full-width-mobile h2{
+font-size: 40px;
+line-height: 55px;
+}
+
+#coaches .banner__media {
+  height: 100%;
+}
+
+#coaches .banner--large:not(.banner--adapt) {
+    min-height: 53rem;
+}
+
+#coaches .banner_img .banner__text.body span {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#coaches .banner_img a.button.button--primary {
+    font-size: 12px;
+    padding: 5px 40px;
+}
+
+
+
+/*-------------------------2nd Section--------------------------*/
+#coaches #shopify-section-template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033 .rich-text__heading span{
+    font-size: 40px;
+}
+
+#coaches #shopify-section-template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033 h2 {
+    padding-top: 35px;
+}
+
+#coaches #shopify-section-template--14940389605441__ca075de0-606f-4393-99bb-5311518b5033 p {
+    font-size: 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+#coaches rich-text__blocks>*+* {
+    margin-top: 0rem;
+}
+
+/*Card row 1*/
+#coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+   background-size: 397px!important;
+   background-position-x: 20%!important;
+}
+
+#coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card {
+    background-size: 186px!important;
+    left: 105px;
+}
+
+#coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+    background-size: 186px!important;
+    background-position-x: 46%!important;
+}
+
+/*Info*/
+#coaches #Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info h3 {
+    font-size: 25px;
+}
+
+#coaches #Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info p {
+    font-size: 12px;
+}
+
+#coaches .multicolumn-card__info {
+    padding-left: 1rem;
+}
+
+#coaches #Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info .animate-arrow {
+    top: 120px;
+    padding-left: 1rem;
+}
+
+#coaches .multicolumn-card__info .link {
+    font-size: 12px;
+}
+
+
+/*Card row 2*/
+#coaches #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    background-size: 397px!important;
+    background-position-x: 42%!important;
+}
+
+#coaches #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card {
+    background-size: 194px!important;
+    left: -103px;
+}
+
+#coaches #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card {
+    background-size: 186px!important;
+    background-position-x: 54%!important;
+}
+
+/*Card row 3*/
+#coaches #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+   background-size: 397px!important;
+   background-position-x: 20%!important;
+}
+
+#coaches #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card {
+    background-size: 186px!important;
+    left: 105px;
+}
+
+#coaches #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+    background-size: 186px!important;
+    background-position-x: 46%!important;
+}
+
+#coaches #Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info {
+    height: 297px!important;
+}
+}
+
+
+
+
+
+
+/*Button*/
+.isolate .rich-text__buttons {
+    display: block !important;
+    margin-top: -100px !important;
+    margin-left: -50px !important;
+} 
+
+.multicolumn-card__info .link {
+    border-radius: 20px !important;
+    background-color: #2e484a !important;
+    padding: 5px 15px 5px 15px !important;
+    color: white !important;
+}
+
+#shopify-section-template--14942166286401__c9a77dcc-8f21-456a-80a7-66ec510e4067 .multicolumn-card__info {
+    margin-top: -93px !important;
+    text-align: center !important;
+    z-index: 10 !important;
+    position: relative !important;
+    background: none !important;
+}
+
+
+
+
+/*COACHES COLLECTION PAGE RESPONSIVENESS*/
+
+/*BANNER*/
+@media screen and (min-width: 2000px) {
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left {
+  
+    position: relative;
+    left: 0%;
+ 
+}
+  
+}
+
+@media screen and (max-width: 1570px) {
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left {
+    background-size: 817px!important;
+}
+
+
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    margin-left: -25%;
+}
+
+
+  
+}/*@media screen and (max-width: 1536px)*/
+
+
+
+@media screen and (max-width: 1340px) {
+
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container{
+ width: 58% !important;
+
+}
+  
+
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    margin-left: -29%;
+}
+
+  #coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left {
+    background-size: 764px!important;
+}
+}/*@media screen and (max-width: 1440px)*/
+
+
+
+@media screen and (max-width: 1300px) {
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left {
+    background-size: 707px !important;
+}
+
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container--full-width-mobile h2 {
+   
+    font-size: 48.908px;
+ 
+}
+}/*@media screen and (max-width: 1366px)*/
+
+
+
+@media screen and (max-width: 1170px) {
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    width: 41%!important;
+    min-width: 41rem;
+}
+
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left {
+    background-size: 600px!important;
+}
+
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container--full-width-mobile h2 {
+ font-size: 30.908px;
+    line-height: 43.917px;
+ 
+    padding-top: 64px;
+}
+
+}/*@media screen and (max-width: 1280px)*/
+
+
+
+@media screen and (max-width: 1024px) {
+
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    margin-left: -23%;
+    padding-top: 0px;
+}
+  
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    width: 41%!important;
+    min-width: 63rem;
+}
+
+  #coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container--full-width-mobile h2 {
+    font-size: 52px;
+}
+  #coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__content--middle-left{
+       background-image: url("") !important;
+    
+   /* display: block !important;
+    background-color: transparent !important;
+    background-size: 917px !important;
+    background-repeat: no-repeat;
+    background-position-x: right !important;
+    background-position-y: center !important;
+    margin-left: 21%;
+    width: 77%;*/
+}
+
+  
+}/*@media screen and (max-width: 1024px)*/
+
+@media screen and (max-width: 749px) {
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    margin-left: -2%;
+    padding-top: 0;
+}
+#coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container--full-width-mobile h2 {
+    font-size: 40px;
+  color: white !important;
+}
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__heading span{
+    color: white !important;
+}
+
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__text span{
+font-size: 20px !important;
+line-height: 30px !important;
+    color: white !important;
+}
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .button--primary{
+border: 2px solid white !important;
+color: white !important;
+}
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__buttons svg path{
+    stroke: white !important;
+}
+  
+}
+
+@media screen and (max-width: 650px) {
+
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    width: 40%!important;
+   min-width: 52rem;
+}
+  
+
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container--full-width-mobile h2 {
+   
+    padding-top: 0px; 
+}
+
+}
+
+
+@media screen and (max-width: 510px) {
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    width: 40%!important;
+    min-width: 46rem;
+}
+
+  #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .banner__text span {
+    font-size: 15px!important;
+    line-height: 20px!important;
+    color: #fff!important;
+}
+
+
+}
+
+@media screen and (max-width: 426px) {
+#Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    width: 37%!important;
+    min-width: 37rem;
+}
+
+
+  #coaches #Banner-template--14940389605441__785dee0f-be6d-4dbd-84a6-964a4ce5b0f0 .content-container {
+    margin-top: -30px;
+}
+
+
+}
+
+/*FEATURED COLLECTION*/
+
+/*Fisrt column*/
+@media screen and (max-width: 1300px) {
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+    width: 536px;
+}
+  
+
+#Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card {
+     padding-left: 0px; 
+}
+ #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card {
+    position: relative;
+    left: 130px;
+}
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+    position: relative;
+    left: 29px;
+}
+
+    #Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info .animate-arrow {
+    position: relative;
+    top: 161px;
+    font-size: 12px;
+}
+  #Slider-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6 .multicolumn-card__info{
+
+padding-top: 40px;
+    padding-left: 50px;
+}
+
+  #coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card__info .animate-arrow {
+    top: 139px !important;
+  
+}
+
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card__info {
+    padding-top: 40px;
+    padding-left: 72px;
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card__info {
+    padding-top: 40px;
+    padding-left: 72px;
+}
+
+}
+#coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card__info .animate-arrow {
+    top: 158px;
+  
+}
+
+@media screen and (max-width: 1200px) {
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+    background-size: 506px!important;
+
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card {
+
+    background-size: 238px!important;
+
+}
+
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+
+    background-size: 238px!important;
+
+}
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card {
+    position: relative;
+    left: 134px;
+}
+
+  #coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card__info .animate-arrow {
+    top: 140px;
+  
+}
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card__info {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card__info {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+  
+}
+
+@media screen and (max-width: 1120px) {
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card{
+position: relative;
+    left: -27px;
+
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+    position: relative;
+    left: 44px;
+}
+  
+}
+
+@media screen and (max-width: 1024px) {
+#coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card__info .animate-arrow {
+    top: 98px !important;
+  
+}
+
+  
+}
+
+@media screen and (max-width: 1086px) {
+
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+    background-size: 454px!important;
+}
+
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card, #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+    background-size: 213px!important;
+}
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card {
+    left: 128px;
+}
+  
+}
+
+
+@media screen and (max-width: 989px) {
+
+#coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+    background-size: 437px!important;
+    background-position-x: center !important;
+}
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+    position: relative;
+    left: 0px;
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1 .multicolumn-card {
+    width: 100%;
+}
+
+  #coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2 .multicolumn-card {
+    left: 0px;
+}
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+    position: relative;
+    left: 0px;
+}
+
+  #coaches #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3 .multicolumn-card {
+    background-position-x: center !important;
+}
+  #Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-1{
+background: #edd0ba;
+
+}
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-2{
+background: #b3a7df;
+
+}
+
+#Slide-template--14940389605441__5b10af01-9fda-4f74-9dd6-340a797a06d6-3{
+    background: #f2cb4f;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Second Column*/
+
+@media screen and (max-width: 1300px) {
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    width: 536px;
+}
+
+  #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+  
+
+#Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card {
+     padding-left: 0px; 
+}
+ #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card {
+    position: relative;
+    left: -150px;
+}
+  #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card {
+    position: relative;
+    left: -56px;
+}
+
+    #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info .animate-arrow {
+    position: relative;
+    top: 161px;
+    font-size: 12px;
+}
+  
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card{
+position: relative;
+    left: -189px;
+  
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card__info{
+padding-left: 50px !important;
+  
+}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    background-size: 506px!important;
+
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card {
+
+   background-size: 244px!important;
+
+}
+
+  #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card {
+
+    background-size: 238px!important;
+
+}
+  #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card {
+    position: relative;
+    left: -125px;
+}
+
+}
+
+@media screen and (max-width: 1163px) {
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card__info .animate-arrow {
+    top: 124px;
+}
+}
+
+
+@media screen and (max-width: 1120px) {
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card{
+position: relative;
+  left: -196px;
+
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card {
+    position: relative;
+    left: -40px;
+}
+  
+}
+
+
+
+@media screen and (max-width: 1086px) {
+
+  #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card {
+    background-size: 454px!important;
+}
+
+  #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card  {
+    background-size: 213px!important;
+}
+  #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card{
+
+        background-size: 221px!important;
+  }
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    left: -196px;
+}
+
+    #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 {
+    margin-top: -102px;
+}
+  
+  
+}
+
+@media screen and (max-width: 1024px) {
+
+#coaches #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info h3 {
+    font-size: 25px;
+}
+  #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info{
+
+padding-top: 65px;
+    padding-left: 50px;
+}
+
+  #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 .multicolumn-card__info .animate-arrow {
+    top: 130px;
+
+}
+  #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card__info{
+    padding-left: 74px;
+
+}
+
+
+}
+@media screen and (max-width: 989px) {
+
+#coaches #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card {
+    background-size: 186px!important;
+    background-position-x: center !important;
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1 .multicolumn-card {
+    position: relative;
+    left: 0px;
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-1{
+background: #efbeac;
+
+}
+#coaches #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2 .multicolumn-card {
+    background-size: 194px!important;
+    left: 0px;
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-2{
+background: #aac8c9;
+}
+
+#coaches #Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    background-size: 397px!important;
+    background-position-x: center !important;
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    left: 0px;
+}
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3 .multicolumn-card {
+    width: 100%;
+}
+
+#Slide-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5-3{
+background: #deedbd;
+}
+
+    #Slider-template--14940389605441__c08e6889-5b82-408c-9262-d16cee6dceb5 {
+    margin-top: 0px;
+}
+
+}
+
+
+
+
+
+
+/*Third column*/
+@media screen and (max-width: 1300px) {
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+    width: 536px;
+}
+
+  #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+  
+
+#Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card {
+     padding-left: 0px; 
+}
+ #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card {
+    position: relative;
+    left: 130px;
+}
+  #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+    position: relative;
+    left: 29px;
+}
+
+    #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info .animate-arrow {
+    position: relative;
+    top: 161px;
+    font-size: 12px;
+}
+  
+
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+    background-size: 506px!important;
+
+}
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card {
+
+    background-size: 238px!important;
+
+}
+
+  #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+
+    background-size: 238px!important;
+
+}
+  #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card {
+    position: relative;
+    left: 134px;
+}
+
+  
+ 
+  
+}
+
+@media screen and (max-width: 1120px) {
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card{
+position: relative;
+    left: -27px;
+
+}
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+    position: relative;
+    left: 44px;
+}
+  
+}
+
+
+
+@media screen and (max-width: 1086px) {
+
+  #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+    background-size: 454px!important;
+}
+
+  #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card, #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+    background-size: 213px!important;
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card {
+    left: 128px;
+}
+
+  
+  #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 {
+    margin-top: -102px;
+}
+  
+}
+
+@media screen and (max-width: 1024px) {
+
+#coaches #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info h3 {
+    font-size: 25px;
+}
+  #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info{
+
+padding-top: 65px;
+    padding-left: 50px;
+}
+
+  #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 .multicolumn-card__info .animate-arrow {
+    top: 130px;
+
+}
+ #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 {
+    margin-top: -139px;
+}
+ 
+  
+}
+@media screen and (max-width: 989px) {
+
+#coaches #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+    background-size: 397px!important;
+    background-position-x: center !important;
+}
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+    position: relative;
+    left: 0px;
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1 .multicolumn-card {
+    width: 100%;
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-1{
+background: #cfcdc9;
+
+}
+
+#coaches #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2 .multicolumn-card {
+    background-size: 186px!important;
+    left: 0px;
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-2{
+background: #8b9ea8;
+
+}
+
+#coaches #Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+    background-size: 186px!important;
+    background-position-x: center !important;
+}
+
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3 .multicolumn-card {
+    position: relative;
+    left: 0px;
+}
+#Slide-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31-3{
+background: #426f92;
+
+}
+
+  #Slider-template--14940389605441__a39cad73-abdc-4fc4-b7fe-773016710e31 {
+    margin-top: 0px;
+}
+
+}
+/*Collaboration approach responsive*/
+
+@media screen and (max-width: 1221px) {
+
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-1, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-2, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-3, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+
+#coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-1 .multicolumn-card, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-3 .multicolumn-card, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-5 .multicolumn-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  
+}
+
+  #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-5, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+#coaches #shopify-section-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e .section-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-padding {
+
+    background-image: url("")!important;
+
+}
+
+  #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-2 .multicolumn-card, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-4 .multicolumn-card, #coaches #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-6 .multicolumn-card {
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+ 
+
+  #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-1{
+    background: #acc3fb;
+border-radius: 25px;
+  }
+    #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-2{
+      background: #acc3fb;
+border-radius: 25px;
+    }
+    #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-3{
+      background: #acc3fb;
+border-radius: 25px;
+    }
+    #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-4{
+      background: #acc3fb;
+border-radius: 25px;
+    }
+    #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-5{
+      background: #acc3fb;
+border-radius: 25px;
+    }
+    #Slide-template--14940389605441__b2f3b937-1143-4f76-80ce-c460c16b1f5e-6{
+      background: #acc3fb;
+border-radius: 25px;
+    }
+
+}
+
+/*Star review*/
+
+@media screen and (max-width: 989px) {
+.block_container{
+
+padding-left: 20px;
+}
+
+
+.block_container{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shopify-section-template--14940389605441__1d09ce56-d815-4da4-9b2c-a947a3eaafd5 .container-content {
+    width: 100%;
+}
+
+.Maincontainer{
+display: grid !important;
+
+}
+
+#shopify-section-template--14940389605441__1d09ce56-d815-4da4-9b2c-a947a3eaafd5 .Sub_main {
+    display: contents;
+}
+.sub_container{
+ margin: 20px;
+}
+  
+}
+
+
+
+
+
+@media screen and (max-width: 1180px) {
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .ratinconain {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .reviestep {
+    max-width: 100%;
+}
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starflex1 {
+    position: relative!important;
+    top: -220px;
+}
+
+}
+
+@media screen and (max-width: 813px) {
+
+
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starflex1 {
+    position: relative!important;
+    top: -251px;
+}
+
+}
+@media screen and (max-width: 689px) {
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starflex1 {
+    position: relative!important;
+    top: -308px;
+}
+
+}
+
+@media screen and (max-width: 544px) {
+#shopify-section-template--14940389605441__e67404e9-fd71-4531-8d5f-8711d8c7e57d .starflex1 {
+    position: relative!important;
+    top: -360px;
+}
+
+}
+
+           

@@ -1,0 +1,573 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-family: \"BLT-Heirloom\"; color: black;}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "40ccc761-5f8c-45d8-bc43-9a94c4dffcd7": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SPAY AND NEUTER SYNDROME",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your dogs and cats can't tell you how they feel, but you can still be their voice. If you've noticed changes since their spay or neuter surgery, it might be more than just a phase. Take our quick quiz to uncover if these changes could be symptoms of Spay\/Neuter Syndrome.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "TAKE THE QUIZ",
+            "button_link": "https:\/\/drruthroberts.outgrow.us\/drruthroberts-9"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-heading-1",
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-text-1",
+        "template--14921792946241__40ccc761-5f8c-45d8-bc43-9a94c4dffcd7-button-1"
+      ],
+      "custom_css": [
+        ".image-with-text,.image-with-text__grid {max-width: 100%;}",
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 0;}",
+        ".grid__item > div {justify-content: center;}",
+        ".image-with-text__media-item img {object-fit: contain;}",
+        ".image-with-text__heading {font-family: \"BLT-Heirloom\"; font-size: 2em; line-height: 1.2em; color: #184b44;}",
+        ".image-with-text__text p {color: #184b44;}",
+        "@media (min-width: 601px) {.image-with-text__heading {font-size: 2.5em; line-height: 1em; padding-bottom: 0.3em; }}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/spayneuter_f74bab94-eb08-47c9-a5a9-5ec0bc3ab94c.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c310de0e-f268-4dff-8278-ea581c28a408": {
+      "type": "multicolumn",
+      "blocks": {
+        "18ea8e42-e20a-426d-87db-407cbf6d1ff5": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Spay and Neuter Syndrome (SNS) refers to a range of symptoms that some dogs or cats may experience following their spaying or neutering surgeries. These symptoms can vary widely but are important to recognize to ensure your pet recovers smoothly and healthily.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "18ea8e42-e20a-426d-87db-407cbf6d1ff5"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px; text-align: center; max-width: 800px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn > div {max-width: 1200px;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "What is Spay and Neuter Syndrome?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_yzRGxT": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_8qp8c6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "THE IMPORTANCE OF SPAYING AND NEUTERING",
+            "icon": "paw_print",
+            "row_content": "<p>Understanding why spaying and neutering are essential is the first step toward responsible pet ownership. These procedures help control the pet population, preventing the overpopulation of dogs, which is a significant issue in many communities. Beyond population control, spaying and neutering can reduce the risk of certain health issues, such as breast tumors and testicular cancer, thereby potentially extending the life of your pet.<br\/><\/p><p><strong>BENEFITS:<\/strong><\/p><p><strong>Population Control:<\/strong> Reduce the number of unwanted puppies, which helps decrease the number of animals in shelters.<\/p><p><strong>Health Benefits:<\/strong> Lower the risk of certain types of cancers and other health problems that can be life-threatening.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kAUxjE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHEN SHOULD YOU SPAY \/ NEUTER YOUR DOG OR CAT",
+            "icon": "paw_print",
+            "row_content": "<p>The best time to spay or neuter your dog can depend on several factors, including their breed, size, sex and overall health. Smaller breeds might be ready for the procedure earlier than larger breeds. <br\/><\/p><p><strong>FEMALE<\/strong><br\/>Wait at least 2-5 heat cycles<br\/><br\/><strong>MALE<\/strong><br\/>Wait at least 1 year<\/p><p>Consulting with your veterinarian will help you determine the most appropriate time to perform these surgeries, balancing the benefits while minimizing potential health risks.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pEdq8P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WARNING SIGNS AFTER SPAYING OR NEUTERING",
+            "icon": "paw_print",
+            "row_content": "<p>After spaying or neutering, it's crucial to monitor your pet closely for any signs of distress or complications. Early detection can prevent more severe health issues.<\/p><p><strong>Behavioral Changes:<\/strong> Watch for excessive lethargy, reluctance to move, or significant changes in behavior that could indicate discomfort or pain.<\/p><p><strong>Physical Symptoms<\/strong>: Be alert for signs such as persistent pain, which might be evident if your dog whimpers or shies away from contact.<\/p><h5><strong>INFECTION INDICATORS<\/strong><\/h5><p>Post-operative infections are possible complications that require immediate attention.<\/p><ul><li><strong>Visible Signs:<\/strong> Redness, swelling, or discharge at the surgical site are clear indicators of a possible infection.<\/li><li><strong>Behavioral Indicators:<\/strong> If your dog seems unusually withdrawn or irritable, it could also be a sign of discomfort due to an infection.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nDU6cg": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_8qp8c6",
+        "collapsible_row_kAUxjE",
+        "collapsible_row_pEdq8P",
+        "collapsible_row_nDU6cg"
+      ],
+      "custom_css": [
+        "h3 {font-weight: bold; font-family: \"BLT-Heirloom\"; color: #184b44;}",
+        "ul,li,p {font-weight: normal;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 92
+      }
+    },
+    "rx_img_with_text_slider_TMfLnQ": {
+      "type": "rx-img-with-text-slider",
+      "blocks": {
+        "slide_BFYaVH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SPAY_NEUTER.png",
+            "height": "small",
+            "desktop_image_width": "small",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "left",
+            "content_layout": "overlap",
+            "grid_type": "type2",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "left",
+            "heading": "Noticing Changes in Your Pet?",
+            "description": "<p>With over 85% of dogs in the U.S. being spayed or neutered for benefits like population control and reduced health risks, it's essential to consider all aspects of these procedures. Recent research points to a possible connection between early spaying\/neutering and certain health issues, including cancer and joint problems. It raises the question: could these common surgeries have unintended consequences on our pets' health?<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_BFYaVH"
+      ],
+      "custom_css": [
+        "p {padding: 1em;}"
+      ],
+      "settings": {
+        "desktopMaxWidth": "100%",
+        "auto_play": true
+      }
+    },
+    "petadvice_main_kWCVdx": {
+      "type": "petadvice-main",
+      "blocks": {
+        "block_kGc9WB": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/behavioral.png",
+            "heading": "Behavioral Changes",
+            "link": "#"
+          }
+        },
+        "block_Ceqwc4": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/obese_bafe7b2d-1b07-4bb2-828d-eaec75035443.png",
+            "heading": "Over-weight",
+            "link": "#"
+          }
+        },
+        "block_YQxzr7": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/joint_issue.png",
+            "heading": "Joint Issues",
+            "link": "#"
+          }
+        },
+        "block_fkVfGW": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/urinary.png",
+            "heading": "Urinary Infections",
+            "link": "#"
+          }
+        },
+        "block_8jExkx": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cancer_risk.png",
+            "heading": "Cancer Risk",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_kGc9WB",
+        "block_Ceqwc4",
+        "block_YQxzr7",
+        "block_fkVfGW",
+        "block_8jExkx"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading1": "",
+        "valuepet": "container"
+      }
+    },
+    "fadcc9ee-5901-42d9-8139-51be2d304bad": {
+      "type": "coachingmainblog",
+      "custom_css": [
+        "svg {display: none;}"
+      ],
+      "settings": {
+        "c_head": "",
+        "pro_btn1": "LEARN MORE",
+        "program_link1": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/spay-and-neuter-syndrome"
+      }
+    },
+    "b165d27c-cf73-4142-863a-ca8961ce2bf7": {
+      "type": "multicolumn",
+      "blocks": {
+        "8bbda40f-a648-4ccd-992c-ea2b00742e1b": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Engage with our interactive quiz to test your understanding of spay and neuter syndrome. This tool is designed to reinforce the information provided and help you recognize the signs and effects of these procedures on your pets.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8bbda40f-a648-4ccd-992c-ea2b00742e1b"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: flex; justify-content: center; margin-bottom: 0; margin-top: 35px;}",
+        ".multicolumn .title {font-family: \"BLT-Heirloom\"; color: #2d4b49; font-weight: 300; margin-bottom: -20px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-list__item:only-child {max-width: 100%;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Spay and Neuter Syndrome Quiz",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Gain Insights",
+            "text": "<p>Learn the possible symptoms of SNS in your pet through our quiz. Identifying these signs early can make a significant difference in their health. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Informed Decisions",
+            "text": "<p>Equipped with insights from the quiz, you will be able to make well-informed health care choices for your pet. This information allows you to advocate effectively for their needs. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Bridge the Gap",
+            "text": "<p>Our quiz is crucial link between your pet's health and the decisions you make on their behalf. It aims to enhance your understanding of how spaying or neutering impacts them. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-1",
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-2",
+        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3"
+      ],
+      "custom_css": [
+        "h3 {font-family: \"BLT-Heirloom\"; font-size: 1.8em; line-height: 50px; font-weight: 300; min-height: 85px;}",
+        ".button.button--primary {display: none;}",
+        ".multicolumn-card__info {background: #f5f8f1; border-radius: 28px; height: 35rem; padding: 2em;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "TAKE THE QUIZ",
+        "button_link": "https:\/\/drruthroberts.outgrow.us\/drruthroberts-9",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "coachingmainblog_QaRRwz": {
+      "type": "coachingmainblog",
+      "custom_css": [
+        ".cmax_container {padding-bottom: 1em;}"
+      ],
+      "settings": {
+        "c_head": "",
+        "pro_btn1": "START THE QUIZ",
+        "program_link1": "https:\/\/drruthroberts.outgrow.us\/drruthroberts-9"
+      }
+    },
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1",
+        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".image-with-text__grid.grid {background: #e0ecbe; padding: 35px; border-radius: 50px;}",
+        ".image-with-text__grid.grid div {background-color: #fff0;}",
+        ".image-with-text__heading {text-align: left;}",
+        ".image-with-text__media-item {width: 25% !important;}",
+        ".image-with-text__text-item.grid__item.image_content {padding-left: 2%;}",
+        ".image-with-text__media.media {max-width: 250px; margin: auto;}",
+        ".image-with-text__media img {object-fit: contain !important;}",
+        "h2.image-with-text__heading.h1 {font-size: 54px; line-height: 50px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/image_4_ba456788-5c27-4b4d-b5d1-19eacd0079a5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76": {
+      "type": "rx-image-banner-v2",
+      "blocks": {
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The opportunity to become a professional pet Pet Health Coach has come very close to you"
+          }
+        },
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "APPLY TO THE PROGRAM",
+            "button_link_1": "#"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-heading-1",
+        "template--14921792946241__f20ac99b-64d9-4f94-9722-95cf6c742a76-buttons-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner__media.media {padding: 0;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".banner__media.media {padding: 0;}",
+        ".banner--mobile-bottom,.banner__media.media {margin: 0; max-width: 100%;}",
+        ".rx_read_more_btn_green {border-color: #fff; color: #fff;}",
+        ".rx_banner__heading {font-size: 44px; max-width: 750px; line-height: 54px;}"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/ba9f58a211abaad2ea28ee2b4f2ebef0.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "container_bg": "rgba(0,0,0,0)",
+        "desktop_content_alignment": "left",
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "4f906579-b062-4ab8-babd-9cc9b73db3d9": {
+      "type": "rx-testimonial",
+      "blocks": {
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Mind Blowing!",
+            "testimonial": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies<\/p>",
+            "reviewer_name": "Missy Springer & Kenzie South Paw Aussies",
+            "rating": "5"
+          }
+        },
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-2": {
+          "type": "title",
+          "settings": {
+            "title": "Best Product",
+            "testimonial": "<p>Review Text<\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        },
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-3": {
+          "type": "title",
+          "settings": {
+            "title": "Best Product",
+            "testimonial": "<p>Review Text<\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        },
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-4": {
+          "type": "title",
+          "settings": {
+            "title": "Best Product",
+            "testimonial": "<p>Review Text<\/p>",
+            "reviewer_name": "Reviewer Name",
+            "rating": "5"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-1",
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-2",
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-3",
+        "template--14921792946241__4f906579-b062-4ab8-babd-9cc9b73db3d9-title-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktopColumns": "2",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "100%",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#ffffff",
+        "card_bgcolor": "#ffffff",
+        "filled_star_color": "",
+        "empty_star_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "40ccc761-5f8c-45d8-bc43-9a94c4dffcd7",
+    "c310de0e-f268-4dff-8278-ea581c28a408",
+    "collapsible_content_yzRGxT",
+    "rx_img_with_text_slider_TMfLnQ",
+    "petadvice_main_kWCVdx",
+    "fadcc9ee-5901-42d9-8139-51be2d304bad",
+    "b165d27c-cf73-4142-863a-ca8961ce2bf7",
+    "e5035dd7-0d99-448e-9e24-80d60b96ee6c",
+    "coachingmainblog_QaRRwz",
+    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3",
+    "f20ac99b-64d9-4f94-9722-95cf6c742a76",
+    "4f906579-b062-4ab8-babd-9cc9b73db3d9"
+  ]
+}

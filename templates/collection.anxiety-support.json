@@ -1,0 +1,468 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "1644361594fa530990": {
+      "type": "image-with-text",
+      "blocks": {
+        "164436159488e9de81-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anxiety and Stress Relief for Pet",
+            "heading_size": "h1"
+          }
+        },
+        "164436159488e9de81-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If your pet is experiencing stress and anxiety, you can try this support protocol by Dr. Ruth Roberts to alleviate discomfort and enhance your pet's well-being. Providing relief for your furry friend often need a comprehensive approach. Incorporating natural supplements, therapy device, and balanced nutrition can significantly improve your pet's overall health. Additionally, this protocol includes adrenal glands supplements to boost their energy levels,  emotional balance, and immune system function during times of anxiety.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "164436159488e9de81-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Support Protocol",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/%5BStress%5D+Supplement+Brochure.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "164436159488e9de81-0",
+        "164436159488e9de81-1",
+        "164436159488e9de81-2"
+      ],
+      "custom_css": [
+        "h2 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_f760c3fa-fe7d-46af-a32e-b7ed90c845de.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "893a1553-5449-4e0a-8d9d-1a85eadb4ef1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792520257__893a1553-5449-4e0a-8d9d-1a85eadb4ef1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Calm Your Pet",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792520257__893a1553-5449-4e0a-8d9d-1a85eadb4ef1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Relieve your dog's anxiety with the Calm Your Pet Bundle. Address <br\/>separation anxiety, noise phobia, and over-excitement. Dr. Ruth Roberts'<br\/> holistic approach enhances your pet's well-being. Calm Shen manages <br\/>behavior without drowsiness, Clarity supports cognitive health, and <br\/>Calmer Canine offers a safe, drug-free solution for separation anxiety.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792520257__893a1553-5449-4e0a-8d9d-1a85eadb4ef1-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET THIS BUNDLE",
+            "button_link": "https:\/\/drruthroberts.com\/products\/calm-your-pet"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792520257__893a1553-5449-4e0a-8d9d-1a85eadb4ef1-heading-1",
+        "template--14921792520257__893a1553-5449-4e0a-8d9d-1a85eadb4ef1-text-1",
+        "template--14921792520257__893a1553-5449-4e0a-8d9d-1a85eadb4ef1-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Calm_Your_Pet.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}",
+        ".quick-add {padding-top: 0px; margin-top: 0px; border: 3px solid #184b44; border-radius: 15px; background-color: transparent; color: #184b44;}"
+      ],
+      "settings": {
+        "products_per_page": 8,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "show_special_offer": false,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 40,
+        "rating": 5
+      }
+    },
+    "8ba26948-a269-458c-a321-d063920724a4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "",
+            "icon": "none",
+            "row_content": "<p>Anxiety and stress in pets can be pretty complex. They can feel a whole  range of emotions, like fear, unease, and tension. Knowing the ins and  outs of how anxiety and stress affect our furry friends is super  important. Sometimes, It's not always easy to spot, but it's there, and it can really affect their day-to-day life. They might seem jittery, avoid certain situations, or even act out a bit.Understanding this is like getting a peek into their world. It helps us support them better and make sure they're feeling their best. So, let's dig a bit deeper into what might be going on and how we can help them out.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Common Causes of Anxiety and Stress in Pets:",
+            "icon": "paw_print",
+            "row_content": "<p>🐱 <strong>Separation Anxiety<\/strong>: One of the most common forms of anxiety in pets, separation anxiety occurs when an animal becomes distressed upon being separated from their owner or primary caregiver. This can lead to destructive behavior, excessive vocalization, and other signs of distress.<\/p><p>🐱 <strong>Environmental Changes<\/strong>: Alterations in a pet's environment, such as moving to a new home or changes in routine, can be a significant source of stress. Pets are creatures of habit, and disruptions in their familiar surroundings can lead to anxiety.<\/p><p>🐱 <strong>Past Trauma or Abuse<\/strong>: Pets with a history of trauma or abuse may carry emotional scars that manifest as anxiety. These animals may have triggers that evoke fearful responses, even in seemingly benign situations.<\/p><p>🐱 <strong>Lack of Socialization<\/strong>: Pets that have not been adequately socialized with other animals or people may struggle with new experiences and environments, leading to anxiety when faced with unfamiliar situations.<\/p><p>🐱 <strong>Noise Phobia<\/strong>: Loud noises like thunderstorms, fireworks, or even construction can be incredibly distressing for pets. This type of anxiety often leads to behaviors like hiding, trembling, or attempting to flee.<\/p><h2><\/h2>",
+            "page": ""
+          }
+        },
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Common Symptoms of Stress and Anxiety in Pets",
+            "icon": "paw_print",
+            "row_content": "<p>Identifying anxiety in pets requires a keen observant eye. Some common signs include:<\/p><p>🐶 <strong>Behavioral Changes<\/strong>: This can encompass a wide range of actions, from excessive barking, whining, or meowing to destructive behaviors like chewing or scratching furniture.<\/p><p>🐶 <strong>Changes in Appetite or Grooming Habits<\/strong>: Anxiety can affect an animal's appetite, leading to overeating or loss of appetite. Additionally, pets may neglect their grooming routine when feeling stressed.<\/p><p>🐶 <strong>Restlessness or Agitation<\/strong>: Pets experiencing anxiety may exhibit restlessness, pacing, or an inability to settle down.<\/p><p>🐶 <strong>Avoidance Behaviors<\/strong>: They might attempt to avoid certain places, situations, or even people or animals.<\/p><p>🐶 <strong>Excessive Vocalization or Panting<\/strong>: Anxious pets may become more vocal or show signs of heavy panting, even when not physically exerting themselves.<\/p>",
+            "page": ""
+          }
+        },
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Relief and Support",
+            "icon": "clipboard",
+            "row_content": "<p>Helping pets manage anxiety involves a combination of patience, understanding, and sometimes professional guidance. Some approaches include:<\/p><p>✅ <strong>Natural Supplements<\/strong>: Certain herbal remedies, CBD products, or pheromone diffusers can help calm anxious pets.<\/p><p>✅ <strong>Behavioral Training<\/strong>: Gradual exposure to anxiety-inducing situations, positive reinforcement, and desensitization techniques can be effective in reducing anxiety.<\/p><p>✅ <strong>Creating a Safe Environment<\/strong>: Providing a secure and comfortable space for your pet, along with a consistent routine, can go a long way in reducing anxiety.<\/p><p>✅ <strong>Seeking Professional Advice<\/strong>: Consulting with a veterinarian or animal behaviorist can provide tailored strategies and, in some cases, medication options for severe cases of anxiety.<\/p><p>✅ <strong>Engaging Activities<\/strong>: Interactive toys, puzzle feeders, and regular exercise can help redirect anxious energy and provide mental stimulation.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-1",
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-2",
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-3",
+        "template--14921792520257__8ba26948-a269-458c-a321-d063920724a4-collapsible_row-4"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 30;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; font-size: 20px;}",
+        "p {font-family: \"BLT-heirloom\", sans-serif; text-align: justify; text-color: black; font-size: 15px;}"
+      ],
+      "settings": {
+        "caption": "Let's learn more about",
+        "heading": "Anxiety and Stress in Pet",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1645140795e31deed7": {
+      "type": "collection-list",
+      "blocks": {
+        "3fbd7ffb-f5df-416d-ad62-66f153c8526f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bone-and-joint-health-protocol"
+          }
+        },
+        "37ab9ac6-c2ab-4f8e-ad0c-0b1f9f18c2c3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "general-detox-protocol"
+          }
+        },
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "liver-support"
+          }
+        },
+        "01e14f5b-b6a4-4974-951e-534be3e0d71f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cardiovascular-support-protocol"
+          }
+        },
+        "acd17412-5fb2-4a80-b738-5abc92707bfb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cancer-support"
+          }
+        }
+      },
+      "block_order": [
+        "3fbd7ffb-f5df-416d-ad62-66f153c8526f",
+        "37ab9ac6-c2ab-4f8e-ad0c-0b1f9f18c2c3",
+        "1853a121-95ff-45ab-9f71-39eaebc3baf3",
+        "01e14f5b-b6a4-4974-951e-534be3e0d71f",
+        "acd17412-5fb2-4a80-b738-5abc92707bfb"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 25px; padding-top: 30px;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; text-color: black; padding-top: 15px;}",
+        ".button {font-family: \"BLT-heirloom\", sans-serif; text-color: white;}",
+        "img {border-radius: 30px;}"
+      ],
+      "settings": {
+        "title": "See More Pet Protocols",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "164434556097d46afd": {
+      "type": "rich-text",
+      "blocks": {
+        "1644345560ae71793c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Nutrition and Supplements for Holistic Veterinary Care<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1644345560ae71793c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While it’s natural to view your pet as a member of your family, do you view their health needs in the same manner you view yours?<\/p><p>As a human dedicated to a healthier lifestyle, you take a daily vitamin and may supplement that routine with different additions, be it fish oil or Vitamin C. <\/p><p>In this regard, your pet is no different from you. To ensure that your beloved animal is getting the nutrients and she needs, here are five supplements you can consider adding to your pet’s routine. <\/p>"
+          }
+        },
+        "1644345560ae71793c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Book now!",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644345560ae71793c-0",
+        "1644345560ae71793c-1",
+        "1644345560ae71793c-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1644346673ab5cde9c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1644346673215909db-0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Multivitamin ",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644346673215909db-1": {
+          "type": "column",
+          "settings": {
+            "title": "Fish Oil",
+            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1644346673215909db-2": {
+          "type": "column",
+          "settings": {
+            "title": "Probiotics",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7e2f260b-9426-4f80-b237-654daa7af150": {
+          "type": "column",
+          "settings": {
+            "title": "Antioxidants",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "851298dd-4488-4c37-bd0a-47c632e1f888": {
+          "type": "column",
+          "settings": {
+            "title": "Turmeric",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644346673215909db-0",
+        "1644346673215909db-1",
+        "1644346673215909db-2",
+        "7e2f260b-9426-4f80-b237-654daa7af150",
+        "851298dd-4488-4c37-bd0a-47c632e1f888"
+      ],
+      "disabled": true,
+      "settings": {
+        "custom_class": "",
+        "title": "While this is not a one-size-fits-all list, it does address some of the most common holistic pet care needs. ",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16443635858774eb64": {
+      "type": "rich-text",
+      "blocks": {
+        "1644363585f56cc491-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>I'm Your Pet's Ally - A trusted source of information for you & your pet.<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1644363585f56cc491-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You might question whether a holistic veterinary care approach is the right one or if it’ll even work. Yet, you can’t shake that feeling in the pit of your stomach that there might just be a better, safer way to care for your animal.<\/p><p>In my practice, I’ve had the honor of helping thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.<\/p><p>I combine scientific facts, decades of clinical work, and a holistic, integrative approach to help you find solutions that’ll nurture your furry friend back to optimum health.<\/p>"
+          }
+        },
+        "1644363585f56cc491-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1644363585f56cc491-0",
+        "1644363585f56cc491-1",
+        "1644363585f56cc491-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16451372445fbe7db4": {
+      "type": "newsletter",
+      "blocks": {
+        "1645137244617a2009-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be one of our VIP Clients",
+            "heading_size": "h1"
+          }
+        },
+        "1645137244617a2009-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "1645137244617a2009-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1645137244617a2009-0",
+        "1645137244617a2009-1",
+        "1645137244617a2009-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "1644361594fa530990",
+    "893a1553-5449-4e0a-8d9d-1a85eadb4ef1",
+    "product-grid",
+    "8ba26948-a269-458c-a321-d063920724a4",
+    "1645140795e31deed7",
+    "164434556097d46afd",
+    "1644346673ab5cde9c",
+    "16443635858774eb64",
+    "16451372445fbe7db4"
+  ]
+}

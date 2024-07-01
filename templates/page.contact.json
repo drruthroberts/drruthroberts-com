@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486280257__b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd-1683205563f3e19933-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Get Personalized recommendation <\/p>"
+          }
+        },
+        "c805630b-650c-4828-a411-6f6787d74214": {
+          "type": "caption",
+          "settings": {
+            "caption": "FILL OUT THE FORM BELOW AND I'LL GET BACK TO YOU WITHIN 48 HOURS!"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486280257__b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd-1683205563f3e19933-0",
+        "c805630b-650c-4828-a411-6f6787d74214"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 8
+      }
+    },
+    "46dc717d-b645-45db-b490-80497c97aea0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 20px;\">\n  <iframe src=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSf1BrLJbFIPGhDh5uZjQZfQxvByin75b2Bs_sx8DTCTDGr7-g\/viewform?embedded=true\" width=\"640\" height=\"480\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…<\/iframe>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e269a92a-d415-48e5-81af-de2ed3d26423": {
+      "type": "rx-contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "73ed2484-6376-48ad-b069-4f0eec5c16e7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14921793077313__73ed2484-6376-48ad-b069-4f0eec5c16e7-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "EMAIL",
+            "text": "<p>Customercare@drruthroberts.com<\/p>",
+            "link_label": "EMAIL US",
+            "link": "mailto:Customercare@drruthroberts.com"
+          }
+        },
+        "template--14921793077313__73ed2484-6376-48ad-b069-4f0eec5c16e7-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "PHONE #",
+            "text": "<p>+1 213 394 2923<\/p>",
+            "link_label": "CALL NOW",
+            "link": "tel:+1 213 394 2923"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921793077313__73ed2484-6376-48ad-b069-4f0eec5c16e7-column-1",
+        "template--14921793077313__73ed2484-6376-48ad-b069-4f0eec5c16e7-column-2"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "CONTACT US",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "78640aa1-5398-49e4-acaf-4132e75b97af": {
+      "type": "rx-banner-text-v2",
+      "blocks": {
+        "ffd5c83d-676b-4d97-83cb-5ca7de87434e": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/holistic-pet-health-coaching-program"
+          }
+        }
+      },
+      "block_order": [
+        "ffd5c83d-676b-4d97-83cb-5ca7de87434e"
+      ],
+      "custom_css": [
+        "#rx_read_more_arrow_black {margin-left: 30px;}"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/Image_4.png",
+        "heading": "",
+        "caption": "Become A Certified Holistic Pet Health Coach in 4 Months!",
+        "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>",
+        "content2": "",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd",
+    "46dc717d-b645-45db-b490-80497c97aea0",
+    "e269a92a-d415-48e5-81af-de2ed3d26423",
+    "73ed2484-6376-48ad-b069-4f0eec5c16e7",
+    "78640aa1-5398-49e4-acaf-4132e75b97af"
+  ]
+}

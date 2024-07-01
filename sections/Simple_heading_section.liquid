@@ -1,0 +1,62 @@
+
+<style>
+  .richtext_heading>h1{
+    max-width : 1300px;
+    margin : 0 auto;
+    color: #1E1E1E;
+    text-align : {{ section.settings.content_position }};
+    font-family: Lato;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 70.5px;
+    letter-spacing: 0.6px;
+  }
+  @media(max-width : 1024px){
+    font-size : 44px;
+    line-height : normal;
+  }
+</style>
+
+<div class="richtext_heading">
+  <h1>{{ section.settings.heading }}</h1>
+</div>
+
+{% schema %}
+  {
+    "name": "Heading Section",
+    "settings": [
+      {
+        "type" : "text",
+        "id" : "heading",
+        "label" : "Add Heading"
+      },
+      {
+        "type" : "select",
+        "id" : "content_position",
+        "label" : "Heading Position",
+        "options" : [
+          {
+            "value": "left",
+            "label" : "Left"
+          },
+          {
+            "value": "center",
+            "label" : "Center"
+          },
+          {
+            "value": "right",
+            "label" : "Right"
+          }
+        ],
+          "default": "center"
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "richtext-heading"
+      }
+    ]
+  }
+{% endschema %}
+

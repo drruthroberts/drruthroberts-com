@@ -1,0 +1,98 @@
+<div class="amr_our_services">
+  <div class="amr_container_1170">
+    <div class="amr_OS_flex">
+      <div class="amr_OS_links amr_OS_flex_item">
+        <h2>{{ section.settings.heading }}</h2>
+        {% for block in section.blocks %}
+          {% if block.type == 'link' %}
+            <a href="{{ block.settings.btn_url }}"><span>{{ block.settings.btn_txt }}</span> <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Arrow_1.svg?v=1692215782"></a>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="amr_OS_img amr_OS_flex_item">
+        {% for block in section.blocks %}
+          {% if block.type == 'img' %}
+            <img src="{{ block.settings.main_img | img_url:'master' }}">
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="amr_OS_detail amr_OS_flex_item">
+        {% for block in section.blocks %}
+          {% if block.type == 'detail' %}
+            <div>{{ block.settings.detail }}</div>
+            <a href="{{ block.settings.btn_urlm }}"><span>{{ block.settings.btn_txtm }}</span> <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Vector_1_24bec78c-516f-4df7-a7b8-50bf4a4183f3.svg?v=1692219691"></a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Our Services section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label":"Heading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "img",
+      "name": "Image",
+      "limit":1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "main_img",
+          "label":"Main Image"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "link",
+      "settings": [
+        {
+          "type": "text",
+          "id": "btn_txt",
+          "label":"Link Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label":"Link URL"
+        }
+      ]
+    },
+    {
+      "type": "detail",
+      "name": "Detail",
+      "limit":1,
+      "settings": [
+        {
+          "type":"richtext",
+          "id":"detail",
+          "label":"Detail"
+        },
+        {
+          "type": "text",
+          "id": "btn_txtm",
+          "label":"Button Text"
+        },
+        {
+          "type": "url",
+          "id": "btn_urlm",
+          "label":"Button URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+      {
+        "name": "Our Services section"
+      }
+    ]
+}
+{% endschema %}

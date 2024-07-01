@@ -1,0 +1,94 @@
+
+<div class="rewordmax_container howrewardflex">
+    <div class="rewardwork">
+            <h2 class="rewordhead">{{section.settings.reworkhead}}</h2>
+            <p class="rewardsub">{{section.settings.rewworkdes}}</p>
+    </div>
+    <div class=" reworkcontent" style="    border-bottom: 1px solid #F5F8F1;width: 100%;">
+        {%- for block in section.blocks -%}
+                <div class="rewordworkspace">
+                    <h2 class="reworktitlle">{{block.settings.reworktitle}}</h2>
+                    <h3 class="reworkdescc">{{block.settings.reworksubtitl}}</h3>
+                </div> 
+        {%- endfor -%}
+    </div>
+    <div class="howworkbtn">
+        <a href="{{section.settings.howbtnurl}}" class="howworkorder">{{ section.settings.howbtn }}
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+          <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+          </svg>
+        </a>
+    </div> 
+   
+</div>
+{% schema %} 
+{
+  "name": "rewardhow-work",
+  "tag": "section",
+  "class": "rewardhow-work",
+  "settings": [
+    {
+      "type": "text",
+      "id": "reworkhead",
+      "label": "Heading"
+    },
+       {
+      "type": "text",
+      "id": "rewworkdes",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "howbtn",
+      "label": "Button"
+    },
+     {
+      "type": "url",
+      "id": "howbtnurl",
+      "label": "Button Link"
+    }
+   
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+      
+       {
+    "type": "text",
+    "id": "reworktitle",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "reworksubtitl",
+    "label": "Sub Heading"
+      }
+     
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "rewardhow-work"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.howworkorder svg{
+margin-left:100px;
+}
+@media screen and (max-width: 520px) {
+  h2.rewordhead{
+      font-size: 45px!important;
+      line-height:42px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .howworkorder svg {
+    margin-left: 50px;
+}
+}
+</style>

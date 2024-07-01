@@ -1,0 +1,753 @@
+{
+  "sections": {
+    "main": {
+      "type": "rx-main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields._1_badge_text_2.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "751d134f-73fe-4141-86b2-938f1aeacb83": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "87b6800d-0639-4f48-b6fd-18848b047f30": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+            "show_add_to_cart_button": true
+          }
+        },
+        "0dd44047-53bd-4401-b151-a60aa1b52a8d": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "c50958db-6d62-42c8-8a47-729c390a856f": {
+          "type": "rx_product_tab",
+          "disabled": true,
+          "settings": {
+            "ingredients_content": "{{ product.metafields.custom.revamp_ingredients | metafield_tag }}",
+            "instructions_content": "{{ product.metafields.custom.revamp_instruction | metafield_tag }}",
+            "instructions_content_image": "{{ product.metafields.custom.revamp_instruction_image.value }}",
+            "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "c3949539-dd47-4db5-86e8-4b2143f24749": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "4e4ca8e0-c024-40a2-947e-f6be194e2e5b": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Custom CTA Button<\/title>\n    <style>\n        \/* Center align the container vertically and at the top *\/\n        .button-container {\n            display: flex;\n            justify-content: center;\n            align-items: flex-start; \/* Align to the top *\/\n            min-height: 25vh; \/* Minimum full viewport height *\/\n            margin: 0;\n            padding: 0; \/* Remove padding *\/\n        }\n        \/* Style the CTA button *\/\n        #ctaButton {\n            font-family: 'BLT-Heirloom', sans-serif;\n            font-weight: lighter;\n            font-size: 30pt;\n            color: white; \/* Text color is now white *\/\n            background-color: #184B44;\n            border: none;\n            padding: 15px 30px; \/* Padding for the button *\/\n            border-radius: 10px; \/* Rounded corners *\/\n            cursor: pointer;\n            margin-bottom: 0; \/* Remove margin-bottom *\/\n        }\n    <\/style>\n<\/head>\n<body>\n    <!-- Button Container -->\n    <div class=\"button-container\">\n        <!-- CTA Button -->\n        <button id=\"ctaButton\" onclick=\"changeText()\">BOOK A CONSULT<\/button>\n    <\/div>\n    <!-- JavaScript -->\n    <script>\n        function changeText() {\n            \/\/ Retrieve the metafield value for the button redirect\n            var metafieldValue = \"{{ product.metafields.Consult-button.redirect }}\"; \/\/ Use Shopify Liquid syntax to retrieve the metafield value\n            \/\/ Check if the user's device supports phone calls\n            if ('contacts' in navigator) {\n                \/\/ Initiate a phone call\n                navigator.contacts.select(['phoneNumbers'], function(contacts) {\n                    var phoneNumbers = contacts[0].phoneNumbers;\n                    if (phoneNumbers.length > 0) {\n                        var phoneNumber = phoneNumbers[0].value;\n                        window.location.href = 'tel:' + phoneNumber;\n                        \/\/ Change the button text to display the phone number\n                        document.getElementById(\"ctaButton\").textContent = phoneNumber;\n                    } else {\n                        alert(\"Phone number not available.\");\n                    }\n                }, function(error) {\n                    alert(\"Error: \" + error);\n                });\n            } else {\n                \/\/ Redirect to the URL specified in the metafield\n                window.location.href = metafieldValue;\n                \/\/ Change the button text to display the URL from the metafield\n                document.getElementById(\"ctaButton\").textContent = metafieldValue;\n            }\n        }\n    <\/script>\n<\/body>\n<\/html>"
+          }
+        },
+        "c95c2990-6b4e-4a02-b770-9ceae8953b52": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.my_fields._2_image_with_text_top_title.value }}",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "caption",
+        "751d134f-73fe-4141-86b2-938f1aeacb83",
+        "87b6800d-0639-4f48-b6fd-18848b047f30",
+        "quantity_selector",
+        "0dd44047-53bd-4401-b151-a60aa1b52a8d",
+        "c50958db-6d62-42c8-8a47-729c390a856f",
+        "description",
+        "c3949539-dd47-4db5-86e8-4b2143f24749",
+        "4e4ca8e0-c024-40a2-947e-f6be194e2e5b",
+        "c95c2990-6b4e-4a02-b770-9ceae8953b52"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "media_size": "small",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 16
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "08272d4d-303d-440d-b37b-7a83170b6abe": {
+      "type": "featured-product",
+      "blocks": {
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-4": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-6": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "8b817be8-031e-4529-8a82-d473f1e5b4b6": {
+          "type": "icon-with-text",
+          "disabled": true,
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "box",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-0",
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-1",
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-2",
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-3",
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-4",
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-5",
+        "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-6",
+        "8b817be8-031e-4529-8a82-d473f1e5b4b6"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "coaches-1",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4f71bb3b-ad95-478f-9d80-d3a7d8c75c18": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "917f0b14-b480-4b5a-a463-55d41ed905c9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9-168969463360ced385-0": {
+          "type": "column",
+          "settings": {
+            "title": "Coach Information",
+            "text": "<p>{{ product.metafields.my_fields._1_badge_text_1.value }}<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9-168969463360ced385-1": {
+          "type": "column",
+          "settings": {
+            "title": "Contact",
+            "text": "<p>{{ product.metafields.my_fields.product_direction_for_use | metafield_tag }}<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9-168969463360ced385-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Tab 3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5b0cf342-f7dd-4531-9e80-56ea77d7d6c1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Tab 4",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "94746ee1-f611-4076-861f-dcea1596a0e0": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Tab 5",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "021c2a3d-9da6-40d5-8c4c-44e901e25f1f": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Tab 6",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9-168969463360ced385-0",
+        "template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9-168969463360ced385-1",
+        "template--14942166286401__917f0b14-b480-4b5a-a463-55d41ed905c9-168969463360ced385-2",
+        "5b0cf342-f7dd-4531-9e80-56ea77d7d6c1",
+        "94746ee1-f611-4076-861f-dcea1596a0e0",
+        "021c2a3d-9da6-40d5-8c4c-44e901e25f1f"
+      ],
+      "custom_css": [
+        "h3 {padding-top: 10px; padding-left: 20px !important; padding-bottom: 5px; color: #2d4b49; font-family: BLT-Heirloom; font-size: 3rem;}",
+        "p {padding-top: 10px; margin-left: 10px !important;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "6c4498fe-ac4d-48ca-b9bd-fb242626d0cd": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform the Health of Your Beloved Pets:",
+            "heading_size": "h1"
+          }
+        },
+        "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE COACHES",
+            "button_link": "shopify:\/\/collections\/coaches"
+          }
+        }
+      },
+      "block_order": [
+        "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-heading-1",
+        "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-text-1",
+        "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/brown-dog-looks-up-to-small-kitten-in-a-persons-hands.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 16,
+        "padding_bottom": 40
+      }
+    },
+    "abe4a906-a16b-4d26-8f07-691acdb8382b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14942166286401__abe4a906-a16b-4d26-8f07-691acdb8382b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Certified Coaches<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14942166286401__abe4a906-a16b-4d26-8f07-691acdb8382b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14942166286401__abe4a906-a16b-4d26-8f07-691acdb8382b-heading-1",
+        "template--14942166286401__abe4a906-a16b-4d26-8f07-691acdb8382b-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "div {}",
+        "h2 {padding-top: 50px; padding-bottom: 0; color: #2d4b49; font-family: BLT-Heirloom; font-size: 6rem;}",
+        "p {font-size: 1.7rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c9a77dcc-8f21-456a-80a7-66ec510e4067": {
+      "type": "multicolumn",
+      "blocks": {
+        "1a61ff9f-050c-461a-9801-21edc2e284e5": {
+          "type": "column",
+          "settings": {
+            "title": "Our Certified Coaches",
+            "text": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. <\/p>",
+            "link_label": "",
+            "link": "#"
+          }
+        },
+        "509d71b0-3f8b-4a0d-b787-713839f212c1": {
+          "type": "column",
+          "settings": {
+            "title": "Why us?",
+            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1a61ff9f-050c-461a-9801-21edc2e284e5",
+        "509d71b0-3f8b-4a0d-b787-713839f212c1"
+      ],
+      "custom_css": [
+        "div {background-color: #e6f0e7;}",
+        ".multicolumn-card__info {margin-top: -30px; text-align: center;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "1b807219-da09-4a27-a62e-92485e0d5783": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14942166286401__1b807219-da09-4a27-a62e-92485e0d5783-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Why us?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14942166286401__1b807219-da09-4a27-a62e-92485e0d5783-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14942166286401__1b807219-da09-4a27-a62e-92485e0d5783-heading-1",
+        "template--14942166286401__1b807219-da09-4a27-a62e-92485e0d5783-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {padding-bottom: 0; color: #2d4b49; font-family: BLT-Heirloom; font-size: 6rem;}",
+        "p {font-size: 1.7rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "633debae-a1a7-4670-a389-c7461a3b1f94": {
+      "type": "featured-collection",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "coaches",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "ee4bb36e-3253-45a5-a415-1cb58bcfe308": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14942166286401__ee4bb36e-3253-45a5-a415-1cb58bcfe308-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What real pet parents are saying<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14942166286401__ee4bb36e-3253-45a5-a415-1cb58bcfe308-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14942166286401__ee4bb36e-3253-45a5-a415-1cb58bcfe308-heading-1",
+        "template--14942166286401__ee4bb36e-3253-45a5-a415-1cb58bcfe308-text-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: BLT-Heirloom; font-weight: bold !important; font-size: 5rem; color: #2e484a;}",
+        "p {font-size: 1.7rem; padding-left: 5rem; padding-right: 5rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 20
+      }
+    },
+    "d23ab1ba-25cd-4e5c-b53d-83583af5eeee": {
+      "type": "custom-reviews",
+      "blocks": {
+        "c4cec768-9b4a-4271-9bc8-eaf53a2d5843": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "rating": 5,
+            "confimed": "Mind Blowing!",
+            "confimedp": "Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies",
+            "signtext": "Missy Springer & Kenzie South Paw Aussies"
+          }
+        },
+        "a6095a36-6126-423b-89b9-afd257984192": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "rating": 5,
+            "confimed": "Mind Blowing!",
+            "confimedp": "Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies",
+            "signtext": "Missy Springer & Kenzie South Paw Aussies"
+          }
+        },
+        "5c564c20-c62b-413d-8886-51720bb87f40": {
+          "type": "block",
+          "settings": {
+            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "rating": 5,
+            "confimed": "Mind Blowing!",
+            "confimedp": "Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies",
+            "signtext": "Missy Springer & Kenzie South Paw Aussies"
+          }
+        }
+      },
+      "block_order": [
+        "c4cec768-9b4a-4271-9bc8-eaf53a2d5843",
+        "a6095a36-6126-423b-89b9-afd257984192",
+        "5c564c20-c62b-413d-8886-51720bb87f40"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".customercontainer {margin: auto; margin-top: -110px; max-width: 1340px;}",
+        ".customercontainer .truncate {text-align: justify; line-height: 26px;}",
+        ".customercontainer span {}",
+        ".stardiv {display: none;}",
+        ".customerdetail {min-height: 600px;}"
+      ],
+      "settings": {
+        "starreviewhead": ""
+      }
+    },
+    "5fb17d23-c495-41f2-8b33-acb8352081bd": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Expertise",
+            "text": "<p>Our pet consultants have undergone rigorous training in holistic pet care <br\/>by Dr. Ruth Roberts, equipping them with in-depth knowledge and practical skills <br\/>to address a wide range of health concerns for dogs and cats.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Holistic Approach",
+            "text": "<p>We believe in treating pets as whole beings, considering their physical, emotional, and nutritional needs. <br\/>Our coaches specialize in holistic approaches that emphasize natural remedies and balanced lifestyles.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Personalized Care",
+            "text": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "50343c4b-24ae-4259-a2d7-349ecf662bd7": {
+          "type": "column",
+          "settings": {
+            "title": "Comprehensive Services",
+            "text": "<p>Our pet consultants can assist you with various aspects of pet health, including nutrition advice, behavior modification, exercise plans, and preventive care strategies. Whatever your pet's needs may be, we're here to help.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a02377b2-5215-41a6-bc48-d4afcccc8c69": {
+          "type": "column",
+          "settings": {
+            "title": "Practical Recommendations",
+            "text": "<p>You'll receive clear and actionable recommendations to address your pet's health concerns, enhance their behavior, <br\/>or improve their overall quality of life.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-column-1",
+        "template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-column-2",
+        "template--14942166286401__5fb17d23-c495-41f2-8b33-acb8352081bd-column-3",
+        "50343c4b-24ae-4259-a2d7-349ecf662bd7",
+        "a02377b2-5215-41a6-bc48-d4afcccc8c69"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-size: 2rem;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "ae7e2baf-a177-490c-b4e0-b7818383f201": {
+      "type": "faq",
+      "blocks": {
+        "d0b1be18-7116-49d8-8bb0-1b8021d01857": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Answer.",
+            "faqid": "",
+            "faqbtn": "What will I learn from this certification?"
+          }
+        },
+        "ce65b864-4d98-43c4-983b-90fb08fcd5db": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Answer.",
+            "faqid": "",
+            "faqbtn": "What can I do as a Certified Holistic Pet Health Coach?"
+          }
+        },
+        "b14ae6db-214c-43ee-9e5a-e694f2cde4c3": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Answer.",
+            "faqid": "",
+            "faqbtn": "What is one-to-one mentorship work?"
+          }
+        },
+        "39a9195c-c16a-4744-bb87-bea1ab5d67f5": {
+          "type": "collection",
+          "settings": {
+            "faqdes": "Answer.",
+            "faqid": "",
+            "faqbtn": "What are the Q&A Weekly sessions?"
+          }
+        }
+      },
+      "block_order": [
+        "d0b1be18-7116-49d8-8bb0-1b8021d01857",
+        "ce65b864-4d98-43c4-983b-90fb08fcd5db",
+        "b14ae6db-214c-43ee-9e5a-e694f2cde4c3",
+        "39a9195c-c16a-4744-bb87-bea1ab5d67f5"
+      ],
+      "custom_css": [
+        ".accordion-container {margin-bottom: 100px;}"
+      ],
+      "settings": {
+        "mfaqhead": "FAQ's"
+      }
+    },
+    "b63e6af2-2ca9-4b92-85c2-46a029e1ed88": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "08272d4d-303d-440d-b37b-7a83170b6abe",
+    "4f71bb3b-ad95-478f-9d80-d3a7d8c75c18",
+    "917f0b14-b480-4b5a-a463-55d41ed905c9",
+    "6c4498fe-ac4d-48ca-b9bd-fb242626d0cd",
+    "abe4a906-a16b-4d26-8f07-691acdb8382b",
+    "c9a77dcc-8f21-456a-80a7-66ec510e4067",
+    "1b807219-da09-4a27-a62e-92485e0d5783",
+    "633debae-a1a7-4670-a389-c7461a3b1f94",
+    "ee4bb36e-3253-45a5-a415-1cb58bcfe308",
+    "d23ab1ba-25cd-4e5c-b53d-83583af5eeee",
+    "5fb17d23-c495-41f2-8b33-acb8352081bd",
+    "ae7e2baf-a177-490c-b4e0-b7818383f201",
+    "b63e6af2-2ca9-4b92-85c2-46a029e1ed88"
+  ]
+}

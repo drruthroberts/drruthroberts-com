@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "bb87f080-abd6-47b4-ba9f-01d54999a6b2": {
+      "type": "rx-banner-text-v2",
+      "custom_css": [
+        "h1 {color: #184b44;}"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/OUR_BLOG_BANNER_caadee6e-efe8-410a-b9f0-bba65c5516d7.png",
+        "heading": "Our Blogs",
+        "caption": "",
+        "content": "<p>Our blog aim to provide pet parents with informative and thought-provoking articles covering a broad spectrum of holistic pet care topics. Whether you're in search of practical tips, comprehensive guides, or in-depth exploration of specific subjects, our blog is tailored to educate, enlighten, and motivate.<\/p>",
+        "content2": "<p>  Stay updated with our latest pet blogs and join our community of curious and passionate readers.<\/p>",
+        "layout": "image_first"
+      }
+    },
+    "488913be-42fd-43d8-b2f3-07dc1854f7ab": {
+      "type": "main-blog-custom",
+      "blocks": {
+        "064b116a-b144-4838-ae3c-fab2c363cf30": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "Supplements & multivitamin",
+            "headurl": "Supplements-Multivitamin"
+          }
+        },
+        "ddda9a29-2968-4344-b1d9-1170c8e6d7ee": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "Pet trivia",
+            "headurl": "Pet-Trivia"
+          }
+        },
+        "b12799bf-f8d1-43fa-bcb7-770e98e35c3c": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "Pet food & diet",
+            "headurl": "Pet-Food-Diet"
+          }
+        },
+        "bba8d281-4abf-4d7b-ab00-1eea0b4b7d86": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "Pet health & wellbeing",
+            "headurl": "Pet-Health-Wellbeing"
+          }
+        },
+        "8fdf101f-4834-4e53-9c03-7cfceb1da8d1": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "Illness & disease",
+            "headurl": "Illness-Disease"
+          }
+        },
+        "da70c0bf-394f-41ce-8676-8070c0bd2641": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "Tips & remedies",
+            "headurl": "Tips-Remedies"
+          }
+        },
+        "5d2e36c1-2817-433c-9f07-e4c84e58006d": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "blog topics",
+            "headurl": ""
+          }
+        },
+        "596c6c8a-d8f4-4fab-8bf3-79a7edc0785c": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "blog topics",
+            "headurl": ""
+          }
+        },
+        "f5bf5fde-1132-49c5-9b00-76e9f2fd213f": {
+          "type": "block",
+          "disabled": true,
+          "settings": {
+            "blog_head": "blog topics",
+            "headurl": ""
+          }
+        }
+      },
+      "block_order": [
+        "064b116a-b144-4838-ae3c-fab2c363cf30",
+        "ddda9a29-2968-4344-b1d9-1170c8e6d7ee",
+        "b12799bf-f8d1-43fa-bcb7-770e98e35c3c",
+        "bba8d281-4abf-4d7b-ab00-1eea0b4b7d86",
+        "8fdf101f-4834-4e53-9c03-7cfceb1da8d1",
+        "da70c0bf-394f-41ce-8676-8070c0bd2641",
+        "5d2e36c1-2817-433c-9f07-e4c84e58006d",
+        "596c6c8a-d8f4-4fab-8bf3-79a7edc0785c",
+        "f5bf5fde-1132-49c5-9b00-76e9f2fd213f"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {text-decoration: none;}"
+      ],
+      "settings": {
+        "blogtext": "Our blogs",
+        "blogdes": "The most useful pet advice"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "custom_css": [
+        ".article-card {padding-block-start: 0%;}",
+        ".title--primary {display: none;}",
+        ".article-card__info.caption-with-letter-spacing.h5 {position: absolute; top: 20%; left: 5%;}",
+        "h3.card__heading.h2 {padding-top: 50%; padding-bottom: 0%; margin-bottom: 0%;}",
+        "@media (max-width: 600px) {h3.card__heading.h2 {padding-top: 15%; }}",
+        "@media screen and (max-width: 463px) {.blog articles__article.article {width: 88%; } h3.card__heading.h2 {padding-top: 27%; }}",
+        "p {font-family: Josefin Sans; font-weight: normal;}"
+      ],
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "adapt",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest insights.<\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "7079393e-e698-44dd-8019-845e54ee812c": {
+      "type": "podcast_slider",
+      "blocks": {
+        "cae84d32-2c4d-46f7-be5e-cccff5ce1438": {
+          "type": "collection",
+          "settings": {
+            "castheadd": "Lorem ipsum dolor sit amet consectetur",
+            "castdess": "March 6, 2023",
+            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+          }
+        },
+        "ebe129c3-a8b7-43bd-9e12-004e8d08feb6": {
+          "type": "collection",
+          "settings": {
+            "castheadd": "Lorem ipsum dolor sit amet consectetur",
+            "castdess": "March 7, 2023",
+            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+          }
+        },
+        "7ea9f4f0-33a6-4ed5-8716-6f981896b8c7": {
+          "type": "collection",
+          "settings": {
+            "castheadd": "Lorem ipsum dolor sit amet consectetur",
+            "castdess": "March 8, 2023",
+            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+          }
+        },
+        "135c0419-37ed-4ade-88ce-bf78687c6120": {
+          "type": "collection",
+          "settings": {
+            "castheadd": "Lorem ipsum dolor sit amet consectetur",
+            "castdess": "March 6, 2023",
+            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+          }
+        }
+      },
+      "block_order": [
+        "cae84d32-2c4d-46f7-be5e-cccff5ce1438",
+        "ebe129c3-a8b7-43bd-9e12-004e8d08feb6",
+        "7ea9f4f0-33a6-4ed5-8716-6f981896b8c7",
+        "135c0419-37ed-4ade-88ce-bf78687c6120"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".slidertexthead {text-align: center; margin-top: 0;}",
+        ".blogmax-container {padding: 0 25px;}",
+        "button.drag.coacharrow2.slick-next.pull-right.slick-arrow {right: -2%;}",
+        "button.drag.coacharrow.slick-prev.pull-left.slick-arrow {left: -2%;}",
+        "@media screen and (max-width: 400px) {button.drag.coacharrow2.slick-next.pull-right.slick-arrow {right: -4%; } button.drag.coacharrow.slick-prev.pull-left.slick-arrow {left: -4%; }}"
+      ],
+      "settings": {
+        "slidertext": "Our podcast"
+      }
+    },
+    "da5d6bea-f7a2-4311-9dfa-c51f9b8cfc8b": {
+      "type": "blog_certifies",
+      "custom_css": [
+        ".certifiedcontent {padding-bottom: 5%;}"
+      ],
+      "settings": {
+        "contents": "Become A Certified Holistic Pet Health Coach In 4 months!",
+        "descri": "Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.",
+        "previwbtn": "Learn more",
+        "previwurl": "shopify:\/\/pages\/ruth-story",
+        "bcerti": "shopify:\/\/shop_images\/Rectangle_99de13d3-5edc-4d3a-b390-ec3e0ae4f429.png"
+      }
+    }
+  },
+  "order": [
+    "bb87f080-abd6-47b4-ba9f-01d54999a6b2",
+    "488913be-42fd-43d8-b2f3-07dc1854f7ab",
+    "main",
+    "newsletter",
+    "7079393e-e698-44dd-8019-845e54ee812c",
+    "da5d6bea-f7a2-4311-9dfa-c51f9b8cfc8b"
+  ]
+}

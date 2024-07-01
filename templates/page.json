@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1718122449b405d2db": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-SYyw5r\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "image_with_text_P8Lt63": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eTQ7jH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are you ready to uncover the secrets to transforming your pet’s health?",
+            "heading_size": "h1"
+          }
+        },
+        "text_MWDBDW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us for a very special FREE live Zoom event that I'm co-hosting with Monica Hershaft, the renowned Mystery Illness Expert.<\/p><p>We’re going to explore the hidden connections between your fur baby’s symptoms and the factors you might not even be aware of! 🕵️‍♀️<\/p><p>This isn’t just any talk — it could seriously be a game-changer for your pet's health.<\/p><p><strong>🗓️ Date:<\/strong>June 13, 2024<\/p><p><strong>⏰ Time:<\/strong>10 am PT \/ 1 pm EST<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_ELF4Xb": {
+          "type": "button",
+          "settings": {
+            "button_label": "JOIN THE Q&A HERE",
+            "button_link": "https:\/\/www.treatthesource.com\/zoom"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eTQ7jH",
+        "text_MWDBDW",
+        "button_ELF4Xb"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/IG_LAYOUT-_EVENTS_5.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_HFyfCJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U7GEwM": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Here’s What You Can Expect:<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tLwRff": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Insightful Explanations: Learn how various symptoms might be key players in your pet's overall health puzzle.<\/li><li>Live Q&A Session: This is your chance to ask me anything you want – whether about your pet's health, holistic veterinary care, or how they intertwine.<\/li><li>Think about it: this could be the missing piece you’ve been searching for. Imagine starting to sort out those issues that your pet cannot communicate just by addressing the hidden connections that you will find out about in this Zoom!<\/li><\/ul><p>PLUS, for those of you who feel called to help others and have a deeper understanding of how to help our furry friends heal, we are going to go over how to become a holistic health coach for pets and what you can do to find out more about THAT!<\/p><p>As always, feel free to respond to this email with any questions or thoughts. I’m here to help and can’t wait to connect with you during the event.<\/p><p><a href=\"https:\/\/www.treatthesource.com\/zoom\"><strong>JOIN US HERE<\/strong><\/a><\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U7GEwM",
+        "text_tLwRff"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1718122449b405d2db",
+    "image_with_text_P8Lt63",
+    "rich_text_HFyfCJ"
+  ]
+}

@@ -1,0 +1,159 @@
+<div class="petwellnessimagetext">
+  <h2 class="headingpetwellness">{{ section.settings.prevhead }}</h2>
+  <h3 class="subheadingpetwellness">{{ section.settings.prevdes }}</h3>
+  <div class="petwellness bannerflex">
+    <div class="petwellness review40">
+      <div class="previewimg">
+        <img src="{{ section.settings.reviewimg|img_url: '800x' }}">
+      </div>
+    </div>
+    <div class="petwellness review60text">
+      <p>{{ section.settings.discription }}</p>
+      <p>{{ section.settings.discription1 }}</p>
+      <div
+        class="bannerbtn1">
+        <a href="{{section.settings.previwurl}}">{{ section.settings.previwbtn }}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="9"
+            viewBox="0 0 34 9"
+            fill="none">
+            <path
+              d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8"
+              stroke="#1E1E1E"
+              stroke-linecap="round" />
+          </svg>
+        </a>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+<style>
+  .subheadingpetwellness {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-align: center;
+  }
+  .headingpetwellness {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #1E1E1E;
+  }
+  .petwellness.bannerflex{
+    width: 100%;
+  }
+  .petwellness.review40{
+    width: 40%;
+  }
+  .petwellness.review60text{
+    width: 46%;
+    position: unset;
+    margin-right:auto;
+    margin-left: 3%;
+  }
+  .petwellness.review60text p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1E1E1E;
+}
+ @media screen and (max-width:1200px){
+
+.petwellness.review60text {
+    width: 54%;
+}
+ }
+ @media screen and (max-width:991px){
+  .petwellness.review40 ,.petwellness.review60text  {
+    width: 100%;
+}
+.petwellness.review60text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ }
+  @media screen and (max-width:620px){
+    .headingpetwellness{
+        font-size: 24px;
+    line-height: 33px;
+    width:90%;
+    margin:0 auto;
+    }
+    .subheadingpetwellness{
+          font-size: 12px;
+    line-height: 20px;
+    width:90%;
+    margin:0 auto;
+    }
+  }
+   @media screen and (max-width:420px){
+    .headingpetwellness{
+      font-size: 19px;
+    line-height: 26px;}
+   }
+</style>
+{% schema %}
+  {
+    "name": "petwellness image & text",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+
+      {
+        "type": "image_picker",
+        "id": "reviewimg",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "prevhead",
+        "label": "Heading"
+      },
+      {
+        "type": "text", 
+        "id": "prevdes",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "text",
+        "id": "discription",
+        "label": "Discription"
+      }, 
+      {
+        "type": "text",
+        "id": "discription1",
+        "label": "More Discription"
+      },{
+        "type": "text",
+        "id": "previwbtn",
+        "label": "Button"
+      }, {
+        "type": "url",
+        "id": "previwurl",
+        "label": "Button Link"
+      }
+    ],
+
+    "presets": [
+      {
+        "name": "petwellness image & text"
+      }
+    ]
+  }
+{% endschema %}

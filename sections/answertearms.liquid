@@ -1,0 +1,251 @@
+<div class="cmax_container ">
+        <div class="answerwidth terams" >
+            {% for block in section.blocks %}
+                <div class="ansterm">
+                    <ul>
+                            <li>{{block.settings.ansteram}}</li>
+                        </ul>
+                </div>
+            {% endfor %}
+
+        </div>
+        <div class="alignbtn">
+          <div class=" appbtnss">
+              <button type="submit" class="appbtnspacess">
+ 
+              apply now
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                  <path d="M1.25391 4.5L32.9002 4.5M32.9002 4.5L26.4537 1M32.9002 4.5L26.4537 8" stroke="#184B44" stroke-linecap="round"/>
+                </svg>
+              </button>
+          </div>
+      </div>
+      {%- render 'thankyou' -%}
+    
+</div>
+
+{% schema %}
+  {
+    "name": "answertearms",
+    "settings": [
+      {
+         "type" : "text", 
+          "id" : "modaltop",
+         "label" : "Popup Heading"
+        },
+      {
+          "id" : "modalsub",
+          "type" : "text",
+          "label" : "Popup Sub-Heading"
+        },
+         {
+             "type" : "text",
+          "id" : "modaldes",
+       
+          "label" : "Popup Description"
+        },
+      {
+        "type" : "text",
+       "id" : "button_home",
+         "label" : "Popup-Button"
+      },
+       {
+         "type" : "url",
+        "id" : "homeurl",
+       "label" : "Popup-Button-link"
+      }
+    ],
+    "blocks": [
+  {
+    "type": "condition",
+    "name": "condition",
+    "settings": [
+     
+       {
+    "type": "text",
+    "id": "ansteram",
+    "label": "content"
+      }
+    ]
+  }
+    ],
+    "presets": [
+    {
+    "name": "answertearms"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+    .ansterm ul li {
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        color: #1E1E1E;
+    }
+    .ansterm {
+  padding-left: 2%;
+    padding-right: 6%;
+}
+.ansterm ul {
+    margin: 4px 0;
+}
+
+.answerwidth {
+    width: 85%;
+      margin: 0 auto;
+}
+ .answerwidth.terams{
+    width:90%;
+    margin-top: 15px;
+ }
+a.appbtnspacess {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    display: flex;
+        padding: 15px 20px;
+    align-items: center;
+}
+button.appbtnspacess {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    display: flex;
+        padding: 15px 20px;
+    align-items: center;
+        background: transparent;
+        border: none;
+}
+.appbtnss {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+}
+.alignbtn{
+        display: flex;
+    justify-content: center;
+  padding: 3% 0 5% 0;
+}
+.appbtnspacess svg{
+   
+    margin-left: 70px;
+}
+@media only screen and (max-width: 420px) {
+    .answerwidth {
+    width: 100%;
+    }
+    .ansterm{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+     .answerwidth.terams {
+    width: 100%;
+    }
+}
+h2.model-title {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+  margin-top:0;
+}
+p.model-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+p.model-des {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.notify_btn {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    display: inline-block;
+}
+.notify_btn a {
+   font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    text-decoration: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.notify_btn svg{
+    margin-left: 20px;
+
+}
+@media screen and (max-width:768px){
+   h2.model-title{
+    font-size: 48px;
+    line-height: 48px;
+  }
+  p.model-text{
+    font-size: 16px;
+  }
+  .pop-up-content-wrap{
+    padding: 0 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+}
+@media screen and (max-width:540px){
+  p.model-des{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  p.model-text{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  h2.model-title{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:430px){
+  .notify_btn a{
+    letter-spacing:0;
+    padding: 14px 8px;
+  }
+  .custom-model-inner {
+    width: 300px;
+}
+.notify_btn svg {
+    margin-left: 10px;
+}
+}
+</style>

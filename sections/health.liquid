@@ -1,0 +1,310 @@
+
+<section class="page-width container_cources" id="{{section.settings.tabiingid | downcase }}">
+    <div>
+        <h2 class="crocktitle">{{section.settings.tabiingid}}</h2>
+    </div>
+    <div class="mar_t_50px_helth">
+        {% for block in section.blocks %}
+            {% assign product = all_products[block.settings.product] %}
+                {% for image in product.images limit: 1 %}
+                    <div class="d_flex_main50health">
+                     <div class="width50_couhealth crocpet_img">
+                            <img class="width_img_cource" src="{{ image.src | product_img_url: 'master' }}">
+                        </div>
+                        <div class="width50_couhealth crockdummyhealth health">
+                            <div class="cropet_content">
+                                <h2 class="crockpettitle">{{ product.title }}</h2>
+                                <p>
+                                    <span class="price_in_c line_center_ crockprice"> {{ product.price | money }} USD</span>
+                                </p>
+                                <p class="crockpettitle-des">{{ product.description | truncate: 500 }}</p>
+                                <div class="addd-flex">
+                                    <div class="addcart">
+                                        <form method="post" action="/cart/add">
+                                        <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                                        <input min="1" type="hidden" id="quantity" name="quantity" value="1"/>
+                                        <input type="submit" value="Add to cart" class="btn add_cart" />
+                                        </form>
+                                    </div>
+                                    <div class="outlink">
+                                        <a class="link" href="{{block.settings.btnlink}}">{{block.settings.outlinkbtn}}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                {% endfor %}
+        {% endfor -%}
+    </div>
+
+       
+</section>
+
+{% schema %}
+{
+  "name": "health",
+  "class":"health",
+  "settings": [
+      {
+  "type": "text",
+  "id": "tabiingid",
+  "label": "Heading"
+    }
+  ],
+  "blocks": [
+{
+  "type": "collection",
+  "name": "Collection",
+  "settings": [
+        {
+        "type": "product",
+        "id": "product",
+        "label": "Select Product"
+        },
+        {
+        "type": "url",
+        "id": "btnlink",
+        "label": "Link"
+        },
+        {
+        "type": "text",
+        "id": "outlinkbtn",
+        "label": "Button Link"
+        }
+       
+  ]
+}
+  ],
+  "presets": [
+  {
+  "name": "health"
+  }
+  ]
+}
+{% endschema %}
+<style>
+.addd-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.outlink a.link {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+.cropet_content {
+    padding: 4% 8%;
+}   
+              .d_flex_main50health{
+                display:flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                width:50%;
+              }
+              
+              .width_img_cource{
+                    width: 100%;
+                    border-radius: 24px;
+                    position: relative;
+              }
+              .container_cources{
+                max-width: 120rem;
+                margin: auto;
+              }
+            .crockpettitle{
+              font-family: 'BLT-Heirloom';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 30px;
+                line-height: 40px;
+                 color: #1E1E1E;
+                 padding:0;
+                 margin-bottom:0;
+            }
+            .price_in_c{
+              font-family: 'Josefin Sans';
+                  text-decoration-line: line-through;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 30px;
+                color: #184B44;
+            }
+            .author_cource{
+            font-family: 'Josefin Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: #1E1E1E;
+            margin-top:0;
+            }
+            crocktitle{
+                font-family: 'Oakley Script';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 64px;
+                line-height: 57px;
+                letter-spacing: 0.02em;
+                color: #184B44;
+            }
+
+            .width50_couhealth.crockdummyhealth.health {
+                background: #F5F8F1;
+                border-radius: 24px;
+                   width: 95%;
+                    margin: 0 auto;
+                    min-height: 560px;
+            }
+          .btnbynow_courc{
+            width: 100%;
+            border: 2px solid #184B44;
+        border-radius: 24px;
+          height: 51px;
+          background: white;
+            font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        leading-trim: both;
+        text-edge: cap;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #1E1E1E;
+                text-align: center;
+                padding: 15px 0;
+            cursor: pointer;
+          }
+          input.btn.add_cart {
+    border: 2px solid #184B44;
+    border-radius: 25.5px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+       .crockpettitle-des{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #1E1E1E;
+       }
+        .line_center_{
+              text-decoration-line: blink;
+              margin-left: 20px;
+        }
+        .none_td{
+              text-decoration: none;
+        }
+        .p_text_i{
+          font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      leading-trim: both;
+      text-edge: cap;
+      text-transform: uppercase;
+      color: #000000;
+        }
+        span.price_in_c.line_center_.crockprice {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    color: #184B44;
+    margin-left:0;
+}
+    .mar_t_50px_helth{
+          margin-bottom: 50px;
+              display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+    }
+    
+    #shopify-section-template--14922816258113__20ccae23-ebf6-4f3d-b4fb-0b2d1f4341f9 .benefitblog{
+    width: 48%;
+    background: #fff;
+    align-items: flex-start;
+    flex-direction: row;
+    }
+    @media only screen and (max-width: 1150px) {
+        .cropet_content {
+        padding: 2% 5%;
+        }
+    }
+          .width50_couhealth {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: -4%;
+    }
+    .crockdummyhealth{
+            order:2;
+          }
+          .crocpet_img{order:1;}
+         @media only screen and (max-width: 991px) {
+            .d_flex_main50health{
+                width:94%;
+                  margin-bottom:5%;
+            }
+          
+            }
+          @media screen and (max-width:620px){
+      .crockpettitle{
+        font-size: 18px;
+    line-height: 33px;
+      }
+      .author_cource{
+        font-size: 17px;
+    line-height: 26px;
+      }
+      span.price_in_c.line_center_.crockprice{
+        font-size: 24px;
+    line-height: 29px;
+      }
+      .outlink a.link{
+            margin-top: 7%;
+      }
+           
+          }
+         @media screen and (max-width:420px){
+       .width50_couhealth {
+      width: 98%;}
+.width50_couhealth.crockdummyhealth.health{
+    margin-right: 1%;
+}
+ .crocktitle{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .btnbynow_courc {
+      width: 250px;
+    }
+    }
+</style>

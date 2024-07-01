@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "b6e80daa-9c4b-49fc-a59c-cee54ab337aa": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "share",
+        "b6e80daa-9c4b-49fc-a59c-cee54ab337aa"
+      ],
+      "custom_css": [
+        ".article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
+        "img {border-radius: 24px;}",
+        "h1 {font-family: \"BLT-Heirloom\"; font-weight: 600; font-size: 30px; text-align: center; color: #000000;}",
+        "h2 {padding-top: 20px;}",
+        "li {text-align: left;}",
+        ".article-template__content span {font-family: \"Josefin Sans\"; font-weight: 500; font-size: 18px; line-height: 30px; color: #000000; width: 70%;}",
+        ".cus-text-dexore > img {border-radius: 5px;}",
+        ".field__input:focus {box-shadow: none;}",
+        ".field:hover {border: none; box-shadow: none; --color-foreground: none;}"
+      ],
+      "settings": {
+        "reccheaddd": "",
+        "difftext": "",
+        "discdiffcont": "",
+        "spancente": "",
+        "discdiffcont2": "",
+        "articlehead": "",
+        "custbtnn": "",
+        "custbtnurl": "https:\/\/drruthroberts.com\/pages\/holistic-pet-health-coaching-program",
+        "right_image_text": "Become A Holistic Pet Health Coach",
+        "imagesingle": "shopify:\/\/shop_images\/Mask_group-3.png",
+        "blog_single_url": "https:\/\/drruthroberts.com\/pages\/holistic-pet-health-coaching-program",
+        "morebl_first": "Related Products",
+        "cls_main": "customers-love",
+        "morebl": "Read More",
+        "blog": "pet-blog",
+        "blog_title_": "Recommended  Blog"
+      }
+    },
+    "collapsible_content_Aif4m4": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_itCTw8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "",
+            "icon": "paw_print",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3Tc3mW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_97Uw4n": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_FQyWCm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_itCTw8",
+        "collapsible_row_3Tc3mW",
+        "collapsible_row_97Uw4n",
+        "collapsible_row_FQyWCm"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "custom_css": [
+        "p {text-align: center;}"
+      ],
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_Aif4m4",
+    "newsletter"
+  ]
+}

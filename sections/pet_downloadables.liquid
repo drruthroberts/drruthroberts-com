@@ -1,0 +1,184 @@
+<div class="rewordmax_container">
+        <div class="petblogcontent">
+            <h2>{{section.settings.labelourb}}</h2>
+        </div>
+        <div class="petblogflex">
+            <div class="petblog50">
+                <div class="petblogimg">
+                    <img src="{{ section.settings.petblogimg|img_url: '800x' }}">
+                </div>
+            </div>
+            <div class="petblog50">
+                <div class="petblogdes">
+                    <h2>{{section.settings.prtblsubdes}}</h2>
+                    <h3>{{section.settings.prtblogdate}}</h3>
+                    <p>{{section.settings.prtblogdes}}</p>
+                    <div class="petvideobtn download-btn">
+
+                        <a href="{{section.settings.prtbllink}}" target="_blank" class="btnspace1" tabindex="0">watch video 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="9" viewBox="0 0 35 9" fill="none">
+                                <path d="M1.37891 4.5L33.0252 4.5M33.0252 4.5L26.5787 1M33.0252 4.5L26.5787 8" stroke="#184B44" stroke-linecap="round"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+{% schema %}
+  {
+    "name": "pet_downloadables",
+    "class":"pet_ourblog",
+    "settings": [
+         {
+    "type": "text",
+    "id": "labelourb",
+    "label": "Heading"
+      } ,
+       {
+        "type":"image_picker",
+        "id":"petblogimg",
+        "label":"Image"
+      },
+      {
+    "type": "text",
+    "id": "prtbllink",
+    "label": "Link"
+      } ,
+      {
+    "type": "text",
+    "id": "prtblsubdes",
+    "label": "Heading"
+      } ,
+      {
+    "type": "text",
+    "id": "prtblogdate",
+    "label": "Sub Heading"
+      } ,
+        {
+    "type": "text",
+    "id": "prtblogdes",
+    "label": "Description"
+      } 
+    ],
+    "presets": [
+    {
+    "name": "pet_downloadables"
+    }
+    ]
+  }
+{% endschema %}
+<style>
+.petblogcontent h2 {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.petblogflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.petblog50 {
+    width: 50%;
+    margin: 0 auto;
+}
+.petblogimg img {
+    width: 100%;
+}
+.petblogdes {
+    padding-top: 1rem;
+    padding-left: 15%;
+}
+.petblogdes h2 {
+    font-family: 'BLT-Heirloom'; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+  .petblogdes h2 a {
+    text-decoration: none;
+    color: #000;
+}
+.petblogdes h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #939393;
+    margin: 15px 0 5px;
+}
+.petblogdes p {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+}
+.petblogimg img {
+    border-radius: 24px;
+}
+  .download-btn.petvideobtn {
+    padding: 30px 0 0;
+    justify-content: flex-start;
+  }
+@media screen and (max-width: 992px) { 
+    .petblog50{
+        width:98%;
+    }
+  .petblogdes {
+      padding-left: 0;
+  }
+ }
+ @media screen and (max-width: 520px) { 
+    .petblogcontent h2{
+        font-size:45px;
+    }
+    }
+
+
+@media screen and (max-width: 479px) { 
+    section#shopify-section-template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6 .slick-slide {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    section#shopify-section-template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6 .rx-slider-list button {
+        opacity: 1 !important;
+    }
+
+    section#shopify-section-template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6 .rx-slider-auto-hide-arrow .rx-slider-list.slick-slider .slick-prev {
+        left: 20px;
+    }
+    section#shopify-section-template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6 .rx-slider-auto-hide-arrow .rx-slider-list.slick-slider .slick-next {
+        right: 20px;
+    }
+}
+ @media screen and (max-width: 420px) { 
+    .petblogcontent h2{
+        font-size: 38px;
+    }
+    .petblogdes h2{
+            font-size: 23px;
+            line-height: 33px;
+    }
+    .petblogdes p{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .petblogdes{
+        padding: 2% 2%;
+    }
+ }
+</style>

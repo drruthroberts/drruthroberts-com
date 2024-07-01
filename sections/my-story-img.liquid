@@ -1,0 +1,54 @@
+<div class="publickbg">
+    <div class="rewordmax_container ">
+       <div class=" storiconflex">
+            {%- for block in section.blocks -%}
+                <div class="storysvgicon">
+                    <img src="{{ block.settings.storyimg | img_url: 'small' }}" alt="">
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>
+{% schema %} 
+{
+  "name": "my-story-img",
+  "tag": "section",
+  "class": "my-story-img",
+  "settings": [
+   
+  ],
+   "blocks": [
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+      
+     {
+          "type": "image_picker",
+          "label": "Select Image",
+          "id": "storyimg"
+        }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "my-story-img"
+    }
+  ]
+}
+{% endschema %}
+<style>
+.storiconflex {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 0;
+}
+.storysvgicon {
+    width: 17%;
+    margin: 0 auto;
+}
+.storysvgicon img {
+    width: 100%;
+}
+</style>

@@ -1,0 +1,64 @@
+<section class="page-width container_cources">
+  {% assign product = all_products[section.settings.product] %}
+  {% for image in product.images limit: 1 %}
+    <div class="d_flex_main">
+      <div class="width50_cou_22 cls_dummy_">
+        <h2 class="clsh2_cource">{{ product.title }}</h2>
+        <p class="author_cource">{{ product.vendor }}</p>
+        <p>
+          <span class="price_in_c ">{{ product.compare_at_price | money_without_trailing_zeros }}</span>
+          <span class="price_in_c line_center_"> {{ product.price | money }} USD</span>
+        </p>
+
+        <div class="mar_t_50px_">
+          {% for block in section.blocks %}
+            <!-- {% assign blog = blogs[section.settings.blog] %} -->
+            <p class="p_text_i">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
+                <path d="M12 7L-6.52533e-07 13.9282L-4.68497e-08 0.0717964L12 7Z" fill="#184B44"></path>
+              </svg>
+              {{ block.settings.txet_blog }}
+            </p>
+          {% endfor -%}
+        </div>
+
+        <a class="none_td" href="{{ product.url }}"> <button class="btnbynow_courc">Buy Now</button></a>
+      </div>
+      <div class="width50_cou_22 d-flex-jus-end_">
+        <img class="width_img_cource" src="{{ image.src | product_img_url: 'grande' }}">
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Image With text Cources",
+  "settings": [
+       {
+          "type": "product",
+          "id": "product",
+          "label": "Select Product"
+        }
+  ],
+  "blocks": [
+{
+  "type": "collection",
+  "name": "Collection",
+  "settings": [
+
+       {
+  "type": "text",
+  "id": "txet_blog",
+  "label": "Text"
+    }
+  ]
+}
+  ],
+  "presets": [
+  {
+  "name": "Image With text Cources"
+  }
+  ]
+}
+{% endschema %}

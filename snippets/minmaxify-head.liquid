@@ -1,0 +1,13 @@
+{% if shop.permanent_domain == 'drruthroberts-com.myshopify.com' %}
+<script type="text/javascript">
+minMaxifyContext={
+  cartItemExtras: [
+  {%- for item in cart.items -%}
+  { "id": {{ item.id }}, "product_id": {{ item.product_id }}, "collection": {{ item.product.collections | map: 'id' | json }}, "tag": {{ item.product.tags | json }} }{% unless forloop.last == true %},{% endunless %}
+  {%- endfor -%}
+]
+};
+{% if template contains 'product' %}
+minMaxifyContext.product = { "product_id": {{ product.id }}, "collection": {{ product.collections | map: 'id' | json }}, "tag": {{ product.tags | json }} };
+{% endif%}</script><script src="https://limits.minmaxify.com/drruthroberts-com.myshopify.com?v=104&r=20230727131326&shop=drruthroberts-com.myshopify.com"></script>
+{% endif %}

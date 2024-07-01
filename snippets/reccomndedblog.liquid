@@ -1,0 +1,34 @@
+<div class="blogaboutcontent">
+  <div class="blogabout50">
+    <div class="blogabover">
+      <h2>{{ section.settings.aboutcontent }}</h2>
+      <p>{{ section.settings.aboutdesscc }}</p>
+      <div class="blogbtn">
+        <a class="blogbttn" href="{{section.settings.blogaurl}}">
+          {{- section.settings.blogatext }}
+          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+            <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="black" stroke-linecap="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="blogabout50">
+    <div class="blogaa mar_">
+      <img class="mar_auto_d_f" src="{{ section.settings.blogaboutimg|img_url: '800x' }}">
+    </div>
+  </div>
+</div>
+<style>
+     @media only screen and (min-width: 992px) and (max-width: 1200px) {
+       .blogaboutcontent{
+         margin-left: 30px;
+       }
+     }
+   @media only screen and (max-width: 991px) {
+  .mar_auto_d_f{
+      margin: auto;
+    display: flex;
+  }
+   }
+</style>

@@ -1,0 +1,77 @@
+<div class="cmax_container">
+    <div class="benefittext">
+            <h2 class="bhead">{{section.settings.bhead}}</h2>
+            <p class="bdes">{{section.settings.bsubhead}}</p>
+    </div>
+     <div class="benefit_flex">
+        {%- for block in section.blocks -%}
+                <div class="benefitblog">
+                  <img src="{{block.settings.benefitimg |img_url:'800x'}}" class="benefit_image">
+                        <h3 class="benefithead">{{block.settings.benefit_head}}</h3>
+                        <p class="benefitdes">{{block.settings.benefit_desc}}</p>
+                </div>
+         {%- endfor -%}
+</div>{{page.title}}?????/
+{% if page.title == "cources page" %}
+<style>
+
+#shopify-section-{{ section.id }} {
+    background: #F5F8F1;
+    padding: 50px 0;;
+}
+
+@media screen and (max-width:768px){  
+  #shopify-section-{{ section.id }} .benefit_flex .benefitblog{
+    width:100%;
+  }
+}
+</style>
+{% endif %}
+{% schema %}
+{
+  "name": "Benefits",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "bhead",
+      "label": "Heading"
+    },
+      {
+      "type": "text",
+      "id": "bsubhead",
+      "label": "Sub Heading"
+    }
+  ],
+   "blocks": [
+     
+  {
+    "type": "block",
+    "name": "block",
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"benefitimg",
+        "label":"Image"
+      },
+       {
+    "type": "text",
+    "id": "benefit_head",
+    "label": "Heading"
+      }
+      , {
+    "type": "text",
+    "id": "benefit_desc",
+    "label": "Description"
+      }
+    ]
+  }
+    ],
+ "presets": [
+    {
+      "name": "Benefits"
+    }
+  ]
+}
+{% endschema %}

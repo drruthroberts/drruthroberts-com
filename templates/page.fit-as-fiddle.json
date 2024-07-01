@@ -1,0 +1,229 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1718122449b405d2db": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-SYyw5r\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rx_image_banner_aR3Ymi": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "heading_KKCFrc": {
+          "type": "heading",
+          "settings": {
+            "heading": "FIT AS FIDDLE - Healthy Pets"
+          }
+        },
+        "text_fNxWgG": {
+          "type": "text",
+          "settings": {
+            "text": "It’s wonderful to see your pet enjoying life to the fullest. Keep them free from preventable health issues with Dr. Ruth's recommended reads"
+          }
+        },
+        "buttons_XmcEeU": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Read below",
+            "button_link_1": "#1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KKCFrc",
+        "text_fNxWgG",
+        "buttons_XmcEeU"
+      ],
+      "custom_css": [
+        ".content-container {opacity: 70%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FIT_AS_FIDDLE_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "container_bg": "#ffffff",
+        "desktop_content_alignment": "center",
+        "heading_color": "#000000",
+        "text_color": "#000000",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_gigaDJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_bFktRG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_8.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/are-flea-control-products-safe-for-your-pet\" target=\"_blank\" title=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/are-flea-control-products-safe-for-your-pet\">Are Flea Control Products Safe for Your Pet?<\/a>",
+            "text": "<p>Fleas pose serious health risks to pets, such as skin infections, allergies, and disease transmission. To protect their pets, owners often use flea control products, but safety concerns arise. This blog examines the safety of these products and offers guidance on choosing the best options for your pet.<\/p>",
+            "button_label": "Read more",
+            "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/are-flea-control-products-safe-for-your-pet"
+          }
+        },
+        "row_ACDf3e": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_9.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/7-ways-to-prevent-medical-problems-in-your-dog\" title=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/7-ways-to-prevent-medical-problems-in-your-dog\">7 Ways to Guard Your Dog Against Medical Problems<\/a>",
+            "text": "<p>As a dog parent, keeping your furry friend healthy and happy is a top priority. With decades of veterinary experience, my mission is to help you prevent health issues before they start. From accidental poisoning to kidney disease, learn how to avoid common dangers and prolong your dog's life with science-backed tips. Read more about seven preventable dog health problems.<\/p>",
+            "button_label": "Read more",
+            "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/7-ways-to-prevent-medical-problems-in-your-dog"
+          }
+        },
+        "row_N9tGLY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_10.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/5-best-nutrients-as-immune-booster-for-dogs-and-cats\" target=\"_blank\" title=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/5-best-nutrients-as-immune-booster-for-dogs-and-cats\">5 Best Nutrients as Immune Booster for Dogs and Cats<\/a>",
+            "text": "<p>Your pet's immune system is constantly working to heal wounds and fight off illnesses. A strong immune system is essential for keeping your pet happy, healthy, and active. Luckily, there are many ways to boost your pet's immunity. In this article, discover the signs of a strong immune system and learn effective strategies to support your pet's health. Read on to learn more!<\/p>",
+            "button_label": "Read more",
+            "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/5-best-nutrients-as-immune-booster-for-dogs-and-cats"
+          }
+        }
+      },
+      "block_order": [
+        "row_bFktRG",
+        "row_ACDf3e",
+        "row_N9tGLY"
+      ],
+      "custom_css": [
+        "h2 {font-family: BLT-Heirloom;}",
+        "p {font-weight: normal;}",
+        ".button {font-family: Josefin Sans;}"
+      ],
+      "settings": {
+        "image_height": "large",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rx_img_with_text_aiYdwR": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "text_kmdmDy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An ounce of prevention is worth a pound of cure. Staying healthy takes effort, and when your pet is healthy this protocol is simply part of the daily routine. Eat, Move, Meditate, Reduce Inflammation, & Keep The Gut Healthy.<\/p><p>This collection of supplements to keep your pets healthy empower pet owners to care for their animals in the same way they care for themselves. We have the incredible capacity to influence the health of our pets if we provide them with the correct nourishment.<\/p>"
+          }
+        },
+        "button_yenL8K": {
+          "type": "button",
+          "settings": {
+            "button_label": "Holistic Supplement Here",
+            "button_link": "https:\/\/drruthroberts.com\/collections\/keep-my-pet-healthy-protocol-1?_gl=1*13vkyrs*_ga_TL61H2B15E*MTcxOTE1MTg3MS4xLjEuMTcxOTE1MjkzOS41MS4wLjA."
+          }
+        }
+      },
+      "block_order": [
+        "text_kmdmDy",
+        "button_yenL8K"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_7.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_title_alignment": "left",
+        "desktop_content_alignment": "left",
+        "desktop_button_alignment": "center",
+        "content_layout": "overlap",
+        "grid_type": "type2",
+        "imgText-bg-color": "",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rx_image_banner_R9YwbF": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "heading_RLbKxT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Keep My Pet Healthy Protocol"
+          }
+        },
+        "text_h3pqym": {
+          "type": "text",
+          "settings": {
+            "text": "Prevention is key to maintaining your pet's health. Empower yourself to care for your pets as well as you care for yourself with our collection of health-boosting supplements."
+          }
+        },
+        "buttons_YVLHAn": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Holistic Supplement Here",
+            "button_link_1": "https:\/\/drruthroberts.com\/collections\/keep-my-pet-healthy-protocol-1?_gl=1*13vkyrs*_ga_TL61H2B15E*MTcxOTE1MTg3MS4xLjEuMTcxOTE1MjkzOS41MS4wLjA."
+          }
+        }
+      },
+      "block_order": [
+        "heading_RLbKxT",
+        "text_h3pqym",
+        "buttons_YVLHAn"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "container_bg": "#fff",
+        "desktop_content_alignment": "center",
+        "heading_color": "#000",
+        "text_color": "#000",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1718122449b405d2db",
+    "rx_image_banner_aR3Ymi",
+    "multirow_gigaDJ",
+    "rx_img_with_text_aiYdwR",
+    "rx_image_banner_R9YwbF"
+  ]
+}

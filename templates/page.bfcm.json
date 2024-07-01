@@ -1,0 +1,596 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "5f787237-7ab8-4dd1-8f92-55e74a275b53": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "GIVINGBACK10",
+            "button_link_1": "https:\/\/shop.drruthroberts.com\/discount\/GIVINGBACK10",
+            "button_style_secondary_1": true,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-0",
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-1",
+        "template--14841728761921__5f787237-7ab8-4dd1-8f92-55e74a275b53-1668612002d203d69f-2"
+      ],
+      "custom_css": [
+        ".img {max-width: 100%; height: auto;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/black_friday.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "bc5e4eca-b1b1-4bdb-95d5-0a95de91fc38": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14921792094273__bc5e4eca-b1b1-4bdb-95d5-0a95de91fc38-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Gear Up for a Pawsitively Awesome Black Friday & Cyber Monday Bash! <\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "9d62ce1a-9903-4161-96cc-cdd275625197": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've got the lowdown on some fantastic deals that'll make your fur babies wag their tails in excitement. No fancy words, just pure awesome for your four-legged pals!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792094273__bc5e4eca-b1b1-4bdb-95d5-0a95de91fc38-heading-1",
+        "9d62ce1a-9903-4161-96cc-cdd275625197"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\"; color: #441a08;}",
+        "p {color: #441a08;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "30d4f70c-617a-4161-a47d-3d9e361493ea": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Limited Time Offer!",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The clock is ticking! Don't miss this opportunity to invest in your pet's wellbeing! Get exclusive deals on holistic supplements and courses. Use code <strong>GIVINGBACK10 <\/strong>at checkout and enjoy a delightful <strong>10% off <\/strong>for all products. <\/p><p>Not only that, enjoy up to <strong>20% discount<\/strong> on our top-rated treasures, The Holistic Total Body Support and the Fidospore!<\/p><p>Make this holiday season the perfect time to invest in your pet's health holistically!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Holistic Supplements",
+            "button_link": "https:\/\/drruthroberts.com\/collections\/pet-products"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-heading-1",
+        "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-text-1",
+        "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-button-1"
+      ],
+      "custom_css": [
+        "img {max-width: 100%; height: auto;}",
+        ".body {font-size: 18px;}",
+        ".body,.h1,img {margin: 10px; padding: 0;}",
+        "h2 {color: #e54a09; font-size: 30px; margin: auto; font-weight: bold;}",
+        "p {text-align: center; margin: auto; color: #441a08; font-size: 1em;}",
+        ".button {padding: 10px 15px; margin-top: 15px;}",
+        "div {padding-left: 8px; padding-right: 8px; padding-top: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Holistic_Supplements_5.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "86e189a3-542b-4ac4-8666-f0054c07ccb2": {
+      "type": "image-with-text",
+      "blocks": {
+        "7def7afb-05d2-45c7-90d5-9ce9ca07b521": {
+          "type": "heading",
+          "settings": {
+            "heading": "It's Time to Enroll in Our Courses!",
+            "heading_size": "h1"
+          }
+        },
+        "bf5af32c-ab4c-4ae6-affa-3420f4cbab72": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Secure your furry friend's health with our exclusive Pet Wellness Course. For a limited time, enjoy a paw-some <strong>10% discount <\/strong>that's as extraordinary as your pet's love. Dive into a world of holistic care, expert insights, and tail-wagging joy. Don't miss out – make this Black Friday and Cyber Monday your pet's healthiest yet. Enroll now and let the wellness adventure begin!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "7f4e9117-0a14-44b7-b7f9-9aa5ef67209a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore courses",
+            "button_link": "https:\/\/drruthroberts.com\/collections\/pet-education-membership?"
+          }
+        }
+      },
+      "block_order": [
+        "7def7afb-05d2-45c7-90d5-9ce9ca07b521",
+        "bf5af32c-ab4c-4ae6-affa-3420f4cbab72",
+        "7f4e9117-0a14-44b7-b7f9-9aa5ef67209a"
+      ],
+      "custom_css": [
+        "img {max-width: 100%; height: auto;}",
+        ".body {font-size: 18px;}",
+        ".body,.h1,img {margin: 10px; padding: 0;}",
+        "h2 {color: #e54a09; font-size: 30px; margin: auto; font-weight: bold;}",
+        "p {text-align: center; margin: auto; color: #441a08; font-size: 1em;}",
+        ".button {padding: 10px 15px; margin-top: 15px;}",
+        "div {padding-left: 8px; padding-right: 8px; padding-top: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pet_wellness_Courses.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9f59e223-8662-4f2a-acc2-88be9484e91c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be a Certified Holistic Pet Health Coach!",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Maybe you're destined to become a Certified Holistic Pet Health Coach <br\/>this season!  You will learn a treasure trove of knowledge from the science of Functional Medicine, TCVM, tailored nutrition plans, to lifestyle coaching for healthier, happier pets. This course approved for 40 hours of RACE CE Credits. We will equip you with the skills and knowledge needed to meet the growing demand for pet care professionals. As a certified Holistic Pet Health Coach, you can offer your services in various settings—veterinary clinics, pet stores, and personalized online consultations. <\/p><p>Join us this Black Friday with an exclusive<strong> $500 off<\/strong>! Kickstart your rewarding journey and make a lasting impact on pets' lives. Seize the discount now!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply now",
+            "button_link": "https:\/\/drruthroberts.com\/products\/certified-pet-holistic-health-coach-program"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-heading-1",
+        "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-text-1",
+        "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-button-1"
+      ],
+      "custom_css": [
+        "img {max-width: 100%; height: auto;}",
+        ".body {font-size: 18px;}",
+        ".body,.h1,img {margin: 10px; padding: 0;}",
+        "h2 {color: #e54a09; font-size: 30px; margin: auto; font-weight: bold;}",
+        "p {text-align: center; margin: auto; color: #441a08; font-size: 1em;}",
+        ".button {padding: 10px 15px; margin-top: 15px;}",
+        "div {padding-left: 8px; padding-right: 8px; padding-top: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pet_wellness_Courses_2.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17f3f27c-96bb-461c-aeaf-de6801eb573c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Top_choice_Turmeric.png",
+            "title": "Turmeric with Bioperine",
+            "text": "<p>Turmeric with Bioperine® and Coconut – a herbal antioxidant supplement are specially formulated as antioxidant and natural pain relief for your cats and dogs.<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/drruthroberts.com\/products\/turmeric-with-bioperine%C2%AE-organic-coconut-oil-for-cats-dogs-60-chews"
+          }
+        },
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Top_choice_arthri_pawz.png",
+            "title": "Arthri-Pawz",
+            "text": "<p>Ideal nutritional support for joints, providing pets with the nutrition they need to rid fluid that results in swelling, repair, stay lubricated, move freely, and function at their best.<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/drruthroberts.com\/products\/herbal-allergy-supplement-for-cats-and-dogs"
+          }
+        },
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Top_choice_omega_pawz.png",
+            "title": "Omega Pawz",
+            "text": "<p>Unlike many fish oil supplements, Omega Pawz is made with pure, high-quality fish oil and is free from artificial additives and preservatives.<\/p>",
+            "link_label": "Buy Now",
+            "link": "https:\/\/drruthroberts.com\/products\/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster"
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-0",
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-1",
+        "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-2"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #e54a09; text-align: center;}",
+        "img {border-radius: 30px;}",
+        "p {font-family: \"Josefin Sans\"; color: #441a08;}",
+        ".multicolumn-card__info {color: black;}",
+        ".button {font-family: \"Josefin Sans\";}",
+        "div {background-color: #f4efdb;}",
+        "h3 {color: #e54a09; font-family: \"BLT-Heirloom\";}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Our Top Choices at 10% Off",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 16
+      }
+    },
+    "afd00670-eaa8-4072-be8f-77f6500b392c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wholesome Benefits from Standard Process<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get the goodness of wholly balanced nutrition with top-grade supplements & multivitamins from Standard Process.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-heading-1",
+        "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-text-1"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #e54a09;}",
+        "p {font-family: \"Josefin Sans\"; color: #441a08;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 0
+      }
+    },
+    "2a3d594f-9bfc-4483-b6a2-01aa624e8306": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-feline-collection"
+          }
+        },
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sp-canine-collection"
+          }
+        },
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "standard-process-human-products"
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-0",
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-1",
+        "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-2"
+      ],
+      "custom_css": [
+        "div {background-color: #white;}",
+        "h3 {color: #441a08; font-family: \"BLT-Heirloom\"; margin-top: 20px;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "712125b3-cd0e-4275-9812-86d6b479720a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Top_selling_HTBS_1.png",
+            "title": "Holistic Total Body Support",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "https:\/\/drruthroberts.com\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements"
+          }
+        },
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Top_selling_Vitality_2.png",
+            "title": "Vitality - Mushroom Drops for Dog",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "https:\/\/drruthroberts.com\/products\/vitality-mushroom-drops-for-dog-with-adaptogen-tincture"
+          }
+        },
+        "c5318569-8288-4701-8a2b-c395252eb4fa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Top_selling_Hista_Pawz.png",
+            "title": "Hista Paws - Herbal Allergy Supplement for Pet",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "https:\/\/drruthroberts.com\/products\/herbal-allergy-supplement-for-cats-and-dogs"
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-1",
+        "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-2",
+        "c5318569-8288-4701-8a2b-c395252eb4fa"
+      ],
+      "custom_css": [
+        "div {background-color: #f4efdb;}",
+        "h2 {font-family: \"BLT-heirloom\"; margin: auto; color: #e54a09;}",
+        "h3 {color: #441a08; font-family: \"BLT-Heirloom\";}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Pet Parent's Favorite!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 32,
+        "padding_bottom": 40
+      }
+    },
+    "c512dc9d-c418-41b5-90b5-035479911964": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14921792094273__c512dc9d-c418-41b5-90b5-035479911964-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Sale is Live from NOW -  November 30th at 12:59pm<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "b2daaa60-62b0-430e-879d-3b4f58d0d64b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seize this perfect opportunity to enhance your pet's health for the season while saving some serious $$$! Explore our range of natural supplements and enroll in our exclusive pet wellness course.<\/p>"
+          }
+        },
+        "bfb0c2de-9291-44da-a81a-5655c8fffd38": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14921792094273__c512dc9d-c418-41b5-90b5-035479911964-heading-1",
+        "b2daaa60-62b0-430e-879d-3b4f58d0d64b",
+        "bfb0c2de-9291-44da-a81a-5655c8fffd38"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #e54a09; font-size: 30px;}",
+        "p {font-family: \"Josefin Sans\"; color: #441a08;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "59dfd687-de26-41ea-851d-c7d92cd63a13": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-0",
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-1",
+        "template--14841728761921__59dfd687-de26-41ea-851d-c7d92cd63a13-1668612002d203d69f-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BFCM-Open-C.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "fe49ef75-ff4c-4b7e-9df9-5aba30d893e6": {
+      "type": "custom-testimonial",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/drruthroberts.com\/collections\/pet-products",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5f787237-7ab8-4dd1-8f92-55e74a275b53",
+    "bc5e4eca-b1b1-4bdb-95d5-0a95de91fc38",
+    "30d4f70c-617a-4161-a47d-3d9e361493ea",
+    "86e189a3-542b-4ac4-8666-f0054c07ccb2",
+    "9f59e223-8662-4f2a-acc2-88be9484e91c",
+    "17f3f27c-96bb-461c-aeaf-de6801eb573c",
+    "afd00670-eaa8-4072-be8f-77f6500b392c",
+    "2a3d594f-9bfc-4483-b6a2-01aa624e8306",
+    "712125b3-cd0e-4275-9812-86d6b479720a",
+    "c512dc9d-c418-41b5-90b5-035479911964",
+    "59dfd687-de26-41ea-851d-c7d92cd63a13",
+    "fe49ef75-ff4c-4b7e-9df9-5aba30d893e6"
+  ]
+}

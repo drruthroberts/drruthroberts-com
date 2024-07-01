@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16626709144c8e7699": {
+      "type": "apps",
+      "blocks": {
+        "33ca6bcd-cd8d-44ef-bac2-b1128b59e712": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-UZyEux\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "33ca6bcd-cd8d-44ef-bac2-b1128b59e712"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "2267ea56-2668-4f99-82d1-3f190c5d2561": {
+      "type": "multirow",
+      "blocks": {
+        "39aa68b0-9225-4f7c-9df5-770495dbbb09": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Liposomal_Glutathione.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/liposomal-glutathione-4-oz\" target=\"_blank\" title=\"Shop Liposomal Glutathione\">Liposomal Glutathione<\/a>",
+            "text": "<p>Liposomal Glutathione represents the active form of Glutathione, the body's primary antioxidant. Glutathione supplementation can aid the liver in efficiently managing detoxification, particularly when the liver's natural processes may be challenged.<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Liposomal+Glutathione).pdf"
+          }
+        },
+        "02f2763d-d012-49d5-811c-4054ebe84b49": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marine_Collagen.png",
+            "caption": "",
+            "heading": "Marine Collagen",
+            "text": "<p>Marine Collagen from Vital Nutrients is is collagen protein powder supports skin health, hair, skin, and nail growth, as well as joint function and bone strength. It is sourced from wild-caught fish<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Marine+Collagen)+-+NOT+AVAILABLE+ON+STORE.pdf"
+          }
+        },
+        "dffaa7e0-953a-4668-a91e-d4e1bddef13b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mega_Mucosa.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/megamucosa\" target=\"_blank\" title=\"Shop Mega Mucosa\">Mega Mucosa<\/a>",
+            "text": "<p>MegaMucosa is an advanced gut health supplement promoting a strong  mucosal barrier. It features dairy-free immunoglobulins, clinically proven to enhance mucosal immune defenses<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(MEGAMUCOSA).pdf"
+          }
+        },
+        "d028bd99-e2d4-4280-b1fb-c03201e8be38": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mega_Sporebiotic.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/megasporebiotic-the-best-gut-health-supplements-for-pets\" target=\"_blank\" title=\"Shop MegaSporeBiotic\">MegaSporeBiotic™<\/a>",
+            "text": "<p>MegaSporeBiotic™ offers an optimal solution for pet owners seeking to <br\/>enhance their pet's digestive well-being. This potent probiotic supplement, based on resilient spores, is expertly designed to address concerns like bloating, diarrhea, and other digestive discomforts<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(MegaSporeBiotic).pdf"
+          }
+        },
+        "443fea7c-caf1-4399-b8dc-a0200dfb1fa4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Omega_Pawz.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster\" target=\"_blank\" title=\"Shop Omega Pawz\">Omega Pawz<\/a>",
+            "text": "<p>Omega Pawz by Dr. Ruth Roberts is our premium fish oil supplement, rich in omega-3 fatty acids, EPA, and DHA. It supports healthy skin, a glossy coat, optimal joint function, enhanced memory, cardiovascular health, and more<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Omega-Pawz).pdf"
+          }
+        },
+        "0e1d3508-38f0-4c8e-ad18-082dbe05b4d5": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chinese_Rhubab.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/rhubarb-2-oz-herbal-extract-for-pet\" target=\"_blank\" title=\"Shop Chinese Rhubarb\">Chinese Rhubarb<\/a>",
+            "text": "<p>Chinese Rhubarb by Wise Woman Herbals is a herbal extracts from Chinese rhubarb (root) aim to support your pet's digestive system and promote healthy kidney function.<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Rhubarb).pdf"
+          }
+        },
+        "e0962bdd-849a-41a8-8245-2d06639d3f30": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shen_Ling_Spleen.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/shen-ling-spleen-support-2-oz?\" target=\"_blank\" title=\"Shop Shen Ling Spleen \">Shen Ling Spleen<\/a>",
+            "text": "<p>Shen Ling Spleen Support uses a classical Traditional Chinese Veterinary<br\/>Medicine formula to support the Spleen– the organ associated with digestion. This formula helps dry up damp, reducing diarrhea, and improving the efficiency of the entire GI Tract. <\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Shen+Ling+Spleen+Support).pdf"
+          }
+        },
+        "8838f0af-4f20-4d10-ba58-136e68065952": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Thuja_Pli.png",
+            "caption": "",
+            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/thuja-pli-for-oral-use-2oz-vaccine-detoxification-for-pet?\" target=\"_blank\" title=\"Shop Thuja Pli\">Thuja Pli <\/a>",
+            "text": "<p>Thuja Pli by Wise Women Herbals contains Thuja Plicata tree  extract that is a powerful homeopathic formula that aids in the detoxification of your pet's system after receiving vaccinations.<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Thuja).pdf"
+          }
+        },
+        "fcdff573-a7aa-4b98-9c04-6a1375a4691b": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pinellia_Dispersing_Formula.png",
+            "caption": "",
+            "heading": "Pinellia Dispersing Formula",
+            "text": "<p>Kan Traditional's Pinellia Dispersing Formula is a Chinese herbal remedy<br\/> designed to address Phlegm Heat patterns characterized by dense, <br\/>viscous mucus that is hard to clear. <\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Pinellia+Dispersing+Formula)+-+NOT+AVAILABLE+ON+STORE.pdf"
+          }
+        },
+        "d075321d-6b80-4ced-ba04-973cdabcdac4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Quercetin_with_Bromelain.png",
+            "caption": "",
+            "heading": "Quercetin with Bromelain",
+            "text": "<p>NOW's Quercetin and Bromelain supplement combines quercetin, a natural bioflavonoid that promotes healthy histamine levels for proper immune function, with bromelain, an enzyme from pineapple stems that supports a healthy inflammatory response.<\/p>",
+            "button_label": "Button label",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Quercetin+with+Bromelain)+-+NOT+AVAILABLE+ON+STORE.pdf"
+          }
+        },
+        "19daed71-8e7a-4e05-86e0-f5ade0c6480f": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ubiquinol.png",
+            "caption": "",
+            "heading": "Super Ubiquinol CoQ10",
+            "text": "<p>Super Ubiquinol CoQ10, also known as coenzyme Q10, is a supplement that <br\/>provides advanced support for mitochondrial function. It aids in the <br\/>production of energy, making it particularly beneficial for high-energy-demanding organs like the heart, brain, liver, and kidneys.<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Super+Ubiquinol+CoQ10)+-+NOT+AVAILABLE+ON+STORE.pdf"
+          }
+        },
+        "60e27f02-7e70-4737-a5fc-4d3c3451240e": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ther_biotic_complete_powder.png",
+            "caption": "",
+            "heading": "Ther Biotic Complete Powder",
+            "text": "<p>Ther-Biotic® Complete Powder by Klaire Labs is an hypoallergenic blend of 12 probiotic species that supports both innate and acquired immunity. This high-potency probiotic also aids in reinforcing the integrity of the intestinal epithelial barrier.<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(THER-BIOTIC+COMPLETE+POWDER)+-+NOT+AVAILABLE+ON+STORE.pdf"
+          }
+        },
+        "f807578c-5625-4074-91d2-0a8ff454ec1e": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ther_biotic_synbiotic.png",
+            "caption": "",
+            "heading": "Ther Biotic Synbiotic",
+            "text": "<p>Ther-Biotic® Synbiotic is meticulously designed to cater to specific gastrointestinal needs, providing complete support for the microbiome, <br\/>respiratory system, and immune function<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(THER-BIOTIC+COMPLETE+POWDER)+-+NOT+AVAILABLE+ON+STORE.pdf"
+          }
+        },
+        "305da33d-fb55-4e35-9d7b-6745b60e60c4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/two_per_day_1.png",
+            "caption": "",
+            "heading": "Two Per Day Multivitamin",
+            "text": "<p>Two-Per-Day multivitamin capsules provide essential vitamins, minerals, <br\/>and nutrients for comprehensive health and well-being. It containssuper omega-3 EPA\/DHA fish oil, sesame lignans, olive extract, and more!<\/p>",
+            "button_label": "Download Dosing Instruction",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Two-Per-Day+Tablets)+-+NOT+AVAILABLE+ON+STORE.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "39aa68b0-9225-4f7c-9df5-770495dbbb09",
+        "02f2763d-d012-49d5-811c-4054ebe84b49",
+        "dffaa7e0-953a-4668-a91e-d4e1bddef13b",
+        "d028bd99-e2d4-4280-b1fb-c03201e8be38",
+        "443fea7c-caf1-4399-b8dc-a0200dfb1fa4",
+        "0e1d3508-38f0-4c8e-ad18-082dbe05b4d5",
+        "e0962bdd-849a-41a8-8245-2d06639d3f30",
+        "8838f0af-4f20-4d10-ba58-136e68065952",
+        "fcdff573-a7aa-4b98-9c04-6a1375a4691b",
+        "d075321d-6b80-4ced-ba04-973cdabcdac4",
+        "19daed71-8e7a-4e05-86e0-f5ade0c6480f",
+        "60e27f02-7e70-4737-a5fc-4d3c3451240e",
+        "f807578c-5625-4074-91d2-0a8ff454ec1e",
+        "305da33d-fb55-4e35-9d7b-6745b60e60c4"
+      ],
+      "custom_css": [
+        "p {font-family: \"Josefin Sans\", sans-serif;}",
+        "h2 {font-family: \"Josefin Sans\", sans-serif;}",
+        ".button {font-family: \"Josefin Sans\", sans-serif;}"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "accent-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "7650957b-c951-4198-989c-ace47882122b": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".pagination {font-family: \"Josefin Sans\", sans-serif; text-align: center;}",
+        ".pagination a {color: #006400; font-size: 16px; \/* Adjust font size as needed *\/ margin: 0 5px; \/* Add margin for spacing *\/ text-decoration: none;}",
+        ".pagination a:hover {text-decoration: underline;}"
+      ],
+      "settings": {
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Pagination Style<\/title>\n    <link href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            font-family: 'Josefin Sans', sans-serif;\n        }\n        .pagination {\n            text-align: center;\n        }\n        .page-link {\n            display: inline-block;\n            padding: 5px 10px;\n            margin: 0 5px;\n            background-color: #f1f1f1;\n            text-decoration: none;\n            border-radius: 5px;\n        }\n        .page-link:hover {\n            background-color: #ddd;\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"pagination\">\n      <div class=\"pagination\">\n  <a href=\"\/pages\/dosing-instructions\" class=\"page-link active\">1<\/a>\n  <a href=\"\/pages\/dosing-instructions-page-2\" class=\"page-link\">2<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16626709144c8e7699",
+    "2267ea56-2668-4f99-82d1-3f190c5d2561",
+    "7650957b-c951-4198-989c-ace47882122b"
+  ]
+}

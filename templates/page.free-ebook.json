@@ -1,0 +1,372 @@
+{
+  "sections": {
+    "rx_img_with_text_TFhGb6": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "heading_QTh3XN": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Secret to a Healthier, Happier Pet",
+            "font_family": "font_blt"
+          }
+        },
+        "text_dUEnaq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Written by Dr. Ruth Roberts, this e-book offers a comprehensive look into the what, why, and how of cooking for your furry friends is the secret to a healthier and happier pet.<\/p>"
+          }
+        },
+        "button_nij8Hh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Download",
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/TOCPD+EBook.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QTh3XN",
+        "text_dUEnaq",
+        "button_nij8Hh"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ebook_1.png",
+        "height": "large",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_title_alignment": "center",
+        "desktop_content_alignment": "center",
+        "desktop_button_alignment": "center",
+        "content_layout": "overlap",
+        "grid_type": "type1",
+        "imgText-bg-color": "#f5f8f1",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "1718314949a1730760": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_ct7XhM": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-TAq8Kb\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_ct7XhM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_ntaTpz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GMN7Qp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Science & Benefits of Natural Pet Food <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gpWY7H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Written by Dr. Ruth Roberts, this e-book offers a comprehensive look into the what, why, and how of cooking for your furry friends is the secret to a healthier and happier pet. When it comes to feeding our pets, many of us are shifting towards natural pet food, and there’s a lot of good reasons why.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GMN7Qp",
+        "text_gpWY7H"
+      ],
+      "custom_css": [
+        "h2 {font-family: BLT-Heirloom; font-weight: bold;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "collapsible_content_TCYhkG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_AADVNC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Natural Pet Food?",
+            "icon": "paw_print",
+            "row_content": "<p>Simply put, natural pet food focuses on using ingredients that come from nature rather than synthetic compounds. That means lots of whole foods like meats, grains, and vegetables, and no artificial colors, flavors, or preservatives. The idea is to mimic a diet that pets would have naturally in the wild, tailored to their needs in a domestic environment.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AnxxwN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Nutritional Benefits",
+            "icon": "paw_print",
+            "row_content": "<p>Natural pet foods are typically crafted with better-quality ingredients. For instance, they often contain real chicken, beef, or fish, instead of meat by-products. This can lead to higher protein content, which is crucial for your pet's muscle health and energy levels. Additionally, these foods usually contain more natural fats and oils, which help keep your pet’s coat shiny and skin healthy.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eAVnYC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Long-term Health Benefits",
+            "icon": "paw_print",
+            "row_content": "<p>Feeding your pet a natural diet can contribute to better overall health and potentially lead to a longer life. With fewer processed ingredients and preservatives, natural foods can help maintain your pet's ideal weight, reduce the risk of obesity-related diseases, and support organ health.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JUCQCt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fewer Allergens and Sensitivities",
+            "icon": "paw_print",
+            "row_content": "<p>Because natural pet foods often exclude artificial additives and fillers like corn, wheat, and soy—which are common allergens for many pets—switching to a natural diet can help reduce the chances of allergic reactions. If your pet has been suffering from itchy skin, digestive issues, or recurrent ear infections, the culprit might be something in their food. Going natural can sometimes help alleviate these symptoms.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_AADVNC",
+        "collapsible_row_AnxxwN",
+        "collapsible_row_eAVnYC",
+        "collapsible_row_JUCQCt"
+      ],
+      "custom_css": [
+        "h3 {font-family: BLT-Heirloom; font-weight: bold; font-size: 1em;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_VLKAFz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cahdDm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In essence, choosing natural pet food is about providing the best for your pets so that they can live happier, healthier lives. It's about feeding them a diet that's closer to what nature intended, encouraging you to take the extra step of cooking wholesome meals for them. Many pet parents swear by the results they see in their pets' vitality and health when they make this loving effort.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cahdDm"
+      ],
+      "custom_css": [
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 52
+      }
+    },
+    "rx_image_banner_YPxzWG": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "heading_9QkVfj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Transform Your Pet's Health?"
+          }
+        },
+        "text_hqik6L": {
+          "type": "text",
+          "settings": {
+            "text": "Join countless others in the movement towards a natural, healthier diet for your pets and see the difference in their happiness and health."
+          }
+        },
+        "buttons_Fix43P": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "GET THE RECIPE HERE",
+            "button_link_1": "https:\/\/drruthroberts.com\/products\/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9QkVfj",
+        "text_hqik6L",
+        "buttons_Fix43P"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".banner__content {opacity: 80%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2250_x_1000_px_1.png",
+        "image_overlay_opacity": 20,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "container_bg": "#f5f8f1",
+        "desktop_content_alignment": "center",
+        "heading_color": "#2d4b49",
+        "text_color": "#2d4b49",
+        "show_arrow_mobile": "no",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_WJ9N7M": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Gctxt8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/insights.png",
+            "title": "Personal Insights",
+            "text": "<p>Why Dr. Ruth Roberts chooses to cook for her pets and how it can change your pet's health and vitality.<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HGjbQ4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/health_benefits.png",
+            "title": "Health Benefits",
+            "text": "<p>Detailed exploration of the advantages homemade pet food has over commercial options, including improved health and fewer veterinary visits.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H4FCTU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/historical.png",
+            "title": "Historical Context",
+            "text": "<p>A captivating look at the evolution of pet food, giving you the knowledge to make informed dietary choices for your pet.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YhFCXP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recipe.png",
+            "title": "Tailored Recipes",
+            "text": "<p>Step-by-step guides on preparing the Original CrockPET Diet for both dogs and cats, ensuring you can cater to your pet's specific nutritional needs.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rHwacg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vege.png",
+            "title": "Vegetarian & Vegan Options",
+            "text": "<p>Innovative recipes that provide plant-based alternatives for pets, ensuring every pet owner can use this book.<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NzRMPg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/supplement.png",
+            "title": "Supplemental Advice",
+            "text": "<p>Expert tips on nutritional supplements that can enhance your pet's diet and overall well-being.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Gctxt8",
+        "column_HGjbQ4",
+        "column_H4FCTU",
+        "column_YhFCXP",
+        "column_rHwacg",
+        "column_NzRMPg"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\"; font-weight: bold;}",
+        "h3 {color: #184b44; font-weight: bold;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "What's Inside The Ebook",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/TOCPD+EBook.pdf",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1713199513a250e161": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_nLJfeW": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-SQVTGQ\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_nLJfeW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "rx_img_with_text_TFhGb6",
+    "1718314949a1730760",
+    "rich_text_ntaTpz",
+    "collapsible_content_TCYhkG",
+    "rich_text_VLKAFz",
+    "rx_image_banner_YPxzWG",
+    "multicolumn_WJ9N7M",
+    "main",
+    "1713199513a250e161"
+  ]
+}
