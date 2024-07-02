@@ -212,6 +212,7 @@
       font-weight: 500;
       font-size: 18px;
       color: #1E1E1E;
+      text-transform: uppercase;
     }
 
     /* hide content for initial view */
@@ -221,6 +222,7 @@
 
     .rx-{{section.id}} .tabcontent {
       padding: 30px 60px;
+      letter-spacing: initial;
     }
 
     .rx-{{section.id}} .rx-product-tab {
@@ -702,9 +704,9 @@
     <div class="rx-product-tab">
       <div class="rx-product-title-tab">
         <button class="tablinks active" onclick="openTab(event, 'Description')">PRODUCT DESCRIPTION</button>
-        <button class="tablinks" onclick="openTab(event, 'Ingredients')">INGREDIENTS</button>
         <button class="tablinks" onclick="openTab(event, 'Instructions')">INSTRUCTIONS</button>
-        <button class="tablinks" onclick="openTab(event, 'Shipping')">SHIPPING</button>
+        <button class="tablinks" onclick="openTab(event, 'Ingredients')">Course Overview</button>
+        <button class="tablinks" onclick="openTab(event, 'Shipping')">What Will You Learn</button>
       </div>
       
       <div id="Description" class="tabcontent">
@@ -715,18 +717,7 @@
           {%- endif -%}
       </div>
       
-      <div id="Ingredients" class="tabcontent">
-        <div class="product_tab_content">
-          {%- if product.metafields.custom.revamp_ingredients != blank -%}
-            {{block.settings.ingredients_content}}
-          {%- elsif product.metafields.my_fields._1_badge_text_4 != blank -%}
-            {{product.metafields.my_fields._1_badge_text_4}}
-          {%- else -%}
-            <p></p>
-          {%- endif -%}
-        </div>
-      </div>
-      
+
       <div id="Instructions" class="tabcontent">
         <div class="product_tab_content">
           {%- if product.metafields.custom.revamp_instruction != blank -%}
@@ -742,12 +733,29 @@
           {%- else -%}
             <p></p>
           {%- endif -%}
-        </div >
-      </div>     
+        </div>
+      </div> 
+
+      <div id="Ingredients" class="tabcontent">
+        <div class="product_tab_content">
+          {% comment %} {%- if product.metafields.custom.revamp_ingredients != blank -%} {% endcomment %}
+          {%- if product.metafields.custom.for_course_overview != blank -%}
+            {{block.settings.course_overview}}
+          {% comment %} {%- elsif product.metafields.my_fields._1_badge_text_4 != blank -%}
+            {{product.metafields.my_fields._1_badge_text_4}}
+          {%- else -%} {% endcomment %}
+            <p></p>
+          {%- endif -%}
+        </div>
+      </div>
+      
+        
       
       <div id="Shipping" class="tabcontent">
         <div class="product_tab_content">
-          {{block.settings.shipping_content}}
+          {%- if product.metafields.custom.for_learning != blank -%}
+           {{block.settings.what_will_you_learn}}
+          {% endif %}
         </div>
       </div>  
 
@@ -1195,10 +1203,11 @@
       "type": "rx_product_tab",
       "name": "Product Tabs",
       "settings": [
+       
         {
           "type": "richtext",
-          "id": "ingredients_content",
-          "label": "Ingredients Content"
+          "id": "course_overview",
+          "label": "Course Overview"
         },
         {
           "type": "richtext",
@@ -1212,8 +1221,8 @@
         },
         {
           "type": "richtext",
-          "id": "shipping_content",
-          "label": "Shipping Content"
+          "id": "what_will_you_learn",
+          "label": "What will you learn"
         }
       ]
     },
