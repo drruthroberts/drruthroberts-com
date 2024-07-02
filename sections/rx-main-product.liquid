@@ -29,6 +29,8 @@
       color: #184B44 !important;
     }
 
+   
+
     .rx-{{section.id}} .stamped-badge-caption {
       font-family: 'Josefin Sans';
       font-style: normal;
@@ -162,6 +164,12 @@
       display: none;
     }
 
+    .course-title-tab {
+      display: flex;
+      justify-content:unset !important;
+      gap: 90px;
+    }
+
     .price--on-sale .price__sale {
       font-family: 'Josefin Sans';
       font-style: normal;
@@ -212,7 +220,6 @@
       font-weight: 500;
       font-size: 18px;
       color: #1E1E1E;
-      text-transform: uppercase;
     }
 
     /* hide content for initial view */
@@ -222,7 +229,6 @@
 
     .rx-{{section.id}} .tabcontent {
       padding: 30px 60px;
-      letter-spacing: initial;
     }
 
     .rx-{{section.id}} .rx-product-tab {
@@ -357,6 +363,12 @@
         margin: auto;
         margin-top: 20px;
       }
+
+      .course-title-tab {
+      display: flex;
+      justify-content:unset !important;
+      gap: 30px;
+    }
     }
   {%- endstyle -%}
 
@@ -704,9 +716,9 @@
     <div class="rx-product-tab">
       <div class="rx-product-title-tab">
         <button class="tablinks active" onclick="openTab(event, 'Description')">PRODUCT DESCRIPTION</button>
+        <button class="tablinks" onclick="openTab(event, 'Ingredients')">INGREDIENTS</button>
         <button class="tablinks" onclick="openTab(event, 'Instructions')">INSTRUCTIONS</button>
-        <button class="tablinks" onclick="openTab(event, 'Ingredients')">Course Overview</button>
-        <button class="tablinks" onclick="openTab(event, 'Shipping')">What Will You Learn</button>
+        <button class="tablinks" onclick="openTab(event, 'Shipping')">SHIPPING</button>
       </div>
       
       <div id="Description" class="tabcontent">
@@ -717,7 +729,18 @@
           {%- endif -%}
       </div>
       
-
+      <div id="Ingredients" class="tabcontent">
+        <div class="product_tab_content">
+          {%- if product.metafields.custom.revamp_ingredients != blank -%}
+            {{block.settings.ingredients_content}}
+          {%- elsif product.metafields.my_fields._1_badge_text_4 != blank -%}
+            {{product.metafields.my_fields._1_badge_text_4}}
+          {%- else -%}
+            <p></p>
+          {%- endif -%}
+        </div>
+      </div>
+      
       <div id="Instructions" class="tabcontent">
         <div class="product_tab_content">
           {%- if product.metafields.custom.revamp_instruction != blank -%}
@@ -733,12 +756,37 @@
           {%- else -%}
             <p></p>
           {%- endif -%}
-        </div>
-      </div> 
-
-      <div id="Ingredients" class="tabcontent">
+        </div >
+      </div>     
+      
+      <div id="Shipping" class="tabcontent">
         <div class="product_tab_content">
-          {% comment %} {%- if product.metafields.custom.revamp_ingredients != blank -%} {% endcomment %}
+          {{block.settings.shipping_content}}
+        </div>
+      </div>  
+
+    </div>  
+  {% endfor %}
+
+  {% assign courseproductTab = section.blocks | where: 'type', 'course_rx_product_tab' %}
+  {%- for block in courseproductTab -%}
+    
+    <div class="rx-product-tab">
+      <div class="rx-product-title-tab course-title-tab">
+        <button class="tablinks active" onclick="openTab(event, 'Overviews')">Course Overview</button>
+        <button class="tablinks" onclick="openTab(event, 'Learning')">What will you learn</button>
+      </div>
+      
+      {% comment %} <div id="Description" class="tabcontent">
+        {%- if product.description != blank -%}
+            <div class="product_tab_content">
+              {{ product.description }}
+            </div>
+          {%- endif -%}
+      </div> {% endcomment %}
+      
+      <div id="Overviews" class="tabcontent">
+        <div class="product_tab_content">
           {%- if product.metafields.custom.for_course_overview != blank -%}
             {{block.settings.course_overview}}
           {% comment %} {%- elsif product.metafields.my_fields._1_badge_text_4 != blank -%}
@@ -749,15 +797,28 @@
         </div>
       </div>
       
-        
-      
-      <div id="Shipping" class="tabcontent">
+      <div id="Learning" class="tabcontent">
         <div class="product_tab_content">
           {%- if product.metafields.custom.for_learning != blank -%}
-           {{block.settings.what_will_you_learn}}
-          {% endif %}
+            {{block.settings.what_will_you_learn}}
+          {% comment %} {%- elsif product.metafields.custom.revamp_instruction_image != blank-%}
+            {{block.settings.instructions_content_image | image_url: width: 500
+              | image_tag:
+                loading: 'lazy',
+                width: 500
+            }}
+          {%- elsif product.metafields.my_fields._1_badge_text_3 != blank -%}
+            {{product.metafields.my_fields._1_badge_text_3}}
+          {%- else -%} {% endcomment %}
+            <p></p>
+          {%- endif -%}
+        </div >
+      </div>     
+      {% comment %} <div id="Shipping" class="tabcontent">
+        <div class="product_tab_content">
+          {{block.settings.shipping_content}}
         </div>
-      </div>  
+      </div>   {% endcomment %}
 
     </div>  
   {% endfor %}
@@ -1203,11 +1264,10 @@
       "type": "rx_product_tab",
       "name": "Product Tabs",
       "settings": [
-       
         {
           "type": "richtext",
-          "id": "course_overview",
-          "label": "Course Overview"
+          "id": "ingredients_content",
+          "label": "Ingredients Content"
         },
         {
           "type": "richtext",
@@ -1218,6 +1278,22 @@
           "type": "image_picker",
           "id": "instructions_content_image",
           "label": "Instructions Content Image"
+        },
+        {
+          "type": "richtext",
+          "id": "shipping_content",
+          "label": "Shipping Content"
+        }
+      ]
+    },
+    {
+      "type": "course_rx_product_tab",
+      "name": "Course Product Tabs",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "course_overview",
+          "label": "Course Overview"
         },
         {
           "type": "richtext",
