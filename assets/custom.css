@@ -78,9 +78,9 @@ button.needsclick.kl-teaser-VBv2Nx.undefined.kl-private-reset-css-Xuajs1 {
 
 /* Pet Advice */
 
-.rewordmax_container {
+/* .rewordmax_container {
     max-width: 1200px !important;
-}
+} */
 section#shopify-section-template--14921792258113__836a1838-39d3-4804-9b8f-570cc2fbf531 {
     border-top: 1px solid #f5f8f1;
 }
@@ -109,6 +109,7 @@ section#shopify-section-template--14921792258113__5b6a95e7-7095-4def-81d5-7f0546
 }
 .slick-slide h3.petvideott  {
     text-align: center;
+    margin: 0;
 }
 
 /* Coaches Coollection Page */
@@ -520,3 +521,59 @@ a.elementor-toggle-title {
     font-size: 12px;
   }
 }
+
+
+/* Immerse yourself in expert pet advice from our diverse range of engaging resources. */
+
+
+.rx-blog-content--title {
+    font-family: 'Oakley Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.rx-blog-content--description {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.rx-review-container .blogbodr2 {
+    padding: 20px;
+}
+
+.rx-blog-content--description p {
+    margin: 0;
+}
+
+.rx-blogs-content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.petviddetail .video-description {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 40px;
+    /* or 160% */
+    text-align: center;
+    color: #413232;
+}
+
+
+
+
+
+

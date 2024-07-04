@@ -4575,7 +4575,7 @@ h3.certifiedtext{
 .blogbodr2 {
   position: relative;
   bottom: 10%;
-  padding: 4% 0;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
 }

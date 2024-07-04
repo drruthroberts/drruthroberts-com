@@ -753,3 +753,16 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
 }
+
+.petviddetail .video-description {
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 40px;
+  /* or 160% */
+  text-align: center;
+  color: #000000;
+  }
+
+
