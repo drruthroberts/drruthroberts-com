@@ -1,0 +1,226 @@
+<style>
+    .rx-{{section.id}}.blog-article--cotainer {
+      max-width: 100%;
+      background: {{ section.settings.cotainer_bg }}
+    }
+  
+    .rx-{{section.id}} .container {
+      display: flex;
+      flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%};
+      align-items: center;
+      padding-top: 70px;
+      padding-bottom: 140px;
+      padding-left: 140px;
+      padding-right: 140px;
+    }
+  
+    .rx-{{section.id}} .container .rx-image {
+      max-width: 900px;
+      max-height: 430px;
+      width: 100%;
+      border-radius: 20px;
+    }
+  
+    .rx-{{section.id}} .container .rx-text {
+      width: 53%;
+      padding-left: 40px;
+      text-align: justify;
+      background-color: {{section.settings.content_bg}};
+    }
+  
+    .rx-{{section.id}} .container .rx-text .rx-text-desc {
+      max-width: 700px;
+    }
+  
+    .rx-{{section.id}}  .rx-text .heading {
+      font-family: 'Oakley Script';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 57px;
+      letter-spacing: 0.02em;
+      color: #1E1E1E;
+      margin: 0;
+    }
+  
+    .rx-{{section.id}}  .rx-text .caption {
+      font-family: 'BLT-Heirloom';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 40px;
+      color: #000000;
+      letter-spacing: 0.02em;
+      word-break: break-all;
+    }
+  
+    .rx-{{section.id}}  .rx-text .date {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 25px;
+      color: #000000;
+      letter-spacing: 0.02em;
+      padding-top: 34px;
+      padding-bottom: 11px;
+    }
+  
+    .rx-{{section.id}}  .rx-text .date p {
+      margin: 0;
+    }
+  
+    .rx-{{section.id}}  .rx-text .content {
+      font-family: 'Josefin Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: #1E1E1E;
+      margin: 0;
+      padding-top: 35px;
+      word-break: break-all;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* number of lines to show */
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    .rx-{{ section.id }} .article-url {
+        cursor: pointer;
+        text-decoration-line: none;
+    }
+  
+    @media screen and (max-width: 950px) {
+      .rx-{{section.id}} .container {
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+  
+      } 
+  
+      .rx-{{section.id}} .container .article-image .rx-image {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+      }
+  
+      .rx-{{section.id}} .container .rx-text {
+        width: 100%;
+        text-align: center;
+                                                                                                                                   padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+      }
+      
+      .rx-{{section.id}} .container .rx-text .rx-text-desc {
+        margin: auto;
+      }
+  
+      .rx-{{section.id}}  .rx-text .caption {
+        margin-right: auto;
+      }
+    }
+  
+  </style>
+  {%- liquid
+    assign blog = section.settings.blog
+  -%}
+  {% if page.handle == "contact-us" %}
+    <style>
+    .rx-{{section.id}} .container .rx-text{
+        background-color: #fff;
+        border-top: 2px solid #F5F8F1;
+    }
+  </style>
+  {% endif %}
+  <div class="rx-{{section.id}} blog-article--cotainer">
+    <div class="container">
+       
+        {% for article in blog.articles %}
+            {% if forloop.first == true %}
+                <a class="article-url" href="{{ article.url }}">
+                    <img
+                        class="rx-image"
+                        src="{{ article.image | image_url: width: 1500, crop: 'center' }}"
+                        sizes="100%"
+                        loading="lazy"
+                    >
+                  </a>
+                <div class="rx-text">
+                    <div class="rx-text-desc">
+                        <p class="heading">{{section.settings.heading }}</p>
+                        <div class="date">Dr. Ruth Roberts | {{ article.published_at | date: '%b %d, %y' }}</div>
+                        <a class="article-url" href="{{ article.url }}"><div class="caption">{{ article.title }}</div></a>
+                        <div class="content">{{ article.content }}</div>
+                    <div>
+                </div>
+            {% endif %}
+            
+        {% endfor %} 
+     
+      {% comment %} <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/> {% endcomment %}
+        
+      
+    </div>
+  </div>
+  
+  
+  {% schema %}
+    {
+      "name": "blog article",
+      "tag": "section",
+      "class": "blog article",
+      "settings": [
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Blog"
+        },
+        {
+          "type": "color",
+          "id": "cotainer_bg",
+          "label": "Container Background"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "color",
+          "id": "content_bg",
+          "label": "Content Background",
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "options": [
+            {
+              "value": "image_first",
+              "label": "Image First"
+            },
+            {
+              "value": "text_first",
+              "label": "Text First"
+            }
+          ],
+          "default": "image_first",
+          "label": "Layout",
+          "info": "t:sections.image-with-text.settings.layout.info"
+        }
+      ],
+     
+      "presets": [
+        {
+          "name": "blog article"
+        }
+      ]
+    }
+  
+  {% endschema %}

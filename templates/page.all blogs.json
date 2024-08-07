@@ -1,0 +1,106 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1718122449b405d2db": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-SYyw5r\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "all_blog_articles_rJFY4k": {
+      "type": "all-blog-articles",
+      "settings": {
+        "blog_title": "Allergy and Skin issues,Dental Health,Event Replay,Holistic Approach to pet Care,Kidney Health,Mental and Anixiety Dissorder,Natural Herbal Remedies, Pet Behavior and Lifestyle,Pet Blog,Pet Health Concern,Pet Nutrition and Dietary Supplements,Pet Safety and Emergency, Podcast,Product Review, Uncategorized, Upcoming Events",
+        "show_image": true,
+        "podcasts_url": "shopify:\/\/blogs\/podcast",
+        "podcasts": "Podcasts",
+        "product_reviews_url": "shopify:\/\/blogs\/product-review",
+        "product_reviews": "Product Reviews",
+        "video_url": "#",
+        "video": "Video\/Webinars",
+        "downloadable_url": "#",
+        "downloadable": "Downloadable",
+        "quiz_url": "shopify:\/\/pages\/spay-neuter-syndrome-quiz",
+        "quiz": "Quiz",
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rx_img_with_text_N7GGFj": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "heading_bm3ByX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become A Certified Holistic Pet Health Coach in 4 Months!",
+            "font_family": "font_blt"
+          }
+        },
+        "text_GpLUjA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>"
+          }
+        },
+        "button_rQF4yR": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bm3ByX",
+        "text_GpLUjA",
+        "button_rQF4yR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cta-banner.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_title_alignment": "left",
+        "desktop_content_alignment": "left",
+        "desktop_button_alignment": "left",
+        "content_layout": "no-overlap",
+        "grid_type": "type1",
+        "imgText-bg-color": "",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "content_padding_top": 50,
+        "content_padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1718122449b405d2db",
+    "all_blog_articles_rJFY4k",
+    "rx_img_with_text_N7GGFj"
+  ]
+}

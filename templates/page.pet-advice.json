@@ -8,400 +8,151 @@
         "padding_bottom": 36
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "rx_img_with_text_slider_tmLr4h": {
+      "type": "rx-img-with-text-slider",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_F8W7QY": {
+          "type": "slide",
           "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/Image_bca6c2db-1ad4-4210-883e-93c3e22f7740.png",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "left",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "no",
+            "mobile_content_alignment": "left",
+            "heading": "Deepen Your Knowledge In Pet Health",
+            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.<br\/><br\/><\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "#"
           }
         },
-        "paragraph": {
-          "type": "paragraph",
+        "slide_DY6ywb": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "image": "shopify:\/\/shop_images\/Dr_Ruth_Roberts_in_sunlight.jpg",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "left",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "no",
+            "mobile_content_alignment": "left",
+            "heading": "Deepen Your Knowledge In Pet Health",
+            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "#"
           }
         },
-        "email-form": {
-          "type": "email_form",
+        "slide_nkqVeb": {
+          "type": "slide",
+          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Dr_Ruth_Roberts_with_Pet.jpg",
+            "height": "medium",
+            "desktop_image_width": "medium",
+            "layout": "text_first",
+            "desktop_title_alignment": "center",
+            "desktop_content_alignment": "center",
+            "desktop_button_alignment": "left",
+            "content_layout": "overlap",
+            "grid_type": "type1",
+            "show_arrow_mobile": "no",
+            "mobile_content_alignment": "left",
+            "heading": "Deepen Your Knowledge In Pet Health",
+            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "#"
           }
         }
       },
       "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52
-      }
-    },
-    "1655751929e34d4e57": {
-      "type": "collection-list",
-      "blocks": {
-        "16557519296bd204f0-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "herbsmith-products"
-          }
-        },
-        "16557519296bd204f0-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "standard-process-collection"
-          }
-        },
-        "16557519296bd204f0-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "animalbiome"
-          }
-        },
-        "aa1c3c69-2ce2-435d-81c8-18b114024961": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "assisi-loop-calmer-canine®"
-          }
-        },
-        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "16557519296bd204f0-0",
-        "16557519296bd204f0-1",
-        "16557519296bd204f0-2",
-        "aa1c3c69-2ce2-435d-81c8-18b114024961",
-        "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1408af62-d6c1-4a8b-924e-373937384510": {
-      "type": "petadvice-main",
-      "blocks": {
-        "cdf6bc16-afca-432b-a894-37df39b0e3b8": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
-            "heading": "Blogs",
-            "link": "#shopify-section-template--14921792258113__8104cc31-1a02-403b-90ea-53954e6bd34c"
-          }
-        },
-        "a64ad7d8-1933-459e-9ba1-d8dc192ff02e": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
-            "heading": "Podcast",
-            "link": "#shopify-section-template--14921792258113__3c81f4e7-9d44-4850-985b-56f21e5816e9"
-          }
-        },
-        "f61bc112-9522-411d-82ef-394782bfaccc": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
-            "heading": "Product Review",
-            "link": "#shopify-section-template--14921792258113__836a1838-39d3-4804-9b8f-570cc2fbf531"
-          }
-        },
-        "c73b44fb-9d1d-415f-9a2a-d32b3b3e9978": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
-            "heading": "Video\/Webinars",
-            "link": "#shopify-section-template--14921792258113__54622c8f-3f1b-48e3-a24e-b5c8cd560f29"
-          }
-        },
-        "7abf0653-7abd-42ef-affa-1ab57d62adc8": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_8_c699c455-4fb3-48db-8945-48f5c2c139e8.png",
-            "heading": "Downloadbles",
-            "link": "#shopify-section-template--14921792258113__febdc93f-b5f0-4728-b425-acf1d35080a9"
-          }
-        }
-      },
-      "block_order": [
-        "cdf6bc16-afca-432b-a894-37df39b0e3b8",
-        "a64ad7d8-1933-459e-9ba1-d8dc192ff02e",
-        "f61bc112-9522-411d-82ef-394782bfaccc",
-        "c73b44fb-9d1d-415f-9a2a-d32b3b3e9978",
-        "7abf0653-7abd-42ef-affa-1ab57d62adc8"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".clsimgtxt {margin-top: 5%;}"
+        "slide_F8W7QY",
+        "slide_DY6ywb",
+        "slide_nkqVeb"
       ],
       "settings": {
-        "heading1": "",
-        "valuepet": ""
+        "desktopMaxWidth": "100%",
+        "auto_play": true,
+        "content_padding_left": 66,
+        "content_padding_right": 76
       }
     },
-    "8104cc31-1a02-403b-90ea-53954e6bd34c": {
-      "type": "pet_ourblog",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
-      "settings": {
-        "labelourb": "Our Blogs",
-        "petblogimg": "shopify:\/\/shop_images\/Emergency_Kit_for_Your_Cats_and_Dogs.jpg",
-        "prtbllink": "https:\/\/blog.drruthroberts.com\/emergency-kit-for-pet\/",
-        "prtblsubdes": "Are You Pet-prepared?",
-        "prtblogdate": "",
-        "prtblogdes": "As a pet owner, it's essential to have Dr. Ruth Roberts' recommended pet emergency kit on hand at home. Familiarize yourself with situations where you can provide at-home treatment, sparing the need for an emergency vet visit."
-      }
-    },
-    "e8f16e75-0ea8-4db3-8fbe-d9cae014492d": {
-      "type": "rx-blog",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "blog": "pet-blog",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d8b0d8a6-2ea9-47ad-830f-ab794905af56": {
+    "rx_posts_RY6zzm": {
       "type": "rx-posts",
       "blocks": {
-        "template--14921792258113__d8b0d8a6-2ea9-47ad-830f-ab794905af56-title-1": {
+        "title_FtNJyz": {
           "type": "title",
           "settings": {
-            "title": "Can dogs have vegetable broth?",
-            "reviewer_name": "Dr. Ruth Roberts | Sept 27, 2023",
-            "post_link": "https:\/\/blog.drruthroberts.com\/can-dogs-have-vegetable-broth\/",
-            "post_image": "shopify:\/\/shop_images\/BLOG_THUMBNAILS_2.png"
+            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
+            "reviewer_name": "Dr. Ruth | March 6, 2023",
+            "post_link": "shopify:\/\/blogs\/dental-health\/affordable-dog-dental-cleaning-follow-this-diy-steps",
+            "post_image": "shopify:\/\/shop_images\/Image_1_a75ddd68-16a2-40a9-bb3b-691bb07b89d1.png",
+            "overlap": false
           }
         },
-        "template--14921792258113__d8b0d8a6-2ea9-47ad-830f-ab794905af56-title-2": {
+        "title_3WzG9H": {
           "type": "title",
           "settings": {
-            "title": "Natural Pain Relief For Cats",
-            "reviewer_name": "Dr. Ruth Roberts | July 22, 2021",
-            "post_link": "https:\/\/blog.drruthroberts.com\/natural-pain-relief-for-cats\/",
-            "post_image": "shopify:\/\/shop_images\/natural_pain_relief_for_cats.png"
+            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
+            "reviewer_name": "Dr. Ruth | March 6, 2023",
+            "post_link": "shopify:\/\/blogs\/product-review\/drenamin-review-adrenal-and-emotional-support-supplement",
+            "post_image": "shopify:\/\/shop_images\/Image_1_a75ddd68-16a2-40a9-bb3b-691bb07b89d1.png",
+            "overlap": false
           }
         },
-        "template--14921792258113__d8b0d8a6-2ea9-47ad-830f-ab794905af56-title-3": {
+        "title_MKrKp3": {
           "type": "title",
           "settings": {
-            "title": "DOG GROOMING: FREQUENCY, ITCHING RELIEF AND ESSENTIAL VACCINE",
-            "reviewer_name": "Dr. Ruth Roberts | Sept 23, 2023",
-            "post_link": "Dr. Ruth | March 6, 2023",
-            "post_image": "shopify:\/\/shop_images\/how_to_relieve_dog_itching_after_grooming.png"
+            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
+            "reviewer_name": "Dr. Ruth | March 6, 2023",
+            "post_link": "shopify:\/\/blogs\/product-review\/megasporebiotic™-the-best-gut-health-supplements-for-pets",
+            "post_image": "shopify:\/\/shop_images\/Image_1_a75ddd68-16a2-40a9-bb3b-691bb07b89d1.png",
+            "overlap": false
+          }
+        },
+        "title_e4WGNT": {
+          "type": "title",
+          "settings": {
+            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
+            "reviewer_name": "Dr. Ruth | March 6, 2023",
+            "post_link": "shopify:\/\/blogs\/product-review\/restorflora™-natural-probiotics-for-dogs-and-cats",
+            "post_image": "shopify:\/\/shop_images\/Image_1_a75ddd68-16a2-40a9-bb3b-691bb07b89d1.png",
+            "overlap": false
           }
         }
       },
       "block_order": [
-        "template--14921792258113__d8b0d8a6-2ea9-47ad-830f-ab794905af56-title-1",
-        "template--14921792258113__d8b0d8a6-2ea9-47ad-830f-ab794905af56-title-2",
-        "template--14921792258113__d8b0d8a6-2ea9-47ad-830f-ab794905af56-title-3"
-      ],
-      "disabled": true,
-      "custom_css": [
-
+        "title_FtNJyz",
+        "title_3WzG9H",
+        "title_MKrKp3",
+        "title_e4WGNT"
       ],
       "settings": {
         "desktopColumns": "3",
         "tabletColumns": "2",
-        "desktopMaxWidth": "1200px",
-        "tabletMaxWidth": "100%",
-        "mobileMaxWidth": "100%",
+        "desktopMaxWidth": "80%",
+        "tabletMaxWidth": "90%",
+        "mobileMaxWidth": "95%",
         "autoPlay": false,
         "smoothAutoPlay": false,
-        "auto_hide_arrow": true,
-        "container_bgcolor": "#ffffff",
-        "card_bgcolor": "#ffffff",
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#f5f8f1",
+        "card_bgcolor": "#f5f8f1",
         "filled_star_color": "",
-        "empty_star_color": ""
-      }
-    },
-    "a2bf1391-0e8f-4918-8758-a17303b1c55e": {
-      "type": "Certified_Coaches",
-      "disabled": true,
-      "custom_css": [
-        ".blogbodr2 {padding: 10px 0 70px;}"
-      ],
-      "settings": {
-        "testhead": "",
-        "testdes": "",
-        "coachbtn": "All Blogs",
-        "coachurl": "https:\/\/blog.drruthroberts.com"
-      }
-    },
-    "ec5b2465-cee1-43bc-88cc-42159f61d062": {
-      "type": "pet_ourblog",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
-      "settings": {
-        "labelourb": "Our Podcast",
-        "petblogimg": "shopify:\/\/shop_images\/Traditional_Chinese_Veterinary_Medicine.png",
-        "prtbllink": "https:\/\/blog.drruthroberts.com\/podcasts\/",
-        "prtblsubdes": "Traditional Chinese Veterinary Medicine",
-        "prtblogdate": "",
-        "prtblogdes": "This is an episode of Your Natural Dog podcast with Angela Ardolino, packed with valuable insights on traditional veterinary medicine including the use of herbs and food therapy for optimal pet health."
-      }
-    },
-    "da2492a7-bf99-487e-a228-ecd20eb7cfc6": {
-      "type": "rx-posts",
-      "blocks": {
-        "template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6-title-1": {
-          "type": "title",
-          "settings": {
-            "title": "Traditional Chinese Veterinary Medicine and Food Therapy For Pet",
-            "reviewer_name": "Dr. Ruth Roberts | October 25, 2023",
-            "post_link": "https:\/\/blog.drruthroberts.com\/podcast\/tcvm-and-herbal-remedies-for-dogs-and-cats",
-            "post_image": "shopify:\/\/shop_images\/Traditional_Chinese_Veterinary_Medicine.png"
-          }
-        },
-        "template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6-title-2": {
-          "type": "title",
-          "settings": {
-            "title": "What Vaccines Do Dogs Need?",
-            "reviewer_name": "Dr. Ruth Roberts | October 18, 2023",
-            "post_link": "https:\/\/blog.drruthroberts.com\/podcast\/what-vaccines-do-dogs-need",
-            "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_II_67447d13-40f1-4d8c-81dc-9b3b9cde44ce.png"
-          }
-        },
-        "template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6-title-3": {
-          "type": "title",
-          "settings": {
-            "title": "Ways To Prolonged Your Pet's Longevity",
-            "reviewer_name": "Dr. Ruth Roberts | October 8, 2023",
-            "post_link": "https:\/\/blog.drruthroberts.com\/podcast\/ways-to-prolong-your-pets-longevity",
-            "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_1_32ca83b6-737b-4aaf-af8d-a5ac0acb9cab.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6-title-1",
-        "template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6-title-2",
-        "template--14921792258113__da2492a7-bf99-487e-a228-ecd20eb7cfc6-title-3"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktopColumns": "3",
-        "tabletColumns": "2",
-        "desktopMaxWidth": "1200px",
-        "tabletMaxWidth": "100%",
-        "mobileMaxWidth": "100%",
-        "autoPlay": false,
-        "smoothAutoPlay": false,
-        "auto_hide_arrow": true,
-        "container_bgcolor": "#ffffff",
-        "card_bgcolor": "#ffffff",
-        "filled_star_color": "",
-        "empty_star_color": ""
-      }
-    },
-    "5c5f1a66-4165-4964-8e7d-8eb9555d865e": {
-      "type": "Certified_Coaches",
-      "disabled": true,
-      "settings": {
-        "testhead": "",
-        "testdes": "",
-        "coachbtn": "All Podcast",
-        "coachurl": ""
-      }
-    },
-    "5b6a95e7-7095-4def-81d5-7f0546063d53": {
-      "type": "Certified_Coaches",
-      "settings": {
-        "testhead": "",
-        "testdes": "",
-        "coachbtn": "All Podcast",
-        "coachurl": "https:\/\/blog.drruthroberts.com\/podcasts"
-      }
-    },
-    "836a1838-39d3-4804-9b8f-570cc2fbf531": {
-      "type": "pet_webinar",
-      "blocks": {
-        "d1a2ff61-a549-44be-8c9c-f852ae9bc144": {
-          "type": "block",
-          "settings": {
-            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 6, 2023",
-            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
-            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
-            "petvideobtn": "watch video",
-            "petvidbtnurl": ""
-          }
-        },
-        "ca2c3611-0f8f-495b-bd4b-b9c18b445aff": {
-          "type": "block",
-          "settings": {
-            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 7, 2023",
-            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
-            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
-            "petvideobtn": "watch video",
-            "petvidbtnurl": ""
-          }
-        },
-        "4f66d978-c74d-4cbf-9827-76e65b784f02": {
-          "type": "block",
-          "settings": {
-            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 8, 2023",
-            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
-            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
-            "petvideobtn": "watch video",
-            "petvidbtnurl": ""
-          }
-        },
-        "f04c347a-abce-4d4f-bc71-62e1b38240e9": {
-          "type": "block",
-          "settings": {
-            "webinarvurl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 9, 2023",
-            "webinartitle": "Lorem ipsum dolor sit amet consectetur",
-            "webinardesc": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
-            "petvideobtn": "watch video",
-            "petvidbtnurl": ""
-          }
-        }
-      },
-      "block_order": [
-        "d1a2ff61-a549-44be-8c9c-f852ae9bc144",
-        "ca2c3611-0f8f-495b-bd4b-b9c18b445aff",
-        "4f66d978-c74d-4cbf-9827-76e65b784f02",
-        "f04c347a-abce-4d4f-bc71-62e1b38240e9"
-      ],
-      "disabled": true,
-      "settings": {
-        "petvhead": "Webinars",
-        "wevinarbtn": "all webinars",
-        "webinarurl": ""
+        "empty_star_color": "",
+        "blogs_title": "Our Blogs",
+        "blogs_description": "<p>Read our insightful articles for  expert pet advice,  holistic pet health tips, and nurturing natural remedies to elevate your pet’s well-being<\/p>",
+        "blogs_url": "shopify:\/\/pages\/all-blogs",
+        "blogs_btn": "Read More blogs"
       }
     },
     "54622c8f-3f1b-48e3-a24e-b5c8cd560f29": {
@@ -411,44 +162,52 @@
           "type": "block",
           "settings": {
             "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 6, 2023",
-            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
-            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petviid": "LIVE STREAM",
+            "video_date": "| August 6, 2023",
+            "petvideocontent": "UPCOMING |  TOCD WEEKLY QNA",
+            "petvideocontentdesss": "",
             "petvideobtn": "watch video",
-            "petvidbtnurl": ""
+            "petvidbtnurl": "",
+            "video_overlap": false
           }
         },
         "53165b96-789f-4d61-86cc-0ee7f9c68450": {
           "type": "block",
           "settings": {
             "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 7, 2023",
-            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
-            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petviid": "WEBINAR",
+            "video_date": "| August 6, 2023",
+            "petvideocontent": "The next level Pet healthstories",
+            "petvideocontentdesss": "",
             "petvideobtn": "watch video",
-            "petvidbtnurl": ""
+            "petvidbtnurl": "",
+            "video_overlap": false
           }
         },
         "1c348941-662e-4410-8246-4b175e5cc5c1": {
           "type": "block",
           "settings": {
             "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 8, 2023",
-            "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
-            "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
+            "petviid": "VLOG",
+            "video_date": "|  March 7, 2023",
+            "petvideocontent": "HOW I TREAT KIDNEY DISEASE IN DOGS & CATS",
+            "petvideocontentdesss": "",
             "petvideobtn": "watch video",
-            "petvidbtnurl": ""
+            "petvidbtnurl": "",
+            "video_overlap": false
           }
         },
         "1f91b1ad-94c8-45fb-a588-7b44448fbff5": {
           "type": "block",
           "settings": {
             "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
-            "petviid": "March 9, 2023",
+            "petviid": "INFOGRAPHIC",
+            "video_date": "| August 6, 2023",
             "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
             "petvideocontentdesss": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit.",
             "petvideobtn": "watch video",
-            "petvidbtnurl": ""
+            "petvidbtnurl": "",
+            "video_overlap": false
           }
         }
       },
@@ -458,9 +217,17 @@
         "1c348941-662e-4410-8246-4b175e5cc5c1",
         "1f91b1ad-94c8-45fb-a588-7b44448fbff5"
       ],
-      "disabled": true,
       "settings": {
-        "petvhead": "Videos"
+        "video_header": "Our Product Review",
+        "desktopMaxWidth": "80%",
+        "tabletMaxWidth": "90%",
+        "mobileMaxWidth": "90%",
+        "video_description": "<p>Watch our engaging webinars, live streams, and pet health vlogs. to valuable knowledges and practices for your pet's wellness<\/p>",
+        "video_url": "shopify:\/\/blogs\/product-review",
+        "video_btn": "WATCH MORE VIDEOS",
+        "vertical": false,
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "febdc93f-b5f0-4728-b425-acf1d35080a9": {
@@ -475,110 +242,277 @@
         "prtblogdes": "Lorem ipsum dolor sit amet consectetur. Eu cursus aliquet diam eu pellentesque. Iaculis mattis metus pharetra ut duis vel turpis et sem. Eu malesuada velit."
       }
     },
-    "4dac0fe1-ce41-47f7-8e86-27d409ee6496": {
-      "type": "Certified_Coaches",
-      "disabled": true,
-      "settings": {
-        "testhead": "",
-        "testdes": "",
-        "coachbtn": "All Downloadable",
-        "coachurl": ""
-      }
-    },
-    "7334f3e1-87e0-42f1-8762-c579898dd117": {
-      "type": "pet_ourblog",
-      "custom_css": [
-        "p {font-size: 18px;}"
-      ],
-      "settings": {
-        "labelourb": "Product Review",
-        "petblogimg": "shopify:\/\/shop_images\/Drenamin.png",
-        "prtbllink": "https:\/\/blog.drruthroberts.com\/drenamin-review-adrenal-and-emotional-support-supplement\/",
-        "prtblsubdes": "Drenamin: Adrenal Support Supplements",
-        "prtblogdate": "",
-        "prtblogdes": "Let's take a closer look at adrenal gland disorders and examine how Drenamin emerges as a potential lifesaver for us humans and also our pet."
-      }
-    },
-    "cbd4244d-0bbe-4a85-9234-c4112797bd73": {
-      "type": "rx-posts",
-      "blocks": {
-        "template--14921792258113__cbd4244d-0bbe-4a85-9234-c4112797bd73-title-1": {
-          "type": "title",
-          "settings": {
-            "title": "Drenamin: Adrenal Support Supplements",
-            "reviewer_name": "Dr. Ruth Roberts | November 17, 2023",
-            "post_link": "https:\/\/blog.drruthroberts.com\/drenamin-review-adrenal-and-emotional-support-supplement\/",
-            "post_image": "shopify:\/\/shop_images\/Drenamin.png"
-          }
-        },
-        "template--14921792258113__cbd4244d-0bbe-4a85-9234-c4112797bd73-title-2": {
-          "type": "title",
-          "settings": {
-            "title": "Hepatrophin PMG® - Liver Support Supplements for Pets",
-            "reviewer_name": "Dr. Ruth Roberts | November 10, 2023",
-            "post_link": "https:\/\/blog.drruthroberts.com\/hepatrophin-pmg-liver-support-supplement\/",
-            "post_image": "shopify:\/\/shop_images\/Hepatrophin_-_Liver_Support_Supplements.png"
-          }
-        },
-        "template--14921792258113__cbd4244d-0bbe-4a85-9234-c4112797bd73-title-3": {
-          "type": "title",
-          "settings": {
-            "title": "Activated Charcoal For Dogs and Cats",
-            "reviewer_name": "Dr. Ruth Roberts | November 1, 2023",
-            "post_link": "https:\/\/blog.drruthroberts.com\/activated-charcoal-for-dogs-and-where-to-buy-it\/",
-            "post_image": "shopify:\/\/shop_images\/Product_Review_1.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--14921792258113__cbd4244d-0bbe-4a85-9234-c4112797bd73-title-1",
-        "template--14921792258113__cbd4244d-0bbe-4a85-9234-c4112797bd73-title-2",
-        "template--14921792258113__cbd4244d-0bbe-4a85-9234-c4112797bd73-title-3"
-      ],
-      "settings": {
-        "desktopColumns": "3",
-        "tabletColumns": "3",
-        "desktopMaxWidth": "100%",
-        "tabletMaxWidth": "100%",
-        "mobileMaxWidth": "100%",
-        "autoPlay": false,
-        "smoothAutoPlay": false,
-        "auto_hide_arrow": false,
-        "container_bgcolor": "#ffffff",
-        "card_bgcolor": "#ffffff",
-        "filled_star_color": "",
-        "empty_star_color": ""
-      }
-    },
     "8f23295c-e0a3-43cd-b327-ad136018ebdc": {
       "type": "Certified_Coaches",
+      "disabled": true,
       "settings": {
         "testhead": "",
         "testdes": "",
         "coachbtn": "All Product Review",
         "coachurl": "https:\/\/blog.drruthroberts.com\/category\/product-review\/"
       }
+    },
+    "rx_posts_tRLpWx": {
+      "type": "rx-posts",
+      "blocks": {
+        "title_zddiDV": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet consectetur",
+            "reviewer_name": "August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "overlap": false
+          }
+        },
+        "title_ykFEeG": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet consectetur",
+            "reviewer_name": "August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "overlap": false
+          }
+        },
+        "title_GiyTmL": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet consectetur",
+            "reviewer_name": "August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "overlap": false
+          }
+        },
+        "title_p48JKA": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet consectetur",
+            "reviewer_name": "August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "overlap": false
+          }
+        }
+      },
+      "block_order": [
+        "title_zddiDV",
+        "title_ykFEeG",
+        "title_GiyTmL",
+        "title_p48JKA"
+      ],
+      "settings": {
+        "desktopColumns": "3",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "80%",
+        "tabletMaxWidth": "90%",
+        "mobileMaxWidth": "90%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "#f5f8f1",
+        "card_bgcolor": "#f5f8f1",
+        "filled_star_color": "",
+        "empty_star_color": "",
+        "blogs_title": "Our Podcast",
+        "blogs_description": "<p>Listen to our podcast for in-depth conversation with leading veterinarians and experts. Gain new perspective and valuable insights for your pet.<\/p>",
+        "blogs_url": "shopify:\/\/blogs\/podcast",
+        "blogs_btn": "VIEW MORE PODCAST"
+      }
+    },
+    "rx_posts_eme6MN": {
+      "type": "rx-posts",
+      "blocks": {
+        "title_gpERr3": {
+          "type": "title",
+          "settings": {
+            "title": "HOLISTIC pET hEALTH pROTOCOLS BY dR rUTH rOBERTS",
+            "reviewer_name": "PDF | August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
+            "overlap": false
+          }
+        },
+        "title_j3XByY": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet consectetur",
+            "reviewer_name": "E-BOOK | August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
+            "overlap": false
+          }
+        },
+        "title_DAd7RR": {
+          "type": "title",
+          "settings": {
+            "title": "Lorem ipsum dolor sit amet consectetur",
+            "reviewer_name": "INFOGRAPHIC | August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
+            "overlap": false
+          }
+        },
+        "title_3PWHC4": {
+          "type": "title",
+          "settings": {
+            "title": "HOLISTIC pET hEALTH pROTOCOLS BY dR rUTH rOBERTS",
+            "reviewer_name": "PDF | August 6, 2023",
+            "post_link": "#",
+            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
+            "overlap": false
+          }
+        }
+      },
+      "block_order": [
+        "title_gpERr3",
+        "title_j3XByY",
+        "title_DAd7RR",
+        "title_3PWHC4"
+      ],
+      "settings": {
+        "desktopColumns": "3",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "80%",
+        "tabletMaxWidth": "90%",
+        "mobileMaxWidth": "90%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "",
+        "card_bgcolor": "#ffffff",
+        "filled_star_color": "",
+        "empty_star_color": "",
+        "blogs_title": "Our Videos",
+        "blogs_description": "<p>Get a treasure trove of knowledge with our FREE downloadable pdfs, e-book and infographics. Learn from our  resources to enhance your pet's health and well-being.<\/p>",
+        "blogs_url": "#",
+        "blogs_btn": "FREE DOWNLOADABLES"
+      }
+    },
+    "custom_image_with_text_LQzHzz": {
+      "type": "custom-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-cottonbro-studio-4252134_1.png",
+        "layout": "image_first",
+        "content_bg": "#2d4b49",
+        "title": "The Original CrockPET Diet",
+        "subtitle": "<p>“One of my proudest achievements is creating The Original CrockPet Diet. It’s a a balanced home cooked diet for pets, as the foundation of health., encouraging both healing and vitality.” <\/p>",
+        "description": "<p>Searching for a nourishing homemade solution to enhance your furry friend's well-being? Tired of toggling between raw feeding and dry kibbles without witnessing any positive changes in your pet's health?<br\/>Introducing The Original CrockPet Diet – a meticulously crafted home-cooked pet diet prepared right in your kitchen using only genuine ingredients. Dr. Ruth's patented recipe offers complete balance for pets at every life stage, fostering better health for puppies, kittens, adult dogs, cats, and senior companions alike.<\/p>",
+        "btn_url": "#",
+        "btn_title": "learn more",
+        "text_content_bg": "#f5f8f1",
+        "padding_top": 0,
+        "padding_bottom": 50,
+        "content_padding_top": 18,
+        "content_padding_bottom": 26
+      }
+    },
+    "rx_img_with_text_4abh9M": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "heading_DYAegR": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Dr. Ruth",
+            "font_family": "font_blt"
+          }
+        },
+        "text_f3U8QV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With holistic veterinary care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<\/p>"
+          }
+        },
+        "button_Qbdqa6": {
+          "type": "button",
+          "settings": {
+            "button_label": "my story",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DYAegR",
+        "text_f3U8QV",
+        "button_Qbdqa6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_3_f2c038b5-af4c-4553-9e18-48a5abd47eb8.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_title_alignment": "left",
+        "desktop_content_alignment": "left",
+        "desktop_button_alignment": "left",
+        "content_layout": "overlap",
+        "grid_type": "type1",
+        "imgText-bg-color": "#f5f8f1",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "content_padding_top": 34,
+        "content_padding_bottom": 64
+      }
+    },
+    "image_with_text_deJKTG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zGA38K": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_ec3EHC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_RxFPkh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_zGA38K",
+        "text_ec3EHC",
+        "button_RxFPkh"
+      ],
+      "disabled": true,
+      "settings": {
+        "unique_class": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "newsletter",
-    "1655751929e34d4e57",
-    "1408af62-d6c1-4a8b-924e-373937384510",
-    "8104cc31-1a02-403b-90ea-53954e6bd34c",
-    "e8f16e75-0ea8-4db3-8fbe-d9cae014492d",
-    "d8b0d8a6-2ea9-47ad-830f-ab794905af56",
-    "a2bf1391-0e8f-4918-8758-a17303b1c55e",
-    "ec5b2465-cee1-43bc-88cc-42159f61d062",
-    "da2492a7-bf99-487e-a228-ecd20eb7cfc6",
-    "5c5f1a66-4165-4964-8e7d-8eb9555d865e",
-    "5b6a95e7-7095-4def-81d5-7f0546063d53",
-    "836a1838-39d3-4804-9b8f-570cc2fbf531",
+    "rx_img_with_text_slider_tmLr4h",
+    "rx_posts_RY6zzm",
     "54622c8f-3f1b-48e3-a24e-b5c8cd560f29",
     "febdc93f-b5f0-4728-b425-acf1d35080a9",
-    "4dac0fe1-ce41-47f7-8e86-27d409ee6496",
-    "7334f3e1-87e0-42f1-8762-c579898dd117",
-    "cbd4244d-0bbe-4a85-9234-c4112797bd73",
-    "8f23295c-e0a3-43cd-b327-ad136018ebdc"
+    "8f23295c-e0a3-43cd-b327-ad136018ebdc",
+    "rx_posts_tRLpWx",
+    "rx_posts_eme6MN",
+    "custom_image_with_text_LQzHzz",
+    "rx_img_with_text_4abh9M",
+    "image_with_text_deJKTG"
   ]
 }

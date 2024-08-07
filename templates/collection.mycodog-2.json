@@ -118,7 +118,6 @@
     },
     "1631859338560c9b4a": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "1631859338560c9b4a-0": {
           "type": "featured_collection",
@@ -144,6 +143,7 @@
         "1631859338560c9b4a-1",
         "1631859338560c9b4a-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "SHOP MORE",
         "heading_size": "h1",
@@ -237,7 +237,6 @@
     },
     "16451372445fbe7db4": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "1645137244617a2009-0": {
           "type": "heading",
@@ -263,8 +262,8 @@
         "1645137244617a2009-1",
         "1645137244617a2009-2"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52

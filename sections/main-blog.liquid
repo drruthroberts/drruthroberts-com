@@ -18,8 +18,8 @@
 
 {%- paginate blog.articles by 9 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
-    <h1 class="title--primary">{{ blog.title | escape }}</h1>
-
+    {% comment %} <h1 class="title--primary">{{ blog.title | escape }}</h1> {% endcomment %}
+   
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
         <div class="blog-articles__article article">
@@ -35,10 +35,9 @@
         </div>
       {%- endfor -%}
     </div>
-
-    {%- if paginate.pages > 1 -%}
+    {% comment %} {%- if paginate.pages > 1 -%}
       {%- render 'pagination', paginate: paginate -%}
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
   </div>
 {%- endpaginate -%}
 

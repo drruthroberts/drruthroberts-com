@@ -1,0 +1,14 @@
+
+{% if template == 'article' %}  
+  <script>  
+    if (!Shopify.cookies) { return; }  
+    
+    var recentlyViewedArticles = Shopify.cookies.get('recentlyViewedArticles') || [];  
+    var articleId = {{ article.id }};  
+    
+    if (!recentlyViewedArticles.includes(articleId)) {  
+      recentlyViewedArticles.push(articleId);  
+      Shopify.cookies.set('recentlyViewedArticles', recentlyViewedArticles, { expires: 7 });  
+    }  
+  </script>  
+{% endif %}  

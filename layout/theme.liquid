@@ -13,7 +13,6 @@
     <link rel="canonical" href="{{ canonical_url }}">
     {% endif %}
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -67,6 +66,7 @@ src='https://www.facebook.com/tr?id=822641091088784&ev=PageView&noscript=1'
     {%- endunless -%}
 
     {{ 'custom.css' | asset_url | stylesheet_tag }}
+    
 
       {% if template == 'list-collections' %}
           <title>Cat and Dog Supplements - Pet Meds Online - Dr. Ruth</title>
@@ -123,6 +123,9 @@ src='https://www.facebook.com/tr?id=822641091088784&ev=PageView&noscript=1'
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'modal.js' | asset_url }}" defer="defer"></script>
+
     <!-- OutlinkStickyBtn CODE Start -->{% if template.name == 'product'%}{% render('outlink-sticky') %}{% endif %}<!-- OutlinkStickyBtn END --> {{ content_for_header }}
 
     {%- liquid
@@ -337,11 +340,6 @@ src='https://www.facebook.com/tr?id=822641091088784&ev=PageView&noscript=1'
       }
     </script>
     {% render 'rapid-search-settings' %}
-
-     
-        
-  
-  
 </head>
 
   <body id="{{ page_title | handle }}" class="gradient">
@@ -356,8 +354,10 @@ src='https://www.facebook.com/tr?id=822641091088784&ev=PageView&noscript=1'
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
+      {% if template contains 'product' and product.vendor contains 'Standard Process Inc' %}  
+        {% comment %} {% render 'modal-section' %} {% endcomment %}
+      {%- endif -%}
     </main>
-
     {% sections 'footer-group' %}
 
     <ul hidden>

@@ -45,8 +45,7 @@
           "type": "rx_product_tab",
           "settings": {
             "Coach_Specialty": "<p>{{ product.metafields.custom.coach_specialty | metafield_tag }}<\/p>",
-            "Contact_Information": "",
-            "shipping_content": ""
+            "Contact_Information": ""
           }
         },
         "c3949539-dd47-4db5-86e8-4b2143f24749": {
@@ -241,7 +240,7 @@
         "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-0": {
           "type": "Product",
           "settings": {
-            "product_block": "1986957"
+            "product_block": "gut-health-starter-kit"
           }
         },
         "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-1": {

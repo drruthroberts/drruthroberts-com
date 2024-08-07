@@ -51,6 +51,16 @@
   margin-bottom: 0.6rem;
 }
 
+.article-card .card__heading a {
+  letter-spacing: 0px;
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+.article-card .card__heading a:hover {
+  text-decoration: none;
+}  
+
 .blog-articles .article-card .card__information,
 .blog__posts .article-card .card__information {
   padding-left: 2rem;

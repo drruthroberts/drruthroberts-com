@@ -57,7 +57,7 @@
 }
 .rx-slider-list.slick-slider .slick-arrow {
   position:absolute;
-  top:50%;
+  top:37%;
   z-index:100;
   transform:translateY(-50%);
   border:none;

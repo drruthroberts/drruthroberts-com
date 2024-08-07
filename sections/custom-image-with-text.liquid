@@ -1,0 +1,202 @@
+{{ 'custom-image-with-text.css' | asset_url | stylesheet_tag }}
+
+<style>
+    .section-{{ section.id }}.custom-image-with-text--container {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+
+    .section-{{ section.id }} .custom_img_with_text_button {
+        margin-right: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
+        margin-left: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
+        text-align: {{section.settings.desktop_button_alignment}};
+        text-transform: uppercase;
+    }
+    
+    .section-{{ section.id }} .custom-image-with-text__content {
+        background: {{ section.settings.content_bg }};
+    }
+
+    .section-{{ section.id }} .custom-image-with-text__content--container {
+        background: {{ section.settings.text_content_bg }};
+        padding-top: {{ section.settings.content_padding_top }}px;
+        padding-bottom: {{ section.settings.content_padding_bottom }}px;
+        width: 75%;
+    }
+
+</style>
+
+<div class="section-{{ section.id }} custom-image-with-text--container custom-image-with-text--{{ section.settings.content_layout }} {% if section.settings.layout == 'text_first' %} image-with-text--reverse{% endif %}">
+    <div class="custom-image-with-text__image">
+        {%- if section.settings.image != blank -%}
+            {{
+              section.settings.image
+              | image_url: width: section.settings.image.width
+              | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
+            }}
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+    </div>
+    <div class="custom-image-with-text__content">
+        <div class="custom-image-with-text__content--container">
+            <div class="custom-image-with-text__content--title">
+                {{ section.settings.title }}
+            <span class="custom-image-with-text__content--title-icon">
+                <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5 26C20.9558 26 27 20.1797 27 13C27 5.8203 20.9558 0 13.5 0C6.04416 0 0 5.8203 0 13C0 20.1797 6.04416 26 13.5 26Z" fill="#184B44"/>
+                <path d="M13.5001 23.3101C19.4134 23.3101 24.207 18.694 24.207 12.9998C24.207 7.30555 19.4134 2.68945 13.5001 2.68945C7.58685 2.68945 2.79321 7.30555 2.79321 12.9998C2.79321 18.694 7.58685 23.3101 13.5001 23.3101Z" fill="#F5F8F1"/>
+                <path d="M19.6494 18.6177L17.0285 13.9377C17.4842 13.7268 17.8997 13.4434 18.2575 13.0995C18.7074 12.6658 19.0547 12.1437 19.2756 11.5689C19.4966 10.994 19.586 10.38 19.5377 9.76877C19.4327 8.6825 18.9071 7.67405 18.0652 6.94396C17.2234 6.21387 16.1271 5.81563 14.9942 5.82842H9.31024C9.18678 5.82842 9.06837 5.87565 8.98107 5.95972C8.89377 6.04379 8.84473 6.15781 8.84473 6.2767V18.8284C8.84473 18.9473 8.89377 19.0613 8.98107 19.1454C9.06837 19.2295 9.18678 19.2767 9.31024 19.2767H11.6378C11.7613 19.2767 11.8797 19.2295 11.967 19.1454C12.0543 19.0613 12.1033 18.9473 12.1033 18.8284V14.3457H13.7327L16.1627 19.0301C16.2017 19.1048 16.2616 19.1674 16.3356 19.2109C16.4097 19.2545 16.4949 19.2773 16.5816 19.2767H19.2351C19.3157 19.2773 19.3951 19.2577 19.4656 19.2198C19.536 19.1819 19.5949 19.127 19.6367 19.0606C19.6785 18.9942 19.7016 18.9184 19.7038 18.8408C19.7061 18.7631 19.6873 18.6863 19.6494 18.6177ZM15.1292 11.656H12.1033V8.51808H15.1292C15.5613 8.51808 15.9758 8.68338 16.2813 8.97762C16.5869 9.27186 16.7585 9.67093 16.7585 10.087C16.7585 10.5032 16.5869 10.9022 16.2813 11.1965C15.9758 11.4907 15.5613 11.656 15.1292 11.656Z" fill="#184B44"/>
+                </svg>
+            </span>
+            </div>
+            <div class="custom-image-with-text__content--subtitle">{{ section.settings.subtitle }}</div>
+            <div class="custom-image-with-text__content--description">{{ section.settings.description }}</div>
+            {%- if section.settings.btn_title != blank -%}
+            <div class="custom_img_with_text_button">
+                <a
+                    {% if section.settings.btn_url == blank %}
+                        role="link" aria-disabled="true"
+                    {% else %}
+                        href="{{ section.settings.btn_url }}"
+                    {% endif %}
+                        class="rx_read_more_btn_green"
+                >
+                    {{ section.settings.btn_title | escape }}
+                    <img 
+                    id="rx_read_more_arrow_black"
+                    class="rx_read_more_arrow_img_with_text"
+                    src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
+                    >
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "custom image with text",
+    "tag": "section",
+    "class": "custom-image-with-text",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+            "type": "select",
+            "id": "layout",
+            "options": [
+              {
+                "value": "image_first",
+                "label": "Image First"
+              },
+              {
+                "value": "text_first",
+                "label": "Image Second"
+              }
+            ],
+                "default": "image_first",
+                "label": "Layout option",
+                "info": "Layout setting"
+        },
+        {
+            "type": "color",
+            "id": "content_bg",
+            "label": "Content Background"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "The Original CrockPET Diet"
+        },
+        {
+            "type": "richtext",
+            "id": "subtitle",
+            "label": "Subtitle",
+            "default": "<p>Image with text sutbtitle</p>"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description",
+            "default": "<p>Image with text description</p>"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button url"
+        },
+        {
+            "type": "text",
+            "id": "btn_title",
+            "label": "Title",
+            "default": "learn more"
+        },
+        {
+            "type": "color",
+            "id": "text_content_bg",
+            "label": "Text content color"
+        },
+        {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 50
+        },
+        {
+            "type": "header",
+            "content": "Content padding"
+        },
+        {
+            "type": "range",
+            "id": "content_padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px",
+            "label": "Content padding top",
+            "default": 50
+        },
+        {
+            "type": "range",
+            "id": "content_padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 2,
+            "unit": "px",
+            "label": "Content padding bottom",
+            "default": 50
+        }
+    ],
+    "presets": [
+      {
+        "name": "custom image with text",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

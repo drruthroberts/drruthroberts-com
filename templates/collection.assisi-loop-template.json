@@ -21,7 +21,6 @@
     },
     "1631859338560c9b4a": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "1631859338560c9b4a-0": {
           "type": "featured_collection",
@@ -47,6 +46,7 @@
         "1631859338560c9b4a-1",
         "1631859338560c9b4a-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "SHOP MORE",
         "image_ratio": "square",
@@ -93,7 +93,6 @@
     },
     "1644346095cd24241d": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "1644346095baa0f523-0": {
           "type": "text",
@@ -154,6 +153,7 @@
         "1644346095baa0f523-6",
         "1644346095baa0f523-7"
       ],
+      "disabled": true,
       "settings": {
         "product": "",
         "secondary_background": false,

@@ -26,13 +26,61 @@
           "type": "content",
           "settings": {
           }
+        },
+        "reference_url_rUNkxi": {
+          "type": "reference_url",
+          "settings": {
+            "reference_page_title": "read our blogs",
+            "reference_page_url": "shopify:\/\/pages\/all-blogs"
+          }
+        },
+        "reference_url_UwBPff": {
+          "type": "reference_url",
+          "settings": {
+            "reference_page_title": "listen to our podcast",
+            "reference_page_url": "shopify:\/\/blogs\/podcast"
+          }
+        },
+        "reference_url_MQiEdR": {
+          "type": "reference_url",
+          "settings": {
+            "reference_page_title": "read our latest product reviews",
+            "reference_page_url": "shopify:\/\/blogs\/product-review"
+          }
+        },
+        "reference_url_J8CjK4": {
+          "type": "reference_url",
+          "settings": {
+            "reference_page_title": "get your free download",
+            "reference_page_url": "#"
+          }
+        },
+        "reference_url_LAVYYn": {
+          "type": "reference_url",
+          "settings": {
+            "reference_page_title": "test your knowledge",
+            "reference_page_url": "#"
+          }
+        },
+        "reference_url_D7KcVy": {
+          "type": "reference_url",
+          "settings": {
+            "reference_page_title": "watch our latest videos and webinars",
+            "reference_page_url": "#"
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
         "share",
-        "b6e80daa-9c4b-49fc-a59c-cee54ab337aa"
+        "b6e80daa-9c4b-49fc-a59c-cee54ab337aa",
+        "reference_url_rUNkxi",
+        "reference_url_UwBPff",
+        "reference_url_MQiEdR",
+        "reference_url_J8CjK4",
+        "reference_url_LAVYYn",
+        "reference_url_D7KcVy"
       ],
       "custom_css": [
         ".article-template {max-width: 1100px; margin: 0 auto; padding: 0 15px;}",
@@ -55,118 +103,21 @@
         "custbtnn": "",
         "custbtnurl": "https:\/\/drruthroberts.com\/pages\/holistic-pet-health-coaching-program",
         "right_image_text": "Become A Holistic Pet Health Coach",
-        "imagesingle": "shopify:\/\/shop_images\/Mask_group-3.png",
+        "imagesingle": "shopify:\/\/shop_images\/13-800x534.jpg",
         "blog_single_url": "https:\/\/drruthroberts.com\/pages\/holistic-pet-health-coaching-program",
-        "morebl_first": "Related Products",
+        "product_single_url": "",
+        "morebl_first": "Shop",
         "cls_main": "customers-love",
-        "morebl": "Read More",
+        "morebl": "Recent Blogs",
         "blog": "pet-blog",
-        "blog_title_": "Recommended  Blog"
-      }
-    },
-    "collapsible_content_Aif4m4": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_itCTw8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "",
-            "icon": "paw_print",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_3Tc3mW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_97Uw4n": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_FQyWCm": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_itCTw8",
-        "collapsible_row_3Tc3mW",
-        "collapsible_row_97Uw4n",
-        "collapsible_row_FQyWCm"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "",
-        "heading": "FAQ",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "custom_css": [
-        "p {text-align: center;}"
-      ],
-      "settings": {
-        "bg_color": "",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52
+        "blog_title_": "Recommended  Blog",
+        "email-signup": true,
+        "protocol_image": "shopify:\/\/shop_images\/Holistic-pet-care-protocols-768x432.png",
+        "protocol_url": "shopify:\/\/pages\/pet-care-protocols"
       }
     }
   },
   "order": [
-    "main",
-    "collapsible_content_Aif4m4",
-    "newsletter"
+    "main"
   ]
 }

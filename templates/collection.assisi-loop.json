@@ -28,7 +28,6 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "product": {
           "type": "product",
@@ -48,6 +47,7 @@
         "product",
         "collection"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Discover more of our favorites",
         "heading_size": "h2",
@@ -86,7 +86,6 @@
         "email-form"
       ],
       "settings": {
-        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

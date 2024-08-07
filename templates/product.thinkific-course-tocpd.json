@@ -220,7 +220,6 @@
     },
     "newsletter": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -246,8 +245,8 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -395,7 +394,6 @@
     },
     "715677ee-9d3b-4640-9588-2738be3f07e3": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-0": {
           "type": "column",
@@ -436,6 +434,7 @@
         "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-1",
         "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",

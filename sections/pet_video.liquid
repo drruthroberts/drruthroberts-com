@@ -81,11 +81,23 @@
   .petvideohead {
     font-family: 'Josefin Sans';
     font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #34776E;
+    margin:0;
+    white-space: nowrap;
+  }
+
+  .video-date {
+    color: #939393;
+    font-family: 'Josefin Sans';
+    font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 30px;
     text-align: center;
-    color: #1E1E1E;
     margin:0;
   }
 
@@ -156,6 +168,11 @@
       height: 100% !important;
       min-height: unset !important;
   }
+
+  .petviddetail {
+    margin: 0 auto;
+    width: 74%;
+  }
   .petbideowidth {
       margin-top: -40px;
       position: relative;
@@ -211,8 +228,12 @@
     margin: 0 auto;
     padding-top: 11px;
     padding-bottom: 5px;
-    max-width: 200px;
+    {% comment %} max-width: 200px; {% endcomment %}
     border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
   }
 </style>
 
@@ -261,7 +282,6 @@
   })
   </script>
 
-<div class="topborder"></div> 
 
 <div class="video-{{section.id}} rewordmax_container main video-section">
   <div class="petviddetail">
@@ -305,7 +325,7 @@
                 <iframe id="testvideo" class="petvideo" src="{{ block.settings.petvideourl }}" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="{% if block.settings.video_overlap %} petbideowidth {% endif %} video-width">
-                <h2 class="petvideohead">{{ block.settings.petviid}}</h2>
+                <h2 class="petvideohead">{{ block.settings.petviid}}</h2><span class="video-date">{{ block.settings.video_date }}</span>
             </div>
             <div class="petvidtitle">
               <h3 class="petvideott">{{ block.settings.petvideocontent}}</h3>
@@ -346,6 +366,13 @@
         "id": "desktopMaxWidth",
         "default": "100%",
         "label": "Max width on desktop",
+        "info": "For example: 80% or 1000px"
+      },
+      {
+        "type": "text",
+        "id": "tabletMaxWidth",
+        "default": "100%",
+        "label": "Max width on tabletMaxWidth",
         "info": "For example: 80% or 1000px"
       },
       
@@ -417,12 +444,17 @@
         {
           "type": "text",
           "id": "petviid",
-          "label": "Heading"
+          "label": "Subject"
+        },
+        {
+          "type": "text",
+          "id": "video_date",
+          "label": "Date"
         },
         {
           "type": "text",
           "id": "petvideocontent",
-          "label": "Sub Heading"
+          "label": "Heading"
         },
         {
           "type": "text",

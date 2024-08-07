@@ -305,7 +305,20 @@
 <div class="rx_media_wrapper for_desktop">
   <div class="slider-galeria-thumbs">
     {% for media in product.media %}
-    <div class="media_image"><img src="{{ media.src | img_url: 'small' }}"></div>
+    {% assign videos = product.media | where: 'media_type', 'video'  %}
+    {% if videos.size > 0 %}
+      {% for media in product.media %}
+        {% if media.media_type == 'video' %}       
+           {{ media | video_tag: autoplay: false, loop: true, muted: true, controls: true }}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+      {% for media in product.media %}
+        {% if media.media_type == 'image' %}
+          <div class="media_image"><img src="{{ media.src | img_url: 'small' }}"></div>
+        {% endif %}
+      {% endfor %}
     {% endfor %}
   </div>
 
@@ -343,7 +356,7 @@ $(document).ready(function() {
 
   $('.slider-galeria-thumbs').slick({
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     asNavFor: '.slider-galeria',
     focusOnSelect: true,
     vertical: true,
@@ -365,6 +378,10 @@ $(document).ready(function() {
 .rx_media_wrapper .slick-slide img {
   display: block;
   width: 100% ! important;
+}
+.rx_media_wrapper .slick-slide video {
+  width: 85px;
+  height: 85px;
 }
 
 .rx_media_wrapper .slick-arrow.slick-disabled {

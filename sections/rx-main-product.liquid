@@ -21,8 +21,8 @@
     .rx-{{section.id}} .rx-review-price {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 50px;
-      margin-top: 10px;
+      margin-top: 0;
+      padding-bottom: 10px;
     }
 
     .rx-review-price .rx-stamped-color .stamped-badge .stamped-fa.stamped-fa-star {
@@ -122,6 +122,11 @@
 
     .rx-{{section.id}} .rx_product__title p {
       margin: 0;
+    }
+
+    .rx-{{section.id }} .rx_product__title h1 {
+      margin-top: 10px;
+      margin-bottom: 0px;
     }
 
     .rx-{{section.id}} .rx_product__text {
@@ -438,9 +443,7 @@
                   </h2>
                 </a> {% endcomment %}
               </div>
-
-            
-            
+              
             {%- when 'price' -%}
               <div class="rx-review-price">
                 {% if  product.metafields.stamped.reviews_count != blank %}
@@ -476,6 +479,12 @@
                   {%- endif -%} {% endcomment %}
                 </div>
               {%- endif -%}
+
+              {% if template contains 'product' and product.vendor contains 'Standard Process Inc' %}  
+              <div class="product-shipping-commet">
+                <span><i>Because Standard Process fulfills their products directly, they apply a $12 shipping fee for orders under $150. To get free shipping for Standard Process products, order a minimum of $150 of their products.</i></span>
+              </div>
+          {%- endif -%}
             
               <div {{ block.shopify_attributes }}>
                 {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
@@ -583,8 +592,6 @@
                       <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
                     </span>
                   </label>
-                  
-
                   <quantity-input class="quantity">
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
                       <span class="visually-hidden">
@@ -699,6 +706,7 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
+       
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}
@@ -707,7 +715,6 @@
         {% render 'product-media-gallery', variant_images: variant_images, is_duplicate: true %}
       </div>
     {%- endif -%}
-
   </div>
   
   {% assign productTab = section.blocks | where: 'type', 'rx_product_tab' %}

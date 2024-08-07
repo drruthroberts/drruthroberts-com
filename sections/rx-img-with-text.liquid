@@ -9,7 +9,8 @@
 
   #RX_ImageWithText--{{ section.id }} {
     background-color: {{ section.settings.imgText-bg-color }};
-    padding: 95px 65px;
+    padding-top: {{ section.settings.content_padding_top }}px;
+    padding-bottom: {{ section.settings.content_padding_bottom }}px;
   }
 
   .section-{{ section.id }} .image-with-text--overlap .image-with-text__media-item--top {
@@ -57,6 +58,17 @@
     line-height: 30px;
   }
 
+  .template--pet-advice .rx-img-with-text__content {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #1E1E1E;
+    padding-bottom: 30px;
+  }
+
   .section-{{ section.id }} .rx-img-with-text__btn {
     font-family: "Josefin Sans";
     font-weight: 500;
@@ -88,6 +100,26 @@
     margin-right: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
     margin-left: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
     text-align: {{section.settings.desktop_button_alignment}};
+    text-transform: uppercase;
+  }
+
+  .section-{{ section.id }} .rx-image-with-text--grid {
+    margin: 0px !important;
+  }
+
+  .template--pet-advice .rx-img-with-text__heading.font_blt {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 0.02em;
+    color: #184B44;
+    padding-bottom: 60px;
+  }
+
+  .template--pet-advice #rx_read_more_arrow_black {
+    padding-left: 40px;
   }
 
   @media screen and (min-width: 750px) {
@@ -97,15 +129,13 @@
     }
 
     .rx_grid__item_text-type1 {
-      width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
-      max-width: calc(37% - var(--grid-mobile-horizontal-spacing) / 2);
+      width: calc(50% - var(--grid-mobile-horizontal-spacing) * 1 / 2);
       flex-grow: 1;
       flex-shrink: 0;
     }
 /* 4060 */
     .rx_grid__item_img-type1 {
-      width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
-      max-width: calc(63% - var(--grid-mobile-horizontal-spacing) / 2);
+      width: calc(50% - var(--grid-mobile-horizontal-spacing) * 1 / 2);
       flex-grow: 1;
       flex-shrink: 0;
     }
@@ -180,11 +210,15 @@
   }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }} image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %} section-{{ section.id }}-padding">
-  <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+<div class="section-{{ section.id }} template--{{ template.suffix }} image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %} section-{{ section.id }}-padding">
+  <div class="rx-image-with-text--grid image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} rx_grid__item_img-{{section.settings.grid_type}}">
       <div
         class="image-with-text__media image-with-text__media--{{ section.settings.height }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
+        {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+          style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+        {% endif %}
+
         {% if section.settings.height == 'adapt' and section.settings.image != blank %}
           style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
         {% endif %}
@@ -466,20 +500,44 @@
       "id": "padding_top",
       "min": 0,
       "max": 100,
-      "step": 4,
+      "step": 2,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "default": 50
     },
     {
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
       "max": 100,
-      "step": 4,
+      "step": 2,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Content padding"
+    },
+    {
+      "type": "range",
+      "id": "content_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Content padding top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "content_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Content padding bottom",
+      "default": 50
     }
   ],
   "blocks": [

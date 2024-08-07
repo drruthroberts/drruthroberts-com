@@ -360,9 +360,9 @@ a.elementor-toggle-title {
 
 @media screen and (max-width: 575px) {
 
-    .rx-testimonial-style1 .rx-testimonial-item .rx-testimonial-item-inner {
+    /* .rx-testimonial-style1 .rx-testimonial-item .rx-testimonial-item-inner {
         padding: 30px !important;
-    }
+    } */
     .rx-testimonial-item-testimonial {
         font-size: 16px !important;
         line-height: 1.5 !important;
@@ -464,6 +464,9 @@ a.elementor-toggle-title {
   .rte img {
     max-width: 60%;
   }
+  .rx-review-container .blogbodr2 {
+    padding: 0px;
+}
 }
 /*FAQ page end*/
 
@@ -546,6 +549,7 @@ a.elementor-toggle-title {
     line-height: 35px;
     text-align: center;
     color: #1E1E1E;
+    letter-spacing: -1px;
 }
 
 .rx-review-container .blogbodr2 {
@@ -557,7 +561,7 @@ a.elementor-toggle-title {
 }
 
 .rx-blogs-content {
-  width: 80%;
+  width: 74%;
   margin: 0 auto;
 }
 
@@ -570,10 +574,436 @@ a.elementor-toggle-title {
     /* or 160% */
     text-align: center;
     color: #413232;
+    letter-spacing: -1px;;
+}
+
+.all-blog-articles {
+    display: flex;
+    gap: 30px;
+}
+
+.all-blog-articles--items {
+    width: 30%;
+}
+
+.main-blog.page-width {
+    width: 70%;
+    padding: 0;
+}
+
+.custom-blog-articles--container {
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-bottom: 30px;
+}
+
+.first-blog-articles {
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+
+.first-blog-articles .custom-blog-articles__article .article-card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media (max-width:1250px) {
+    .all-blog-articles {
+        display: flex;
+        gap: 30px;
+    }
+
+    .custom-blog-articles--container {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+}
+
+@media (max-width:1024px) {
+    .all-blog-articles {
+        display: flex;
+        gap: 30px;
+    }
+
+    .custom-blog-articles--container {
+        padding-right: 30px;
+        padding-left: 30px;
+     }
+} 
+
+@media (max-width:768px) {
+    .all-blog-articles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .first-blog-articles {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .first-blog-articles .custom-blog-articles__article .article-card {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .custom-blog-articles--container {
+        padding-right: 16px;
+        padding-left: 16px;
+        padding-bottom: 30px;
+    }
+
+    .all-blog-articles--items {
+        width: 90%;
+    }
+    .main-blog.page-width {
+        width: 90%;
+    }
+} 
+
+.blog-articles--resources {
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.resources-item {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(147, 147, 147, 0.1);
+    color: #000;
+    text-decoration: none;
+
+}
+
+.main-blog .blog-articles {
+    display: grid !important;
+
+}
+
+.blog-articles .blog-articles__article.article {
+    width: 100%;
+}
+
+.article-card-wrapper .card__information {
+    position: relative;
+    top: -14% !important;
+} 
+
+.blog--resources__title {
+    color: #000000;
+    font-family: "BLT Heirloom", Josefin Sans;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.pagination span {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    cursor: pointer;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pagination span.active {
+    background-color: #184B44;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+ }
+
+ .custom-article-card__info {
+    display: flex;
+    justify-content: center;
+ }
+
+ .article-card__info .circle-divider {
+    padding-left:4px;
+ }
+
+ .amr_article_detail {
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+    font-weight: 500;
+ }
+
+ .article-card__excerpt .blogread {
+    border-bottom: 0;
+    padding:10px;
+    border: 1px solid #184B44;
+ }
+
+ .article-card__excerpt .blogreadd {
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    
 }
 
 
+.first-blog-articles .article-card .article-card__excerpt {
+    display: none;
+}
 
+.first-blog-articles .card__information {
+    text-align: left;
+}
 
+.first-blog-articles .article-card__info {
+    margin-left: 0 !important;
+    display: flex;
+    justify-content: left;
+}
 
+.first-blog-articles .card__heading.h2 a {
+    text-align: left !important;
+    color: #184B44;
+    font-family: "BLT Heirloom", Josefin Sans;
+    font-size: 30px !important;
+    line-height: 36px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    margin: 0;
+}
 
+.first-blog-articles .card__information::before {
+    content: 'Our Blogs';
+    color: #184B44;
+    font-family: 'Oakley Script';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.6px;
+}
+
+.first-blog-articles .article-card-wrapper .card__information {
+    position: relative;
+    top: 0% !important;
+}
+
+.caption-with-authname {
+    text-transform: capitalize;
+}
+
+.produc_tital.text_center_bb {
+    font-family: "BLT Heirloom", 'Josefin Sans';
+} 
+
+.customarticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex_b .produc_tital .side-blog-title {
+    font-family: 'BLT Heirloom', 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 36px !important;
+    color: #000;
+    letter-spacing: -1px !important;
+}
+
+.cls_green_c {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.email-elementor-widget {
+    padding: 50px 45px 50px 45px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 4px 0px 0px 0px;
+    border-color: #6799B2;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.elementor-element--header {
+    color: #000000;
+    font-family: "BLT Heirloom", Josefin Sans;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: -1px;
+    padding-bottom: 15px;
+}
+
+.email-elementor-widget .newsletter-form__field-wrapper input {
+    border-radius: 0px;
+    width: 100%;
+    min-width: unset;
+    border: 1px solid #d7d7d9;
+}
+
+.email-elementor-widget .newsletter-form__field-wrapper .field {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-elementor-widget .newsletter-form__button {
+    padding: 12px 25px;
+    background: #35635A !important;
+    color: #fff;
+    width: 70%;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: "Josefin Sans", Josefin Sans;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.email-elementor-widget .field__label {
+    color: #808285;
+    opacity: 0.7;
+    font-size: 14px; 
+    text-transform: capitalize;
+}
+
+.protocol-image img {
+    width: 100%;
+}
+
+.protocol-image-container {
+    padding-top: 30px;
+}
+
+.faq-line::before {
+    display: block;
+    content: "";
+    border-bottom: 0;
+    flex-grow: 1;
+    border-top: 1px solid #4a8073;
+}
+
+.faq-line::after {
+    display: block;
+    content: "";
+    border-bottom: 0;
+    flex-grow: 1;
+    border-top: 1px solid #4a8073;
+}
+
+.faq-line {
+    display: flex;
+    align-items: center;
+}
+
+.faq-line svg {
+    width: 14px;
+    height: 14px;
+    margin: 0 10px;
+}
+
+.article-faq  summary {
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Josefin Sans", Josefin Sans;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 20px;
+    color: #000;
+  }
+  
+  .article-faq  p {
+    padding: 10px;
+    margin: 0;
+    color: #1E1E1E;
+    font-family: "Josefin Sans", Josefin Sans;
+    line-height: 30px;
+    letter-spacing: -1px;
+  }
+
+  .article-faq > summary svg {
+    transform: rotate(90deg);
+    transition: all 0.5 ease;
+  }
+
+  .article-faq[open] > summary svg {
+    transform: rotate(0deg);
+    transition: all 0.5 ease;
+  }
+
+  .article-faq {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .reference-page-button {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+  }
+
+  .reference-url {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F8F1;
+    border-radius: 30px;
+    font-size: 11px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0017/5443/1553/files/heart.svg?v=1721411671); 
+    padding: 20px 20px 18px 50px !important;
+    background-size: 16px auto;
+    background-repeat: no-repeat;
+    background-position: 20px calc(50% - 1px);
+    color: #1E1E1E;
+    font-family: 'Josefin Sans';
+    font-weight: bold !important;
+    line-height: 1.2;
+    border: none !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+
+  .reference-url {
+    color: #1E1E1E;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .reference-title {
+    font-family: "Josefin Sans", Josefin Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    fill: #1E1E1E;
+    color: #1E1E1E;
+  }
+
+  .product-shipping-commet {
+    color: #000;
+    font-size: 16px;
+  }

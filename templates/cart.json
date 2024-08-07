@@ -103,7 +103,6 @@
         ".field:hover {border: none; box-shadow: none; --color-foreground: none;}"
       ],
       "settings": {
-        "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

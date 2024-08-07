@@ -1,11 +1,17 @@
 <style>
-  .rx-{{section.id}} {
+  .rx-{{section.id}}.rx-banner-text--cotainer {
     max-width: 100%;
+    background: {{ section.settings.cotainer_bg }}
   }
 
   .rx-{{section.id}} .container {
     display: flex;
-    flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%}
+    flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%};
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 140px;
+    padding-left: 140px;
+    padding-right: 140px;
   }
 
   .rx-{{section.id}} .container .rx-image {
@@ -15,13 +21,10 @@
   }
 
   .rx-{{section.id}} .container .rx-text {
-    width: 55%;
-    padding-right: 70px;
-    padding-left: 115px;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    width: 53%;
+    padding-left: 40px;
     text-align: justify;
-    background-color: #F5F8F1;
+    background-color: {{section.settings.content_bg}};
   }
 
   .rx-{{section.id}} .container .rx-text .rx-text-desc {
@@ -42,12 +45,28 @@
   .rx-{{section.id}}  .rx-text .caption {
     font-family: 'BLT-Heirloom';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    color: #1E1E1E;
-    margin-bottom: 0;
-    margin-right: 200px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    word-break: break-all;
+  }
+
+  .rx-{{section.id}}  .rx-text .date {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    letter-spacing: 0.02em;
+    padding-top: 34px;
+    padding-bottom: 11px;
+  }
+
+  .rx-{{section.id}}  .rx-text .date p {
+    margin: 0;
   }
 
   .rx-{{section.id}}  .rx-text .content {
@@ -58,12 +77,18 @@
     line-height: 30px;
     color: #1E1E1E;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 35px;
+    word-break: break-all;
   }
 
   @media screen and (max-width: 950px) {
     .rx-{{section.id}} .container {
       flex-direction: column;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-bottom: 30px;
+      padding-top: 30px;
+
     } 
 
     .rx-{{section.id}} .container .rx-image {
@@ -75,8 +100,9 @@
     .rx-{{section.id}} .container .rx-text {
       width: 100%;
       text-align: center;
-      padding-left: 30px;
-      padding-right: 30px;
+                                                                                                                                 padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
     }
     
     .rx-{{section.id}} .container .rx-text .rx-text-desc {
@@ -87,17 +113,17 @@
       margin-right: auto;
     }
   }
-  
+
 </style>
 {% if page.handle == "contact-us" %}
-<style>
-.rx-{{section.id}} .container .rx-text{
-    background-color: #fff;
-    border-top: 2px solid #F5F8F1;
-}
+  <style>
+  .rx-{{section.id}} .container .rx-text{
+      background-color: #fff;
+      border-top: 2px solid #F5F8F1;
+  }
 </style>
 {% endif %}
-<div class="rx-{{section.id}}">
+<div class="rx-{{section.id}} rx-banner-text--cotainer">
   <div class="container">
     <img
       class="rx-image"
@@ -110,7 +136,8 @@
     <div class="rx-text">
       <div class="rx-text-desc">
         <p class="heading">{{section.settings.heading }}</p>
-        <p class="caption">{{section.settings.caption}}</p>
+        {% comment %} <div class="date">{{ section.settings.date }}</div> {% endcomment %}
+        <div class="caption">{{section.settings.caption}}</div>
         <p class="content">{{section.settings.content | replace: 'p>', 'span>'}}</p>
         <br>
         <p class="content">{{section.settings.content2 | replace: 'p>', 'span>'}}</p>
@@ -157,14 +184,26 @@
         "label": "image"
       },
       {
+        "type": "color",
+        "id": "cotainer_bg",
+        "label": "Container Background"
+      },
+      {
         "type": "text",
         "id": "heading",
         "label": "Heading"
       },
       {
-        "type": "text",
+        "type": "richtext",
+        "id": "date",
+        "label": "Date",
+        "default": "<p>date</p>"
+      },
+      {
+        "type": "richtext",
         "id": "caption",
-        "label": "Caption"
+        "label": "Caption",
+        "default": "<p>Title</p>"
       },
       {
         "type": "richtext",
@@ -175,6 +214,11 @@
         "type": "richtext",
         "id": "content2",
         "label": "Second Content"
+      },
+      {
+        "type": "color",
+        "id": "content_bg",
+        "label": "Content Background",
       },
       {
         "type": "select",

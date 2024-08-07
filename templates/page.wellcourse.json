@@ -294,7 +294,7 @@
           "type": "collection",
           "settings": {
             "product": "the-crockpet-diet-natural-pet-food-ebook",
-            "btnlink": "shopify:\/\/products\/1986957",
+            "btnlink": "shopify:\/\/products\/gut-health-starter-kit",
             "outlinkbtn": "Course Outlines"
           }
         },
@@ -329,8 +329,8 @@
         "2261eb1e-7610-4d87-aee8-21d473e6504f": {
           "type": "collection",
           "settings": {
-            "product": "1984272",
-            "btnlink": "shopify:\/\/products\/1984272",
+            "product": "kidney-health-starter-kit-course",
+            "btnlink": "shopify:\/\/products\/kidney-health-starter-kit-course",
             "outlinkbtn": "Course Outlines"
           }
         },
@@ -362,8 +362,8 @@
         "00ee5649-e933-4437-8e04-b50c669fb761": {
           "type": "collection",
           "settings": {
-            "product": "1986957",
-            "btnlink": "shopify:\/\/products\/1986957",
+            "product": "gut-health-starter-kit",
+            "btnlink": "shopify:\/\/products\/gut-health-starter-kit",
             "outlinkbtn": "Course Outlines"
           }
         },
