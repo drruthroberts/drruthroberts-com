@@ -79,6 +79,7 @@
 
 .card-information {
   text-align: var(--text-alignment);
+  align-items: center;
 }
 
 .card__media,
@@ -125,6 +126,7 @@
 .card__information {
   grid-row-start: 2;
   padding: 1.3rem 1rem;
+  align-items: center;
 }
 
 .card:not(.ratio) > .card__content {
@@ -362,3 +364,5 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+

@@ -319,6 +319,7 @@
     },
     "main-collection-product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "custom_css": [
         ".grid {row-gap: 30px;}",
         ".card--card:after {display: none;}",
@@ -345,6 +346,25 @@
         "columns_mobile": "1",
         "padding_top": 0,
         "padding_bottom": 0,
+        "rating": 5
+      }
+    },
+    "coach_product_grid_TDt6hT": {
+      "type": "coach-product-grid",
+      "settings": {
+        "columns_desktop": 3,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "show_special_offer": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "rating": 5
       }
     },
@@ -805,6 +825,7 @@
     "ba04b83f-d846-4952-99a7-7ed1feec335c",
     "a5f089ba-3650-4246-ae3f-4ccdabd7ea10",
     "main-collection-product-grid",
+    "coach_product_grid_TDt6hT",
     "2b31f80e-4e7d-4513-af0a-4798a32f6996",
     "5ce5e0ec-f55b-483a-9a6f-6202107380a7",
     "233e2f87-a490-4f13-9d3f-02abbd7d7154",

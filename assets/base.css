@@ -1,5 +1,7 @@
 /* Color custom properties */
-
+#rebuy-cart {
+  display: none;
+}
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -5455,7 +5457,7 @@ color: #1E1E1E;
 }
 .product-grid-container .card-information {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 0 21px 0 0;

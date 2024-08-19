@@ -1,0 +1,796 @@
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'coach-product-grid.css' | asset_url | stylesheet_tag }}
+{{ 'component-facets.css' | asset_url | stylesheet_tag }}
+
+<link
+    rel="preload"
+    href="{{ 'component-rte.css' | asset_url }}"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+  >
+
+{%- if section.settings.enable_quick_add -%}
+    <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+    <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'collection-filter.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  {%- endif -%}
+  <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+<filter-collection class="fitler-collection coach-section-{{ section.id }}-padding pcontainer">
+    <div class="coach-product-page {% if section.settings.filter_type == 'vertical' %} facets-vertical page-width{% endif %}">
+        <div class="coach-product-filter--container">
+            <div class="coach-product-filter small-hide">
+
+                <div class="coach-product-filter__box">
+                    <span class="coach-product-filter__title">Filter:</span>
+                </div>
+                <div class="filter-values">
+                   <details class="filter-value">
+                    <summary class="filer-value-header">
+                        <div>
+                            <span class="filter-value-text"> Dog / Cat</span>
+                            {% render 'icon-caret' %}
+                        </div>
+                    </summary>
+                    <div class="filter-value-content">
+                        <ul class="filter-value-content-list list-unstyled no-js-hidden">
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="dog" id="filter_dog" class="checkmark">
+                                <label class="filter-value-checkbox" for="filter_dog">
+                                  Dog
+                                </label>
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="cat" id="filter_cat" class="checkmark">
+                                <label class="filter-value-checkbox" for="filter_cat">
+                                  Cat
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                   </details> 
+                   <details class="filter-value">
+                    <summary class="filer-value-header">
+                        <div>
+                            <span class="filter-value-text"> Coach Specialties</span>
+                            {% render 'icon-caret' %}
+                          </div>
+                    </summary>
+                    <div class="filter-value-content">
+                        <ul class="filter-value-content-list list-unstyled no-js-hidden">
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="ahhp" id="filter_ahhp">
+                                <label class="filter-value-checkbox" for="filter_ahhp">
+                                    Advanced Holistic Health Practitioner
+                                </label>
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="Advocate" id="filter_advocate">
+                                <label class="filter-value-checkbox" for="filter_advocate">
+                                    Animal Advocate
+                                </label>
+                               
+                            </li>
+                            
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="communicator" id="filter_communicator">
+                                <label class="filter-value-checkbox" for="filter_communicator">
+                                    Animal Communicator
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="healer" id="filter_healer">
+                                <label class="filter-value-checkbox" for="filter_healer">
+                                    Animal Energy Healer
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="aas" id="filter_aas">
+                                <label class="filter-value-checkbox" for="filter_aas">
+                                    Associate of Applied Science in Biotechnology
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="science" id="filter_science">
+                                <label class="filter-value-checkbox" for="filter_science">
+                                    B.Sc Naturopathic Animal Science
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="bchn" id="filter_bchn">
+                                <label class="filter-value-checkbox" for="filter_bchn">
+                                    Board Certified in Holistic Nutrition
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="equine" id="filter_canine">
+                                <label class="filter-value-checkbox" for="filter_canine">
+                                    Canine/Equine Massage Therapist
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="ccfc" id="filter_ccfc">
+                                <label class="filter-value-checkbox" for="filter_ccfc">
+                                    Certified Canine Fitness Coach
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="ccmt" id="filter_ccmt">
+                                <label class="filter-value-checkbox" for="filter_ccmt">
+                                    Certified Canine Massage Therapist
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="ccn" id="filter_ccn">
+                                <label class="filter-value-checkbox" for="filter_ccn">
+                                   Certified Clinical Nutritionist
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="aromatherapist" id="filter_aromatherapist">
+                                <label class="filter-value-checkbox" for="filter_aromatherapist">
+                                    Certified Animal Aromatherapist
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="cdt" id="filter_cdt">
+                                <label class="filter-value-checkbox" for="filter_cdt">
+                                    Certified Dog Trainer
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="pemf" id="filter_practitioner">
+                                <label class="filter-value-checkbox" for="filter_practitioner">
+                                    Certified PEMF Practitioner
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="cpcn" id="filter_cpcn">
+                                <label class="filter-value-checkbox" for="filter_cpcn">
+                                   Certified Pet Care Nutritionist
+                                </label>
+                               
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="cpdt" id="filter_cpdt">
+                                <label class="filter-value-checkbox" for="filter_cpdt">
+                                    Certified Professional Dog Trainer – Knowledge Assessed
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="eftp" id="filter_eftp">
+                                <label class="filter-value-checkbox" for="filter_eftp">
+                                  Emotional Freedom Techniques Practitioner
+                                </label>
+                               
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="fdnp" id="filter_fdnp">
+                                <label class="filter-value-checkbox" for="filter_fdnp">
+                                   Functional Diagnostic Nutrition Practitioner
+                                </label>
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="fntp" id="filter_fntp">
+                                <label class="filter-value-checkbox" for="filter_fntp">
+                                   Functional Nutritional Therapy Practitioner
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="irvt" id="filter_irvt">
+                                <label class="filter-value-checkbox" for="filter_irvt">
+                                    Integrative Rehabilitation Veterinary Technician
+                                </label>
+                               
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="lvt" id="filter_lvt">
+                                <label class="filter-value-checkbox" for="filter_lvt">
+                                    Licensed Veterinary Technician
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="master" id="filter_master">
+                                <label class="filter-value-checkbox" for="filter_master">
+                                    Master of Science in Physical Therapy
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="mrwp" id="filter_mrwp">
+                                <label class="filter-value-checkbox" for="filter_mrwp">
+                                    MRWP - Master Restorative Wellness Practitioner
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="nncp" id="filter_nncp">
+                                <label class="filter-value-checkbox" for="filter_nncp">
+                                    Natural Nutrition Clinical Practitioner
+                                </label>
+                               
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="ntp" id="filter_ntp">
+                                <label class="filter-value-checkbox" for="filter_ntp">
+                                   Nutritional Therapy Practitioner
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="reiki" id="filter_reiki">
+                                <label class="filter-value-checkbox" for="filter_reiki">
+                                    Reiki Master
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="rn" id="filter_rn">
+                                <label class="filter-value-checkbox" for="filter_rn">
+                                   Registered Nurse
+                                </label>
+                               
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="rws" id="filter_rws">
+                                <label class="filter-value-checkbox" for="filter_rws">
+                                    Registered Water Safety Instructor II
+                                </label>
+                                
+                            </li>
+                            <li class="filter-value-content-list__line">
+                                <input type="checkbox" name="filter_option" data-value="trainer" id="filter_traniner">
+                                <label class="filter-value-checkbox" for="filter_traniner">
+                                    Sport Dog Trainer
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                   </details>
+                </div>
+            </div>
+            <menu-drawer
+                class="coach-product-fitler__mobile mobile-facets__wrapper medium-hide large-up-hide"
+                data-breakpoint="mobile"
+                >
+                    <details class="mobile-facets__disclosure disclosure-has-popup">
+                        <summary class="mobile-facets__open-wrapper focus-offset">
+                          <span class="mobile-facets__open medium-hide large-up-hide">
+                            {% render 'icon-filter' %}
+                            <span class="mobile-facets__open-label button-label medium-hide large-up-hide">
+                                Filter
+                            </span>
+                          </span>
+                          <span tabindex="0" class="mobile-facets__close mobile-facets__close--no-js">{%- render 'icon-close' -%}</span>
+                        </summary>
+                        <filter-menu-drawer>
+                            <div class="mobile-facets coach-product-mobile-menu">
+                                <div class="mobile-facets__inner gradient">
+                                    <div class="mobile-facets__header">
+                                        <div class="mobile-facets__header-inner">
+                                            <h2 class="mobile-facets__heading medium-hide large-up-hide">
+                                            Filter
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="mobile-facets__main has-submenu gradient">
+                                        <details class="filter-value mobile-facets__details js-filter">
+                                            <summary class="filer-value-header mobile-facets__summary focus-inset">
+                                                <div>
+                                                    <span class="filter-value-text"> Dog / Cat</span>
+                                                    <span class="mobile-facets__arrow no-js-hidden">{% render 'icon-arrow' %}</span>
+                                                    <noscript>{% render 'icon-caret' %}</noscript>
+                                                </div>
+                                            </summary>
+                                            <div class="filter-value-content mobile-facets__submenu gradient">
+                                                <button
+                                                    class="mobile-facets__close-button link link--text focus-inset"
+                                                    aria-expanded="true"
+                                                    type="button"
+                                                    >
+                                                    {% render 'icon-arrow' %}
+                                                    Dog / Cat
+                                                </button>
+                                                <ul class="filter-value-content-list list-unstyled no-js-hidden">
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="dog" id="filter_dog_mobile" class="checkmark">
+                                                        <label class="filter-value-checkbox" for="filter_dog_mobile">
+                                                        Dog
+                                                        </label>
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="cat" id="filter_cat_mobile" class="checkmark">
+                                                        <label class="filter-value-checkbox" for="filter_cat_mobile">
+                                                        Cat
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </details> 
+                                        <details class="filter-value mobile-facets__details js-filter">
+                                            <summary class="filer-value-header mobile-facets__summary focus-inset">
+                                                <div>
+                                                    <span class="filter-value-text"> Coach Specialties</span>
+                                                    <span class="mobile-facets__arrow no-js-hidden">{% render 'icon-arrow' %}</span>
+                                                    <noscript>{% render 'icon-caret' %}</noscript>
+                                                </div>
+                                            </summary>  
+                                            <div class="filter-value-content mobile-facets__submenu gradient">
+                                                <button
+                                                    class="mobile-facets__close-button link link--text focus-inset"
+                                                    aria-expanded="true"
+                                                    type="button"
+                                                    >
+                                                    {% render 'icon-arrow' %}
+                                                    Coach Specialties
+                                                </button>
+                                                <ul class="filter-value-content-list list-unstyled no-js-hidden">
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="ahhp" id="filter_ahhp_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_ahhp_mobile">
+                                                            Advanced Holistic Health Practitioner
+                                                        </label>
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="advocate" id="filter_advocate_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_advocate_mobile">
+                                                            Animal Advocate
+                                                        </label>
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="communicator" id="filter_communicator_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_communicator_mobile">
+                                                            Animal Communicator
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="healer" id="filter_healer_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_healer_mobile">
+                                                            Animal Energy Healer
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="aas" id="filter_aas_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_aas_mobile">
+                                                            Associate of Applied Science in Biotechnology
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="science" id="filter_science_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_science_mobile">
+                                                            B.Sc Naturopathic Animal Science
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="bchn" id="filter_bchn_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_bchn_mobile">
+                                                            Board Certified in Holistic Nutrition
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="equine" id="filter_canine_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_canine_mobile">
+                                                            Canine/Equine Massage Therapist
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="ccfc" id="filter_ccfc_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_ccfc_mobile">
+                                                            Certified Canine Fitness Coach
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="ccmt" id="filter_ccmt_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_ccmt_mobile">
+                                                            Certified Canine Massage Therapist
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="ccn" id="filter_ccn_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_ccn_mobile">
+                                                        Certified Clinical Nutritionist
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="aromatherapist" id="filter_aromatherapist_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_aromatherapist_mobile">
+                                                            Certified Animal Aromatherapist
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="cdt" id="filter_cdt_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_cdt_mobile">
+                                                            Certified Dog Trainer
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="pemf" id="filter_practitioner_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_practitioner_mobile">
+                                                            Certified PEMF Practitioner
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="cpcn" id="filter_cpcn_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_cpcn_mobile">
+                                                        Certified Pet Care Nutritionist
+                                                        </label>
+                                                    
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="cpdt" id="filter_cpdt_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_cpdt_mobile">
+                                                            Certified Professional Dog Trainer – Knowledge Assessed
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="eftp" id="filter_eftp_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_eftp_mobile">
+                                                        Emotional Freedom Techniques Practitioner
+                                                        </label>
+                                                    
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="fdnp" id="filter_fdnp_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_fdnp_mobile">
+                                                        Functional Diagnostic Nutrition Practitioner
+                                                        </label>
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="fntp" id="filter_fntp_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_fntp_mobile">
+                                                        Functional Nutritional Therapy Practitioner
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="irvt" id="filter_irvt_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_irvt_mobile">
+                                                            Integrative Rehabilitation Veterinary Technician
+                                                        <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span> 
+                                                        </label>
+                                                    
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="lvt" id="filter_lvt_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_lvt_mobile">
+                                                            Licensed Veterinary Technician
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="master" id="filter_master_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_master_mobile">
+                                                            Master of Science in Physical Therapy
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="mrwp" id="filter_mrwp_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_mrwp_mobile">
+                                                            MRWP - Master Restorative Wellness Practitioner
+                                                         
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="nncp" id="filter_nncp_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_nncp_mobile">
+                                                            Natural Nutrition Clinical Practitioner
+                                                        </label>
+                                                    
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="ntp" id="filter_ntp_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_ntp_mobile">
+                                                        Nutritional Therapy Practitioner
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="reiki" id="filter_reiki_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_reiki_mobile">
+                                                            Reiki Master
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="rn" id="filter_rn_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_rn_mobile">
+                                                        Registered Nurse
+                                                        </label>
+                                                    
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="rws" id="filter_rws_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_rws_mobile">
+                                                            Registered Water Safety Instructor II
+                                                        </label>
+                                                        
+                                                    </li>
+                                                    <li class="filter-value-content-list__line mobile-facets__item list-menu__item">
+                                                        <input type="checkbox" name="filter_option" data-value="trainer" id="filter_traniner_mobile">
+                                                        <label class="filter-value-checkbox" for="filter_traniner_mobile">
+                                                            Sport Dog Trainer
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </details>
+                                    </div>
+                                    <div class="mobile-facets__footer">
+                                        <button
+                                          type="button"
+                                          class="no-js-hidden button button--primary"
+                                          onclick="this.closest('.mobile-facets__wrapper').querySelector('summary').click()"
+                                        >
+                                          Apply
+                                        </button>
+                                        <noscript><button class="button button--primary">{{ 'products.facets.apply' | t }}</button></noscript>
+                                      </div>
+                                </div>
+                            </div>
+                        </filter-menu-drawer>
+                    </details>
+            </menu-drawer>
+        </div>
+        <div class="product-grid-container" id="ProductGridContainer">
+            {% comment %} {%- paginate collection.products by section.settings.products_per_page -%}
+              {%- if collection.products.size == 0 -%}
+                <div class="collection collection--empty" id="product-grid" data-id="{{ section.id }}">
+                  <div class="loading-overlay gradient"></div>
+                  <div class="title-wrapper center">
+                    <h2 class="title title--primary">
+                      {{ 'sections.collection_template.empty' | t -}}
+                      <br>
+                      {{
+                        'sections.collection_template.use_fewer_filters_html'
+                        | t: link: collection.url, class: 'underlined-link link'
+                      }}
+                    </h2>
+                  </div>
+                </div>
+              {%- else -%} {% endcomment %}
+                <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+                  <div class="loading-overlay gradient"></div>
+                  <ul
+                    id="product-grid"
+                    data-id="{{ section.id }}"
+                    class="
+                      grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
+                      grid--{{ section.settings.columns_desktop }}-col-desktop
+                    "
+                  >
+                    {%- for product in collection.products -%}
+                      {% assign lazy_load = false %}
+                      {%- if forloop.index > 2 -%}
+                        {%- assign lazy_load = true -%}
+                      {%- endif -%}
+                      <li class="grid__item coach-product-item active" data-value="{{ product.tags }}">
+                        {% render 'card-product',
+                          card_product: product,
+                          media_aspect_ratio: section.settings.image_ratio,
+                          show_secondary_image: section.settings.show_secondary_image,
+                          show_vendor: section.settings.show_vendor,
+                          show_rating: section.settings.show_rating,
+                          lazy_load: lazy_load,
+                          show_quick_add: section.settings.enable_quick_add,
+                          section_id: section.id
+                        %}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+      
+                  {%- if paginate.pages > 1 -%}
+                   {% render 'nextpagination', paginate: paginate, anchor: '' %}
+                   
+                  {%- endif -%}
+                </div>
+              {% comment %} {%- endif -%}
+            {%- endpaginate -%} {% endcomment %}
+          </div>
+    </div>
+</filter-collection>
+
+{% schema %}
+{
+  "name": "coach product grid",
+  "class": "coach-section",
+  "settings": [
+   
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 4,
+      "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-collection-product-grid.settings.header__3.content"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.main-collection-product-grid.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.main-collection-product-grid.settings.image_ratio.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary_image",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.show_vendor.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_rating",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
+      "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_quick_add",
+      "default": false,
+      "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
+    },
+     {
+      "type": "checkbox",
+      "id": "show_special_offer",
+      "default": false,
+      "label": "Show Special Offer"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-collection-product-grid.settings.header__1.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_filtering",
+      "default": true,
+      "label": "t:sections.main-collection-product-grid.settings.enable_filtering.label",
+      "info": "t:sections.main-collection-product-grid.settings.enable_filtering.info"
+    },
+    {
+      "type": "select",
+      "id": "filter_type",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "t:sections.main-collection-product-grid.settings.filter_type.options__1.label"
+        },
+        {
+          "value": "vertical",
+          "label": "t:sections.main-collection-product-grid.settings.filter_type.options__2.label"
+        },
+        {
+          "value": "drawer",
+          "label": "t:sections.main-collection-product-grid.settings.filter_type.options__3.label"
+        }
+      ],
+      "default": "horizontal",
+      "label": "t:sections.main-collection-product-grid.settings.filter_type.label",
+      "info": "t:sections.main-collection-product-grid.settings.filter_type.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sorting",
+      "default": true,
+      "label": "t:sections.main-collection-product-grid.settings.enable_sorting.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-collection-product-grid.settings.header_mobile.content"
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "default": "2",
+      "label": "t:sections.main-collection-product-grid.settings.columns_mobile.label",
+      "options": [
+        {
+          "value": "1",
+          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__1.label"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.main-collection-product-grid.settings.columns_mobile.options__2.label"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+        "type": "range",
+        "id": "rating",
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "label": "Rating",
+        "info": "Set less than '1' to disable Rating.",
+        "default": 5
+    }
+  ],
+  "presets": [
+    {
+        "name": "coach product grid"
+    }
+  ]
+
+}
+{% endschema %}

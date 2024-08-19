@@ -1,0 +1,183 @@
+.coach-product-page {
+    display: flex;
+}
+
+.coach-product-filter--container {
+    width: 35%;
+    padding-right: 30px;
+}
+
+.product-grid-container {
+    width: 65%;
+}
+
+.filter-value-content-list__line {
+    display: flex;
+    align-items: baseline;
+    padding: 1rem 2rem 1rem 0;
+    flex-grow: 1;
+    position: relative;
+    font-size: 1.4rem;
+    word-break: break-word;
+}
+
+.filter-value-checkbox {
+    word-break: break-word;
+}
+
+.coach-product-filter__title {
+    margin: 0 0 1.5rem;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+  
+}
+
+.coach-product-filter__box {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.filter-value {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.filter-value-text {
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+
+}
+
+.coach-product-item {
+    display: none;
+} 
+
+.coach-product-item.active {
+    display: block;
+}
+
+.filter-value-content-list__line input[type="checkbox"] {
+    display: none;
+}
+
+.filter-value-content-list__line input[type="checkbox"]:checked + label::before {  
+    background-color: #000; /* Checked background color */  
+    border-color: #000; /* Checkbox border color when checked */  
+}  
+
+.filter-value-content-list__line label {  
+    position: relative;  
+    padding-left: 30px; /* Space for the custom checkbox */  
+    cursor: pointer;  
+    user-select: none; /* Prevent text selection */  
+}  
+
+/* Creating the custom checkbox */  
+.filter-value-content-list__line label::before {  
+    content: '';  
+    position: absolute;  
+    left: 0;  
+    top: 3px;  
+    width: 17px;  
+    height: 17px;  
+    border: 2px solid #ccc; /* Border color of checkbox */  
+    border-radius: 3px; /* Rounded corners */  
+    background-color: white; /* Background color */  
+    transition: background-color 0.3s ease; /* Transition effect */  
+}  
+
+/* Optional: Add a tick mark */  
+.filter-value-content-list__line input[type="checkbox"]:checked + label::after {  
+    content: '✔'; /* Tick symbol */  
+    position: absolute;  
+    left: 4px; /* Position of the tick */  
+    top: 2px; /* Aligns it properly */  
+    font-size: 11px;  
+    color: white; /* Tick mark color */  
+}  
+
+.coach-product-mobile-menu .mobile-facets__footer {
+    justify-content: center;
+}
+
+.coach-product-mobile-menu .submenu-open {
+    visibility: visible !important;
+}
+
+.pagenation-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagenation-number {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #f6f8f1;
+    color: #000;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.bg-color {
+    background-color: #303b43;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .coach-product-page {
+        display: flex;
+        flex-direction: column;
+    }
+    .product-grid-container {
+        width: 100%;
+    }
+
+    .coach-product-filter--container {
+        width: 100%;
+    } 
+
+    .coach-product-mobile-menu .mobile-facets__header {
+        padding: 2.5rem 2.5rem !important;
+    }
+
+    .filter-value-content-list__line {
+        padding-left: 30px;
+    }
+  
+    
+    .filter-value-content-list__line label::before {  
+        content: '';  
+        position: absolute;  
+        left: 0;  
+        top: 0;  
+        width: 17px;  
+        height: 17px;  
+        border: 2px solid #ccc; /* Border color of checkbox */  
+        border-radius: 3px; /* Rounded corners */  
+        background-color: white; /* Background color */  
+        transition: background-color 0.3s ease; /* Transition effect */  
+    }
+}
