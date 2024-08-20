@@ -40,7 +40,6 @@
                 {%- endfor -%}
             {% endfor %}
         </div>
-
         {%- if paginate.pages > 1 -%}
         {%- render 'pagination', paginate: paginate -%}
         {%- endif -%}
@@ -62,13 +61,13 @@
               <a class="quiz resources-item" href="{{ section.settings.quiz_url }}">{{ section.settings.quiz }}</a>
           </div>
       </div>
-      
+
       <div class="main-blog page-width section-{{ section.id }}-padding">
           <div class="custom-blog-articles blog-articles">
               {% assign total_count = 0 %}
               {% for handle in blog_handles %}
                   {%- assign handled_blog = handle | handleize -%}
-                  
+
                   {% for article in blogs[handled_blog].articles %}
                       {% assign total_count = total_count | plus: 1 %}
                       <div class="custom-blog-articles__article article hidden" data-id={{ article.id }} data-index="">
@@ -95,7 +94,7 @@
               <span class="next-button arrow-button" data-name='next'>&raquo;</span>
           </div>
           {%- endif -%}
-         
+
       </div>
   </div>
 </div>
@@ -243,7 +242,7 @@
     {
       "name": "All blogs",
       "settings": {
-        
+
       }
     }
   ],

@@ -29,8 +29,6 @@
       color: #184B44 !important;
     }
 
-   
-
     .rx-{{section.id}} .stamped-badge-caption {
       font-family: 'Josefin Sans';
       font-style: normal;
@@ -124,11 +122,6 @@
       margin: 0;
     }
 
-    .rx-{{section.id }} .rx_product__title h1 {
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-
     .rx-{{section.id}} .rx_product__text {
       margin: 0;
       font-family: 'Josefin Sans';
@@ -167,12 +160,6 @@
 
     .price__sale {
       display: none;
-    }
-
-    .course-title-tab {
-      display: flex;
-      justify-content:unset !important;
-      gap: 90px;
     }
 
     .price--on-sale .price__sale {
@@ -368,12 +355,6 @@
         margin: auto;
         margin-top: 20px;
       }
-
-      .course-title-tab {
-      display: flex;
-      justify-content:unset !important;
-      gap: 30px;
-    }
     }
   {%- endstyle -%}
 
@@ -443,7 +424,9 @@
                   </h2>
                 </a> {% endcomment %}
               </div>
-              
+
+            
+            
             {%- when 'price' -%}
               <div class="rx-review-price">
                 {% if  product.metafields.stamped.reviews_count != blank %}
@@ -480,7 +463,7 @@
                 </div>
               {%- endif -%}
 
-              {% if template contains 'product' and product.vendor contains 'Standard Process Inc' %}  
+            {% if template contains 'product' and product.vendor contains 'Standard Process Inc' %}  
               <div class="product-shipping-commet">
                 <span><i>Because Standard Process fulfills their products directly, they apply a $12 shipping fee for orders under $150. To get free shipping for Standard Process products, order a minimum of $150 of their products.</i></span>
               </div>
@@ -592,6 +575,8 @@
                       <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
                     </span>
                   </label>
+                  
+
                   <quantity-input class="quantity">
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
                       <span class="visually-hidden">
@@ -706,7 +691,6 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
-       
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}
@@ -715,6 +699,7 @@
         {% render 'product-media-gallery', variant_images: variant_images, is_duplicate: true %}
       </div>
     {%- endif -%}
+
   </div>
   
   {% assign productTab = section.blocks | where: 'type', 'rx_product_tab' %}
@@ -771,61 +756,6 @@
           {{block.settings.shipping_content}}
         </div>
       </div>  
-
-    </div>  
-  {% endfor %}
-
-  {% assign courseproductTab = section.blocks | where: 'type', 'course_rx_product_tab' %}
-  {%- for block in courseproductTab -%}
-    
-    <div class="rx-product-tab">
-      <div class="rx-product-title-tab course-title-tab">
-        <button class="tablinks active" onclick="openTab(event, 'Overviews')">Course Overview</button>
-        <button class="tablinks" onclick="openTab(event, 'Learning')">What will you learn</button>
-      </div>
-      
-      {% comment %} <div id="Description" class="tabcontent">
-        {%- if product.description != blank -%}
-            <div class="product_tab_content">
-              {{ product.description }}
-            </div>
-          {%- endif -%}
-      </div> {% endcomment %}
-      
-      <div id="Overviews" class="tabcontent">
-        <div class="product_tab_content">
-          {%- if product.metafields.custom.for_course_overview != blank -%}
-            {{block.settings.course_overview}}
-          {% comment %} {%- elsif product.metafields.my_fields._1_badge_text_4 != blank -%}
-            {{product.metafields.my_fields._1_badge_text_4}}
-          {%- else -%} {% endcomment %}
-            <p></p>
-          {%- endif -%}
-        </div>
-      </div>
-      
-      <div id="Learning" class="tabcontent">
-        <div class="product_tab_content">
-          {%- if product.metafields.custom.for_learning != blank -%}
-            {{block.settings.what_will_you_learn}}
-          {% comment %} {%- elsif product.metafields.custom.revamp_instruction_image != blank-%}
-            {{block.settings.instructions_content_image | image_url: width: 500
-              | image_tag:
-                loading: 'lazy',
-                width: 500
-            }}
-          {%- elsif product.metafields.my_fields._1_badge_text_3 != blank -%}
-            {{product.metafields.my_fields._1_badge_text_3}}
-          {%- else -%} {% endcomment %}
-            <p></p>
-          {%- endif -%}
-        </div >
-      </div>     
-      {% comment %} <div id="Shipping" class="tabcontent">
-        <div class="product_tab_content">
-          {{block.settings.shipping_content}}
-        </div>
-      </div>   {% endcomment %}
 
     </div>  
   {% endfor %}
@@ -1290,22 +1220,6 @@
           "type": "richtext",
           "id": "shipping_content",
           "label": "Shipping Content"
-        }
-      ]
-    },
-    {
-      "type": "course_rx_product_tab",
-      "name": "Course Product Tabs",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "course_overview",
-          "label": "Course Overview"
-        },
-        {
-          "type": "richtext",
-          "id": "what_will_you_learn",
-          "label": "What will you learn"
         }
       ]
     },

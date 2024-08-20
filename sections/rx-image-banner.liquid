@@ -131,6 +131,7 @@
           height: image_height,
           class: image_class,
           sizes: sizes,
+          alt: 'image',
           widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
       }}
     </div>
@@ -163,6 +164,7 @@
           height: image_height_2,
           class: image_class_2,
           sizes: sizes,
+          alt: 'image',
           widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
       }}
     </div>
@@ -193,6 +195,7 @@
                   {{- block.settings.button_label_1 | escape -}}
                   <img 
                     id="rx_read_more_arrow_black"
+                    alt="image"
                     src="{% if section.settings.show_text_box == false %} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/white-arrow.png?v=1680565711 {% else%} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191 {%endif%}"
                     class="rx_read_more_arrow_img_banner"
                   >

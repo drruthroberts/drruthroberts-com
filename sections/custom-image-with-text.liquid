@@ -5,7 +5,6 @@
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-
     .section-{{ section.id }} .custom_img_with_text_button {
         margin-right: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
         margin-left: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
@@ -16,16 +15,13 @@
     .section-{{ section.id }} .custom-image-with-text__content {
         background: {{ section.settings.content_bg }};
     }
-
     .section-{{ section.id }} .custom-image-with-text__content--container {
         background: {{ section.settings.text_content_bg }};
         padding-top: {{ section.settings.content_padding_top }}px;
         padding-bottom: {{ section.settings.content_padding_bottom }}px;
         width: 75%;
     }
-
 </style>
-
 <div class="section-{{ section.id }} custom-image-with-text--container custom-image-with-text--{{ section.settings.content_layout }} {% if section.settings.layout == 'text_first' %} image-with-text--reverse{% endif %}">
     <div class="custom-image-with-text__image">
         {%- if section.settings.image != blank -%}
@@ -74,7 +70,6 @@
         </div>
     </div>
 </div>
-
 {% schema %}
   {
     "name": "custom image with text",

@@ -30,7 +30,7 @@
           "type": "button",
           "settings": {
             "button_label": "DOWNLOAD SUPPORT PROTOCOL",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/Kidney+Support+Program.pdf"
+            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/Holistic+Pet+Care+Programs+-+Kidney.pdf"
           }
         }
       },
@@ -46,6 +46,7 @@
         "div {padding: 10px;}"
       ],
       "settings": {
+        "unique_class": "",
         "image": "shopify:\/\/shop_images\/11.png",
         "height": "adapt",
         "desktop_image_width": "small",

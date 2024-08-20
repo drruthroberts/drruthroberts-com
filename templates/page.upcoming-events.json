@@ -1,5 +1,136 @@
 {
   "sections": {
+    "image_banner_CXG8P6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_7rkjC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_jXLPf9": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_qAdEXn": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7rkjC9",
+        "text_jXLPf9",
+        "buttons_qAdEXn"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {margin-top: 15em; margin-right: 3.5em;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/HPHC_Banners_5.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_AqFFqH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WgtYem": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Bark Up the Right Tree: Explore the World of Holistic Pet Health Coaching<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_9NEHBG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>On August 14th at 1pm EST, we're blowing the lid off the \"Three Business Strategies Holistic Pet Health Coaches Are Using to Generate Income\"<\/p><p>This isn't just another webinar. It's your ticket to the pet health revolution.<\/p><p>Ready to change lives AND fatten your wallet?<\/p>"
+          }
+        },
+        "button_7RhcU6": {
+          "type": "button",
+          "settings": {
+            "button_label": "REGISTER TO THE WORKSHOP NOW",
+            "button_link": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WgtYem",
+        "text_9NEHBG",
+        "button_7RhcU6"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 28
+      }
+    },
+    "rx_rich_text_yXXLjK": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "heading_inbmWH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Other Featured Events<\/p>"
+          }
+        },
+        "text_jQj9UA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From conferences to panels, join Dr. Ruth Roberts at insightful events where you can gain valuable insights and connect with others<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_inbmWH",
+        "text_jQj9UA"
+      ],
+      "custom_css": [
+        "p {font-size: 2rem;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
     "rx_rich_text_bbJARD": {
       "type": "rx-rich-text",
       "blocks": {
@@ -12,7 +143,7 @@
         "text_aEPraH": {
           "type": "text",
           "settings": {
-            "text": "<p>Join Dr. Ruth Roberts and HPHC Coaches for weekly pet health insights!<\/p>"
+            "text": "<p>Join us for a series of weekly events with Dr. Ruth Roberts, alongside holistic pet health coaches and other experts in the field.  Don’t miss the chance to learn, grow, and connect with like-minded individuals dedicated to advancing the health and wellness of pets. <\/p>"
           }
         },
         "button_Rfjebj": {
@@ -56,6 +187,51 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_mM7EJV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HzxANr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Know Better, Do Better: Expert Sessions on Canine Longevity.",
+            "heading_size": "h1"
+          }
+        },
+        "text_rLFaKJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us on September 8, 2024, from 12:30 PM to 5 PM at the Morgan Arts Complex, Chicago. <\/p><p>This must-attend event features top experts in canine health sharing cutting-edge strategies and practical tips for extending your dog's life and improving their overall health.<\/p><p>🎟 <strong>Tickets:<\/strong> $29.99 (all proceeds support local dog rescue\/adoption)<br\/>💚 Nutritional strategies, training tips, holistic wellness, and more<br\/>💚 Free swag bags for the first 100 ticket purchasers!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_MdU9QE": {
+          "type": "button",
+          "settings": {
+            "button_label": "REGISTER NOW",
+            "button_link": "https:\/\/www.holisticpethealthcoach.com\/knowbetterdobetter2024"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HzxANr",
+        "text_rLFaKJ",
+        "button_MdU9QE"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/IG_LAYOUT-_EVENTS_5_f31fe42e-bba3-4377-bdf4-9a9293c2f715.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -64,195 +240,94 @@
         "padding_bottom": 36
       }
     },
-    "rx_rich_text_yXXLjK": {
-      "type": "rx-rich-text",
-      "blocks": {
-        "heading_inbmWH": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Featured Events<\/p>"
-          }
-        },
-        "text_jQj9UA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>From conferences to panels, join Dr. Ruth Roberts at insightful events where you can gain valuable insights and connect with others<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_inbmWH",
-        "text_jQj9UA"
-      ],
-      "custom_css": [
-        "p {font-size: 2rem;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "caption_alignment": "center",
-        "section_bg_color": "#ffffff",
-        "image_width": "100%",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "e5035dd7-0d99-448e-9e24-80d60b96ee6c": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Appearances_and_events_8.png",
-            "title": "Win 2 Tickets to Feed Real Summit in San Diego! 🎉",
-            "text": "<p>Hey Pet Parents!<\/p><p>Have a success story about switching to holistic practices and Dr. Ruth's CrockPet Diet? Share it and you could win 2 tickets to the <a href=\"https:\/\/www.feedreal.com\/summitP.S.: Also on the FRS ticket giveaway, please note that the event is sold out and there's no way to get tickets other than through entering this contest.\" target=\"_blank\" title=\"https:\/\/www.feedreal.com\/summitP.S.: Also on the FRS ticket giveaway, please note that the event is sold out and there's no way to get tickets other than through entering this contest.\">Feed Real Summit <\/a>in San Diego on October 5 & 6, 2024! That's a $400 value! <br\/><\/p><p>📍Location: Oct 5-6, 2024The Alexandria at Torrey Pines10996 Torreyana Rd Ste 240San Diego, CA 92121<\/p>",
-            "link_label": "",
-            "link": "https:\/\/riverside.fm\/studio\/gutsy-fertility-podcast?t=2c6b2af3acdad27e0bb5"
-          }
-        }
-      },
-      "block_order": [
-        "template--14921792946241__e5035dd7-0d99-448e-9e24-80d60b96ee6c-column-3"
-      ],
-      "custom_css": [
-        "h3 {font-family: \"BLT-Heirloom\"; font-size: 44px; line-height: 40px; font-weight: 300; min-height: 85px;}",
-        ".button.button--primary {display: none;}",
-        ".multicolumn-card__info {background: #f5f8f1; border-radius: 28px; height: 100%; padding: 65px 35px;}",
-        "p,ul,li {font-family: \"Josefin Sans\"; font-weight: normal;}"
-      ],
-      "settings": {
-        "custom_class": "",
-        "title": "",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 48,
-        "padding_bottom": 0
-      }
-    },
-    "after_program_JiyKVR": {
-      "type": "after_program",
-      "blocks": {
-        "collection_wYT7cf": {
-          "type": "collection",
-          "settings": {
-            "aftertext": "HOW TO JOIN",
-            "afterdesc": "Share your video story in our Circle community by posting a video detailing your journey into holistic practices and the CrockPet Diet. Ensure your video is clear with good video and audio quality, includes your pet, and features you discussing your firsthand experience with the diet. Don't forget to use hashtag #feedrealsummit #feedCrockPetdiet upon posting."
-          }
-        },
-        "collection_kFNhjq": {
-          "type": "collection",
-          "settings": {
-            "aftertext": "VIDEO REQUIREMENTS",
-            "afterdesc": "Your video story should include key elements: the turning point that prompted your shift to holistic practices, whether due to a pet health issue or a lack of reliable resources; how you discovered Dr. Ruth's CrockPet Diet; your reasons for switching to a home-cooked diet through CrockPet; and notable improvements in your pet's health since adopting this diet."
-          }
-        },
-        "collection_Djhc9n": {
-          "type": "collection",
-          "settings": {
-            "aftertext": "WHAT WILL YOU GAIN",
-            "afterdesc": "By sharing your journey, you could win 2 FRS tickets valued at $400 for a relaxing weekend getaway in San Diego. Additionally, your story has the power to inspire fellow pet parents on their own holistic health paths. Engage in community fun as you connect with like-minded pet lovers and esteemed leaders such as Rodney Habib, Conor Brady, Angela Ardolino, Judy Morgan, Dr. Ruth Roberts, and many other notable speakers and panelists lined up for the event."
-          }
-        },
-        "collection_dcLKnP": {
-          "type": "collection",
-          "settings": {
-            "aftertext": "JUDGING CRITERIA",
-            "afterdesc": "The judging criteria for the video story contest are designed to highlight various aspects of your submission. Your story will be evaluated based on authenticity, accounting for 25% of the score, which values genuine and heartfelt narratives. Creativity in presentation, making it fun and engaging, also counts for 25%. High-quality production, including clear video and audio, contributes another 25%. Finally, your engagement with other members' posts will make up the remaining 25%."
-          }
-        }
-      },
-      "block_order": [
-        "collection_wYT7cf",
-        "collection_kFNhjq",
-        "collection_Djhc9n",
-        "collection_dcLKnP"
-      ],
-      "custom_css": [
-        "p {text-align: center;}"
-      ],
-      "settings": {
-        "programhead": "",
-        "programsubhead": "",
-        "pro_btn": "Join Our Community and Share Your Video",
-        "program_link": "https:\/\/courses.drruthroberts.com\/c\/start-here\/"
-      }
-    },
-    "fadcc9ee-5901-42d9-8139-51be2d304bad": {
-      "type": "coachingmainblog",
-      "disabled": true,
-      "custom_css": [
-        "svg {display: none;}"
-      ],
-      "settings": {
-        "c_head": "",
-        "pro_btn1": "Check our consultant",
-        "program_link1": ""
-      }
-    },
-    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3": {
+    "image_with_text_XLNJWM": {
       "type": "image-with-text",
       "blocks": {
-        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1": {
+        "heading_LrnPgJ": {
           "type": "heading",
           "settings": {
-            "heading": "Join Our Team! Become a Certified Holistic Pet Health Coach",
+            "heading": "Unleash the Extraordinary: Join the Ultimate Doglympics Virtual Challenge!",
             "heading_size": "h1"
           }
         },
-        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1": {
+        "text_VEHFpd": {
           "type": "text",
           "settings": {
-            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "text": "<p>Hey there, fellow dog lover! Get ready for an incredible adventure with your furry friend in the Ultimate Doglympics Virtual Challenge, endorsed by Dr. Ruth Roberts! Doglympics 2024 features fun challenges in Stamina, Strength, Balance, Coordination, and Flexibility, perfect for all fitness levels. Strengthen your bond, enhance your dog’s wellness, and celebrate their unique strengths. <\/p><p>Plus, $5 from each $27.99 signup supports Lionel's Legacy senior dog rescue. <\/p>",
             "text_style": "body"
           }
         },
-        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1": {
+        "button_9pxGby": {
           "type": "button",
           "settings": {
-            "button_label": "Learn More",
-            "button_link": ""
+            "button_label": "Join the Doglympics Challenge",
+            "button_link": "https:\/\/www.theracebuddies.com\/sign-up"
           }
         }
       },
       "block_order": [
-        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-heading-1",
-        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-text-1",
-        "template--14921792946241__8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3-button-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".image-with-text__grid.grid {background: #e0ecbe; padding: 35px; border-radius: 50px;}",
-        ".image-with-text__grid.grid div {background-color: #fff0;}",
-        ".image-with-text__heading {text-align: left;}",
-        ".image-with-text__media-item {width: 25% !important;}",
-        ".image-with-text__text-item.grid__item.image_content {padding-left: 2%;}",
-        ".image-with-text__media.media {max-width: 250px; margin: auto;}",
-        ".image-with-text__media img {object-fit: contain !important;}",
-        "h2.image-with-text__heading.h1 {font-size: 54px; line-height: 50px;}"
+        "heading_LrnPgJ",
+        "text_VEHFpd",
+        "button_9pxGby"
       ],
       "settings": {
         "unique_class": "",
-        "image": "shopify:\/\/shop_images\/image_4_ba456788-5c27-4b4d-b5d1-19eacd0079a5.png",
+        "image": "shopify:\/\/shop_images\/doglympics_2.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_with_text_KHN4eT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_x96H78": {
+          "type": "heading",
+          "settings": {
+            "heading": "Parsemus mission to education about Spay and Neuter Syndrome",
+            "heading_size": "h1"
+          }
+        },
+        "text_d4EWVp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have you ever wondered about the deeper impacts of spaying or neutering? That’s exactly what we’re diving into at our upcoming event, and you’re invited! <br\/>Linda Brent isn’t just an expert—she’s a legend in animal welfare. Picture this: a young Linda, surrounded by wild chimpanzees, meticulously studying their maternal behaviors. Fast forward to today, with over 30 years under her belt, Linda’s journey has been nothing short of extraordinary.<br\/>Learn more about Linda <a href=\"https:\/\/www.parsemus.org\/\">https:\/\/www.parsemus.org\/<\/a><\/p><p><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_G7dg4c": {
+          "type": "button",
+          "settings": {
+            "button_label": "RSVP NOW",
+            "button_link": "https:\/\/courses.drruthroberts.com\/c\/ask-dr-ruth-monthly-q-a\/discover-the-hidden-truths-of-spay-and-neuter-with-linda-brent"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x96H78",
+        "text_d4EWVp",
+        "button_G7dg4c"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "shopify:\/\/shop_images\/IG_LAYOUT-_EVENTS_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "rx_blog_cANfJE": {
@@ -344,19 +419,20 @@
       "settings": {
         "bg_color": "#f5f8f1",
         "full_width": false,
-        "padding_top": 8,
-        "padding_bottom": 48
+        "padding_top": 48,
+        "padding_bottom": 44
       }
     }
   },
   "order": [
-    "rx_rich_text_bbJARD",
-    "main",
+    "image_banner_CXG8P6",
+    "rich_text_AqFFqH",
     "rx_rich_text_yXXLjK",
-    "e5035dd7-0d99-448e-9e24-80d60b96ee6c",
-    "after_program_JiyKVR",
-    "fadcc9ee-5901-42d9-8139-51be2d304bad",
-    "8fc8e2e3-d3e7-4115-bdf7-ea9751886ea3",
+    "rx_rich_text_bbJARD",
+    "image_with_text_mM7EJV",
+    "main",
+    "image_with_text_XLNJWM",
+    "image_with_text_KHN4eT",
     "rx_blog_cANfJE",
     "image_banner_CGdj4T",
     "newsletter_jDqKF8"

@@ -112,10 +112,7 @@
 
   #RX_ImageWithText--{{ section.id }} {
     background-color: #F5F8F1;
-    padding-top: 85px;
-    padding-bottom:85px;
-    padding-left: {{ section.settings.content_padding_left }}px;
-    padding-right: {{ section.settings.content_padding_right }}px;
+    padding: 95px 10px;
   }
 
   .section-{{ section.id }} .image-with-text--overlap .image-with-text__media-item--top {
@@ -132,7 +129,7 @@
 
   .section-{{ section.id }} .rx-img-with-text__heading {
     font-family: "BLT-Heirloom";
-    font-weight: 500;
+    font-weight: 300;
     font-size: 30px;
     color: #1E1E1E;
     line-height: 35px;
@@ -149,12 +146,6 @@
     margin-top: 0;
     margin-bottom: 0;
     line-height: 30px;
-  }
-
-  .section-{{ section.id }} .rx-img-with-text__content p {
-    margin:0;
-    padding-top:18px;
-    padding-bottom:0;
   }
 
   .section-{{ section.id }} .rx-img-with-text__btn {
@@ -188,14 +179,13 @@
     margin-right: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
     margin-left: {% if section.settings.desktop_button_alignment == "center" %} auto {% else %} 0 {% endif %};
     text-align: {{section.settings.desktop_button_alignment}};
-    padding-top: 20px;
   }
 
   @media screen and (min-width: 750px) {
-    {% comment %} .section-{{ section.id }}-padding {
+    .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-    } {% endcomment %}
+    }
 
     .rx_grid__item_text-type1 {
       width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
@@ -241,7 +231,7 @@
     }
   }
 
-  .section--pet-advice .image-with-text__content {
+  section--pet-advice .image-with-text__content {
     width: 78% !important;
     min-width: 78% !important;
   }
@@ -281,8 +271,8 @@
     .section-{{ section.id }} .rx_img_with_text_button {
       margin-right: auto;
       margin-left: auto;
-      
     }
+
   }
 
   </style>
@@ -311,7 +301,7 @@
                 {{
                   block.settings.image
                   | image_url: width: 1500
-                  | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500'
+                  | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500', alt: 'image'
                 }}
               {%- else -%}
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -350,6 +340,7 @@
                     <img 
                       id="rx_read_more_arrow_black"
                       class="rx_read_more_arrow_img_with_text"
+                      alt="image"
                       src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
                     >
                   </a>
@@ -478,31 +469,7 @@
       "id": "auto_play",
       "default": true,
       "label": "Auto-rotate slides"
-    },
-    {
-      "type": "header",
-      "content": "Text Content Padding"
-    },
-    {
-      "type": "range",
-      "id": "content_padding_left",
-      "min": 30,
-      "max": 150,
-      "step": 2,
-      "default": 50,
-      "unit": "px",
-      "label": "Text content padding left"
-    },
-    {
-      "type": "range",
-      "id": "content_padding_right",
-      "min": 30,
-      "max": 150,
-      "step": 2,
-      "default": 50,
-      "unit": "px",
-      "label": "Text content padding right"
-    } 
+    }
   ],
   "blocks": [
     {

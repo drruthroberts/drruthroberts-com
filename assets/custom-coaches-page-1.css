@@ -3180,11 +3180,11 @@ line-height: 55px;
 
 
 /*Button*/
-.isolate .rich-text__buttons {
+/* .isolate .rich-text__buttons {
     display: block !important;
     margin-top: -100px !important;
     margin-left: -50px !important;
-} 
+}  */
 
 .multicolumn-card__info .link {
     border-radius: 20px !important;

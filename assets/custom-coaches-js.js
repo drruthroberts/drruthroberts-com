@@ -46,11 +46,10 @@ $("#coaches .card__heading a").removeAttr('href');
 $("#coaches .card__content a").removeAttr('href');
 
 
+
 window.addEventListener("load", (event) => {
 
-  // if(document.getElementsByClassName("facets__disclosure-vertical")){
-  // document.getElementsByClassName("facets__disclosure-vertical").click();
-  // }
+
   $(document).ready(function(){
     $(".facets__disclosure-vertical").trigger('click');
     });

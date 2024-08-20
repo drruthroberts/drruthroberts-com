@@ -271,7 +271,7 @@
   }
 
   .underline-links-hover:hover a {
-    
+    text-decoration: underline;
     text-underline-offset: 0.3rem;
   }
 }
@@ -364,5 +364,3 @@
 .card-article-info {
   margin-top: 1rem;
 }
-
-

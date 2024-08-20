@@ -130,7 +130,7 @@
           <a href="{{block.settings.icon_url}}">
             <div class="box__image" style="width: {{block.settings.feature_image_width}};">
               {%- if block.settings.feature_image and block.settings.feature_use_svg == false -%}
-                {{ block.settings.feature_image | image_url: width: block.settings.feature_image_width | image_tag: alt: section.settings.feature_title }}
+                {{ block.settings.feature_image | image_url: width: block.settings.feature_image_width | image_tag: alt: 'icon' }}
               {%- elsif block.settings.feature_use_svg == true -%}
                 {{ block.settings.feature_svg_code }}
               {%- else -%}
@@ -141,7 +141,7 @@
         {%- else -%}
           <div class="box__image" style="width: {{block.settings.feature_image_width}};">
             {%- if block.settings.feature_image and block.settings.feature_use_svg == false -%}
-              {{ block.settings.feature_image | image_url: width: block.settings.feature_image_width | image_tag: alt: section.settings.feature_title }}
+              {{ block.settings.feature_image | image_url: width: block.settings.feature_image_width | image_tag: alt: 'icon' }}
             {%- elsif block.settings.feature_use_svg == true -%}
               {{ block.settings.feature_svg_code }}
             {%- else -%}

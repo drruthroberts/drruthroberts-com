@@ -89,7 +89,7 @@
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
-    "social_facebook_link": "https:\/\/web.facebook.com\/crockpetdiet",
+    "social_facebook_link": "https:\/\/www.facebook.com\/TheOriginalHolisticPetHealthCoach",
     "social_instagram_link": "ttps:\/\/www.instagram.com\/dr.ruthroberts\/",
     "social_youtube_link": "https:\/\/youtube.com\/@DrRuthRoberts?si=XnWsWRgripq_rKhe",
     "social_tiktok_link": "https:\/\/www.tiktok.com\/@theoriginalcrockpetdiet",
@@ -103,6 +103,7 @@
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
     "cart_type": "page",
+    "show_cart_note": false,
     "checkout_accent_color": "#2d4b49",
     "checkout_button_color": "#2d4b49",
     "sections": {

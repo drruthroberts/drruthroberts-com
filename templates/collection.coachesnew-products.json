@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Book Now",
-            "button_link_1": "#shopify-section-template--14940389605441__main-collection-product-grid",
+            "button_link_1": "#2",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -42,6 +42,9 @@
         "75f8b834-2989-4cd9-8f87-b52303a677dc",
         "b1a1bd7d-4684-4962-9a30-44fb4cadcdcd",
         "4cb8a473-a13b-40c0-b678-2f4f9681467f"
+      ],
+      "custom_css": [
+        "p {font-family: ;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pet-and-owner-on-fall-walk.jpg",
@@ -79,7 +82,7 @@
       ],
       "custom_css": [
         "h2 {padding-top: 50px; padding-bottom: 0;}",
-        "p {font-size: 2rem; padding-left: 5rem; padding-right: 5rem; font-family: \"Josefin Sans\";}",
+        "p {font-size: 2rem; padding-left: 5rem; padding-right: 5rem; font-family: \"BLT-Heirloom\";}",
         ".rich-text__heading span {font-family: \"Oakley Script\" !important;}",
         ".rich-text__heading span strong {font-weight: normal !important;}"
       ],
@@ -492,7 +495,7 @@
         "h2 {font-size: 6rem; color: #2e484a;}",
         "h2.rich-text__heading.rte.h1 {font-family: \"Oakley Script\" !important;}",
         "h2.rich-text__heading.rte.h1 span {font-weight: normal;}",
-        "p {font-size: 2rem; padding-left: 5rem; padding-right: 5rem;}"
+        "p {font-size: 2rem; padding-left: 5rem; padding-right: 5rem; font-family: BLT-Heirloom;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -570,7 +573,7 @@
         "7572deba-4700-4b6f-97c7-8c914f40aba9"
       ],
       "custom_css": [
-        "p {text-align: justify; line-height: 1.9rem; font-family: \"Josefin Sans\";}",
+        "p {text-align: justify; line-height: 1.9rem; font-family: \"Josefin Sans\"; font-weight: normal;}",
         "@media screen and (max-width: 989px) {.grid--1-col-tablet-down .grid__item {background: #f6f8f1 !important; }}"
       ],
       "settings": {
@@ -581,7 +584,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
@@ -615,7 +618,7 @@
       "custom_css": [
         ".rich-text {padding-top: 0;}",
         "h2 {font-family: \"Oakley Script\" !important; font-weight: normal !important; font-size: 5rem; color: #2e484a;}",
-        "p {font-size: 1.8rem; max-width: 650px;}"
+        "p {font-size: 1.8rem; font-family: \"BLT-Heirloom\";}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -645,7 +648,7 @@
       ],
       "custom_css": [
         ".container-content {width: 67%;}",
-        ".sub_container {background: #f5f8f1;}",
+        ".sub_container {background: #f5f8f1; font-weight: normal;}",
         ".Maincontainer {max-width: 1090px; margin-bottom: 15px;}",
         "@media screen and (max-width: 989px) {img {width: 100% !important; max-width: 100%; } .container-content {width: 100% !important; max-width: 100% !important; } .block_container {width: calc(100% - 40px); padding: 0; } .containerimg {margin: 0; width: 100%; float: none; }}"
       ],
@@ -695,10 +698,11 @@
       "disabled": true,
       "custom_css": [
         ".customercontainer {margin: auto; margin-top: -110px; max-width: 1340px;}",
-        ".customercontainer .truncate {text-align: justify; line-height: 26px;}",
+        ".customercontainer .truncate {text-align: justify; line-height: 26px; font-weight: normal;}",
         ".customercontainer span {}",
         ".stardiv {display: none;}",
-        ".customerdetail {min-height: 600px;}"
+        ".customerdetail {min-height: 600px;}",
+        "p {font-weight: normal;}"
       ],
       "settings": {
         "starreviewhead": ""

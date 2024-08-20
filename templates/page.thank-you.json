@@ -10,6 +10,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -35,8 +36,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -44,6 +45,7 @@
     },
     "1655751929e34d4e57": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16557519296bd204f0-0": {
           "type": "featured_collection",
@@ -83,7 +85,6 @@
         "aa1c3c69-2ce2-435d-81c8-18b114024961",
         "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -99,6 +100,7 @@
     },
     "9e54add2-d186-4186-a214-48cd55fb1ea3": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-0": {
           "type": "heading",
@@ -137,7 +139,6 @@
         "56d37f78-2771-4e9e-a3d6-fc778b9c9aab",
         "template--14927689809985__9e54add2-d186-4186-a214-48cd55fb1ea3-1685882147c3b76ae8-2"
       ],
-      "disabled": true,
       "custom_css": [
         ".rich-text__text.rte {margin-top: 2rem; width: 860px; height: 90px; font-family: \"Josefin Sans\"; font-style: normal; font-weight: 500; font-size: 18px; line-height: 30px; text-align: center; text-transform: uppercase; color: #000000;}",
         ".rich-text__heading.rte {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; letter-spacing: 0.02em; color: #000000;}"

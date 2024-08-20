@@ -227,8 +227,7 @@
 
     .rx-{{section.id}} .rx-product-title-tab {
       display: flex;
-      /* justify-content: space-between; */
-      gap: 90px;
+      justify-content: space-between;
     }
 
      /* Change background color of buttons on hover */
@@ -268,7 +267,7 @@
     }
 
     .rx-{{section.id}} .rx-product-tab {
-      margin-top: 70px;
+      margin-top: 90px;
       font-family: 'Josefin Sans';
       font-style: normal;
       font-weight: 500;
@@ -314,8 +313,8 @@
       color: #184B44;
     }
 
-    #rx-recharge-atc .rc-selling-plans .rc-078opdown__label,
-    #rx-recharge-atc .rc-selling-plans .rc-078opdown__select
+    #rx-recharge-atc .rc-selling-plans .rc-selling-plans-dropdown__label,
+    #rx-recharge-atc .rc-selling-plans .rc-selling-plans-dropdown__select
     {
       font-family: 'Josefin Sans';
       font-style: normal;
@@ -399,12 +398,6 @@
         margin: auto;
         margin-top: 20px;
       }
-
-      .rx-{{section.id}} .rx-product-title-tab {
-      display: flex;
-      /* justify-content: space-between; */
-      gap: 30px;
-    }
     }
   {%- endstyle -%}
 
@@ -474,6 +467,9 @@
                   </h2>
                 </a> {% endcomment %}
               </div>
+
+            
+            
             {%- when 'price' -%}
               <div class="rx-review-price">
                 {% if  product.metafields.stamped.reviews_count != blank %}
@@ -758,7 +754,7 @@
       <div class="rx-product-title-tab">
         <button class="tablinks active" onclick="openTab(event, 'Description')">COACH INFORMATION</button>
         <button class="tablinks" onclick="openTab(event, 'CoachSpecialty')">COACH SPECIALTY</button>
-        {% comment %} <button class="tablinks" onclick="openTab(event, 'ContactInformation')">COACH CONTACT</button> {% endcomment %}
+        <button class="tablinks" onclick="openTab(event, 'ContactInformation')">COACH CONTACT</button>
       </div>
       
       <div id="Description" class="tabcontent">
@@ -780,7 +776,7 @@
     </div>
 
       
-      {% comment %} <div id="ContactInformation" class="tabcontent">
+      <div id="ContactInformation" class="tabcontent">
         <div class="product_tab_content">
           {%- if product.metafields.custom.coach_contact != blank -%}
              {{ product.metafields.custom.coach_contact }}
@@ -793,7 +789,7 @@
 
         {%- endif -%}
         </div >
-      </div>      {% endcomment %}
+      </div>     
       
 
     </div>  
@@ -1268,7 +1264,11 @@
           "id": "instructions_content_image",
           "label": "Instructions Content Image"
         },
-    
+        {
+          "type": "richtext",
+          "id": "shipping_content",
+          "label": "Shipping Content"
+        }
       ]
     },
     {

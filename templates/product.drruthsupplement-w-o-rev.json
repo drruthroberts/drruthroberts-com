@@ -203,6 +203,7 @@
     },
     "165393918003bb0892": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16539391804c74a7ac-0": {
           "type": "column",
@@ -240,7 +241,6 @@
         "16539391804c74a7ac-1",
         "16539391804c74a7ac-2"
       ],
-      "disabled": true,
       "settings": {
         "title": "Satisfied Pet Parents",
         "heading_size": "h2",
@@ -260,6 +260,7 @@
     },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -279,7 +280,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -303,6 +303,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -328,8 +329,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

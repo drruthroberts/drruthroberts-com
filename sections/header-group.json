@@ -7,21 +7,42 @@
       "blocks": {
         "announcement_rNqJTQ": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "🎉 Enjoy FREE Shipping on Orders Over $49! Shop Now and Save Big! 🚚✨",
+            "text": "Explore the World of Holistic Pet Health Coaching 🌿 Sign Up Now For the August 14 workshop. 🐾",
             "text_alignment": "center",
             "color_scheme": "accent-1",
-            "link": ""
+            "link": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner"
+          }
+        },
+        "announcement_qWPKCT": {
+          "type": "announcement",
+          "settings": {
+            "text": "🎉 Enjoy 30% OFF our clearance sale items—use code LABORDAY30. Grab your faves 'til supplies last! 🎉",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": "https:\/\/drruthroberts.com\/collections\/pet-products"
           }
         }
       },
       "block_order": [
-        "announcement_rNqJTQ"
+        "announcement_rNqJTQ",
+        "announcement_qWPKCT"
       ],
       "custom_css": [
 
       ],
       "settings": {
+      }
+    },
+    "custom_liquid_D9YNGQ": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-QQbtwp\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "header": {
@@ -37,6 +58,12 @@
         "margin_bottom": 0,
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "172135207950b70536": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "171319935398bc6e18": {
@@ -82,7 +109,9 @@
   },
   "order": [
     "announcement-bar",
+    "custom_liquid_D9YNGQ",
     "header",
+    "172135207950b70536",
     "171319935398bc6e18",
     "1715285349ba063e6c",
     "1715285355ad802300"

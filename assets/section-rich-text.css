@@ -15,6 +15,8 @@
 
 .rich-text__blocks {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 750px) {
@@ -64,7 +66,7 @@
   flex-wrap: wrap;
   gap: 1rem;
   width: 100%;
-  max-width: 45rem;
+  /* max-width: 45rem; */
   word-break: break-word;
 }
 

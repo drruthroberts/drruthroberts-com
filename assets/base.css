@@ -2,6 +2,7 @@
 #rebuy-cart {
   display: none;
 }
+
 :root,
 .color-background-1 {
   --color-foreground: var(--color-base-text);
@@ -4015,7 +4016,7 @@ h3.aboutdes {
   button.drag.dogarrow2.slick-next.pull-right.slick-arrow,button.drag.dogarrow1.slick-prev.pull-left.slick-arrow{
     width: 36px;
     height: 36px;
-  } 
+  }
 
   i.fa.fa-angle-left ,i.fa.fa-angle-right{
     font-size: 18px;
@@ -4583,7 +4584,7 @@ h3.certifiedtext{
 .blogbodr2 {
   position: relative;
   bottom: 10%;
-  padding: 10px 0;
+  padding: 3% 0;
   display: flex;
   justify-content: center;
 }
@@ -6748,9 +6749,9 @@ margin: 0 auto;
 .certifiedcontent{
 padding-top: 1px;
 }
-/* .blog50:first-child{
+.blog50:first-child{
 border-top: 2px solid #F5F8F1;
-} */
+}
 .postcastdetail {
 margin: 0 6px;
 }
@@ -6941,28 +6942,29 @@ color: #FFFFFF;
 text-decoration: none;
 }
 .reccomflexbtn {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 .rpadding {
-  padding: 12% 5px;
+padding: 12% 5px;
 }
-.premiumproduct {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 15px;
+.premiumproduct{
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 15px;
 }
 .autname {
-  text-align: center;
-  width: 50%;
-  padding: 10px 15px 0px 15px;
-  margin-top: -2.5%;
-  position: relative;
-  z-index: 999;
-  background: #FFFFFF;
-  border-radius: 24px 24px 0px 0px;
-  margin-right: auto;
-  left: 22%;
+text-align: center;
+width: 50%;
+padding: 0 15px;
+margin-top: -2.5%;
+position: relative;
+z-index: 999;
+background: #FFFFFF;
+border-radius: 24px 24px 0px 0px;
+margin-right: auto;
+left: 22%;
+
 }
 .reccomdedback {
 background-repeat: no-repeat;
@@ -7011,35 +7013,34 @@ line-height: 20px;
 color: #000000;
 letter-spacing: -1.3px;
 }
-.contcthead {
+.contcthead{
 font-family: 'BLT-Heirloom';
 font-style: normal;
 font-weight: 300;
 font-size: 30px;
 line-height: 40px;
 color: #000000;
-text-align: center;
+text-align: center  ;
 }
 .sendbtn button.button {
-  background-color: white;
-  color: black;
-  border: 2px solid #184B44;
-  border-radius: 24px;
-  width: 100%;
+background-color: white;
+color: black;
+border: 2px solid #184B44;
+border-radius: 24px;
+width: 100%;
 }
-
 a.product_slt.txt_d_none {
-  text-decoration: none;
+text-decoration: none;
 }
 .autname span{
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  text-align: center;
-  color: #939393;
-  letter-spacing: 0px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #939393;
+letter-spacing: 0px;
 }
 .queandbtn .product-form__buttons .button--full-width{
 background: white;
@@ -7352,32 +7353,31 @@ line-height: 30px;
 color: #000000;
 text-transform: uppercase;
 }
-.moreblog {
-  font-family: 'BLT-Heirloom';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 27px;
-  line-height: 40px;
-  text-align: left;
-  color: #000000;
-  text-transform: capitalize;
+.moreblog{
+font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+color: #000000;
+text-transform: capitalize;
 }
 .customarticle{
-  font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #1E1E1E;
-  text-decoration: none;
-  letter-spacing: 0px;
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0px;
+text-transform: uppercase;
+color: #1E1E1E;
+text-decoration: none;
 }
 .custombtn{
-  border: 2px solid #184B44;
-  border-radius: 25.5px;
-  display: inline-block;
+border: 2px solid #184B44;
+border-radius: 25.5px;
+display: inline-block;
   padding: 8px 30px;
 }
 .diffcontent {
@@ -7825,36 +7825,22 @@ padding: 10px 30px;
   margin: 0 1%;
 }
 @media only screen and (max-width: 768px) {
-  .teethflex{
-    flex-wrap: wrap;
-  }
-  .imagetext ,.icontext{
-    width:100%;
-  }
-  .imagetext {
-    display: flex;
-      justify-content: center;
-  }
-  .imagetext.cartimhtext {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 0 auto;
-  }
-  a.btnspace1 {
-    font-family: Josefin Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: .3em;
-    text-transform: uppercase;
-    border: 2px solid #184B44;
-    border-radius: 25.5px;
-    text-decoration: none;
-    padding: 12px 13px;
-    color: #1e1e1e;
-  }
+.teethflex{
+  flex-wrap: wrap;
+}
+.imagetext ,.icontext{
+  width:100%;
+}
+.imagetext {
+  display: flex;
+    justify-content: center;
+}
+.imagetext.cartimhtext {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
 }
 @media only screen and (max-width: 420px) {
   .imagetext.cartimhtext {

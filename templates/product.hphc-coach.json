@@ -45,7 +45,8 @@
           "type": "rx_product_tab",
           "settings": {
             "Coach_Specialty": "<p>{{ product.metafields.custom.coach_specialty | metafield_tag }}<\/p>",
-            "Contact_Information": ""
+            "Contact_Information": "",
+            "shipping_content": ""
           }
         },
         "c3949539-dd47-4db5-86e8-4b2143f24749": {

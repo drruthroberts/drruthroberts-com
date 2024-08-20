@@ -212,8 +212,8 @@
 
   .image-with-text--overlap .image-with-text__content {
     height: auto;
-    width: calc(100% + 1rem);
-    min-width: calc(100% + 1rem);
+    width: calc(100% + 4rem);
+    min-width: calc(100% + 4rem);
     margin-top: 0;
     margin-left: -4rem;
   }
@@ -292,9 +292,9 @@
   }
 }
 
-/* .image-with-text__content > * + * {
+.image-with-text__content > * + * {
   margin-top: 2rem;
-} */
+}
 
 .image-with-text__content > .image-with-text__text:empty ~ a {
   margin-top: 2rem;

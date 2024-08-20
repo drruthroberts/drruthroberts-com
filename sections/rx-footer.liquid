@@ -211,6 +211,7 @@
                         {%- if block.settings.rx_brand_image != blank -%}
                           <img
                             src="{{block.settings.rx_brand_image |  image_url: width: 200 }}" 
+                            alt="image"
                           >
                         {%- endif -%}
                         {%- if block.settings.rx_brand_description != blank -%}
@@ -220,29 +221,29 @@
                         {%- endif -%}
                         {%- if block.settings.rx_store_email != blank -%}
                           <div class="rx-store-email">
-                            <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/email-icon.png?v=1680074997">
+                            <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/email-icon.png?v=1680074997" alt="image">
                             <span>{{block.settings.rx_store_email}}</span>
                           </div>
                         {%- endif -%}
                         {%- if block.settings.rx_store_phone != blank -%}
                           <div class="store-phone">
-                            <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/phone-icon.png?v=1680074997">
+                            <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/phone-icon.png?v=1680074997" alt="image">
                             <span>{{block.settings.rx_store_phone}}</span>
                           </div>
                         {%- endif -%}
                           <div class="rx-social-icon">
                             {%- if block.settings.rx_brand_info_show_social and has_social_icons -%}
                               <a href="{{section.settings.fb_url}}" target="_blank">
-                                <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/facebook_logo.png?v=1680076985">
+                                <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/facebook_logo.png?v=1680076985" alt="image">
                               </a>
                               <a href="{{section.settings.ig_url}}" target="_blank">
-                                <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/ig-log.png?v=1680076985">
+                                <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/ig-log.png?v=1680076985" alt="image">
                               </a>
                               <a href="{{section.settings.linkedin_url}}" target="_blank">
-                                <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/LinkedIn_-_Original_1.png?v=1680076985">
+                                <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/LinkedIn_-_Original_1.png?v=1680076985" alt="image">
                               </a>
                               <a href="{{section.settings.youtube_url}}" target="_blank">
-                                <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/youtube_1384060.png?v=1721414428" width="30px">
+                               <img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/youtube_1384060.png?v=1721414428" width="30px" alt="image">
                               </a>
                             {%- endif -%}
                           </div>
@@ -293,6 +294,7 @@
                       <button type="submit" class="newsletter-form__button field__button" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
                         <img 
                           id="rx_read_more_arrow_black"
+                          alt="image"
                           src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
                           style="margin-right:20px;margin-left:0"
                         >
@@ -315,23 +317,26 @@
               src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Image_21.png?v=1684499914"
               width="370px"
               height="30px"
+              alt="image"
             >
             <img 
               id="footer-association-img"
               src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Image_22.png?v=1684499914"
               width="370px"
               height="30px"
+              alt="image"
             >
             <img 
               id="footer-association-img"
               src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/image_2023_05_19T12_35_24_745Z.png?v=1684499914"
-              
+              alt="image"
             >
             <img 
               id="footer-association-img"
               src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Image_23.png?v=1684499914"
               width="370px"
               height="30px"
+              alt="image"
             >
           </div>
         </div>
@@ -741,7 +746,7 @@
       "id": "linkedin_url",
       "label": "Linkedin URL"
     },
-    {
+       {
       "type": "text",
       "id": "youtube_url",
       "label": "Youtube URL"

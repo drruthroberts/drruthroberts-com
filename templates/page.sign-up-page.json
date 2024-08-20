@@ -1,0 +1,92 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rx_banner_text_v2_GwPkbm": {
+      "type": "rx-banner-text-v2",
+      "settings": {
+        "rx_image_banner": "shopify:\/\/shop_images\/WEB_BANNER_2.png",
+        "heading": "Healing Pet Loss",
+        "caption": "",
+        "content": "<p>You come home after a long day, and there's no excited bark or gentle purr to greet you. <\/p><p>Your home feels emptier, quieter. <\/p><p><\/p>",
+        "content2": "<p>Every corner holds memories, every routine reminds you of what’s missing. It's these everyday moments that hit the hardest, and we're here to help you through them.<\/p><p> Join us to navigate your journey of grief with compassion and support.<\/p>",
+        "layout": "text_first"
+      }
+    },
+    "rich_text_XJTdaG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_m7F3bN": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Expert-Led Online Workshop for Coping, Grief Support & Animal Communication<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_FGXHkJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us to navigate your journey of grief with compassion and support. Register now!<\/p>"
+          }
+        },
+        "button_GiaUBH": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_m7F3bN",
+        "text_FGXHkJ",
+        "button_GiaUBH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 4
+      }
+    },
+    "1718122449b405d2db": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-RxJdDL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rx_banner_text_v2_GwPkbm",
+    "rich_text_XJTdaG",
+    "1718122449b405d2db"
+  ]
+}

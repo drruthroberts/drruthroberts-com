@@ -250,6 +250,7 @@
     },
     "939ed13e-8961-40fb-be57-ecbc1f35dd30": {
       "type": "Certified_Coaches",
+      "disabled": true,
       "blocks": {
         "2f041b2b-6910-44af-8f65-bd68d739ba9f": {
           "type": "block",
@@ -278,7 +279,6 @@
         "9ec9a24a-b07a-40d3-9150-7759caa575ab",
         "b9986e22-885d-4152-bf37-0e4434d740c2"
       ],
-      "disabled": true,
       "custom_css": [
         ".slick-dots {display: none;}"
       ],

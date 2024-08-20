@@ -87,7 +87,6 @@
       line-clamp: 3;
       -webkit-box-orient: vertical;
     }
-
     .rx-{{ section.id }} .article-url {
         cursor: pointer;
         text-decoration-line: none;
@@ -141,7 +140,7 @@
   {% endif %}
   <div class="rx-{{section.id}} blog-article--cotainer">
     <div class="container">
-       
+
         {% for article in blog.articles %}
             {% if forloop.first == true %}
                 <a class="article-url" href="{{ article.url }}">
@@ -161,16 +160,16 @@
                     <div>
                 </div>
             {% endif %}
-            
+
         {% endfor %} 
-     
+
       {% comment %} <img class="rx-image"src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/aboutRuth.jpg?v=1681378728"  alt="about_page_image"/> {% endcomment %}
-        
-      
+
+
     </div>
   </div>
-  
-  
+
+
   {% schema %}
     {
       "name": "blog article",
@@ -215,12 +214,12 @@
           "info": "t:sections.image-with-text.settings.layout.info"
         }
       ],
-     
+
       "presets": [
         {
           "name": "blog article"
         }
       ]
     }
-  
+
   {% endschema %}
