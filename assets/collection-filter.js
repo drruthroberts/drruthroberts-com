@@ -7,7 +7,7 @@ class FilterCollection extends HTMLElement {
         this.filterList.forEach(content => {
             var item_count = 0;
             const label = content.querySelector('input').dataset.value.toLowerCase();
-            console.log(label)
+          
             this.productList.forEach((item) => {
                 const tagItem = item.dataset.value;
                 
@@ -16,7 +16,7 @@ class FilterCollection extends HTMLElement {
                     item_count++;
                 } 
             });
-            console.log(item_count)
+          
             content.querySelector('label').textContent = content.querySelector('label').textContent + "(" + item_count+ ")";
         });
      
@@ -64,7 +64,6 @@ class FilterCollection extends HTMLElement {
             existingPagination.remove();  
         }  
 
-        console.log(this.totalCount, "hererere");
         
         if (this.totalCount >= this.itemsPerPage) {  
             const pagenatinContent = document.createElement('div');  
