@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded',function(){
     let count = 0;
 
     // var targetItems = document.querySelectorAll('[data-index="'+targetIndex+'"]');
+
     var firstArticle = articleItems[0].cloneNode(true);
+    
     firstArticle.classList.remove('hidden');
     firstAiticleDom.appendChild(firstArticle);
     console.log(firstAiticleDom);

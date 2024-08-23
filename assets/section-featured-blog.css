@@ -57,6 +57,10 @@
   .blog__post.article {
     width: calc(100% - 3rem);
   }
+
+  .blog__posts.articles-wrapper {
+    padding: 0 20px;
+  }
 }
 
 .background-secondary .blog-placeholder__content {

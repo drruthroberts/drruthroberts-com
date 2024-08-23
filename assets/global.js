@@ -578,7 +578,11 @@ class SliderComponent extends HTMLElement {
 
     this.slider.addEventListener('scroll', this.update.bind(this));
     this.prevButton.addEventListener('click', this.onButtonClick.bind(this));
-    this.nextButton.addEventListener('click', this.onButtonClick.bind(this));
+    this.nextButton.addEventListener('click', this.onButtonClick.bind(this));  
+    this.nextButton.addEventListener('touchend', function(event) {  
+      event.preventDefault();  
+      this.onButtonClick.call(this, event);  
+    }.bind(this));  
   }
 
   initPages() {
@@ -586,7 +590,7 @@ class SliderComponent extends HTMLElement {
     if (this.sliderItemsToShow.length < 2) return;
     this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
     this.slidesPerPage = Math.floor((this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset);
-    this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage + 1;
+    this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage;
     this.update();
   }
 
@@ -636,7 +640,7 @@ class SliderComponent extends HTMLElement {
   }
 
   onButtonClick(event) {
-    event.preventDefault();
+    // event.preventDefault();
     const step = event.currentTarget.dataset.step || 1;
     this.slideScrollPosition = event.currentTarget.name === 'next' ? this.slider.scrollLeft + (step * this.sliderItemOffset) : this.slider.scrollLeft - (step * this.sliderItemOffset);
     this.slider.scrollTo({

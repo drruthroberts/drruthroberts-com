@@ -1,35 +1,30 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
-<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
 
 
 <div class="shpo_space">
     <div class="shopheap">
         <h2 class="shophead">{{section.settings.shop_head}}</h2>
     </div>
- 
-    <div>
-        <div class="slideflex">
+    <div class="swiper-container">
+      <div class="slideflex swiper-wrapper">
         {% for block in section.blocks %}
-          <a class="custom-url" href="{{block.settings.link}}" >
+          <a class="custom-url swiper-slide" href="{{block.settings.link}}" >
                 <div class="slidebg" data-type="{{block.settings.slide_type}}" data-val="{{block.settings.slide_val}}">
-                        
-                       <div class="collimg">
+                        <div class="collimg">
                         {%- if block.settings.allshopicon != blank -%}
-                           <img class="shophelpicon" src="{{  block.settings.allshopicon  | img_url: 'small' }}" />
+                            <img class="shophelpicon" src="{{  block.settings.allshopicon  | img_url: 'small' }}" />
                             {%- endif -%}
-                       </div>
-                      
-                        
-                       <h4 class="slidecontent">{{block.settings.slide_text}}</h4>
+                        </div>
+                        <h4 class="slidecontent">{{block.settings.slide_text}}</h4>
                     <h2 class="slidetype">{{block.settings.slide_type}}</h2>
                   <h2 class="slidevalue">{{block.settings.slide_val}}</h2>
-                  
                 </div>
-            </a>
+          </a>
         {% endfor %}
-        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
 </div>
 
@@ -86,11 +81,12 @@
 
 {% endschema %}
 <style>
-.slidebg.slick-slide{
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+  .slideflex .custom-url {
+    text-decoration: none;
+    {% comment %} margin-right: 20px !important; {% endcomment %}
+  }
+
 .slidecontent{
   margin: 10px;
 }
@@ -100,23 +96,79 @@
   h4.slidecontent {
     line-height: 1.2;
 }
-  .slick-track {
-    display: flex;
-    align-items: stretch;
-}
-.slick-track > a {
-    height: unset !important;
-}
-.slick-track > a > .slidebg {
-    height: 100%;
+
+.slidebg {
+    height: 140px;
+    {% comment %} height: 100%; {% endcomment %}
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+.swiper-button-prev, .swiper-button-next {
+  display: block !important;
+  background: none;
+} 
+
+.swiper-button-prev::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  transform: rotate(45deg);
+  border-left: solid;
+  border-bottom: solid;
+  top: 7px;
+  left: 10px;
+}
+
+.swiper-button-next::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  transform: rotate(-135deg);
+  border-left: solid;
+  border-bottom: solid;
+  top: 7px;
+  right: 10px;
+}
+
 </style>
 <script>
-$(document).ready(function() {
+  new Swiper('.swiper-container', {
+    loop: true,
+    {% comment %} nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev', {% endcomment %}
+    slidesPerView: 3,
+    spaceBetween: 20,
+    speed: 500,
+    autoplaySpeed: 2000,
+    centeredSlides: true,
+    autoplay: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+    breakpoints: {
+        1920: {
+            slidesPerView: 5,
+            spaceBetween: 30
+        },
+        1028: {
+            slidesPerView: 4,
+            spaceBetween: 30
+        },
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            centeredSlides: true
+        }
+    }
+  });
+
+{% comment %} $(document).ready(function() {
     $('.slideflex').slick({
        speed: 500,
         autoplaySpeed: 2000,
@@ -126,6 +178,7 @@ $(document).ready(function() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
+    loop: true,
     prevArrow:"<button type='button' class='drag dogarrow1 slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
     nextArrow:"<button type='button' class='drag dogarrow2  slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
        responsive: [
@@ -197,5 +250,5 @@ if(urlParams.size > 1){
 
       
   });
-});
-</script>
+}); {% endcomment %}
+</script> 
