@@ -296,8 +296,63 @@
         "0ec3c3cf-b140-49cd-ac42-f20311bcb0a8",
         "44d0f174-18d9-4217-80da-940fbbe11430"
       ],
+      "disabled": true,
       "settings": {
         "starreviewhead": "Our happy clients say"
+      }
+    },
+    "custom_testiminal_JGHtw6": {
+      "type": "custom-testiminal",
+      "blocks": {
+        "testiminal_item_7FYdKa": {
+          "type": "Testiminal-item",
+          "settings": {
+            "product_url": "shopify:\/\/products\/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster",
+            "img_url": "shopify:\/\/shop_images\/roxanne.webp",
+            "testiminal_item_title": "High Quality omega-3 fatty acids",
+            "testiminal_dscription": "<p>\"I have been using Omega Pawz for my dogs who have allergies and Mast cell cancer that is currently in remission. Purity is extremely important to me and this is a high quality supplement. They are all doing well and have beautiful fur.\"<\/p>",
+            "testiminal_sender": "-Karin Druckenmiller"
+          }
+        },
+        "testiminal_item_rJhpXE": {
+          "type": "Testiminal-item",
+          "settings": {
+            "product_url": "shopify:\/\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements",
+            "img_url": "shopify:\/\/shop_images\/Theresa_1.webp",
+            "testiminal_item_title": "Holistic Total Support",
+            "testiminal_dscription": "<p>\"I have been using Holistic Total Support and TOCPD for about 5 years. My sweet dog Mojo lasted 5 years longer than expected he was 17yrs old. He is greatly missed! We recently got 2 new pups I have started them out with both. They love their food! And know that I am giving them the best they can get. Thank you so much for all you do to provide the best for our sweet babies!\"<\/p>",
+            "testiminal_sender": "-Theresa Thornock"
+          }
+        },
+        "testiminal_item_WwnAJk": {
+          "type": "Testiminal-item",
+          "settings": {
+            "product_url": "shopify:\/\/products\/baltic-amber-collar-preventic-flea-collar",
+            "img_url": "shopify:\/\/shop_images\/188290_6933991489601_3de07a8f_acad_4452_b45e_aa26cce49acc.webp",
+            "testiminal_item_title": "Peace of mind!",
+            "testiminal_dscription": "<p>\"Newly starting our holistic journey with our two fur babies. Dr. Ruth Roberts has thought of it all! So happy to have found a safe non toxic yet stylish effective flea collar for them both! Definitely gives us a peace of mind knowing we have an extra defense against these pests at no harm to our babies. Haven’t seen any fleas & am very surprised how well these collars are made! Highly recommend.\"<\/p>",
+            "testiminal_sender": "-Carissa Menchaca"
+          }
+        },
+        "testiminal_item_rB3HhW": {
+          "type": "Testiminal-item",
+          "settings": {
+            "product_url": "shopify:\/\/products\/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
+            "img_url": "shopify:\/\/shop_images\/teresa2.webp",
+            "testiminal_item_title": "Crockpot recipe",
+            "testiminal_dscription": "<p>\"I used to cook for my dogs before but I didn’t know that there was so much more vegetables I could put in it. My dog loves the home food way better. So far she seems to be less gassy.\"<\/p>",
+            "testiminal_sender": "-Teresa"
+          }
+        }
+      },
+      "block_order": [
+        "testiminal_item_7FYdKa",
+        "testiminal_item_rJhpXE",
+        "testiminal_item_WwnAJk",
+        "testiminal_item_rB3HhW"
+      ],
+      "settings": {
+        "testiminal_title": "Our happy clients say"
       }
     },
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d": {
@@ -398,86 +453,6 @@
         "full_width": true,
         "padding_top": 28,
         "padding_bottom": 32
-      }
-    },
-    "e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Unlock a rewarding career while promoting natural well-being for pets.<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-heading-1",
-        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-text-1",
-        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-button-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "914ef044-a3b1-4773-91ae-f1b36874354b": {
-      "type": "rx-rich-text",
-      "blocks": {
-        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Our Store<\/p>"
-          }
-        },
-        "bdcf6291-3b9b-482b-b151-f1a9bc86ec3c": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>We offer a range of high-quality natural supplements for dogs and cats that are designed to support their overall health and well-being<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0",
-        "bdcf6291-3b9b-482b-b151-f1a9bc86ec3c"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "caption_alignment": "center",
-        "section_bg_color": "#ffffff",
-        "image_width": "100%",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "0816fc52-33ac-4b35-81ac-4c842628750a": {
@@ -607,77 +582,6 @@
       ],
       "settings": {
         "desktopMaxWidth": "1200px"
-      }
-    },
-    "2b1d20ae-49de-4e39-ab92-d62ff31188a4": {
-      "type": "rx-collections-list",
-      "blocks": {
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-0": {
-          "type": "Collection",
-          "settings": {
-            "collection": "post-surgical-care-collection",
-            "collection_title": "Shop Post-Surgery Support",
-            "image": "shopify:\/\/shop_images\/Frame_1.png"
-          }
-        },
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-3": {
-          "type": "Collection",
-          "settings": {
-            "collection": "joint-pain-mobility",
-            "collection_title": "Shop Pain Management & Joint Support",
-            "image": "shopify:\/\/shop_images\/Frame_4.png"
-          }
-        },
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-1": {
-          "type": "Collection",
-          "settings": {
-            "collection": "immunity",
-            "collection_title": "Shop Daily Immune Support",
-            "image": "shopify:\/\/shop_images\/Frame_2.png"
-          }
-        },
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-4": {
-          "type": "Collection",
-          "settings": {
-            "collection": "new-pet-care",
-            "collection_title": "Shop New Pet Starter Kits",
-            "image": "shopify:\/\/shop_images\/Group_1.png"
-          }
-        },
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-2": {
-          "type": "Collection",
-          "settings": {
-            "collection": "supplements-for-senior-dog",
-            "collection_title": "Shop Senior Care Support",
-            "image": "shopify:\/\/shop_images\/Frame_3.png"
-          }
-        },
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-5": {
-          "type": "Collection",
-          "settings": {
-            "collection": "allergies",
-            "collection_title": "Shop Itchy Pet & Allergy Products",
-            "image": "shopify:\/\/shop_images\/Frame_5.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-0",
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-3",
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-1",
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-4",
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-2",
-        "template--14898486050881__2b1d20ae-49de-4e39-ab92-d62ff31188a4-1679473345ed58416a-5"
-      ],
-      "disabled": true,
-      "settings": {
-        "background_color": "rgba(0,0,0,0)",
-        "card_color": "#f5f8f1",
-        "text_color": "#000000",
-        "section_padding_top": 10,
-        "section_padding_bottom": 50,
-        "section_padding_top_mobile": 60,
-        "section_padding_bottom_mobile": 50
       }
     },
     "cf1b90a0-cc7f-46bb-b24e-469e6e57df56": {
@@ -926,7 +830,7 @@
           "type": "button",
           "settings": {
             "button_label": "ALL BLOGS",
-            "button_link": "shopify:\/\/blogs\/pet-blog",
+            "button_link": "shopify:\/\/pages\/all-blogs",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -1062,31 +966,6 @@
         "content_padding_bottom": 50
       }
     },
-    "41def7a6-c370-4591-a416-a22b442ac6d4": {
-      "type": "rx-rich-text",
-      "blocks": {
-        "template--14898486050881__41def7a6-c370-4591-a416-a22b442ac6d4-1680361175b29958ce-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Our happy clients say<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--14898486050881__41def7a6-c370-4591-a416-a22b442ac6d4-1680361175b29958ce-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "caption_alignment": "center",
-        "section_bg_color": "#f5f8f1",
-        "image_width": "100%",
-        "full_width": true,
-        "padding_top": 28,
-        "padding_bottom": 4
-      }
-    },
     "a22eed67-71d2-4d24-9266-adb3dc0550e6": {
       "type": "rx-image-banner",
       "blocks": {
@@ -1149,13 +1028,11 @@
     "16751816500272c7d1",
     "da93e544-9b93-4abc-a278-b99d780db5d3",
     "d4b87d47-4683-4708-8f34-83893a2233cf",
+    "custom_testiminal_JGHtw6",
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d",
     "519a28f3-c4ef-4319-9853-c8d825c82db3",
-    "e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39",
-    "914ef044-a3b1-4773-91ae-f1b36874354b",
     "0816fc52-33ac-4b35-81ac-4c842628750a",
     "df6ff21b-835d-453a-ab12-a99160479690",
-    "2b1d20ae-49de-4e39-ab92-d62ff31188a4",
     "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
     "40e124d8-821b-4b01-8eb8-2482449db53a",
     "e08ace68-3822-43dd-8d71-0eec07090099",
@@ -1166,7 +1043,6 @@
     "8960ec65-5cef-4d84-b887-aa69c09a76a9",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
-    "41def7a6-c370-4591-a416-a22b442ac6d4",
     "a22eed67-71d2-4d24-9266-adb3dc0550e6"
   ]
 }

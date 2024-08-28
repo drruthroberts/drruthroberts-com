@@ -1,0 +1,109 @@
+{{ 'custom-testiminal.css' | asset_url | stylesheet_tag }}
+
+<div class="custom-product-testiminal">
+    <div class="product-testiminal-container">
+        <div class="product-testiminal-title">
+            {{ section.settings.testiminal_title }}
+        </div>
+        <div class="product-testiminal-content swiper-container">
+           
+                <div class="product-testiminal-wrapper swiper-wrapper">
+                    {%- for block in section.blocks -%}
+                        <div class="product-testiminal-item swiper-slide">
+                            <div class="product-testiminal-item-content">
+                                <div class="product-testiminal-item-wrapper">
+                                    <div class="testiminal-item-header">
+                                        <a href="{{ block.settings.product_url }}" class="testiminal-item-url">
+                                            <div class="testiminal-item-image">
+                                                <img src="{{ block.settings.img_url | img_url: '100x' }}" alt="image">
+                                            </div>
+                                            <div class="testiminal-item-heading">
+                                                <div class="testiminal-stardiv">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                </div>
+                                                <div class="testiminal-item-title">{{ block.settings.testiminal_item_title }}</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="testiminal-item-description">
+                                        {{ block.settings.testiminal_dscription }}
+                                    </div>
+                                </div>
+                                <div class="testiminal-sender">
+                                    {{ block.settings.testiminal_sender }}
+                                </div>
+                            </div>    
+                        </div>
+                    {%- endfor -%}
+                </div>
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "product testiminal",
+    "tag": "section",
+    "class": "product-testiminal",
+    "settings": [
+        {
+            "type": "text",
+            "id": "testiminal_title",
+            "label": "Testiminal Title",
+            "default": "Header"
+        }
+    ],
+    "blocks": [
+      {
+        "name": "testiminal item",
+        "type": "Testiminal-item",
+        "settings": [
+           {
+                "type": "url",
+                "id": "product_url",
+                "label": "Product url"
+           },
+           {
+                "type": "image_picker",
+                "id": "img_url",
+                "label": "Image url"
+           },
+           {
+                "type": "text",
+                "id": "testiminal_item_title",
+                "label": "Testiminal item title",
+                "default": "text"
+           },
+           {
+                "type": "richtext",
+                "id": "testiminal_dscription",
+                "label": "Testiminal description",
+                "default": "<p>description</p>"
+            },
+            {
+                "type": "text",
+                "id": "testiminal_sender",
+                "label": "Testiminal sender",
+                "default": "sender"
+            }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Testiminal",
+        "settings": {
+        }
+        
+      }
+    ]
+  }
+{% endschema %}
