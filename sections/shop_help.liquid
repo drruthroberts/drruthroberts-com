@@ -81,22 +81,25 @@
 
   .slideflex .custom-url {
     text-decoration: none;
-    {% comment %} margin-right: 20px !important; {% endcomment %}
   }
 
-.slidecontent{
-  margin: 10px;
-}
-.collimg {
-    padding-top: 8%;
-}
-  h4.slidecontent {
-    line-height: 1.2;
-}
+  .swiper-container .slideflex {
+    width: 100%;
+  }
+
+  .slidecontent {
+    margin: 10px;
+    padding-bottom: 30px;
+  }
+  .collimg {
+      padding-top: 8%;
+  }
+    h4.slidecontent {
+      line-height: 1.2;
+  }
 
 .slidebg {
     height: 140px;
-    {% comment %} height: 100%; {% endcomment %}
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,13 +139,10 @@
 <script>
   new Swiper('.swiper-container', {
     loop: true,
-    {% comment %} nextButton: '.swiper-button-next',
-    prevButton: '.swiper-button-prev', {% endcomment %}
-    slidesPerView: 3,
+    slidesPerView: 5,
     spaceBetween: 20,
     speed: 500,
     autoplaySpeed: 2000,
-    centeredSlides: true,
     autoplay: true,
     navigation: {
       nextEl: ".swiper-button-next",

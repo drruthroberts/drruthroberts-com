@@ -5249,20 +5249,20 @@ p.pfeesdec {
 }
 .slidecontent{
   font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 30px;
-color: #1E1E1E;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #1E1E1E;
  padding:0 15px; 
 }
 .shophead{
-font-family: 'BLT-Heirloom';
-font-style: normal;
-font-weight: 300;
-font-size: 40px;
-line-height: 40px;
-color: #1E1E1E;
+  font-family: 'BLT-Heirloom';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  color: #1E1E1E;
 }
 .shopheap{
   text-align: center;
@@ -5280,22 +5280,22 @@ border-radius: 24px;
 }
 .shopbhead{
   font-family: 'BLT-Heirloom';
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 29px;margin-bottom: 10px;
-text-transform: capitalize;
-color: #1E1E1E;
-      text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 29px;margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #1E1E1E;
+  text-align: center;
 }
 .shopdes{
   font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 23px;
-text-align: center;
-color: #1E1E1E;margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #1E1E1E;margin-bottom: 0;
 }
 .shop_block{
     display: flex;
