@@ -247,7 +247,7 @@
       }
     },
     "404": {
-      "title": "Page not found",
+      "title": "The page you were looking for couldn't be found.",
       "subtext": "404"
     }
   },
