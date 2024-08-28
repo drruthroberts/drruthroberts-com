@@ -155,6 +155,7 @@
         },
         "875cb5b6-fbb8-40ef-8b14-12680dfc8b0b": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "allshopicon": "shopify:\/\/shop_images\/Group_4.webp",
             "slide_text": "Standar Process Canine Collection",
@@ -165,6 +166,7 @@
         },
         "aa00118e-9637-4ef8-9268-93412fcb5a45": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "allshopicon": "shopify:\/\/shop_images\/Group_4.webp",
             "slide_text": "Standar Process Feline Collection",
@@ -175,6 +177,7 @@
         },
         "d7dc5cfb-eb13-4bb1-84ac-44c0dcff29ae": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "allshopicon": "shopify:\/\/shop_images\/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.webp",
             "slide_text": "Standar Process Immune Collection",
@@ -185,6 +188,7 @@
         },
         "b051e3b0-d04a-46d9-b072-c397ffa0f578": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "allshopicon": "shopify:\/\/shop_images\/Group_5.webp",
             "slide_text": "Standar Process Liver Collection",
@@ -195,6 +199,7 @@
         },
         "12db348e-5b71-4b4d-bcf1-fee74bd24759": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "allshopicon": "shopify:\/\/shop_images\/Group_6.webp",
             "slide_text": "Standar Process Renal Collection",
@@ -205,6 +210,7 @@
         },
         "eeb51a4a-42eb-45ed-9b89-dcb5f6927c35": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "allshopicon": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac_1.webp",
             "slide_text": "Standar Process Veterinary Collection",
@@ -277,6 +283,7 @@
       ],
       "disabled": true,
       "settings": {
+        "unique_class": "",
         "image": "shopify:\/\/shop_images\/3_460808f2-0175-4325-9466-ed0dd936c712.png",
         "height": "small",
         "desktop_image_width": "medium",
@@ -322,6 +329,7 @@
       ],
       "disabled": true,
       "settings": {
+        "unique_class": "",
         "image": "shopify:\/\/shop_images\/12_6b203ac2-5d10-486f-af03-6774b3193bd7.png",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -366,7 +374,7 @@
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36,
         "rating": 5

@@ -4,7 +4,7 @@ new Swiper('.swiper-container', {
     spaceBetween: 20,
     speed: 500,
     autoplaySpeed: 2000,
-    // autoplay: true,
+    autoplay: true,
 
     navigation: {
       nextEl: ".swiper-button-next",

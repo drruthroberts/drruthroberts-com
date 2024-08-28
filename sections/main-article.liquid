@@ -52,7 +52,7 @@
                   {%- endif -%}
                   
                   {%- if block.settings.blog_show_date -%}
-                    <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
+                    <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated datePublished">
                       <span class="caption-with-authname">Dr. Ruth Roberts | </span>
                       {{- article.published_at | time_tag: format: 'date' -}}
                     </span>

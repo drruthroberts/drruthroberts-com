@@ -257,54 +257,10 @@
         "padding_bottom": 52
       }
     },
-    "d4b87d47-4683-4708-8f34-83893a2233cf": {
-      "type": "star_review",
+    "custom_product_testiminal_JW4UiA": {
+      "type": "custom-product-testiminal",
       "blocks": {
-        "39163d6d-b350-4bd0-8e47-035c0a838c3c": {
-          "type": "block",
-          "settings": {
-            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
-            "rating": 5,
-            "confimed": "Dr. Ruth is an open book",
-            "confimedp": "“Dr. Ruth is an open book, she provides proven, practical advice and her guidance and continuous support throughout and after the course is invaluable. I highly recommend this Holistic Pet Health Coaching program to health practitioners looking to expand their business, pet-enthusiasts looking for a rewarding career and any animal lover looki...",
-            "signtext": "Bea Swasey, HPH, NTP"
-          }
-        },
-        "0ec3c3cf-b140-49cd-ac42-f20311bcb0a8": {
-          "type": "block",
-          "settings": {
-            "mainimage": "shopify:\/\/shop_images\/D_800x_a42a6c3a-6891-4743-ab7a-b920e3234e8c.png",
-            "rating": 5,
-            "confimed": "This is a Great Program!",
-            "confimedp": "“If you want to help others and more importantly help your own fur family live longer, healthier and reduce your vet bills this course is for you. Not only can you begin a career in helping others but you can also apply your new knowledge to your human lifestyle for a healthier YOU!”",
-            "signtext": "Leah Bookhamer HPHC, NTP, MRWP"
-          }
-        },
-        "44d0f174-18d9-4217-80da-940fbbe11430": {
-          "type": "block",
-          "settings": {
-            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
-            "rating": 5,
-            "confimed": "Mind Blowing!",
-            "confimedp": "\"As a holistic health coach for humans, I already knew some of the material. Still, Dr. Ruth blew me away with detailed but understandable information of the body systems and the foods and supplements to address insufficiencies that lead to disease for both dogs and cats. Her knowledge and teaching of Traditional Chinese Veterinary Medicine i...",
-            "signtext": "Dlorah Devore, HPHC, FNTP"
-          }
-        }
-      },
-      "block_order": [
-        "39163d6d-b350-4bd0-8e47-035c0a838c3c",
-        "0ec3c3cf-b140-49cd-ac42-f20311bcb0a8",
-        "44d0f174-18d9-4217-80da-940fbbe11430"
-      ],
-      "disabled": true,
-      "settings": {
-        "starreviewhead": "Our happy clients say"
-      }
-    },
-    "custom_testiminal_JGHtw6": {
-      "type": "custom-testiminal",
-      "blocks": {
-        "testiminal_item_7FYdKa": {
+        "testiminal_item_j7wQtP": {
           "type": "Testiminal-item",
           "settings": {
             "product_url": "shopify:\/\/products\/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster",
@@ -314,7 +270,7 @@
             "testiminal_sender": "-Karin Druckenmiller"
           }
         },
-        "testiminal_item_rJhpXE": {
+        "testiminal_item_3tLLTt": {
           "type": "Testiminal-item",
           "settings": {
             "product_url": "shopify:\/\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements",
@@ -324,7 +280,7 @@
             "testiminal_sender": "-Theresa Thornock"
           }
         },
-        "testiminal_item_WwnAJk": {
+        "testiminal_item_Y8ThFi": {
           "type": "Testiminal-item",
           "settings": {
             "product_url": "shopify:\/\/products\/baltic-amber-collar-preventic-flea-collar",
@@ -334,22 +290,22 @@
             "testiminal_sender": "-Carissa Menchaca"
           }
         },
-        "testiminal_item_rB3HhW": {
+        "testiminal_item_Lq8iHD": {
           "type": "Testiminal-item",
           "settings": {
             "product_url": "shopify:\/\/products\/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
             "img_url": "shopify:\/\/shop_images\/teresa2.webp",
-            "testiminal_item_title": "Crockpot recipe",
+            "testiminal_item_title": "The CrockPet Diet",
             "testiminal_dscription": "<p>\"I used to cook for my dogs before but I didn’t know that there was so much more vegetables I could put in it. My dog loves the home food way better. So far she seems to be less gassy.\"<\/p>",
             "testiminal_sender": "-Teresa"
           }
         }
       },
       "block_order": [
-        "testiminal_item_7FYdKa",
-        "testiminal_item_rJhpXE",
-        "testiminal_item_WwnAJk",
-        "testiminal_item_rB3HhW"
+        "testiminal_item_j7wQtP",
+        "testiminal_item_3tLLTt",
+        "testiminal_item_Y8ThFi",
+        "testiminal_item_Lq8iHD"
       ],
       "settings": {
         "testiminal_title": "Our happy clients say"
@@ -453,6 +409,86 @@
         "full_width": true,
         "padding_top": 28,
         "padding_bottom": 32
+      }
+    },
+    "e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Unlock a rewarding career while promoting natural well-being for pets.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-heading-1",
+        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-text-1",
+        "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "914ef044-a3b1-4773-91ae-f1b36874354b": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Our Store<\/p>"
+          }
+        },
+        "bdcf6291-3b9b-482b-b151-f1a9bc86ec3c": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>We offer a range of high-quality natural supplements for dogs and cats that are designed to support their overall health and well-being<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486050881__914ef044-a3b1-4773-91ae-f1b36874354b-1680276563e27fed31-0",
+        "bdcf6291-3b9b-482b-b151-f1a9bc86ec3c"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "0816fc52-33ac-4b35-81ac-4c842628750a": {
@@ -692,58 +728,6 @@
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 52
-      }
-    },
-    "e3511e10-8d71-4ec1-a035-4c3a079b8d90": {
-      "type": "rx-podcast-list",
-      "blocks": {
-        "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-0": {
-          "type": "Podcast",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/podcast-Image.png",
-            "podcast_title": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
-            "published_date": "March 6, 2023",
-            "podcast_url": "https:\/\/www.spotify.com\/"
-          }
-        },
-        "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-1": {
-          "type": "Podcast",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/podcast-Image.png",
-            "podcast_title": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
-            "published_date": "March 6, 2023",
-            "podcast_url": "https:\/\/www.spotify.com\/"
-          }
-        },
-        "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-2": {
-          "type": "Podcast",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/podcast-Image.png",
-            "podcast_title": "LOREM IPSUM DOLOR SIT AMET CONSECTETUR",
-            "published_date": "March 6, 2023",
-            "podcast_url": "https:\/\/www.spotify.com\/"
-          }
-        }
-      },
-      "block_order": [
-        "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-0",
-        "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-1",
-        "template--14898486050881__e3511e10-8d71-4ec1-a035-4c3a079b8d90-1680100959c206c0fb-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "title_font": "assistant_n4",
-        "title_font_size": 40,
-        "font": "assistant_n4",
-        "desktopColumns": "3",
-        "tabletColumns": "2",
-        "desktopMaxWidth": "100%",
-        "tabletMaxWidth": "100%",
-        "mobileMaxWidth": "100%",
-        "auto_hide_arrow": false,
-        "container_bgcolor": "#ffffff",
-        "title_color": "#000000",
-        "price_color": "#000000"
       }
     },
     "35a9f240-35c6-4509-b3d7-77ac0c08d41c": {
@@ -1027,16 +1011,16 @@
     "b4714d06-abcd-4096-947f-125116149229",
     "16751816500272c7d1",
     "da93e544-9b93-4abc-a278-b99d780db5d3",
-    "d4b87d47-4683-4708-8f34-83893a2233cf",
-    "custom_testiminal_JGHtw6",
+    "custom_product_testiminal_JW4UiA",
     "4add22ab-e9ac-4adc-9d80-f5ec5ac0302d",
     "519a28f3-c4ef-4319-9853-c8d825c82db3",
+    "e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39",
+    "914ef044-a3b1-4773-91ae-f1b36874354b",
     "0816fc52-33ac-4b35-81ac-4c842628750a",
     "df6ff21b-835d-453a-ab12-a99160479690",
     "cf1b90a0-cc7f-46bb-b24e-469e6e57df56",
     "40e124d8-821b-4b01-8eb8-2482449db53a",
     "e08ace68-3822-43dd-8d71-0eec07090099",
-    "e3511e10-8d71-4ec1-a035-4c3a079b8d90",
     "35a9f240-35c6-4509-b3d7-77ac0c08d41c",
     "c07243a3-5fee-499e-a09b-241b56f0595c",
     "1d7acd25-827c-4f3c-8845-e495b1105759",

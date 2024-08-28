@@ -44,6 +44,7 @@
         "text_mx7YGm",
         "button_4MTUjz"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -61,7 +62,9 @@
         "show_arrow_mobile": "no",
         "mobile_content_alignment": "center",
         "padding_top": 24,
-        "padding_bottom": 24
+        "padding_bottom": 24,
+        "content_padding_top": 50,
+        "content_padding_bottom": 50
       }
     },
     "main-collection-product-grid": {
@@ -163,7 +166,7 @@
         "desktop_content_position": "center",
         "content_alignment": "center",
         "caption_alignment": "center",
-        "section_bg_color": "#fff",
+        "section_bg_color": "#ffffff",
         "image_width": "100%",
         "full_width": true,
         "padding_top": 40,

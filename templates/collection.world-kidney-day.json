@@ -13,15 +13,15 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-text-1": {
           "type": "text",
           "settings": {
-            "text": "Start Prioritizing Your Pets and Your Wellness – Shop Now at 30% Off! use code LABORDAY30",
+            "text": "From August 30th to September 3rd, grab your favorite supplements at up to 50% off before they're gone for good!",
             "text_style": "body"
           }
         },
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "https:\/\/drruthroberts.com\/collections\/clearance-sale",
+            "button_label_1": "REMIND ME",
+            "button_link_1": "https:\/\/courses.drruthroberts.com\/c\/ask-dr-ruth-monthly-q-a\/recharge-this-labor-day-enjoy-50-off-wellness-essentials-for-your-furry-friends",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "https:\/\/drruthroberts.com\/pages\/black-friday-cyber-monday-sale",
@@ -35,7 +35,7 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DALL_E_2024-08-19_10.51.09_-_A_landscaper_dressed_in_work_clothes_including_muddy_boots_gloves_and_a_hat_is_kneeling_down_in_a_yard_or_garden_to_pet_a_friendly_dog._The_scene.webp",
+        "image": "shopify:\/\/shop_images\/DALL_E_2024-08-19_10.51.09_-_A_landscaper_dressed_in_work_clothes_including_muddy_boots_gloves_and_a_hat_is_kneeling_down_in_a_yard_or_garden_to_pet_a_friendly_dog._The_scene.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-left",

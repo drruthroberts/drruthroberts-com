@@ -6,43 +6,30 @@
         "heading_7rkjC9": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Never before seen Labor Day sale is here!",
             "heading_size": "h1"
           }
         },
         "text_jXLPf9": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "Get Up to 50% off Wellness Products!",
             "text_style": "body"
-          }
-        },
-        "buttons_qAdEXn": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_7rkjC9",
-        "text_jXLPf9",
-        "buttons_qAdEXn"
+        "text_jXLPf9"
       ],
-      "disabled": true,
       "custom_css": [
         ".button {margin-top: 15em; margin-right: 3.5em;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/HPHC_Banners_5.png",
+        "image": "shopify:\/\/shop_images\/labor_day_banner_2_0c41ffe7-6f60-4829-9b93-b7b56b20a3f3.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "image_height": "small",
+        "desktop_content_position": "top-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -95,6 +82,50 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_4atTND": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LKRYq6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_4ayrig": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_AxqrKa": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP LABOR DAY SALE NOW",
+            "button_link": "https:\/\/drruthroberts.com\/collections\/labor-day",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LKRYq6",
+        "text_4ayrig",
+        "button_AxqrKa"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rx_rich_text_yXXLjK": {
@@ -270,6 +301,7 @@
         "text_VEHFpd",
         "button_9pxGby"
       ],
+      "disabled": true,
       "settings": {
         "unique_class": "",
         "image": "shopify:\/\/shop_images\/doglympics_2.png",
@@ -291,14 +323,14 @@
         "heading_x96H78": {
           "type": "heading",
           "settings": {
-            "heading": "Parsemus mission to education about Spay and Neuter Syndrome",
+            "heading": "Could Hidden Home Toxins Be Threatening Your Indoor Cats?",
             "heading_size": "h1"
           }
         },
         "text_d4EWVp": {
           "type": "text",
           "settings": {
-            "text": "<p>Have you ever wondered about the deeper impacts of spaying or neutering? That’s exactly what we’re diving into at our upcoming event, and you’re invited! <br\/>Linda Brent isn’t just an expert—she’s a legend in animal welfare. Picture this: a young Linda, surrounded by wild chimpanzees, meticulously studying their maternal behaviors. Fast forward to today, with over 30 years under her belt, Linda’s journey has been nothing short of extraordinary.<br\/>Learn more about Linda <a href=\"https:\/\/www.parsemus.org\/\">https:\/\/www.parsemus.org\/<\/a><\/p><p><\/p>",
+            "text": "<p>Join Jae Kennedy of Two Crazy Cat Ladies™ on August 29th at noon for a Facebook Live event where we’ll uncover the hidden dangers in your home that could be affecting your cat’s health. From flame retardants to perfluorochemicals, our cats are showing us early warning signs of pollutants—long before we might notice them ourselves.<\/p>",
             "text_style": "body"
           }
         },
@@ -306,7 +338,7 @@
           "type": "button",
           "settings": {
             "button_label": "RSVP NOW",
-            "button_link": "https:\/\/courses.drruthroberts.com\/c\/ask-dr-ruth-monthly-q-a\/discover-the-hidden-truths-of-spay-and-neuter-with-linda-brent"
+            "button_link": "https:\/\/www.facebook.com\/share\/51atNnDwCbutsyoX\/"
           }
         }
       },
@@ -317,7 +349,7 @@
       ],
       "settings": {
         "unique_class": "",
-        "image": "shopify:\/\/shop_images\/IG_LAYOUT-_EVENTS_2.png",
+        "image": "shopify:\/\/shop_images\/Aug_29_Jae_of_Two_Crazy_Cat_Ladies_3.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -427,6 +459,7 @@
   "order": [
     "image_banner_CXG8P6",
     "rich_text_AqFFqH",
+    "rich_text_4atTND",
     "rx_rich_text_yXXLjK",
     "rx_rich_text_bbJARD",
     "image_with_text_mM7EJV",
