@@ -293,7 +293,7 @@
         "testiminal_item_Lq8iHD": {
           "type": "Testiminal-item",
           "settings": {
-            "product_url": "shopify:\/\/products\/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts",
+            "product_url": "shopify:\/\/products\/the-original-crockpet-diet-recipe",
             "img_url": "shopify:\/\/shop_images\/teresa2.webp",
             "testiminal_item_title": "The CrockPet Diet",
             "testiminal_dscription": "<p>\"I used to cook for my dogs before but I didn’t know that there was so much more vegetables I could put in it. My dog loves the home food way better. So far she seems to be less gassy.\"<\/p>",
@@ -660,7 +660,7 @@
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-0": {
           "type": "Product",
           "settings": {
-            "product_block": "the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
+            "product_block": "the-original-crockpet-diet-recipe"
           }
         },
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1": {

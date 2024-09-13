@@ -9,7 +9,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "Explore the World of Holistic Pet Health Coaching 🌿 Sign Up Now For the August 14 workshop. 🐾",
+            "text": "Unleash Your Potential: Become a Holistic Pet Health Coach! 🩺Sign Up Now For the September 12 workshop now! 🐾",
             "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner"
@@ -17,8 +17,9 @@
         },
         "announcement_qWPKCT": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "🎉 Never Before Seen Items on Sale – Get Ready for the BIGGEST Sale of the Year! 08\/30-09\/03 🎉",
+            "text": "Last Chance! ⏰ Grab up to 50% Off our never-before-seen collection – Sale Ends at Midnight!",
             "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": "https:\/\/drruthroberts.com\/collections\/labor-day"

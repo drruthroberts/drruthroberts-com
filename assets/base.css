@@ -5249,20 +5249,20 @@ p.pfeesdec {
 }
 .slidecontent{
   font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
-  color: #1E1E1E;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #1E1E1E;
  padding:0 15px; 
 }
 .shophead{
-  font-family: 'BLT-Heirloom';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 40px;
-  color: #1E1E1E;
+font-family: 'BLT-Heirloom';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 40px;
+color: #1E1E1E;
 }
 .shopheap{
   text-align: center;
@@ -5280,22 +5280,22 @@ border-radius: 24px;
 }
 .shopbhead{
   font-family: 'BLT-Heirloom';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 29px;margin-bottom: 10px;
-  text-transform: capitalize;
-  color: #1E1E1E;
-  text-align: center;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 29px;margin-bottom: 10px;
+text-transform: capitalize;
+color: #1E1E1E;
+      text-align: center;
 }
 .shopdes{
   font-family: 'Josefin Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  color: #1E1E1E;margin-bottom: 0;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+color: #1E1E1E;margin-bottom: 0;
 }
 .shop_block{
     display: flex;
@@ -6648,7 +6648,6 @@ text-transform: capitalize;
 position: relative;
 top: -20%;
 }
-
 .article-card__info.caption-with-letter-spacing.h5 span {
 font-family: 'Josefin Sans';
 font-style: normal;
@@ -7773,10 +7772,12 @@ width: 250px;
   background-color: transparent;
 }
 .special_offer{
-padding: 10px 30px;
+    padding: 10px 30px;
     background: #F5F8F1;
     border-radius: 24px;
-    margin-right: 10px;}
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 .special_offer a{
   text-decoration: none;
    font-family: Josefin Sans;
@@ -7789,7 +7790,8 @@ padding: 10px 30px;
   padding: 10px 12px;
 }
 .facet-filters.sorting.caption {
-  display: flex;
+  display: none;
+  /* display: flex; */
   align-items: center;
 }
 .facet-filters__label label,.select .facet-filters__sort{
@@ -8076,3 +8078,10 @@ h3.imgtitle {
 .gf-left .gf-option-block .gf-block-title .h3:after {
   float: right !important;
 }
+
+/* @media only screen and (max-width: 480px) {
+    #all-products #gf-tree {
+        width: 90% !important;
+        left: -90%;
+    }
+} */

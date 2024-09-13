@@ -86,54 +86,6 @@
     },
     "rx_posts_RY6zzm": {
       "type": "rx-posts",
-      "blocks": {
-        "title_FtNJyz": {
-          "type": "title",
-          "settings": {
-            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
-            "reviewer_name": "Dr. Ruth | March 6, 2023",
-            "post_link": "shopify:\/\/blogs\/dental-health\/affordable-dog-dental-cleaning-follow-this-diy-steps",
-            "post_image": "shopify:\/\/shop_images\/0711223-IMG-ReviseBlog2a-2-800x450.webp",
-            "overlap": false
-          }
-        },
-        "title_3WzG9H": {
-          "type": "title",
-          "settings": {
-            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
-            "reviewer_name": "Dr. Ruth | March 6, 2023",
-            "post_link": "shopify:\/\/blogs\/product-review\/drenamin-review-adrenal-and-emotional-support-supplement",
-            "post_image": "shopify:\/\/shop_images\/Drenamin1-800x450.webp",
-            "overlap": false
-          }
-        },
-        "title_MKrKp3": {
-          "type": "title",
-          "settings": {
-            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
-            "reviewer_name": "Dr. Ruth | March 6, 2023",
-            "post_link": "shopify:\/\/blogs\/product-review\/megasporebiotic™-the-best-gut-health-supplements-for-pets",
-            "post_image": "shopify:\/\/shop_images\/07112023-IMG-Blog2a-800x450.webp",
-            "overlap": false
-          }
-        },
-        "title_e4WGNT": {
-          "type": "title",
-          "settings": {
-            "title": "7 NATURAL REMEDIES FOR CATSWITH KIDNEY DISEASE",
-            "reviewer_name": "Dr. Ruth | March 6, 2023",
-            "post_link": "shopify:\/\/blogs\/product-review\/restorflora™-natural-probiotics-for-dogs-and-cats",
-            "post_image": "shopify:\/\/shop_images\/0711223-IMG-ReviseBlog1a-800x450.webp",
-            "overlap": false
-          }
-        }
-      },
-      "block_order": [
-        "title_FtNJyz",
-        "title_3WzG9H",
-        "title_MKrKp3",
-        "title_e4WGNT"
-      ],
       "settings": {
         "desktopColumns": "3",
         "tabletColumns": "2",
@@ -153,26 +105,79 @@
         "blogs_btn": "Read More blogs"
       }
     },
+    "rx_blog_VpykYm": {
+      "type": "rx-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "pet-blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rx_posts_JNXfkQ": {
+      "type": "rx-posts",
+      "settings": {
+        "desktopColumns": "3",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "80%",
+        "tabletMaxWidth": "90%",
+        "mobileMaxWidth": "90%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "",
+        "card_bgcolor": "#ffffff",
+        "filled_star_color": "",
+        "empty_star_color": "",
+        "blogs_title": "Our Product Review",
+        "blogs_description": "<p>Read our in-depth article where we review the best supplements for your pet's health, along with top-rated pet health devices. Find out which products can make a real difference in your pet’s well-being.<\/p>",
+        "blogs_url": "#",
+        "blogs_btn": "read more reviews"
+      }
+    },
+    "rx_blog_GmzDaG": {
+      "type": "rx-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "product-review",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "54622c8f-3f1b-48e3-a24e-b5c8cd560f29": {
       "type": "pet_video",
       "blocks": {
         "fc3a6d8a-578f-40c3-aba2-5efd26c305b8": {
           "type": "block",
           "settings": {
-            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petvideourl": "https:\/\/youtu.be\/w4RddBUg4I8?feature=shared",
             "petviid": "LIVE STREAM",
             "video_date": "| August 6, 2023",
             "petvideocontent": "UPCOMING |  TOCD WEEKLY QNA",
             "petvideocontentdesss": "",
             "petvideobtn": "watch video",
-            "petvidbtnurl": "",
+            "petvidbtnurl": "#",
             "video_overlap": false
           }
         },
         "53165b96-789f-4d61-86cc-0ee7f9c68450": {
           "type": "block",
           "settings": {
-            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petvideourl": "https:\/\/youtu.be\/IoQ1WGYKAYw?feature=shared",
             "petviid": "WEBINAR",
             "video_date": "| August 6, 2023",
             "petvideocontent": "The next level Pet healthstories",
@@ -185,7 +190,7 @@
         "1c348941-662e-4410-8246-4b175e5cc5c1": {
           "type": "block",
           "settings": {
-            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petvideourl": "https:\/\/youtu.be\/dOiD1TU7XJY?feature=shared",
             "petviid": "VLOG",
             "video_date": "|  March 7, 2023",
             "petvideocontent": "HOW I TREAT KIDNEY DISEASE IN DOGS & CATS",
@@ -198,7 +203,7 @@
         "1f91b1ad-94c8-45fb-a588-7b44448fbff5": {
           "type": "block",
           "settings": {
-            "petvideourl": "https:\/\/www.youtube.com\/embed\/D0UnqGm_miA",
+            "petvideourl": "https:\/\/youtu.be\/AHTk7q3LHko?feature=shared",
             "petviid": "INFOGRAPHIC",
             "video_date": "| August 6, 2023",
             "petvideocontent": "Lorem ipsum dolor sit amet consectetur",
@@ -215,6 +220,7 @@
         "1c348941-662e-4410-8246-4b175e5cc5c1",
         "1f91b1ad-94c8-45fb-a588-7b44448fbff5"
       ],
+      "disabled": true,
       "settings": {
         "video_header": "Our Product Review",
         "desktopMaxWidth": "80%",
@@ -256,40 +262,40 @@
         "title_zddiDV": {
           "type": "title",
           "settings": {
-            "title": "Lorem ipsum dolor sit amet consectetur",
+            "title": "Ways To Prolonged Your Pet's Longevity",
             "reviewer_name": "August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "post_link": "shopify:\/\/blogs\/podcast\/ways-to-prolonged-your-pets-longevity",
+            "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_1_32ca83b6-737b-4aaf-af8d-a5ac0acb9cab.png",
             "overlap": false
           }
         },
         "title_ykFEeG": {
           "type": "title",
           "settings": {
-            "title": "Lorem ipsum dolor sit amet consectetur",
+            "title": "Core and Non-core Vaccine For Your Dogs",
             "reviewer_name": "August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "post_link": "shopify:\/\/blogs\/pet-blog\/core-and-non-core-vaccine-for-your-dogs",
+            "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_II_67447d13-40f1-4d8c-81dc-9b3b9cde44ce.png",
             "overlap": false
           }
         },
         "title_GiyTmL": {
           "type": "title",
           "settings": {
-            "title": "Lorem ipsum dolor sit amet consectetur",
+            "title": "Understanding Vaccine Lumps in Dogs: Duration and Care",
             "reviewer_name": "August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "post_link": "shopify:\/\/blogs\/pet-blog\/understanding-vaccine-lumps-in-dogs-duration-and-care",
+            "post_image": "shopify:\/\/shop_images\/lump_after_vaccine.webp",
             "overlap": false
           }
         },
         "title_p48JKA": {
           "type": "title",
           "settings": {
-            "title": "Lorem ipsum dolor sit amet consectetur",
+            "title": "ARE YOU PET PREPARED? EMERGENCY KIT FOR YOUR PETS",
             "reviewer_name": "August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/Image_2_3116423c-4829-43f9-9c1f-0e052e799c39.png",
+            "post_link": "shopify:\/\/blogs\/pet-blog\/are-you-pet-prepared-emergency-kit-for-your-pets",
+            "post_image": "shopify:\/\/shop_images\/Emergency_Kit_for_Your_Cats_and_Dogs.jpg",
             "overlap": false
           }
         }
@@ -315,60 +321,12 @@
         "empty_star_color": "",
         "blogs_title": "Our Podcast",
         "blogs_description": "<p>Listen to our podcast for in-depth conversation with leading veterinarians and experts. Gain new perspective and valuable insights for your pet.<\/p>",
-        "blogs_url": "shopify:\/\/blogs\/podcast",
+        "blogs_url": "shopify:\/\/blogs\/podcast-1",
         "blogs_btn": "VIEW MORE PODCAST"
       }
     },
     "rx_posts_eme6MN": {
       "type": "rx-posts",
-      "blocks": {
-        "title_gpERr3": {
-          "type": "title",
-          "settings": {
-            "title": "HOLISTIC pET hEALTH pROTOCOLS BY dR rUTH rOBERTS",
-            "reviewer_name": "PDF | August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
-            "overlap": false
-          }
-        },
-        "title_j3XByY": {
-          "type": "title",
-          "settings": {
-            "title": "Lorem ipsum dolor sit amet consectetur",
-            "reviewer_name": "E-BOOK | August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
-            "overlap": false
-          }
-        },
-        "title_DAd7RR": {
-          "type": "title",
-          "settings": {
-            "title": "Lorem ipsum dolor sit amet consectetur",
-            "reviewer_name": "INFOGRAPHIC | August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
-            "overlap": false
-          }
-        },
-        "title_3PWHC4": {
-          "type": "title",
-          "settings": {
-            "title": "HOLISTIC pET hEALTH pROTOCOLS BY dR rUTH rOBERTS",
-            "reviewer_name": "PDF | August 6, 2023",
-            "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/FREE_PROTOCOLS_1.png",
-            "overlap": false
-          }
-        }
-      },
-      "block_order": [
-        "title_gpERr3",
-        "title_j3XByY",
-        "title_DAd7RR",
-        "title_3PWHC4"
-      ],
       "settings": {
         "desktopColumns": "3",
         "tabletColumns": "2",
@@ -385,7 +343,23 @@
         "blogs_title": "Our Videos",
         "blogs_description": "<p>Get a treasure trove of knowledge with our FREE downloadable pdfs, e-book and infographics. Learn from our  resources to enhance your pet's health and well-being.<\/p>",
         "blogs_url": "#",
-        "blogs_btn": "FREE DOWNLOADABLES"
+        "blogs_btn": "WATCH MORE VIDEOS"
+      }
+    },
+    "rx_blog_GKWJRp": {
+      "type": "rx-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "video",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "custom_image_with_text_LQzHzz": {
@@ -454,49 +428,70 @@
         "content_padding_bottom": 64
       }
     },
-    "image_with_text_deJKTG": {
-      "type": "image-with-text",
+    "rx_posts_WanV7D": {
+      "type": "rx-posts",
       "blocks": {
-        "heading_zGA38K": {
-          "type": "heading",
+        "title_UmAeCV": {
+          "type": "title",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "title": "Best Product",
+            "reviewer_name": "Post Date",
+            "post_link": "",
+            "overlap": false
           }
         },
-        "text_ec3EHC": {
-          "type": "text",
+        "title_ATmCKq": {
+          "type": "title",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "title": "Best Product",
+            "reviewer_name": "Post Date",
+            "post_link": "",
+            "overlap": false
           }
         },
-        "button_RxFPkh": {
-          "type": "button",
+        "title_PV3khL": {
+          "type": "title",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "Best Product",
+            "reviewer_name": "Post Date",
+            "post_link": "",
+            "overlap": false
+          }
+        },
+        "title_ipCLzj": {
+          "type": "title",
+          "settings": {
+            "title": "Best Product",
+            "reviewer_name": "Post Date",
+            "post_link": "",
+            "overlap": false
           }
         }
       },
       "block_order": [
-        "heading_zGA38K",
-        "text_ec3EHC",
-        "button_RxFPkh"
+        "title_UmAeCV",
+        "title_ATmCKq",
+        "title_PV3khL",
+        "title_ipCLzj"
       ],
       "disabled": true,
       "settings": {
-        "unique_class": "",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktopColumns": "2",
+        "tabletColumns": "2",
+        "desktopMaxWidth": "100%",
+        "tabletMaxWidth": "100%",
+        "mobileMaxWidth": "100%",
+        "autoPlay": false,
+        "smoothAutoPlay": false,
+        "auto_hide_arrow": false,
+        "container_bgcolor": "",
+        "card_bgcolor": "#ffffff",
+        "filled_star_color": "",
+        "empty_star_color": "",
+        "blogs_title": "Our Product Review",
+        "blogs_description": "<p>Read our insightful articles for  expert pet advice,  holistic pet health tips, and nurturing natural remedies to elevate your pet’s well-being<\/p>",
+        "blogs_url": "",
+        "blogs_btn": "Read More blogs"
       }
     }
   },
@@ -504,13 +499,17 @@
     "main",
     "rx_img_with_text_slider_tmLr4h",
     "rx_posts_RY6zzm",
+    "rx_blog_VpykYm",
+    "rx_posts_JNXfkQ",
+    "rx_blog_GmzDaG",
     "54622c8f-3f1b-48e3-a24e-b5c8cd560f29",
     "febdc93f-b5f0-4728-b425-acf1d35080a9",
     "8f23295c-e0a3-43cd-b327-ad136018ebdc",
     "rx_posts_tRLpWx",
     "rx_posts_eme6MN",
+    "rx_blog_GKWJRp",
     "custom_image_with_text_LQzHzz",
     "rx_img_with_text_4abh9M",
-    "image_with_text_deJKTG"
+    "rx_posts_WanV7D"
   ]
 }

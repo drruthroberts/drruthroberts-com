@@ -3,34 +3,12 @@
     "custom_slider_banner_hEcVXF": {
       "type": "custom-slider-banner",
       "blocks": {
-        "slider_banner_jUEU99": {
-          "type": "slider-banner",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-mike-jones-8805276_1.jpg",
-            "image_overlay_opacity": 0,
-            "image_height": "medium",
-            "desktop_content_position": "middle-left",
-            "show_text_box": true,
-            "container_bg": "#ffffff",
-            "desktop_content_alignment": "center",
-            "heading_color": "#000000",
-            "text_color": "#000000",
-            "show_arrow_mobile": "yes",
-            "mobile_content_alignment": "center",
-            "stack_images_on_mobile": true,
-            "show_text_below": true,
-            "heading": "SAVE YOUR SEAT!",
-            "text": "Join a series of enlightening and impactful events aim to enhance your knowledge and skills in holistic pet care",
-            "button_label_1": "Stay Updated",
-            "button_link_1": "#"
-          }
-        },
         "slider_banner_P3NTEU": {
           "type": "slider-banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-any-lane-5946081_1.jpg",
+            "image": "shopify:\/\/shop_images\/Sept_12_HPHC_live_with_Allison_Alvarez.png",
             "image_overlay_opacity": 0,
-            "image_height": "medium",
+            "image_height": "large",
             "desktop_content_position": "middle-left",
             "show_text_box": true,
             "container_bg": "#ffffff",
@@ -49,8 +27,9 @@
         },
         "slider_banner_896cCb": {
           "type": "slider-banner",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-mike-jones-8805276_1.jpg",
+            "image": "shopify:\/\/shop_images\/Sept_19_HPHC_live_with_Dr._Kathleen_Cooney_24ebea93-d8d8-4be6-b5b5-09f4ac6b28fc.png",
             "image_overlay_opacity": 0,
             "image_height": "medium",
             "desktop_content_position": "middle-left",
@@ -71,7 +50,6 @@
         }
       },
       "block_order": [
-        "slider_banner_jUEU99",
         "slider_banner_P3NTEU",
         "slider_banner_896cCb"
       ],
@@ -115,47 +93,48 @@
     "custom_event_page_VdU6GR": {
       "type": "custom-event-page",
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/pexels-sheng-lu-wu-241205014-14519245_1.jpg",
+        "event_img": "shopify:\/\/shop_images\/Allison_Alvarez.png",
         "calendar_img": "shopify:\/\/shop_images\/date_3.png",
-        "week_text": "Monday",
-        "week": "0",
+        "week_text": "Thurday",
+        "week": "4",
         "month_text": "September",
         "month": "8",
-        "date": 15,
+        "date": 12,
         "year": 2024,
         "time_img": "shopify:\/\/shop_images\/time_3.png",
-        "start_hour": 10,
-        "end_hour": 16,
-        "time_zone": "ET",
-        "title": "[H2] Lorem Ipsum Dolor Sit AmetConsectetur",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum. Integer et nunc in lectus hendrerit blandit vel et ipsum. Nullam fermentum, quam a cursus consectetur, metus libero varius erat, eget varius lectus nisl non nunc. Sed sodales convallis tincidunt.<\/p>",
-        "button_link_1": "#",
-        "button_label_1": "REGISTER NOW",
+        "start_hour": 12,
+        "end_hour": 1,
+        "time_zone": "EST",
+        "title": "Inside Out: Why Gut Health is Essential for Your Pet Skin Care",
+        "description": "<p>Is your pet’s skin causing you both frustration? You're not alone! Join us on September 12th at 12 PM EST for \"Inside Out: Understanding the Gut's Role in Your Pet's Skin Health,\" hosted by Dr. Ruth Roberts and featuring Allison Álvarez, Certified Holistic Pet Health Coach and owner of Spoties Pet Shop. Don’t miss this chance to learn from a true expert and see how holistic care can make a difference. <\/p>",
+        "button_link_1": "https:\/\/www.facebook.com\/share\/2jhK9v7RYuj2Dmoj\/",
+        "button_label_1": "Join Us here",
         "button_link_2": "#",
-        "button_label_2": "Learn more"
+        "button_label_2": ""
       }
     },
     "custom_canlendar_event_9wRF4t": {
       "type": "custom-canlendar-event",
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/pexels-jaclou-dl-16749455_1.jpg",
-        "week_text": "Monday",
-        "week": "0",
-        "month_text": "January",
+        "event_img": "shopify:\/\/shop_images\/Sept_19_HPHC_live_with_Dr._Kathleen_Cooney.png",
+        "week_text": "Thurday",
+        "week": "4",
+        "month_text": "September",
         "month": "0",
-        "date": 27,
+        "date": 12,
         "year": 2024,
-        "start_hour": 10,
-        "end_hour": 16,
+        "start_hour": 12,
+        "end_hour": 1,
         "time_zone": "ET",
-        "title": "Lorem Ipsum Dolor Sit AmetConsectetur",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum. Integer et nunc in lectus hendrerit blandit vel et ipsum. Nullam fermentum, quam a cursus consectetur, metus libero varius erat, eget varius lectus nisl non nunc. Sed sodales convallis tincidunt.<\/p>",
+        "title": "A Peaceful Goodbye: Dr. Kathleen Cooney on Pet Hospice and Euthanasia",
+        "description": "<p>Join us with Dr. Kathleen Cooney, an expert in pet hospice and euthanasia. She’ll share her knowledge on how to provide comfort and care for your pets during their final days, offering practical advice to help you make this difficult time as peaceful as possible.<\/p><p>Tune in on Facebook Live—don’t miss it!<\/p>",
         "button_link_1": "#",
         "button_label_1": "REGISTER NOW"
       }
     },
     "custom_canlendar_event_LbdpX6": {
       "type": "custom-canlendar-event",
+      "disabled": true,
       "settings": {
         "event_img": "shopify:\/\/shop_images\/AdobeStock_132183881.jpg",
         "week_text": "Monday",
@@ -203,7 +182,7 @@
         "section_bg_color": "#ffffff",
         "image_width": "100%",
         "full_width": true,
-        "padding_top": 8,
+        "padding_top": 56,
         "padding_bottom": 60
       }
     },
@@ -221,21 +200,23 @@
         "heading_RbjdnJ": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "No upcoming featured event to be shown",
             "heading_size": "h1"
           }
         },
         "text_tjaciU": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "To be announce",
             "text_style": "body"
           }
         },
         "date_DcyFT4": {
           "type": "date",
+          "disabled": true,
           "settings": {
-            "date_text": "Wednesday, February 14th | 10 AM - 01 PM ET"
+            "date_text": "Monday, September 12th, 2024 12pm ~ 1pm EST"
           }
         },
         "buttons_JpK7Ag": {
@@ -272,6 +253,7 @@
     },
     "custom_sign_up_F9i3pN": {
       "type": "custom-sign-up",
+      "disabled": true,
       "settings": {
         "event_img": "shopify:\/\/shop_images\/AdobeStock_132183881.jpg",
         "calendar_img": "shopify:\/\/shop_images\/date_3.png",
@@ -297,6 +279,7 @@
     },
     "custom_sign_up_Le9wNX": {
       "type": "custom-sign-up",
+      "disabled": true,
       "settings": {
         "event_img": "shopify:\/\/shop_images\/AdobeStock_132183881.jpg",
         "calendar_img": "shopify:\/\/shop_images\/date_3.png",
@@ -320,6 +303,25 @@
         "button_label_2": "Learn more"
       }
     },
+    "rx_blog_4BMmUg": {
+      "type": "rx-blog",
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\"; font-weight: bold;}"
+      ],
+      "settings": {
+        "heading": "Watch the Previous Event You Missed",
+        "heading_size": "h2",
+        "blog": "events",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rx_posts_QFQceW": {
       "type": "rx-posts",
       "blocks": {
@@ -329,7 +331,7 @@
             "title": "LOREM IPSUM DOLOR SIT AMET",
             "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum.  <\/p>",
             "reviewer_name": "November 13, 2023",
-            "post_link": "",
+            "post_link": "shopify:\/\/blogs\/events\/hphc-live-with-amy-renz-metabolic-syndrome-in-dogs",
             "post_image": "shopify:\/\/shop_images\/pexels-any-lane-5946081_1.jpg",
             "overlap": false
           }
@@ -362,6 +364,7 @@
         "title_X6WFnF",
         "title_jqh3NE"
       ],
+      "disabled": true,
       "settings": {
         "desktopColumns": "3",
         "padding_top": 20,
@@ -379,8 +382,8 @@
         "empty_star_color": "",
         "blogs_title": "Watch the Previous Event You Missed",
         "blogs_description": "",
-        "blogs_url": "",
-        "blogs_btn": "Read More blogs"
+        "blogs_url": "shopify:\/\/blogs\/events",
+        "blogs_btn": "MORE EVENTS"
       }
     },
     "newsletter_hW4FTW": {
@@ -430,6 +433,7 @@
     "image_banner_DifKD3",
     "custom_sign_up_F9i3pN",
     "custom_sign_up_Le9wNX",
+    "rx_blog_4BMmUg",
     "rx_posts_QFQceW",
     "newsletter_hW4FTW"
   ]

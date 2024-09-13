@@ -69,7 +69,26 @@
               >
                 {{ article.content }}
               </div>
- 
+            
+<!-- YouTube IFrame API Script -->
+<script async src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+  var player;
+
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('myVideo');
+  }
+
+  function seekToTime(seconds) {
+    if (player && player.seekTo) {
+      player.seekTo(seconds, true);
+      player.playVideo(); // Automatically play the video after seeking
+    }
+  }
+</script>
+
+
             {%- when 'share' -%}
               <div class="article-template__social-sharing page-width page-width--narrow" {{ block.shopify_attributes }}>
                 {% assign share_url = request.origin | append: article.url %}

@@ -31,13 +31,13 @@
         "heading_KKCFrc": {
           "type": "heading",
           "settings": {
-            "heading": "FIT AS FIDDLE - Healthy Pets"
+            "heading": "{{ page.metafields.custom.heading1.value }}"
           }
         },
         "text_fNxWgG": {
           "type": "text",
           "settings": {
-            "text": "It’s wonderful to see your pet enjoying life to the fullest. Keep them free from preventable health issues with Dr. Ruth's recommended reads"
+            "text": "{{ page.metafields.custom.heading2.value }}"
           }
         },
         "buttons_XmcEeU": {
@@ -72,40 +72,65 @@
         "show_text_below": true
       }
     },
+    "rich_text_xrPAEb": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QcGTwK": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.metafields.custom.introtext | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_QcGTwK"
+      ],
+      "custom_css": [
+        "p {font-weight: bold; font-family: \"BLT-Heirloom\";}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
     "multirow_gigaDJ": {
       "type": "multirow",
       "blocks": {
         "row_bFktRG": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_8.png",
+            "image": "{{ page.metafields.custom.image1.value }}",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/are-flea-control-products-safe-for-your-pet\" target=\"_blank\" title=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/are-flea-control-products-safe-for-your-pet\">Are Flea Control Products Safe for Your Pet?<\/a>",
-            "text": "<p>Fleas pose serious health risks to pets, such as skin infections, allergies, and disease transmission. To protect their pets, owners often use flea control products, but safety concerns arise. This blog examines the safety of these products and offers guidance on choosing the best options for your pet.<\/p>",
-            "button_label": "Read more",
+            "heading": "{{ page.metafields.custom.blogg1 | metafield_tag }}",
+            "text": "<p>{{ page.metafields.custom.blog_excerpt | metafield_tag }}<\/p>",
+            "button_label": "",
             "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/are-flea-control-products-safe-for-your-pet"
           }
         },
         "row_ACDf3e": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_9.png",
+            "image": "{{ page.metafields.custom.image2.value }}",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/7-ways-to-prevent-medical-problems-in-your-dog\" title=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/7-ways-to-prevent-medical-problems-in-your-dog\">7 Ways to Guard Your Dog Against Medical Problems<\/a>",
-            "text": "<p>As a dog parent, keeping your furry friend healthy and happy is a top priority. With decades of veterinary experience, my mission is to help you prevent health issues before they start. From accidental poisoning to kidney disease, learn how to avoid common dangers and prolong your dog's life with science-backed tips. Read more about seven preventable dog health problems.<\/p>",
-            "button_label": "Read more",
-            "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/7-ways-to-prevent-medical-problems-in-your-dog"
+            "heading": "{{ page.metafields.custom.blogg2 | metafield_tag }}",
+            "text": "<p>{{ page.metafields.custom.blog_excerpt_2 | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "row_N9tGLY": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_10.png",
+            "image": "{{ page.metafields.custom.image3.value }}",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/5-best-nutrients-as-immune-booster-for-dogs-and-cats\" target=\"_blank\" title=\"https:\/\/drruthroberts.com\/blogs\/pet-blog\/5-best-nutrients-as-immune-booster-for-dogs-and-cats\">5 Best Nutrients as Immune Booster for Dogs and Cats<\/a>",
-            "text": "<p>Your pet's immune system is constantly working to heal wounds and fight off illnesses. A strong immune system is essential for keeping your pet happy, healthy, and active. Luckily, there are many ways to boost your pet's immunity. In this article, discover the signs of a strong immune system and learn effective strategies to support your pet's health. Read on to learn more!<\/p>",
-            "button_label": "Read more",
-            "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/5-best-nutrients-as-immune-booster-for-dogs-and-cats"
+            "heading": "{{ page.metafields.custom.blog3 | metafield_tag }}",
+            "text": "<p>{{ page.metafields.custom.blog_excerpt3 | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
@@ -117,11 +142,12 @@
       "custom_css": [
         "h2 {font-family: BLT-Heirloom;}",
         "p {font-weight: normal;}",
-        ".button {font-family: Josefin Sans;}"
+        ".button {font-family: Josefin Sans;}",
+        ".image-with-text__media {border-radius: 20;}"
       ],
       "settings": {
         "image_height": "large",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
@@ -141,14 +167,14 @@
         "text_kmdmDy": {
           "type": "text",
           "settings": {
-            "text": "<p>An ounce of prevention is worth a pound of cure. Staying healthy takes effort, and when your pet is healthy this protocol is simply part of the daily routine. Eat, Move, Meditate, Reduce Inflammation, & Keep The Gut Healthy.<\/p><p>This collection of supplements to keep your pets healthy empower pet owners to care for their animals in the same way they care for themselves. We have the incredible capacity to influence the health of our pets if we provide them with the correct nourishment.<\/p>"
+            "text": "<p>{{ page.metafields.custom.blog_excerpt4 | metafield_tag }}<\/p>"
           }
         },
         "button_yenL8K": {
           "type": "button",
           "settings": {
-            "button_label": "Holistic Supplement Here",
-            "button_link": "https:\/\/drruthroberts.com\/collections\/keep-my-pet-healthy-protocol-1?_gl=1*13vkyrs*_ga_TL61H2B15E*MTcxOTE1MTg3MS4xLjEuMTcxOTE1MjkzOS41MS4wLjA."
+            "button_label": "{{ page.metafields.custom.button_label1.value }}",
+            "button_link": "{{ page.metafields.custom.button_url1.value }}"
           }
         }
       },
@@ -157,8 +183,8 @@
         "button_yenL8K"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/PRODUCT_BANNER_700_x_700_px_7.png",
-        "height": "medium",
+        "image": "{{ page.metafields.custom.image4.value }}",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_title_alignment": "left",
@@ -170,7 +196,9 @@
         "show_arrow_mobile": "yes",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "content_padding_top": 50,
+        "content_padding_bottom": 50
       }
     },
     "rx_image_banner_R9YwbF": {
@@ -207,10 +235,10 @@
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "container_bg": "#fff",
+        "container_bg": "#ffffff",
         "desktop_content_alignment": "center",
-        "heading_color": "#000",
-        "text_color": "#000",
+        "heading_color": "#000000",
+        "text_color": "#000000",
         "show_arrow_mobile": "yes",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -222,6 +250,7 @@
     "main",
     "1718122449b405d2db",
     "rx_image_banner_aR3Ymi",
+    "rich_text_xrPAEb",
     "multirow_gigaDJ",
     "rx_img_with_text_aiYdwR",
     "rx_image_banner_R9YwbF"
