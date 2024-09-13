@@ -137,6 +137,7 @@
     },
     "16539373096ff3b953": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1653937309ae676e60-0": {
           "type": "heading",
@@ -166,7 +167,6 @@
         "1653937309ae676e60-1",
         "1653937309ae676e60-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.my_fields._1_badge_image_2.value }}",
         "height": "adapt",
@@ -205,7 +205,7 @@
       "type": "apps",
       "blocks": {
         "72cb4041-900e-4df5-9bdd-06ce7b231409": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/full-page\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/full-page\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "product_image": true,
             "take": 30,
@@ -226,7 +226,7 @@
           }
         },
         "b278477d-01fd-476c-87c8-7b9069f30790": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
           "disabled": true,
           "settings": {
             "title": "Real Reviews from Real Customers",
@@ -258,6 +258,7 @@
     },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -277,7 +278,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -301,6 +301,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -326,8 +327,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

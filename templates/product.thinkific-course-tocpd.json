@@ -55,7 +55,7 @@
           }
         },
         "9e69a0b4-4a72-4868-9146-5eae938acffa": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/product-rating-image\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "api_key": "",
             "store_hash": "",
@@ -220,6 +220,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -245,8 +246,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -394,6 +395,7 @@
     },
     "715677ee-9d3b-4640-9588-2738be3f07e3": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-0": {
           "type": "column",
@@ -434,7 +436,6 @@
         "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-1",
         "template--14819057205313__715677ee-9d3b-4640-9588-2738be3f07e3-16657010246084140a-2"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",

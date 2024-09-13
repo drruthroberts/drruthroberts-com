@@ -20,7 +20,7 @@
         "c805630b-650c-4828-a411-6f6787d74214": {
           "type": "caption",
           "settings": {
-            "caption": "<p>FILL OUT THE FORM BELOW AND I'LL GET BACK TO YOU WITHIN 48 HOURS!<\/p>"
+            "caption": "FILL OUT THE FORM BELOW AND I'LL GET BACK TO YOU WITHIN 48 HOURS!"
           }
         }
       },
@@ -123,7 +123,7 @@
       "settings": {
         "rx_image_banner": "shopify:\/\/shop_images\/Image_4.png",
         "heading": "",
-        "caption": "<p>Become A Certified Holistic Pet Health Coach in 4 Months!<\/p>",
+        "caption": "Become A Certified Holistic Pet Health Coach in 4 Months!",
         "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>",
         "content2": "",
         "layout": "text_first"

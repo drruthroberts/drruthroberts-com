@@ -88,8 +88,6 @@
       "type": "rx-posts",
       "settings": {
         "desktopColumns": "3",
-        "padding_top": 0,
-        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -127,8 +125,6 @@
       "type": "rx-posts",
       "settings": {
         "desktopColumns": "3",
-        "padding_top": 0,
-        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -267,7 +263,6 @@
           "type": "title",
           "settings": {
             "title": "Ways To Prolonged Your Pet's Longevity",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/podcast\/ways-to-prolonged-your-pets-longevity",
             "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_1_32ca83b6-737b-4aaf-af8d-a5ac0acb9cab.png",
@@ -278,7 +273,6 @@
           "type": "title",
           "settings": {
             "title": "Core and Non-core Vaccine For Your Dogs",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/pet-blog\/core-and-non-core-vaccine-for-your-dogs",
             "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_II_67447d13-40f1-4d8c-81dc-9b3b9cde44ce.png",
@@ -289,7 +283,6 @@
           "type": "title",
           "settings": {
             "title": "Understanding Vaccine Lumps in Dogs: Duration and Care",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/pet-blog\/understanding-vaccine-lumps-in-dogs-duration-and-care",
             "post_image": "shopify:\/\/shop_images\/lump_after_vaccine.webp",
@@ -300,7 +293,6 @@
           "type": "title",
           "settings": {
             "title": "ARE YOU PET PREPARED? EMERGENCY KIT FOR YOUR PETS",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/pet-blog\/are-you-pet-prepared-emergency-kit-for-your-pets",
             "post_image": "shopify:\/\/shop_images\/Emergency_Kit_for_Your_Cats_and_Dogs.jpg",
@@ -316,8 +308,6 @@
       ],
       "settings": {
         "desktopColumns": "3",
-        "padding_top": 0,
-        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -339,8 +329,6 @@
       "type": "rx-posts",
       "settings": {
         "desktopColumns": "3",
-        "padding_top": 0,
-        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -447,7 +435,6 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -457,7 +444,6 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -467,7 +453,6 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -477,7 +462,6 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
-            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -493,8 +477,6 @@
       "disabled": true,
       "settings": {
         "desktopColumns": "2",
-        "padding_top": 0,
-        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "100%",
         "tabletMaxWidth": "100%",
