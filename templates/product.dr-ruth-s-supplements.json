@@ -274,7 +274,6 @@
     },
     "rich-text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -294,6 +293,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -317,7 +317,6 @@
     },
     "newsletter": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -343,8 +342,8 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

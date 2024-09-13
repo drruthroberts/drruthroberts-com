@@ -48,20 +48,6 @@
             "reference_page_url": "shopify:\/\/blogs\/product-review"
           }
         },
-        "reference_url_J8CjK4": {
-          "type": "reference_url",
-          "settings": {
-            "reference_page_title": "get your free download",
-            "reference_page_url": "#"
-          }
-        },
-        "reference_url_LAVYYn": {
-          "type": "reference_url",
-          "settings": {
-            "reference_page_title": "test your knowledge",
-            "reference_page_url": "#"
-          }
-        },
         "reference_url_D7KcVy": {
           "type": "reference_url",
           "settings": {
@@ -78,8 +64,6 @@
         "reference_url_rUNkxi",
         "reference_url_UwBPff",
         "reference_url_MQiEdR",
-        "reference_url_J8CjK4",
-        "reference_url_LAVYYn",
         "reference_url_D7KcVy"
       ],
       "custom_css": [

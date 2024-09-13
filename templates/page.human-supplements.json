@@ -128,7 +128,6 @@
     },
     "d9814347-ec3a-4357-bb8f-c4423922c28b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-0": {
           "type": "heading",
@@ -161,6 +160,7 @@
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-1",
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/woman_and_dog_on_the_beach.jpg",
         "image_overlay_opacity": 50,
@@ -176,7 +176,6 @@
     },
     "a1dcd6d6-0738-402f-bfec-56f09d6583b8": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "template--14699863605313__a1dcd6d6-0738-402f-bfec-56f09d6583b8-167156957897b387be-0": {
           "type": "featured_collection",
@@ -258,6 +257,7 @@
         "c8255492-a9a3-4eaf-ae83-f68f86f67dd6",
         "7e42e020-8ffe-44af-b5a5-aa468086ae14"
       ],
+      "disabled": true,
       "settings": {
         "title": "Here's a collection of all our pet care protocols, from Allergy, G.I problems, Kidney Disease, Liver Disease, Cancer and many more. We made it easy for you to know what type of support you and your pet should get based on his\/her current condition.",
         "heading_size": "h2",

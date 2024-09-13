@@ -350,7 +350,6 @@
     },
     "1655751929e34d4e57": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "16557519296bd204f0-0": {
           "type": "featured_collection",
@@ -390,6 +389,7 @@
         "aa1c3c69-2ce2-435d-81c8-18b114024961",
         "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -405,7 +405,6 @@
     },
     "newsletter": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -431,8 +430,8 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -440,7 +439,6 @@
     },
     "5b15151e-67d8-4d2c-942b-d054aa163a4f": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "d89bc2d2-f263-436c-b86a-a25911d3ecd5": {
           "type": "collection",
@@ -454,6 +452,7 @@
       "block_order": [
         "d89bc2d2-f263-436c-b86a-a25911d3ecd5"
       ],
+      "disabled": true,
       "custom_css": [
         ".set > a > svg {display: none;}"
       ],
@@ -463,7 +462,6 @@
     },
     "961ef4f2-4f2b-4901-81f7-336545b188ca": {
       "type": "affiliate",
-      "disabled": true,
       "blocks": {
         "685b5f99-55e8-4458-9441-e666240d0171": {
           "type": "collection",
@@ -477,6 +475,7 @@
       "block_order": [
         "685b5f99-55e8-4458-9441-e666240d0171"
       ],
+      "disabled": true,
       "settings": {
         "addhead": "",
         "mfaqhead": "",
@@ -486,7 +485,6 @@
     },
     "c255ee60-d5db-40bf-876e-0e659dd4283e": {
       "type": "reward_faq",
-      "disabled": true,
       "blocks": {
         "cd37d0ad-f00f-4126-b850-dd1e472eadee": {
           "type": "collection",
@@ -500,6 +498,7 @@
       "block_order": [
         "cd37d0ad-f00f-4126-b850-dd1e472eadee"
       ],
+      "disabled": true,
       "settings": {
         "mfaqhead": ""
       }

@@ -770,7 +770,7 @@
       "type": "apps",
       "blocks": {
         "ad921292-4030-4dab-a23b-58e937d88e8e": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "title": "",
             "auto_play": true,
