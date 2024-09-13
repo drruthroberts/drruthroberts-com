@@ -8,6 +8,11 @@
   {{ section.settings.font | font_face }}
   {{ section.settings.font | font_modify: 'weight', 'bolder' | font_face }}
 
+  #shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
   #shopify-section-{{ section.id }} .rx-wrapper {
     max-width: {{ section.settings.desktopMaxWidth }};
   }
@@ -40,6 +45,8 @@
       width: 100%;
       border-radius: 16px !important;
       margin-top: 30px;
+      aspect-ratio: 1.6;
+      object-fit: cover;
   }
   .rx-post-content {
       padding: 16px;
@@ -79,6 +86,17 @@
       text-align: center !important;
       line-height: 1.2 !important;
   }
+
+  .rx-testimonial-item-description {
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 166.667% */
+  }
+
   .rx-slider-item.rx-testimonial-item {
       max-height: unset !important;
       min-height: unset !important;
@@ -143,11 +161,20 @@
     fill: {{ section.settings.filled_star_color }};
   }
   {% endif %}
+
+  .rx-post-title {
+    color: #000;
+    font-family: BLT-Heirloom;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 133.333% */
+  }
 </style>
 <div class="rx-review-container">
   <rx-slider style="--us-font-family: {{ section.settings.font.family | escape }}, {{ section.settings.font.fallback_families | escape }};" class="rx-sections rx-wrapper rx-testimonial rx-testimonial-style1{% if section.settings.auto_hide_arrow %} rx-slider-auto-hide-arrow{% endif %}" data-max-mobile-size="{{maxMobileSize}}" data-min-tablet-size="{{minTabletSize}}" data-max-tablet-size="{{maxTabletSize}}" data-min-desktop-size="{{minDesktopSize}}" data-columns="{{section.settings.desktopColumns}}" data-medium-columns="{{section.settings.tabletColumns}}" data-small-columns="1"{% if section.settings.autoPlay %} data-auto-play="true"{% if section.settings.smoothAutoPlay %} data-smooth-auto-play="true"{% endif %}{% endif %}>
     <div class="rx-blogs-content">
-      <h2 class="rx-blog-content--title">{{ section.settings.blogs_title }}</h2>
+      <h2 class="rx-blog-content--title {% if template.suffix == 'upcoming-events' %}rx-post-title{% endif %}">{{ section.settings.blogs_title }}</h2>
       <div class="rx-blog-content--description"> {{ section.settings.blogs_description }}</div>
     </div>
     <div class="rx-testimonial-list-container">
@@ -166,6 +193,11 @@
                   <div class="rx-container-title">
                     {%- if block.settings.title != blank -%}
                       <div class="rx-testimonial-item-title" >{{ block.settings.title }}</div>
+                    {%- endif -%}
+                  </div>
+                  <div class="rx-container-description">
+                    {%- if block.settings.description != blank -%}
+                      <div class="rx-testimonial-item-description" >{{ block.settings.description }}</div>
                     {%- endif -%}
                   </div>
                 </div>
@@ -213,6 +245,24 @@
       ],
       "default": "2",
       "label": "Columns on desktop"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
     },
     {
       "type": "select",
@@ -329,6 +379,12 @@
           "id": "title",
           "label": "Title",
           "default": "Best Product"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Best Product</p>"
         },
         {
           "type": "text",

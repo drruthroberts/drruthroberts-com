@@ -5397,9 +5397,9 @@ width: 32.33%;
 border-radius: 24px;
 box-shadow: none!important;
 }
-.banner_img a.button.button--primary{
+/* .banner_img a.button.button--primary{
   border: 2px solid #FFFFFF!important;
-}
+} */
 .button:before ,.button:after{
   box-shadow: unset;
 }
@@ -6646,8 +6646,9 @@ text-transform: capitalize;
 }
 .card__information{
 position: relative;
-top: -28%;
+top: -20%;
 }
+
 .article-card__info.caption-with-letter-spacing.h5 span {
 font-family: 'Josefin Sans';
 font-style: normal;
@@ -8070,4 +8071,8 @@ h3.imgtitle {
   color: #000!important;
   text-transform: initial;
   text-align: justify;
+}
+
+.gf-left .gf-option-block .gf-block-title .h3:after {
+  float: right !important;
 }

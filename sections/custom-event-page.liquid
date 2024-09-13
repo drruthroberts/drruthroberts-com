@@ -1,0 +1,356 @@
+{{ 'custom-event-page.css' | asset_url | stylesheet_tag }}
+
+<div class="custom-event-page-container">
+    <div class="custom-event-page-wrapper">
+        <div class="event-content">
+            <div class="event-detail">
+                <div class="event-detail-date">
+                    <div class="event-calendar-date">
+                        <img src="{{ section.settings.calendar_img | img_url: '100x' }}" class="calendar-image">
+              
+                        <div class="canlendar-date">
+                            <span class="week" data-value="{{ section.settings.week }}">{{ section.settings.week_text }},</span>
+                            <span class="month" data-value="{{ section.settings.month }}">{{ section.settings.month_text }}</span>
+                            <span class="date" data-value="{{ section.settings.date }}">{{ section.settings.date }}th,</span>
+                            <span class="year" data-value="{{ section.settings.year }}">{{ section.settings.year }}</span>
+                        </div>
+                    </div>
+                    <div class="event-calendar-time">
+                        <img src="{{ section.settings.time_img | img_url: '100x' }}" class="time-image">
+                        <div class="canlendar-time">
+                            <span class="start-hour">{{ section.settings.start_hour }}</span>
+                            <span>pm</span>
+                            <span> ~ </span>
+                            <span class="end-hour">{{ section.settings.end_hour }}</span>
+                            <span>pm</span>
+                            <span class="time-zone">{{ section.settings.time_zone }}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-detail-info">
+                    <h1 class="event-detail-title">{{ section.settings.title }}</h1>
+                    <div class="event-detail-description">{{ section.settings.description }}</div>
+                    <div class="event-btn">
+                        {%- if section.settings.button_label_1 != blank -%}
+                            <a
+                            {% if section.settings.button_link_1 == blank %}
+                                role="link" aria-disabled="true"
+                            {% else %}
+                                href="{{ section.settings.button_link_1 }}"
+                            {% endif %}
+                            class="rx_read_more_btn_green"
+                            >
+                            {{- section.settings.button_label_1 | escape -}}
+                            {% render 'icon-arrow' %}
+                            </a>
+                        {%- endif -%}
+
+                        {%- if section.settings.button_label_2 != blank -%}
+                            <a
+                            {% if section.settings.button_link_2 == blank %}
+                                role="link" aria-disabled="true"
+                            {% else %}
+                                href="{{ section.settings.button_link_2 }}"
+                            {% endif %}
+                            class=" rx_read_more_btn_green"
+                            >
+                            {{- section.settings.button_label_2 | escape -}}
+                            {% render 'icon-arrow' %}
+                            </a>
+                        {%- endif -%}
+                    </div>
+                </div>
+            </div>
+            <div class="event-image">
+                <img src="{{ section.settings.event_img | img_url: 'master' }}" class="event-image" alt="image">
+            </div>
+        </div>
+        <div class="event-date">
+            <div class="time-count-text">TIME REMAINING<span>Until the Event</span></div>
+            <div class="time-count mobile-hidden">
+                {%- if section.settings.start_hour != blank -%}
+                    <div class="timer-display"> 
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-days">00</span> 
+                            <span class="timer-block__unit">Days</span> 
+                        </div> 
+                        {% render 'arrow-line' %}
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-hours">00</span> 
+                            <span class="timer-block__unit">Hours</span> 
+                        </div> 
+                        {% render 'arrow-line' %}
+
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-minutes">00</span> 
+                            <span class="timer-block__unit">Minutes</span> 
+                        </div> 
+                        {% render 'arrow-line' %}
+
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-seconds">00</span> 
+                            <span class="timer-block__unit">Seconds</span> 
+                        </div> 
+
+                    </div> 
+                {%- endif -%}
+            </div>
+            <div class="time-count desktop-hidden">
+                {%- if section.settings.start_hour != blank -%}
+                    <div class="timer-display"> 
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-days">00</span> 
+                            <span class="timer-block__unit">Days</span> 
+                        </div> 
+                       
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-hours">00</span> 
+                            <span class="timer-block__unit">Hours</span> 
+                        </div> 
+                        
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-minutes">00</span> 
+                            <span class="timer-block__unit">Minutes</span> 
+                        </div> 
+                        
+                        <div class="timer-block"> 
+                            <span class="timer-block__num js-timer-seconds">00</span> 
+                            <span class="timer-block__unit">Seconds</span> 
+                        </div> 
+
+                    </div> 
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ 'custom-event-page.js' | asset_url }}" defer="defer"></script>
+
+
+{% schema %}
+  {
+    "name": "custom event section",
+    "tag": "section",
+    "class": "custom-event-section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "event_img",
+        "label": "Event image",
+      },
+      {
+        "type": "header",
+        "content": "Canlandar"
+      },
+      {
+        "type": "image_picker",
+        "id": "calendar_img",
+        "label": "calendar image",
+      },
+      {
+        "type": "text",
+        "id": "week_text",
+        "label": "Week text",
+        "default": "Monday"
+      },
+      {
+        "type": "select",
+        "id": "week",
+        "label": "Week",
+        "options": [
+            {
+                "value": "0",
+                "label": "Sunday"
+            },
+            {
+                "value": "1",
+                "label": "Monday"
+            },
+            {
+                "value": "2",
+                "label": "Tuesday"
+            },
+            {
+                "value": "3",
+                "label": "Wednesday"
+            },
+            {
+                "value": "4",
+                "label": "Thurday"
+            },
+            {
+                "value": "5",
+                "label": "Friday"
+            },
+            {
+                "value": "6",
+                "label": "Saturday"
+            },
+        ]
+      },
+      {
+        "type": "text",
+        "id": "month_text",
+        "label": "Month text",
+        "default": "January"
+      },
+      {
+        "type": "select",
+        "id": "month",
+        "label": "Month",
+        "options": [
+          {
+            "value": "0",
+            "label": "January"
+          },
+          {
+            "value": "1",
+            "label": "February"
+          },
+          {
+            "value": "2",
+            "label": "March"
+          },
+              {
+            "value": "3",
+            "label": "April"
+          },
+          {
+            "value": "4",
+            "label": "May"
+          },
+          {
+            "value": "5",
+            "label": "June"
+          },
+              {
+            "value": "6",
+            "label": "July"
+          },
+          {
+            "value": "7",
+            "label": "August"
+          },
+          {
+            "value": "8",
+            "label": "September"
+          },
+              {
+            "value": "9",
+            "label": "October"
+          },
+          {
+            "value": "10",
+            "label": "November"
+          },
+          {
+            "value": "11",
+            "label": "December"
+          }
+        ],
+        "default": "0"
+      },
+      {
+        "type": "range",
+        "id": "date",
+        "label": "Date",
+          "min": 1,
+          "max": 31,
+          "step": 1,
+        "default": 27
+      },
+      {
+        "type": "range",
+        "id": "year",
+        "label": "Year",
+          "min": 2024,
+          "max": 2030,
+          "step": 1,
+        "default": 2024
+      },
+      {
+        "type": "header",
+        "content": "Time"
+      },
+      {
+        "type": "image_picker",
+        "id": "time_img",
+        "label": "Time image",
+      },
+      {
+        "type": "range",
+        "id": "start_hour",
+        "label": "Hours",
+          "min": 0,
+          "max": 23,
+          "step": 1,
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "end_hour",
+        "label": "Hours",
+          "min": 0,
+          "max": 23,
+          "step": 1,
+        "default": 16
+      },  
+      {
+        "type": "text",
+        "id": "time_zone",
+        "label": "Time zone",
+        "default": "ET"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Event Title",
+        "default": "Event Title"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description",
+        "default": "<p>Description</p>"
+      },
+      {
+        "type": "header",
+        "content": "Button1"
+      },
+      {
+        "type": "url",
+        "id": "button_link_1",
+        "label": "Button 1",
+      },
+      {
+        "type": "text",
+        "id": "button_label_1",
+        "label": "Button text 1",
+        "default": "Learn more"
+      },
+      {
+        "type": "header",
+        "content": "Button2"
+      },
+      {
+        "type": "url",
+        "id": "button_link_2",
+        "label": "Button 2",
+      },
+      {
+        "type": "text",
+        "id": "button_label_2",
+        "label": "Button text 2",
+        "default": "Learn more"
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom event section",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}

@@ -18,19 +18,101 @@
         content: '';
         display: block;
       }
+
     }
   {%- endstyle -%}
 {%- endif -%}
 
+
 {%- style -%}
+     #Banner-{{ section.id }}.custom-image-banner-width {
+        width: {{ section.settings.content_width }}%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .custom-image-banner-width .banner__media {
+      border-radius: 30px;
+    }
+
+    .custom-image-banner-width .banner__buttons {
+      display: flex;
+      flex-wrap: nowrap;
+      word-break: unset;
+    }
+    
+    .custom-image-banner-width .imghead {
+      color: #000 !important;
+      font-family: BLT-Heirloom !important;
+      font-size: 40px !important;
+      font-style: normal !important;
+      font-weight: 700 !important;
+      line-height: 50px !important; /* 125% */
+    }
+
+    .custom-image-banner-width .imagedes {
+      color: #000 !important;
+    }
+
+   .banner__date {
+      color: #184B44;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px; 
+    }
+
+    .banner__date-text {
+      background: #fff;
+      padding: 2px 10px;
+      border-radius: 30px;
+    }
+
+    .custom-image-banner-width .button.button--primary {
+      color: #F5F8F1 !important;
+      font-weight: 700 !important;
+      line-height: 22px !important;
+      background: #184B44 !important;
+      border-radius: 30px !important;
+      border-color: transparent !important;
+      text-transform: capitalize !important;
+    }
+    
+    .custom-image-banner-width .button.button--primary svg {
+      display: none !important;
+    }
+
+    
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
-{%- endstyle -%}
 
+  @media (max-width:1440px) {
+    .custom-image-banner-width .banner__box {
+      width: 85% !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .custom-image-banner-width .banner__buttons {
+      display: flex;
+      flex-wrap: unset;
+      word-break: unset;
+      flex-direction: column;
+    }
+
+    #Banner-{{ section.id }}.custom-image-banner-width {
+        width: {{ section.settings.content_width }}%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+  }
+{%- endstyle -%}
 <div
   id="Banner-{{ section.id }}"
-  class="banner_img banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
+  class=" {% if template.suffix == "upcoming-events" %}  custom-image-banner-width {% endif %}  banner_img banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
 >
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
@@ -106,6 +188,10 @@
             <div class="banner__text {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               <span class="imagedes">{{ block.settings.text | escape }}</span>
             </div>
+          {%  when 'date' %}
+            <div class="banner__date-text">
+              <span class="banner__date">{{ block.settings.date_text|escape }}</span>
+            </div>
           {%- when 'buttons' -%}
          {% if collection.title == "All" %}
            {%- form 'customer', id: 'ContactFooter ', class: '  ' -%}
@@ -166,9 +252,9 @@
                     > 
                   
                       {{- block.settings.button_label_1 | escape -}}
-                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-                    <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="white" stroke-linecap="round"/>
-                    </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+                          <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="white" stroke-linecap="round"/>
+                      </svg>
                     
                     </a>
                   {%- endif -%}
@@ -181,10 +267,10 @@
                       {% endif %}
                       class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
                     >
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                      {{- block.settings.button_label_2 | escape -}}
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M9.2244 0.558058C9.46848 0.313981 9.86421 0.313981 10.1083 0.558058L15.1083 5.55806C15.3524 5.80214 15.3524 6.19786 15.1083 6.44194L10.1083 11.4419C9.86421 11.686 9.46848 11.686 9.2244 11.4419C8.98032 11.1979 8.98032 10.8021 9.2244 10.5581L13.1575 6.625H1.33301C0.98783 6.625 0.708008 6.34518 0.708008 6C0.708008 5.65482 0.98783 5.375 1.33301 5.375H13.1575L9.2244 1.44194C8.98032 1.19786 8.98032 0.802136 9.2244 0.558058Z" fill="#49AF78"/>
                       </svg>
-                      {{- block.settings.button_label_2 | escape -}}
                     </a>
                   {%- endif -%}
                 </div>
@@ -213,6 +299,16 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Content Width",
+      "default": 100
     },
     {
       "type": "range",
@@ -422,7 +518,7 @@
     {
       "type": "text",
       "name": "t:sections.image-banner.blocks.text.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "text",
@@ -449,6 +545,19 @@
           ],
           "default": "body",
           "label": "t:sections.image-banner.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "date",
+      "name": "Date",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "date_text",
+          "label": "Date",
+          "default": "Wednesday, February 14th | 10 AM - 01 PM ET"
         }
       ]
     },

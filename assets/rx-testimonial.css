@@ -81,3 +81,9 @@
   position: absolute;
   bottom: 5%;
 }
+
+@media (max-width: 768px) {
+  .rx-slider-list.slick-slider .slick-arrow {
+    top:30%;
+  }
+}

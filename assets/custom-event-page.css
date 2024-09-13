@@ -1,0 +1,433 @@
+.custom-event-page-container {
+    background: #F5F8F1;
+    margin-bottom: 60px;
+}
+
+
+
+.custom-event-page-wrapper {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.event-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 40px;
+}
+
+.event-date {
+    padding-top: 32px;   
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event-detail-date {
+    display: flex;
+    justify-content: left;
+    border-left: 1px solid #eee;
+    color: #5F5E66;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+.custom-canlendar-date {
+    color:  #184B44;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+}
+
+
+.canlendar-date, .canlendar-time {
+    display: flex;
+    gap: 6px;
+}
+
+
+.event-calendar-date {
+    display: flex;
+    border-right: 1px solid #5F5E66;
+    padding-right: 10px;
+} 
+
+
+.event-detail-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.event-calendar-date, .event-calendar-time {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.event-detail-title {
+    color: #000;
+    font-family: "BLT-Heirloom";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+}
+
+.event-detail-description {
+    color: #1E1E1E;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.event-btn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 24px;
+}
+
+.rx_read_more_btn_green {
+    background-color: transparent !important;
+    border-color: #184B44 !important;
+    color: #1E1E1E !important;
+    padding: 10px 20px !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-image {
+    aspect-ratio: 1.52;
+    border-radius: 30px;
+}
+
+.event-image img {
+    max-width: 550px;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.custom-event-image {
+    border-radius: 30px;
+    max-width: 300px;
+}
+
+.time-count-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--accents-and-headings, #184B44);
+    font-family: BLT-Heirloom;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.time-count-text span {
+    color: #1E1E1E;
+}
+
+.timer-display {
+    display: flex;
+    gap: 17px;
+}
+
+.timer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-block__num {
+    color: #184B44;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+
+.timer-block__unit {
+    color: #000;
+    font-family: BLT-Heirloom;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+}
+
+.custom-canlendar-event {
+    margin: 50px 0;
+}
+
+.custom-canlendar-event-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 75%;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.custom-canlendar {
+    min-width: 190px;
+    background-color: #F5F8F1;
+    border-radius: 30px;
+}
+
+.canlendar-content {
+    padding: 30px 16px;
+} 
+
+.canlendar-content-date {
+    color:  #1E1E1E;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+
+.canlendar-month {
+    color:  #184B44;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+}
+
+.canlendar-year {
+    color:  #184B44;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+}
+
+.canlendar-year-with-month {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.custom-event-container {
+    background-color: #F5F8F1;
+    border-radius: 30px;
+}
+
+.custom-event-content {
+    display: flex;
+    padding: 42px 50px 65px 25px;
+    justify-content: center;
+    align-items: flex-start;
+    gap:25px;
+    max-width: 850px;
+}
+
+.custom-sign-up-container {
+   margin-bottom: 50px;
+}
+
+.sign-up-date {
+    border-radius: 30px;
+    background-color: #fff;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #5F5E66;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    padding: 3px 5px;
+}
+
+.custom-sign-up-wrapper {
+    display: flex;
+    background: #F5F8F1;
+    justify-content: center;
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.sign-up-image-with-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 30px; 
+    border-right: 1px solid #939393;
+}
+
+.sign-up-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 30px;
+}
+
+.sign-up-button {
+    background-color: #184B44 !important;
+    color: #fff !important;
+}
+
+.sign-up-content-detail {
+    max-width: 480px;
+}
+
+.event-detail-location {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color:  #5F5E66;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; 
+}
+
+@media (min-width: 769px) {
+    .desktop-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 1250px) {
+    .custom-sign-up-wrapper {
+        width: 94%;
+    }
+
+    /* .sign-up-content-detail {
+        max-width: 430px;
+    } */
+}
+@media (max-width:1024px) {
+    .event-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sign-up-image-with-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .event-date {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .custom-canlendar-event-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign-up-date {
+        padding: 9px 5px;
+    } 
+}
+
+@media (max-width:768px) {
+    .custom-event-page-container {
+        margin-bottom: 30px;
+    } 
+
+    .event-calendar-date {
+        border: none;
+    } 
+    
+    .custom-event-content {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .event-image img {
+        min-width: 330px;
+    } 
+
+    .custom-event-page-wrapper {
+        width: 90%;
+    }
+
+    .event-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .event-detail-date {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .timer-block__num {
+        font-size: 30px;
+    }
+
+    .timer-block__unit {
+        font-size: 16px;
+    }
+
+    .time-count-text {
+        text-align: center;
+    }
+
+    .custom-sign-up-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-up-image-with-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: none;
+        border-bottom: 1px solid #939393;
+        padding-bottom: 30px;
+    }
+
+    .sign-up-btn {
+        padding-top: 30px;
+        padding-left:0;
+    }
+}
