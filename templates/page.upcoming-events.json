@@ -6,7 +6,7 @@
         "slider_banner_P3NTEU": {
           "type": "slider-banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sept_12_HPHC_live_with_Allison_Alvarez.png",
+            "image": "shopify:\/\/shop_images\/HPHC_BANNER_3.png",
             "image_overlay_opacity": 0,
             "image_height": "large",
             "desktop_content_position": "middle-left",
@@ -21,8 +21,8 @@
             "show_text_below": true,
             "heading": "SAVE YOUR SEAT!",
             "text": "Join a series of enlightening and impactful events aim to enhance your knowledge and skills in holistic pet care",
-            "button_label_1": "Stay Updated",
-            "button_link_1": "#"
+            "button_label_1": "SIGN UP HERE",
+            "button_link_1": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training"
           }
         },
         "slider_banner_896cCb": {
@@ -31,7 +31,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Sept_19_HPHC_live_with_Dr._Kathleen_Cooney_24ebea93-d8d8-4be6-b5b5-09f4ac6b28fc.png",
             "image_overlay_opacity": 0,
-            "image_height": "medium",
+            "image_height": "large",
             "desktop_content_position": "middle-left",
             "show_text_box": true,
             "container_bg": "#ffffff",
@@ -93,7 +93,7 @@
     "custom_event_page_VdU6GR": {
       "type": "custom-event-page",
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/Allison_Alvarez.png",
+        "event_img": "shopify:\/\/shop_images\/Sept_19_HPHC_live_with_Dr._Kathleen_Cooney_24ebea93-d8d8-4be6-b5b5-09f4ac6b28fc.png",
         "calendar_img": "shopify:\/\/shop_images\/date_3.png",
         "week_text": "Thurday",
         "week": "4",
@@ -105,8 +105,8 @@
         "start_hour": 12,
         "end_hour": 1,
         "time_zone": "EST",
-        "title": "Inside Out: Why Gut Health is Essential for Your Pet Skin Care",
-        "description": "<p>Is your pet’s skin causing you both frustration? You're not alone! Join us on September 12th at 12 PM EST for \"Inside Out: Understanding the Gut's Role in Your Pet's Skin Health,\" hosted by Dr. Ruth Roberts and featuring Allison Álvarez, Certified Holistic Pet Health Coach and owner of Spoties Pet Shop. Don’t miss this chance to learn from a true expert and see how holistic care can make a difference. <\/p>",
+        "title": "A Peaceful Goodbye: Dr. Kathleen Cooney on Pet Hospice and Euthanasia",
+        "description": "<p>Join us with Dr. Kathleen Cooney, an expert in pet hospice and euthanasia. She’ll share her knowledge on how to provide comfort and care for your pets during their final days, offering practical advice to help you make this difficult time as peaceful as possible.<\/p><p>Tune in on Facebook Live—don’t miss it!<\/p>",
         "button_link_1": "https:\/\/www.facebook.com\/share\/2jhK9v7RYuj2Dmoj\/",
         "button_label_1": "Join Us here",
         "button_link_2": "#",
@@ -121,7 +121,7 @@
         "week": "4",
         "month_text": "September",
         "month": "0",
-        "date": 12,
+        "date": 19,
         "year": 2024,
         "start_hour": 12,
         "end_hour": 1,
@@ -200,7 +200,7 @@
         "heading_RbjdnJ": {
           "type": "heading",
           "settings": {
-            "heading": "No upcoming featured event to be shown",
+            "heading": "No upcoming event",
             "heading_size": "h1"
           }
         },

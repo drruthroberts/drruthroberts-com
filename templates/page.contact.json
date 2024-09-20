@@ -66,7 +66,7 @@
           "type": "column",
           "settings": {
             "title": "EMAIL",
-            "text": "<p>Customercare@drruthroberts.com<\/p>",
+            "text": "<p>drruthroberts@drruthroberts.com<\/p>",
             "link_label": "EMAIL US",
             "link": "mailto:Customercare@drruthroberts.com"
           }
@@ -118,14 +118,19 @@
         "ffd5c83d-676b-4d97-83cb-5ca7de87434e"
       ],
       "custom_css": [
-        "#rx_read_more_arrow_black {margin-left: 30px;}"
+        "#rx_read_more_arrow_black {margin-left: 30px;}",
+        ".rx-image {padding-left: 20px;}",
+        ".caption{padding-right: 20px;}"
       ],
       "settings": {
         "rx_image_banner": "shopify:\/\/shop_images\/Image_4.png",
+        "cotainer_bg": "",
         "heading": "",
-        "caption": "Become A Certified Holistic Pet Health Coach in 4 Months!",
+        "date": "<p>date<\/p>",
+        "caption": "<p>Become A Certified Holistic Pet Health Coach in 4 Months!<\/p>",
         "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>",
         "content2": "",
+        "content_bg": "",
         "layout": "text_first"
       }
     }

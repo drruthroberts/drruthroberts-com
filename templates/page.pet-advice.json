@@ -86,8 +86,50 @@
     },
     "rx_posts_RY6zzm": {
       "type": "rx-posts",
+      "blocks": {
+        "title_AWNwLY": {
+          "type": "title",
+          "settings": {
+            "title": "Celebrate National Wildlife Day 2024: How to Support Urban Wildlife Conservation",
+            "description": "",
+            "reviewer_name": "pet-blog | September 3, 2024",
+            "post_link": "shopify:\/\/blogs\/pet-blog\/celebrate-national-wildlife-day-2024-how-to-support-urban-wildlife-conservation",
+            "post_image": "shopify:\/\/shop_images\/wildlife_day.webp",
+            "overlap": false
+          }
+        },
+        "title_Xcr7g6": {
+          "type": "title",
+          "settings": {
+            "title": "Natural and Effective Strategies to Relieve Joint Pain in Dogs and Cats",
+            "description": "",
+            "reviewer_name": "Dr. Ruth Roberts | August 24, 2024",
+            "post_link": "shopify:\/\/blogs\/pet-blog\/how-to-help-relieve-joint-pain-in-dogs-and-cats",
+            "post_image": "shopify:\/\/shop_images\/Joint_Pain_Relief.webp",
+            "overlap": false
+          }
+        },
+        "title_tEy4xE": {
+          "type": "title",
+          "settings": {
+            "title": "What Does Labor Day Really Mean – For You and Your Pets?",
+            "description": "",
+            "reviewer_name": "Dr. Ruth Roberts | August 23, 2024",
+            "post_link": "shopify:\/\/blogs\/pet-blog\/what-does-labor-day-really-mean-for-you-and-your-pets",
+            "post_image": "shopify:\/\/shop_images\/Happy_Labor_Day_2.webp",
+            "overlap": false
+          }
+        }
+      },
+      "block_order": [
+        "title_AWNwLY",
+        "title_Xcr7g6",
+        "title_tEy4xE"
+      ],
       "settings": {
         "desktopColumns": "3",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -102,11 +144,12 @@
         "blogs_title": "Our Blogs",
         "blogs_description": "<p>Read our insightful articles for  expert pet advice,  holistic pet health tips, and nurturing natural remedies to elevate your pet’s well-being<\/p>",
         "blogs_url": "shopify:\/\/pages\/all-blogs",
-        "blogs_btn": "Read More blogs"
+        "blogs_btn": "READ MORE BLOGS"
       }
     },
     "rx_blog_VpykYm": {
       "type": "rx-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -123,8 +166,53 @@
     },
     "rx_posts_JNXfkQ": {
       "type": "rx-posts",
+      "blocks": {
+        "title_TMJpzq": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Activated Charcoal for Dogs and Where to Buy It",
+            "description": "",
+            "reviewer_name": "Dr. Ruth Roberts | August 18, 2024",
+            "post_link": "shopify:\/\/blogs\/product-review\/activated-charcoal-for-dogs-and-where-to-buy-it",
+            "post_image": "shopify:\/\/shop_images\/Product_Review_1.png",
+            "overlap": false
+          }
+        },
+        "title_7Bc3TW": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Drenamin Review: Adrenal and Emotional Support Supplement",
+            "description": "",
+            "reviewer_name": "Dr. Ruth Roberts | July 15, 2024",
+            "post_link": "shopify:\/\/blogs\/product-review\/drenamin-review-adrenal-and-emotional-support-supplement",
+            "post_image": "shopify:\/\/shop_images\/Drenamin1-800x450.webp",
+            "overlap": false
+          }
+        },
+        "title_FFJm4P": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Chill The Itch: Natural Relief for Itchy Skin in Pets",
+            "description": "",
+            "reviewer_name": "Dr. Ruth Roberts | September 7, 2023",
+            "post_link": "shopify:\/\/blogs\/product-review\/chill-the-itch-itchy-skin-relief-for-dogs-cats",
+            "post_image": "shopify:\/\/shop_images\/0711223-IMG-ReviseBlog2a-1-1536x864.webp",
+            "overlap": false
+          }
+        }
+      },
+      "block_order": [
+        "title_TMJpzq",
+        "title_7Bc3TW",
+        "title_FFJm4P"
+      ],
       "settings": {
         "desktopColumns": "3",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -138,12 +226,29 @@
         "empty_star_color": "",
         "blogs_title": "Our Product Review",
         "blogs_description": "<p>Read our in-depth article where we review the best supplements for your pet's health, along with top-rated pet health devices. Find out which products can make a real difference in your pet’s well-being.<\/p>",
-        "blogs_url": "#",
+        "blogs_url": "shopify:\/\/blogs\/product-review",
         "blogs_btn": "read more reviews"
+      }
+    },
+    "rx_blog_MeMMLg": {
+      "type": "rx-blog",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "product-review",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rx_blog_GmzDaG": {
       "type": "rx-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -263,6 +368,7 @@
           "type": "title",
           "settings": {
             "title": "Ways To Prolonged Your Pet's Longevity",
+            "description": "",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/podcast\/ways-to-prolonged-your-pets-longevity",
             "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_1_32ca83b6-737b-4aaf-af8d-a5ac0acb9cab.png",
@@ -273,6 +379,7 @@
           "type": "title",
           "settings": {
             "title": "Core and Non-core Vaccine For Your Dogs",
+            "description": "",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/pet-blog\/core-and-non-core-vaccine-for-your-dogs",
             "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_II_67447d13-40f1-4d8c-81dc-9b3b9cde44ce.png",
@@ -283,6 +390,7 @@
           "type": "title",
           "settings": {
             "title": "Understanding Vaccine Lumps in Dogs: Duration and Care",
+            "description": "",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/pet-blog\/understanding-vaccine-lumps-in-dogs-duration-and-care",
             "post_image": "shopify:\/\/shop_images\/lump_after_vaccine.webp",
@@ -291,8 +399,10 @@
         },
         "title_p48JKA": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "title": "ARE YOU PET PREPARED? EMERGENCY KIT FOR YOUR PETS",
+            "description": "",
             "reviewer_name": "August 6, 2023",
             "post_link": "shopify:\/\/blogs\/pet-blog\/are-you-pet-prepared-emergency-kit-for-your-pets",
             "post_image": "shopify:\/\/shop_images\/Emergency_Kit_for_Your_Cats_and_Dogs.jpg",
@@ -308,6 +418,8 @@
       ],
       "settings": {
         "desktopColumns": "3",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -327,8 +439,38 @@
     },
     "rx_posts_eme6MN": {
       "type": "rx-posts",
+      "blocks": {
+        "title_Ag4yBr": {
+          "type": "title",
+          "settings": {
+            "title": "Why Movement MattersShare",
+            "description": "",
+            "reviewer_name": "Dr. Ruth Roberts | September 4, 2024",
+            "post_link": "shopify:\/\/blogs\/video\/arthritis-and-mobility-issues-in-aging-pets-why-movement-matters",
+            "post_image": "shopify:\/\/shop_images\/SENIOR_PET_MOBILITY.webp",
+            "overlap": false
+          }
+        },
+        "title_BtmbrP": {
+          "type": "title",
+          "settings": {
+            "title": "Detoxifying Your Pet: What Does It Mean?",
+            "description": "",
+            "reviewer_name": "Dr. Ruth Roberts | July 7, 2024",
+            "post_link": "shopify:\/\/blogs\/video\/detoxifying-your-pet-what-it-means",
+            "post_image": "shopify:\/\/shop_images\/detoxifying_your_pet_2.webp",
+            "overlap": false
+          }
+        }
+      },
+      "block_order": [
+        "title_Ag4yBr",
+        "title_BtmbrP"
+      ],
       "settings": {
         "desktopColumns": "3",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "80%",
         "tabletMaxWidth": "90%",
@@ -348,6 +490,7 @@
     },
     "rx_blog_GKWJRp": {
       "type": "rx-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -435,6 +578,7 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
+            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -444,6 +588,7 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
+            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -453,6 +598,7 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
+            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -462,6 +608,7 @@
           "type": "title",
           "settings": {
             "title": "Best Product",
+            "description": "<p>Best Product<\/p>",
             "reviewer_name": "Post Date",
             "post_link": "",
             "overlap": false
@@ -477,6 +624,8 @@
       "disabled": true,
       "settings": {
         "desktopColumns": "2",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "100%",
         "tabletMaxWidth": "100%",
@@ -501,6 +650,7 @@
     "rx_posts_RY6zzm",
     "rx_blog_VpykYm",
     "rx_posts_JNXfkQ",
+    "rx_blog_MeMMLg",
     "rx_blog_GmzDaG",
     "54622c8f-3f1b-48e3-a24e-b5c8cd560f29",
     "febdc93f-b5f0-4728-b425-acf1d35080a9",

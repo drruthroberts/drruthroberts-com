@@ -243,6 +243,7 @@
         "12db348e-5b71-4b4d-bcf1-fee74bd24759",
         "eeb51a4a-42eb-45ed-9b89-dcb5f6927c35"
       ],
+      "disabled": true,
       "custom_css": [
         ".slidecontent {text-align: center;}",
         "@media screen and (max-width:1300px){.slidebg{min-height:150px;}"
@@ -790,6 +791,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Rectangle_10.png",
+        "content_width": 100,
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-left",
