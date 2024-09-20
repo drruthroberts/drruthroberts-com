@@ -227,7 +227,8 @@
 
     .rx-{{section.id}} .rx-product-title-tab {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
+      gap: 30px;
     }
 
      /* Change background color of buttons on hover */
@@ -757,7 +758,7 @@
       <div class="rx-product-title-tab">
         <button class="tablinks active" onclick="openTab(event, 'Description')">COACH INFORMATION</button>
         <button class="tablinks" onclick="openTab(event, 'CoachSpecialty')">COACH SPECIALTY</button>
-        <button class="tablinks" onclick="openTab(event, 'ContactInformation')">COACH CONTACT</button>
+        {% comment %} <button class="tablinks" onclick="openTab(event, 'ContactInformation')">COACH CONTACT</button> {% endcomment %}
       </div>
       
       <div id="Description" class="tabcontent">
@@ -779,7 +780,7 @@
     </div>
 
       
-      <div id="ContactInformation" class="tabcontent">
+      {% comment %} <div id="ContactInformation" class="tabcontent">
         <div class="product_tab_content">
           {%- if product.metafields.custom.coach_contact != blank -%}
              {{ product.metafields.custom.coach_contact }}
@@ -789,12 +790,9 @@
             {{product.metafields.my_fields._1_badge_text_3}}
           {%- else -%}
             <p></p>
-
-        {%- endif -%}
+          {%- endif -%}
         </div >
-      </div>     
-      
-
+      </div>      {% endcomment %}
     </div>  
   {% endfor %}
 
