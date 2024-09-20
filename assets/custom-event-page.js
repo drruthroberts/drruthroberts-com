@@ -6,24 +6,25 @@ window.addEventListener('load', function() {
     let startHour = document.querySelector('.start-hour').textContent;
     
     const countDown = new Date(year, month, startDate, startHour);
+
     x = this.setInterval(function(){
         var now = new Date().getTime();
         var distance = countDown - now;
-        Math.floor(distance/(date));
-        document.querySelectorAll('.js-timer-days').forEach(dateItem=>{
-            dateItem.innerText = Math.floor(distance/(date));
-        })
-        document.querySelectorAll('.js-timer-hours').forEach(hourItem=>{
-            hourItem.innerText = Math.floor((distance % (date)) / (hour));
-        })
-        document.querySelectorAll('.js-timer-minutes').forEach(minuteItem=>{
-            minuteItem.innerText = Math.floor((distance % (hour)) / (minute));
-        })
-        document.querySelectorAll('.js-timer-seconds').forEach(secondItem=>{
-            secondItem.innerText = Math.floor((distance % (minute)) / (second));
-        })
-        
-        
+        if(distance > 0){
+            Math.floor(distance/(date));
+            document.querySelectorAll('.js-timer-days').forEach(dateItem=>{
+                dateItem.innerText = Math.floor(distance/(date));
+            })
+            document.querySelectorAll('.js-timer-hours').forEach(hourItem=>{
+                hourItem.innerText = Math.floor((distance % (date)) / (hour));
+            })
+            document.querySelectorAll('.js-timer-minutes').forEach(minuteItem=>{
+                minuteItem.innerText = Math.floor((distance % (hour)) / (minute));
+            })
+            document.querySelectorAll('.js-timer-seconds').forEach(secondItem=>{
+                secondItem.innerText = Math.floor((distance % (minute)) / (second));
+            })
+        }
     }, second)
     
 })

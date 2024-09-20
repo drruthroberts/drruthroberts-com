@@ -664,6 +664,14 @@ a.elementor-toggle-title {
     .main-blog.page-width {
         width: 90%;
     }
+
+    .rx-blog-content--title {
+        font-size: 34px;
+    }
+
+    .rx-blog-content--description {
+        font-size: 16px;
+    } 
 } 
 
 .blog-articles--resources {

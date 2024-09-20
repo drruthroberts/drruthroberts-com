@@ -17,7 +17,7 @@
     max-width: {{ section.settings.desktopMaxWidth }};
   }
 
-  #shopify-section-{{ section.id }} .rx-review-container {
+  #shopify-section-{{ section.id }} {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: {{section.settings.container_bgcolor}};
@@ -100,6 +100,11 @@
   .rx-slider-item.rx-testimonial-item {
       max-height: unset !important;
       min-height: unset !important;
+  }
+
+  #shopify-section-{{ section.id }} .blogbodr2 {
+    padding: 0 !important;
+    padding-bottom: 40px !important;
   }
 
   .rx-review-container {
