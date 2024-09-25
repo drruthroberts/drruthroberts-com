@@ -130,5 +130,18 @@ class FilterCollection extends HTMLElement {
         }
         this.Pagination();
     }
+
+    
 }
 window.customElements.define('filter-collection', FilterCollection); 
+
+document.addEventListener('DOMContentLoaded', function(){
+    var ul = document.querySelector('.coach-product-grid.product-grid');
+    var lis = Array.from(ul.querySelectorAll('.coach-product-item'));
+
+    for (var i = lis.length - 1; i > 0; i--) {
+       var j = Math.floor(Math.random() * (i + 1));
+       ul.insertBefore(lis[j], lis[i]);
+    }
+
+});

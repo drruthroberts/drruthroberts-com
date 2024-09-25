@@ -42,7 +42,7 @@
       "custom_css": [
         "a.collered {background: transparent;}",
         "svg {margin-left: 20px;}",
-        ".quick-add__submit {margin-top: -17%; margin-bottom: 8%; background: #007a5c; color: white;}"
+        ".quick-add__submit {margin-top: -13%; margin-bottom: 8%; background: #f4b649; color: white;}"
       ],
       "settings": {
         "title": "You may also like",
