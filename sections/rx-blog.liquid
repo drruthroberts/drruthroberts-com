@@ -15,6 +15,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  #shopify-section-{{ section.id }} .blog-section-background {
+    background: {{ section.settings.background }};
+  }
+
   .rx_read_more {
     text-align: center;
   }
@@ -87,7 +91,7 @@
   endif
 -%}
 
-<div class="blog gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
+<div class="blog gradient{% if section.settings.heading == blank %} no-heading{% endif %} blog-section-background">
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
@@ -197,6 +201,15 @@
         </div>
       </div>
     {%- endif -%}
+    {% if section.settings.blogs_url %}
+      <div class="blogbodr2">
+        <a href="{{ section.settings.blogs_url }}" class="btnspace1">{{ section.settings.blogs_btn }} 
+        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
+          <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
+        </svg>
+        </a>
+      </div> 
+    {% endif %}
   </div>
 </div>
 
@@ -238,6 +251,11 @@
       "type": "blog",
       "id": "blog",
       "label": "t:sections.featured-blog.settings.blog.label"
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
     },
     {
       "type": "range",
@@ -305,7 +323,18 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    }
+    },
+    {
+      "type": "url",
+      "id": "blogs_url",
+      "label": "Blogs url"
+    },
+    {
+      "type": "text",
+      "id": "blogs_btn",
+      "label": "Read More Button",
+      "default": "Read More blogs"
+    },
   ],
   "presets": [
     {

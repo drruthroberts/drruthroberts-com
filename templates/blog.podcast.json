@@ -22,19 +22,19 @@
         "padding_bottom": 0
       }
     },
-    "all_blog_articles_RE4Nch": {
+    "all_blog_articles_9GfTp7": {
       "type": "all-blog-articles",
       "settings": {
         "blog_title": "Podcast",
         "show_image": true,
-        "podcasts_url": "shopify:\/\/pages\/pet-advice",
-        "podcasts": "Pet Advice",
+        "podcasts_url": "shopify:\/\/pages\/all-blogs",
+        "podcasts": "All Blogs",
         "product_reviews_url": "shopify:\/\/blogs\/product-review",
         "product_reviews": "Product Reviews",
-        "video_url": "#",
-        "video": "Video\/Webinars",
-        "downloadable_url": "#",
-        "downloadable": "Downloadable",
+        "video_url": "",
+        "video": "",
+        "downloadable_url": "",
+        "downloadable": "",
         "quiz_url": "shopify:\/\/pages\/spay-neuter-syndrome-quiz",
         "quiz": "Quiz",
         "image_height": "medium",
@@ -44,37 +44,37 @@
         "padding_bottom": 36
       }
     },
-    "rx_img_with_text_eEe68g": {
+    "rx_img_with_text_3eB4iC": {
       "type": "rx-img-with-text",
       "blocks": {
-        "heading_gTxdVL": {
+        "heading_B8phcX": {
           "type": "heading",
           "settings": {
             "heading": "Become A Certified Holistic Pet Health Coach in 4 Months!",
             "font_family": "font_blt"
           }
         },
-        "text_MfCPYr": {
+        "text_Kk7DNG": {
           "type": "text",
           "settings": {
             "text": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>"
           }
         },
-        "button_EFABKP": {
+        "button_CTGi4k": {
           "type": "button",
           "settings": {
-            "button_label": "Learn More",
-            "button_link": "#"
+            "button_label": "learn more",
+            "button_link": "shopify:\/\/pages\/ruth-story"
           }
         }
       },
       "block_order": [
-        "heading_gTxdVL",
-        "text_MfCPYr",
-        "button_EFABKP"
+        "heading_B8phcX",
+        "text_Kk7DNG",
+        "button_CTGi4k"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/cta-banner.png",
+        "image": "shopify:\/\/shop_images\/Rectangle_99de13d3-5edc-4d3a-b390-ec3e0ae4f429.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -95,7 +95,7 @@
   },
   "order": [
     "main",
-    "all_blog_articles_RE4Nch",
-    "rx_img_with_text_eEe68g"
+    "all_blog_articles_9GfTp7",
+    "rx_img_with_text_3eB4iC"
   ]
 }

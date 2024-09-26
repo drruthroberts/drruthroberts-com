@@ -129,6 +129,10 @@
   align-items: center;
 }
 
+.rx_card__information {
+  padding: 5px;
+}
+
 .card:not(.ratio) > .card__content {
   grid-template-rows: max-content minmax(0,1fr) max-content auto;
 }

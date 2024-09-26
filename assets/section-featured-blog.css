@@ -41,6 +41,7 @@
 
 .blog__posts.articles-wrapper {
   margin-bottom: 1rem;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 990px) {
