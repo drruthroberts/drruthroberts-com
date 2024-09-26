@@ -46,6 +46,7 @@
         "div {padding: 10px;}"
       ],
       "settings": {
+        "unique_class": "",
         "image": "shopify:\/\/shop_images\/4_1489802e-6995-4df3-b116-11e6bce5d507.png",
         "height": "adapt",
         "desktop_image_width": "small",
@@ -140,8 +141,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
-        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 12px; padding-bottom: 0px;}",
-        ".quick-add {padding-top: 0px; margin-top: 0px; border: 3px solid #184b44; border-radius: 15px; background-color: transparent; color: #184b44;}"
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 12px; padding-bottom: 0px;}"
       ],
       "settings": {
         "products_per_page": 8,

@@ -130,8 +130,6 @@ class FilterCollection extends HTMLElement {
         }
         this.Pagination();
     }
-
-    
 }
 window.customElements.define('filter-collection', FilterCollection); 
 

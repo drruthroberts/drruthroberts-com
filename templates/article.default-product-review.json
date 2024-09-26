@@ -161,6 +161,7 @@
         "collapsible_row_cE94yN",
         "collapsible_row_PEFV7Q"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"BLT-Heirloom\"; font-weight: bold;}",
         "h3 {font-weight: bold; font-family: \"BLT-Heirloom\";}"
@@ -180,6 +181,17 @@
         "padding_bottom": 36
       }
     },
+    "product_section_gfBRmB": {
+      "type": "product_section",
+      "settings": {
+        "heading": "",
+        "product": "{{ article.metafields.custom.productcta.value }}",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "image_placement": "row",
+        "learn_more_btn": false
+      }
+    },
     "featured_blog_bJckFy": {
       "type": "featured-blog",
       "custom_css": [
@@ -187,9 +199,9 @@
       ],
       "settings": {
         "custom_class": "",
-        "heading": "Read More Blogs",
+        "heading": "Read More Product Review",
         "heading_size": "h1",
-        "blog": "pet-blog",
+        "blog": "product-review",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -205,6 +217,7 @@
   "order": [
     "main",
     "collapsible_content_6JDbaT",
+    "product_section_gfBRmB",
     "featured_blog_bJckFy"
   ]
 }

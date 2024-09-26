@@ -1,42 +1,38 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
+      "type": "main-blog",
       "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1718122449b405d2db": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "<div class=\"klaviyo-form-SYyw5r\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_q9yCzL"
+      "custom_css": [
+        ".article-card {padding-block-start: 0%;}",
+        ".title--primary {display: none;}",
+        ".article-card__info.caption-with-letter-spacing.h5 {position: absolute; top: 20%; left: 5%;}",
+        "h3.card__heading.h2 {padding-top: 50%; padding-bottom: 0%; margin-bottom: 0%;}",
+        "@media (max-width: 600px) {h3.card__heading.h2 {padding-top: 15%; }}",
+        "@media screen and (max-width: 463px) {.blog articles__article.article {width: 88%; } h3.card__heading.h2 {padding-top: 27%; }}",
+        "p {font-family: Josefin Sans; font-weight: normal;}"
       ],
-      "disabled": true,
       "settings": {
-        "include_margins": true
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "adapt",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
-    "all_blog_articles_rJFY4k": {
+    "all_blog_articles_RE4Nch": {
       "type": "all-blog-articles",
       "settings": {
-        "blog_title": "Allergy and Skin issues,Dental Health,Event Replay,Holistic Approach to pet Care,Kidney Health,Mental and Anixiety Dissorder,Natural Herbal Remedies, Pet Behavior and Lifestyle,Pet Blog,Pet Health Concern,Pet Nutrition and Dietary Supplements,Pet Safety and Emergency, Podcast,Product Review, Uncategorized, Upcoming Events",
+        "blog_title": "",
         "show_image": true,
-        "podcasts_url": "shopify:\/\/blogs\/podcast-1",
-        "podcasts": "Podcasts",
+        "podcasts_url": "shopify:\/\/blogs\/pet-blog",
+        "podcasts": "Blogs",
         "product_reviews_url": "shopify:\/\/blogs\/product-review",
         "product_reviews": "Product Reviews",
-        "video_url": "shopify:\/\/blogs\/pet-blog",
-        "video": "Blogs",
+        "video_url": "",
+        "video": "",
         "downloadable_url": "#",
         "downloadable": "Downloadable",
         "quiz_url": "shopify:\/\/pages\/spay-neuter-syndrome-quiz",
@@ -48,34 +44,34 @@
         "padding_bottom": 36
       }
     },
-    "rx_img_with_text_N7GGFj": {
+    "rx_img_with_text_eEe68g": {
       "type": "rx-img-with-text",
       "blocks": {
-        "heading_bm3ByX": {
+        "heading_gTxdVL": {
           "type": "heading",
           "settings": {
             "heading": "Become A Certified Holistic Pet Health Coach in 4 Months!",
             "font_family": "font_blt"
           }
         },
-        "text_GpLUjA": {
+        "text_MfCPYr": {
           "type": "text",
           "settings": {
             "text": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>"
           }
         },
-        "button_rQF4yR": {
+        "button_EFABKP": {
           "type": "button",
           "settings": {
-            "button_label": "learn more",
+            "button_label": "Learn More",
             "button_link": "#"
           }
         }
       },
       "block_order": [
-        "heading_bm3ByX",
-        "text_GpLUjA",
-        "button_rQF4yR"
+        "heading_gTxdVL",
+        "text_MfCPYr",
+        "button_EFABKP"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/cta-banner.png",
@@ -99,8 +95,7 @@
   },
   "order": [
     "main",
-    "1718122449b405d2db",
-    "all_blog_articles_rJFY4k",
-    "rx_img_with_text_N7GGFj"
+    "all_blog_articles_RE4Nch",
+    "rx_img_with_text_eEe68g"
   ]
 }

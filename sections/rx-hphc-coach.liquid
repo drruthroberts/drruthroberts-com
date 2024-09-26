@@ -225,7 +225,7 @@
     
     /* ===============Tab section============= */
 
-    .rx-{{section.id}} .rx-product-title-tab {
+  .rx-{{section.id}} .rx-product-title-tab {
       display: flex;
       justify-content: flex-start;
       gap: 30px;
@@ -758,7 +758,7 @@
       <div class="rx-product-title-tab">
         <button class="tablinks active" onclick="openTab(event, 'Description')">COACH INFORMATION</button>
         <button class="tablinks" onclick="openTab(event, 'CoachSpecialty')">COACH SPECIALTY</button>
-        {% comment %} <button class="tablinks" onclick="openTab(event, 'ContactInformation')">COACH CONTACT</button> {% endcomment %}
+        <!-- <button class="tablinks" onclick="openTab(event, 'ContactInformation')">COACH CONTACT</button> -->
       </div>
       
       <div id="Description" class="tabcontent">
@@ -779,8 +779,8 @@
       </div>
     </div>
 
-      
-      {% comment %} <div id="ContactInformation" class="tabcontent">
+      <!-- 
+      <div id="ContactInformation" class="tabcontent">
         <div class="product_tab_content">
           {%- if product.metafields.custom.coach_contact != blank -%}
              {{ product.metafields.custom.coach_contact }}
@@ -792,7 +792,7 @@
             <p></p>
           {%- endif -%}
         </div >
-      </div>      {% endcomment %}
+      </div>      -->
     </div>  
   {% endfor %}
 

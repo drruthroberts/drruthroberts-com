@@ -161,6 +161,7 @@
         "collapsible_row_cE94yN",
         "collapsible_row_PEFV7Q"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: \"BLT-Heirloom\"; font-weight: bold;}",
         "h3 {font-weight: bold; font-family: \"BLT-Heirloom\";}"
@@ -180,6 +181,27 @@
         "padding_bottom": 36
       }
     },
+    "custom_event_page_VzBM6C": {
+      "type": "custom-event-page",
+      "disabled": true,
+      "settings": {
+        "week_text": "Monday",
+        "week": "0",
+        "month_text": "January",
+        "month": "0",
+        "date": 27,
+        "year": 2024,
+        "start_hour": 10,
+        "end_hour": 16,
+        "time_zone": "ET",
+        "title": "Event Title",
+        "description": "<p>Description<\/p>",
+        "button_link_1": "",
+        "button_label_1": "Learn more",
+        "button_link_2": "",
+        "button_label_2": "Learn more"
+      }
+    },
     "featured_blog_bJckFy": {
       "type": "featured-blog",
       "custom_css": [
@@ -187,9 +209,9 @@
       ],
       "settings": {
         "custom_class": "",
-        "heading": "Read More Blogs",
+        "heading": "Watch More Videos",
         "heading_size": "h1",
-        "blog": "pet-blog",
+        "blog": "video",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -205,6 +227,7 @@
   "order": [
     "main",
     "collapsible_content_6JDbaT",
+    "custom_event_page_VzBM6C",
     "featured_blog_bJckFy"
   ]
 }
