@@ -144,7 +144,6 @@
     },
     "16539373096ff3b953": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1653937309ae676e60-0": {
           "type": "heading",
@@ -174,6 +173,7 @@
         "1653937309ae676e60-1",
         "1653937309ae676e60-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.my_fields._1_badge_image_2.value }}",
         "height": "adapt",
@@ -255,7 +255,6 @@
     },
     "rich-text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -275,6 +274,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -298,7 +298,6 @@
     },
     "newsletter": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -324,8 +323,8 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
