@@ -33,25 +33,20 @@
 
 /*Collectins page applying theme*/
 .image_content .button{
-
-border: 2px solid #184B44;
-color: #184B44 !important;
+  border: 2px solid #EFA316;
+  color: #fff !important;
 }
 
 .image_content .button svg{
   display: none;
-  
 }
+
 .image_content .button--primary{
-
-border: 2px solid #184B44 !important;
-
+  border: 1px solid #EFA316 !important;
 }
 
 .image-with-text__media{
-
-height: 500px !important;
-
+  height: 500px !important;
 }
 
 
@@ -2527,7 +2522,7 @@ font-weight: 600;
 }
 
 #home-page-coaches .section-template--14938865434689__292d2bca-865b-4f08-bf73-732508a4bc06-padding .rx_read_more_btn_green{
-background: white;
+background: #EFA316;
   border: none;
 }
 
@@ -3185,7 +3180,8 @@ line-height: 55px;
 
 .multicolumn-card__info .link {
     border-radius: 20px !important;
-    background-color: #2e484a !important;
+    background-color: #EFA316 !important;
+    
     padding: 5px 15px 5px 15px !important;
     color: white !important;
 }

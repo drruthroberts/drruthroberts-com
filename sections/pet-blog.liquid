@@ -113,9 +113,7 @@
           >
             {{ 'sections.featured_blog.view_all' | t }}
          
-          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="9" viewBox="0 0 35 9" fill="none">
-                <path d="M1.37891 4.5L33.0252 4.5M33.0252 4.5L26.5787 1M33.0252 4.5L26.5787 8" stroke="#184B44" stroke-linecap="round"/>
-        </svg>
+            {% render 'icon-arrow' %}
          </a>
         </div>
       {%- endif -%}
@@ -266,8 +264,8 @@
 {% endschema %}
 <style>
 .blog__view-all.petblog a{
-    background: transparent;
-    border: 2px solid #184B44;
+    background: #EFA316;
+    border: 2px solid #EFA316;
     border-radius: 25.5px;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -276,7 +274,7 @@
     line-height: 150%;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    color: #1E1E1E;
+    color: #fff;
     padding: 10px;
 }
 .blog__view-all.petblog a svg {

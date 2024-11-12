@@ -1,0 +1,117 @@
+{{ 'custom-header-menu.css' | asset_url | stylesheet_tag }}
+
+<style>
+    #section-{{ section.id }} {
+        background: {{ section.settings.background }};
+    }
+</style>
+
+<div class="custom-header-menu-container" id="section-{{ section.id }}">
+    <div class="header-menu-wrapper">
+       
+            <div class="header-menu-category">
+                {%- for block in section.blocks -%}
+                    <div class="header-menu-category-label" data-id={{ forloop.index }}>
+                        <span class="menu-item">{{ block.settings.item_label }}</span>
+                        <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 16L9 8.7027L1 1" stroke="#939393" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>    
+                    </div>
+                {%- endfor -%}
+            </div>
+            <div class="header-menu-content">
+                {%- for block in section.blocks -%}
+                    <div class="menu-content-wrapper" data-id={{ forloop.index }}>
+                        <div class="navbar-nav">
+                            <span class="subcategory-item">{{ block.settings.navigation_menu1 }}</span>
+                            <div class="subcategory-item-wrapper">
+                                {%- for link in block.settings.navigation_menu1.links -%}
+                                <div>
+                                    <a href="{{ link.url }}" class="nav-link">{{ link.title|escape }}</a>
+                                </div>
+                                {%- endfor -%}
+                            </div> 
+                        </div>
+                        <div class="navbar-nav">
+                            <span class="subcategory-item">{{ block.settings.navigation_menu2 }}</span>
+                            <div class="subcategory-item-wrapper">
+                                {%- for link in block.settings.navigation_menu2.links -%}
+                                <div>
+                                    <a href="{{ link.url }}" class="nav-link">{{ link.title|escape }}</a>
+                                </div>
+                                {%- endfor -%} 
+                            </div> 
+                        </div>
+                        <div class="navbar-nav">
+                            <span class="subcategory-item">{{ block.settings.navigation_menu3 }}</span>
+                            <div class="subcategory-item-wrapper">
+                                {%- for link in block.settings.navigation_menu3.links -%}
+                                <div>
+                                    <a href="link.url" class="nav-link">{{ link.title|escape }}</a>
+                                </div>
+                                {%- endfor -%} 
+                            </div>
+                        </div>
+                    </div>
+                {%- endfor -%}
+            </div>
+       
+    </div>
+</div>
+<script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+  {
+    "name": "Header Menu",
+    "tag": "section",
+    "class": "header-menu",
+    "settings": [
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background",
+        "default": "#fff"
+      }
+    ],
+    "blocks": [
+        {
+            "type": "menu_item",
+            "name": "menu item",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "item_label",
+                    "label": "Menu Item Label"
+                },
+                {
+                    "type": "link_list",
+                    "id": "navigation_menu1",
+                    "label": "Menu1",
+                  
+                },
+                {
+                    "type": "link_list",
+                    "id": "navigation_menu2",
+                    "label": "Menu2",
+                   
+                } ,
+                {
+                    "type": "link_list",
+                    "id": "navigation_menu3",
+                    "label": "Menu3",
+                   
+                }              
+            ]
+        },
+      
+
+    ],
+    "presets": [
+      {
+        "name": "Header menu",
+        "settings": {
+        }
+      }
+    ]
+  }
+{% endschema %}
+

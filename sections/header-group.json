@@ -1,4 +1,13 @@
-{
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
@@ -7,22 +16,18 @@
       "blocks": {
         "announcement_rNqJTQ": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Unleash Your Potential: Become a Holistic Pet Health Coach! 🩺Sign Up Now For the September 12 workshop now! 🐾",
             "text_alignment": "center",
-            "color_scheme": "accent-1",
-            "link": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner"
+            "link": "https://www.holisticpethealthcoach.com/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner"
           }
         },
         "announcement_qWPKCT": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Last Chance! ⏰ Grab up to 50% Off our never-before-seen collection – Sale Ends at Midnight!",
             "text_alignment": "center",
-            "color_scheme": "accent-1",
-            "link": "https:\/\/drruthroberts.com\/collections\/labor-day"
+            "link": "https://drruthroberts.com/collections/labor-day"
           }
         }
       },
@@ -30,17 +35,14 @@
         "announcement_rNqJTQ",
         "announcement_qWPKCT"
       ],
-      "custom_css": [
-
-      ],
-      "settings": {
-      }
+      "custom_css": [],
+      "settings": {}
     },
     "custom_liquid_D9YNGQ": {
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-QQbtwp\"><\/div>",
+        "custom_liquid": "<div class=\"klaviyo-form-QQbtwp\"></div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -52,8 +54,9 @@
         "color_scheme": "background-1",
         "logo_position": "middle-left",
         "menu": "main-menu-revamp",
+        "mobile_menu": "mobile-main-menu",
         "menu_type_desktop": "mega",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "always",
         "show_line_separator": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
@@ -71,9 +74,9 @@
       "type": "apps",
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_tNctwM": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-SQVTGQ\"><\/div>"
+            "formId": "<div class=\"klaviyo-form-SQVTGQ\"></div>"
           }
         }
       },
@@ -94,9 +97,9 @@
       "type": "apps",
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_ADrzA7": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-RBSxfZ\"><\/div>"
+            "formId": "<div class=\"klaviyo-form-RBSxfZ\"></div>"
           }
         }
       },
@@ -106,12 +109,63 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_header_menu_DzEyPj": {
+      "type": "custom-header-menu",
+      "blocks": {
+        "menu_item_EbhrYH": {
+          "type": "menu_item",
+          "settings": {
+            "item_label": "for dog",
+            "navigation_menu1": "dog-nutrition",
+            "navigation_menu2": "dog-wellness",
+            "navigation_menu3": "life-stage"
+          }
+        },
+        "menu_item_XNtb44": {
+          "type": "menu_item",
+          "settings": {
+            "item_label": "for cat",
+            "navigation_menu1": "life-stage",
+            "navigation_menu2": "dog-wellness",
+            "navigation_menu3": ""
+          }
+        },
+        "menu_item_KXcVxY": {
+          "type": "menu_item",
+          "settings": {
+            "item_label": "SHOP BY HEALTH CONCERN",
+            "navigation_menu1": "shop-by-health-concern",
+            "navigation_menu2": "",
+            "navigation_menu3": ""
+          }
+        },
+        "menu_item_33NLAV": {
+          "type": "menu_item",
+          "settings": {
+            "item_label": "SHOP BY BRAND",
+            "navigation_menu1": "top-brand",
+            "navigation_menu2": "all-brand",
+            "navigation_menu3": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_item_EbhrYH",
+        "menu_item_XNtb44",
+        "menu_item_KXcVxY",
+        "menu_item_33NLAV"
+      ],
+      "settings": {
+        "background": "#ffffff"
+      }
     }
   },
   "order": [
     "announcement-bar",
     "custom_liquid_D9YNGQ",
     "header",
+    "custom_header_menu_DzEyPj",
     "172135207950b70536",
     "171319935398bc6e18",
     "1715285349ba063e6c",

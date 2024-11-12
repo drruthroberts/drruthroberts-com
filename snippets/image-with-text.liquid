@@ -1,0 +1,54 @@
+<div style="padding-top:60px; padding-bottom: 0;" class="imgpage_width image-with-text image-with-text--{{ block.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless block.settings.color_scheme == 'background-1' and block.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %}">
+  <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if block.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if block.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
+    <div class="{{ block.settings.unique_class }} image-with-text__media-item image-with-text__media-item--{{ blocks.settings.desktop_image_width }} image-with-text__media-item--{{ block.settings.desktop_content_position }} grid__item">
+      <div
+        class="image-with-text__media image-with-text__media--{{ block.settings.height }} gradient color-{{ block.settings.color_scheme }} global-media-settings {% if block.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
+        {% if block.settings.height == 'adapt' and block.settings.image != blank %}
+          style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;"
+        {% endif %}
+      >
+        {%- if block.settings.image != blank -%}
+          {%- capture sizes -%}
+            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+            (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+          {%- endcapture -%}
+          {{
+            block.settings.image
+            | image_url: width: 1500
+            | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1070, 1500', alt: 'image'
+          }}
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="image-with-text__text-item grid__item image_content">
+      <div
+        id="ImageWithText--{{ section.id }}"
+        class="image-with-text__content second_imgcontent  image-with-text__content--{{ block.settings.desktop_content_position }} image-with-text__content--desktop-{{ block.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ block.settings.mobile_content_alignment }} image-with-text__content--{{ block.settings.height }} gradient color-{{ block.settings.color_scheme }} content-container"
+      >
+        <h2 class="image-with-text__heading" {{ block.shopify_attributes }}>
+        {{ block.settings.image_title | escape }}
+        </h2>
+
+        <div class="image-with-text__text rte" {{ block.shopify_attributes }}>
+        {{ block.settings.image_description }}
+        </div>
+
+        {%- if block.settings.btn_label != blank -%}
+        <a style="margin-top: 20px;"
+            {% if block.settings.btn_link == blank %}
+            role="link" aria-disabled="true"
+            {% else %}
+            href="{{ block.settings.btn_link }}"
+            {% endif %}
+            class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+            {{ block.shopify_attributes }}
+        >
+            {{ block.settings.btn_label | escape }}
+        </a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>

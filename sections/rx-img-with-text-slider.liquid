@@ -337,12 +337,13 @@
                     class="rx_read_more_btn_green"
                   >
                     {{ block.settings.button_label | escape }}
-                    <img 
+                    {% comment %} <img 
                       id="rx_read_more_arrow_black"
                       class="rx_read_more_arrow_img_with_text"
                       alt="image"
                       src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
-                    >
+                    > {% endcomment %}
+                    {% render 'icon-arrow' %}
                   </a>
               </div>
               {%- endif -%}

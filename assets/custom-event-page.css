@@ -3,8 +3,6 @@
     margin-bottom: 60px;
 }
 
-
-
 .custom-event-page-wrapper {
     width: 75%;
     display: flex;
@@ -104,9 +102,9 @@
 }
 
 .rx_read_more_btn_green {
-    background-color: transparent !important;
-    border-color: #184B44 !important;
-    color: #1E1E1E !important;
+    background-color: #EFA316 !important;
+    border-color: #EFA316 !important;
+    color: #fff !important;
     padding: 10px 20px !important;
     margin: 0 !important;
     display: flex;

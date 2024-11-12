@@ -2,7 +2,7 @@
 
 {%- for block in section.blocks -%}
     {%- if block.settings.image_height == 'adapt' and block.settings.image != blank -%}  
-        {%- style -%}
+      {%- style -%}
       @media screen and (max-width: 749px) {
           #Banner-{{ section.id }}::before,
           #Banner-{{ section.id }} .banner__media::before,
@@ -30,26 +30,25 @@
             }
         }
         {%- endstyle -%}
-  {%- endif -%}
+    {%- endif -%}
   
   {%- style -%}
     #Banner-{{ section.id }}::after {
       opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
     }
   
-    .rx_banner__heading {
+    .custom-slider-banner-container .rx_banner__heading {
       font-family: "BLT-Heirloom";
       font-weight: 700;
       font-size: 30px;
       line-height: 35px;
       color: {{block.settings.heading_color}};
       margin: 0 auto;
-      max-width: 200px;
       padding-bottom: 40px;
       text-align: center;
     }
   
-    .rx_banner__text {
+    .custom-slider-banner-container .rx_banner__text {
       font-family: "Josefin Sans";
       font-weight: 400;
       font-size: 18px;
@@ -93,7 +92,7 @@
        .custom-box.rx_banner__box {
         text-align: {{ block.settings.desktop_content_alignment }};
         width: auto;
-        max-width: 31rem;
+        max-width: 35rem;
         min-width: 25rem;
         padding: {% if block.settings.show_text_box == true %} 30px {% endif %};
       }
@@ -112,18 +111,18 @@
     <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
             <div
-                class="banner swiper-slide banner--content-align-{{ block.settings.desktop_content_alignment }} banner--content-align-mobile-{{ block.settings.mobile_content_alignment }} banner--{{ block.settings.image_height }}{% if block.settings.stack_images_on_mobile and block.settings.image != blank and block.settings.image_2 != blank %} banner--stacked{% endif %}{% if block.settings.image_height == 'adapt' and block.settings.image != blank %} banner--adapt{% endif %}{% if block.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
+                class="banner swiper-slide banner--content-align-{{ block.settings.desktop_content_alignment }} banner--content-align-mobile-{{ block.settings.mobile_content_alignment }} banner--{{ block.settings.image_height }}{% if block.settings.image_height == 'adapt' and block.settings.image != blank %} banner--adapt{% endif %}{% if block.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
             >
                 {%- if block.settings.image != blank -%}
-                <div class="banner__media media{% if block.settings.image == blank and block.settings.image_2 == blank %} placeholder{% endif %}{% if block.settings.image_2 != blank %} banner__media-half{% endif %}">
+                <div class="banner__media desktop_media media{% if block.settings.image == blank and block.settings.mobile_image == blank %} placeholder{% endif %}">
                     {%- liquid
                     assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
-                    if block.settings.image_2 != blank
+                    if block.settings.mobile_image != blank
                         assign image_class = 'banner__media-image-half'
                     endif
-                    if block.settings.image_2 != blank and block.settings.stack_images_on_mobile
+                    if block.settings.mobile_image != blank and block.settings.stack_images_on_mobile
                         assign sizes = '(min-width: 750px) 50vw, 100vw'
-                    elsif block.settings.image_2 != blank
+                    elsif block.settings.mobile_image != blank
                         assign sizes = '50vw'
                     else
                         assign sizes = '100vw'
@@ -131,8 +130,8 @@
                     -%}
                     {{
                         block.settings.image
-                    | image_url: width: 3840
-                    | image_tag:
+                        | image_url: width: 3840
+                        | image_tag:
                         loading: 'lazy',
                         width: block.settings.image.width,
                         height: image_height,
@@ -142,41 +141,36 @@
                         widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
                     }}
                 </div>
-                {%- elsif block.settings.image_2 == blank -%}
-                <div class="banner__media media{% if block.settings.image == blank and block.settings.image_2 == blank %} placeholder{% endif %}{% if block.settings.image_2 != blank %} banner__media-half{% endif %}">
-                    {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
-                </div>
                 {%- endif -%}
-                {%- if block.settings.image_2 != blank -%}
-                <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
+                {%- if block.settings.mobile_image != blank -%}
+                <div class="banner__media media mobile_media">
                     {%- liquid
-                    assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
-                    if section.settings.image != blank
+                    assign image_height_2 = block.settings.mobile_image.width | divided_by: block.settings.mobile_image.aspect_ratio
+                    if block.settings.image != blank
                         assign image_class_2 = 'banner__media-image-half'
                     endif
-                    if section.settings.image != blank and section.settings.stack_images_on_mobile
+                    if block.settings.image != blank and block.settings.stack_images_on_mobile
                         assign sizes = '(min-width: 750px) 50vw, 100vw'
-                    elsif section.settings.image != blank
+                    elsif block.settings.image != blank
                         assign sizes = '50vw'
                     else
                         assign sizes = '100vw'
                     endif
                     -%}
                     {{
-                    section.settings.image_2
-                    | image_url: width: 3840
+                    block.settings.mobile_image
+                    | image_url: width: 767
                     | image_tag:
                         loading: 'lazy',
-                        width: section.settings.image_2.width,
+                        width: block.settings.mobile_image.width,
                         height: image_height_2,
                         class: image_class_2,
                         sizes: sizes,
                         alt: 'image',
-                        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                        widths: '375, 550, 750'
                     }}
                 </div>
                 {%- endif -%}
-
                 <div class="section-{{block.id}} banner__content banner__content--{{ block.settings.desktop_content_position }} page-width">
                 <div class="custom-box rx_banner__box content-container content-container--full-width-mobile rx-container-bg">
                     <p class="rx_banner__heading" {{ block.shopify_attributes }}>
@@ -198,13 +192,7 @@
                             class="{% if block.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
                         >
                             {{- block.settings.button_label_1 | escape -}}
-                            {% render 'icon-arrow' %}
-                            {% comment %} <img 
-                            id="rx_read_more_arrow_black"
-                            alt="image"
-                            src="{% if block.settings.show_text_box == false %} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/white-arrow.png?v=1680565711 {% else%} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191 {%endif%}"
-                            class="rx_read_more_arrow_img_banner"
-                            > {% endcomment %}
+                            {% comment %} {% render 'icon-arrow' %} {% endcomment %}
                         </a>
                         {%- endif -%}
                     </div>
@@ -237,12 +225,12 @@
             {
                 "type": "image_picker",
                 "id": "image",
-                "label": "t:sections.image-banner.settings.image.label"
+                "label": "Desktop Image"
             },
             {
                 "type": "image_picker",
-                "id": "image_2",
-                "label": "t:sections.image-banner.settings.image_2.label"
+                "id": "mobile_image",
+                "label": "Mobile Image"
             },
             {
                 "type": "range",
@@ -330,7 +318,7 @@
                 "label": "t:sections.image-banner.settings.show_text_box.label"
             },
             {
-                "type": "color",
+                "type": "color_background",
                 "id": "container_bg",
                 "label": "Container Background Color",
                 "default": "#fff"

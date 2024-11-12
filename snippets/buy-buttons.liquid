@@ -10,7 +10,9 @@
   Usage:
   {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true %}
 {% endcomment %}
-<div {{ block.shopify_attributes }}>
+
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+<div class="product-form-container"{{ block.shopify_attributes }}>
   {%- if product != blank -%}
     <product-form class="product-form">
       <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -35,6 +37,23 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
+      
+      {%- assign valid_product_titles = "Holistic Total Body Support for Cats and Dogs - Glandular Supplements, Pet's Daily Wellness Formula - For Pets With Pork/Beef Allergy, Omega Pawz - Liquid Fish Oil Supplement for Pet’s Energy Booster, Hista Paws - Herbal Allergy Supplement for Cats and Dogs, Arthri-Pawz - Best Joint Supplement for Dogs and Cats" | split: ", " -%}  
+
+      {%- assign product_in_valid_titles = false -%}  
+      
+      {%- for title in valid_product_titles -%}  
+        {%- if title == product.title -%}  
+          {%- assign product_in_valid_titles = true -%}  
+        {%- endif -%}  
+      {%- endfor -%}  
+      
+      {% if product_in_valid_titles %}  
+        {% render 'selling-plans-integration' %}  
+      {% endif %}
+
+      
+
         <input
           type="hidden"
           name="id"
@@ -136,3 +155,101 @@
     <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 </div>
+
+
+<style>
+  .custom-subscription--container {
+  padding-top: 8px;
+}
+
+.custom-subscription--group {
+  padding: 20px;
+  border: 1px solid #000;
+  margin-top: 6px;
+}
+
+{% comment %} .custom-subscription--input-label {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
+} {% endcomment %}
+
+#custom-subscription--input-save {
+  display: flex;
+  left: -3px;
+  top: 3px;
+  position: absolute;
+}
+
+.subcription-text-with-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.subscription-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription-text--tite {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.custom-subscription--input__text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  color: #184B44;
+}
+
+.custom-subscription--input__subtext {
+  font-size: 12px;
+  font-family: 'Josefin Sans';
+  color: #000;
+}
+
+.custom-subscription--discount-price {
+  font-weight: 600;
+}
+
+.custom-subscription--original-price {
+  font-weight: 500;
+}
+
+{% comment %} .custom-onetime--group {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 16px 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+} {% endcomment %}
+
+.custom-subscription-onetime-label {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.onetime-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.onetime-title {
+  font-size: 14px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: #184B44;
+}
+</style>

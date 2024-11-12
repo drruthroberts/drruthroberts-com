@@ -1,149 +1,136 @@
-<section
-  id="AnnouncementBar-{{ section.id }}"
-  class="announcement-bar-section page-width"
-  data-section="{{ section.id }}"
->
+<style>  
+  .announcement-bar {  
+    background-color: #EFA316;  
+    text-align: center;
+    border-color: transparent;  
+    color: #fff;  
+    width: 100%;  
+  }  
 
+  .announcement-bar__link {  
+    color: inherit;  
+    text-decoration: none;  
+  }  
 
-  <style>
-    .announcement-bar {
-      background-color: #F5F8F1;
-      text-align: center;
-      border-radius: 15px
-    }
+  .announcement-bar__message {  
+    margin: 0;  
+    padding: 4px 0;  
+    font-family: 'BLT-Heirloom', sans-serif;  
+    font-weight: 600;  
+    font-size: 13px;  
+    color: #fff;
+  }  
 
-    .announcement-bar__link {
-      color: inherit;
-      text-decoration: none;
-    }
+  .swiper-container {  
+    width: 100%;  
+    overflow: hidden; /* Prevents overflow */  
+  }  
 
-    .announcement-bar__message {
-      margin: 0;
-      padding: 10px 0;
-      font-family: 'BLT-Heirloom', sans-serif;
-      font-weight: bold;
-      font-size: 1em;
-      color: #184B44;
-      animation: blink-animation 1s steps(5, start) infinite;
-      -webkit-animation: blink-animation 1s steps(5, start) infinite;
-    }
+  .swiper-wrapper {  
+    display: flex; /* Ensure slides are aligned in a row */  
+  }  
 
-    @keyframes blink-animation {
-      to {
-        visibility: hidden;
-      }
-    }
-
-    @-webkit-keyframes blink-animation {
-      to {
-        visibility: hidden;
-      }
-    }
-  </style>   
-
-  {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      {%- when 'announcement' -%}
-        <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-          {%- if block.settings.text != blank -%}
-            {%- if block.settings.link != blank -%}
-              <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
-            {%- endif -%}
-                <div class="page-width">
-                  <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
-                    <span>{{ block.settings.text | escape }}</span>
-                    {%- if block.settings.link != blank -%}
-                      {% render 'icon-arrow' %}
-                    {%- endif -%}
-                  </p>
-                </div>
-            {%- if block.settings.link != blank -%}
-              </a>
-            {%- endif -%}
-          {%- endif -%}
-        </div>
-    {%- endcase -%}
-  {%- endfor -%}
-</section>
-
-{% schema %}
-{
-  "name": "t:sections.announcement-bar.name",
-  "max_blocks": 12,
-  "class": "announcement-bar-section",
-  "blocks": [
-    {
-      "type": "announcement",
-      "name": "t:sections.announcement-bar.blocks.announcement.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Welcome to our store",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
-        },
-        {
-          "type": "select",
-          "id": "text_alignment",
-          "options": [
-            {
-              "value": "left",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__1.label"
-            },
-            {
-              "value": "center",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__2.label"
-            },
-            {
-              "value": "right",
-              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__3.label"
-            }
-          ],
-          "default": "center",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.label"
-        },
-        {
-          "type": "select",
-          "id": "color_scheme",
-          "options": [
-            {
-              "value": "accent-1",
-              "label": "t:sections.all.colors.accent_1.label"
-            },
-            {
-              "value": "accent-2",
-              "label": "t:sections.all.colors.accent_2.label"
-            },
-            {
-              "value": "background-1",
-              "label": "t:sections.all.colors.background_1.label"
-            },
-            {
-              "value": "background-2",
-              "label": "t:sections.all.colors.background_2.label"
-            },
-            {
-              "value": "inverse",
-              "label": "t:sections.all.colors.inverse.label"
-            }
-          ],
-          "default": "accent-1",
-          "label": "t:sections.all.colors.label"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
-        }
-      ]
-    }
-  ],
-  "default": {
-    "blocks": [
-      {
-        "type": "announcement"
-      }
-    ]
+  .swiper-slide {  
+    display: flex;  
+    justify-content: center; /* Center content inside the slide */  
+    align-items: center; /* Align items vertically */  
+  } 
+  
+  @media (max-width: 767px) {
+    .announcement-bar__message {  
+      font-size: 12px;  
+    } 
+    
   }
-}
-{% endschema %}
+</style>  
+<div  
+  id="AnnouncementBar-{{ section.id }}"  
+  class="announcement-bar-section"  
+  data-section="{{ section.id }}"  
+>   
+  <div class="swiper-container">  
+    <div class="swiper-wrapper">  
+      {%- for block in section.blocks -%}  
+        {%- case block.type -%}  
+          {%- when 'announcement' -%}  
+            {%- if block.settings.text != blank -%}  
+              <div class="swiper-slide announcement-bar">  
+                {%- if block.settings.link != blank -%}  
+                  <a href="{{ block.settings.link }}" class="announcement-bar__link animate-arrow">  
+                    <div class="page-width">  
+                      <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">  
+                        <span>{{ block.settings.text | escape }}</span>  
+                        {% comment %} {%- if block.settings.link != blank -%}  
+                          {% render 'icon-arrow' %}  
+                        {%- endif -%}   {% endcomment %}
+                      </p>  
+                    </div>  
+                  </a>  
+                {%- endif -%}  
+              </div>  
+            {%- endif -%}  
+          {%- endcase -%}  
+        {%- endfor -%}  
+    </div>  
+  </div>  
+</div>  
+
+ <script src="{{ 'announcement-bar.js' | asset_url }}" defer="defer"></script> 
+
+{% schema %}  
+{  
+  "name": "t:sections.announcement-bar.name",  
+  "max_blocks": 12,
+  "class": "announcement-bar-group-section",  
+  "blocks": [  
+    {  
+      "type": "announcement",  
+      "name": "t:sections.announcement-bar.blocks.announcement.name",  
+      "settings": [  
+        {  
+          "type": "text",  
+          "id": "text",  
+          "default": "Welcome to our store",  
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"  
+        },  
+        {  
+          "type": "select",  
+          "id": "text_alignment",  
+          "options": [  
+            {  
+              "value": "left",  
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__1.label"  
+            },  
+            {  
+              "value": "center",  
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__2.label"  
+            },  
+            {  
+              "value": "right",  
+              "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.options__3.label"  
+            }  
+          ],  
+          "default": "center",  
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text_alignment.label"  
+        },  
+        {  
+          "type": "url",  
+          "id": "link",  
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"  
+        }  
+      ]  
+    }  
+  ],  
+  "default": {  
+    "blocks": [  
+      {  
+        "type": "announcement"  
+      }  
+    ]  
+  }  
+}  
+{% endschema %}  
+
+
+ 
+  

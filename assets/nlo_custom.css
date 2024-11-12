@@ -1,6 +1,9 @@
 .amr_container_1170 {
     max-width: 1170px;
     margin: 0 auto;
+    border: 2px solid #184B44;
+    border-radius: 24px;
+    padding: 36px;
 }
 .amr_container_1050{
     max-width: 1050px;
@@ -11,28 +14,31 @@
     padding: 60px 0px;
 }
 .amr_pet_consultants_header {
-    margin-bottom: 66px;
     text-align: center;
 }
 .amr_pet_consultants_header h2 {
-    color: #2D4B49;
+    color: #000;
     text-align: center;
-    font-family: BLT-Heirloom;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 300;
-    text-transform: capitalize;
-    margin: 0 0 24px;
-}
-.amr_pet_consultants_header p {
-    color: #1E1E1E;
-    text-align: center;
-    font-family: Josefin Sans;
+    font-family: "Josefin Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
-    margin: 0;
+    line-height: 30px;
+    border-radius: 24px;
+    border: 1px solid #F5F8F1;
+    background-color: #F5F8F1;
+    padding: 10px 14px;
+    width: max-content;
+    margin: 0 auto;
+}
+.amr_pet_consultants_header p {
+    color: #706E6E;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
 }
 .amr_pet_consultants_list {
     display: grid;
@@ -920,23 +926,24 @@ img.amr_person_detail_img {
 /* faq */
 .amr_faq_accordion {
     position: relative;
-    padding: 60px 0px;
+    padding-bottom: 60px;
 }
 button.amr_accordion {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid rgba(123, 97, 255, 0.18);
-    padding: 30px 24px 30px 0;
+    border-radius: 20px;
+    background-color: #F5F8F1;
+    border: 1px solid #F5F8F1;
+    padding: 18px 0px 18px 30px;
     column-gap:10px;
+    margin-bottom: 10px;
 }
 button.amr_accordion span {
     color: #2D4B49;
     font-family: Josefin Sans;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 35.2px;
@@ -949,7 +956,6 @@ button.amr_accordion img {
 }
 .amr_faq_list {
     border-radius: 40px;
-    background: #E0ECBE;
     padding: 40px;
 }
 button.amr_accordion.amr_active img {
@@ -957,7 +963,13 @@ button.amr_accordion.amr_active img {
 }
 .amr_panel {
     transition:1s;
-    border-bottom: 1px solid rgba(123, 97, 255, 0.18);
+    color: #1E1E1E;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    padding-left: 30px;
 }
 /* our services */
 .amr_our_services {
@@ -1129,7 +1141,7 @@ button.amr_accordion.amr_active img {
 .amr_container_1170,
 .amr_container_1050{
     max-width: 100%;
-    padding: 0 20px;
+    padding: 15px 20px;
 }
 .amr_story_grup {
     grid-column-gap: 20px;
@@ -1167,11 +1179,14 @@ button.amr_accordion.amr_active img {
 .amr_dots_arrows button.slick-next.slick-arrow {
     right: 25%;
 }
-.amr_pet_consultants_header h2,
 .person_story h2.blog__title,
 .amr_WL_header h2,
 .amr_our_story_header{
     font-size: 48px;
+}
+
+.amr_pet_consultants_header h2{
+    font-size: 26px;
 }
   
 .amr_pet_consultants_header p {
@@ -1309,6 +1324,10 @@ div#footer-association-container img#footer-association-img {
 .amr_our_story_header{
     font-size: 42px;
 }
+
+.amr_pet_consultants_header h2 {
+    font-size: 34px;
+}
 .amr_WL_header p {
     font-size: 16px;
 }
@@ -1410,7 +1429,7 @@ button.amr_accordion span {
     padding: 20px;
 }
 button.amr_accordion {
-    padding: 10px 2px;
+    padding: 10px 7px;
 }
 .amr_story_grup {
     grid-template-columns: 1fr;
@@ -1430,12 +1449,21 @@ button.amr_accordion {
 }
 }
 @media screen and (max-width:575px){
-.amr_pet_consultants_header h2,
+
 .person_story h2.blog__title,
 .amr_WL_header h2,
 .amr_our_story_header{
     font-size: 32px;
 }
+
+.amr_pet_consultants_header h2 {
+    font-size: 18px; 
+}
+
+.amr_panel {
+    padding-left: 7px;
+} 
+
 .amr_pet_consultants_list.amr_pet_consultants_list_desktp {
     display: none;
 }

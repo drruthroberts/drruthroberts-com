@@ -179,10 +179,11 @@
           {% else %}
             {{ 'sections.featured_blog.view_all' | t }}
           {% endif %}
-             <img  class="{% if page.handle == "holistic-pet-health-coaching-program"%} incpadding {% endif %}"
-            id="rx_read_more_arrow_black"
-            src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
-          >
+          {%  if page.handle == "upcoming-events" %}
+            {% render 'icon-arrow' %}
+          {% else %}
+            {% render 'icon-arrow' %}
+          {% endif %}
           </a>
         </div>
       {%- endif -%}
@@ -204,9 +205,7 @@
     {% if section.settings.blogs_url %}
       <div class="blogbodr2">
         <a href="{{ section.settings.blogs_url }}" class="btnspace1">{{ section.settings.blogs_btn }} 
-        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-          <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="#1E1E1E" stroke-linecap="round"/>
-        </svg>
+          {% render 'icon-arrow' %}
         </a>
       </div> 
     {% endif %}

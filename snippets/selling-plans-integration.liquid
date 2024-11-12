@@ -1,0 +1,95 @@
+{%- assign current_variant = product.selected_or_first_available_variant | default: product.variants.first -%}
+
+  <div class="selling_plan_app_container" data-section-id='{{ section.id }}'>
+    {% for variant in product.variants %}
+      {%liquid
+        assign variantPrice = variant.price | money | escape
+        assign variantComparedAtPrice = variant.compare_at_price | money_with_currency | escape
+      %}
+      <fieldset class="bulk-purchase-group">
+        <div class="bulk-purchase-container">
+          <div for="custom-purchase-option" class="bulk-purchase-label">
+              {% comment %} <input type="radio" id="custom-subscription--input-save" name="purchaseOption_{{ section.id }}_{{ variant.id }}" value="save" class="group-input" data-radio-type='selling_plan_group'>  {% endcomment %}
+              <div class="subscription-text">  
+                <div class="subscription-text--title">  
+                    <span class="custom-subscription--input__text">  
+                      BUY MORE TO SAVE MORE
+                        <span class="custom-subscription--input__subtext">Buy in larger quantities at once and get a discounted price to save on cost per unit.</span>   
+                    </span>  
+                </div>  
+              </div>
+              <div class="bulk-purchase-plan">
+                  <div class="bulk-purchase-group-label">
+                    <label class="one-pack-purchase bulk-purchase-group-item one-pack-title" for="one_pack_purchase">
+                      <input
+                          type='radio'
+                          name="bulkPurchaseOption"
+                          {% if variant.available == false %}disabled{% endif %}
+                          id='one_pack_purchase'
+                          data-variant-id='{{ variant.id }}'
+                          data-variant-price='{{ variantPrice }}'
+                          data-variant-compare-at-price='{{ variantComparedAtPrice }}'
+                          class="group-input"
+                          checked
+                        />
+                      <div class="purchase-pack-box selected">
+                        <span class="bulk-purchase-name">1-pack</span>
+                        <div class="purchase-plan-price">{{ variantPrice }}</div>  
+                      </div>
+                    </label>
+                  </div>
+                  <div class="bulk-purchase-group-label">
+                    <label class="one-pack-purchase bulk-purchase-group-item one-pack-title" for="three_pack_purchase">
+                      <input
+                          type='radio'
+                          name="bulkPurchaseOption"
+                          {% if variant.available == false %}disabled{% endif %}
+                          id='three_pack_purchase'
+                          data-variant-id='{{ variant.id }}'
+                          data-variant-price='{{ variantPrice }}'
+                          data-variant-compare-at-price='{{ variantComparedAtPrice }}'
+                          class="group-input"
+                        />
+                            <div class="purchase-pack-box">
+                              <span class="bulk-purchase-name">3-pack</span>
+                              <div class="purchase-price">
+                                {% assign origin_price = variant.price  | times: 3 %}
+                                {% assign discounted_price =  variant.price | times: 2.55 %}
+                                <span class="bulk-origin-price">{{ origin_price | money | escape }}</span>
+                                <span class="bulk-discounted-price">{{ discounted_price | money | escape }}</span>
+                              </div>  
+                            </div>
+                          <span class="bulk-purchase-discount">Save 15%</span>
+                    </label>
+                  </div>
+                  <div class="bulk-purchase-group-label">
+                    <label class="one-pack-purchase bulk-purchase-group-item one-pack-title" for="six_pack_purchase">
+                      <input
+                        type='radio'
+                        name="bulkPurchaseOption"
+                        {% if variant.available == false %}disabled{% endif %}
+                        id='six_pack_purchase'
+                        data-variant-id='{{ variant.id }}'
+                        data-variant-price='{{ variantPrice }}'
+                        data-variant-compare-at-price='{{ variantComparedAtPrice }}'
+                        class="group-input"
+                      />
+                      <div class="purchase-pack-box">
+                        <span class="bulk-purchase-name">6-pack</span>
+                        <div class="purchase-price">
+                          {% assign six_origin_price = variant.price | times: 6 %}
+                          {% assign six_discounted_price =  variant.price | times: 4.5 %}
+                          <span class="bulk-origin-price">{{ six_origin_price | money | escape }}</span>
+                          <span class="bulk-discounted-price">{{ six_discounted_price | money | escape }}</span>  
+                        </div>  
+                      </div>
+                        <span class="bulk-purchase-discount">Save 25%</span>
+                    </label>
+                  </div>
+              </div>
+              <span class="free-shipping-text">Free U.S Shipping over $75</span>   
+            </div>
+        </div>
+      </fieldset>
+    {% endfor %}
+  </div>

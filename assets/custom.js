@@ -6,7 +6,12 @@ document.addEventListener('DOMContentLoaded',function(){
     let count = 0;
 
     // var targetItems = document.querySelectorAll('[data-index="'+targetIndex+'"]');
-    var firstArticle = articleItems[0].cloneNode(true);
+    if (articleItems) {  
+        var firstArticle = articleItems[0].cloneNode(true);  
+        console.log(firstArticle); // This should log the cloned element 
+    } else {  
+        console.error("No articles found with the selector '.custom-blog-articles__article'");  
+    }  
     firstArticle.classList.remove('hidden');
     firstAiticleDom.appendChild(firstArticle);
     console.log(firstAiticleDom);
@@ -62,7 +67,6 @@ document.addEventListener('DOMContentLoaded',function(){
                 updateValue = Number(activeValue) + 1;
                 if(updateValue == paginationButton.length + 1) {
                     buttonName.classList.add('disabled');
-                    console.log('herer-------', buttonName);
                     buttonName.removeAttribute('onclick');
                 }
             
@@ -85,3 +89,4 @@ document.addEventListener('DOMContentLoaded',function(){
     })
 
 });
+

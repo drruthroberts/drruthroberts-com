@@ -1,4 +1,4 @@
-new Swiper('.swiper-container', {
+var testiminal = new Swiper('.product-testiminal-container .swiper-container', {
     loop: true,
     slidesPerView: 3,
     spaceBetween: 20,
@@ -27,4 +27,5 @@ new Swiper('.swiper-container', {
             centeredSlides: true
         }
     }
-  });
+});
+

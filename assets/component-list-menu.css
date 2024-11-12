@@ -28,3 +28,21 @@
   width: 10rem;
   padding: 0.5rem;
 }
+
+.header__menu-item.list-menu__item {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.header__menu-item.list-menu__item::before {
+ content: "";
+ position: absolute;
+ width: 200px;
+ height: 52px;
+
+}
+
+.list-menu.list-menu--inline {
+  position: relative;
+} 

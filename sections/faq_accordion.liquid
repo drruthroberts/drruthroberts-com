@@ -1,31 +1,33 @@
-{% if product.tags contains 'faq' %}
-<div class="amr_faq_accordion">
-  <div class="amr_container_1170">
-    <div class="amr_pet_consultants_header">
-      {% if section.settings.heading != blank %}<h2>{{ section.settings.heading }}</h2>{% endif %}
-      {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
-    </div>
-    <div class="amr_faq_list">
-      {% for block in section.blocks %}
-        {% if block.settings.title != blank %}
-          <div class="amr_faq_item">
-            <button class="amr_accordion"><span>{{ block.settings.title }}</span><img src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/Vector_002ad72b-39a6-4f7f-8764-e837678cc6ec.svg?v=1692192786"></button>
-            <div class="amr_panel">{{ block.settings.detail }}</div>
-          </div>
-        {% endif %}
-      {% endfor %}
+  <div class="amr_faq_accordion page-width">
+    <div class="amr_container_1170">
+      <div class="amr_pet_consultants_header">
+        {% if section.settings.heading != blank %}<h2>{{ section.settings.heading }}</h2>{% endif %}
+        {% if section.settings.desc != blank %}<div>{{ section.settings.desc }}</div>{% endif %}
+      </div>
+      <div class="amr_faq_list">
+        {% for block in section.blocks %}
+          {% if block.settings.title != blank %}
+            <div class="amr_faq_item">
+              <button class="amr_accordion"><span>{{ block.settings.title }}</span></button>
+              <div class="amr_panel">{{ block.settings.detail }}</div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
-</div>
-{% endif %}
+
 <style>
-  .amr_panel{
+  {% comment %} .amr_panel{
     display:none;
-  }
+  } {% endcomment %}
 </style>
 <script>
 var acc = document.getElementsByClassName("amr_accordion");
 var i;
+var accordionList = document.querySelector('.amr_faq_item');
+console.log(accordionList, "here")
+if(accordionList == null) document.querySelector('.amr_faq_accordion').classList.add('hidden');
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {

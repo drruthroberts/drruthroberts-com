@@ -267,12 +267,7 @@
                   class="{% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
                 >
                   {{- block.settings.button_label_1 | escape -}}
-                  <img 
-                    id="rx_read_more_arrow_black"
-                    alt="image"
-                    src="{% if section.settings.show_text_box == false %} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/white-arrow.png?v=1680565711 {% else%} https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191 {%endif%}"
-                    class="rx_read_more_arrow_img_banner"
-                  >
+                  {% render 'icon-arrow' %}
                 </a>
               {%- endif -%}
             </div>

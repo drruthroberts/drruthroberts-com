@@ -1,12 +1,76 @@
-{
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
   "sections": {
+    "custom_slider_banner_Xzwam7": {
+      "type": "custom-slider-banner",
+      "blocks": {
+        "slider_banner_3cMeTJ": {
+          "type": "slider-banner",
+          "settings": {
+            "image": "shopify://shop_images/LABOR_DAY_BANNER_2.png",
+            "image_overlay_opacity": 0,
+            "image_height": "large",
+            "desktop_content_position": "middle-left",
+            "show_text_box": true,
+            "container_bg": "rgba(0,0,0,0)",
+            "desktop_content_alignment": "center",
+            "heading_color": "#ffffff",
+            "text_color": "#ffffff",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "stack_images_on_mobile": true,
+            "show_text_below": true,
+            "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "button_label_1": "Button label",
+            "button_link_1": ""
+          }
+        },
+        "slider_banner_ypyDic": {
+          "type": "slider-banner",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WEB_BANNER_1.png",
+            "image_overlay_opacity": 0,
+            "image_height": "large",
+            "desktop_content_position": "middle-left",
+            "show_text_box": true,
+            "container_bg": "rgba(0,0,0,0)",
+            "desktop_content_alignment": "center",
+            "heading_color": "#ffffff",
+            "text_color": "#ffffff",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "stack_images_on_mobile": true,
+            "show_text_below": true,
+            "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
+            "text": "Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion",
+            "button_label_1": "Shop",
+            "button_link_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slider_banner_3cMeTJ",
+        "slider_banner_ypyDic"
+      ],
+      "settings": {}
+    },
     "e8ef76fe-7f25-4f27-98ea-830e37605e09": {
       "type": "rx-img-with-text-slider",
       "blocks": {
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ruth_roberts_5726763e-4b14-40d3-a412-9ae13a4dbae2.jpg",
+            "image": "shopify://shop_images/ruth_roberts_5726763e-4b14-40d3-a412-9ae13a4dbae2.jpg",
             "height": "medium",
             "desktop_image_width": "medium",
             "layout": "text_first",
@@ -18,15 +82,15 @@
             "show_arrow_mobile": "no",
             "mobile_content_alignment": "center",
             "heading": "Transform Your Pet's Health",
-            "description": "<p>Discover the power of holistic veterinary care with Dr. Ruth Roberts' expert coaching & guidance. Transform your pet's well-being today.<\/p>",
+            "description": "<p>Discover the power of holistic veterinary care with Dr. Ruth Roberts' expert coaching & guidance. Transform your pet's well-being today.</p>",
             "button_label": "LEARN MORE",
-            "button_link": "shopify:\/\/pages\/holistic-pet-health-coaching-program"
+            "button_link": "shopify://pages/holistic-pet-health-coaching-program"
           }
         },
         "2548be85-ca59-4cac-91f4-82dd357a90d6": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_26.png",
+            "image": "shopify://shop_images/Image_26.png",
             "height": "medium",
             "desktop_image_width": "medium",
             "layout": "text_first",
@@ -38,15 +102,15 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "center",
             "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
-            "description": "<p>Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion<\/p>",
+            "description": "<p>Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion</p>",
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-membership"
+            "button_link": "shopify://products/the-original-crockpet-diet-membership"
           }
         },
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_27.png",
+            "image": "shopify://shop_images/Image_27.png",
             "height": "medium",
             "desktop_image_width": "medium",
             "layout": "text_first",
@@ -58,9 +122,9 @@
             "show_arrow_mobile": "no",
             "mobile_content_alignment": "center",
             "heading": "Explore Our Holistic Pet Health Blog",
-            "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.<\/p>",
+            "description": "<p>Gain valuable insights and advice on natural pet care, nutrition, and wellness from our expert.</p>",
             "button_label": "READ MORE",
-            "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog"
+            "button_link": "https://drruthroberts.com/blogs/pet-blog"
           }
         }
       },
@@ -80,13 +144,13 @@
         "98b7c172-861f-4a01-a3fd-d2a5875d7159": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Natural Products<\/p>"
+            "heading": "<p>Natural Products</p>"
           }
         },
         "ba076bd1-b496-4be5-819b-b14877e487cd": {
           "type": "text",
           "settings": {
-            "text": "<p>We offer a range of high-quality supplements for dogs and cats that are designed to support their overall health and well-being.<\/p>"
+            "text": "<p>We offer a range of high-quality supplements for dogs and cats that are designed to support their overall health and well-being.</p>"
           }
         }
       },
@@ -113,11 +177,11 @@
           "settings": {
             "feature_title": "Non-Toxic",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/image_2023_05_18T04_38_22_122Z.png",
+            "feature_image": "shopify://shop_images/image_2023_05_18T04_38_22_122Z.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
-            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-truck\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M15.64 6.92L9.5 5.12V4a.5.5 0 00-.5-.5H1a.5.5 0 00-.5.5v8.5c0 .28.22.5.5.5h1.27a2.1 2.1 0 004.06 0h3.94a2.1 2.1 0 004.06 0h1.17a.5.5 0 00.5-.5V7.4a.5.5 0 00-.36-.48zM4.3 13.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM6.33 12a2.1 2.1 0 00-4.06 0H1.5V4.5h7V12H6.33zm5.97 1.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM15 12h-.67a2.1 2.1 0 00-4.06 0H9.5V6.17l5.5 1.6V12z\"><\/path><\/svg>"
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-truck\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 16 16\"><path d=\"M15.64 6.92L9.5 5.12V4a.5.5 0 00-.5-.5H1a.5.5 0 00-.5.5v8.5c0 .28.22.5.5.5h1.27a2.1 2.1 0 004.06 0h3.94a2.1 2.1 0 004.06 0h1.17a.5.5 0 00.5-.5V7.4a.5.5 0 00-.36-.48zM4.3 13.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM6.33 12a2.1 2.1 0 00-4.06 0H1.5V4.5h7V12H6.33zm5.97 1.6a1.1 1.1 0 110-2.2 1.1 1.1 0 010 2.2zM15 12h-.67a2.1 2.1 0 00-4.06 0H9.5V6.17l5.5 1.6V12z\"></path></svg>"
           }
         },
         "template--14898486050881__b4714d06-abcd-4096-947f-125116149229-1679412543968c4f9f-1": {
@@ -125,11 +189,11 @@
           "settings": {
             "feature_title": "Formulated for pets",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/image_2023_05_18T04_40_00_013Z.png",
+            "feature_image": "shopify://shop_images/image_2023_05_18T04_40_00_013Z.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
-            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-price_tag\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M7.59 1.34a1 1 0 01.7-.29h5.66a1 1 0 011 1v5.66a1 1 0 01-.3.7L7.6 15.5a1 1 0 01-1.42 0L.52 9.83a1 1 0 010-1.42l7.07-7.07zm6.36 6.37l-7.07 7.07-5.66-5.66L8.3 2.05h5.66v5.66z\" fill-rule=\"evenodd\"><\/path><path d=\"M9.7 6.3a1 1 0 101.42-1.42 1 1 0 00-1.41 1.41zM9 7a2 2 0 102.83-2.83A2 2 0 009 7z\" fill-rule=\"evenodd\"><\/path><\/svg>"
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-price_tag\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 16 16\"><path d=\"M7.59 1.34a1 1 0 01.7-.29h5.66a1 1 0 011 1v5.66a1 1 0 01-.3.7L7.6 15.5a1 1 0 01-1.42 0L.52 9.83a1 1 0 010-1.42l7.07-7.07zm6.36 6.37l-7.07 7.07-5.66-5.66L8.3 2.05h5.66v5.66z\" fill-rule=\"evenodd\"></path><path d=\"M9.7 6.3a1 1 0 101.42-1.42 1 1 0 00-1.41 1.41zM9 7a2 2 0 102.83-2.83A2 2 0 009 7z\" fill-rule=\"evenodd\"></path></svg>"
           }
         },
         "template--14898486050881__b4714d06-abcd-4096-947f-125116149229-1679412543968c4f9f-2": {
@@ -137,11 +201,11 @@
           "settings": {
             "feature_title": "Ingredient transparency",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/image_2023_05_18T04_40_21_220Z.png",
+            "feature_image": "shopify://shop_images/image_2023_05_18T04_40_21_220Z.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
-            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-return\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M9 .5a.5.5 0 000 1h1a4.5 4.5 0 110 9H2.2l3.15-3.15a.5.5 0 10-.7-.7l-4 4a.5.5 0 000 .7l4 4a.5.5 0 00.7-.7L2.21 11.5H10a5.5 5.5 0 100-11H9z\"><\/path><\/svg>"
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-return\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 16 16\"><path d=\"M9 .5a.5.5 0 000 1h1a4.5 4.5 0 110 9H2.2l3.15-3.15a.5.5 0 10-.7-.7l-4 4a.5.5 0 000 .7l4 4a.5.5 0 00.7-.7L2.21 11.5H10a5.5 5.5 0 100-11H9z\"></path></svg>"
           }
         },
         "template--14898486050881__b4714d06-abcd-4096-947f-125116149229-1679412543968c4f9f-3": {
@@ -149,11 +213,11 @@
           "settings": {
             "feature_title": "Pet-parent approved",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/image_2023_05_18T04_40_34_926Z.png",
+            "feature_image": "shopify://shop_images/image_2023_05_18T04_40_34_926Z.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
-            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-star\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 16 16\"><path d=\"M8 1c.21 0 .4.13.47.33l1.62 4.54 4.92.1a.5.5 0 01.29.9l-3.92 2.9 1.42 4.58a.5.5 0 01-.75.56L8 12.17 3.95 14.9a.5.5 0 01-.75-.56l1.42-4.58L.7 6.87a.5.5 0 01.29-.9l4.92-.1 1.62-4.54A.5.5 0 018 1zm0 2L6.74 6.52a.5.5 0 01-.46.33l-3.8.08L5.5 9.17a.5.5 0 01.18.55l-1.1 3.56 3.14-2.13a.5.5 0 01.56 0l3.15 2.13-1.1-3.56a.5.5 0 01.17-.55l3.02-2.23-3.8-.08a.5.5 0 01-.46-.33L8 2.99z\"><\/path><\/svg>"
+            "feature_svg_code": "<svg class=\"icon icon--medium icon--type-star\" stroke-width=\"1\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http://www.w3.org/2000/svg\" viewbox=\"0 0 16 16\"><path d=\"M8 1c.21 0 .4.13.47.33l1.62 4.54 4.92.1a.5.5 0 01.29.9l-3.92 2.9 1.42 4.58a.5.5 0 01-.75.56L8 12.17 3.95 14.9a.5.5 0 01-.75-.56l1.42-4.58L.7 6.87a.5.5 0 01.29-.9l4.92-.1 1.62-4.54A.5.5 0 018 1zm0 2L6.74 6.52a.5.5 0 01-.46.33l-3.8.08L5.5 9.17a.5.5 0 01.18.55l-1.1 3.56 3.14-2.13a.5.5 0 01.56 0l3.15 2.13-1.1-3.56a.5.5 0 01.17-.55l3.02-2.23-3.8-.08a.5.5 0 01-.46-.33L8 2.99z\"></path></svg>"
           }
         },
         "68f04c3f-79a3-4657-9210-05dad7285c25": {
@@ -161,11 +225,11 @@
           "settings": {
             "feature_title": "Responsible partners",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/Vector_9.png",
+            "feature_image": "shopify://shop_images/Vector_9.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
-            "feature_svg_code": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"50\" height=\"50\"><rect x=\"2\" y=\"2\" width=\"46\" height=\"46\" style=\"fill:#DEDEDE;stroke:#555555;stroke-width:2\"><\/rect><text x=\"50%\" y=\"50%\" font-size=\"18\" text-anchor=\"middle\" alignment-baseline=\"middle\" font-family=\"monospace, sans-serif\" fill=\"#555555\">50__50<\/text><\/svg>"
+            "feature_svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\"><rect x=\"2\" y=\"2\" width=\"46\" height=\"46\" style=\"fill:#DEDEDE;stroke:#555555;stroke-width:2\"></rect><text x=\"50%\" y=\"50%\" font-size=\"18\" text-anchor=\"middle\" alignment-baseline=\"middle\" font-family=\"monospace, sans-serif\" fill=\"#555555\">50__50</text></svg>"
           }
         },
         "303ad84d-e2a3-4581-9177-59897beb1a31": {
@@ -173,11 +237,11 @@
           "settings": {
             "feature_title": "Standard Process approved supplier",
             "feature_text": "",
-            "feature_image": "shopify:\/\/shop_images\/image_2023_05_18T04_41_15_586Z.png",
+            "feature_image": "shopify://shop_images/image_2023_05_18T04_41_15_586Z.png",
             "icon_url": "",
             "feature_image_width": "40px",
             "feature_use_svg": false,
-            "feature_svg_code": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"50\" height=\"50\"><rect x=\"2\" y=\"2\" width=\"46\" height=\"46\" style=\"fill:#DEDEDE;stroke:#555555;stroke-width:2\"><\/rect><text x=\"50%\" y=\"50%\" font-size=\"18\" text-anchor=\"middle\" alignment-baseline=\"middle\" font-family=\"monospace, sans-serif\" fill=\"#555555\">50__50<\/text><\/svg>"
+            "feature_svg_code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50\" height=\"50\"><rect x=\"2\" y=\"2\" width=\"46\" height=\"46\" style=\"fill:#DEDEDE;stroke:#555555;stroke-width:2\"></rect><text x=\"50%\" y=\"50%\" font-size=\"18\" text-anchor=\"middle\" alignment-baseline=\"middle\" font-family=\"monospace, sans-serif\" fill=\"#555555\">50__50</text></svg>"
           }
         }
       },
@@ -208,7 +272,7 @@
       "type": "apps",
       "blocks": {
         "76dc7e44-e714-452c-90af-3dbe388436bb": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
             "id": "82543",
@@ -235,7 +299,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "https:\/\/drruthroberts.com\/collections\/pet-products",
+            "button_link": "https://drruthroberts.com/collections/pet-products",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -263,40 +327,40 @@
         "testiminal_item_j7wQtP": {
           "type": "Testiminal-item",
           "settings": {
-            "product_url": "shopify:\/\/products\/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster",
-            "img_url": "shopify:\/\/shop_images\/roxanne.webp",
+            "product_url": "shopify://products/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster",
+            "img_url": "shopify://shop_images/roxanne.webp",
             "testiminal_item_title": "High Quality omega-3 fatty acids",
-            "testiminal_dscription": "<p>\"I have been using Omega Pawz for my dogs who have allergies and Mast cell cancer that is currently in remission. Purity is extremely important to me and this is a high quality supplement. They are all doing well and have beautiful fur.\"<\/p>",
+            "testiminal_dscription": "<p>\"I have been using Omega Pawz for my dogs who have allergies and Mast cell cancer that is currently in remission. Purity is extremely important to me and this is a high quality supplement. They are all doing well and have beautiful fur.\"</p>",
             "testiminal_sender": "-Karin Druckenmiller"
           }
         },
         "testiminal_item_3tLLTt": {
           "type": "Testiminal-item",
           "settings": {
-            "product_url": "shopify:\/\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements",
-            "img_url": "shopify:\/\/shop_images\/Theresa_1.webp",
+            "product_url": "shopify://products/holistic-total-body-support-for-cats-and-dogs-glandular-supplements",
+            "img_url": "shopify://shop_images/Theresa_1.webp",
             "testiminal_item_title": "Holistic Total Support",
-            "testiminal_dscription": "<p>\"I have been using Holistic Total Support and TOCPD for about 5 years. My sweet dog Mojo lasted 5 years longer than expected he was 17yrs old. He is greatly missed! We recently got 2 new pups I have started them out with both. They love their food! And know that I am giving them the best they can get. Thank you so much for all you do to provide the best for our sweet babies!\"<\/p>",
+            "testiminal_dscription": "<p>\"I have been using Holistic Total Support and TOCPD for about 5 years. My sweet dog Mojo lasted 5 years longer than expected he was 17yrs old. He is greatly missed! We recently got 2 new pups I have started them out with both. They love their food! And know that I am giving them the best they can get. Thank you so much for all you do to provide the best for our sweet babies!\"</p>",
             "testiminal_sender": "-Theresa Thornock"
           }
         },
         "testiminal_item_Y8ThFi": {
           "type": "Testiminal-item",
           "settings": {
-            "product_url": "shopify:\/\/products\/baltic-amber-collar-preventic-flea-collar",
-            "img_url": "shopify:\/\/shop_images\/188290_6933991489601_3de07a8f_acad_4452_b45e_aa26cce49acc.webp",
+            "product_url": "shopify://products/baltic-amber-collar-preventic-flea-collar",
+            "img_url": "shopify://shop_images/188290_6933991489601_3de07a8f_acad_4452_b45e_aa26cce49acc.webp",
             "testiminal_item_title": "Peace of mind!",
-            "testiminal_dscription": "<p>\"Newly starting our holistic journey with our two fur babies. Dr. Ruth Roberts has thought of it all! So happy to have found a safe non toxic yet stylish effective flea collar for them both! Definitely gives us a peace of mind knowing we have an extra defense against these pests at no harm to our babies. Haven’t seen any fleas & am very surprised how well these collars are made! Highly recommend.\"<\/p>",
+            "testiminal_dscription": "<p>\"Newly starting our holistic journey with our two fur babies. Dr. Ruth Roberts has thought of it all! So happy to have found a safe non toxic yet stylish effective flea collar for them both! Definitely gives us a peace of mind knowing we have an extra defense against these pests at no harm to our babies. Haven’t seen any fleas & am very surprised how well these collars are made! Highly recommend.\"</p>",
             "testiminal_sender": "-Carissa Menchaca"
           }
         },
         "testiminal_item_Lq8iHD": {
           "type": "Testiminal-item",
           "settings": {
-            "product_url": "shopify:\/\/products\/the-original-crockpet-diet-recipe",
-            "img_url": "shopify:\/\/shop_images\/teresa2.webp",
+            "product_url": "shopify://products/the-original-crockpet-diet-recipe",
+            "img_url": "shopify://shop_images/teresa2.webp",
             "testiminal_item_title": "The CrockPet Diet",
-            "testiminal_dscription": "<p>\"I used to cook for my dogs before but I didn’t know that there was so much more vegetables I could put in it. My dog loves the home food way better. So far she seems to be less gassy.\"<\/p>",
+            "testiminal_dscription": "<p>\"I used to cook for my dogs before but I didn’t know that there was so much more vegetables I could put in it. My dog loves the home food way better. So far she seems to be less gassy.\"</p>",
             "testiminal_sender": "-Teresa"
           }
         }
@@ -324,14 +388,14 @@
         "template--14898486050881__4add22ab-e9ac-4adc-9d80-f5ec5ac0302d-167949693262966e94-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Build a better diet for your pet with veterinarian formulated recipes. Dr. Ruth Roberts guides you through, step-by-step, to make nutritionally complete meals for your pet, without the headache. Homemade meals don't have to be complicated, they can be catered to your pet's health needs, right in your own kitchen!<\/p>"
+            "text": "<p>Build a better diet for your pet with veterinarian formulated recipes. Dr. Ruth Roberts guides you through, step-by-step, to make nutritionally complete meals for your pet, without the headache. Homemade meals don't have to be complicated, they can be catered to your pet's health needs, right in your own kitchen!</p>"
           }
         },
         "template--14898486050881__4add22ab-e9ac-4adc-9d80-f5ec5ac0302d-167949693262966e94-2": {
           "type": "button",
           "settings": {
             "button_label": "GET THE RECIPES HERE",
-            "button_link": "https:\/\/shop.drruthroberts.com\/products\/the-original-crockpet-diet-1"
+            "button_link": "https://shop.drruthroberts.com/products/the-original-crockpet-diet-1"
           }
         }
       },
@@ -341,7 +405,8 @@
         "template--14898486050881__4add22ab-e9ac-4adc-9d80-f5ec5ac0302d-167949693262966e94-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_2023_05_29T04_07_29_377Z.png",
+        "image": "shopify://shop_images/image_2023_05_29T04_07_29_377Z.png",
+        "img_url": "",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -365,28 +430,27 @@
         "template--14898486050881__519a28f3-c4ef-4319-9853-c8d825c82db3-1679459498aff81436-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Holistic Pet Care<\/p>"
+            "heading": "<p>Holistic Pet Care</p>"
           }
         },
         "template--14898486050881__519a28f3-c4ef-4319-9853-c8d825c82db3-1679459498aff81436-1": {
           "type": "text",
           "settings": {
-            "text": "<h3>Unlock a rewarding pet health coaching career while promoting natural well-being for pets. <\/h3>"
+            "text": "<h3>Unlock a rewarding pet health coaching career while promoting natural well-being for pets. </h3>"
           }
         },
         "80feef83-ac5a-453a-9252-75c29cc88133": {
           "type": "image_picker",
-          "settings": {
-          }
+          "settings": {}
         },
         "cdef16fb-a015-4f16-a6c3-5bd9d2a2062b": {
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": "https:\/\/drruthroberts.com\/pages\/holistic-pet-health-coaching-program",
+            "button_link": "https://drruthroberts.com/pages/holistic-pet-health-coaching-program",
             "button_style_secondary": false,
             "button_label_2": "",
-            "button_link_2": "shopify:\/\/pages\/applicationform",
+            "button_link_2": "shopify://pages/applicationform",
             "button_style_secondary_2": false
           }
         }
@@ -397,9 +461,7 @@
         "80feef83-ac5a-453a-9252-75c29cc88133",
         "cdef16fb-a015-4f16-a6c3-5bd9d2a2062b"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -417,14 +479,14 @@
         "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Unlock a rewarding career while promoting natural well-being for pets.<\/p>",
+            "heading": "<p>Unlock a rewarding career while promoting natural well-being for pets.</p>",
             "heading_size": "h1"
           }
         },
         "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-button-1": {
@@ -445,9 +507,7 @@
         "template--14921793798209__e4ceee66-a8d7-4fbe-9c50-e6c58cb93d39-button-1"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -464,14 +524,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>Our Store<\/p>"
+            "heading": "<p>Our Store</p>"
           }
         },
         "bdcf6291-3b9b-482b-b151-f1a9bc86ec3c": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>We offer a range of high-quality natural supplements for dogs and cats that are designed to support their overall health and well-being<\/p>"
+            "text": "<p>We offer a range of high-quality natural supplements for dogs and cats that are designed to support their overall health and well-being</p>"
           }
         }
       },
@@ -497,7 +557,7 @@
         "c4c36141-1f4e-4acb-bb64-f70c7da21b48": {
           "type": "text",
           "settings": {
-            "text": "<p>Comprehensive Health Solutions for Dogs and Cats<\/p>"
+            "text": "<p>Comprehensive Health Solutions for Dogs and Cats</p>"
           }
         },
         "1f8faab7-16f5-4eb9-bf48-a61f071a1827": {
@@ -533,40 +593,40 @@
           "type": "slide",
           "settings": {
             "collection_title_1": " Allergy Support",
-            "image_1": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
-            "url_link_1": "https:\/\/drruthroberts.com\/collections\/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Allergy+Support",
+            "image_1": "shopify://shop_images/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
+            "url_link_1": "https://drruthroberts.com/collections/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Allergy+Support",
             "box_display_1": true,
             "collection_title_2": "Inflammation Support",
-            "image_2": "shopify:\/\/shop_images\/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.png",
-            "url_link_2": "https:\/\/drruthroberts.com\/collections\/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Inflammation+Support",
+            "image_2": "shopify://shop_images/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.png",
+            "url_link_2": "https://drruthroberts.com/collections/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Inflammation+Support",
             "box_display_2": true,
             "collection_title_3": "Cancer Support",
-            "image_3": "shopify:\/\/shop_images\/Group_3.png",
-            "url_link_3": "https:\/\/drruthroberts.com\/collections\/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Cancer+support",
+            "image_3": "shopify://shop_images/Group_3.png",
+            "url_link_3": "https://drruthroberts.com/collections/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Cancer+support",
             "box_display_3": true,
             "collection_title_4": "Digestive (GI) Support",
-            "image_4": "shopify:\/\/shop_images\/Group_4.png",
-            "url_link_4": "https:\/\/drruthroberts.com\/collections\/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Digestive+%28GI%29+Support",
+            "image_4": "shopify://shop_images/Group_4.png",
+            "url_link_4": "https://drruthroberts.com/collections/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Digestive+%28GI%29+Support",
             "box_display_4": true,
-            "collection_title_5": "Brain\/ Cognitive Support",
-            "image_5": "shopify:\/\/shop_images\/Group_5.png",
-            "url_link_5": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Brain%2F+Cognitive+Support",
+            "collection_title_5": "Brain/ Cognitive Support",
+            "image_5": "shopify://shop_images/Group_5.png",
+            "url_link_5": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Brain%2F+Cognitive+Support",
             "box_display_5": true,
             "collection_title_6": "Bone & Joint Support",
-            "image_6": "shopify:\/\/shop_images\/Group_6.png",
-            "url_link_6": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Bone+%26+Joint+Support",
+            "image_6": "shopify://shop_images/Group_6.png",
+            "url_link_6": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Bone+%26+Joint+Support",
             "box_display_6": true,
             "collection_title_7": "General Immune Support",
-            "image_7": "shopify:\/\/shop_images\/Group_4.png",
-            "url_link_7": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=General+Immune+Support",
+            "image_7": "shopify://shop_images/Group_4.png",
+            "url_link_7": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=General+Immune+Support",
             "box_display_7": true,
             "collection_title_8": "Skin and Coat Support",
-            "image_8": "shopify:\/\/shop_images\/Group_3.png",
-            "url_link_8": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Skin+and+Coat+Support",
+            "image_8": "shopify://shop_images/Group_3.png",
+            "url_link_8": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Skin+and+Coat+Support",
             "box_display_8": true,
             "collection_title_9": "Heart Support",
-            "image_9": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
-            "url_link_9": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Heart+support",
+            "image_9": "shopify://shop_images/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
+            "url_link_9": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Heart+support",
             "box_display_9": true
           }
         },
@@ -574,40 +634,40 @@
           "type": "slide",
           "settings": {
             "collection_title_1": "Respiratory Support",
-            "image_1": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
-            "url_link_1": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Respiratory+Support",
+            "image_1": "shopify://shop_images/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
+            "url_link_1": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Respiratory+Support",
             "box_display_1": true,
             "collection_title_2": "Liver support",
-            "image_2": "shopify:\/\/shop_images\/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.png",
-            "url_link_2": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?&filter.p.m.custom.pet_device_system_supported=Liver+support",
+            "image_2": "shopify://shop_images/Group_2_c92ae324-0bc6-4097-8024-2cbff7e59ac0.png",
+            "url_link_2": "https://shop.drruthroberts.com/collections/pet-products?&filter.p.m.custom.pet_device_system_supported=Liver+support",
             "box_display_2": true,
             "collection_title_3": "Kidney support",
-            "image_3": "shopify:\/\/shop_images\/Group_3.png",
-            "url_link_3": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Kidney+Support",
+            "image_3": "shopify://shop_images/Group_3.png",
+            "url_link_3": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Kidney+Support",
             "box_display_3": true,
             "collection_title_4": "Vaccinosis Support",
-            "image_4": "shopify:\/\/shop_images\/Group_4.png",
-            "url_link_4": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Vaccinosis+Support",
+            "image_4": "shopify://shop_images/Group_4.png",
+            "url_link_4": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Vaccinosis+Support",
             "box_display_4": true,
             "collection_title_5": "Oral Health Support",
-            "image_5": "shopify:\/\/shop_images\/Group_5.png",
-            "url_link_5": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Oral+Health+Support",
+            "image_5": "shopify://shop_images/Group_5.png",
+            "url_link_5": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Oral+Health+Support",
             "box_display_5": true,
             "collection_title_6": "Energy Support",
-            "image_6": "shopify:\/\/shop_images\/Group_6.png",
-            "url_link_6": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Energy+Support",
+            "image_6": "shopify://shop_images/Group_6.png",
+            "url_link_6": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Energy+Support",
             "box_display_6": true,
             "collection_title_7": "Thyroid Support",
-            "image_7": "shopify:\/\/shop_images\/Group_4.png",
-            "url_link_7": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Thyroid+Support",
+            "image_7": "shopify://shop_images/Group_4.png",
+            "url_link_7": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Thyroid+Support",
             "box_display_7": true,
             "collection_title_8": "Urinary Tract Support",
-            "image_8": "shopify:\/\/shop_images\/Group_3.png",
-            "url_link_8": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Urinary+Tract+Support",
+            "image_8": "shopify://shop_images/Group_3.png",
+            "url_link_8": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Urinary+Tract+Support",
             "box_display_8": true,
             "collection_title_9": "Ear Support",
-            "image_9": "shopify:\/\/shop_images\/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
-            "url_link_9": "https:\/\/shop.drruthroberts.com\/collections\/pet-products?filter.p.m.custom.pet_device_system_supported=Ear+Support",
+            "image_9": "shopify://shop_images/Group_1_6bc3463d-0180-42c2-8edf-d9cd6ea741ac.png",
+            "url_link_9": "https://shop.drruthroberts.com/collections/pet-products?filter.p.m.custom.pet_device_system_supported=Ear+Support",
             "box_display_9": true
           }
         }
@@ -626,7 +686,7 @@
         "template--14898486050881__cf1b90a0-cc7f-46bb-b24e-469e6e57df56-168034728056e4ecea-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Pet Wellness Courses <br\/><\/p>"
+            "heading": "<p>Pet Wellness Courses <br/></p>"
           }
         },
         "be385a9f-59a1-4ca7-a60f-623c1ef343fb": {
@@ -681,9 +741,7 @@
         "template--14898486050881__40e124d8-821b-4b01-8eb8-2482449db53a-1679931990e32dab1a-1",
         "5fb9c748-259e-4fae-89fd-96ea2e0b57d7"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "rx-product_head": "",
         "title_font": "assistant_n4",
@@ -708,7 +766,7 @@
           "type": "button",
           "settings": {
             "button_label": "MORE COURSES",
-            "button_link": "shopify:\/\/pages\/pet-wellness-course",
+            "button_link": "shopify://pages/pet-wellness-course",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -736,19 +794,18 @@
         "template--14898486050881__35a9f240-35c6-4509-b3d7-77ac0c08d41c-1679662670bc156e16-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Pet Advice<\/p>"
+            "heading": "<p>Pet Advice</p>"
           }
         },
         "4b0582b7-196c-42c7-8c5b-98627f6ca006": {
           "type": "text",
           "settings": {
-            "text": "<p>The most resourceful space for pet parents seeking guidance and insights into holistic pet care<\/p>"
+            "text": "<p>The most resourceful space for pet parents seeking guidance and insights into holistic pet care</p>"
           }
         },
         "b20df904-d941-4f21-a506-65b94005d4e8": {
           "type": "image_picker",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -774,6 +831,8 @@
       "type": "rx-posts",
       "settings": {
         "desktopColumns": "3",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "tabletColumns": "2",
         "desktopMaxWidth": "1200px",
         "tabletMaxWidth": "1100px",
@@ -786,7 +845,7 @@
         "filled_star_color": "#184b44",
         "empty_star_color": "",
         "blogs_title": "Our Blogs",
-        "blogs_description": "<p>Read our insightful articles for  expert pet advice,  holistic pet health tips, and nurturing natural remedies to elevate your pet’s well-being<\/p>",
+        "blogs_description": "<p>Read our insightful articles for  expert pet advice,  holistic pet health tips, and nurturing natural remedies to elevate your pet’s well-being</p>",
         "blogs_url": "",
         "blogs_btn": "Read More blogs"
       }
@@ -797,6 +856,7 @@
         "heading": "",
         "heading_size": "h2",
         "blog": "pet-blog",
+        "background": "",
         "post_limit": 3,
         "columns_desktop": 3,
         "show_image": true,
@@ -804,7 +864,9 @@
         "show_author": false,
         "show_view_all": false,
         "padding_top": 24,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "blogs_url": "",
+        "blogs_btn": "Read More blogs"
       }
     },
     "8960ec65-5cef-4d84-b887-aa69c09a76a9": {
@@ -814,7 +876,7 @@
           "type": "button",
           "settings": {
             "button_label": "ALL BLOGS",
-            "button_link": "shopify:\/\/pages\/all-blogs",
+            "button_link": "shopify://pages/all-blogs",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -825,7 +887,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>Our Podcast<\/p>"
+            "heading": "<p>Our Podcast</p>"
           }
         }
       },
@@ -863,14 +925,14 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SUBMIT YOUR APPLICATION",
-            "button_link_1": "https:\/\/link.scalingwithsystems.com\/widget\/survey\/7xhv6xWCYOFsAYoeEQCj"
+            "button_link_1": "https://link.scalingwithsystems.com/widget/survey/7xhv6xWCYOFsAYoeEQCj"
           }
         },
         "4b4c6522-a49c-4ab3-a420-aa06f5c88a56": {
           "type": "buttons",
           "settings": {
             "button_label_1": "LEARN MORE",
-            "button_link_1": "shopify:\/\/pages\/holistic-pet-health-coaching-program"
+            "button_link_1": "shopify://pages/holistic-pet-health-coaching-program"
           }
         }
       },
@@ -887,7 +949,7 @@
         ".custom-box {max-width: 75rem;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-1.jpg",
+        "image": "shopify://shop_images/banner-1.jpg",
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -915,14 +977,14 @@
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With holistic veterinary care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<\/p>"
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With holistic veterinary care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.</p>"
           }
         },
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-2": {
           "type": "button",
           "settings": {
             "button_label": "MY STORY",
-            "button_link": "shopify:\/\/pages\/ruth-story"
+            "button_link": "shopify://pages/ruth-story"
           }
         }
       },
@@ -932,7 +994,8 @@
         "template--14898486050881__2758b93a-1c5e-4890-87a5-086ee9572e15-1679662080141c93da-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/about.png",
+        "image": "shopify://shop_images/about.png",
+        "img_url": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -975,7 +1038,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "BOOK CONSULTATION",
-            "button_link_1": "shopify:\/\/pages\/consulting-page"
+            "button_link_1": "shopify://pages/consulting-page"
           }
         }
       },
@@ -989,7 +1052,7 @@
         "span {color: #fff !important;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/dog-banner.png",
+        "image": "shopify://shop_images/dog-banner.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -1006,6 +1069,7 @@
     }
   },
   "order": [
+    "custom_slider_banner_Xzwam7",
     "e8ef76fe-7f25-4f27-98ea-830e37605e09",
     "eb57d411-6ce7-4b68-9a6a-1c9252889203",
     "b4714d06-abcd-4096-947f-125116149229",

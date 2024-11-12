@@ -56,4 +56,63 @@ class DetailsModal extends HTMLElement {
   }
 }
 
+
+// document.querySelectorAll('.header__menu-item').forEach(item => {  
+//   item.addEventListener('mouseover', function() {  
+//     if (item.querySelector('.header__menu-option').textContent == "SHOP") {  
+//       document.querySelector('.custom-header-menu-container').classList.add('show');  
+//     }  
+//   }); 
+//   item.addEventListener('mouseout', function() {  
+//       document.querySelector('.custom-header-menu-container').classList.remove('show');  
+//   }); 
+  
+//   document.querySelector('.custom-header-menu-container').addEventListener('mouseover', function() {
+//     document.querySelector('.custom-header-menu-container').classList.add('show');
+//   });
+
+//   document.querySelector('.custom-header-menu-container').addEventListener('mouseout', function() {
+//     document.querySelector('.custom-header-menu-container').classList.remove('show');
+//   });
+// });  
+
+const menuItems = document.querySelectorAll('.header__menu-item');
+const customMenuContainer = document.querySelector('.custom-header-menu-container');
+
+function showMenu() {
+  customMenuContainer.classList.add('show');
+}
+
+function hideMenu() {
+  customMenuContainer.classList.remove('show');
+}
+
+menuItems.forEach(item => {
+  item.addEventListener('mouseover', function() {
+    const menuOption = item.querySelector('.header__menu-option');  
+    // console.log(menuOption.textContent, "ere");
+    if(menuOption){
+      if (menuOption.textContent === "SHOP" || customMenuContainer) {  
+        showMenu();  
+        
+      } else {  
+        console.error("Element with class 'header__menu-option' not found in item:", item);  
+      }
+  } 
+  });
+
+  item.addEventListener('mouseout', hideMenu);
+});
+
+// Using a single listener for the custom menu container
+customMenuContainer.addEventListener('mouseover', showMenu);
+customMenuContainer.addEventListener('mouseout', hideMenu);
+
+
+
+
 customElements.define('details-modal', DetailsModal);
+
+
+
+

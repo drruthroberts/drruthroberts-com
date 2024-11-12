@@ -304,7 +304,7 @@
 
 <div class="rx_media_wrapper for_desktop">
   <div class="slider-galeria-thumbs">
-    {% for media in product.media %}
+   
     {% assign videos = product.media | where: 'media_type', 'video'  %}
     {% if videos.size > 0 %}
       {% for media in product.media %}
@@ -313,13 +313,13 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-    
+
       {% for media in product.media %}
         {% if media.media_type == 'image' %}
           <div class="media_image"><img src="{{ media.src | img_url: 'small' }}"></div>
         {% endif %}
       {% endfor %}
-    {% endfor %}
+    
   </div>
 
   <div class="slider-galeria">
@@ -361,9 +361,9 @@ $(document).ready(function() {
     focusOnSelect: true,
     vertical: true,
     verticalSwiping: true,
+    infinite: false,
     prevArrow: '<svg class="rx-slick-prev-media-gallery" xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12" fill="none"> <path d="M1 11L15 1L29 11" stroke="#184B44" stroke-linecap="round"/> </svg>',
     nextArrow: '<svg class="rx-slick-next-media-gallery" xmlns="http://www.w3.org/2000/svg" width="30" height="12" viewBox="0 0 30 12" fill="none"> <path d="M1 1L15 11L29 1" stroke="#184B44" stroke-linecap="round"/> </svg>',
-    infinite: false
   });
 
 });
@@ -407,7 +407,7 @@ $(document).ready(function() {
 
 
 .for_mobile{
-  display:none;
+  display:none !important;
 }
 
 .rx_media_wrapper .slider-galeria-thumbs {
@@ -503,7 +503,7 @@ $(document).ready(function() {
 
 @media only screen and (max-width: 767px) {
   .for_mobile{
-    display:block;
+    display:block !important;
   }
 
   .for_desktop{

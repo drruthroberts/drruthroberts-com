@@ -1,4 +1,4 @@
-new Swiper('.swiper-container', {
+new Swiper('.custom-slider-banner-container .swiper-container', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 0,
@@ -9,4 +9,4 @@ new Swiper('.swiper-container', {
         el: '.swiper-pagination',
         clickable: true
     },
-  });
+});

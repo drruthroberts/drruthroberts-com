@@ -1,0 +1,120 @@
+.custom-header-menu-container.show {
+    display: block;
+}
+
+.custom-header-menu-container {
+    display: none;
+}
+
+.header-menu-wrapper {
+    display: flex;
+   
+}
+
+.header-menu-category {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(147, 147, 147,0.2);
+    padding: 30px 50px 30px 80px;
+}
+
+
+.header-menu-category-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width:350px;
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 36px;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(147, 147, 147,0.5);
+    padding: 5px 0;
+}
+
+.header-menu-category-label.active {
+    color: #EFA316;
+    padding: 5px;
+    border: 1px solid #EFA316;
+}
+
+.header-menu-category-label:hover svg path {
+    stroke: #EFA316;
+}
+
+.header-menu-category-label:hover {
+    color: #EFA316;
+    padding: 5px;
+}
+
+.header-menu-category-label.active svg path {
+    stroke: #EFA316;
+}
+
+.menu-content-wrapper {
+    display: none;
+}
+
+.menu-content-wrapper.active {
+    display: flex;
+    gap: 100px;
+}
+
+.header-menu-content {
+    padding: 30px 50px 30px 80px;
+}
+
+.subcategory-item {
+    font-family: 'BLT-Heirloom';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    color: #EFA316;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 36px;
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.subcategory-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 185px;
+    column-gap: 70px;
+}
+
+.shopify-section-group-header-group.header-menu {
+    position: fixed;
+    top: 137px;
+    width: 100%;
+    z-index: 99;
+}
+
+@media (max-width:1215px ) {
+    .menu-content-wrapper.active {
+        display: flex;
+        gap: 50px;
+    }
+
+    .header-menu-category-label {
+        min-width:250px;
+    }
+}

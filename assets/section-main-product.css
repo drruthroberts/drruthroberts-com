@@ -70,8 +70,8 @@
 
   .product--medium:not(.product--no-media) .product__media-wrapper,
   .product--small:not(.product--no-media) .product__info-wrapper {
-    max-width: 55%;
-    width: calc(55% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: 75%;
+    width: calc(75% - var(--grid-desktop-horizontal-spacing) / 2);
   }
 
   .product--medium:not(.product--no-media) .product__info-wrapper,
@@ -81,6 +81,13 @@
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .product--medium:not(.product--no-media) .product__media-wrapper,
+  .product--small:not(.product--no-media) .product__info-wrapper {
+    max-width: 55%;
+    width: calc(55% - var(--grid-desktop-horizontal-spacing) / 2);
+  }
+}
 /* Dynamic checkout */
 
 .shopify-payment-button__button {
@@ -418,9 +425,9 @@ a.product__text {
   padding: 0;
 }
 
-.product__tax {
+/* .product__tax {
   margin-top: -1.4rem;
-}
+} */
 
 .product--no-media noscript .product-form__input,
 .product--no-media .share-button {
@@ -1408,6 +1415,8 @@ a.product__text {
   padding-top: min(var(--constrained-height), var(--ratio-percent));
 }
 
+
+
 @media screen and (max-width: 749px) {
   .product-media-container.media-fit-cover {
     display: flex;
@@ -1456,4 +1465,367 @@ a.product__text {
   .product-media-container .product__modal-opener:not(.product__modal-opener--image) {
     display: none;
   }
+}
+
+.product-media-container.constrain-height .media img {
+  aspect-ratio: 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.subscription-container {
+  border: none;
+}
+
+.custom-subscription--container {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.bulk-purchase-container {
+  padding: 20px 10px 10px 10px;
+  border: 1px solid #BDBDBD;
+  margin-top: 6px;
+  border-radius: 25px;
+}
+
+
+.bulk-purchase-name {
+  text-wrap-mode: nowrap;
+  color: #184b44;
+  font-family: BLT-Heirloom;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: min-content;
+}
+
+.custom-subscription--input-label, .bulk-purchase-label {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
+}
+
+#custom-subscription--input-save {
+  display: flex;
+  left: -3px;
+  top: 3px;
+  position: absolute;
+}
+
+.subcription-text-with-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.subscription-text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.subscription-text--title {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.custom-subscription--input__text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  color: #184B44;
+}
+
+.custom-subscription--input__subtext {
+  font-size: 12px;
+  font-family: 'Josefin Sans';
+  color: #000;
+  text-align: left;
+  font-weight: 500;
+}
+
+.free-shipping-text {
+  padding-top: 30px;
+  color: #000;
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px; /* 250% */
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+
+.custom-subscription--discount-price {
+  font-weight: 600;
+}
+
+.custom-subscription--original-price {
+  font-weight: 500;
+  font-size: 12px !important;
+  text-decoration: line-through;
+}
+
+/* .custom-onetime--group {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 16px 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+} */
+
+.selling-plan-price, .purchase-plan-price {
+  color: #000;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 24px */
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.selling-plan-name {
+  text-wrap-mode: nowrap;
+  gap: 4px;
+}
+
+.subscription-name {
+  color: #184B44;
+  font-family: BLT-Heirloom;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: min-content;
+}
+
+.purchase-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.subscription-name span {
+  color: #000;
+font-family: "Josefin Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 250% */
+letter-spacing: 0.6px;
+text-transform: capitalize;
+}
+
+.selling_plan_app_container {
+  padding-bottom: 35px;
+}
+
+.custom-subscription-onetime-label .one-pack-purchase {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.onetime-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.onetime-title, .one-pack-title {
+  font-size: 14px;
+  font-family: 'Josefin Sans';
+  font-weight: 600;
+  color: #184B44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .custom-subscription--description {
+  display: flex;
+  align-items: center;
+  width: max-content;
+} */
+
+.custom-subscription--plan, .bulk-purchase-plan {
+  display: flex;
+}
+
+@media (max-width:767px ) {
+  .custom-subscription--plan, .bulk-purchase-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* .subscription-group-label:hover {
+  background-color: #184B44;
+  color: #fff;
+}
+
+
+.subscription-group-input:checked + label {
+  background-color: #184B44;
+  color: #fff;
+} */
+.selected {
+  border: 1px solid #EFA316 !important;
+  background: #F5F8F1 !important;
+}
+
+ .purchase-pack-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #184B44;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 12px 10px;
+  width: 155px;
+  height: 94px;
+}
+
+.bulk-origin-price {
+  color: #000;
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18px */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration-line: line-through;
+}
+
+.bulk-discounted-price {
+  color: #EFA316;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+}
+
+.subscription-pack-count {
+  color: #000;
+  text-align: center;
+  font-family: 'BLT-Heirloom';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; 
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.bulk-purchase-group {
+  padding: 10px 12px;
+  border: none;
+}
+
+.subscription-group-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.subscription-box-discount, .bulk-purchase-discount {
+  color: #FFF;
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; 
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  border: 1px solid #EFA316;
+  border-radius: 20px;
+  background-color: #EFA316;
+  padding: 3px 10px;
+  margin-top: 10px;
+  max-width: fit-content;
+}
+
+
+.subscription-box-delivery {
+  color: #000;
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  letter-spacing: 0.6px;
+}
+
+.subscription-group-label, .bulk-purchase-group-label {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: 4px 5px;
+}
+
+.subscription-group-item .bulk-purchase-group-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.group-input {
+  display: none !important;
+}
+
+.bg-group {
+  background-color: #F5F8F1;
+}
+
+.bg-group .bg-plan.subscription-pack-box {
+  background-color: #184B44 !important;
+  color: #FFF !important;
+}
+
+.bg-group .bg-plan .subscription-pack-count, .bg-group .bg-plan .custom-subscription--price-flex {
+  color: #fff !important;
+}
+
+.bg-group .bg-plan .subscription-box-discount {
+  background-color: #EFA316 !important;
+}
+
+
+.product-form-container {
+  position: relative;
 }

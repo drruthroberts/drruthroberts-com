@@ -70,12 +70,12 @@
     }
 
     .custom-image-banner-width .button.button--primary {
-      color: #F5F8F1 !important;
+      color: #fff !important;
       font-weight: 700 !important;
       line-height: 22px !important;
-      background: #184B44 !important;
+      background: #EFA316 !important;
       border-radius: 30px !important;
-      border-color: transparent !important;
+      border-color: #EFA316 !important;
       text-transform: capitalize !important;
     }
     
@@ -252,10 +252,7 @@
                     > 
                   
                       {{- block.settings.button_label_1 | escape -}}
-                      <svg xmlns="http://www.w3.org/2000/svg" width="34" height="9" viewBox="0 0 34 9" fill="none">
-                          <path d="M1.11719 4.5L32.7415 4.5M32.7415 4.5L26.2995 1M32.7415 4.5L26.2995 8" stroke="white" stroke-linecap="round"/>
-                      </svg>
-                    
+                      {% render 'icon-arrow' %}
                     </a>
                   {%- endif -%}
                   {%- if block.settings.button_label_2 != blank -%}

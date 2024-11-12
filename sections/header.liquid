@@ -97,11 +97,13 @@
   .section-header {
     position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
     margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+    top:53px;
   }
 
   @media screen and (min-width: 750px) {
     .section-header {
       margin-bottom: {{ section.settings.margin_bottom }}px;
+      top:40px;
     }
   }
 
@@ -137,9 +139,9 @@
   </symbol>
 </svg>
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
-    {%- if section.settings.menu != blank -%}
-      <header-drawer data-breakpoint="tablet">
+  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.mobile_menu != blank %} header--has-menu{% endif %}">
+    {%- if section.settings.mobile_menu != blank -%}
+      <header-drawer data-breakpoint="tablet" class="{% if page.handle == "crockpet-diet-holistic-multivitamin-bundle" %}hidden{% endif %}">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
             <span>
@@ -152,7 +154,7 @@
               <div class="menu-drawer__navigation-container">
                 <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
-                    {%- for link in section.settings.menu.links -%}
+                    {%- for link in section.settings.mobile_menu.links -%}
                       <li>
                         {%- if link.links != blank -%}
                           <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
@@ -415,10 +417,10 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-
+    
     {%- if section.settings.menu != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
-        <nav class="header__inline-menu">
+        <nav class="header__inline-menu {% if page.handle == "crockpet-diet-holistic-multivitamin-bundle" %}hidden{% endif %}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -460,7 +462,7 @@
                   </header-menu>
                 {%- else -%}
                   <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                    <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                    <span class="header__menu-option {%- if link.current %}header__active-menu-item {% endif %}">{{ link.title | escape }}</span>  
                   </a>
                 {%- endif -%}
               </li>
@@ -468,7 +470,7 @@
           </ul>
         </nav>
       {%- else -%}
-        <nav class="header__inline-menu">
+        <nav class="header__inline-menu {% if page.handle == "crockpet-diet-holistic-multivitamin-bundle" %}hidden{% endif %}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -505,7 +507,15 @@
                   </header-menu>
                 {%- else -%}
                   <a href="{{ link.url }}" class="header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
-                    <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
+                    {% if link.title == "SHOP" %}  
+                    
+                      <span class="header__menu-option {%- if link.current %} header__active-menu-item {% endif %}">{{ link.title | escape }}</span>  
+                      <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L6.35135 7L12 1" stroke="#706E6E" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    {% else %}  
+                    <span {%- if link.current %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>  
+                    {% endif %}  
                   </a>
                 {%- endif -%}
               </li>
@@ -663,6 +673,8 @@
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 {%- endif -%}
+
+
 
 {% javascript %}
   class StickyHeader extends HTMLElement {
@@ -886,6 +898,11 @@
       "id": "menu",
       "default": "main-menu",
       "label": "t:sections.header.settings.menu.label"
+    },
+      {
+      "type": "link_list",
+      "id": "mobile_menu",
+      "label": "Mobile Menu"
     },
     {
       "type": "select",

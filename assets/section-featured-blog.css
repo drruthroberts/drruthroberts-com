@@ -68,7 +68,7 @@
   width: 100%;
 }
 
-.blog__button {
+/* .blog__button {
   margin-top: 3rem;
 }
 
@@ -76,7 +76,7 @@
   .blog__button {
     margin-top: 5rem;
   }
-}
+} */
 
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
