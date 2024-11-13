@@ -3210,6 +3210,11 @@ border-color: #EFA316!important;
 cursor: pointer;
 margin-bottom: 5%;
 }
+
+.image_content .button:hover {
+  box-shadow: 0 11px 19px #efa31680;
+} 
+
 .imgpage_width .image-with-text__content{
   padding: 4rem 3rem 0rem;
 }
@@ -5705,6 +5710,10 @@ border-radius: 24px;
   cursor: pointer;
   background-color: #EFA316;
 }
+
+.rx_read_more_btn_green:hover {
+  box-shadow: 0 11px 19px rgba(239, 163, 22, 0.5);
+} 
 
 #rx_read_more_arrow_black {
   margin-left: 5px;

@@ -33,7 +33,8 @@
 }  
 
 .custom-slider-banner-container .rx_read_more_btn_green:hover {
-    background-color: transparent;
+    box-shadow: 0 11px 19px #efa31680;
+    font-weight: 700;
 }
 
 .custom-slider-button {
