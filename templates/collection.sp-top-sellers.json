@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -21,7 +30,7 @@
         "164513807442a683d3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Check out the top Standard Process Products our customers have found most effective for themselves and their pets.<\/p><p>These supplements are whole-food-based nutrition that supports easy, safe, and healthy removal of toxins.<\/p><p><\/p>",
+            "text": "<p>Check out the top Standard Process Products our customers have found most effective for themselves and their pets.</p><p>These supplements are whole-food-based nutrition that supports easy, safe, and healthy removal of toxins.</p><p></p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "164513807442a683d3-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IG-Softgels.jpg",
+        "image": "shopify://shop_images/IG-Softgels.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -140,14 +149,14 @@
         "16451381268ca1da6a-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Learn more about Standard Process<\/p>",
+            "heading": "<p>Learn more about Standard Process</p>",
             "heading_size": "h2"
           }
         },
         "16451381268ca1da6a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Standard Process is a multi-generational, family-owned and operated, nutritional supplement company for over 90 years. Dr. Royal Lee, the Founder recognized the negative impact the Standard American Diet had on overall health. He believed that processed foods depleted our food sources of the rich nutrition once found in them.<\/p><p>Dr. Lee dedicated his life to perfecting the production of whole-food-based supplements from the soil used to grow crops to the manufacturing processes used to create the supplement – Standard Process has always focused on putting vitality into every bottle.<\/p><p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+            "text": "<p>Standard Process is a multi-generational, family-owned and operated, nutritional supplement company for over 90 years. Dr. Royal Lee, the Founder recognized the negative impact the Standard American Diet had on overall health. He believed that processed foods depleted our food sources of the rich nutrition once found in them.</p><p>Dr. Lee dedicated his life to perfecting the production of whole-food-based supplements from the soil used to grow crops to the manufacturing processes used to create the supplement – Standard Process has always focused on putting vitality into every bottle.</p><p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com</strong></p>"
           }
         },
         "16451381268ca1da6a-2": {

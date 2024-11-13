@@ -22,36 +22,36 @@
             <div class="header-menu-content">
                 {%- for block in section.blocks -%}
                     <div class="menu-content-wrapper" data-id={{ forloop.index }}>
-                        <div class="navbar-nav">
-                            <span class="subcategory-item">{{ block.settings.navigation_menu1 }}</span>
-                            <div class="subcategory-item-wrapper">
-                                {%- for link in block.settings.navigation_menu1.links -%}
-                                <div>
-                                    <a href="{{ link.url }}" class="nav-link">{{ link.title|escape }}</a>
-                                </div>
-                                {%- endfor -%}
-                            </div> 
-                        </div>
-                        <div class="navbar-nav">
-                            <span class="subcategory-item">{{ block.settings.navigation_menu2 }}</span>
-                            <div class="subcategory-item-wrapper">
-                                {%- for link in block.settings.navigation_menu2.links -%}
-                                <div>
-                                    <a href="{{ link.url }}" class="nav-link">{{ link.title|escape }}</a>
-                                </div>
-                                {%- endfor -%} 
-                            </div> 
-                        </div>
-                        <div class="navbar-nav">
-                            <span class="subcategory-item">{{ block.settings.navigation_menu3 }}</span>
-                            <div class="subcategory-item-wrapper">
-                                {%- for link in block.settings.navigation_menu3.links -%}
-                                <div>
-                                    <a href="link.url" class="nav-link">{{ link.title|escape }}</a>
-                                </div>
-                                {%- endfor -%} 
+                     <div class="navbar-nav">
+                        <span class="subcategory-item">{{ block.settings.navigation_menu1 }}</span>
+                        <div class="subcategory-item-wrapper">
+                            {%- for link in block.settings.navigation_menu1.links -%}
+                            <div>
+                                <a href="{{ link.url }}" class="nav-link">{{ link.title|escape }}</a>
                             </div>
+                            {%- endfor -%}
+                        </div> 
+                    </div>
+                     <div class="navbar-nav">
+                        <span class="subcategory-item">{{ block.settings.navigation_menu2 }}</span>
+                        <div class="subcategory-item-wrapper">
+                            {%- for link in block.settings.navigation_menu2.links -%}
+                            <div>
+                                <a href="{{ link.url }}" class="nav-link">{{ link.title|escape }}</a>
+                            </div>
+                            {%- endfor -%} 
+                        </div> 
+                     </div>
+                     <div class="navbar-nav">
+                        <span class="subcategory-item">{{ block.settings.navigation_menu3 }}</span>
+                        <div class="subcategory-item-wrapper">
+                            {%- for link in block.settings.navigation_menu3.links -%}
+                            <div>
+                                <a href="{{ link.url }}" class="nav-link">{{ link.title|escape }}</a>
+                            </div>
+                            {%- endfor -%} 
                         </div>
+                     </div>
                     </div>
                 {%- endfor -%}
             </div>

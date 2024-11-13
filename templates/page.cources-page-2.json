@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -35,9 +44,7 @@
         "f1651cf1-1267-4d9b-a715-150c5479615a",
         "b4c24aa9-f4a7-49fc-9de0-74f389337882"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "product": "the-original-crockpet-diet-holistic-total-body-support-multivitamins"
       }
@@ -48,7 +55,7 @@
         "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>What Will You Learn<\/p>",
+            "heading": "<p>What Will You Learn</p>",
             "heading_size": "h1"
           }
         },
@@ -56,7 +63,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-2": {
@@ -78,7 +85,7 @@
         "template--14922816258113__2db1b70b-a212-469f-9c06-348c0ff32f8b-16845729530bebd7c1-2"
       ],
       "custom_css": [
-        "h2 {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; \/* identical to box height, or 89% *\/ letter-spacing: 0.02em; color: #184b44;}",
+        "h2 {font-family: \"Oakley Script\"; font-style: normal; font-weight: 400; font-size: 64px; line-height: 57px; /* identical to box height, or 89% */ letter-spacing: 0.02em; color: #184b44;}",
         ".content-container {padding-bottom: 0px; padding-top: 85px;}"
       ],
       "settings": {
@@ -146,7 +153,7 @@
         "082171f5-b295-45bd-a122-1ce80e76c1ec": {
           "type": "block",
           "settings": {
-            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefitimg": "shopify://shop_images/Vector_1.png",
             "benefit_head": "",
             "benefit_desc": "Lifetime Subscription : This exclusive digital membership gives you lifetime access to The Original CrockPet Diet online. You can access it via your phone, tablet, or computer. You'll get immediate online access to the ebook, TOCPD recipe, and its many variations, including Keto versions,Dr. Ruth's recipe for pets with kidney disease, holiday recipes, and more!"
           }
@@ -154,7 +161,7 @@
         "0da9f2d4-0ac3-4fe3-ad3d-ef244bb2100e": {
           "type": "block",
           "settings": {
-            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefitimg": "shopify://shop_images/Vector_1.png",
             "benefit_head": "",
             "benefit_desc": "Weekly Q&A Session : Michael Daly, a certified premier pet health coach, visits this group each week in a live broadcast to answer your questions about recipes. Ingredients or product substitution, share her latest thoughts, strategies, inspirations, and program information here. The Original CrockPet Diet team is dedicated to supporting you through a lifetime of healthy pets and home cooking for your furry friends."
           }
@@ -162,7 +169,7 @@
         "125f39a1-fe3c-4d05-9c71-cf64f9b95303": {
           "type": "block",
           "settings": {
-            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefitimg": "shopify://shop_images/Vector_1.png",
             "benefit_head": "",
             "benefit_desc": "The Original Crockpet Diet eBook : Learn more about the history and science behind The Original Crockpet Diet, the foods that go into it, and how you can optimize each back for your pet's best health"
           }
@@ -171,7 +178,7 @@
           "type": "block",
           "disabled": true,
           "settings": {
-            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefitimg": "shopify://shop_images/Vector_1.png",
             "benefit_head": "",
             "benefit_desc": "Written by a renowned veterinarian with over 30 years of experiences in pet nutrition"
           }
@@ -180,7 +187,7 @@
           "type": "block",
           "disabled": true,
           "settings": {
-            "benefitimg": "shopify:\/\/shop_images\/Vector_1.png",
+            "benefitimg": "shopify://shop_images/Vector_1.png",
             "benefit_head": "",
             "benefit_desc": "You'll get immediate online access to the CrockPET recipes and its many variations, including Keto versions, Dr. Ruth's recipe for pets with kidney disease, Liver disease, Keto Diet, holiday recipes, and more! "
           }
@@ -214,19 +221,19 @@
         "template--14922816258113__72aa2fdf-a036-4044-b542-af8a45d6f69f-1684565616e7b57384-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The CrockPET Diet Course is a comprehensive online course that provides you with all the information and guidance you need to transition your pets to a healthy, home-cooked diet. Dr. Ruth Roberts has designed this course to help you understand the benefits of all-natural pet food, nutritional needs of your cats and dogs and how to meet them with delicious and nutritious meals.<\/p>"
+            "text": "<p>The CrockPET Diet Course is a comprehensive online course that provides you with all the information and guidance you need to transition your pets to a healthy, home-cooked diet. Dr. Ruth Roberts has designed this course to help you understand the benefits of all-natural pet food, nutritional needs of your cats and dogs and how to meet them with delicious and nutritious meals.</p>"
           }
         },
         "1f873972-8f8f-47b0-a875-cb2d69deb759": {
           "type": "text",
           "settings": {
-            "text": "<p>This course is divided into five modules, including a cooking essential module that teaches the basics of cooking for cats and dogs. The following modules are dedicated to different versions of the diet tailored for specific conditions such as kidney disease, liver disease, and a keto version.<\/p>"
+            "text": "<p>This course is divided into five modules, including a cooking essential module that teaches the basics of cooking for cats and dogs. The following modules are dedicated to different versions of the diet tailored for specific conditions such as kidney disease, liver disease, and a keto version.</p>"
           }
         },
         "11d55611-3f27-4aa6-8ec4-3cb342c69b00": {
           "type": "text",
           "settings": {
-            "text": "<p>With easy-to-follow video lessons, recipe guides, and expert tips, you'll learn how to create tasty meals that your pets will love. And with ongoing support from Dr. Roberts and the CrockPet community, you'll have all the resources you need to succeed.<\/p>"
+            "text": "<p>With easy-to-follow video lessons, recipe guides, and expert tips, you'll learn how to create tasty meals that your pets will love. And with ongoing support from Dr. Roberts and the CrockPet community, you'll have all the resources you need to succeed.</p>"
           }
         },
         "template--14922816258113__72aa2fdf-a036-4044-b542-af8a45d6f69f-1684565616e7b57384-2": {
@@ -234,7 +241,7 @@
           "disabled": true,
           "settings": {
             "button_label": "BUY Now",
-            "button_link": "shopify:\/\/pages\/holistic-pet-health-coaching-program",
+            "button_link": "shopify://pages/holistic-pet-health-coaching-program",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -270,14 +277,14 @@
         "template--14922816258113__db3104ef-cb1a-4789-8d6a-2d71312daf98-16847272668e3f6836-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Don't wait to take the first step towards a healthier, happier life for your pets. Enroll in The CrockPet Diet Course for Dogs & Cats by Dr. Ruth Roberts today and start providing your furry friends with the best possible nutrition!<\/p>"
+            "text": "<p>Don't wait to take the first step towards a healthier, happier life for your pets. Enroll in The CrockPet Diet Course for Dogs & Cats by Dr. Ruth Roberts today and start providing your furry friends with the best possible nutrition!</p>"
           }
         },
         "2e860384-3d3e-42ed-99f7-a21c0a01406d": {
           "type": "button",
           "settings": {
             "button_label": "BUY Now",
-            "button_link": "shopify:\/\/products\/the-original-crockpet-diet-holistic-total-body-support-multivitamins",
+            "button_link": "shopify://products/the-original-crockpet-diet-holistic-total-body-support-multivitamins",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -311,7 +318,7 @@
         "7c8d86ba-fd3e-4442-9994-2f224069133c": {
           "type": "block",
           "settings": {
-            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
+            "mainimage": "shopify://shop_images/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
             "rating": 5,
             "confimed": "lorem ipsum dolor",
             "confimedp": "“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”",
@@ -321,7 +328,7 @@
         "f16a004e-9c5f-4a69-90e9-5cc736ba7a7f": {
           "type": "block",
           "settings": {
-            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
+            "mainimage": "shopify://shop_images/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
             "rating": 5,
             "confimed": "lorem ipsum dolor",
             "confimedp": "“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”",
@@ -331,7 +338,7 @@
         "467f4625-df80-4e9d-aae2-5cb72622fea9": {
           "type": "block",
           "settings": {
-            "mainimage": "shopify:\/\/shop_images\/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
+            "mainimage": "shopify://shop_images/B_800x_6cddebbb-2cb0-4614-8d7f-161f063fa558.webp",
             "rating": 5,
             "confimed": "lorem ipsum dolor",
             "confimedp": "“Thank you so much Dr Ruth for all your help and knowledge. Our new local vet is on board with us and is always excited to hear what we doing to help our dogs. Since we started the crock pet diet last October our dogs did not have any ear infections, allergies or hot spots. We use Dr Ruth holistic total body support, the fish oil and her probiotic and our dogs absolutely love their food”",
@@ -350,6 +357,7 @@
     },
     "1655751929e34d4e57": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16557519296bd204f0-0": {
           "type": "featured_collection",
@@ -389,7 +397,6 @@
         "aa1c3c69-2ce2-435d-81c8-18b114024961",
         "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -405,6 +412,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -416,13 +424,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -430,8 +437,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -439,6 +446,7 @@
     },
     "5b15151e-67d8-4d2c-942b-d054aa163a4f": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "d89bc2d2-f263-436c-b86a-a25911d3ecd5": {
           "type": "collection",
@@ -452,7 +460,6 @@
       "block_order": [
         "d89bc2d2-f263-436c-b86a-a25911d3ecd5"
       ],
-      "disabled": true,
       "custom_css": [
         ".set > a > svg {display: none;}"
       ],
@@ -462,6 +469,7 @@
     },
     "961ef4f2-4f2b-4901-81f7-336545b188ca": {
       "type": "affiliate",
+      "disabled": true,
       "blocks": {
         "685b5f99-55e8-4458-9441-e666240d0171": {
           "type": "collection",
@@ -475,7 +483,6 @@
       "block_order": [
         "685b5f99-55e8-4458-9441-e666240d0171"
       ],
-      "disabled": true,
       "settings": {
         "addhead": "",
         "mfaqhead": "",
@@ -485,6 +492,7 @@
     },
     "c255ee60-d5db-40bf-876e-0e659dd4283e": {
       "type": "reward_faq",
+      "disabled": true,
       "blocks": {
         "cd37d0ad-f00f-4126-b850-dd1e472eadee": {
           "type": "collection",
@@ -498,7 +506,6 @@
       "block_order": [
         "cd37d0ad-f00f-4126-b850-dd1e472eadee"
       ],
-      "disabled": true,
       "settings": {
         "mfaqhead": ""
       }

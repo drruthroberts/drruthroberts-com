@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "bb87f080-abd6-47b4-ba9f-01d54999a6b2": {
@@ -7,11 +16,11 @@
         "h1 {color: #184b44;}"
       ],
       "settings": {
-        "rx_image_banner": "shopify:\/\/shop_images\/OUR_BLOG_BANNER_caadee6e-efe8-410a-b9f0-bba65c5516d7.png",
+        "rx_image_banner": "shopify://shop_images/OUR_BLOG_BANNER_caadee6e-efe8-410a-b9f0-bba65c5516d7.png",
         "heading": "Our Blogs",
         "caption": "",
-        "content": "<p>Our blog aim to provide pet parents with informative and thought-provoking articles covering a broad spectrum of holistic pet care topics. Whether you're in search of practical tips, comprehensive guides, or in-depth exploration of specific subjects, our blog is tailored to educate, enlighten, and motivate.<\/p>",
-        "content2": "<p>  Stay updated with our latest pet blogs and join our community of curious and passionate readers.<\/p>",
+        "content": "<p>Our blog aim to provide pet parents with informative and thought-provoking articles covering a broad spectrum of holistic pet care topics. Whether you're in search of practical tips, comprehensive guides, or in-depth exploration of specific subjects, our blog is tailored to educate, enlighten, and motivate.</p>",
+        "content2": "<p>  Stay updated with our latest pet blogs and join our community of curious and passionate readers.</p>",
         "layout": "image_first"
       }
     },
@@ -145,13 +154,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest insights.<\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest insights.</p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -174,7 +182,7 @@
           "settings": {
             "castheadd": "Lorem ipsum dolor sit amet consectetur",
             "castdess": "March 6, 2023",
-            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+            "slideimg": "shopify://shop_images/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
           }
         },
         "ebe129c3-a8b7-43bd-9e12-004e8d08feb6": {
@@ -182,7 +190,7 @@
           "settings": {
             "castheadd": "Lorem ipsum dolor sit amet consectetur",
             "castdess": "March 7, 2023",
-            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+            "slideimg": "shopify://shop_images/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
           }
         },
         "7ea9f4f0-33a6-4ed5-8716-6f981896b8c7": {
@@ -190,7 +198,7 @@
           "settings": {
             "castheadd": "Lorem ipsum dolor sit amet consectetur",
             "castdess": "March 8, 2023",
-            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+            "slideimg": "shopify://shop_images/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
           }
         },
         "135c0419-37ed-4ade-88ce-bf78687c6120": {
@@ -198,7 +206,7 @@
           "settings": {
             "castheadd": "Lorem ipsum dolor sit amet consectetur",
             "castdess": "March 6, 2023",
-            "slideimg": "shopify:\/\/shop_images\/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
+            "slideimg": "shopify://shop_images/Image_12_0525fb97-941c-4b93-85f9-2e4b9a5240d7.png"
           }
         }
       },
@@ -229,8 +237,8 @@
         "contents": "Become A Certified Holistic Pet Health Coach In 4 months!",
         "descri": "Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.",
         "previwbtn": "Learn more",
-        "previwurl": "shopify:\/\/pages\/ruth-story",
-        "bcerti": "shopify:\/\/shop_images\/Rectangle_99de13d3-5edc-4d3a-b390-ec3e0ae4f429.png"
+        "previwurl": "shopify://pages/ruth-story",
+        "bcerti": "shopify://shop_images/Rectangle_99de13d3-5edc-4d3a-b390-ec3e0ae4f429.png"
       }
     }
   },

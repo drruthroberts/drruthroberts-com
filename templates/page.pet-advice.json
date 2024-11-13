@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,7 +23,7 @@
         "slide_F8W7QY": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Image_bca6c2db-1ad4-4210-883e-93c3e22f7740.png",
+            "image": "shopify://shop_images/Image_bca6c2db-1ad4-4210-883e-93c3e22f7740.png",
             "height": "medium",
             "desktop_image_width": "medium",
             "layout": "text_first",
@@ -26,7 +35,7 @@
             "show_arrow_mobile": "no",
             "mobile_content_alignment": "left",
             "heading": "Deepen Your Knowledge In Pet Health",
-            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.<br\/><br\/><\/p>",
+            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.<br/><br/></p>",
             "button_label": "LEARN MORE",
             "button_link": "#"
           }
@@ -35,7 +44,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dr_Ruth_Roberts_in_sunlight.jpg",
+            "image": "shopify://shop_images/Dr_Ruth_Roberts_in_sunlight.jpg",
             "height": "medium",
             "desktop_image_width": "medium",
             "layout": "text_first",
@@ -47,7 +56,7 @@
             "show_arrow_mobile": "no",
             "mobile_content_alignment": "left",
             "heading": "Deepen Your Knowledge In Pet Health",
-            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.<\/p>",
+            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.</p>",
             "button_label": "LEARN MORE",
             "button_link": "#"
           }
@@ -56,7 +65,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dr_Ruth_Roberts_with_Pet.jpg",
+            "image": "shopify://shop_images/Dr_Ruth_Roberts_with_Pet.jpg",
             "height": "medium",
             "desktop_image_width": "medium",
             "layout": "text_first",
@@ -68,7 +77,7 @@
             "show_arrow_mobile": "no",
             "mobile_content_alignment": "left",
             "heading": "Deepen Your Knowledge In Pet Health",
-            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.<\/p>",
+            "description": "<p>Immerse yourself in expert pet advice from our diverse range of engaging resources.</p>",
             "button_label": "LEARN MORE",
             "button_link": "#"
           }
@@ -90,13 +99,13 @@
         "heading_QcdUWY": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Blogs<\/p>"
+            "heading": "<p>Our Blogs</p>"
           }
         },
         "text_xmU6Er": {
           "type": "text",
           "settings": {
-            "text": "<p>Read our insightful articles for  expert pet advice,  holistic pet health tips, and nurturing natural remedies to elevate your pet’s well-being<\/p>"
+            "text": "<p>Read our insightful articles for  expert pet advice,  holistic pet health tips, and nurturing natural remedies to elevate your pet’s well-being</p>"
           }
         }
       },
@@ -130,7 +139,7 @@
         "show_view_all": false,
         "padding_top": 0,
         "padding_bottom": 12,
-        "blogs_url": "shopify:\/\/pages\/all-blogs",
+        "blogs_url": "shopify://pages/all-blogs",
         "blogs_btn": "Read More blogs"
       }
     },
@@ -140,13 +149,13 @@
         "heading_4D9NtD": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Product Review<\/p>"
+            "heading": "<p>Our Product Review</p>"
           }
         },
         "text_6KprDk": {
           "type": "text",
           "settings": {
-            "text": "<p>Read our in-depth article where we review the best supplements for your pet's health, along with top-rated pet health devices. Find out which products can make a real difference in your pet’s well-being.<\/p>"
+            "text": "<p>Read our in-depth article where we review the best supplements for your pet's health, along with top-rated pet health devices. Find out which products can make a real difference in your pet’s well-being.</p>"
           }
         }
       },
@@ -180,7 +189,7 @@
         "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "blogs_url": "shopify:\/\/blogs\/product-review",
+        "blogs_url": "shopify://blogs/product-review",
         "blogs_btn": "Read More reviews"
       }
     },
@@ -190,13 +199,13 @@
         "heading_7R6Q8z": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Podcast<\/p>"
+            "heading": "<p>Our Podcast</p>"
           }
         },
         "text_V3HKCG": {
           "type": "text",
           "settings": {
-            "text": "<p>Listen to our podcast for in-depth conversation with leading veterinarians and experts. Gain new perspective and valuable insights for your pet.<\/p>"
+            "text": "<p>Listen to our podcast for in-depth conversation with leading veterinarians and experts. Gain new perspective and valuable insights for your pet.</p>"
           }
         }
       },
@@ -225,8 +234,8 @@
             "title": "Ways To Prolonged Your Pet's Longevity",
             "description": "",
             "reviewer_name": "August 6, 2023",
-            "post_link": "shopify:\/\/blogs\/podcast\/ways-to-prolonged-your-pets-longevity",
-            "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_1_32ca83b6-737b-4aaf-af8d-a5ac0acb9cab.png",
+            "post_link": "shopify://blogs/podcast/ways-to-prolonged-your-pets-longevity",
+            "post_image": "shopify://shop_images/Longevity_Tips_For_Animals_Part_1_32ca83b6-737b-4aaf-af8d-a5ac0acb9cab.png",
             "overlap": false
           }
         },
@@ -236,8 +245,8 @@
             "title": "Core and Non-core Vaccine For Your Dogs",
             "description": "",
             "reviewer_name": "August 6, 2023",
-            "post_link": "shopify:\/\/blogs\/pet-blog\/core-and-non-core-vaccine-for-your-dogs",
-            "post_image": "shopify:\/\/shop_images\/Longevity_Tips_For_Animals_Part_II_67447d13-40f1-4d8c-81dc-9b3b9cde44ce.png",
+            "post_link": "shopify://blogs/pet-blog/core-and-non-core-vaccine-for-your-dogs",
+            "post_image": "shopify://shop_images/Longevity_Tips_For_Animals_Part_II_67447d13-40f1-4d8c-81dc-9b3b9cde44ce.png",
             "overlap": false
           }
         },
@@ -247,8 +256,8 @@
             "title": "Understanding Vaccine Lumps in Dogs: Duration and Care",
             "description": "",
             "reviewer_name": "August 6, 2023",
-            "post_link": "shopify:\/\/blogs\/pet-blog\/understanding-vaccine-lumps-in-dogs-duration-and-care",
-            "post_image": "shopify:\/\/shop_images\/lump_after_vaccine.webp",
+            "post_link": "shopify://blogs/pet-blog/understanding-vaccine-lumps-in-dogs-duration-and-care",
+            "post_image": "shopify://shop_images/lump_after_vaccine.webp",
             "overlap": false
           }
         },
@@ -259,8 +268,8 @@
             "title": "ARE YOU PET PREPARED? EMERGENCY KIT FOR YOUR PETS",
             "description": "",
             "reviewer_name": "August 6, 2023",
-            "post_link": "shopify:\/\/blogs\/pet-blog\/are-you-pet-prepared-emergency-kit-for-your-pets",
-            "post_image": "shopify:\/\/shop_images\/Emergency_Kit_for_Your_Cats_and_Dogs.jpg",
+            "post_link": "shopify://blogs/pet-blog/are-you-pet-prepared-emergency-kit-for-your-pets",
+            "post_image": "shopify://shop_images/Emergency_Kit_for_Your_Cats_and_Dogs.jpg",
             "overlap": false
           }
         }
@@ -287,8 +296,8 @@
         "filled_star_color": "",
         "empty_star_color": "",
         "blogs_title": "Our Podcast",
-        "blogs_description": "<p>Listen to our podcast for in-depth conversation with leading veterinarians and experts. Gain new perspective and valuable insights for your pet.<\/p>",
-        "blogs_url": "shopify:\/\/blogs\/podcast-1",
+        "blogs_description": "<p>Listen to our podcast for in-depth conversation with leading veterinarians and experts. Gain new perspective and valuable insights for your pet.</p>",
+        "blogs_url": "shopify://blogs/podcast-1",
         "blogs_btn": "VIEW MORE PODCAST"
       }
     },
@@ -298,13 +307,13 @@
         "heading_hXiDTd": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Video<\/p>"
+            "heading": "<p>Our Video</p>"
           }
         },
         "text_aYtB87": {
           "type": "text",
           "settings": {
-            "text": "<p>Get a treasure trove of knowledge with our FREE downloadable pdfs, e-book and infographics. Learn from our  resources to enhance your pet's health and well-being.<\/p>"
+            "text": "<p>Get a treasure trove of knowledge with our FREE downloadable pdfs, e-book and infographics. Learn from our  resources to enhance your pet's health and well-being.</p>"
           }
         }
       },
@@ -338,7 +347,7 @@
         "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "blogs_url": "shopify:\/\/blogs\/video",
+        "blogs_url": "shopify://blogs/video",
         "blogs_btn": "watch more videos"
       }
     },
@@ -351,8 +360,8 @@
             "title": "Why Movement MattersShare",
             "description": "",
             "reviewer_name": "Dr. Ruth Roberts | September 4, 2024",
-            "post_link": "shopify:\/\/blogs\/video\/arthritis-and-mobility-issues-in-aging-pets-why-movement-matters",
-            "post_image": "shopify:\/\/shop_images\/SENIOR_PET_MOBILITY.webp",
+            "post_link": "shopify://blogs/video/arthritis-and-mobility-issues-in-aging-pets-why-movement-matters",
+            "post_image": "shopify://shop_images/SENIOR_PET_MOBILITY.webp",
             "overlap": false
           }
         },
@@ -362,8 +371,8 @@
             "title": "Detoxifying Your Pet: What Does It Mean?",
             "description": "",
             "reviewer_name": "Dr. Ruth Roberts | July 7, 2024",
-            "post_link": "shopify:\/\/blogs\/video\/detoxifying-your-pet-what-it-means",
-            "post_image": "shopify:\/\/shop_images\/detoxifying_your_pet_2.webp",
+            "post_link": "shopify://blogs/video/detoxifying-your-pet-what-it-means",
+            "post_image": "shopify://shop_images/detoxifying_your_pet_2.webp",
             "overlap": false
           }
         }
@@ -389,7 +398,7 @@
         "filled_star_color": "",
         "empty_star_color": "",
         "blogs_title": "Our Videos",
-        "blogs_description": "<p>Get a treasure trove of knowledge with our FREE downloadable pdfs, e-book and infographics. Learn from our  resources to enhance your pet's health and well-being.<\/p>",
+        "blogs_description": "<p>Get a treasure trove of knowledge with our FREE downloadable pdfs, e-book and infographics. Learn from our  resources to enhance your pet's health and well-being.</p>",
         "blogs_url": "#",
         "blogs_btn": "WATCH MORE VIDEOS"
       }
@@ -397,12 +406,12 @@
     "custom_image_with_text_LQzHzz": {
       "type": "custom-image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-cottonbro-studio-4252134_1.png",
+        "image": "shopify://shop_images/pexels-cottonbro-studio-4252134_1.png",
         "layout": "image_first",
         "content_bg": "#2d4b49",
         "title": "The Original CrockPET Diet",
-        "subtitle": "<p>“One of my proudest achievements is creating The Original CrockPet Diet. It’s a a balanced home cooked diet for pets, as the foundation of health., encouraging both healing and vitality.” <\/p>",
-        "description": "<p>Searching for a nourishing homemade solution to enhance your furry friend's well-being? Tired of toggling between raw feeding and dry kibbles without witnessing any positive changes in your pet's health?<br\/>Introducing The Original CrockPet Diet – a meticulously crafted home-cooked pet diet prepared right in your kitchen using only genuine ingredients. Dr. Ruth's patented recipe offers complete balance for pets at every life stage, fostering better health for puppies, kittens, adult dogs, cats, and senior companions alike.<\/p>",
+        "subtitle": "<p>“One of my proudest achievements is creating The Original CrockPet Diet. It’s a a balanced home cooked diet for pets, as the foundation of health., encouraging both healing and vitality.” </p>",
+        "description": "<p>Searching for a nourishing homemade solution to enhance your furry friend's well-being? Tired of toggling between raw feeding and dry kibbles without witnessing any positive changes in your pet's health?<br/>Introducing The Original CrockPet Diet – a meticulously crafted home-cooked pet diet prepared right in your kitchen using only genuine ingredients. Dr. Ruth's patented recipe offers complete balance for pets at every life stage, fostering better health for puppies, kittens, adult dogs, cats, and senior companions alike.</p>",
         "btn_url": "#",
         "btn_title": "learn more",
         "text_content_bg": "#f5f8f1",
@@ -425,7 +434,7 @@
         "text_f3U8QV": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With holistic veterinary care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.<\/p>"
+            "text": "<p>Dr. Ruth Has Supported Thousands Of Dogs And Cats To Overcome Health Hurdles Like Kidney Disease, Gastrointestinal (GI) Illness, Allergies, And Cancer With holistic veterinary care That Is Tailored To Your Pet’s Unique Health Profile. Her Natural Approach To Healing Creates A Gentle Yet Effective Path For Your Pet To Take On Their Journey To Wellbeing.</p>"
           }
         },
         "button_Qbdqa6": {
@@ -442,7 +451,7 @@
         "button_Qbdqa6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image_3_f2c038b5-af4c-4553-9e18-48a5abd47eb8.png",
+        "image": "shopify://shop_images/Image_3_f2c038b5-af4c-4553-9e18-48a5abd47eb8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

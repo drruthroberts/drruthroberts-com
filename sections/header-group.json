@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
@@ -17,13 +17,14 @@
         "announcement_rNqJTQ": {
           "type": "announcement",
           "settings": {
-            "text": "Unleash Your Potential: Become a Holistic Pet Health Coach! 🩺Sign Up Now For the September 12 workshop now! 🐾",
+            "text": "Grateful Tails & Wellness Wishes! 🐾 Up to 50% Off Pet Wellness Essentials—Shop the Sale Now!",
             "text_alignment": "center",
-            "link": "https://www.holisticpethealthcoach.com/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner"
+            "link": "https://drruthroberts.com/pages/black-friday-cyber-monday-sale"
           }
         },
         "announcement_qWPKCT": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Last Chance! ⏰ Grab up to 50% Off our never-before-seen collection – Sale Ends at Midnight!",
             "text_alignment": "center",
@@ -56,7 +57,7 @@
         "menu": "main-menu-revamp",
         "mobile_menu": "mobile-main-menu",
         "menu_type_desktop": "mega",
-        "sticky_header_type": "always",
+        "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
@@ -119,15 +120,15 @@
             "item_label": "for dog",
             "navigation_menu1": "dog-nutrition",
             "navigation_menu2": "dog-wellness",
-            "navigation_menu3": "life-stage"
+            "navigation_menu3": ""
           }
         },
         "menu_item_XNtb44": {
           "type": "menu_item",
           "settings": {
             "item_label": "for cat",
-            "navigation_menu1": "life-stage",
-            "navigation_menu2": "dog-wellness",
+            "navigation_menu1": "cat-nutrition",
+            "navigation_menu2": "cat-wellness",
             "navigation_menu3": ""
           }
         },
@@ -165,10 +166,10 @@
     "announcement-bar",
     "custom_liquid_D9YNGQ",
     "header",
-    "custom_header_menu_DzEyPj",
     "172135207950b70536",
     "171319935398bc6e18",
     "1715285349ba063e6c",
-    "1715285355ad802300"
+    "1715285355ad802300",
+    "custom_header_menu_DzEyPj"
   ]
 }

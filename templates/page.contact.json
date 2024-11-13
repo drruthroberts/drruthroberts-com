@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,7 +23,7 @@
         "template--14898486280257__b6193c8e-c69f-4711-9f3a-e2a01b0ee0cd-1683205563f3e19933-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Get Personalized recommendation <\/p>"
+            "heading": "<p>Get Personalized recommendation </p>"
           }
         },
         "c805630b-650c-4828-a411-6f6787d74214": {
@@ -42,7 +51,7 @@
     "46dc717d-b645-45db-b490-80497c97aea0": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 20px;\">\n  <iframe src=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSf1BrLJbFIPGhDh5uZjQZfQxvByin75b2Bs_sx8DTCTDGr7-g\/viewform?embedded=true\" width=\"640\" height=\"480\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…<\/iframe>\n<\/div>",
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 20px;\">\n  <iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSf1BrLJbFIPGhDh5uZjQZfQxvByin75b2Bs_sx8DTCTDGr7-g/viewform?embedded=true\" width=\"640\" height=\"480\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading…</iframe>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -66,7 +75,7 @@
           "type": "column",
           "settings": {
             "title": "EMAIL",
-            "text": "<p>drruthroberts@drruthroberts.com<\/p>",
+            "text": "<p>drruthroberts@drruthroberts.com</p>",
             "link_label": "EMAIL US",
             "link": "mailto:Customercare@drruthroberts.com"
           }
@@ -75,7 +84,7 @@
           "type": "column",
           "settings": {
             "title": "PHONE #",
-            "text": "<p>+1 213 394 2923<\/p>",
+            "text": "<p>+1 213 394 2923</p>",
             "link_label": "CALL NOW",
             "link": "tel:+1 213 394 2923"
           }
@@ -110,7 +119,7 @@
           "type": "button",
           "settings": {
             "button_label": "LEARN MORE",
-            "button_link": "shopify:\/\/pages\/holistic-pet-health-coaching-program"
+            "button_link": "shopify://pages/holistic-pet-health-coaching-program"
           }
         }
       },
@@ -123,12 +132,12 @@
         ".caption{padding-right: 20px;}"
       ],
       "settings": {
-        "rx_image_banner": "shopify:\/\/shop_images\/Image_4.png",
+        "rx_image_banner": "shopify://shop_images/Image_4.png",
         "cotainer_bg": "",
         "heading": "",
-        "date": "<p>date<\/p>",
-        "caption": "<p>Become A Certified Holistic Pet Health Coach in 4 Months!<\/p>",
-        "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>",
+        "date": "<p>date</p>",
+        "caption": "<p>Become A Certified Holistic Pet Health Coach in 4 Months!</p>",
+        "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.</p>",
         "content2": "",
         "content_bg": "",
         "layout": "text_first"

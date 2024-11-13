@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "dd0627fe-0396-47f2-aa7d-c437fbf15907": {
@@ -13,7 +22,7 @@
         "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-1": {
           "type": "text",
           "settings": {
-            "text": "Scroll below to find pet support products hand picked by Dr. Ruth Roberts & Angie Ardolino",
+            "text": "Scroll down to explore pet support products carefully selected by Dr. Ruth Roberts to support your dog or cat's specific health needs",
             "text_style": "body"
           }
         },
@@ -36,7 +45,8 @@
         "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dr._Ruth_Roberts_Angela_Ardolino_the_holistic_duo_ca7207a7-c18b-4c00-bf19-c5ecad639c2a.png",
+        "image": "shopify://shop_images/LIM00435.jpg",
+        "content_width": 100,
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -86,7 +96,7 @@
         "cc99839f-4fdf-45ca-9ee6-e6b0ef2d6d3e": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gastrointestinal-support"
+            "collection": "digestive-support-for-pets"
           }
         },
         "c9e247fc-2246-47e6-83f4-ca0158ebd80f": {
@@ -122,7 +132,7 @@
         "c119bda2-0e54-4dbe-af6b-12f43029d6f8": {
           "type": "featured_collection",
           "settings": {
-            "collection": "puppy-kitten-support"
+            "collection": "puppy-support"
           }
         },
         "395a45ef-5e14-4c1e-98bf-9ddc02f68fba": {
@@ -167,8 +177,11 @@
         "39d390f5-7605-454a-a0ba-256be90ad752",
         "45ceb5a6-9a6e-4e86-b31b-efeda236bdc3"
       ],
+      "custom_css": [
+        "h2{text-align: center;}"
+      ],
       "settings": {
-        "title": "We made it easy for you to know what type of support you and your pet should get based on his\/her current condition.",
+        "title": "We made it easy for you to know what type of support you and your pet should get based on his/her current condition.",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 5,
@@ -228,8 +241,11 @@
         "cafbb3d1-6d51-4466-a7ff-ede23e724c6a",
         "69b427fb-183d-45cb-9548-b5c125455e0a"
       ],
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
-        "title": "Give your dog & cat the care & affection it deserves w\/ our top-quality nutritional supplements from Standard Process",
+        "title": "Give your dog & cat the care & affection it deserves w/ our top-quality nutritional supplements from Standard Process",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -262,7 +278,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Book A Consult",
-            "button_link_1": "https:\/\/drruthroberts.com\/certified-holistic-pet-health-coaches\/",
+            "button_link_1": "https://drruthroberts.com/certified-holistic-pet-health-coaches/",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -276,7 +292,8 @@
         "template--14699863605313__d9814347-ec3a-4357-bb8f-c4423922c28b-167156957804ee75b5-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/woman_and_dog_on_the_beach.jpg",
+        "image": "shopify://shop_images/woman_and_dog_on_the_beach.jpg",
+        "content_width": 100,
         "image_overlay_opacity": 50,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -294,20 +311,20 @@
         "heading_V7xYKU": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Dog and Cat Supplements<\/p>",
+            "heading": "<p>Dog and Cat Supplements</p>",
             "heading_size": "h1"
           }
         },
         "text_CaFxcx": {
           "type": "text",
           "settings": {
-            "text": "<p>At Dr. Ruth Roberts, we have an array of dog and cat supplements to ensure your furry friend stays happy, healthy, and full of energy. Whether your pet is young and full of energy or getting older, we have the products and supplements available to help your animal thrive.<\/p>"
+            "text": "<p>At Dr. Ruth Roberts, we have an array of dog and cat supplements to ensure your furry friend stays happy, healthy, and full of energy. Whether your pet is young and full of energy or getting older, we have the products and supplements available to help your animal thrive.</p>"
           }
         },
         "text_MpUTMd": {
           "type": "text",
           "settings": {
-            "text": "<p>Whether your dog or cat needs pet hemp oil, immune support supplements, renal support supplements, or specialized dog or cat food for gut health, we’ve made it easy for you to know what type of support you and your pet should get based on their current condition. <\/p>"
+            "text": "<p>Whether your dog or cat needs pet hemp oil, immune support supplements, renal support supplements, or specialized dog or cat food for gut health, we’ve made it easy for you to know what type of support you and your pet should get based on their current condition. </p>"
           }
         }
       },
@@ -332,7 +349,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li>Dog and cat allergy relief supplements.<\/li><li>Dog and cat supplements for anxiety and stress relief.<\/li><li>Dog and cat digestion and gut health supplements.<\/li><li>Supplements for senior and older dogs.<\/li><\/ul>",
+            "text": "<ul><li>Dog and cat allergy relief supplements.</li><li>Dog and cat supplements for anxiety and stress relief.</li><li>Dog and cat digestion and gut health supplements.</li><li>Supplements for senior and older dogs.</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -341,7 +358,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li>Supplements for puppies and kittens.<\/li><li>Dog and cat heart health supplements.<\/li><li>Tick and flea support for cats and dogs.<\/li><li>Dog and cat autoimmunue disease supplements.<\/li><\/ul>",
+            "text": "<ul><li>Supplements for puppies and kittens.</li><li>Dog and cat heart health supplements.</li><li>Tick and flea support for cats and dogs.</li><li>Dog and cat autoimmunue disease supplements.</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -350,7 +367,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li>Dog and cat cancer support supplements.<\/li><li>Pet detox supplements.<\/li><li>Dog and cat liver support supplements.<\/li><li>Natural pet food for dogs and cats.<\/li><\/ul>",
+            "text": "<ul><li>Dog and cat cancer support supplements.</li><li>Pet detox supplements.</li><li>Dog and cat liver support supplements.</li><li>Natural pet food for dogs and cats.</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -395,13 +412,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our VIP email list for exclusive pet care tips from our veterinary * holistic pet care expert Dr. Ruth Roberts <\/p>"
+            "text": "<p>Join our VIP email list for exclusive pet care tips from our veterinary * holistic pet care expert Dr. Ruth Roberts </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

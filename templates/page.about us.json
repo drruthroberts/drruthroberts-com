@@ -1,0 +1,430 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "3e98218a-fd5c-46db-9414-adedcca49c46": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>My Philosophy</p>"
+          }
+        },
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"I am committed to provide the best possible care for pets through holistic veterinary healing methods and empowering others to do the same through my education and training program.\"</p>"
+          }
+        },
+        "c3ae5a9f-8687-4e07-b256-7f5792eaa16c": {
+          "type": "caption",
+          "settings": {
+            "caption": "My philosophy is simple: pets are family too, and they deserve the best care possible. As a pet wellness coach with a holistic, integrative approach, I'm all about natural and preventative care to keep your pet pals feeling their absolute best. Let's work together to keep those tails wagging!"
+          }
+        },
+        "8df0526e-6023-4918-a9f4-d3bd5f7283f3": {
+          "type": "image_picker",
+          "settings": {
+            "image": "shopify://shop_images/mystory.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-0",
+        "template--14909159342145__3e98218a-fd5c-46db-9414-adedcca49c46-168130636911c84209-1",
+        "c3ae5a9f-8687-4e07-b256-7f5792eaa16c",
+        "8df0526e-6023-4918-a9f4-d3bd5f7283f3"
+      ],
+      "custom_css": [
+        "p.rx_rich-text__caption {text-align: left !important;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "left",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "1a5dedc7-619e-4d76-af24-3059fc78e784": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "7bf4d7c4-baad-4696-9536-dec284d0706c": {
+          "type": "caption",
+          "settings": {
+            "caption": "CELEBRATING MY JOURNEY"
+          }
+        }
+      },
+      "block_order": [
+        "7bf4d7c4-baad-4696-9536-dec284d0706c"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "300e0ff2-9a81-4844-9bfa-17d36bba4d8b": {
+      "type": "rx-celebration",
+      "blocks": {
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-0": {
+          "type": "text",
+          "settings": {
+            "rx_celeb_textbox_1": "35+",
+            "rx_celeb_textbox_2": "Years of saving pet live"
+          }
+        },
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-1": {
+          "type": "text",
+          "settings": {
+            "rx_celeb_textbox_1": "100+",
+            "rx_celeb_textbox_2": "Successful Students"
+          }
+        },
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-2": {
+          "type": "text",
+          "settings": {
+            "rx_celeb_textbox_1": "30.000+",
+            "rx_celeb_textbox_2": "Happy Tails"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-0",
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-1",
+        "template--14898486247489__300e0ff2-9a81-4844-9bfa-17d36bba4d8b-1681461329f0638fce-2"
+      ],
+      "settings": {}
+    },
+    "09b0af44-a9f1-4a92-a2d0-9addd848789b": {
+      "type": "rx-banner-text",
+      "custom_css": [
+        "img.rx-image {border-radius: 24px;}",
+        ".rx-text-desc {max-width: 580px;}",
+        ".rx-text {padding-right: 50px;}",
+        ".container {align-items: center;}"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify://shop_images/aboutRuth.jpg",
+        "heading": "Meet Dr. Ruth Roberts",
+        "caption": "The Holistic Pet Health Coach Who Changes the Way We Care for Our Furry Friends",
+        "content": "<p>After obtaining my veterinary degree from North Carolina State University's College of Veterinary Medicine (NCSU-CVM) in 1990, I embarked on a journey of continuing education and specialization. In 2005, I delved into the realm of Traditional Chinese Veterinary Medicine and earned certifications in Acupuncture, Chinese Herbal Medicine, and Food Therapy. Later, in 2012, I completed the Institute for Functional Medicine course. Four years later, in 2016, I decided to transition from clinical practice and began offering remote consultations to pet parents, drawing on my extensive experience and expertise in holistic and integrative veterinary medicine.</p>",
+        "content2": "",
+        "image_max_height": "450px",
+        "layout": "image_first"
+      }
+    },
+    "b6ca843a-115e-4556-8b3c-64c93a18553c": {
+      "type": "my-story-img",
+      "blocks": {
+        "c151ca66-9153-4180-aaf1-9f693080f04a": {
+          "type": "block",
+          "settings": {
+            "storyimg": "shopify://shop_images/Image_18.png"
+          }
+        },
+        "7c662612-d978-44a6-891a-b4e16df55eb1": {
+          "type": "block",
+          "settings": {
+            "storyimg": "shopify://shop_images/Image_15.png"
+          }
+        },
+        "7ca383d3-fd33-4bf4-b782-8e3f2eec09af": {
+          "type": "block",
+          "settings": {
+            "storyimg": "shopify://shop_images/Image_16.png"
+          }
+        },
+        "fa45a4f4-b691-4135-8201-3db213571088": {
+          "type": "block",
+          "settings": {
+            "storyimg": "shopify://shop_images/Image_14.png"
+          }
+        },
+        "28d4ecc1-a489-4180-ad3d-b1ef4d53e2c7": {
+          "type": "block",
+          "settings": {
+            "storyimg": "shopify://shop_images/Image_17.png"
+          }
+        }
+      },
+      "block_order": [
+        "c151ca66-9153-4180-aaf1-9f693080f04a",
+        "7c662612-d978-44a6-891a-b4e16df55eb1",
+        "7ca383d3-fd33-4bf4-b782-8e3f2eec09af",
+        "fa45a4f4-b691-4135-8201-3db213571088",
+        "28d4ecc1-a489-4180-ad3d-b1ef4d53e2c7"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "076cca24-afc2-49c9-b943-89e7c854f445": {
+      "type": "rx-product-feature",
+      "blocks": {
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-0": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/Image_18.png",
+            "icon_url": "",
+            "feature_image_width": "180px",
+            "feature_use_svg": false,
+            "feature_svg_code": ""
+          }
+        },
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-1": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/Image_15.png",
+            "icon_url": "",
+            "feature_image_width": "180px",
+            "feature_use_svg": false,
+            "feature_svg_code": ""
+          }
+        },
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-2": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/Image_16.png",
+            "icon_url": "",
+            "feature_image_width": "180px",
+            "feature_use_svg": false,
+            "feature_svg_code": ""
+          }
+        },
+        "3d49c927-c2f9-42c2-8b36-433af209847a": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/Image_2_ac30b6e0-12ec-484e-9fad-fe45afd21d69.png",
+            "icon_url": "",
+            "feature_image_width": "180px",
+            "feature_use_svg": false,
+            "feature_svg_code": ""
+          }
+        },
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-3": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify://shop_images/Image_17.png",
+            "icon_url": "",
+            "feature_image_width": "180px",
+            "feature_use_svg": false,
+            "feature_svg_code": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-0",
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-1",
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-2",
+        "3d49c927-c2f9-42c2-8b36-433af209847a",
+        "template--14921794945089__076cca24-afc2-49c9-b943-89e7c854f445-1684396709ce749c6e-3"
+      ],
+      "custom_css": [
+        ".feature-type1 .container {max-width: 120rem; margin: 5% auto; padding: 1px 2% 7% 2%;}",
+        "@media screen and (max-width: 1024px) {.feature-type1 .box {width: 33%; margin-bottom: 10%; padding: 20px; }}",
+        "@media screen and (max-width: 768px) {.feature-type1 .wrapper-box {flex-wrap: wrap; } .feature-type1 .box {width: 33%; margin-bottom: 10%; padding: 20px; }}",
+        "@media screen and (max-width: 660px) and (min-width: 250px) {.feature-type1 .box {width: 50%; margin-bottom: 24%; padding: 20px; }}",
+        "@media screen and (max-width: 460px) {.feature-type1 .box {width: 100%; }}"
+      ],
+      "settings": {
+        "feature_title_color": "#000000",
+        "feature_title_font_size": 16,
+        "feature_title_font_mob_size": 16,
+        "feature_text_color": "#4b4b4b",
+        "feature_text_font_size": 14,
+        "feature_text_font_mob_size": 14,
+        "type_header_font": "assistant_n4",
+        "section_bg_color": "#f5f8f1",
+        "row_on_mobile": true,
+        "max_container_width": "120rem",
+        "padding_top": 68,
+        "padding_bottom": 100
+      }
+    },
+    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f": {
+      "type": "rx-list-component",
+      "blocks": {
+        "ca8dfa28-dce9-4131-bd91-675d5427991e": {
+          "type": "text",
+          "settings": {
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "a753ac19-9be2-475d-8234-62bc15299e62": {
+          "type": "text",
+          "settings": {
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "9fe41f38-6a53-4888-a340-72395aaa6d91": {
+          "type": "text",
+          "settings": {
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5": {
+          "type": "text",
+          "settings": {
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
+          }
+        },
+        "40f8a5be-52bb-4753-848a-d6031b4ce24b": {
+          "type": "text",
+          "settings": {
+            "text_description": "Doctor of Veterinary Medicine (DVM)"
+          }
+        }
+      },
+      "block_order": [
+        "ca8dfa28-dce9-4131-bd91-675d5427991e",
+        "a753ac19-9be2-475d-8234-62bc15299e62",
+        "9fe41f38-6a53-4888-a340-72395aaa6d91",
+        "d2f4f916-8c2e-4a6e-b2dc-2ddb8927dac5",
+        "40f8a5be-52bb-4753-848a-d6031b4ce24b"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "f60fcd36-95e3-42dc-83ea-518aef727035": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>A Holistic Approach to Veterinary Medicine</p>"
+          }
+        },
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>My goal is to revolutionize veterinary care and change the way we approach animal health & wellness. With my expertise and compassionate approach, I am dedicated to helping all of my furry patients live their best lives.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-0",
+        "template--14898486247489__f60fcd36-95e3-42dc-83ea-518aef727035-168139761018b48100-1"
+      ],
+      "custom_css": [
+        "h2.rx_rich-text__heading {margin-top: 0%;}",
+        ".rx_rich-text__text {line-height: 40px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "bd7ea1b0-5c57-4106-a7e6-a09658dca609": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify://shop_images/Dr_Ruth_Roberts_in_sunlight.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>As a veterinarian, I have always been driven by a passion for animal health and wellness. However, it became clear to me that relying solely on traditional Western Medicine was not enough to fully address all of my furry patients' health issues. This realization led me to specialize in acupuncture for pets and Eastern Veterinary Medicine. During my journey, I also created <a href=\"https://drruthroberts.com/products/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts?keyword=crockpet\" target=\"_blank\" title=\"The Original CrockPET Diet Ebook and Recipe\">The Original CrockPET Diet™</a>, a healthy pet food diet that I recommend to all my clients.</p>",
+        "content2": "<p>My approach to holistic veterinary care is based on natural, holistic remedies, such as acupuncture, herbal therapy, and food therapy. These alternative methods have allowed me to successfully treat a wide range of ailments and help many pets recover and maintain optimal health. While I recognize the importance of Western Medicine, I also use it only when necessary to treat infections and illnesses that cannot be resolved with natural remedies.</p>",
+        "image_max_height": "470px",
+        "layout": "text_first"
+      }
+    },
+    "ad2b506a-a006-4757-abea-111ff8635172": {
+      "type": "rx-banner-text",
+      "custom_css": [
+        ".container {display: flex; align-items: center;}"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify://shop_images/Dr._Ruth_Roberts_c4287447-70b9-4935-9235-fa08060e5e34.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>I am passionate about sharing my knowledge and experience of holistic veterinary medicine to veterinary professionals and pet parents. I take the virtual stage at various online events, notably including the <a href=\"https://civtedu.org/faculty/dr-ruth-roberts\" target=\"_blank\" title=\"https://civtedu.org/faculty/dr-ruth-roberts\">Online College of Integrative Veterinary Therapies</a>. Here, I actively share my knowledge and expertise through engaging webinars and podcasts. </p>",
+        "content2": "<p>Foremost, as a vehicle to reach a broader audience and making a more profound impact on the well-being of pets, I have created <a href=\"https://drruthroberts.com/pages/pet-wellness-course\" target=\"_blank\" title=\"Pet Wellness Course by Dr. Ruth Roberts\">Pet Wellness Courses</a>. The courses program that cater to veterinarians, veterinary technicians, and pet parents, providing them with in-depth training on holistic veterinary medicine and equipping them with the tools to integrate this approach into their pets' care routines.</p>",
+        "image_max_height": "530px",
+        "layout": "image_first"
+      }
+    },
+    "c9a2c67f-3a6d-403f-878a-60e098bc9d55": {
+      "type": "rx-banner-text",
+      "settings": {
+        "rx_image_banner": "shopify://shop_images/Dr_Ruth_Roberts_with_Pet.jpg",
+        "heading": "",
+        "caption": "",
+        "content": "<p>Through my courses, I hope to empower others to take a more active role in their pets' wellness and health. By sharing my experience and expertise, I believe that we can all work together to create a happier, healthier life for our furry friends. I am proud to offer a <a href=\"https://drruthroberts.com/pages/holistic-pet-health-coaching-program\" target=\"_blank\" title=\"Holistic Pet Health Coach by Dr. Ruth Roberts\">Certified Holistic Pet Health Coaching Program</a>, which is designed to teach individuals how to become experts in holistic pet health and wellness. This program covers a range of topics, including holistic nutrition, herbal therapy, and lifestyle modifications to improve pets' health and wellness. </p>",
+        "content2": "<p>By completing this program, graduates can become certified holistic pet health coaches and help pet parents create customized health and wellness plans for their pet pals. I am excited to continue spreading the knowledge and benefits of holistic veterinary medicine to help more pets live their best lives.</p>",
+        "image_max_height": "470px",
+        "layout": "text_first"
+      }
+    },
+    "cb1cc368-fd23-44ab-abdb-74c408076a5a": {
+      "type": "rx-banner-text-v2",
+      "blocks": {
+        "61aab889-2c05-483a-9481-38422110e130": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify://pages/holistic-pet-health-coaching-program"
+          }
+        }
+      },
+      "block_order": [
+        "61aab889-2c05-483a-9481-38422110e130"
+      ],
+      "custom_css": [
+        "a.rx_read_more_btn_green {border-radius: 0;}"
+      ],
+      "settings": {
+        "rx_image_banner": "shopify://shop_images/drruth3.jpg",
+        "heading": "",
+        "caption": "Become A Certified Holistic Pet Health Coach in 4 Months!",
+        "content": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<br/></p>",
+        "content2": "",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "3e98218a-fd5c-46db-9414-adedcca49c46",
+    "1a5dedc7-619e-4d76-af24-3059fc78e784",
+    "300e0ff2-9a81-4844-9bfa-17d36bba4d8b",
+    "09b0af44-a9f1-4a92-a2d0-9addd848789b",
+    "b6ca843a-115e-4556-8b3c-64c93a18553c",
+    "076cca24-afc2-49c9-b943-89e7c854f445",
+    "81fb0bf7-19b9-4a02-8459-cc96b63dea4f",
+    "f60fcd36-95e3-42dc-83ea-518aef727035",
+    "bd7ea1b0-5c57-4106-a7e6-a09658dca609",
+    "ad2b506a-a006-4757-abea-111ff8635172",
+    "c9a2c67f-3a6d-403f-878a-60e098bc9d55",
+    "cb1cc368-fd23-44ab-abdb-74c408076a5a"
+  ]
+}

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -8,8 +17,8 @@
         "61cdae29-0e27-4c99-ae13-1a4b6e4f0ed0": {
           "type": "rx_brand_info",
           "settings": {
-            "rx_brand_image": "shopify:\/\/shop_images\/drRuthLogo.png",
-            "rx_brand_description": "<p>\"I am not just a holistic veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p>",
+            "rx_brand_image": "shopify://shop_images/drRuthLogo.png",
+            "rx_brand_description": "<p>\"I am not just a holistic veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".</p>",
             "rx_store_email": "drruthroberts@drruthroberts.com",
             "rx_store_phone": "+1 213 394 2923",
             "rx_brand_info_show_social": true
@@ -58,10 +67,10 @@
         "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
-        "fb_url": "https:\/\/www.facebook.com\/TheOriginalHolisticPetHealthCoach",
-        "ig_url": "https:\/\/instagram.com\/dr.ruthroberts?igshid=MzRlODBiNWFlZA==",
-        "linkedin_url": "https:\/\/www.linkedin.com\/in\/dr-ruth-roberts-72473970",
-        "youtube_url": "https:\/\/youtube.com\/@DrRuthRoberts?si=XnWsWRgripq_rKhe",
+        "fb_url": "https://www.facebook.com/TheOriginalHolisticPetHealthCoach",
+        "ig_url": "https://instagram.com/dr.ruthroberts?igshid=MzRlODBiNWFlZA==",
+        "linkedin_url": "https://www.linkedin.com/in/dr-ruth-roberts-72473970",
+        "youtube_url": "https://youtube.com/@DrRuthRoberts?si=XnWsWRgripq_rKhe",
         "margin_top": 0,
         "padding_top": 100,
         "padding_bottom": 36
@@ -82,7 +91,7 @@
           "type": "text",
           "settings": {
             "heading": "ABOUT DR. RUTH",
-            "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".<\/p>"
+            "subtext": "<p>\"I am not just a veterinarian or a Holistic Pet Health Coach. More than anything, I'm your pet's ally\".</p>"
           }
         },
         "c79de260-1d0a-478c-9f24-40bf9c7f5c47": {
@@ -103,7 +112,7 @@
           "type": "text",
           "settings": {
             "heading": "Disclaimer",
-            "subtext": "<p>These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent disease.<\/p><p>“Dr. Ruth Roberts is authorized to sell Standard Process Products, but is not a partner, franchisor, joint venturer, agent, or employee of Standard Process Inc.”<\/p>"
+            "subtext": "<p>These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent disease.</p><p>“Dr. Ruth Roberts is authorized to sell Standard Process Products, but is not a partner, franchisor, joint venturer, agent, or employee of Standard Process Inc.”</p>"
           }
         }
       },

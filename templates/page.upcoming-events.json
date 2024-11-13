@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "custom_slider_banner_hEcVXF": {
@@ -6,7 +15,7 @@
         "slider_banner_P3NTEU": {
           "type": "slider-banner",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HPHC_BANNER_3.png",
+            "image": "shopify://shop_images/Inflammation_Immunity_and_Leaky_Gut_Deciding_when_and_How_to_Treat_1.png",
             "image_overlay_opacity": 0,
             "image_height": "large",
             "desktop_content_position": "middle-left",
@@ -20,16 +29,15 @@
             "stack_images_on_mobile": true,
             "show_text_below": true,
             "heading": "SAVE YOUR SEAT!",
-            "text": "Join a series of enlightening and impactful events aim to enhance your knowledge and skills in holistic pet care",
-            "button_label_1": "SIGN UP HERE",
-            "button_link_1": "https:\/\/www.holisticpethealthcoach.com\/pet-health-training"
+            "text": "Join us Nov 7 at 12 PM EST for expert tips from Dr. Ruth Roberts & Marketa Jefferson on safe holiday treats and foods to avoid for your pets!",
+            "button_label_1": "JOIN US HERE",
+            "button_link_1": "https://courses.drruthroberts.com/c/ask-dr-ruth-monthly-q-a/holiday-foods-for-pets-expert-advice-on-safe-treats-and-deadly-dangers"
           }
         },
         "slider_banner_896cCb": {
           "type": "slider-banner",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Sept_19_HPHC_live_with_Dr._Kathleen_Cooney_24ebea93-d8d8-4be6-b5b5-09f4ac6b28fc.png",
+            "image": "shopify://shop_images/Spooky_Secrets_to_Natural_Pet_Allergy_Relief_2.png",
             "image_overlay_opacity": 0,
             "image_height": "large",
             "desktop_content_position": "middle-left",
@@ -43,9 +51,9 @@
             "stack_images_on_mobile": true,
             "show_text_below": true,
             "heading": "SAVE YOUR SEAT!",
-            "text": "Join a series of enlightening and impactful events aim to enhance your knowledge and skills in holistic pet care",
+            "text": "Trick or treat? This Halloween season, we’re not playing tricks—just sharing treats that can help your pets beat those pesky allergies once and for all!",
             "button_label_1": "Stay Updated",
-            "button_link_1": "#"
+            "button_link_1": "https://www.facebook.com/events/1073285250940472/?rdid=r6G2vanzPnFd4reL&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FoDGv2dQtwx9xWUmV%2F"
           }
         }
       },
@@ -53,8 +61,7 @@
         "slider_banner_P3NTEU",
         "slider_banner_896cCb"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "rx_rich_text_yXXLjK": {
       "type": "rx-rich-text",
@@ -62,13 +69,13 @@
         "heading_inbmWH": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Upcoming Events<\/p>"
+            "heading": "<p>Upcoming Events</p>"
           }
         },
         "text_jQj9UA": {
           "type": "text",
           "settings": {
-            "text": "<p>Join us for a series of weekly events with Dr. Ruth Roberts, alongside holistic pet health coaches and other experts in the field.  Don’t miss the chance to learn, grow, and connect with like-minded individuals dedicated to advancing the health and wellness of pets. <\/p>"
+            "text": "<p>Join us for a series of weekly events with Dr. Ruth Roberts, alongside holistic pet health coaches and other experts in the field.  Don’t miss the chance to learn, grow, and connect with like-minded individuals dedicated to advancing the health and wellness of pets. </p>"
           }
         }
       },
@@ -93,22 +100,22 @@
     "custom_event_page_VdU6GR": {
       "type": "custom-event-page",
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/Sept_19_HPHC_live_with_Dr._Kathleen_Cooney_24ebea93-d8d8-4be6-b5b5-09f4ac6b28fc.png",
-        "calendar_img": "shopify:\/\/shop_images\/date_3.png",
-        "week_text": "Thurday",
+        "event_img": "shopify://shop_images/Inflammation_Immunity_and_Leaky_Gut_Deciding_when_and_How_to_Treat_2.png",
+        "calendar_img": "shopify://shop_images/date_3.png",
+        "week_text": "Thursday",
         "week": "4",
-        "month_text": "September",
-        "month": "8",
-        "date": 12,
+        "month_text": "November",
+        "month": "10",
+        "date": 7,
         "year": 2024,
-        "time_img": "shopify:\/\/shop_images\/time_3.png",
+        "time_img": "shopify://shop_images/time_3.png",
         "start_hour": 12,
-        "end_hour": 1,
+        "end_hour": 2,
         "time_zone": "EST",
-        "title": "A Peaceful Goodbye: Dr. Kathleen Cooney on Pet Hospice and Euthanasia",
-        "description": "<p>Join us with Dr. Kathleen Cooney, an expert in pet hospice and euthanasia. She’ll share her knowledge on how to provide comfort and care for your pets during their final days, offering practical advice to help you make this difficult time as peaceful as possible.<\/p><p>Tune in on Facebook Live—don’t miss it!<\/p>",
-        "button_link_1": "https:\/\/www.facebook.com\/share\/2jhK9v7RYuj2Dmoj\/",
-        "button_label_1": "Join Us here",
+        "title": "Holiday Foods for Pets: Expert Advice on Safe Treats and Deadly Dangers",
+        "description": "<p>Is your pet eyeing the holiday feast? Before you let them sneak a bite, let’s talk about what’s safe and what’s not for our furry friends this  holiday season! In this upcoming live, we’re joined by Marketa, a Certified Holistic Pet Health Coach (HPHC), Certified Groomer, Pet Massage Therapist, and CPR Instructor, who’s here to break down the best foods to give your pets during the holidays—and what to avoid at all <br/>costs!</p>",
+        "button_link_1": "https://courses.drruthroberts.com/c/ask-dr-ruth-monthly-q-a/holiday-foods-for-pets-expert-advice-on-safe-treats-and-deadly-dangers",
+        "button_label_1": "JOIN US HERE",
         "button_link_2": "#",
         "button_label_2": ""
       }
@@ -116,40 +123,39 @@
     "custom_canlendar_event_9wRF4t": {
       "type": "custom-canlendar-event",
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/Sept_19_HPHC_live_with_Dr._Kathleen_Cooney.png",
-        "week_text": "Thurday",
+        "event_img": "shopify://shop_images/Spooky_Secrets_to_Natural_Pet_Allergy_Relief.png",
+        "week_text": "Thursday",
         "week": "4",
-        "month_text": "September",
+        "month_text": "November",
         "month": "0",
-        "date": 19,
+        "date": 7,
         "year": 2024,
-        "start_hour": 12,
-        "end_hour": 1,
-        "time_zone": "ET",
-        "title": "A Peaceful Goodbye: Dr. Kathleen Cooney on Pet Hospice and Euthanasia",
-        "description": "<p>Join us with Dr. Kathleen Cooney, an expert in pet hospice and euthanasia. She’ll share her knowledge on how to provide comfort and care for your pets during their final days, offering practical advice to help you make this difficult time as peaceful as possible.<\/p><p>Tune in on Facebook Live—don’t miss it!<\/p>",
-        "button_link_1": "#",
-        "button_label_1": "REGISTER NOW"
+        "start_hour": 1,
+        "end_hour": 2,
+        "time_zone": "EST",
+        "title": "The Allergy Busters’ Spooky Secrets to Natural Pet Allergy Relief",
+        "description": "<p>Join Dr. Ruth Roberts as she welcomes the amazing Dr. Jeff Grognet, DVM, for a thrilling dive into holistic pet allergy relief. Together, they’ll uncover spooky secrets that transform your furry friend's health—naturally. Whether it’s seasonal allergies or year-round sniffles, the Allergy Busters have the answers!</p>",
+        "button_link_1": "https://www.facebook.com/share/oDGv2dQtwx9xWUmV/",
+        "button_label_1": "Join Us Here"
       }
     },
     "custom_canlendar_event_LbdpX6": {
       "type": "custom-canlendar-event",
-      "disabled": true,
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/AdobeStock_132183881.jpg",
-        "week_text": "Monday",
-        "week": "0",
-        "month_text": "March",
-        "month": "2",
-        "date": 20,
+        "event_img": "shopify://shop_images/event_page_website_1.png",
+        "week_text": "Wednesday",
+        "week": "3",
+        "month_text": "November",
+        "month": "10",
+        "date": 13,
         "year": 2024,
         "start_hour": 10,
-        "end_hour": 16,
+        "end_hour": 2,
         "time_zone": "ET",
-        "title": "Lorem Ipsum Dolor Sit AmetConsectetur",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum. Integer et nunc in lectus hendrerit blandit vel et ipsum. Nullam fermentum, quam a cursus consectetur, metus libero varius erat, eget varius lectus nisl non nunc. Sed sodales convallis tincidunt.<\/p>",
-        "button_link_1": "#",
-        "button_label_1": "REGISTER NOW"
+        "title": "Holistic Pet Health Coach Live Workshop",
+        "description": "",
+        "button_link_1": "",
+        "button_label_1": "TBA"
       }
     },
     "rx_rich_text_c8yeCp": {
@@ -158,13 +164,13 @@
         "heading_hPyB7P": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Featured Event<\/p>"
+            "heading": "<p>Featured Event</p>"
           }
         },
         "text_BkiFr6": {
           "type": "text",
           "settings": {
-            "text": "<p>From conferences to panels, join Dr. Ruth Roberts at insightful events where you can gain valuable insights and connect with others<\/p>"
+            "text": "<p>From conferences to panels, join Dr. Ruth Roberts at insightful events where you can gain valuable insights and connect with others</p>"
           }
         }
       },
@@ -238,7 +244,7 @@
         "buttons_JpK7Ag"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-mike-jones-8805276_1.jpg",
+        "image": "shopify://shop_images/pexels-mike-jones-8805276_1.jpg",
         "content_width": 75,
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -255,21 +261,21 @@
       "type": "custom-sign-up",
       "disabled": true,
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/AdobeStock_132183881.jpg",
-        "calendar_img": "shopify:\/\/shop_images\/date_3.png",
+        "event_img": "shopify://shop_images/AdobeStock_132183881.jpg",
+        "calendar_img": "shopify://shop_images/date_3.png",
         "week_text": "Monday",
         "week": "0",
         "month_text": "January",
         "month": "0",
         "date": 27,
         "year": 2024,
-        "time_img": "shopify:\/\/shop_images\/time_3.png",
+        "time_img": "shopify://shop_images/time_3.png",
         "start_hour": 10,
         "end_hour": 16,
         "time_zone": "ET",
         "title": "Lorem Ipsum Dolor Sit Amet",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum. Integer et nunc in lectus hendrerit blandit vel et <\/p>",
-        "location_img": "shopify:\/\/shop_images\/location_1.png",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum. Integer et nunc in lectus hendrerit blandit vel et </p>",
+        "location_img": "shopify://shop_images/location_1.png",
         "location_text": "The Alexandria at Torrey Pines 10996",
         "button_link_1": "#",
         "button_label_1": "sign up",
@@ -281,21 +287,21 @@
       "type": "custom-sign-up",
       "disabled": true,
       "settings": {
-        "event_img": "shopify:\/\/shop_images\/AdobeStock_132183881.jpg",
-        "calendar_img": "shopify:\/\/shop_images\/date_3.png",
+        "event_img": "shopify://shop_images/AdobeStock_132183881.jpg",
+        "calendar_img": "shopify://shop_images/date_3.png",
         "week_text": "Monday",
         "week": "0",
         "month_text": "January",
         "month": "0",
         "date": 27,
         "year": 2024,
-        "time_img": "shopify:\/\/shop_images\/time_3.png",
+        "time_img": "shopify://shop_images/time_3.png",
         "start_hour": 10,
         "end_hour": 16,
         "time_zone": "ET",
         "title": "Lorem Ipsum Dolor Sit Amet",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum. Integer et nunc in lectus hendrerit blandit vel et <\/p>",
-        "location_img": "shopify:\/\/shop_images\/location_1.png",
+        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum. Integer et nunc in lectus hendrerit blandit vel et </p>",
+        "location_img": "shopify://shop_images/location_1.png",
         "location_text": "The Alexandria at Torrey Pines 10996",
         "button_link_1": "#",
         "button_label_1": "sign up",
@@ -311,7 +317,8 @@
       "settings": {
         "heading": "Watch the Previous Event You Missed",
         "heading_size": "h2",
-        "blog": "events",
+        "blog": "video",
+        "background": "",
         "post_limit": 3,
         "columns_desktop": 3,
         "show_image": true,
@@ -319,7 +326,9 @@
         "show_author": false,
         "show_view_all": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "blogs_url": "",
+        "blogs_btn": "Read More blogs"
       }
     },
     "rx_posts_QFQceW": {
@@ -329,10 +338,10 @@
           "type": "title",
           "settings": {
             "title": "LOREM IPSUM DOLOR SIT AMET",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum.  <\/p>",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum.  </p>",
             "reviewer_name": "November 13, 2023",
-            "post_link": "shopify:\/\/blogs\/events\/hphc-live-with-amy-renz-metabolic-syndrome-in-dogs",
-            "post_image": "shopify:\/\/shop_images\/pexels-any-lane-5946081_1.jpg",
+            "post_link": "shopify://blogs/events/hphc-live-with-amy-renz-metabolic-syndrome-in-dogs",
+            "post_image": "shopify://shop_images/pexels-any-lane-5946081_1.jpg",
             "overlap": false
           }
         },
@@ -340,10 +349,10 @@
           "type": "title",
           "settings": {
             "title": "LOREM IPSUM DOLOR SIT AMET",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum.  <\/p>",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum.  </p>",
             "reviewer_name": "November 13, 2023",
             "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/urban_wildlife.png",
+            "post_image": "shopify://shop_images/urban_wildlife.png",
             "overlap": false
           }
         },
@@ -351,10 +360,10 @@
           "type": "title",
           "settings": {
             "title": "LOREM IPSUM DOLOR SIT AMET",
-            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum.  <\/p>",
+            "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nec libero tincidunt fermentum.  </p>",
             "reviewer_name": "November 13, 2023",
             "post_link": "#",
-            "post_image": "shopify:\/\/shop_images\/pexels-jaclou-dl-16749455_1.jpg",
+            "post_image": "shopify://shop_images/pexels-jaclou-dl-16749455_1.jpg",
             "overlap": false
           }
         }
@@ -382,7 +391,7 @@
         "empty_star_color": "",
         "blogs_title": "Watch the Previous Event You Missed",
         "blogs_description": "",
-        "blogs_url": "shopify:\/\/blogs\/events",
+        "blogs_url": "shopify://blogs/events",
         "blogs_btn": "MORE EVENTS"
       }
     },
@@ -399,13 +408,12 @@
         "paragraph_8mVt3X": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Don't Miss a Beat! Be the first to know about our latest events and exclusive offers. Our dynamic calendar is packed with exciting experiences just waiting for you.<\/p>"
+            "text": "<p>Don't Miss a Beat! Be the first to know about our latest events and exclusive offers. Our dynamic calendar is packed with exciting experiences just waiting for you.</p>"
           }
         },
         "email_form_VWNwWj": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -414,7 +422,7 @@
         "email_form_VWNwWj"
       ],
       "settings": {
-        "bg_img": "shopify:\/\/shop_images\/pexels-samson-katt-5255645.jpg",
+        "bg_img": "shopify://shop_images/pexels-samson-katt-5255645.jpg",
         "bg_color": "#f5f8f1",
         "full_width": true,
         "padding_top": 40,

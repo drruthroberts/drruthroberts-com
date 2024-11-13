@@ -1,0 +1,348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_Dt3Hpq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_639dhx": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.protocol_name_heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_y8wPdq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.protocol_banner_text | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kcfx4U": {
+          "type": "button",
+          "settings": {
+            "button_label": "{{ collection.metafields.custom.download_protocol_label.value }}",
+            "button_link": "{{ collection.metafields.custom.download_protocol_button.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_639dhx",
+        "text_y8wPdq",
+        "button_kcfx4U"
+      ],
+      "custom_css": [
+        "h2 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "{{ collection.metafields.custom.image_banner.value }}",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "h1 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "accent-1"
+      }
+    },
+    "rx_img_with_text_cbVCWh": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "heading_8aVwNJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Original CrockPet Diet Collection",
+            "font_family": "font_blt"
+          }
+        },
+        "text_mx7YGm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you looking for a healthy homemade recipe to help your fur baby improve their current condition?<br/><br/>Have you been switching back and forth from raw feeding - dry kibbles but have not seen any improvement?<br/><br/>The Original CrockPet Diet is a home-cooked diet for your pet, made in your kitchen with only real foods. Dr. Ruth's patented recipe is fully balanced for pets in all life stages and can improve the health of puppies and kittens, adult cats and dogs, and senior pets.<br/><br/>Here's everything you need to get started making The Original CrockPet Diet or replenish your cupboard</p>"
+          }
+        },
+        "button_4MTUjz": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET THE RECIPE & COURSE",
+            "button_link": "https://drruthroberts.com/products/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8aVwNJ",
+        "text_mx7YGm",
+        "button_4MTUjz"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/crockpet_collection_1.png",
+        "img_url": "",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_title_alignment": "center",
+        "desktop_content_alignment": "center",
+        "desktop_button_alignment": "center",
+        "content_layout": "overlap",
+        "grid_type": "type2",
+        "imgText-bg-color": "#f5f8f1",
+        "show_arrow_mobile": "no",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "content_padding_top": 50,
+        "content_padding_bottom": 50
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}"
+      ],
+      "settings": {
+        "description_enabled": false,
+        "products_per_page": 8,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "show_special_offer": false,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "rating": 5
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "pet-products"
+          }
+        }
+      },
+      "block_order": [
+        "product",
+        "collection"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Discover more of our favorites",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 64
+      }
+    },
+    "collapsible_content_hxWG9U": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_VaWcqr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "",
+            "icon": "none",
+            "row_content": "<p>{{ collection.metafields.custom.collapsible_pretext | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ha7kDL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.collapsible_row_1_title.value }}",
+            "icon": "paw_print",
+            "row_content": "{{ collection.metafields.custom.common_cause | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_RtFPBT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.collapsible_row_common_symptoms_title.value }}",
+            "icon": "paw_print",
+            "row_content": "{{ collection.metafields.custom.common_symptoms | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_row_P9fWHb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.heading_relief.value }}",
+            "icon": "paw_print",
+            "row_content": "{{ collection.metafields.custom.relief | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_VaWcqr",
+        "collapsible_row_ha7kDL",
+        "collapsible_row_RtFPBT",
+        "collapsible_row_P9fWHb"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 30;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; font-size: 20px;}",
+        "p,li {font-family: \"BLT-heirloom\", sans-serif; text-align: justify; text-color: black; font-size: 15px;}"
+      ],
+      "settings": {
+        "caption": "LET'S LEARN MORE ABOUT",
+        "heading": "{{ collection.metafields.custom.collapsible_heading.value }}",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rx_rich_text_34a4nq": {
+      "type": "rx-rich-text",
+      "blocks": {
+        "heading_Di6fgL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk to Us</p>"
+          }
+        },
+        "text_6ExWhq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you need help with starting up the course or getting access to the recipes and videos, please don't hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com.</p>"
+          }
+        },
+        "button_jH9GUi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "https://drruthroberts.com/pages/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Di6fgL",
+        "text_6ExWhq",
+        "button_jH9GUi"
+      ],
+      "custom_css": [
+        ".rx_rich-text__heading {color: #184b44;}",
+        ".rx_rich-text__caption {font-size: 1em; font-weight: bold; font-family: Josefin Sans; padding-top: 0%;}",
+        "p {font-size: 0.7em; padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "caption_alignment": "center",
+        "section_bg_color": "#ffffff",
+        "image_width": "100%",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "custom_css": [
+        "input {box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));}"
+      ],
+      "settings": {
+        "bg_color": "",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "image_with_text_Dt3Hpq",
+    "main-collection-banner",
+    "rx_img_with_text_cbVCWh",
+    "main-collection-product-grid",
+    "collage",
+    "collapsible_content_hxWG9U",
+    "rx_rich_text_34a4nq",
+    "newsletter"
+  ]
+}

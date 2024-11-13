@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -17,8 +25,7 @@
         },
         "751d134f-73fe-4141-86b2-938f1aeacb83": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "87b6800d-0639-4f48-b6fd-18848b047f30": {
           "type": "buy_buttons",
@@ -34,7 +41,7 @@
           }
         },
         "0dd44047-53bd-4401-b151-a60aa1b52a8d": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
           "disabled": true,
           "settings": {
             "product": "{{product}}"
@@ -47,13 +54,12 @@
             "ingredients_content": "{{ product.metafields.custom.revamp_ingredients | metafield_tag }}",
             "instructions_content": "{{ product.metafields.custom.revamp_instruction | metafield_tag }}",
             "instructions_content_image": "{{ product.metafields.custom.revamp_instruction_image.value }}",
-            "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
+            "shipping_content": "<p>Standard Shipping 3-5 business days</p>"
           }
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "c3949539-dd47-4db5-86e8-4b2143f24749": {
           "type": "variant_picker",
@@ -66,7 +72,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Custom CTA Button<\/title>\n    <style>\n        \/* Center align the container vertically and at the top *\/\n        .button-container {\n            display: flex;\n            justify-content: center;\n            align-items: flex-start; \/* Align to the top *\/\n            min-height: 25vh; \/* Minimum full viewport height *\/\n            margin: 0;\n            padding: 0; \/* Remove padding *\/\n        }\n        \/* Style the CTA button *\/\n        #ctaButton {\n            font-family: 'BLT-Heirloom', sans-serif;\n            font-weight: lighter;\n            font-size: 30pt;\n            color: white; \/* Text color is now white *\/\n            background-color: #184B44;\n            border: none;\n            padding: 15px 30px; \/* Padding for the button *\/\n            border-radius: 10px; \/* Rounded corners *\/\n            cursor: pointer;\n            margin-bottom: 0; \/* Remove margin-bottom *\/\n        }\n    <\/style>\n<\/head>\n<body>\n    <!-- Button Container -->\n    <div class=\"button-container\">\n        <!-- CTA Button -->\n        <button id=\"ctaButton\" onclick=\"changeText()\">BOOK A CONSULT<\/button>\n    <\/div>\n    <!-- JavaScript -->\n    <script>\n        function changeText() {\n            \/\/ Retrieve the metafield value for the button redirect\n            var metafieldValue = \"{{ product.metafields.Consult-button.redirect }}\"; \/\/ Use Shopify Liquid syntax to retrieve the metafield value\n            \/\/ Check if the user's device supports phone calls\n            if ('contacts' in navigator) {\n                \/\/ Initiate a phone call\n                navigator.contacts.select(['phoneNumbers'], function(contacts) {\n                    var phoneNumbers = contacts[0].phoneNumbers;\n                    if (phoneNumbers.length > 0) {\n                        var phoneNumber = phoneNumbers[0].value;\n                        window.location.href = 'tel:' + phoneNumber;\n                        \/\/ Change the button text to display the phone number\n                        document.getElementById(\"ctaButton\").textContent = phoneNumber;\n                    } else {\n                        alert(\"Phone number not available.\");\n                    }\n                }, function(error) {\n                    alert(\"Error: \" + error);\n                });\n            } else {\n                \/\/ Redirect to the URL specified in the metafield\n                window.location.href = metafieldValue;\n                \/\/ Change the button text to display the URL from the metafield\n                document.getElementById(\"ctaButton\").textContent = metafieldValue;\n            }\n        }\n    <\/script>\n<\/body>\n<\/html>"
+            "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Custom CTA Button</title>\n    <style>\n        /* Center align the container vertically and at the top */\n        .button-container {\n            display: flex;\n            justify-content: center;\n            align-items: flex-start; /* Align to the top */\n            min-height: 25vh; /* Minimum full viewport height */\n            margin: 0;\n            padding: 0; /* Remove padding */\n        }\n        /* Style the CTA button */\n        #ctaButton {\n            font-family: 'BLT-Heirloom', sans-serif;\n            font-weight: lighter;\n            font-size: 30pt;\n            color: white; /* Text color is now white */\n            background-color: #184B44;\n            border: none;\n            padding: 15px 30px; /* Padding for the button */\n            border-radius: 10px; /* Rounded corners */\n            cursor: pointer;\n            margin-bottom: 0; /* Remove margin-bottom */\n        }\n    </style>\n</head>\n<body>\n    <!-- Button Container -->\n    <div class=\"button-container\">\n        <!-- CTA Button -->\n        <button id=\"ctaButton\" onclick=\"changeText()\">BOOK A CONSULT</button>\n    </div>\n    <!-- JavaScript -->\n    <script>\n        function changeText() {\n            // Retrieve the metafield value for the button redirect\n            var metafieldValue = \"{{ product.metafields.Consult-button.redirect }}\"; // Use Shopify Liquid syntax to retrieve the metafield value\n            // Check if the user's device supports phone calls\n            if ('contacts' in navigator) {\n                // Initiate a phone call\n                navigator.contacts.select(['phoneNumbers'], function(contacts) {\n                    var phoneNumbers = contacts[0].phoneNumbers;\n                    if (phoneNumbers.length > 0) {\n                        var phoneNumber = phoneNumbers[0].value;\n                        window.location.href = 'tel:' + phoneNumber;\n                        // Change the button text to display the phone number\n                        document.getElementById(\"ctaButton\").textContent = phoneNumber;\n                    } else {\n                        alert(\"Phone number not available.\");\n                    }\n                }, function(error) {\n                    alert(\"Error: \" + error);\n                });\n            } else {\n                // Redirect to the URL specified in the metafield\n                window.location.href = metafieldValue;\n                // Change the button text to display the URL from the metafield\n                document.getElementById(\"ctaButton\").textContent = metafieldValue;\n            }\n        }\n    </script>\n</body>\n</html>"
           }
         },
         "c95c2990-6b4e-4a02-b770-9ceae8953b52": {
@@ -91,9 +97,7 @@
         "4e4ca8e0-c024-40a2-947e-f6be194e2e5b",
         "c95c2990-6b4e-4a02-b770-9ceae8953b52"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky_info": false,
         "media_size": "small",
@@ -145,8 +149,7 @@
         },
         "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-2": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-3": {
           "type": "variant_picker",
@@ -156,8 +159,7 @@
         },
         "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-4": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--14942166286401__08272d4d-303d-440d-b37b-7a83170b6abe-168967400833674fc2-5": {
           "type": "buy_buttons",
@@ -230,7 +232,7 @@
           "type": "column",
           "settings": {
             "title": "Coach Information",
-            "text": "<p>{{ product.metafields.my_fields._1_badge_text_1.value }}<\/p>",
+            "text": "<p>{{ product.metafields.my_fields._1_badge_text_1.value }}</p>",
             "link_label": "",
             "link": ""
           }
@@ -239,7 +241,7 @@
           "type": "column",
           "settings": {
             "title": "Contact",
-            "text": "<p>{{ product.metafields.my_fields.product_direction_for_use | metafield_tag }}<\/p>",
+            "text": "<p>{{ product.metafields.my_fields.product_direction_for_use | metafield_tag }}</p>",
             "link_label": "",
             "link": ""
           }
@@ -249,7 +251,7 @@
           "disabled": true,
           "settings": {
             "title": "Tab 3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -259,7 +261,7 @@
           "disabled": true,
           "settings": {
             "title": "Tab 4",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -269,7 +271,7 @@
           "disabled": true,
           "settings": {
             "title": "Tab 5",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -279,7 +281,7 @@
           "disabled": true,
           "settings": {
             "title": "Tab 6",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -328,7 +330,7 @@
         "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>",
+            "text": "<p>Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service </p>",
             "text_style": "body"
           }
         },
@@ -336,7 +338,7 @@
           "type": "button",
           "settings": {
             "button_label": "VIEW MORE COACHES",
-            "button_link": "shopify:\/\/collections\/coaches"
+            "button_link": "shopify://collections/coaches"
           }
         }
       },
@@ -346,7 +348,7 @@
         "template--14958249115713__6c4498fe-ac4d-48ca-b9bd-fb242626d0cd-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/brown-dog-looks-up-to-small-kitten-in-a-persons-hands.jpg",
+        "image": "shopify://shop_images/brown-dog-looks-up-to-small-kitten-in-a-persons-hands.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -365,14 +367,14 @@
         "template--14942166286401__abe4a906-a16b-4d26-8f07-691acdb8382b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Certified Coaches<\/p>",
+            "heading": "<p>Our Certified Coaches</p>",
             "heading_size": "h1"
           }
         },
         "template--14942166286401__abe4a906-a16b-4d26-8f07-691acdb8382b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. <\/p>"
+            "text": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. </p>"
           }
         }
       },
@@ -402,7 +404,7 @@
           "type": "column",
           "settings": {
             "title": "Our Certified Coaches",
-            "text": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. <\/p>",
+            "text": "<p>Many Certified Holistic Pet Health Coaches work as independent contractors or run their own businesses, allowing them to set their own schedules and work from home. This flexibility can be particularly appealing for individuals who are looking for a career that offers work-life balance. </p>",
             "link_label": "",
             "link": "#"
           }
@@ -411,7 +413,7 @@
           "type": "column",
           "settings": {
             "title": "Why us?",
-            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. <\/p>",
+            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. </p>",
             "link_label": "",
             "link": ""
           }
@@ -450,14 +452,14 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>Why us?<\/p>",
+            "heading": "<p>Why us?</p>",
             "heading_size": "h1"
           }
         },
         "template--14942166286401__1b807219-da09-4a27-a62e-92485e0d5783-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. <\/p>"
+            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. </p>"
           }
         }
       },
@@ -482,9 +484,7 @@
     "633debae-a1a7-4670-a389-c7461a3b1f94": {
       "type": "featured-collection",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -516,14 +516,14 @@
         "template--14942166286401__ee4bb36e-3253-45a5-a415-1cb58bcfe308-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>What real pet parents are saying<\/p>",
+            "heading": "<p>What real pet parents are saying</p>",
             "heading_size": "h1"
           }
         },
         "template--14942166286401__ee4bb36e-3253-45a5-a415-1cb58bcfe308-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>"
+            "text": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service </p>"
           }
         }
       },
@@ -551,7 +551,7 @@
         "c4cec768-9b4a-4271-9bc8-eaf53a2d5843": {
           "type": "block",
           "settings": {
-            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "mainimage": "shopify://shop_images/Ellipse_7.png",
             "rating": 5,
             "confimed": "Mind Blowing!",
             "confimedp": "Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies",
@@ -561,7 +561,7 @@
         "a6095a36-6126-423b-89b9-afd257984192": {
           "type": "block",
           "settings": {
-            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "mainimage": "shopify://shop_images/Ellipse_7.png",
             "rating": 5,
             "confimed": "Mind Blowing!",
             "confimedp": "Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies",
@@ -571,7 +571,7 @@
         "5c564c20-c62b-413d-8886-51720bb87f40": {
           "type": "block",
           "settings": {
-            "mainimage": "shopify:\/\/shop_images\/Ellipse_7.png",
+            "mainimage": "shopify://shop_images/Ellipse_7.png",
             "rating": 5,
             "confimed": "Mind Blowing!",
             "confimedp": "Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies",
@@ -603,7 +603,7 @@
           "type": "column",
           "settings": {
             "title": "Expertise",
-            "text": "<p>Our pet consultants have undergone rigorous training in holistic pet care <br\/>by Dr. Ruth Roberts, equipping them with in-depth knowledge and practical skills <br\/>to address a wide range of health concerns for dogs and cats.<\/p>",
+            "text": "<p>Our pet consultants have undergone rigorous training in holistic pet care <br/>by Dr. Ruth Roberts, equipping them with in-depth knowledge and practical skills <br/>to address a wide range of health concerns for dogs and cats.</p>",
             "link_label": "",
             "link": ""
           }
@@ -612,7 +612,7 @@
           "type": "column",
           "settings": {
             "title": "Holistic Approach",
-            "text": "<p>We believe in treating pets as whole beings, considering their physical, emotional, and nutritional needs. <br\/>Our coaches specialize in holistic approaches that emphasize natural remedies and balanced lifestyles.<\/p>",
+            "text": "<p>We believe in treating pets as whole beings, considering their physical, emotional, and nutritional needs. <br/>Our coaches specialize in holistic approaches that emphasize natural remedies and balanced lifestyles.</p>",
             "link_label": "",
             "link": ""
           }
@@ -621,7 +621,7 @@
           "type": "column",
           "settings": {
             "title": "Personalized Care",
-            "text": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.<\/p>",
+            "text": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.</p>",
             "link_label": "",
             "link": ""
           }
@@ -630,7 +630,7 @@
           "type": "column",
           "settings": {
             "title": "Comprehensive Services",
-            "text": "<p>Our pet consultants can assist you with various aspects of pet health, including nutrition advice, behavior modification, exercise plans, and preventive care strategies. Whatever your pet's needs may be, we're here to help.<\/p>",
+            "text": "<p>Our pet consultants can assist you with various aspects of pet health, including nutrition advice, behavior modification, exercise plans, and preventive care strategies. Whatever your pet's needs may be, we're here to help.</p>",
             "link_label": "",
             "link": ""
           }
@@ -639,7 +639,7 @@
           "type": "column",
           "settings": {
             "title": "Practical Recommendations",
-            "text": "<p>You'll receive clear and actionable recommendations to address your pet's health concerns, enhance their behavior, <br\/>or improve their overall quality of life.<\/p>",
+            "text": "<p>You'll receive clear and actionable recommendations to address your pet's health concerns, enhance their behavior, <br/>or improve their overall quality of life.</p>",
             "link_label": "",
             "link": ""
           }

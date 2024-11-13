@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,15 +33,14 @@
         },
         "b6e80daa-9c4b-49fc-a59c-cee54ab337aa": {
           "type": "content",
-          "settings": {
-          }
+          "settings": {}
         },
         "reference_url_MQiEdR": {
           "type": "reference_url",
           "disabled": true,
           "settings": {
             "reference_page_title": "read our product reviews",
-            "reference_page_url": "shopify:\/\/blogs\/product-review"
+            "reference_page_url": "shopify://blogs/product-review"
           }
         },
         "reference_url_D7KcVy": {
@@ -48,7 +56,7 @@
           "disabled": true,
           "settings": {
             "reference_page_title": "listen to our podcast",
-            "reference_page_url": "shopify:\/\/blogs\/podcast"
+            "reference_page_url": "shopify://blogs/podcast"
           }
         },
         "reference_url_rUNkxi": {
@@ -56,7 +64,7 @@
           "disabled": true,
           "settings": {
             "reference_page_title": "",
-            "reference_page_url": "shopify:\/\/pages\/all-blogs"
+            "reference_page_url": "shopify://pages/all-blogs"
           }
         }
       },
@@ -89,19 +97,19 @@
         "discdiffcont2": "",
         "articlehead": "",
         "custbtnn": "",
-        "custbtnurl": "https:\/\/drruthroberts.com\/pages\/holistic-pet-health-coaching-program",
+        "custbtnurl": "https://drruthroberts.com/pages/holistic-pet-health-coaching-program",
         "right_image_text": "Become A Holistic Pet Health Coach",
-        "imagesingle": "shopify:\/\/shop_images\/13-800x534.jpg",
-        "blog_single_url": "https:\/\/drruthroberts.com\/pages\/holistic-pet-health-coaching-program",
-        "product_single_url": "shopify:\/\/collections\/pet-products",
+        "imagesingle": "shopify://shop_images/13-800x534.jpg",
+        "blog_single_url": "https://drruthroberts.com/pages/holistic-pet-health-coaching-program",
+        "product_single_url": "shopify://collections/pet-products",
         "morebl_first": "Shop",
         "cls_main": "customers-love",
         "morebl": "Recent Blogs",
         "blog": "pet-blog",
         "blog_title_": "Recommended  Blog",
         "email-signup": true,
-        "protocol_image": "shopify:\/\/shop_images\/Holistic-pet-care-protocols-768x432.png",
-        "protocol_url": "shopify:\/\/pages\/pet-care-protocols"
+        "protocol_image": "shopify://shop_images/Holistic-pet-care-protocols-768x432.png",
+        "protocol_url": "shopify://pages/pet-care-protocols"
       }
     },
     "collapsible_content_6JDbaT": {
@@ -112,7 +120,7 @@
           "settings": {
             "heading": "{{ article.metafields.custom.question1.value }}",
             "icon": "question_mark",
-            "row_content": "<p>{{ article.metafields.custom.answer1 | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ article.metafields.custom.answer1 | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -121,7 +129,7 @@
           "settings": {
             "heading": "{{ article.metafields.custom.queston2.value }}",
             "icon": "question_mark",
-            "row_content": "<p>{{ article.metafields.custom.answer2 | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ article.metafields.custom.answer2 | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -130,7 +138,7 @@
           "settings": {
             "heading": "{{ article.metafields.custom.question3.value }}",
             "icon": "question_mark",
-            "row_content": "<p>{{ article.metafields.custom.answer3 | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ article.metafields.custom.answer3 | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -139,7 +147,7 @@
           "settings": {
             "heading": "{{ article.metafields.custom.question4.value }}",
             "icon": "question_mark",
-            "row_content": "<p>{{ article.metafields.custom.answer4 | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ article.metafields.custom.answer4 | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -149,7 +157,7 @@
           "settings": {
             "heading": "{{ article.metafields.custom.question5.value }}",
             "icon": "question_mark",
-            "row_content": "<p>{{ article.metafields.custom.answer5 | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ article.metafields.custom.answer5 | metafield_tag }}</p>",
             "page": ""
           }
         }
@@ -195,7 +203,7 @@
         "end_hour": 16,
         "time_zone": "ET",
         "title": "Event Title",
-        "description": "<p>Description<\/p>",
+        "description": "<p>Description</p>",
         "button_link_1": "",
         "button_label_1": "Learn more",
         "button_link_2": "",

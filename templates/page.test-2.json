@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -10,6 +19,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -21,13 +31,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -35,8 +44,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -44,6 +53,7 @@
     },
     "1655751929e34d4e57": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16557519296bd204f0-0": {
           "type": "featured_collection",
@@ -97,7 +107,6 @@
         "a88c642f-cacb-492a-8b0a-31b1151a14c2",
         "cdc11d20-069d-4040-9c8a-ce7006d40ca3"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -117,12 +126,12 @@
         "template--14868281458753__1c2dec1c-c9f0-41b9-9653-c124ba8ab7b1-1673624319a7892943-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1447046_YNDMushroomGuide_01-without-web_100722-1583x2048.png",
+            "image": "shopify://shop_images/1447046_YNDMushroomGuide_01-without-web_100722-1583x2048.png",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/pages\/about-us",
+            "link": "shopify://pages/about-us",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,

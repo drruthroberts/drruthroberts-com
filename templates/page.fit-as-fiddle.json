@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,9 +21,9 @@
       "type": "apps",
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_q9yCzL": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-SYyw5r\"><\/div>"
+            "formId": "<div class=\"klaviyo-form-SYyw5r\"></div>"
           }
         }
       },
@@ -57,7 +66,7 @@
         ".content-container {opacity: 70%;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FIT_AS_FIDDLE_1.png",
+        "image": "shopify://shop_images/FIT_AS_FIDDLE_1.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -106,9 +115,9 @@
             "image": "{{ page.metafields.custom.image1.value }}",
             "caption": "",
             "heading": "{{ page.metafields.custom.blogg1 | metafield_tag }}",
-            "text": "<p>{{ page.metafields.custom.blog_excerpt | metafield_tag }}<\/p>",
+            "text": "<p>{{ page.metafields.custom.blog_excerpt | metafield_tag }}</p>",
             "button_label": "",
-            "button_link": "https:\/\/drruthroberts.com\/blogs\/pet-blog\/are-flea-control-products-safe-for-your-pet"
+            "button_link": "https://drruthroberts.com/blogs/pet-blog/are-flea-control-products-safe-for-your-pet"
           }
         },
         "row_ACDf3e": {
@@ -117,7 +126,7 @@
             "image": "{{ page.metafields.custom.image2.value }}",
             "caption": "",
             "heading": "{{ page.metafields.custom.blogg2 | metafield_tag }}",
-            "text": "<p>{{ page.metafields.custom.blog_excerpt_2 | metafield_tag }}<\/p>",
+            "text": "<p>{{ page.metafields.custom.blog_excerpt_2 | metafield_tag }}</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -128,7 +137,7 @@
             "image": "{{ page.metafields.custom.image3.value }}",
             "caption": "",
             "heading": "{{ page.metafields.custom.blog3 | metafield_tag }}",
-            "text": "<p>{{ page.metafields.custom.blog_excerpt3 | metafield_tag }}<\/p>",
+            "text": "<p>{{ page.metafields.custom.blog_excerpt3 | metafield_tag }}</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -167,7 +176,7 @@
         "text_kmdmDy": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ page.metafields.custom.blog_excerpt4 | metafield_tag }}<\/p>"
+            "text": "<p>{{ page.metafields.custom.blog_excerpt4 | metafield_tag }}</p>"
           }
         },
         "button_yenL8K": {
@@ -220,7 +229,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get Holistic Supplement Here",
-            "button_link_1": "https:\/\/drruthroberts.com\/collections\/keep-my-pet-healthy-protocol-1?_gl=1*13vkyrs*_ga_TL61H2B15E*MTcxOTE1MTg3MS4xLjEuMTcxOTE1MjkzOS41MS4wLjA."
+            "button_link_1": "https://drruthroberts.com/collections/keep-my-pet-healthy-protocol-1?_gl=1*13vkyrs*_ga_TL61H2B15E*MTcxOTE1MTg3MS4xLjEuMTcxOTE1MjkzOS41MS4wLjA."
           }
         }
       },

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,7 +20,7 @@
     "617afdcf-ba45-403a-93fa-a7ed99d1940b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<iframe src=\"https:\/\/drruthroberts.attn.tv\/p\/KTU\/landing-page\" style=\"min-height: 800px;\" width=\"100%\"\n        height=\"100%\"><\/iframe>",
+        "custom_liquid": "<iframe src=\"https://drruthroberts.attn.tv/p/KTU/landing-page\" style=\"min-height: 800px;\" width=\"100%\"\n        height=\"100%\"></iframe>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52

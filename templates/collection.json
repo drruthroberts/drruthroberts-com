@@ -1,5 +1,65 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "image_with_text_Dt3Hpq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_639dhx": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.protocol_name_heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_y8wPdq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.protocol_banner_text | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kcfx4U": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_639dhx",
+        "text_y8wPdq",
+        "button_kcfx4U"
+      ],
+      "custom_css": [
+        "h2 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "{{ collection.metafields.custom.image_banner.value }}",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main-collection-banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -28,14 +88,14 @@
         "text_mx7YGm": {
           "type": "text",
           "settings": {
-            "text": "<p>Are you looking for a healthy homemade recipe to help your fur baby improve their current condition?<br\/><br\/>Have you been switching back and forth from raw feeding - dry kibbles but have not seen any improvement?<br\/><br\/>The Original CrockPet Diet is a home-cooked diet for your pet, made in your kitchen with only real foods. Dr. Ruth's patented recipe is fully balanced for pets in all life stages and can improve the health of puppies and kittens, adult cats and dogs, and senior pets.<br\/><br\/>Here's everything you need to get started making The Original CrockPet Diet or replenish your cupboard<\/p>"
+            "text": "<p>Are you looking for a healthy homemade recipe to help your fur baby improve their current condition?<br/><br/>Have you been switching back and forth from raw feeding - dry kibbles but have not seen any improvement?<br/><br/>The Original CrockPet Diet is a home-cooked diet for your pet, made in your kitchen with only real foods. Dr. Ruth's patented recipe is fully balanced for pets in all life stages and can improve the health of puppies and kittens, adult cats and dogs, and senior pets.<br/><br/>Here's everything you need to get started making The Original CrockPet Diet or replenish your cupboard</p>"
           }
         },
         "button_4MTUjz": {
           "type": "button",
           "settings": {
             "button_label": "GET THE RECIPE & COURSE",
-            "button_link": "https:\/\/drruthroberts.com\/products\/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
+            "button_link": "https://drruthroberts.com/products/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
           }
         }
       },
@@ -45,11 +105,10 @@
         "button_4MTUjz"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/crockpet_collection_1.png",
+        "image": "shopify://shop_images/crockpet_collection_1.png",
+        "img_url": "",
         "height": "medium",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -71,11 +130,11 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
-        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}",
-        ".quick-add {padding-top: 0px; margin-top: 0px; border: 3px solid #184b44; border-radius: 15px; background-color: transparent; color: #184b44;}"
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}"
       ],
       "settings": {
-        "products_per_page": 8,
+        "description_enabled": false,
+        "products_per_page": 9,
         "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -83,9 +142,9 @@
         "show_rating": true,
         "enable_quick_add": true,
         "show_special_offer": false,
-        "enable_filtering": true,
+        "enable_filtering": false,
         "filter_type": "drawer",
-        "enable_sorting": true,
+        "enable_sorting": false,
         "columns_mobile": "1",
         "padding_top": 0,
         "padding_bottom": 0,
@@ -125,26 +184,93 @@
         "padding_bottom": 64
       }
     },
+    "collapsible_content_hxWG9U": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_VaWcqr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "",
+            "icon": "none",
+            "row_content": "<p>Autoimmune diseases occur when a pet's immune system mistakenly attacks its own cells, viewing them as foreign invaders. This can lead to a range of health issues affecting the skin, joints, blood, and other organs. Autoimmune disorders can be complex and challenging to manage, but understanding the causes, symptoms, and relief options can help pet parents provide the best care for their furry companions.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ha7kDL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Common Causes and Triggers",
+            "icon": "paw_print",
+            "row_content": "<p>Autoimmune diseases in pets are often triggered by a combination of genetic and environmental factors, and while the exact cause is sometimes unknown, some common triggers include:</p><ul><li><strong>Genetics</strong>: Certain breeds have a higher risk of autoimmune conditions. For example, German Shepherds and Doberman Pinschers are more susceptible to autoimmune diseases in dogs, while Siamese cats have shown a higher risk in felines.</li><li><strong>Infections</strong>: Bacterial, viral, or fungal infections can overstimulate the immune system, leading to autoimmune reactions.</li><li><strong>Vaccinations</strong>: While vaccines are crucial for preventing disease, in rare cases, they may trigger an autoimmune response in susceptible pets.</li><li><strong>Toxins and Chemicals</strong>: Exposure to pesticides, heavy metals, and certain medications may contribute to autoimmune responses.</li><li><strong>Diet and Gut Health</strong>: A poor diet or imbalanced gut microbiome can lead to inflammation and immune dysfunction, potentially triggering autoimmune conditions.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RtFPBT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Common Symptoms of Autoimmune Disease in Pets",
+            "icon": "paw_print",
+            "row_content": "<p>Symptoms of autoimmune disease vary depending on which part of the body is affected, but some common signs include:</p><ul><li><strong>Skin Issues</strong>: Redness, sores, ulcers, and loss of pigmentation are common in autoimmune skin conditions. You may notice chronic itching, lesions, or scaly patches.</li><li><strong>Joint Pain and Swelling</strong>: Pets may limp, have difficulty moving, or display signs of joint inflammation (especially in autoimmune arthritis).</li><li><strong>Lethargy and Weakness</strong>: Fatigue, low energy, and weakness are common in pets with systemic autoimmune diseases.</li><li><strong>Digestive Issues</strong>: Diarrhea, vomiting, and appetite changes may signal gastrointestinal involvement.</li><li><strong>Behavioral Changes</strong>: Pets may become irritable, withdrawn, or anxious due to chronic discomfort.</li><li><strong>Organ Dysfunction</strong>: Some autoimmune conditions affect the kidneys, liver, or other organs, leading to symptoms like excessive thirst, urination, and weight loss.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_P9fWHb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Relief and Management Options",
+            "icon": "paw_print",
+            "row_content": "<p>While autoimmune diseases in pets can be challenging to treat, various management strategies can help reduce symptoms and improve quality of life:</p><ul><li><strong>Dietary Support</strong>: Feeding a high-quality, anti-inflammatory diet can help reduce immune reactivity. Adding supplements like Omega-3 fatty acids (e.g., <strong>Omega Pawz</strong>) may also help manage inflammation.</li><li><strong>Natural Supplements</strong>: Natural options, like <strong>HEAL</strong> for dogs with autoimmune conditions, and <strong>5 Defenders Mushroom Blend</strong>, can support the immune system without overstimulating it.</li><li><strong>Probiotics and Gut Health</strong>: <strong>Fidospore</strong> and other high-quality probiotics can balance the gut microbiome, helping to manage \"leaky gut\" which is often associated with autoimmune issues.</li><li><strong>Adaptogens and Mushrooms</strong>: Supplements like <strong>Vitality Mushroom Drops</strong> provide adaptogenic support that helps regulate immune response and reduce stress.</li><li><strong>Anti-inflammatory Support</strong>: C60 antioxidants, found in products like <strong>C60 Purple Power</strong>, reduce oxidative stress, providing additional support for pets with autoimmune disease.</li><li><strong>PEMF Therapy</strong>: Pulsed Electromagnetic Field (PEMF) therapy is a non-invasive option that can help reduce inflammation, improve circulation, and alleviate pain in pets with autoimmune conditions.</li><li><strong>Regular Vet Checkups</strong>: Routine monitoring by your veterinarian is essential for managing autoimmune conditions. They may recommend blood tests, lifestyle adjustments, and additional treatments tailored to your pet's needs.</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_VaWcqr",
+        "collapsible_row_ha7kDL",
+        "collapsible_row_RtFPBT",
+        "collapsible_row_P9fWHb"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-family: \"BLT-heirloom\", sans-serif; margin: 0 auto; font-size: 30;}",
+        "h3 {font-family: \"BLT-heirloom\", sans-serif; font-size: 20px;}",
+        "p,li {font-family: \"BLT-heirloom\", sans-serif; text-align: justify; text-color: black; font-size: 15px;}"
+      ],
+      "settings": {
+        "caption": "LET'S LEARN MORE ABOUT",
+        "heading": "Autoimmune Disease in Pet",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rx_rich_text_34a4nq": {
       "type": "rx-rich-text",
       "blocks": {
         "heading_Di6fgL": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk to Us<\/p>"
+            "heading": "<p>Talk to Us</p>"
           }
         },
         "text_6ExWhq": {
           "type": "text",
           "settings": {
-            "text": "<p>If you need help with starting up the course or getting access to the recipes and videos, please don't hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com.<\/p>"
+            "text": "<p>If you need help with starting up the course or getting access to the recipes and videos, please don't hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com.</p>"
           }
         },
         "button_jH9GUi": {
           "type": "button",
           "settings": {
             "button_label": "Contact Us",
-            "button_link": "https:\/\/drruthroberts.com\/pages\/contact-us",
+            "button_link": "https://drruthroberts.com/pages/contact-us",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -186,13 +312,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -212,10 +337,12 @@
     }
   },
   "order": [
+    "image_with_text_Dt3Hpq",
     "main-collection-banner",
     "rx_img_with_text_cbVCWh",
     "main-collection-product-grid",
     "collage",
+    "collapsible_content_hxWG9U",
     "rx_rich_text_34a4nq",
     "newsletter"
   ]

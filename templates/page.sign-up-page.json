@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,11 +20,11 @@
     "rx_banner_text_v2_GwPkbm": {
       "type": "rx-banner-text-v2",
       "settings": {
-        "rx_image_banner": "shopify:\/\/shop_images\/WEB_BANNER_2.png",
+        "rx_image_banner": "shopify://shop_images/WEB_BANNER_2.png",
         "heading": "Healing Pet Loss",
         "caption": "",
-        "content": "<p>You come home after a long day, and there's no excited bark or gentle purr to greet you. <\/p><p>Your home feels emptier, quieter. <\/p><p><\/p>",
-        "content2": "<p>Every corner holds memories, every routine reminds you of what’s missing. It's these everyday moments that hit the hardest, and we're here to help you through them.<\/p><p> Join us to navigate your journey of grief with compassion and support.<\/p>",
+        "content": "<p>You come home after a long day, and there's no excited bark or gentle purr to greet you. </p><p>Your home feels emptier, quieter. </p><p></p>",
+        "content2": "<p>Every corner holds memories, every routine reminds you of what’s missing. It's these everyday moments that hit the hardest, and we're here to help you through them.</p><p> Join us to navigate your journey of grief with compassion and support.</p>",
         "layout": "text_first"
       }
     },
@@ -25,14 +34,14 @@
         "heading_m7F3bN": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Expert-Led Online Workshop for Coping, Grief Support & Animal Communication<\/p>",
+            "heading": "<p>Expert-Led Online Workshop for Coping, Grief Support & Animal Communication</p>",
             "heading_size": "h1"
           }
         },
         "text_FGXHkJ": {
           "type": "text",
           "settings": {
-            "text": "<p>Join us to navigate your journey of grief with compassion and support. Register now!<\/p>"
+            "text": "<p>Join us to navigate your journey of grief with compassion and support. Register now!</p>"
           }
         },
         "button_GiaUBH": {
@@ -66,18 +75,16 @@
       "type": "apps",
       "blocks": {
         "klaviyo_email_marketing_sms_form_embed_block_q9yCzL": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-RxJdDL\"><\/div>"
+            "formId": "<div class=\"klaviyo-form-RxJdDL\"></div>"
           }
         }
       },
       "block_order": [
         "klaviyo_email_marketing_sms_form_embed_block_q9yCzL"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "include_margins": true
       }

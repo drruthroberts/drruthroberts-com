@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1644361594fa530990": {
@@ -13,7 +22,7 @@
         "164436159488e9de81-1": {
           "type": "text",
           "settings": {
-            "text": "<p>As our furry companions age, they require special attention, care, and consideration to ensure they live a comfortable and happy life in their golden years. Just like humans, pets experience physical and physiological changes as they get older, which can lead to various health issues. That's why Dr. Ruth Roberts created a full collection of supplements for older and senior dogs.<\/p><p>From supplements for Allergies, G.I Issues, Liver disease, and Kidney Failure, to immune boosting supplements, Cancer support supplements, and dog supplements for other major health hurdles, our collection of supplements for senior and older dogs has been proven to help thousands of dogs battling these diseases in a whole-food way specially in their senior years.<\/p>",
+            "text": "<p>As our furry companions age, they require special attention, care, and consideration to ensure they live a comfortable and happy life in their golden years. Just like humans, pets experience physical and physiological changes as they get older, which can lead to various health issues. That's why Dr. Ruth Roberts created a full collection of supplements for older and senior dogs.</p><p>From supplements for Allergies, G.I Issues, Liver disease, and Kidney Failure, to immune boosting supplements, Cancer support supplements, and dog supplements for other major health hurdles, our collection of supplements for senior and older dogs has been proven to help thousands of dogs battling these diseases in a whole-food way specially in their senior years.</p>",
             "text_style": "body"
           }
         },
@@ -22,7 +31,7 @@
           "disabled": true,
           "settings": {
             "button_label": "Download Support Protocol",
-            "button_link": "shopify:\/\/products\/holistic-wellness-package-optimal-health-1"
+            "button_link": "shopify://products/holistic-wellness-package-optimal-health-1"
           }
         }
       },
@@ -39,7 +48,7 @@
       ],
       "settings": {
         "unique_class": "",
-        "image": "shopify:\/\/shop_images\/6_c4965064-ef96-422f-b8de-540e5e5d04b4.png",
+        "image": "shopify://shop_images/6_c4965064-ef96-422f-b8de-540e5e5d04b4.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -66,7 +75,7 @@
       "custom_css": [
         ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
         ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}",
-        ".quick-add {padding-top: 0px; margin-top: 0px; border: 3px solid #184b44; border-radius: 15px; background-color: transparent; color: #184b44;}"
+        ".quick-add {padding-top: 0px; margin-top: 0px;}"
       ],
       "settings": {
         "products_per_page": 8,
@@ -133,21 +142,21 @@
         "1644345560ae71793c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Nutrition and Supplements for Holistic Veterinary Care<\/p>",
+            "heading": "<p>Nutrition and Supplements for Holistic Veterinary Care</p>",
             "heading_size": "h1"
           }
         },
         "1644345560ae71793c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>While it’s natural to view your pet as a member of your family, do you view their health needs in the same manner you view yours?<\/p><p>As a human dedicated to a healthier lifestyle, you take a daily vitamin and may supplement that routine with different additions, be it fish oil or Vitamin C. <\/p><p>In this regard, your pet is no different from you. To ensure that your beloved animal is getting the nutrients and she needs, here are five supplements you can consider adding to your pet’s routine. <\/p>"
+            "text": "<p>While it’s natural to view your pet as a member of your family, do you view their health needs in the same manner you view yours?</p><p>As a human dedicated to a healthier lifestyle, you take a daily vitamin and may supplement that routine with different additions, be it fish oil or Vitamin C. </p><p>In this regard, your pet is no different from you. To ensure that your beloved animal is getting the nutrients and she needs, here are five supplements you can consider adding to your pet’s routine. </p>"
           }
         },
         "1644345560ae71793c-2": {
           "type": "button",
           "settings": {
             "button_label": "Book now!",
-            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package\/",
+            "button_link": "https://drruthroberts.com/what-to-expect-from-a-holistic-pet-health-coaching-package/",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -177,7 +186,7 @@
           "type": "column",
           "settings": {
             "title": "Multivitamin ",
-            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. </p>",
             "link_label": "",
             "link": ""
           }
@@ -186,7 +195,7 @@
           "type": "column",
           "settings": {
             "title": "Fish Oil",
-            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "text": "<p><em><strong> </strong></em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. </p>",
             "link_label": "",
             "link": ""
           }
@@ -195,7 +204,7 @@
           "type": "column",
           "settings": {
             "title": "Probiotics",
-            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. </p>",
             "link_label": "",
             "link": ""
           }
@@ -204,7 +213,7 @@
           "type": "column",
           "settings": {
             "title": "Antioxidants",
-            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. </p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "Turmeric",
-            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. </p>",
             "link_label": "",
             "link": ""
           }
@@ -251,21 +260,21 @@
         "1644363585f56cc491-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>I'm Your Pet's Ally - A trusted source of information for you & your pet.<\/p>",
+            "heading": "<p>I'm Your Pet's Ally - A trusted source of information for you & your pet.</p>",
             "heading_size": "h2"
           }
         },
         "1644363585f56cc491-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You might question whether a holistic veterinary care approach is the right one or if it’ll even work. Yet, you can’t shake that feeling in the pit of your stomach that there might just be a better, safer way to care for your animal.<\/p><p>In my practice, I’ve had the honor of helping thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.<\/p><p>I combine scientific facts, decades of clinical work, and a holistic, integrative approach to help you find solutions that’ll nurture your furry friend back to optimum health.<\/p>"
+            "text": "<p>You might question whether a holistic veterinary care approach is the right one or if it’ll even work. Yet, you can’t shake that feeling in the pit of your stomach that there might just be a better, safer way to care for your animal.</p><p>In my practice, I’ve had the honor of helping thousands of dogs and cats overcome health hurdles such as chronic kidney disease, GI illness, allergies, and cancer.</p><p>I combine scientific facts, decades of clinical work, and a holistic, integrative approach to help you find solutions that’ll nurture your furry friend back to optimum health.</p>"
           }
         },
         "1644363585f56cc491-2": {
           "type": "button",
           "settings": {
             "button_label": "Read more",
-            "button_link": "https:\/\/drruthroberts.com\/what-to-expect-from-a-holistic-pet-health-coaching-package",
+            "button_link": "https://drruthroberts.com/what-to-expect-from-a-holistic-pet-health-coaching-package",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -301,13 +310,12 @@
         "1645137244617a2009-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "1645137244617a2009-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -331,7 +339,7 @@
           "settings": {
             "heading": "",
             "icon": "none",
-            "row_content": "<p>As our beloved pets age, they start a new chapter of life that requires a little extra care and attention. Just like humans, senior pets have specific health needs that, when addressed thoughtfully, can lead to a happy, comfortable, and fulfilling retirement. Let’s explore the essential aspects of senior pet health, from diet and exercise to mental well-being and emotional support. Let's ensure our furry friends enjoy their golden years to the fullest!<\/p>",
+            "row_content": "<p>As our beloved pets age, they start a new chapter of life that requires a little extra care and attention. Just like humans, senior pets have specific health needs that, when addressed thoughtfully, can lead to a happy, comfortable, and fulfilling retirement. Let’s explore the essential aspects of senior pet health, from diet and exercise to mental well-being and emotional support. Let's ensure our furry friends enjoy their golden years to the fullest!</p>",
             "page": ""
           }
         },
@@ -340,7 +348,7 @@
           "settings": {
             "heading": "What is considered a senior pet? ",
             "icon": "paw_print",
-            "row_content": "<p>Senior pets, typically classified as those around 7 years and older, undergo various physical and physiological changes. These may include decreased energy levels, joint stiffness, and potential cognitive decline. Recognizing these changes is the first step towards providing the best care possible.<\/p>",
+            "row_content": "<p>Senior pets, typically classified as those around 7 years and older, undergo various physical and physiological changes. These may include decreased energy levels, joint stiffness, and potential cognitive decline. Recognizing these changes is the first step towards providing the best care possible.</p>",
             "page": ""
           }
         },
@@ -349,7 +357,7 @@
           "settings": {
             "heading": "How to maintain your senior pet's health",
             "icon": "paw_print",
-            "row_content": "<p>✅ Tailoring Exercise Routines<\/p><p>Senior pets may not have the same vigor as their younger selves, but they still benefit greatly from regular exercise. Adjusting their routine to include shorter, gentle walks and incorporating mental stimulation activities can help keep them engaged and happy.<\/p><p>✅ Balanced diet<\/p><p>A balanced diet is a cornerstone of senior pet health. Consult with a veterinarian to determine the right diet for your aging companion, taking into account factors like weight management, joint support, and any specific dietary restrictions.<\/p><p>✅ Maintaining a Healthy Weight<\/p><p>Weight management is crucial for senior pets. Obesity can exacerbate existing health conditions and strain joints, while being underweight may signal underlying issues. Regular vet check-ups can help monitor and adjust your pet's weight as needed.<\/p><p>✅ Prioritizing Dental Health<\/p><p>Dental issues are common in senior pets and can lead to discomfort and even systemic health problems. Regular dental check-ups and at-home care can prevent dental disease and maintain overall well-being.<\/p><p>✅ Addressing Joint Health<\/p><p>Arthritis and joint problems are prevalent in senior pets. Provide comfortable bedding, low-impact exercise, and consider joint supplements or medications under the guidance of a veterinarian to improve their quality of life.<\/p><p>✅ Managing Cognitive Health<\/p><p>Cognitive Dysfunction Syndrome (CDS) is a condition that can affect senior pets, leading to disorientation and changes in behavior. Environmental enrichment, mental stimulation, and specialized diets or supplements can help manage CDS.<\/p><p>✅ Nurturing Emotional Well-being<\/p><p>Changes in routine, environment, or the loss of companions can affect a senior pet's emotional well-being. Provide a stable and loving environment, along with regular social interactions and mental stimulation, to help them navigate these changes with ease.<\/p>",
+            "row_content": "<p>✅ Tailoring Exercise Routines</p><p>Senior pets may not have the same vigor as their younger selves, but they still benefit greatly from regular exercise. Adjusting their routine to include shorter, gentle walks and incorporating mental stimulation activities can help keep them engaged and happy.</p><p>✅ Balanced diet</p><p>A balanced diet is a cornerstone of senior pet health. Consult with a veterinarian to determine the right diet for your aging companion, taking into account factors like weight management, joint support, and any specific dietary restrictions.</p><p>✅ Maintaining a Healthy Weight</p><p>Weight management is crucial for senior pets. Obesity can exacerbate existing health conditions and strain joints, while being underweight may signal underlying issues. Regular vet check-ups can help monitor and adjust your pet's weight as needed.</p><p>✅ Prioritizing Dental Health</p><p>Dental issues are common in senior pets and can lead to discomfort and even systemic health problems. Regular dental check-ups and at-home care can prevent dental disease and maintain overall well-being.</p><p>✅ Addressing Joint Health</p><p>Arthritis and joint problems are prevalent in senior pets. Provide comfortable bedding, low-impact exercise, and consider joint supplements or medications under the guidance of a veterinarian to improve their quality of life.</p><p>✅ Managing Cognitive Health</p><p>Cognitive Dysfunction Syndrome (CDS) is a condition that can affect senior pets, leading to disorientation and changes in behavior. Environmental enrichment, mental stimulation, and specialized diets or supplements can help manage CDS.</p><p>✅ Nurturing Emotional Well-being</p><p>Changes in routine, environment, or the loss of companions can affect a senior pet's emotional well-being. Provide a stable and loving environment, along with regular social interactions and mental stimulation, to help them navigate these changes with ease.</p>",
             "page": ""
           }
         }
@@ -445,14 +453,14 @@
         "164514111261d9da74-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Contact Us!<\/p>",
+            "heading": "<p>Contact Us!</p>",
             "heading_size": "h2"
           }
         },
         "164514111261d9da74-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com</strong></p>"
           }
         },
         "164514111261d9da74-2": {

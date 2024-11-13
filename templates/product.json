@@ -60,16 +60,6 @@
             "text_style": "subtitle"
           }
         },
-        "rebuy_personalization_engine_rebuy_widget_T9Txgi": {
-          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "disabled": true,
-          "settings": {
-            "enabled": true,
-            "id": "84689",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        },
         "c50958db-6d62-42c8-8a47-729c390a856f": {
           "type": "rx_product_tab",
           "settings": {
@@ -107,7 +97,6 @@
         "0dd44047-53bd-4401-b151-a60aa1b52a8d",
         "description",
         "caption",
-        "rebuy_personalization_engine_rebuy_widget_T9Txgi",
         "c50958db-6d62-42c8-8a47-729c390a856f",
         "c3949539-dd47-4db5-86e8-4b2143f24749",
         "87b6800d-0639-4f48-b6fd-18848b047f30",
@@ -126,6 +115,27 @@
         "enable_video_looping": false,
         "padding_top": 24,
         "padding_bottom": 60
+      }
+    },
+    "faq_accordion_qAWrky": {
+      "type": "faq_accordion",
+      "blocks": {
+        "faq_LaVXf8": {
+          "type": "FAQ",
+          "repeater": "{{ product.metafields.custom.faqs.value }}",
+          "settings": {
+            "title": "{{ block.repeater.question.value }}",
+            "detail": "{{ block.repeater.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "faq_LaVXf8"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "FAQ ABOUT THE PRODUCT",
+        "desc": "<p>We've got you covered. Below are answers to some of the most frequently asked questions, providing you with all the details you need about this product and its benefits for your pet.</p>"
       }
     },
     "39913493-0614-47e8-91ba-767b9479a307": {
@@ -242,6 +252,7 @@
         },
         "template--14911504744513__37d355bc-1320-4afc-b381-56eecc54e273-1681971923720bf795-1": {
           "type": "Product",
+          "disabled": true,
           "settings": {
             "product_block": "plant-and-mushroom-for-pets-by-angela-ardolino-medical-plants-book"
           }
@@ -275,76 +286,16 @@
         "title_color": "#000000",
         "price_color": "#000000"
       }
-    },
-    "faq_accordion_qAWrky": {
-      "type": "faq_accordion",
-      "blocks": {
-        "faq_aYfpQE": {
-          "type": "FAQ",
-          "settings": {
-            "title": "{{ product.metafields.custom.faq1.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a1 | metafield_tag }}</p>"
-          }
-        },
-        "faq_Wf66tj": {
-          "type": "FAQ",
-          "settings": {
-            "title": "{{ product.metafields.custom.faq2.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a2 | metafield_tag }}</p>"
-          }
-        },
-        "faq_49gTVU": {
-          "type": "FAQ",
-          "settings": {
-            "title": "{{ product.metafields.custom.faq3.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a3 | metafield_tag }}</p>"
-          }
-        },
-        "faq_XYnhz4": {
-          "type": "FAQ",
-          "settings": {
-            "title": "{{ product.metafields.custom.faq4.value }}",
-            "detail": "{{ product.metafields.custom.faq_a4_2 | metafield_tag }}"
-          }
-        },
-        "faq_HgqiGg": {
-          "type": "FAQ",
-          "settings": {
-            "title": "{{ product.metafields.custom.faq5.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a5 | metafield_tag }}</p>"
-          }
-        },
-        "faq_LaVXf8": {
-          "type": "FAQ",
-          "settings": {
-            "title": "{{ product.metafields.custom.faq6.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a6 | metafield_tag }}</p>"
-          }
-        }
-      },
-      "block_order": [
-        "faq_aYfpQE",
-        "faq_Wf66tj",
-        "faq_49gTVU",
-        "faq_XYnhz4",
-        "faq_HgqiGg",
-        "faq_LaVXf8"
-      ],
-      "custom_css": [],
-      "settings": {
-        "heading": "FAQ",
-        "desc": ""
-      }
     }
   },
   "order": [
     "main",
+    "faq_accordion_qAWrky",
     "39913493-0614-47e8-91ba-767b9479a307",
     "0160467d-6f81-456d-840c-d702483cbcf3",
     "168197142519de76d5",
     "related-products",
     "1d09831f-d45e-4ae3-8c1d-489ed483a3a4",
-    "37d355bc-1320-4afc-b381-56eecc54e273",
-    "faq_accordion_qAWrky"
+    "37d355bc-1320-4afc-b381-56eecc54e273"
   ]
 }

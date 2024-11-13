@@ -7,43 +7,21 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
-    "custom_slider_banner_Xzwam7": {
+    "custom_slider_banner_TbEMQn": {
       "type": "custom-slider-banner",
       "blocks": {
-        "slider_banner_3cMeTJ": {
+        "slider_banner_FVMb8P": {
           "type": "slider-banner",
           "settings": {
-            "image": "shopify://shop_images/LABOR_DAY_BANNER_2.png",
+            "image": "shopify://shop_images/Dr.Ruth_cooking.jpg",
+            "mobile_image": "shopify://shop_images/crockpet_1.png",
             "image_overlay_opacity": 0,
             "image_height": "large",
             "desktop_content_position": "middle-left",
             "show_text_box": true,
-            "container_bg": "rgba(0,0,0,0)",
-            "desktop_content_alignment": "center",
-            "heading_color": "#ffffff",
-            "text_color": "#ffffff",
-            "show_arrow_mobile": "yes",
-            "mobile_content_alignment": "center",
-            "stack_images_on_mobile": true,
-            "show_text_below": true,
-            "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "button_label_1": "Button label",
-            "button_link_1": ""
-          }
-        },
-        "slider_banner_ypyDic": {
-          "type": "slider-banner",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/WEB_BANNER_1.png",
-            "image_overlay_opacity": 0,
-            "image_height": "large",
-            "desktop_content_position": "middle-left",
-            "show_text_box": true,
-            "container_bg": "rgba(0,0,0,0)",
+            "container_bg": "rgba(0,0,0,0.3)",
             "desktop_content_alignment": "center",
             "heading_color": "#ffffff",
             "text_color": "#ffffff",
@@ -54,13 +32,36 @@
             "heading": "Give Your Pet the Best with The Original CrockPET Diet™",
             "text": "Our signature homemade pet food recipe uses all-natural, whole-food ingredients to promote optimal health and nutrition for your furry companion",
             "button_label_1": "Shop",
-            "button_link_1": ""
+            "button_link_1": "shopify://collections/all-products"
+          }
+        },
+        "slider_banner_ymEyTt": {
+          "type": "slider-banner",
+          "settings": {
+            "image": "shopify://shop_images/LABOR_DAY_BANNER_2.png",
+            "mobile_image": "shopify://shop_images/COURSE.png",
+            "image_overlay_opacity": 0,
+            "image_height": "large",
+            "desktop_content_position": "middle-left",
+            "show_text_box": true,
+            "container_bg": "rgba(0,0,0,0.3)",
+            "desktop_content_alignment": "center",
+            "heading_color": "#ffffff",
+            "text_color": "#ffffff",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "stack_images_on_mobile": true,
+            "show_text_below": true,
+            "heading": "Transform Your Pet's Health",
+            "text": "Discover the power of holistic veterinary care with Dr. Ruth Roberts' expert coaching & guidance. Transform your pet's well-being today.",
+            "button_label_1": "LEARN MORE",
+            "button_link_1": "shopify://pages/holistic-pet-health-coaching-program"
           }
         }
       },
       "block_order": [
-        "slider_banner_3cMeTJ",
-        "slider_banner_ypyDic"
+        "slider_banner_FVMb8P",
+        "slider_banner_ymEyTt"
       ],
       "settings": {}
     },
@@ -133,6 +134,7 @@
         "2548be85-ca59-4cac-91f4-82dd357a90d6",
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1"
       ],
+      "disabled": true,
       "settings": {
         "desktopMaxWidth": "100%",
         "auto_play": true
@@ -165,7 +167,7 @@
         "section_bg_color": "#f5f8f1",
         "image_width": "100%",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 60,
         "padding_bottom": 0
       }
     },
@@ -565,11 +567,23 @@
           "settings": {
             "caption": "Dr, Ruth Roberts understands that pets, like humans, can face a wide range of health concerns. That's why we offer products that address a variety of health issues primarily for dogs and cats, including joint health, immune system function, digestive health, and skin and coat health."
           }
+        },
+        "button_TGQbL9": {
+          "type": "button",
+          "settings": {
+            "button_label": "See All Pet Protocols",
+            "button_link": "https://drruthroberts.com/pages/pet-care-protocols",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "c4c36141-1f4e-4acb-bb64-f70c7da21b48",
-        "1f8faab7-16f5-4eb9-bf48-a61f071a1827"
+        "1f8faab7-16f5-4eb9-bf48-a61f071a1827",
+        "button_TGQbL9"
       ],
       "custom_css": [
         ".rx_rich-text__caption {width: 88%; text-align: left !important;}",
@@ -583,7 +597,7 @@
         "image_width": "100%",
         "full_width": true,
         "padding_top": 36,
-        "padding_bottom": 20
+        "padding_bottom": 44
       }
     },
     "df6ff21b-835d-453a-ab12-a99160479690": {
@@ -602,11 +616,11 @@
             "box_display_2": true,
             "collection_title_3": "Cancer Support",
             "image_3": "shopify://shop_images/Group_3.png",
-            "url_link_3": "https://drruthroberts.com/collections/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Cancer+support",
+            "url_link_3": "shopify://collections/cancer-support",
             "box_display_3": true,
             "collection_title_4": "Digestive (GI) Support",
             "image_4": "shopify://shop_images/Group_4.png",
-            "url_link_4": "https://drruthroberts.com/collections/pet-products?sort_by=best-selling&filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.pet_device_system_supported=Digestive+%28GI%29+Support",
+            "url_link_4": "shopify://collections/digestive-support-for-pets",
             "box_display_4": true,
             "collection_title_5": "Brain/ Cognitive Support",
             "image_5": "shopify://shop_images/Group_5.png",
@@ -1066,10 +1080,30 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "1730143141e29568ad": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_UFFHVj": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_UFFHVj"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "custom_slider_banner_Xzwam7",
+    "custom_slider_banner_TbEMQn",
     "e8ef76fe-7f25-4f27-98ea-830e37605e09",
     "eb57d411-6ce7-4b68-9a6a-1c9252889203",
     "b4714d06-abcd-4096-947f-125116149229",
@@ -1091,6 +1125,7 @@
     "8960ec65-5cef-4d84-b887-aa69c09a76a9",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
-    "a22eed67-71d2-4d24-9266-adb3dc0550e6"
+    "a22eed67-71d2-4d24-9266-adb3dc0550e6",
+    "1730143141e29568ad"
   ]
 }

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,11 +20,11 @@
     "ba85da22-4605-49c5-8217-2bd483fac09a": {
       "type": "person_detail",
       "settings": {
-        "bg_img": "shopify:\/\/shop_images\/Frame_15377.png",
-        "main_img": "shopify:\/\/shop_images\/Rectangle_38_4bb9b10d-79f1-49a8-a5ba-e585ed9ec75f.png",
+        "bg_img": "shopify://shop_images/Frame_15377.png",
+        "main_img": "shopify://shop_images/Rectangle_38_4bb9b10d-79f1-49a8-a5ba-e585ed9ec75f.png",
         "name": "Wilma Shaw",
         "short_desc": "FNTP, BCHN, HPHC",
-        "desc": "<p>After a fulfilling career as a Systems Engineer, Wilma Shaw found her true passion in helping people and pets achieve their best health. Since 2016, she has operated her Embrace Nutrition practice, providing personalized 1:1 and group classes to hundreds of individuals. With her expertise, Wilma will support your dog or cat's optimal health by helping you understand veterinary recommendations and addressing underlying causes of symptoms or dis-ease. She offers both in-person and virtual consultations for client convenience.<\/p>",
+        "desc": "<p>After a fulfilling career as a Systems Engineer, Wilma Shaw found her true passion in helping people and pets achieve their best health. Since 2016, she has operated her Embrace Nutrition practice, providing personalized 1:1 and group classes to hundreds of individuals. With her expertise, Wilma will support your dog or cat's optimal health by helping you understand veterinary recommendations and addressing underlying causes of symptoms or dis-ease. She offers both in-person and virtual consultations for client convenience.</p>",
         "btn_txt": "Book Now",
         "btn_url": "",
         "btn_txt2": "Send message",
@@ -47,27 +56,27 @@
         "b99c4d67-d1b7-4cdb-88f6-999f377c4a5b": {
           "type": "story",
           "settings": {
-            "main_img": "shopify:\/\/shop_images\/image_7_d061c94d-3b75-4713-b3bf-30f329f2bddf.png",
+            "main_img": "shopify://shop_images/image_7_d061c94d-3b75-4713-b3bf-30f329f2bddf.png",
             "title": "Each consultation is tailored to your pet's unique needs.",
-            "detail": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.<\/p>",
+            "detail": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.</p>",
             "btn_url": ""
           }
         },
         "a24a4fe0-01a1-4c83-b0c7-5760a22f5777": {
           "type": "story",
           "settings": {
-            "main_img": "shopify:\/\/shop_images\/image_7_d061c94d-3b75-4713-b3bf-30f329f2bddf.png",
+            "main_img": "shopify://shop_images/image_7_d061c94d-3b75-4713-b3bf-30f329f2bddf.png",
             "title": "Each consultation is tailored to your pet's unique needs.",
-            "detail": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.<\/p>",
+            "detail": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.</p>",
             "btn_url": ""
           }
         },
         "6f403d29-83a9-4344-bf99-f52d0ae7435e": {
           "type": "story",
           "settings": {
-            "main_img": "shopify:\/\/shop_images\/image_7_d061c94d-3b75-4713-b3bf-30f329f2bddf.png",
+            "main_img": "shopify://shop_images/image_7_d061c94d-3b75-4713-b3bf-30f329f2bddf.png",
             "title": "Each consultation is tailored to your pet's unique needs.",
-            "detail": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.<\/p>",
+            "detail": "<p>Each consultation is tailored to your pet's unique needs. Our coaches will listen attentively to your concerns, conduct thorough assessments, and provide customized recommendations to support your pet's well-being.</p>",
             "btn_url": ""
           }
         }
@@ -87,16 +96,16 @@
         "d7336c16-e578-4a67-a9e6-ebec09afb1f5": {
           "type": "testimonial_image",
           "settings": {
-            "side_img": "shopify:\/\/shop_images\/12345.png",
+            "side_img": "shopify://shop_images/12345.png",
             "bg_img_color": "#a6b7ff",
-            "testi_bg_img": "shopify:\/\/shop_images\/Frame_15383.png",
+            "testi_bg_img": "shopify://shop_images/Frame_15383.png",
             "testi_title": "Mind Blowing!",
             "testi_title_color": "#2d4b49",
             "testi_name": "",
             "testi_name_color": "",
-            "testi_message": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies<\/p>",
+            "testi_message": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies</p>",
             "testi_message_color": "#2d4b49",
-            "testi_star_img": "shopify:\/\/shop_images\/Vector_2.svg"
+            "testi_star_img": "shopify://shop_images/Vector_2.svg"
           }
         },
         "b34d834c-39a9-456a-85c6-24cff6dcc7c8": {
@@ -105,12 +114,12 @@
             "bg_color": "#faf2e9",
             "title": "Mind Blowing!",
             "title_color": "#2d4b49",
-            "main_img": "shopify:\/\/shop_images\/b716bc8363553aa644c12de5d484544e.png",
+            "main_img": "shopify://shop_images/b716bc8363553aa644c12de5d484544e.png",
             "name": "Missy Springer & Kenzie South Paw Aussies",
             "name_color": "#2d4b49",
-            "message": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies<\/p>",
+            "message": "<p>Michael became Kenzie’s health coach last September. She was itching so much I had to put her on Apoquel. Michael guided us thru making the crock pot diet, choosing the right proteins and getting the correct supplements in her diet. Within a week her itching lessened and she came off the Apoquel. I don’t think I would have been brave enough to venture into cooking for her without Michael’s help. Missy Springer SouthPaw Aussies</p>",
             "message_color": "#2d4b49",
-            "star_img": "shopify:\/\/shop_images\/Vector_1.svg"
+            "star_img": "shopify://shop_images/Vector_1.svg"
           }
         },
         "86de4d56-7e4d-4c61-b3b7-c1dd84a0a522": {
@@ -119,12 +128,12 @@
             "bg_color": "#faf2e9",
             "title": "Mind Blowing!",
             "title_color": "#2d4b49",
-            "main_img": "shopify:\/\/shop_images\/b716bc8363553aa644c12de5d484544e.png",
+            "main_img": "shopify://shop_images/b716bc8363553aa644c12de5d484544e.png",
             "name": "Amanda Delgado",
             "name_color": "#2d4b49",
-            "message": "<p>I really enjoyed connecting with Dlorah who is a recent graduate of Dr. Roberts holistic pet health coach program. I found it helpful to hear all about her experience with the course and what she found useful in her journey to become a certified pet health coach. It was great to connect with someone who has a similar educational background and experiences. To me, at the beginning, I was feeling hesitant and having doubts if this was the right path, but the onboarding call just reconfirmed for me that it absolutely is... Read more<\/p>",
+            "message": "<p>I really enjoyed connecting with Dlorah who is a recent graduate of Dr. Roberts holistic pet health coach program. I found it helpful to hear all about her experience with the course and what she found useful in her journey to become a certified pet health coach. It was great to connect with someone who has a similar educational background and experiences. To me, at the beginning, I was feeling hesitant and having doubts if this was the right path, but the onboarding call just reconfirmed for me that it absolutely is... Read more</p>",
             "message_color": "#2d4b49",
-            "star_img": "shopify:\/\/shop_images\/Vector_1.svg"
+            "star_img": "shopify://shop_images/Vector_1.svg"
           }
         },
         "38f5785d-86d1-401c-be10-d2ccdcca12ad": {
@@ -133,12 +142,12 @@
             "bg_color": "#faf2e9",
             "title": "Mind Blowing!",
             "title_color": "#2d4b49",
-            "main_img": "shopify:\/\/shop_images\/b716bc8363553aa644c12de5d484544e.png",
+            "main_img": "shopify://shop_images/b716bc8363553aa644c12de5d484544e.png",
             "name": "Lori Schmidt",
             "name_color": "#2d4b49",
-            "message": "<p>Dlorah was very helpful and I am happy to have her as my mentor. She walked me through the homework, answered my questions, shared her screen to show me how to get to the information that I had not been able to find. The pet consultation was informative and she had good suggestions on additional things to do for my dog. It was interesting to learn that he is a metal type dog, I looked up information on a metal dog and it fits his personality well.<\/p>",
+            "message": "<p>Dlorah was very helpful and I am happy to have her as my mentor. She walked me through the homework, answered my questions, shared her screen to show me how to get to the information that I had not been able to find. The pet consultation was informative and she had good suggestions on additional things to do for my dog. It was interesting to learn that he is a metal type dog, I looked up information on a metal dog and it fits his personality well.</p>",
             "message_color": "#2d4b49",
-            "star_img": "shopify:\/\/shop_images\/Vector_1.svg"
+            "star_img": "shopify://shop_images/Vector_1.svg"
           }
         }
       },
@@ -148,12 +157,10 @@
         "86de4d56-7e4d-4c61-b3b7-c1dd84a0a522",
         "38f5785d-86d1-401c-be10-d2ccdcca12ad"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "What real pet parents are saying",
-        "desc": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>"
+        "desc": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service </p>"
       }
     },
     "80b8f9bf-2cdd-4cef-aca3-85e7ce455bbf": {
@@ -169,13 +176,12 @@
         "template--14952259420225__80b8f9bf-2cdd-4cef-aca3-85e7ce455bbf-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
         "template--14952259420225__80b8f9bf-2cdd-4cef-aca3-85e7ce455bbf-email_form-1": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -184,7 +190,7 @@
         "template--14952259420225__80b8f9bf-2cdd-4cef-aca3-85e7ce455bbf-email_form-1"
       ],
       "settings": {
-        "bg_img": "shopify:\/\/shop_images\/Pattern_2.png",
+        "bg_img": "shopify://shop_images/Pattern_2.png",
         "bg_color": "#e6f972",
         "full_width": true,
         "padding_top": 100,

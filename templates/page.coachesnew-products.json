@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -9,6 +18,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -20,13 +30,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -34,8 +43,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -43,6 +52,7 @@
     },
     "1655751929e34d4e57": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16557519296bd204f0-0": {
           "type": "featured_collection",
@@ -82,7 +92,6 @@
         "aa1c3c69-2ce2-435d-81c8-18b114024961",
         "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -98,8 +107,7 @@
     },
     "f826ad76-4a76-4d38-b1c6-78484c75f065": {
       "type": "Collection-filtering",
-      "settings": {
-      }
+      "settings": {}
     },
     "8c3af7db-56aa-4fca-9b94-458fb9509265": {
       "type": "collection-list",
@@ -139,7 +147,7 @@
       "settings": {
         "title": "Featured collection",
         "heading_size": "h1",
-        "description": "<p>Hello<\/p>",
+        "description": "<p>Hello</p>",
         "show_description": true,
         "description_style": "body",
         "collection": "dogs-coaches",

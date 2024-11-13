@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -32,7 +41,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "GIVINGBACK10",
-            "button_link_1": "https:\/\/shop.drruthroberts.com\/discount\/GIVINGBACK10",
+            "button_link_1": "https://shop.drruthroberts.com/discount/GIVINGBACK10",
             "button_style_secondary_1": true,
             "button_label_2": "Button label",
             "button_link_2": "",
@@ -49,7 +58,8 @@
         ".img {max-width: 100%; height: auto;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/black_friday.png",
+        "image": "shopify://shop_images/HERO_minimal_1.png",
+        "content_width": 70,
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -67,24 +77,33 @@
         "template--14921792094273__bc5e4eca-b1b1-4bdb-95d5-0a95de91fc38-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Gear Up for a Pawsitively Awesome Black Friday & Cyber Monday Bash! <\/strong><\/p>",
+            "heading": "<p>Celebrate Thanksgiving with a Healthier, Happier Pet</p>",
             "heading_size": "h1"
+          }
+        },
+        "caption_A8YeJy": {
+          "type": "caption",
+          "settings": {
+            "caption": "Because a healthy pet is the ultimate peace of mind.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
         "9d62ce1a-9903-4161-96cc-cdd275625197": {
           "type": "text",
           "settings": {
-            "text": "<p>We've got the lowdown on some fantastic deals that'll make your fur babies wag their tails in excitement. No fancy words, just pure awesome for your four-legged pals!<\/p>"
+            "text": "<p>This Thanksgiving, we’re excited to bring pet parents like you our best holistic solutions to keep the holiday season stress-free and joyful for you and your furry family member.<br/>With travel-ready calming aids and our Ultimate Wellness Kit, now’s the time to invest in your pet’s health and happiness—with savings up to 50% off.</p>"
           }
         }
       },
       "block_order": [
         "template--14921792094273__bc5e4eca-b1b1-4bdb-95d5-0a95de91fc38-heading-1",
+        "caption_A8YeJy",
         "9d62ce1a-9903-4161-96cc-cdd275625197"
       ],
       "custom_css": [
         "h2 {font-family: \"BLT-Heirloom\"; color: #441a08;}",
-        "p {color: #441a08;}"
+        "p {font-weight: normal; color: #441a08;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -101,22 +120,22 @@
         "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Limited Time Offer!",
+            "heading": "Winter Wellness Collection",
             "heading_size": "h1"
           }
         },
         "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The clock is ticking! Don't miss this opportunity to invest in your pet's wellbeing! Get exclusive deals on holistic supplements and courses. Use code <strong>GIVINGBACK10 <\/strong>at checkout and enjoy a delightful <strong>10% off <\/strong>for all products. <\/p><p>Not only that, enjoy up to <strong>20% discount<\/strong> on our top-rated treasures, The Holistic Total Body Support and the Fidospore!<\/p><p>Make this holiday season the perfect time to invest in your pet's health holistically!<\/p>",
+            "text": "<p>Give your pet the gift of holistic health! Our Winter Wellness collection brings together everything your pet needs for calm, comfort, and vitality—all in one powerful bundle. Help them feel their best, every day.</p>",
             "text_style": "body"
           }
         },
         "template--14921792094273__30d4f70c-617a-4161-a47d-3d9e361493ea-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Holistic Supplements",
-            "button_link": "https:\/\/drruthroberts.com\/collections\/pet-products"
+            "button_label": "SHOP NOW",
+            "button_link": "https://drruthroberts.com/collections/ultimate-wellness-kit-stress-free-pet-collection"
           }
         }
       },
@@ -129,13 +148,14 @@
         "img {max-width: 100%; height: auto;}",
         ".body {font-size: 18px;}",
         ".body,.h1,img {margin: 10px; padding: 0;}",
-        "h2 {color: #e54a09; font-size: 30px; margin: auto; font-weight: bold;}",
+        "h2 {color: #db9522; font-size: 30px; margin: auto; font-weight: bold;}",
         "p {text-align: center; margin: auto; color: #441a08; font-size: 1em;}",
         ".button {padding: 10px 15px; margin-top: 15px;}",
         "div {padding-left: 8px; padding-right: 8px; padding-top: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Holistic_Supplements_5.png",
+        "unique_class": "",
+        "image": "shopify://shop_images/Ultimate_Pet_Wellness_Kit_1_5.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -145,7 +165,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 80
+        "padding_bottom": 0
       }
     },
     "86e189a3-542b-4ac4-8666-f0054c07ccb2": {
@@ -154,22 +174,22 @@
         "7def7afb-05d2-45c7-90d5-9ce9ca07b521": {
           "type": "heading",
           "settings": {
-            "heading": "It's Time to Enroll in Our Courses!",
+            "heading": "Stress-Free Travel Pet Bundles",
             "heading_size": "h1"
           }
         },
         "bf5af32c-ab4c-4ae6-affa-3420f4cbab72": {
           "type": "text",
           "settings": {
-            "text": "<p>Secure your furry friend's health with our exclusive Pet Wellness Course. For a limited time, enjoy a paw-some <strong>10% discount <\/strong>that's as extraordinary as your pet's love. Dive into a world of holistic care, expert insights, and tail-wagging joy. Don't miss out – make this Black Friday and Cyber Monday your pet's healthiest yet. Enroll now and let the wellness adventure begin!<\/p>",
+            "text": "<p>Make travel a joy for you and your pet! Dr. Ruth Roberts’ Stress-Free Travel Bundles are packed with essentials to keep your pet relaxed and content on every journey.</p>",
             "text_style": "body"
           }
         },
         "7f4e9117-0a14-44b7-b7f9-9aa5ef67209a": {
           "type": "button",
           "settings": {
-            "button_label": "Explore courses",
-            "button_link": "https:\/\/drruthroberts.com\/collections\/pet-education-membership?"
+            "button_label": "shop now",
+            "button_link": "https://drruthroberts.com/collections/stress-free-travel-pet-supplements"
           }
         }
       },
@@ -182,13 +202,14 @@
         "img {max-width: 100%; height: auto;}",
         ".body {font-size: 18px;}",
         ".body,.h1,img {margin: 10px; padding: 0;}",
-        "h2 {color: #e54a09; font-size: 30px; margin: auto; font-weight: bold;}",
+        "h2 {color: #db9522; font-size: 30px; margin: auto; font-weight: bold;}",
         "p {text-align: center; margin: auto; color: #441a08; font-size: 1em;}",
         ".button {padding: 10px 15px; margin-top: 15px;}",
         "div {padding-left: 8px; padding-right: 8px; padding-top: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pet_wellness_Courses.png",
+        "unique_class": "",
+        "image": "shopify://shop_images/BFCM_post_17.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -197,8 +218,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "9f59e223-8662-4f2a-acc2-88be9484e91c": {
@@ -207,22 +228,22 @@
         "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Be a Certified Holistic Pet Health Coach!",
+            "heading": "Clearance Sale!",
             "heading_size": "h1"
           }
         },
         "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Maybe you're destined to become a Certified Holistic Pet Health Coach <br\/>this season!  You will learn a treasure trove of knowledge from the science of Functional Medicine, TCVM, tailored nutrition plans, to lifestyle coaching for healthier, happier pets. This course approved for 40 hours of RACE CE Credits. We will equip you with the skills and knowledge needed to meet the growing demand for pet care professionals. As a certified Holistic Pet Health Coach, you can offer your services in various settings—veterinary clinics, pet stores, and personalized online consultations. <\/p><p>Join us this Black Friday with an exclusive<strong> $500 off<\/strong>! Kickstart your rewarding journey and make a lasting impact on pets' lives. Seize the discount now!<\/p>",
+            "text": "<p>Don't miss out on exclusive deals! Our Clearance Sale Collection offers huge savings on pet wellness essentials—limited quantities available, so grab them while you can!</p>",
             "text_style": "body"
           }
         },
         "template--14921792094273__9f59e223-8662-4f2a-acc2-88be9484e91c-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Apply now",
-            "button_link": "https:\/\/drruthroberts.com\/products\/certified-pet-holistic-health-coach-program"
+            "button_label": "SHOP NOW",
+            "button_link": "https://drruthroberts.com/collections/clearance-sale"
           }
         }
       },
@@ -235,13 +256,14 @@
         "img {max-width: 100%; height: auto;}",
         ".body {font-size: 18px;}",
         ".body,.h1,img {margin: 10px; padding: 0;}",
-        "h2 {color: #e54a09; font-size: 30px; margin: auto; font-weight: bold;}",
+        "h2 {color: #db9522; font-size: 30px; margin: auto; font-weight: bold;}",
         "p {text-align: center; margin: auto; color: #441a08; font-size: 1em;}",
         ".button {padding: 10px 15px; margin-top: 15px;}",
         "div {padding-left: 8px; padding-right: 8px; padding-top: 0px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pet_wellness_Courses_2.png",
+        "unique_class": "",
+        "image": "shopify://shop_images/BFCM_post_16.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -250,8 +272,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "17f3f27c-96bb-461c-aeaf-de6801eb573c": {
@@ -260,31 +282,31 @@
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Top_choice_Turmeric.png",
+            "image": "shopify://shop_images/Top_choice_Turmeric.png",
             "title": "Turmeric with Bioperine",
-            "text": "<p>Turmeric with Bioperine® and Coconut – a herbal antioxidant supplement are specially formulated as antioxidant and natural pain relief for your cats and dogs.<\/p>",
+            "text": "<p>Turmeric with Bioperine® and Coconut – a herbal antioxidant supplement are specially formulated as antioxidant and natural pain relief for your cats and dogs.</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/drruthroberts.com\/products\/turmeric-with-bioperine%C2%AE-organic-coconut-oil-for-cats-dogs-60-chews"
+            "link": "https://drruthroberts.com/products/turmeric-with-bioperine%C2%AE-organic-coconut-oil-for-cats-dogs-60-chews"
           }
         },
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Top_choice_arthri_pawz.png",
+            "image": "shopify://shop_images/Top_choice_arthri_pawz.png",
             "title": "Arthri-Pawz",
-            "text": "<p>Ideal nutritional support for joints, providing pets with the nutrition they need to rid fluid that results in swelling, repair, stay lubricated, move freely, and function at their best.<\/p>",
+            "text": "<p>Ideal nutritional support for joints, providing pets with the nutrition they need to rid fluid that results in swelling, repair, stay lubricated, move freely, and function at their best.</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/drruthroberts.com\/products\/herbal-allergy-supplement-for-cats-and-dogs"
+            "link": "https://drruthroberts.com/products/herbal-allergy-supplement-for-cats-and-dogs"
           }
         },
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Top_choice_omega_pawz.png",
+            "image": "shopify://shop_images/Top_choice_omega_pawz.png",
             "title": "Omega Pawz",
-            "text": "<p>Unlike many fish oil supplements, Omega Pawz is made with pure, high-quality fish oil and is free from artificial additives and preservatives.<\/p>",
+            "text": "<p>Unlike many fish oil supplements, Omega Pawz is made with pure, high-quality fish oil and is free from artificial additives and preservatives.</p>",
             "link_label": "Buy Now",
-            "link": "https:\/\/drruthroberts.com\/products\/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster"
+            "link": "https://drruthroberts.com/products/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster"
           }
         }
       },
@@ -293,18 +315,19 @@
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-1",
         "template--14841728761921__17f3f27c-96bb-461c-aeaf-de6801eb573c-166861214162a401d8-2"
       ],
+      "disabled": true,
       "custom_css": [
-        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #e54a09; text-align: center;}",
+        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #db9522; text-align: center;}",
         "img {border-radius: 30px;}",
-        "p {font-family: \"Josefin Sans\"; color: #441a08;}",
+        "p {font-family: \"Josefin Sans\"; color: white; font-weight: normal;}",
         ".multicolumn-card__info {color: black;}",
-        ".button {font-family: \"Josefin Sans\";}",
-        "div {background-color: #f4efdb;}",
-        "h3 {color: #e54a09; font-family: \"BLT-Heirloom\";}"
+        "button {font-family: \"Josefin Sans\"; color: #db9522;}",
+        "div {background-color: #533421;}",
+        "h3 {color: #e0cea3; font-family: \"BLT-Heirloom\";}"
       ],
       "settings": {
         "custom_class": "",
-        "title": "Our Top Choices at 10% Off",
+        "title": "Our Top Choices",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -320,20 +343,80 @@
         "padding_bottom": 16
       }
     },
+    "rich_text_G6XxMr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RwLmNP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Ultimate Wellness Gift for Your Pet</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_kcLdcU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Ultimate Pet Wellness Kit is here to help you give your dog everything they need for a healthier, happier life. With a curated set of holistic supplements and a FREE Original Crockpet Diet eBook for balanced, whole-food recipes, this bundle supports immune health, gut balance, and overall vitality.</p><p><strong>Make this Thanksgiving about wellness! Give your dog the ultimate health advantage with this all-inclusive kit.</strong></p>"
+          }
+        },
+        "button_UD3Aqe": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RwLmNP",
+        "text_kcLdcU",
+        "button_UD3Aqe"
+      ],
+      "custom_css": [
+        "p {font-weight: normal;}",
+        "ul,li {text-align: left; font-weight: normal;}",
+        "h2 {font-family: \"BLT-Heirloom\"; color: #441a08;}",
+        "p {font-weight: normal; color: #441a08;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product_section_ihw6he": {
+      "type": "product_section",
+      "settings": {
+        "heading": "",
+        "product": "ultimate-pet-wellness-kit",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "image_placement": "row",
+        "learn_more_btn": false
+      }
+    },
     "afd00670-eaa8-4072-be8f-77f6500b392c": {
       "type": "rich-text",
       "blocks": {
         "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wholesome Benefits from Standard Process<\/p>",
+            "heading": "<p>Wholesome Benefits from Standard Process</p>",
             "heading_size": "h1"
           }
         },
         "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Get the goodness of wholly balanced nutrition with top-grade supplements & multivitamins from Standard Process.<\/p>"
+            "text": "<p>Get the goodness of wholly balanced nutrition with top-grade supplements & multivitamins from Standard Process.</p>"
           }
         }
       },
@@ -341,8 +424,9 @@
         "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-heading-1",
         "template--14921792094273__afd00670-eaa8-4072-be8f-77f6500b392c-text-1"
       ],
+      "disabled": true,
       "custom_css": [
-        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #e54a09;}",
+        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #db9522;}",
         "p {font-family: \"Josefin Sans\"; color: #441a08;}"
       ],
       "settings": {
@@ -381,6 +465,7 @@
         "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-1",
         "template--14841728761921__2a3d594f-9bfc-4483-b6a2-01aa624e8306-1668612001ec025698-2"
       ],
+      "disabled": true,
       "custom_css": [
         "div {background-color: #white;}",
         "h3 {color: #441a08; font-family: \"BLT-Heirloom\"; margin-top: 20px;}"
@@ -404,31 +489,31 @@
         "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Top_selling_HTBS_1.png",
+            "image": "shopify://shop_images/Top_selling_HTBS_1.png",
             "title": "Holistic Total Body Support",
             "text": "",
             "link_label": "Shop Now",
-            "link": "https:\/\/drruthroberts.com\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements"
+            "link": "https://drruthroberts.com/products/holistic-total-body-support-for-cats-and-dogs-glandular-supplements"
           }
         },
         "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Top_selling_Vitality_2.png",
+            "image": "shopify://shop_images/Top_selling_Vitality_2.png",
             "title": "Vitality - Mushroom Drops for Dog",
             "text": "",
             "link_label": "Shop Now",
-            "link": "https:\/\/drruthroberts.com\/products\/vitality-mushroom-drops-for-dog-with-adaptogen-tincture"
+            "link": "https://drruthroberts.com/products/vitality-mushroom-drops-for-dog-with-adaptogen-tincture"
           }
         },
         "c5318569-8288-4701-8a2b-c395252eb4fa": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Top_selling_Hista_Pawz.png",
+            "image": "shopify://shop_images/Top_selling_Hista_Pawz.png",
             "title": "Hista Paws - Herbal Allergy Supplement for Pet",
             "text": "",
             "link_label": "Shop Now",
-            "link": "https:\/\/drruthroberts.com\/products\/herbal-allergy-supplement-for-cats-and-dogs"
+            "link": "https://drruthroberts.com/products/herbal-allergy-supplement-for-cats-and-dogs"
           }
         }
       },
@@ -437,9 +522,10 @@
         "template--14841728761921__712125b3-cd0e-4275-9812-86d6b479720a-166913542994cdc345-2",
         "c5318569-8288-4701-8a2b-c395252eb4fa"
       ],
+      "disabled": true,
       "custom_css": [
-        "div {background-color: #f4efdb;}",
-        "h2 {font-family: \"BLT-heirloom\"; margin: auto; color: #e54a09;}",
+        "div {background-color: #white;}",
+        "h2 {font-family: \"BLT-heirloom\"; margin: auto; color: #db9522;}",
         "h3 {color: #441a08; font-family: \"BLT-Heirloom\";}"
       ],
       "settings": {
@@ -466,14 +552,14 @@
         "template--14921792094273__c512dc9d-c418-41b5-90b5-035479911964-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>The Sale is Live from NOW -  November 30th at 12:59pm<\/p>",
+            "heading": "<p>The Sale is Live from November 18th -  November 25th at 12:59pm</p>",
             "heading_size": "h1"
           }
         },
         "b2daaa60-62b0-430e-879d-3b4f58d0d64b": {
           "type": "text",
           "settings": {
-            "text": "<p>Seize this perfect opportunity to enhance your pet's health for the season while saving some serious $$$! Explore our range of natural supplements and enroll in our exclusive pet wellness course.<\/p>"
+            "text": "<p>Seize this perfect opportunity to enhance your pet's health for the season while saving some serious $$$! Explore our range of natural supplements and enroll in our exclusive pet wellness course.</p>"
           }
         },
         "bfb0c2de-9291-44da-a81a-5655c8fffd38": {
@@ -495,8 +581,9 @@
         "bfb0c2de-9291-44da-a81a-5655c8fffd38"
       ],
       "custom_css": [
-        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #e54a09; font-size: 30px;}",
-        "p {font-family: \"Josefin Sans\"; color: #441a08;}"
+        "h2 {font-family: \"BLT-Heirloom\"; margin: auto; color: #db9522; font-size: 30px;}",
+        "p {font-family: \"Josefin Sans\"; color: white; font-weight: normal;}",
+        "div {background-color: #533421;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -504,7 +591,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 40
       }
     },
     "59dfd687-de26-41ea-851d-c7d92cd63a13": {
@@ -546,7 +633,8 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/BFCM-Open-C.jpg",
+        "image": "shopify://shop_images/BFCM-Open-C.jpg",
+        "content_width": 100,
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "bottom-center",
@@ -558,23 +646,23 @@
         "show_text_below": true
       }
     },
-    "fe49ef75-ff4c-4b7e-9df9-5aba30d893e6": {
-      "type": "custom-testimonial",
+    "rx_blog_nTN6D8": {
+      "type": "rx-blog",
       "settings": {
-        "title": "",
+        "heading": "Read Our Blogs",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "blog": "holiday-season",
+        "background": "",
+        "post_limit": 3,
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Shop Now",
-        "button_link": "https:\/\/drruthroberts.com\/collections\/pet-products",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 44
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "blogs_url": "",
+        "blogs_btn": "Read More blogs"
       }
     }
   },
@@ -586,11 +674,13 @@
     "86e189a3-542b-4ac4-8666-f0054c07ccb2",
     "9f59e223-8662-4f2a-acc2-88be9484e91c",
     "17f3f27c-96bb-461c-aeaf-de6801eb573c",
+    "rich_text_G6XxMr",
+    "product_section_ihw6he",
     "afd00670-eaa8-4072-be8f-77f6500b392c",
     "2a3d594f-9bfc-4483-b6a2-01aa624e8306",
     "712125b3-cd0e-4275-9812-86d6b479720a",
     "c512dc9d-c418-41b5-90b5-035479911964",
     "59dfd687-de26-41ea-851d-c7d92cd63a13",
-    "fe49ef75-ff4c-4b7e-9df9-5aba30d893e6"
+    "rx_blog_nTN6D8"
   ]
 }

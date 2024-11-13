@@ -15,14 +15,14 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Honoring Those Who Give Their All – For Themselves and Their Loved Ones",
+            "heading": "Thanksgiving & Black Friday Clearance Sale",
             "heading_size": "h1"
           }
         },
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-text-1": {
           "type": "text",
           "settings": {
-            "text": "From August 30th to September 3rd, grab your favorite supplements at up to 50% off before they're gone for good!",
+            "text": "This Thanksgiving and Black Friday, we're offering exclusive discounts on top wellness essentials for pets—up to 50% off for a limited time! From November 18 to November 25, explore our Clearance Sale for unbeatable deals on holistic products that support calm, comfort, and vitality for your furry family member.",
             "text_style": "body"
           }
         },
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW!",
-            "button_link_1": "https:\/\/drruthroberts.com\/collections\/labor-day",
+            "button_link_1": "https://drruthroberts.com/collections/labor-day",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -44,7 +44,8 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DALL_E_2024-08-19_10.51.09_-_A_landscaper_dressed_in_work_clothes_including_muddy_boots_gloves_and_a_hat_is_kneeling_down_in_a_yard_or_garden_to_pet_a_friendly_dog._The_scene.jpg",
+        "image": "shopify://shop_images/CLEARANCE.png",
+        "content_width": 100,
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -68,6 +69,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "description_enabled": false,
         "products_per_page": 16,
         "columns_desktop": 3,
         "image_ratio": "adapt",
@@ -92,7 +94,7 @@
           "type": "column",
           "settings": {
             "title": "Multivitamin ",
-            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. <\/p>",
+            "text": "<p>Much like you, your pet can benefit from daily multivitamin use. Vitamins A, B, D, E and K can all promote overall health in your four-legged friend. </p>",
             "link_label": "",
             "link": ""
           }
@@ -101,7 +103,7 @@
           "type": "column",
           "settings": {
             "title": "Fish Oil",
-            "text": "<p><em><strong> <\/strong><\/em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. <\/p>",
+            "text": "<p><em><strong> </strong></em>Fish oil is an excellent supplement for holistic pet care. Known to reduce inflammation, this oil can help your pet from scratching and promote health coat and hair growth. </p>",
             "link_label": "",
             "link": ""
           }
@@ -110,7 +112,7 @@
           "type": "column",
           "settings": {
             "title": "Probiotics",
-            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. <\/p>",
+            "text": "<p>Does your pet suffer from tummy troubles? Probiotics can help restore your pet’s biome balance through holistic veterinary care. </p>",
             "link_label": "",
             "link": ""
           }
@@ -119,7 +121,7 @@
           "type": "column",
           "settings": {
             "title": "Antioxidants",
-            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. <\/p>",
+            "text": "<p>These holistic pet care supplements can help your older pet offset signs of aging, including cognitive decline and memory loss. </p>",
             "link_label": "",
             "link": ""
           }
@@ -128,7 +130,7 @@
           "type": "column",
           "settings": {
             "title": "Turmeric",
-            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. <\/p>",
+            "text": "<p>If your pet suffers from joint inflammation, this holistic pet care supplement may ease their woes. </p>",
             "link_label": "",
             "link": ""
           }
@@ -190,7 +192,7 @@
         "be130b3e-47c3-4b08-802f-4115a3ccdb14": {
           "type": "featured_collection",
           "settings": {
-            "collection": "gastrointestinal-support"
+            "collection": "digestive-support-for-pets"
           }
         },
         "37ab9ac6-c2ab-4f8e-ad0c-0b1f9f18c2c3": {
@@ -270,14 +272,14 @@
         "164514111261d9da74-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Contact Us!<\/p>",
+            "heading": "<p>Contact Us!</p>",
             "heading_size": "h2"
           }
         },
         "164514111261d9da74-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com</strong></p>"
           }
         },
         "164514111261d9da74-2": {

@@ -578,21 +578,20 @@
           "customYMMTemplateLoader": "{%- capture YMMTemplate -%}{% render 'globo.filter.form' %}{%- endcapture -%}{%- unless YMMTemplate contains 'Liquid error' -%}<script id=\"gspfForm\" type=\"template/html\">{{- YMMTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}"
         }
       },
-      "17151115064775110295": {
-        "type": "shopify://apps/recharge-subscriptions/blocks/recharge-theme/371eed76-0b44-4869-9813-730372ea378e",
+      "4918592460924562117": {
+        "type": "shopify://apps/optimonk-popup-cro-a-b-test/blocks/app-embed/0b488be1-fc0a-4fe6-8793-f2bef383dba8",
         "disabled": false,
-        "settings": {
-          "color_brand": "#467C99",
-          "contrast_color": "#FFFFFF",
-          "color_brand_secondary": "#467C99",
-          "corners": "8px",
-          "app_background": "#f9f8f4",
-          "app_container": 1200,
-          "app_vertical_padding": 32,
-          "images_aspect_ratio": "1",
-          "cards_background": "#FFFFFF",
-          "cards_border_color": "rgba(0,0,0,0)"
-        }
+        "settings": {}
+      },
+      "12439146293631897289": {
+        "type": "shopify://apps/blockify-fraud-blocker/blocks/app_embed/2e3e0ba5-0e70-447a-9ec5-3bf76b5ef12e",
+        "disabled": false,
+        "settings": {}
+      },
+      "4824701725375534060": {
+        "type": "shopify://apps/blockify-checkout/blocks/block-checkout/a02f68fe-3bdb-4615-b9c5-7d181a329397",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

@@ -21,9 +21,9 @@
       "type": "apps",
       "blocks": {
         "33ca6bcd-cd8d-44ef-bac2-b1128b59e712": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-UZyEux\"><\/div>"
+            "formId": "<div class=\"klaviyo-form-UZyEux\"></div>"
           }
         }
       },
@@ -40,7 +40,7 @@
         "template--14921793437761__1a3fa3d5-2689-4501-a83e-ccb21f1aca50-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>DOSING INSTRUCTIONS<\/h1>",
+            "heading": "<h1>DOSING INSTRUCTIONS</h1>",
             "heading_size": "h1"
           }
         }
@@ -66,199 +66,199 @@
         "template--14921793437761__2267ea56-2668-4f99-82d1-3f190c5d2561-row-3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Alpha_Lipoic_Acid.png",
+            "image": "shopify://shop_images/Alpha_Lipoic_Acid.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/alpha-lipoic-acid-150-mg\" target=\"_blank\" title=\"Shop Alpha-Lipoic Acid\">Alpha-Lipoic Acid<\/a>",
-            "text": "<p>Alpha-Lipoic Acid is vitamin-like nutrient helps neutralize free radicals by restoring the activity of other antioxidants, such as vitamins C and E, and glutathione.<\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/alpha-lipoic-acid-150-mg\" target=\"_blank\" title=\"Shop Alpha-Lipoic Acid\">Alpha-Lipoic Acid</a>",
+            "text": "<p>Alpha-Lipoic Acid is vitamin-like nutrient helps neutralize free radicals by restoring the activity of other antioxidants, such as vitamins C and E, and glutathione.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Alpha-Lipoic+Acid).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Alpha-Lipoic+Acid).pdf"
           }
         },
         "86717a71-8759-4c28-b155-b142e94dd450": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artemisia.png",
+            "image": "shopify://shop_images/Artemisia.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/artemesia-100-caps?_pos=1&_psq=artemisi&_ss=e&_v=1.0\" target=\"_blank\" title=\"Shop Artemisia\">Artemisia<\/a>",
-            "text": "<p>A concentrated extract of the leaves of Sweet Wormwood (<em>Artemisia annua<\/em>), an herb from the Far East, used for centuries in China. Sweet Wormwood is primarily known for its active compound called artemisinin. Artemisinin and its derivatives are used to treat fever, inflammation, and malaria, and other parasites.<\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/artemesia-100-caps?_pos=1&_psq=artemisi&_ss=e&_v=1.0\" target=\"_blank\" title=\"Shop Artemisia\">Artemisia</a>",
+            "text": "<p>A concentrated extract of the leaves of Sweet Wormwood (<em>Artemisia annua</em>), an herb from the Far East, used for centuries in China. Sweet Wormwood is primarily known for its active compound called artemisinin. Artemisinin and its derivatives are used to treat fever, inflammation, and malaria, and other parasites.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Artemisia).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Artemisia).pdf"
           }
         },
         "f14841fb-3855-4714-b0c5-cd4871c62b10": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Arthri_Pawz.png",
+            "image": "shopify://shop_images/Arthri_Pawz.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/best-joint-supplement-for-dogs-and-cats\" target=\"_blank\" title=\"Shop Arthri Pawz\">Arthri Pawz<\/a>",
-            "text": "<p>Arthri Pawz supplement contains natural compounds like glucosamine and Boswellia extract, which promote joint mobility and flexibility, reduce pain and inflammation, and support cartilage production.<\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/best-joint-supplement-for-dogs-and-cats\" target=\"_blank\" title=\"Shop Arthri Pawz\">Arthri Pawz</a>",
+            "text": "<p>Arthri Pawz supplement contains natural compounds like glucosamine and Boswellia extract, which promote joint mobility and flexibility, reduce pain and inflammation, and support cartilage production.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Arthri-Pawz).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Arthri-Pawz).pdf"
           }
         },
         "f7f58cd8-2273-4f21-a8d5-e3f9d730c870": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Activated_Charcoal_27f7274a-8dd1-4d0d-acf4-8cc39e9f3dd4.png",
+            "image": "shopify://shop_images/Activated_Charcoal_27f7274a-8dd1-4d0d-acf4-8cc39e9f3dd4.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/activated-charcoal-560-mg-100-caps\" target=\"_blank\" title=\"Shop Activated Charcoal\">Activated Charcoal<\/a>",
-            "text": "<p>Activated charcoal, also known as activated carbon, is a form of carbon that has been processed to have a large surface area and numerous pores. Activated charcoal is used in veterinary medicine to mitigate gastrointestinal (GI) tract toxins in cats and dogs.<\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/activated-charcoal-560-mg-100-caps\" target=\"_blank\" title=\"Shop Activated Charcoal\">Activated Charcoal</a>",
+            "text": "<p>Activated charcoal, also known as activated carbon, is a form of carbon that has been processed to have a large surface area and numerous pores. Activated charcoal is used in veterinary medicine to mitigate gastrointestinal (GI) tract toxins in cats and dogs.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Charcoal+Activated).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Charcoal+Activated).pdf"
           }
         },
         "f028387c-1b80-4f6c-b534-be378c70ba6c": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Coriolus.png",
+            "image": "shopify://shop_images/Coriolus.png",
             "caption": "",
             "heading": "Coriolus",
-            "text": "<p>Coriolus by MycoHerb is a supplement made from Coriolus or Turkey Tail. It serves as a potent tonic for the immune system, respiratory system, and supports liver function and vitality<\/p>",
+            "text": "<p>Coriolus by MycoHerb is a supplement made from Coriolus or Turkey Tail. It serves as a potent tonic for the immune system, respiratory system, and supports liver function and vitality</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Coriolus)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Coriolus)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "b2eb6001-565a-42e5-b87e-b67be845f193": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Digestive_Enzymes.png",
+            "image": "shopify://shop_images/Digestive_Enzymes.png",
             "caption": "",
             "heading": "Digestive Enzymes Klaire Labs",
-            "text": "<p>Digestive enzymes by Klaire Labs aid in digesting a wide variety of foods, including protein, fats, carbs, sugar, and fiber†. They can boost nutrient absorption, and relieve occasional indigestion, gas, bloating, and fullness.<\/p>",
+            "text": "<p>Digestive enzymes by Klaire Labs aid in digesting a wide variety of foods, including protein, fats, carbs, sugar, and fiber†. They can boost nutrient absorption, and relieve occasional indigestion, gas, bloating, and fullness.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Digestive+Enzymes)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Digestive+Enzymes)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "749b3a70-a57a-4cfa-b978-ef621235b177": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eicosamax_tg_liquid.png",
+            "image": "shopify://shop_images/eicosamax_tg_liquid.png",
             "caption": "",
             "heading": "Eicosamax TG Liquid",
-            "text": "<p>Eicosamax TG Liquid offers concentrated omega-3 EPA and DHA in triglyceride form from fish oil. It aids in maintaining a balanced  inflammatory response, supports healthy triglyceride metabolism, and promotes overall heart, joint, skin, brain, and nerve function.<\/p>",
+            "text": "<p>Eicosamax TG Liquid offers concentrated omega-3 EPA and DHA in triglyceride form from fish oil. It aids in maintaining a balanced  inflammatory response, supports healthy triglyceride metabolism, and promotes overall heart, joint, skin, brain, and nerve function.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Eicosamax+TG+Liquid)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Eicosamax+TG+Liquid)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "template--14921793437761__2267ea56-2668-4f99-82d1-3f190c5d2561-row-2": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EICOSAMAX_TG_LIQUID_2.png",
+            "image": "shopify://shop_images/EICOSAMAX_TG_LIQUID_2.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/fidospore-by-microlabs-digestive-probiotic-for-pets\" target=\"_blank\" title=\"Shop Fidospore\">Fidospore<\/a>",
-            "text": "<p>Fidospore by Microlabs is digestive probiotic designed to support digestive health and reduce leaky gut in dogs. This probiotic can restore the balance of healthy gut bacteria in your pet’s digestive system.<\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/fidospore-by-microlabs-digestive-probiotic-for-pets\" target=\"_blank\" title=\"Shop Fidospore\">Fidospore</a>",
+            "text": "<p>Fidospore by Microlabs is digestive probiotic designed to support digestive health and reduce leaky gut in dogs. This probiotic can restore the balance of healthy gut bacteria in your pet’s digestive system.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Fidospore).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Fidospore).pdf"
           }
         },
         "775028c6-b366-4ab2-8907-60b8db801a97": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FINEST_PURE_FISH_OIL.png",
+            "image": "shopify://shop_images/FINEST_PURE_FISH_OIL.png",
             "caption": "",
             "heading": "Finest Pure Fish Oil",
-            "text": "<p>Finest Pure Fish Oil is a distinctive combination of sardine and anchovy oils designed to specifically promote cognitive health and brain function, as well as sustain overall cardiovascular well-being<\/p>",
+            "text": "<p>Finest Pure Fish Oil is a distinctive combination of sardine and anchovy oils designed to specifically promote cognitive health and brain function, as well as sustain overall cardiovascular well-being</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Finest+Pure+Fish+Oil)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Finest+Pure+Fish+Oil)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "d99b9371-2592-424e-8a51-1946019a8e25": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Free_and_Easy_Wanderer_96382f29-9fcb-4ce4-b1ef-1af2e1d0db0d.png",
+            "image": "shopify://shop_images/Free_and_Easy_Wanderer_96382f29-9fcb-4ce4-b1ef-1af2e1d0db0d.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/free-and-easy-wanderer-2-oz\" target=\"_blank\" title=\"Shop Free and Easy Wanderer\">Free and Easy Wanderer<\/a>",
-            "text": "<p>Free and Easy Wanderer is the classic formula to help support the Liver in Traditional Chinese Medicine. It helps to course the Liver, reducing irascibility, smoothing the flow of Qi and Blood in the body. <\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/free-and-easy-wanderer-2-oz\" target=\"_blank\" title=\"Shop Free and Easy Wanderer\">Free and Easy Wanderer</a>",
+            "text": "<p>Free and Easy Wanderer is the classic formula to help support the Liver in Traditional Chinese Medicine. It helps to course the Liver, reducing irascibility, smoothing the flow of Qi and Blood in the body. </p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Free+and+Easy+Wanderer).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Free+and+Easy+Wanderer).pdf"
           }
         },
         "2b689d5c-005f-4160-bc12-cbd1b2f403a4": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gaia_Milk_Thistle.png",
+            "image": "shopify://shop_images/Gaia_Milk_Thistle.png",
             "caption": "",
             "heading": "Gaia Milk Thistle",
-            "text": "<p>Gaia Milk Thistle offers daily support with Organic Milk Thistle (Silybum marianum) seed extract to help maintain a healthy liver and promote general well-being<\/p>",
+            "text": "<p>Gaia Milk Thistle offers daily support with Organic Milk Thistle (Silybum marianum) seed extract to help maintain a healthy liver and promote general well-being</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Gaia+Milk+Thistle)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Gaia+Milk+Thistle)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "23299a20-f14b-497b-9ad1-641e47273907": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gaia_Turmeric_Supreme_-_Curcuma_NF-KB.png",
+            "image": "shopify://shop_images/Gaia_Turmeric_Supreme_-_Curcuma_NF-KB.png",
             "caption": "",
             "heading": "Gaia Turmeric Supreme - Curcuma NF-KB",
-            "text": "<p>GAIA's Supreme Turmeric Supplement consists of a proprietary blend of a powerful whole plant profile of Turmeric’s valuable properties. Curcumin, known for its powerful anti-inflammatory properties and antioxidant.<\/p>",
+            "text": "<p>GAIA's Supreme Turmeric Supplement consists of a proprietary blend of a powerful whole plant profile of Turmeric’s valuable properties. Curcumin, known for its powerful anti-inflammatory properties and antioxidant.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(CurCuma+NF-kB)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(CurCuma+NF-kB)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "2bb67f8a-290b-4427-9269-56923fd780e5": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Heartburn_Tx.png",
+            "image": "shopify://shop_images/Heartburn_Tx.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/heartburn-tx-218-gms-7-6-oz\" target=\"_blank\" title=\"Shop Heartburn Tx\">Heartburn Tx<\/a>",
-            "text": "<p>Heartburn Tx Powder contains nutrients to reduce inflammation in the intestines, and the raw materials to help healthy new enterocytes (cells of the intestine) grow and restore normal gut function. <\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/heartburn-tx-218-gms-7-6-oz\" target=\"_blank\" title=\"Shop Heartburn Tx\">Heartburn Tx</a>",
+            "text": "<p>Heartburn Tx Powder contains nutrients to reduce inflammation in the intestines, and the raw materials to help healthy new enterocytes (cells of the intestine) grow and restore normal gut function. </p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Heartburn+Tx).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Heartburn+Tx).pdf"
           }
         },
         "33395312-b509-4c26-9a36-934a4a39f592": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hista_Pawz.png",
+            "image": "shopify://shop_images/Hista_Pawz.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/herbal-allergy-supplement-for-cats-and-dogs\" target=\"_blank\" title=\"Shop Hista Paws\">Hista Paws<\/a>",
-            "text": "<p>Hista Paws with Quercetin and Nettles is allergy supplement is specially formulated for cats and dogs, and contains a powerful blend of natural ingredients that work together to soothe and relieve allergy symptoms.<\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/herbal-allergy-supplement-for-cats-and-dogs\" target=\"_blank\" title=\"Shop Hista Paws\">Hista Paws</a>",
+            "text": "<p>Hista Paws with Quercetin and Nettles is allergy supplement is specially formulated for cats and dogs, and contains a powerful blend of natural ingredients that work together to soothe and relieve allergy symptoms.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Hista-Paws).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Hista-Paws).pdf"
           }
         },
         "d61e894d-f651-4647-b20e-8046c2f1281f": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Holistic_Total_Body_Support.png",
+            "image": "shopify://shop_images/Holistic_Total_Body_Support.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/holistic-total-body-support-for-cats-and-dogs-glandular-supplements\" target=\"_blank\" title=\"Shop Holistic Total Body Support\">Holistic Total Body Support<\/a>",
-            "text": "<p>Holistic Total Body Support for Cats & Dogs is a premium pet multivitamins designed to support your pet's overall health and wellness. <\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/holistic-total-body-support-for-cats-and-dogs-glandular-supplements\" target=\"_blank\" title=\"Shop Holistic Total Body Support\">Holistic Total Body Support</a>",
+            "text": "<p>Holistic Total Body Support for Cats & Dogs is a premium pet multivitamins designed to support your pet's overall health and wellness. </p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Holistic+Total+Body+Support).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Holistic+Total+Body+Support).pdf"
           }
         },
         "9e362630-e458-4103-a1a5-3a6f800aa0c4": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Iceland_Pure_fish_oil.png",
+            "image": "shopify://shop_images/Iceland_Pure_fish_oil.png",
             "caption": "",
             "heading": "Iceland Pure Sardine Anchovy Oil",
-            "text": "<p>Iceland Pure offers Sardine, Anchovy, Salmon Oil, a wild-caught fish oil for dogs and cats. It is rich in Omega-3 fatty acids and is BPA-Free.<\/p>",
+            "text": "<p>Iceland Pure offers Sardine, Anchovy, Salmon Oil, a wild-caught fish oil for dogs and cats. It is rich in Omega-3 fatty acids and is BPA-Free.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Iceland+Premier+Fish+Anchovy)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Iceland+Premier+Fish+Anchovy)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "084a727d-5387-4028-961e-9e348cf22c89": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Invigorate_the_collaterals.png",
+            "image": "shopify://shop_images/Invigorate_the_collaterals.png",
             "caption": "",
             "heading": "Invigorate the Collaterals - Kan Traditional",
-            "text": "<p>Kan Traditional's 'Invigorate the Collaterals' is a Chinese herbal <br\/>remedy aim to address a wide range of conditions, from chronic and acute pain disorders to traumatic injuries, providing relief across the body.<\/p>",
+            "text": "<p>Kan Traditional's 'Invigorate the Collaterals' is a Chinese herbal <br/>remedy aim to address a wide range of conditions, from chronic and acute pain disorders to traumatic injuries, providing relief across the body.</p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Invigorate+the+Collaterals)+-+NOT+AVAILABLE+ON+STORE.pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Invigorate+the+Collaterals)+-+NOT+AVAILABLE+ON+STORE.pdf"
           }
         },
         "9a750eda-a171-4fe7-9e37-769a27b9dbc4": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jarrow_Milk_Thistle.png",
+            "image": "shopify://shop_images/Jarrow_Milk_Thistle.png",
             "caption": "",
-            "heading": "<a href=\"https:\/\/drruthroberts.com\/products\/milk-thistle-150-mg-200-caps\" target=\"_blank\" title=\"https:\/\/drruthroberts.com\/products\/milk-thistle-150-mg-200-caps\">Jarrow Milk Thistle<\/a>",
-            "text": "<p>Jarrow Milk Thistle is known to help support the liver from previous damage and can protect against toxins. Studies have shown Milk Thistle reduces liver inflammation and liver damage in patients with liver diseases. <\/p>",
+            "heading": "<a href=\"https://drruthroberts.com/products/milk-thistle-150-mg-200-caps\" target=\"_blank\" title=\"https://drruthroberts.com/products/milk-thistle-150-mg-200-caps\">Jarrow Milk Thistle</a>",
+            "text": "<p>Jarrow Milk Thistle is known to help support the liver from previous damage and can protect against toxins. Studies have shown Milk Thistle reduces liver inflammation and liver damage in patients with liver diseases. </p>",
             "button_label": "Download Dosing Instruction",
-            "button_link": "https:\/\/memberareapdf.s3.us-west-2.amazonaws.com\/DRR+-+PD+(Jarrow+Milk+Thistle).pdf"
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/DRR+-+PD+(Jarrow+Milk+Thistle).pdf"
           }
         }
       },
@@ -306,11 +306,11 @@
       "type": "custom-liquid",
       "custom_css": [
         ".pagination {font-family: \"Josefin Sans\", sans-serif; text-align: center;}",
-        ".pagination a {color: #006400; font-size: 16px; \/* Adjust font size as needed *\/ margin: 0 5px; \/* Add margin for spacing *\/ text-decoration: none;}",
+        ".pagination a {color: #006400; font-size: 16px; /* Adjust font size as needed */ margin: 0 5px; /* Add margin for spacing */ text-decoration: none;}",
         ".pagination a:hover {text-decoration: underline;}"
       ],
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Pagination Style<\/title>\n    <link href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            font-family: 'Josefin Sans', sans-serif;\n        }\n        .pagination {\n            text-align: center;\n        }\n        .page-link {\n            display: inline-block;\n            padding: 5px 10px;\n            margin: 0 5px;\n            background-color: #f1f1f1;\n            text-decoration: none;\n            border-radius: 5px;\n        }\n        .page-link:hover {\n            background-color: #ddd;\n        }\n    <\/style>\n<\/head>\n<body>\n    <div class=\"pagination\">\n      <div class=\"pagination\">\n  <a href=\"\/pages\/dosing-instructions\" class=\"page-link active\">1<\/a>\n  <a href=\"\/pages\/dosing-instructions-page-2\" class=\"page-link\">2<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
+        "custom_liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Pagination Style</title>\n    <link href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap\" rel=\"stylesheet\">\n    <style>\n        body {\n            font-family: 'Josefin Sans', sans-serif;\n        }\n        .pagination {\n            text-align: center;\n        }\n        .page-link {\n            display: inline-block;\n            padding: 5px 10px;\n            margin: 0 5px;\n            background-color: #f1f1f1;\n            text-decoration: none;\n            border-radius: 5px;\n        }\n        .page-link:hover {\n            background-color: #ddd;\n        }\n    </style>\n</head>\n<body>\n    <div class=\"pagination\">\n      <div class=\"pagination\">\n  <a href=\"/pages/dosing-instructions\" class=\"page-link active\">1</a>\n  <a href=\"/pages/dosing-instructions-page-2\" class=\"page-link\">2</a>\n</div>\n\n</body>\n</html>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52

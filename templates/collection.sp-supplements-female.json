@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -28,7 +37,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Use Code GRANDMOM for 15% Off!",
-            "button_link_1": "https:\/\/drruthroberts.com\/collections\/womens-health#product-grid"
+            "button_link_1": "https://drruthroberts.com/collections/womens-health#product-grid"
           }
         }
       },
@@ -42,7 +51,7 @@
         ".rx_banner__heading {font-size: 2.5em;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_4325_1.jpg",
+        "image": "shopify://shop_images/IMG_4325_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -64,13 +73,13 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>"
+            "heading": "<p>Talk about your brand</p>"
           }
         },
         "text_TJGLQy": {
           "type": "text",
           "settings": {
-            "text": "<p>Let's celebrate the incredible women in our lives! Giving a gift that makes them feel good shows how important their health and happiness are.<\/p>"
+            "text": "<p>Let's celebrate the incredible women in our lives! Giving a gift that makes them feel good shows how important their health and happiness are.</p>"
           }
         },
         "button_rN8VDn": {
@@ -111,7 +120,7 @@
         "slide_kekqHU": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/850_x_950_650_x_700_px.png",
+            "image": "shopify://shop_images/850_x_950_650_x_700_px.png",
             "height": "adapt",
             "desktop_image_width": "medium",
             "layout": "image_first",
@@ -123,15 +132,15 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "left",
             "heading": "Balance the Hormones",
-            "description": "<p>Motherhood brings profound hormonal shifts that can impact your well-being. Standard Process endocrine supplement is crafted to support these changes, ensuring hormonal balance and enhancing your overall health. Ideal for busy moms, this supplement helps stabilize mood, boost energy, and promote recovery, helping you feel your best every day.<\/p>",
+            "description": "<p>Motherhood brings profound hormonal shifts that can impact your well-being. Standard Process endocrine supplement is crafted to support these changes, ensuring hormonal balance and enhancing your overall health. Ideal for busy moms, this supplement helps stabilize mood, boost energy, and promote recovery, helping you feel your best every day.</p>",
             "button_label": "Buy Now",
-            "button_link": "https:\/\/drruthroberts.com\/products\/standardprocess-general-female-endocrine-pack-13030"
+            "button_link": "https://drruthroberts.com/products/standardprocess-general-female-endocrine-pack-13030"
           }
         },
         "slide_wXHdBt": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/folic-acid-b12-SP_main_1.jpg",
+            "image": "shopify://shop_images/folic-acid-b12-SP_main_1.jpg",
             "height": "adapt",
             "desktop_image_width": "medium",
             "layout": "image_first",
@@ -143,15 +152,15 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "left",
             "heading": "Folic Acid for Expectant Mothers",
-            "description": "<p>Folic acid and vitamin B12 are essential for expectant mothers, promoting cellular health and supporting fetal nervous system development. These nutrients aid in healthy cell production, regulate homocysteine levels for vascular function, and are crucial for DNA replication. This supplement is a rich source of folate and vitamin B12, helping to reduce the risk of neural tube defects. Start strong with our trusted folic acid and vitamin B12 supplement for a healthier pregnancy.<\/p>",
+            "description": "<p>Folic acid and vitamin B12 are essential for expectant mothers, promoting cellular health and supporting fetal nervous system development. These nutrients aid in healthy cell production, regulate homocysteine levels for vascular function, and are crucial for DNA replication. This supplement is a rich source of folate and vitamin B12, helping to reduce the risk of neural tube defects. Start strong with our trusted folic acid and vitamin B12 supplement for a healthier pregnancy.</p>",
             "button_label": "Buy Now",
-            "button_link": "https:\/\/drruthroberts.com\/products\/standardprocess-folic-acid-b12-4410"
+            "button_link": "https://drruthroberts.com/products/standardprocess-folic-acid-b12-4410"
           }
         },
         "slide_amDqrW": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vitamin_D.png",
+            "image": "shopify://shop_images/vitamin_D.png",
             "height": "adapt",
             "desktop_image_width": "medium",
             "layout": "image_first",
@@ -163,9 +172,9 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "left",
             "heading": "Vital Vitamin D",
-            "description": "<p>Vitamin D is vital for calcium absorption, which is important for maintaining strong bones and minimize the risk of osteoporosis, a condition that women are more prone to, especially post-menopause. Vitamin D also supports immune function and may help regulate mood, which is beneficial for mothers who may be at risk of postpartum depression.<\/p>",
+            "description": "<p>Vitamin D is vital for calcium absorption, which is important for maintaining strong bones and minimize the risk of osteoporosis, a condition that women are more prone to, especially post-menopause. Vitamin D also supports immune function and may help regulate mood, which is beneficial for mothers who may be at risk of postpartum depression.</p>",
             "button_label": "Buy Now",
-            "button_link": "https:\/\/drruthroberts.com\/products\/standardprocess-cataplex-d-3405"
+            "button_link": "https://drruthroberts.com/products/standardprocess-cataplex-d-3405"
           }
         }
       },
@@ -188,13 +197,13 @@
         "heading_PiYpWq": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Grandmother's Day Care Package<\/p>"
+            "heading": "<p>Grandmother's Day Care Package</p>"
           }
         },
         "text_jL7tfY": {
           "type": "text",
           "settings": {
-            "text": "<p>Standard Process and Dr. Ruth Roberts share visions to advance health through a holistic approach, focusing on supporting the body’s interconnected systems rather than just treating symptoms. These supplements are specially curated collections aimed at enhancing women's health, providing comprehensive support for wellness and vitality. Shop now to experience the benefits of our holistic approach to women's health.<\/p>"
+            "text": "<p>Standard Process and Dr. Ruth Roberts share visions to advance health through a holistic approach, focusing on supporting the body’s interconnected systems rather than just treating symptoms. These supplements are specially curated collections aimed at enhancing women's health, providing comprehensive support for wellness and vitality. Shop now to experience the benefits of our holistic approach to women's health.</p>"
           }
         }
       },
@@ -242,7 +251,7 @@
         "heading_LCytme": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Standard Process<\/p>"
+            "heading": "<p>Standard Process</p>"
           }
         },
         "caption_7Rzziq": {
@@ -255,7 +264,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -264,9 +273,7 @@
         "caption_7Rzziq",
         "text_yqihqP"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -284,7 +291,7 @@
         "16451381268ca1da6a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Standard Process is a multi-generational, family-owned and operated, nutritional supplement company for over 90 years. Dr. Royal Lee, the Founder recognized the negative impact the Standard American Diet had on overall health. He believed that processed foods depleted our food sources of the rich nutrition once found in them.<\/p><p>Dr. Lee dedicated his life to perfecting the production of whole-food-based supplements from the soil used to grow crops to the manufacturing processes used to create the supplement – Standard Process has always focused on putting vitality into every bottle.<\/p>"
+            "text": "<p>Standard Process is a multi-generational, family-owned and operated, nutritional supplement company for over 90 years. Dr. Royal Lee, the Founder recognized the negative impact the Standard American Diet had on overall health. He believed that processed foods depleted our food sources of the rich nutrition once found in them.</p><p>Dr. Lee dedicated his life to perfecting the production of whole-food-based supplements from the soil used to grow crops to the manufacturing processes used to create the supplement – Standard Process has always focused on putting vitality into every bottle.</p>"
           }
         },
         "16451381268ca1da6a-2": {
@@ -384,14 +391,14 @@
         "text_88DDQd": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call\/text at +213 394 2923 \/ email drruthroberts@drruthroberts.com<\/strong><\/p>"
+            "text": "<p><strong>If you need help with selecting products for specific conditions, please don’t hesitate to contact us via call/text at +213 394 2923 / email drruthroberts@drruthroberts.com</strong></p>"
           }
         },
         "button_MzCRzJ": {
           "type": "button",
           "settings": {
             "button_label": "Contact Us",
-            "button_link": "https:\/\/drruthroberts.com\/pages\/contact-us",
+            "button_link": "https://drruthroberts.com/pages/contact-us",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",

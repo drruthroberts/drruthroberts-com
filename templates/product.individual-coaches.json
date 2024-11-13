@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "text",
@@ -17,8 +25,7 @@
         },
         "751d134f-73fe-4141-86b2-938f1aeacb83": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "63eb6a33-9210-4994-aabb-11abe973fd69": {
           "type": "custom_liquid",
@@ -41,7 +48,7 @@
             "ingredients_content": "{{ product.metafields.custom.revamp_ingredients | metafield_tag }}",
             "instructions_content": "{{ product.metafields.custom.revamp_instruction | metafield_tag }}",
             "instructions_content_image": "{{ product.metafields.custom.revamp_instruction_image.value }}",
-            "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
+            "shipping_content": "<p>Standard Shipping 3-5 business days</p>"
           }
         },
         "87b6800d-0639-4f48-b6fd-18848b047f30": {
@@ -60,9 +67,7 @@
         "c50958db-6d62-42c8-8a47-729c390a856f",
         "87b6800d-0639-4f48-b6fd-18848b047f30"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "enable_sticky_info": false,
         "media_size": "small",
@@ -80,8 +85,7 @@
     },
     "39913493-0614-47e8-91ba-767b9479a307": {
       "type": "rx-review",
-      "settings": {
-      }
+      "settings": {}
     },
     "0160467d-6f81-456d-840c-d702483cbcf3": {
       "type": "rx-rich-text",
@@ -89,7 +93,7 @@
         "template--14911504744513__0160467d-6f81-456d-840c-d702483cbcf3-1681971976dda4d2d8-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>You may also like<\/p>"
+            "heading": "<p>You may also like</p>"
           }
         }
       },
@@ -111,7 +115,7 @@
       "type": "apps",
       "blocks": {
         "ecef0dd1-fa9c-413a-aa90-4bd5bbd8294d": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
             "id": "84689",
@@ -158,7 +162,7 @@
         "2710cfd8-d296-47f6-99ee-3c193be58794": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our courses<\/p>"
+            "heading": "<p>Our courses</p>"
           }
         }
       },
@@ -230,7 +234,7 @@
     "f0fe83ad-a162-42c0-88e5-a0d53d22abb2": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<style>\n.product-form__buttons button span:before {\n  content: \"Book A Consult\";\n  font-size: 14px;\n  margin-left: 40px;\n}\n.product-form__buttons button span {\n  font-size: 0;\n}\nbutton svg {\n  display: none !important;\n}\n<\/style>",
+        "custom_liquid": "<style>\n.product-form__buttons button span:before {\n  content: \"Book A Consult\";\n  font-size: 14px;\n  margin-left: 40px;\n}\n.product-form__buttons button span {\n  font-size: 0;\n}\nbutton svg {\n  display: none !important;\n}\n</style>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52

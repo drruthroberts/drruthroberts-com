@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -29,13 +36,11 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "b5aa1bf5-4a86-4b19-872d-4e4655121ae8": {
           "type": "text",
@@ -69,7 +74,7 @@
         "de5b580a-4af6-4649-b73a-1c3435f66540": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- Stamped - Begin Star Rating Badge -->\n<span \nclass=\"stamped-product-reviews-badge stamped-main-badge\" \ndata-id=\"{{ product.id }}\" \ndata-product-sku=\"{{ product.handle }}\" \ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\" \nstyle=\"display: block;\">\n{{product.metafields.stamped.badge}}\n<\/span>\n<!-- Stamped - End Star Rating Badge --><br>"
+            "custom_liquid": "<!-- Stamped - Begin Star Rating Badge -->\n<span \nclass=\"stamped-product-reviews-badge stamped-main-badge\" \ndata-id=\"{{ product.id }}\" \ndata-product-sku=\"{{ product.handle }}\" \ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\" \nstyle=\"display: block;\">\n{{product.metafields.stamped.badge}}\n</span>\n<!-- Stamped - End Star Rating Badge --><br>"
           }
         },
         "share": {
@@ -84,7 +89,7 @@
           "settings": {
             "heading": "{{ product.metafields.my_fields._1_badge_text_4.value }}",
             "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.my_fields._2_image_with_text_description | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._2_image_with_text_description | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -93,7 +98,7 @@
           "settings": {
             "heading": "{{ product.metafields.my_fields._1_badge_text_3.value }}",
             "icon": "clipboard",
-            "content": "<p>{{ product.metafields.my_fields._1_image_with_text_description | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._1_image_with_text_description | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -102,7 +107,7 @@
           "settings": {
             "heading": "{{ product.metafields.my_fields._2_image_with_text_top_title.value }}",
             "icon": "lock",
-            "content": "<p>{{ product.metafields.my_fields._1_video_description | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._1_video_description | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -148,18 +153,19 @@
     },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Talk about your brand</p>",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -167,7 +173,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -177,12 +182,13 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -191,7 +197,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -200,7 +206,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -209,7 +215,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -221,7 +227,6 @@
         "column-2",
         "column-3"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -245,7 +250,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -255,6 +260,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -266,13 +272,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -280,8 +285,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

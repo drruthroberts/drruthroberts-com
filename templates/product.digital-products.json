@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,19 +21,17 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "de5b580a-4af6-4649-b73a-1c3435f66540": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<!-- Stamped - Begin Star Rating Badge -->\n<span \nclass=\"stamped-product-reviews-badge stamped-main-badge\" \ndata-id=\"{{ product.id }}\" \ndata-product-sku=\"{{ product.handle }}\" \ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\" \nstyle=\"display: block;\">\n{{product.metafields.stamped.badge}}\n<\/span>\n<!-- Stamped - End Star Rating Badge --><br>"
+            "custom_liquid": "<!-- Stamped - Begin Star Rating Badge -->\n<span \nclass=\"stamped-product-reviews-badge stamped-main-badge\" \ndata-id=\"{{ product.id }}\" \ndata-product-sku=\"{{ product.handle }}\" \ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\" \nstyle=\"display: block;\">\n{{product.metafields.stamped.badge}}\n</span>\n<!-- Stamped - End Star Rating Badge --><br>"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -34,18 +41,16 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "14348abd-e644-4ec8-b853-f7d60c2104f6": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"thinkific-product-card\" data-btn-txt=\"Enroll Now\" data-btn-txt-color=\"#ffffff\" data-btn-bg-color=\"#08708a\" data-card-type=\"button\" data-link-type=\"checkout\" data-product=\"2114735\" data-embed-version=\"0.0.2\" data-store-url=\"https:\/\/courses.drruthroberts.com\/embeds\/products\/show\"><div class=\"iframe-container\"><\/div><script type=\"text\/javascript\">document.getElementById(\"thinkific-product-embed\") || document.write('<script id=\"thinkific-product-embed\" type=\"text\/javascript\" src=\"https:\/\/assets.thinkific.com\/js\/embeds\/product-cards-client.min.js\"><\\\/script>');<\/script><noscript><a href=\"https:\/\/courses.drruthroberts.com\/enroll\/2114735?et=free\" target=\"_blank\">Enroll Now<\/a><\/noscript><\/div>"
+            "custom_liquid": "<div class=\"thinkific-product-card\" data-btn-txt=\"Enroll Now\" data-btn-txt-color=\"#ffffff\" data-btn-bg-color=\"#08708a\" data-card-type=\"button\" data-link-type=\"checkout\" data-product=\"2114735\" data-embed-version=\"0.0.2\" data-store-url=\"https://courses.drruthroberts.com/embeds/products/show\"><div class=\"iframe-container\"></div><script type=\"text/javascript\">document.getElementById(\"thinkific-product-embed\") || document.write('<script id=\"thinkific-product-embed\" type=\"text/javascript\" src=\"https://assets.thinkific.com/js/embeds/product-cards-client.min.js\"><\\/script>');</script><noscript><a href=\"https://courses.drruthroberts.com/enroll/2114735?et=free\" target=\"_blank\">Enroll Now</a></noscript></div>"
           }
         },
         "buy_buttons": {
@@ -75,7 +80,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "plant",
-            "content": "<p>{{ product.metafields.my_fields._1_badge_text_4.value }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._1_badge_text_4.value }}</p>",
             "page": ""
           }
         },
@@ -85,7 +90,7 @@
           "settings": {
             "heading": "Direction for Use",
             "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}</p>",
             "page": ""
           }
         },
@@ -95,7 +100,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "content": "<p>Standard Shipping 3-5 business days<\/p>",
+            "content": "<p>Standard Shipping 3-5 business days</p>",
             "page": ""
           }
         },
@@ -176,7 +181,7 @@
         "16546271729178397c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tocpddbanner_1440_x_560_px.jpg",
+        "image": "shopify://shop_images/tocpddbanner_1440_x_560_px.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -191,7 +196,7 @@
     "16546275057c091ee6": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n<\/div>\n<!-- Stamped - End Main Widget -->",
+        "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n</div>\n<!-- Stamped - End Main Widget -->",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -199,18 +204,19 @@
     },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Talk about your brand</p>",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -218,7 +224,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -264,7 +269,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -299,7 +304,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -309,6 +314,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -320,13 +326,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -334,8 +339,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

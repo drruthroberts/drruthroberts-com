@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -27,15 +36,15 @@
       "settings": {
         "blog_title": "Product Review",
         "show_image": true,
-        "podcasts_url": "shopify:\/\/blogs\/podcast-1",
+        "podcasts_url": "shopify://blogs/podcast-1",
         "podcasts": "Podcasts",
-        "product_reviews_url": "shopify:\/\/blogs\/product-review",
+        "product_reviews_url": "shopify://blogs/product-review",
         "product_reviews": "Product Reviews",
         "video_url": "#",
-        "video": "Video\/Webinars",
+        "video": "Video/Webinars",
         "downloadable_url": "#",
         "downloadable": "Downloadable",
-        "quiz_url": "shopify:\/\/pages\/spay-neuter-syndrome-quiz",
+        "quiz_url": "shopify://pages/spay-neuter-syndrome-quiz",
         "quiz": "Quiz",
         "image_height": "medium",
         "show_date": true,
@@ -57,14 +66,14 @@
         "text_Gxcjag": {
           "type": "text",
           "settings": {
-            "text": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.<\/p>"
+            "text": "<p>Helping others learn how to make the lifestyle changes their pets desperately need, using protocols, education, and information that’s proven to bring massive change to our pet’s quality of life — and pet owner’s quality of life.</p>"
           }
         },
         "button_qPq8UD": {
           "type": "button",
           "settings": {
             "button_label": "learn more",
-            "button_link": "shopify:\/\/pages\/ruth-story"
+            "button_link": "shopify://pages/ruth-story"
           }
         }
       },
@@ -74,7 +83,7 @@
         "button_qPq8UD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/cta-banner.png",
+        "image": "shopify://shop_images/cta-banner.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

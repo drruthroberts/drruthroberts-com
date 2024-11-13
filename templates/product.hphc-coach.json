@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,16 +21,14 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "751d134f-73fe-4141-86b2-938f1aeacb83": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "0dd44047-53bd-4401-b151-a60aa1b52a8d": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
           "disabled": true,
           "settings": {
             "product": "{{ product }}"
@@ -30,8 +37,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -44,7 +50,7 @@
         "c50958db-6d62-42c8-8a47-729c390a856f": {
           "type": "rx_product_tab",
           "settings": {
-            "Coach_Specialty": "<p>{{ product.metafields.custom.coach_specialty | metafield_tag }}<\/p>",
+            "Coach_Specialty": "<p>{{ product.metafields.custom.coach_specialty | metafield_tag }}</p>",
             "Contact_Information": "",
             "shipping_content": ""
           }
@@ -58,7 +64,7 @@
         "880a5ead-be28-4912-b9d7-5a90d320fa21": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div> \n<p> Book a Consultation: <\/p>\n<\/div> \n\n<style>\ndiv p {\n  font-weight: normal;\n}\n<\/style>"
+            "custom_liquid": "<div> \n<p> Book a Consultation: </p>\n</div> \n\n<style>\ndiv p {\n  font-weight: normal;\n}\n</style>"
           }
         },
         "book_a_consult_AMMVHj": {
@@ -105,8 +111,7 @@
     },
     "39913493-0614-47e8-91ba-767b9479a307": {
       "type": "rx-review",
-      "settings": {
-      }
+      "settings": {}
     },
     "0160467d-6f81-456d-840c-d702483cbcf3": {
       "type": "rx-rich-text",
@@ -114,7 +119,7 @@
         "template--14911504744513__0160467d-6f81-456d-840c-d702483cbcf3-1681971976dda4d2d8-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>See more coachs<\/p>"
+            "heading": "<p>See more coachs</p>"
           }
         }
       },
@@ -163,7 +168,7 @@
       "type": "apps",
       "blocks": {
         "ecef0dd1-fa9c-413a-aa90-4bd5bbd8294d": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
             "id": "84689",
@@ -211,7 +216,7 @@
         "2710cfd8-d296-47f6-99ee-3c193be58794": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our courses<\/p>"
+            "heading": "<p>Our courses</p>"
           }
         }
       },
@@ -287,21 +292,21 @@
           "type": "FAQ",
           "settings": {
             "title": "{{ product.metafields.custom.faq1.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a1 | metafield_tag }}<\/p>"
+            "detail": "<p>{{ product.metafields.custom.faq_a1 | metafield_tag }}</p>"
           }
         },
         "faq_Wf66tj": {
           "type": "FAQ",
           "settings": {
             "title": "{{ product.metafields.custom.faq2.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a2 | metafield_tag }}<\/p>"
+            "detail": "<p>{{ product.metafields.custom.faq_a2 | metafield_tag }}</p>"
           }
         },
         "faq_49gTVU": {
           "type": "FAQ",
           "settings": {
             "title": "{{ product.metafields.custom.faq3.value }}",
-            "detail": "<p>{{ product.metafields.custom.faq_a3 | metafield_tag }}<\/p>"
+            "detail": "<p>{{ product.metafields.custom.faq_a3 | metafield_tag }}</p>"
           }
         }
       },
@@ -310,9 +315,7 @@
         "faq_Wf66tj",
         "faq_49gTVU"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "FAQ",
         "desc": ""

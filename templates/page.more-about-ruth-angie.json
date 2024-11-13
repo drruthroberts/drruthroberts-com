@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -46,7 +55,7 @@
         "template--14862445903937__1c1bb42e-678a-4749-a630-0551d2dfc307-1672417482191de6fb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pure_and_Real_products_for_your_pet._1.png",
+        "image": "shopify://shop_images/Pure_and_Real_products_for_your_pet._1.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -96,7 +105,7 @@
         "template--14862445903937__d92cc7f3-48a9-452b-adca-2c0adace20c8-1672417482191de6fb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Pet_Health_Coaching_2.png",
+        "image": "shopify://shop_images/Pet_Health_Coaching_2.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -121,7 +130,7 @@
         "template--14862445903937__d988c66d-f9fd-48b3-9b1a-59550a04931c-16724175315285a5c6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Roberts is America’s Most loved Pet Health Coach, and has supported thousands of dogs and cats to overcome health hurdles like kidney disease, GI Illness, allergies, cancer. Her natural approach to healing creates a gentle yet effective path for your pet to take on their journey to wellbeing. Dr. Ruth created The Original CrockPet Diet, a balanced home cooked diet for pets, as the foundation of health. Dr. Ruth is now training passionate pet parents, and pet professionals to be Certified Holistic Pet Health Coaches so that more pets can be helped holistically.<\/p>",
+            "text": "<p>Dr. Ruth Roberts is America’s Most loved Pet Health Coach, and has supported thousands of dogs and cats to overcome health hurdles like kidney disease, GI Illness, allergies, cancer. Her natural approach to healing creates a gentle yet effective path for your pet to take on their journey to wellbeing. Dr. Ruth created The Original CrockPet Diet, a balanced home cooked diet for pets, as the foundation of health. Dr. Ruth is now training passionate pet parents, and pet professionals to be Certified Holistic Pet Health Coaches so that more pets can be helped holistically.</p>",
             "text_style": "body"
           }
         },
@@ -140,7 +149,7 @@
         "template--14862445903937__d988c66d-f9fd-48b3-9b1a-59550a04931c-16724175315285a5c6-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Ruth_Roberts_Bio_Circle.png",
+        "image": "shopify://shop_images/Ruth_Roberts_Bio_Circle.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -166,7 +175,7 @@
         "template--14862445903937__f6b65136-7528-470f-88f3-55bb41aaf44f-16724175315285a5c6-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Angela Ardolino<\/strong> is a holistic pet expert who has been caring for animals for over 20 years. Angela owns and operates <strong>Fire Flake Farm<\/strong>, her animal rescue farm, as well as two locations of a natural pet salon and shop, <a href=\"https:\/\/beautifythebeast.com\/\" target=\"_blank\">Beautify the Beast<\/a>. She’s also the founder of a high quality, <a href=\"https:\/\/cbddoghealth.com\/\" title=\"https:\/\/cbddoghealth.com\/\">full spectrum pet health product<\/a>. As well as the founder of <a href=\"https:\/\/yournaturaldog.com\/pages\/mycodog-mushrooms\" target=\"_blank\">MycoDog<\/a>, a sustainable mushroom tincture line designed for dogs. Angie's also the host of the <a href=\"https:\/\/angelaardolino.com\/your-natural-dog-podcast-updates\/\" title=\"https:\/\/angelaardolino.com\/your-natural-dog-podcast-updates\/\">Your Natural Dog podcast<\/a> where she brings you weekly updates and interviews with industry leaders and vets.<\/p>",
+            "text": "<p><strong>Angela Ardolino</strong> is a holistic pet expert who has been caring for animals for over 20 years. Angela owns and operates <strong>Fire Flake Farm</strong>, her animal rescue farm, as well as two locations of a natural pet salon and shop, <a href=\"https://beautifythebeast.com/\" target=\"_blank\">Beautify the Beast</a>. She’s also the founder of a high quality, <a href=\"https://cbddoghealth.com/\" title=\"https://cbddoghealth.com/\">full spectrum pet health product</a>. As well as the founder of <a href=\"https://yournaturaldog.com/pages/mycodog-mushrooms\" target=\"_blank\">MycoDog</a>, a sustainable mushroom tincture line designed for dogs. Angie's also the host of the <a href=\"https://angelaardolino.com/your-natural-dog-podcast-updates/\" title=\"https://angelaardolino.com/your-natural-dog-podcast-updates/\">Your Natural Dog podcast</a> where she brings you weekly updates and interviews with industry leaders and vets.</p>",
             "text_style": "body"
           }
         },
@@ -185,7 +194,7 @@
         "template--14862445903937__f6b65136-7528-470f-88f3-55bb41aaf44f-16724175315285a5c6-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Angela_Ardolino_Bio_Circle.png",
+        "image": "shopify://shop_images/Angela_Ardolino_Bio_Circle.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -204,14 +213,14 @@
         "template--14862445903937__a760cfb1-5acd-4e85-896a-0692d094ee8f-1672417531935869ab-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Why we've collaborated<\/p>",
+            "heading": "<p>Why we've collaborated</p>",
             "heading_size": "h1"
           }
         },
         "template--14862445903937__a760cfb1-5acd-4e85-896a-0692d094ee8f-1672417531935869ab-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The way we feed and protect our dogs today is a problem. You know that, we know that, and it’s getting harder and harder for us pet parents to get it right. But having the right tools and community to lean on can make a world of difference when it comes down to caring for your pet.<\/p><p>That’s why we’ve joined forces to create a natural pet health destination (home), you can trust. <\/p><p>Here’s why you’ll want to come back over and over again:<\/p>"
+            "text": "<p>The way we feed and protect our dogs today is a problem. You know that, we know that, and it’s getting harder and harder for us pet parents to get it right. But having the right tools and community to lean on can make a world of difference when it comes down to caring for your pet.</p><p>That’s why we’ve joined forces to create a natural pet health destination (home), you can trust. </p><p>Here’s why you’ll want to come back over and over again:</p>"
           }
         },
         "template--14862445903937__a760cfb1-5acd-4e85-896a-0692d094ee8f-1672417531935869ab-2": {
@@ -243,27 +252,27 @@
           "type": "column",
           "settings": {
             "title": "Health Courses & Certifications",
-            "text": "<p>We're bringing you up-to-date courses and training programs from industry experts. You can sign up and get certified as a Pet Health Course or simply take courses one at a time that directly corolate with your pet's health concerns.<\/p>",
+            "text": "<p>We're bringing you up-to-date courses and training programs from industry experts. You can sign up and get certified as a Pet Health Course or simply take courses one at a time that directly corolate with your pet's health concerns.</p>",
             "link_label": "Start your course",
-            "link": "https:\/\/shop.drruthroberts.com\/collections\/holistic-pet-health-courses-1"
+            "link": "https://shop.drruthroberts.com/collections/holistic-pet-health-courses-1"
           }
         },
         "template--14862445903937__bd31b1cd-f65c-4871-b869-069aae1a8647-167241753197b4cb44-1": {
           "type": "column",
           "settings": {
             "title": "Shop Natural Products... picked by us!",
-            "text": "<p>No more wondering! Every product on this website has been hand-picked, used on our own pets and recommended by Dr. Ruth Roberts and plant & fungi expert Angela Ardolino. We won't give our pet's unnatural or dangerous products, and we won't recommend them either!<\/p>",
+            "text": "<p>No more wondering! Every product on this website has been hand-picked, used on our own pets and recommended by Dr. Ruth Roberts and plant & fungi expert Angela Ardolino. We won't give our pet's unnatural or dangerous products, and we won't recommend them either!</p>",
             "link_label": "Shop Recommended Products",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify://collections/all"
           }
         },
         "template--14862445903937__bd31b1cd-f65c-4871-b869-069aae1a8647-167241753197b4cb44-2": {
           "type": "column",
           "settings": {
             "title": "Regular Content & Updates",
-            "text": "<p>Every week we'll release a new episode of the Your Natural Dog podcast. Each week addresses a new health topic and we're talking to world leading vets and experts all the time. Sign up and join our host, Angie as she dives into the nitty gritty details about diet, cancer, natural health options and more!<\/p>",
+            "text": "<p>Every week we'll release a new episode of the Your Natural Dog podcast. Each week addresses a new health topic and we're talking to world leading vets and experts all the time. Sign up and join our host, Angie as she dives into the nitty gritty details about diet, cancer, natural health options and more!</p>",
             "link_label": "Get every episode",
-            "link": "https:\/\/angelaardolino.com\/your-natural-dog-podcast-updates\/"
+            "link": "https://angelaardolino.com/your-natural-dog-podcast-updates/"
           }
         }
       },

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -10,6 +19,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -21,13 +31,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -35,8 +44,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -44,6 +53,7 @@
     },
     "1655751929e34d4e57": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16557519296bd204f0-0": {
           "type": "featured_collection",
@@ -83,7 +93,6 @@
         "aa1c3c69-2ce2-435d-81c8-18b114024961",
         "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -149,14 +158,14 @@
         "template--14937751814209__6b2946dd-f39e-4224-b59c-2a0d194d9616-168855076682565186-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Why Us?<\/p>",
+            "heading": "<p>Why Us?</p>",
             "heading_size": "h1"
           }
         },
         "template--14937751814209__6b2946dd-f39e-4224-b59c-2a0d194d9616-168855076682565186-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. <\/p>"
+            "text": "<p>Dr. Ruth Roberts’ team of highly trained and certified holistic pet health consultants is here to help you. Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts. </p>"
           }
         },
         "template--14937751814209__6b2946dd-f39e-4224-b59c-2a0d194d9616-168855076682565186-2": {
@@ -192,7 +201,7 @@
           "type": "column",
           "settings": {
             "title": "Expertise",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -201,7 +210,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -210,7 +219,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -219,7 +228,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -228,7 +237,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -250,7 +259,7 @@
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "CHECK OUR CONSULTANTS",
-        "button_link": "shopify:\/\/pages\/coaches-home-page",
+        "button_link": "shopify://pages/coaches-home-page",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -264,14 +273,14 @@
         "template--14937751814209__da26dabf-6762-4369-9f3c-0976a5eded34-168855076682565186-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our Collaboration Approach <\/p>",
+            "heading": "<p>Our Collaboration Approach </p>",
             "heading_size": "h1"
           }
         },
         "template--14937751814209__da26dabf-6762-4369-9f3c-0976a5eded34-168855076682565186-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service <\/p>"
+            "text": "<p>Transform the Health of Your Beloved Pets: Unlock the Secrets to Optimal Well-being for Your Dogs and Cats through Personalized Online Pet Consulting Service </p>"
           }
         },
         "template--14937751814209__da26dabf-6762-4369-9f3c-0976a5eded34-168855076682565186-2": {
@@ -307,7 +316,7 @@
           "type": "column",
           "settings": {
             "title": "1-Select a Pet Consultant",
-            "text": "<p>Browse through our team of dedicated petconsultants and select the one who best fits your needs. Each consultant brings a unique skill set, experience, and specialization in holistic pet care. Take into account their expertise and areas of focus to find the perfect match for your pet's specific requirements.<\/p>",
+            "text": "<p>Browse through our team of dedicated petconsultants and select the one who best fits your needs. Each consultant brings a unique skill set, experience, and specialization in holistic pet care. Take into account their expertise and areas of focus to find the perfect match for your pet's specific requirements.</p>",
             "link_label": "",
             "link": ""
           }
@@ -316,7 +325,7 @@
           "type": "column",
           "settings": {
             "title": "4-Receive a Personalized Care Plan",
-            "text": "<p>Based on the assessment, your consultant will develop a personalized care plan tailored to your pet's specific needs. The care plan will encompass recommendations and interventions designed to address your dog’s or cat’s health concerns and enhance their overall well-being. <\/p>",
+            "text": "<p>Based on the assessment, your consultant will develop a personalized care plan tailored to your pet's specific needs. The care plan will encompass recommendations and interventions designed to address your dog’s or cat’s health concerns and enhance their overall well-being. </p>",
             "link_label": "",
             "link": ""
           }
@@ -325,7 +334,7 @@
           "type": "column",
           "settings": {
             "title": "2-Book Our Pet Consultant",
-            "text": "<p>Once you've chosen your preferred consultant, it's time to book a consultation. Utilize our convenient booking system or contact our team directly to schedule an appointment with your selected consultant. This step ensures that you have dedicated time to discuss your pet's situation and work collaboratively towards their well-being.<\/p>",
+            "text": "<p>Once you've chosen your preferred consultant, it's time to book a consultation. Utilize our convenient booking system or contact our team directly to schedule an appointment with your selected consultant. This step ensures that you have dedicated time to discuss your pet's situation and work collaboratively towards their well-being.</p>",
             "link_label": "",
             "link": ""
           }
@@ -334,7 +343,7 @@
           "type": "column",
           "settings": {
             "title": "5-Implement the Care Plan",
-            "text": "<p>With the personalized care plan in hand, it's time to put it into action. Your consultant will guide you through the implementation process, providing clear instructions and practical guidance. They will help you make necessary adjustments to your pet's diet, exercise routine, and other aspects of their care. This collaborative effort ensures a seamless integration of the care plan into your pet's daily life.<\/p>",
+            "text": "<p>With the personalized care plan in hand, it's time to put it into action. Your consultant will guide you through the implementation process, providing clear instructions and practical guidance. They will help you make necessary adjustments to your pet's diet, exercise routine, and other aspects of their care. This collaborative effort ensures a seamless integration of the care plan into your pet's daily life.</p>",
             "link_label": "",
             "link": ""
           }
@@ -343,7 +352,7 @@
           "type": "column",
           "settings": {
             "title": "3-Assess Your Pet's Situation",
-            "text": "<p>During the consultation, your chosen pet consultant will conduct a thorough assessment of your dog’s or cat’s situation. They will actively listen to your concerns, ask relevant questions, and gather information about your pet's health, behavior, and lifestyle. This comprehensive evaluation forms the basis for creating a personalized care plan.<\/p>",
+            "text": "<p>During the consultation, your chosen pet consultant will conduct a thorough assessment of your dog’s or cat’s situation. They will actively listen to your concerns, ask relevant questions, and gather information about your pet's health, behavior, and lifestyle. This comprehensive evaluation forms the basis for creating a personalized care plan.</p>",
             "link_label": "",
             "link": ""
           }
@@ -352,7 +361,7 @@
           "type": "column",
           "settings": {
             "title": "6-Get Ongoing Support",
-            "text": "<p>We understand that ongoing support is crucial for the success of your pet's well-being. Your consultant will be available to provide continuous support and guidance. They will address any questions, concerns, or challenges you may have along the way. Regular check-ins and follow-up consultations will allow for monitoring progress, making adjustments to the pet care plan, and providing ongoing support.<\/p>",
+            "text": "<p>We understand that ongoing support is crucial for the success of your pet's well-being. Your consultant will be available to provide continuous support and guidance. They will address any questions, concerns, or challenges you may have along the way. Regular check-ins and follow-up consultations will allow for monitoring progress, making adjustments to the pet care plan, and providing ongoing support.</p>",
             "link_label": "",
             "link": ""
           }
@@ -407,7 +416,7 @@
           "type": "button",
           "settings": {
             "button_label": "MORE PET ADVICE",
-            "button_link": "shopify:\/\/pages\/coaches-home-page",
+            "button_link": "shopify://pages/coaches-home-page",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -440,7 +449,7 @@
         "template--14937751814209__97d53c83-a653-4616-bcc8-985a4da85845-168856460653976997-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.<\/p>",
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the power of holistic approaches to pet health? If so, we invite you to join our team as a Certified Holistic Pet Health Coach. By becoming a part of our dedicated group of professionals, you can make a significant impact in the lives of pets and their owners, helping them achieve optimal health and happiness.</p>",
             "text_style": "body"
           }
         },

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,13 +21,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "751d134f-73fe-4141-86b2-938f1aeacb83": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -27,7 +34,7 @@
           }
         },
         "0dd44047-53bd-4401-b151-a60aa1b52a8d": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
             "product": "{{product}}"
           }
@@ -35,8 +42,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -49,10 +55,10 @@
         "c50958db-6d62-42c8-8a47-729c390a856f": {
           "type": "rx_product_tab",
           "settings": {
-            "ingredients_content": "<p>{{ product.metafields.custom.revamp_ingredients | metafield_tag }}<\/p>",
-            "instructions_content": "<p>{{ product.metafields.custom.revamp_instruction | metafield_tag }}<\/p>",
+            "ingredients_content": "<p>{{ product.metafields.custom.revamp_ingredients | metafield_tag }}</p>",
+            "instructions_content": "<p>{{ product.metafields.custom.revamp_instruction | metafield_tag }}</p>",
             "instructions_content_image": "{{ product.metafields.custom.revamp_instruction_image.value }}",
-            "shipping_content": "<p>Standard Shipping 3-5 business days<\/p>"
+            "shipping_content": "<p>Standard Shipping 3-5 business days</p>"
           }
         },
         "87b6800d-0639-4f48-b6fd-18848b047f30": {
@@ -64,7 +70,7 @@
         "880a5ead-be28-4912-b9d7-5a90d320fa21": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"product__tax caption rte\"><a href=\"\/policies\/shipping-policy\">Shipping<\/a> calculated at checkout.\n<\/div>"
+            "custom_liquid": "<div class=\"product__tax caption rte\"><a href=\"/policies/shipping-policy\">Shipping</a> calculated at checkout.\n</div>"
           }
         }
       },
@@ -97,8 +103,7 @@
     },
     "39913493-0614-47e8-91ba-767b9479a307": {
       "type": "rx-review",
-      "settings": {
-      }
+      "settings": {}
     },
     "0160467d-6f81-456d-840c-d702483cbcf3": {
       "type": "rx-rich-text",
@@ -106,7 +111,7 @@
         "template--14911504744513__0160467d-6f81-456d-840c-d702483cbcf3-1681971976dda4d2d8-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>You may also like<\/p>"
+            "heading": "<p>You may also like</p>"
           }
         }
       },
@@ -127,7 +132,7 @@
       "type": "apps",
       "blocks": {
         "ecef0dd1-fa9c-413a-aa90-4bd5bbd8294d": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
             "id": "84689",
@@ -171,7 +176,7 @@
         "2710cfd8-d296-47f6-99ee-3c193be58794": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Our courses<\/p>"
+            "heading": "<p>Our courses</p>"
           }
         }
       },

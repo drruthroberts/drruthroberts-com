@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -10,6 +19,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -21,13 +31,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -35,8 +44,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52
@@ -44,6 +53,7 @@
     },
     "1655751929e34d4e57": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16557519296bd204f0-0": {
           "type": "featured_collection",
@@ -83,7 +93,6 @@
         "aa1c3c69-2ce2-435d-81c8-18b114024961",
         "c56b4d3d-e5ba-4cab-8c1a-269a1bd2d7f8"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -107,11 +116,11 @@
       "settings": {
         "rbanehead": "Happy Paws Affiliate Program  ",
         "rebanneddes": "Dr. Ruth Roberts’ Happy Paws Affiliate Program is designed for pet lovers with a strong network of pet parents. Earn 10% commission for every sale made through your unique referral link.",
-        "rebanner": "shopify:\/\/shop_images\/pexels-snapwire-46024_1.png",
+        "rebanner": "shopify://shop_images/pexels-snapwire-46024_1.png",
         "affbannrsubbtn": "sign in",
-        "affbannersuburl": "https:\/\/affiliate.drruthroberts.com\/login",
+        "affbannersuburl": "https://affiliate.drruthroberts.com/login",
         "affbannrsub1btn": "sign up",
-        "affbannrsub1url": "https:\/\/affiliate.drruthroberts.com\/create-account"
+        "affbannrsub1url": "https://affiliate.drruthroberts.com/create-account"
       }
     },
     "b28ff6c6-b4f8-4fb5-892d-74f7ed0f73af": {
@@ -179,7 +188,7 @@
         "reworkhead": "Join the Happy Paws Affiliate Community",
         "rewworkdes": "All you need to do is sign up for our program online and start promoting our products to your audience.",
         "howbtn": "Apply Now",
-        "howbtnurl": "https:\/\/affiliate.drruthroberts.com\/"
+        "howbtnurl": "https://affiliate.drruthroberts.com/"
       }
     },
     "0fa81b89-378e-4db6-b61b-7c08bcde9479": {
@@ -188,7 +197,7 @@
         "5cc0c06a-4e72-4b18-bfc9-b8ede0664c27": {
           "type": "block",
           "settings": {
-            "rewardpoint": "shopify:\/\/shop_images\/Image_8.png",
+            "rewardpoint": "shopify://shop_images/Image_8.png",
             "afficonheadtitl": "High-quality products",
             "afficonsubtitl": "Our organic pet supplements and products are made from the finest natural ingredients and are scientifically formulated to promote pet health and wellness."
           }
@@ -196,7 +205,7 @@
         "202a0da8-8ff7-4c0f-90b3-f51388c78c04": {
           "type": "block",
           "settings": {
-            "rewardpoint": "shopify:\/\/shop_images\/Image_10.png",
+            "rewardpoint": "shopify://shop_images/Image_10.png",
             "afficonheadtitl": "Positive impact",
             "afficonsubtitl": "By promoting Happy Paws' organic pet supplements, you'll be contributing to the well-being of pets everywhere, and helping pet owners take the best possible care of their furry friends."
           }
@@ -204,7 +213,7 @@
         "1b43b53f-1f87-4039-9b54-e4f190fb5fcf": {
           "type": "block",
           "settings": {
-            "rewardpoint": "shopify:\/\/shop_images\/Image_9.png",
+            "rewardpoint": "shopify://shop_images/Image_9.png",
             "afficonheadtitl": "Dedicated support",
             "afficonsubtitl": "Our team is always available to support our affiliates and answer any questions they may have. We're committed to helping our affiliates succeed and earn maximum commission."
           }
@@ -229,22 +238,22 @@
         "3fb09566-8492-4f1e-9c2d-0676fb8d2c38": {
           "type": "block",
           "settings": {
-            "affimgicon": "shopify:\/\/shop_images\/facebook_logo_443dafea-7c35-43d3-98af-2e9f1c7e2e4a.png",
-            "affimgurl": "https:\/\/www.facebook.com\/crockpetdiet"
+            "affimgicon": "shopify://shop_images/facebook_logo_443dafea-7c35-43d3-98af-2e9f1c7e2e4a.png",
+            "affimgurl": "https://www.facebook.com/crockpetdiet"
           }
         },
         "9d75e536-77c4-46cf-a65e-0a1f3d6748fe": {
           "type": "block",
           "settings": {
-            "affimgicon": "shopify:\/\/shop_images\/Frame_7.png",
-            "affimgurl": "https:\/\/www.instagram.com\/dr.ruthroberts\/"
+            "affimgicon": "shopify://shop_images/Frame_7.png",
+            "affimgurl": "https://www.instagram.com/dr.ruthroberts/"
           }
         },
         "04c2f0be-1cc1-4821-989b-573c5aaccedc": {
           "type": "block",
           "settings": {
-            "affimgicon": "shopify:\/\/shop_images\/Vector_6.png",
-            "affimgurl": "https:\/\/www.linkedin.com\/in\/dr-ruth-roberts-72473970"
+            "affimgicon": "shopify://shop_images/Vector_6.png",
+            "affimgurl": "https://www.linkedin.com/in/dr-ruth-roberts-72473970"
           }
         }
       },
@@ -256,7 +265,7 @@
       "settings": {
         "affimghead": "Join Our Affiliate Program Today!",
         "affimgdes": "Our Happy Paws pet health affiliates program is free and easy to join, with no setup fees or hidden costs. Plus, there's no limit to how much you can earn!",
-        "affimgbg": "shopify:\/\/shop_images\/Image_4.png"
+        "affimgbg": "shopify://shop_images/Image_4.png"
       }
     },
     "4549672f-831b-40be-806c-6108ae362ecf": {
@@ -408,7 +417,7 @@
         "addhead": "By joining our program, you'll have the chance to align with a trusted and respected pet brand, help promote pet wellness, and earn generous commission in the process.",
         "mfaqhead": "FAQS",
         "afffaqbtn": "learn more",
-        "affaqurl": "shopify:\/\/pages\/contact-us"
+        "affaqurl": "shopify://pages/contact-us"
       }
     },
     "78624dc2-84f9-4cfa-910b-8fb91908a1b1": {
@@ -423,9 +432,9 @@
       "settings": {
         "reordrhead": "get 10% of your first order",
         "reorderdes": "Join our email list for exclusive offers and the latest news.",
-        "rewordorder": "shopify:\/\/shop_images\/Rectangle_3.png",
+        "rewordorder": "shopify://shop_images/Rectangle_3.png",
         "reorderbtn": "email",
-        "reorderbtnurl": "shopify:\/\/pages\/contact-us"
+        "reorderbtnurl": "shopify://pages/contact-us"
       }
     }
   },

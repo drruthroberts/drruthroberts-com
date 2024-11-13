@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -12,18 +21,15 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "c5e06765-1683-43f5-a7a8-82249d1a1521": {
           "type": "text",
@@ -33,7 +39,7 @@
           }
         },
         "e9848660-1c8b-4f0f-b8c1-c38dce78f164": {
-          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
             "product": "{{product}}"
           }
@@ -52,8 +58,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -74,7 +79,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "plant",
-            "content": "<p>{{ product.metafields.my_fields._1_badge_text_4.value }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._1_badge_text_4.value }}</p>",
             "page": ""
           }
         },
@@ -83,7 +88,7 @@
           "settings": {
             "heading": "Direction for Use",
             "icon": "chat_bubble",
-            "content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._1_badge_text_3.value }}</p>",
             "page": ""
           }
         },
@@ -92,7 +97,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "content": "<p>Standard Shipping 3-5 business days<\/p>",
+            "content": "<p>Standard Shipping 3-5 business days</p>",
             "page": ""
           }
         },
@@ -137,6 +142,7 @@
     },
     "16539373096ff3b953": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1653937309ae676e60-0": {
           "type": "heading",
@@ -148,7 +154,7 @@
         "1653937309ae676e60-1": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ product.metafields.my_fields._2_image_with_text_top_title.value }}<\/p>",
+            "text": "<p>{{ product.metafields.my_fields._2_image_with_text_top_title.value }}</p>",
             "text_style": "body"
           }
         },
@@ -166,7 +172,6 @@
         "1653937309ae676e60-1",
         "1653937309ae676e60-2"
       ],
-      "disabled": true,
       "settings": {
         "image": "{{ product.metafields.my_fields._1_badge_image_2.value }}",
         "height": "adapt",
@@ -185,7 +190,7 @@
       "type": "apps",
       "blocks": {
         "2bf0de30-ae1e-4ac8-93d2-bab5a561ae83": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
           "settings": {
             "enabled": true,
             "id": "72530",
@@ -205,7 +210,7 @@
       "type": "apps",
       "blocks": {
         "72cb4041-900e-4df5-9bdd-06ce7b231409": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/full-page\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-product-reviews-ugc/blocks/full-page/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "product_image": true,
             "take": 30,
@@ -226,7 +231,7 @@
           }
         },
         "b278477d-01fd-476c-87c8-7b9069f30790": {
-          "type": "shopify:\/\/apps\/stamped-reviews\/blocks\/carousel\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-product-reviews-ugc/blocks/carousel/a103faaf-2125-4b0e-89fa-de5149736723",
           "disabled": true,
           "settings": {
             "title": "Real Reviews from Real Customers",
@@ -258,18 +263,19 @@
     },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Talk about your brand</p>",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -277,7 +283,6 @@
         "heading",
         "text"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -291,7 +296,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -301,6 +306,7 @@
     },
     "newsletter": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -312,13 +318,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -326,8 +331,8 @@
         "paragraph",
         "email-form"
       ],
-      "disabled": true,
       "settings": {
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 68,
         "padding_bottom": 52

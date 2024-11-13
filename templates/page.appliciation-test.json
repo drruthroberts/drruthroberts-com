@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -23,13 +32,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -103,9 +111,7 @@
     "9cddaf55-c319-4648-a846-296e9c62ca16": {
       "type": "applicationform",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "apphead": "Dr. Ruth Roberts’ Certified Holistic Pet Health Coach Program:",
         "appdesc": "A Comprehensive Training in Pet Health and Wellness",
@@ -193,7 +199,7 @@
         "c7c8ea26-8326-45d1-9c99-bd531f27a6c4": {
           "type": "Question",
           "settings": {
-            "labelname": "What’s your life\/work experience? *",
+            "labelname": "What’s your life/work experience? *",
             "answer": ""
           }
         },
@@ -213,8 +219,7 @@
         "cbed471e-8a75-466f-8eab-3e113fcdd579"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "4f1db962-97e6-4066-925a-9cb0f9e19033": {
       "type": "questionradio",
@@ -298,7 +303,7 @@
         "f2f997a4-9f57-46a2-9910-bb0e2242d7a4": {
           "type": "condition",
           "settings": {
-            "ansteram": "SMS\/MMS Policy: By checking this box, I consent to receiving SMS\/MMS messages from the program regarding program updates, marketing materials, and other communications related to the program. I understand that standard messaging rates may apply depending on my mobile carrier plan, and I am responsible for any charges incurred. I also understand that I can opt out of these messages at any time by replying with the word \"STOP\" to the received message."
+            "ansteram": "SMS/MMS Policy: By checking this box, I consent to receiving SMS/MMS messages from the program regarding program updates, marketing materials, and other communications related to the program. I understand that standard messaging rates may apply depending on my mobile carrier plan, and I am responsible for any charges incurred. I also understand that I can opt out of these messages at any time by replying with the word \"STOP\" to the received message."
           }
         }
       },

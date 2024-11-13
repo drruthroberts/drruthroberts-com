@@ -1,0 +1,444 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rx_img_with_text_TFhGb6": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "heading_QTh3XN": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Easiest Way to Transform Your Pet’s Health, Starting Today!",
+            "font_family": "font_blt"
+          }
+        },
+        "text_dUEnaq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’re here because your pet’s health means the world to you. While you might not be ready to become a Holistic Pet Health Coach, you can still make a powerful impact on your pet’s wellness today.</p>"
+          }
+        },
+        "button_nij8Hh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Download",
+            "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/TOCPD+EBook.pdf"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QTh3XN",
+        "text_dUEnaq",
+        "button_nij8Hh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Crockpet_HTBS_combo_7.png",
+        "img_url": "https://drruthroberts.com/products/the-original-crockpet-diet-holistic-total-body-support-multivitamins?_pos=1&_sid=769ce0336&_ss=r",
+        "height": "large",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_title_alignment": "center",
+        "desktop_content_alignment": "center",
+        "desktop_button_alignment": "center",
+        "content_layout": "overlap",
+        "grid_type": "type1",
+        "imgText-bg-color": "#f5f8f1",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 8,
+        "content_padding_top": 50,
+        "content_padding_bottom": 50
+      }
+    },
+    "featured_product_FHLqbB": {
+      "type": "featured-product",
+      "blocks": {
+        "text_LgWGMi": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_yh9Fwx": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_APgQAk": {
+          "type": "price",
+          "settings": {}
+        },
+        "buy_buttons_pJjFJC": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "share_68mmAN": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_LgWGMi",
+        "title_yh9Fwx",
+        "price_APgQAk",
+        "buy_buttons_pJjFJC",
+        "share_68mmAN"
+      ],
+      "settings": {
+        "product": "the-original-crockpet-diet-holistic-total-body-support-multivitamins",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1718314949a1730760": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_ct7XhM": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_ct7XhM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_ntaTpz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GMN7Qp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>The simplest and most powerful first step? Knowing exactly what’s in your pet’s food.</strong></p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_gpWY7H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many commercial pet foods are packed with unhealthy, processed ingredients that don’t belong anywhere near your pet’s bowl. With <strong>The Original Crockpet Diet</strong>, created by <strong>Dr. Ruth Roberts</strong>, you can be sure your pet is getting pure, wholesome, home-cooked meals. This recipe has been trusted for over <strong>18 years</strong> by thousands of pet parents and offers <strong>real, tangible results</strong>—helping pets live healthier, happier lives.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GMN7Qp",
+        "text_gpWY7H"
+      ],
+      "custom_css": [
+        "h2 {font-family: BLT-Heirloom; font-weight: bold;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "collapsible_content_TCYhkG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_AADVNC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Homemade, Balanced Nutrition",
+            "icon": "paw_print",
+            "row_content": "<p>With the Crockpet Diet, you’ll learn how to prepare healthy homemade pet food using high-quality proteins and nutrient-dense vegetables. It’s perfect for everyday health or pets with special dietary needs like kidney or liver disease.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_AnxxwN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Nutritional Benefits",
+            "icon": "paw_print",
+            "row_content": "<p>This bundle offers <strong>complete nutritional support</strong> for your pet’s overall health. With the <strong>Crockpet Diet</strong>, you'll prepare balanced meals packed with essential nutrients, using <strong>real, high-quality proteins</strong> like chicken, beef, or fish—not meat by-products. These meals provide <strong>higher protein content</strong>, which is crucial for your pet’s <strong>muscle health</strong> and <strong>energy levels</strong>.</p><p>Paired with the <strong>Holistic Total Body Support Multivitamins</strong>, your pet gets vital vitamins, minerals, and glandular extracts to boost their <strong>thyroid, organ, and immune function</strong>. Plus, the <strong>natural fats and oils</strong> in the diet promote a <strong>shiny coat</strong> and <strong>healthy skin</strong>, ensuring your pet thrives from the inside out.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eAVnYC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Long-term Health Benefits",
+            "icon": "paw_print",
+            "row_content": "<p>The <strong>Crockpet Diet</strong> and <strong>Holistic Total Body Support Multivitamins</strong> do more than boost your pet’s <strong>daily vitality</strong>—they also help to <strong>prevent common health issues</strong> like kidney disease, liver problems, and digestive disorders. By feeding your pet a <strong>natural, balanced diet</strong>, you’re providing them with the essential nutrients they need for <strong>long-term wellness</strong>.</p><p>Natural diets with <strong>fewer processed ingredients</strong> and preservatives contribute to <strong>maintaining your pet’s ideal weight</strong>, reducing the risk of obesity-related diseases, and promoting <strong>organ health</strong>. Consistent use of this bundle can help your pet enjoy a <strong>longer, healthier life</strong> filled with vitality.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JUCQCt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fewer Allergens and Sensitivities",
+            "icon": "paw_print",
+            "row_content": "<p>Because natural pet foods often exclude artificial additives and fillers like corn, wheat, and soy—which are common allergens for many pets—switching to a natural diet can help reduce the chances of allergic reactions. If your pet has been suffering from itchy skin, digestive issues, or recurrent ear infections, the culprit might be something in their food. Going natural can sometimes help alleviate these symptoms.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_AADVNC",
+        "collapsible_row_AnxxwN",
+        "collapsible_row_eAVnYC",
+        "collapsible_row_JUCQCt"
+      ],
+      "custom_css": [
+        "h3 {font-family: BLT-Heirloom; font-weight: bold; font-size: 1em;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "accent-1",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_VLKAFz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cahdDm": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>No toxic fillers. </strong></h3><h3><strong>No mystery additives. </strong></h3><h3><strong>Just fresh, natural ingredients your pet will love.</strong></h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cahdDm"
+      ],
+      "custom_css": [
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 52
+      }
+    },
+    "rx_image_banner_YPxzWG": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "heading_9QkVfj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to Transform Your Pet's Health?"
+          }
+        },
+        "text_hqik6L": {
+          "type": "text",
+          "settings": {
+            "text": "You’ve shown your dedication to your pet’s well-being by being here. Now it’s time to take the next step and give them the gift of health and happiness with every meal. Ready to start transforming your pet’s life?"
+          }
+        },
+        "buttons_Fix43P": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "GET THE RECIPE HERE",
+            "button_link_1": "https://drruthroberts.com/products/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9QkVfj",
+        "text_hqik6L",
+        "buttons_Fix43P"
+      ],
+      "custom_css": [
+        ".banner__content {opacity: 80%;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Crockpet_HTBS_combo_1200_x_628_px.png",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "container_bg": "#f5f8f1",
+        "desktop_content_alignment": "center",
+        "heading_color": "#2d4b49",
+        "text_color": "#2d4b49",
+        "show_arrow_mobile": "no",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multicolumn_WJ9N7M": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Gctxt8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/insights.png",
+            "title": "Personal Insights",
+            "text": "<p>Why Dr. Ruth Roberts chooses to cook for her pets and how it can change your pet's health and vitality.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HGjbQ4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/health_benefits.png",
+            "title": "Health Benefits",
+            "text": "<p>Detailed exploration of the advantages homemade pet food has over commercial options, including improved health and fewer veterinary visits.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H4FCTU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/historical.png",
+            "title": "Holistic Pet Health Support",
+            "text": "<p>The <strong>Holistic Total Body Support Multivitamins</strong> include natural glandular extracts to promote <strong>thyroid, organ, and gut health</strong>, ensuring your pet's whole-body wellness.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YhFCXP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/recipe.png",
+            "title": "Tailored Recipes",
+            "text": "<p>Step-by-step guides on preparing the Original CrockPET Diet for both dogs and cats, ensuring you can cater to your pet's specific nutritional needs.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rHwacg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/vege.png",
+            "title": "Vegetarian & Vegan Options",
+            "text": "<p>Innovative recipes that provide plant-based alternatives for pets, ensuring every pet owner can use this book.<br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NzRMPg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/supplement.png",
+            "title": "Vet-Designed Formula",
+            "text": "<p>Developed by <strong>Dr. Ruth Roberts</strong>, a leading expert in holistic pet care, this bundle ensures your pet is getting the best <strong>veterinarian-approved</strong> support for long-term health.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Gctxt8",
+        "column_HGjbQ4",
+        "column_H4FCTU",
+        "column_YhFCXP",
+        "column_rHwacg",
+        "column_NzRMPg"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"BLT-Heirloom\"; font-weight: bold;}",
+        "h3 {color: #184b44; font-weight: bold;}",
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "custom_class": "",
+        "title": "Why This Bundle is the Perfect Solution for Your Pet:",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "https://memberareapdf.s3.us-west-2.amazonaws.com/TOCPD+EBook.pdf",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1713199513a250e161": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_nLJfeW": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-SQVTGQ\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_nLJfeW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rx_review_UCRHq6": {
+      "type": "rx-review",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "rx_img_with_text_TFhGb6",
+    "featured_product_FHLqbB",
+    "1718314949a1730760",
+    "rich_text_ntaTpz",
+    "collapsible_content_TCYhkG",
+    "rich_text_VLKAFz",
+    "rx_image_banner_YPxzWG",
+    "multicolumn_WJ9N7M",
+    "main",
+    "1713199513a250e161",
+    "rx_review_UCRHq6"
+  ]
+}

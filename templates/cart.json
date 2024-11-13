@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "cart-items": {
@@ -16,7 +25,7 @@
           }
         },
         "b00e9869-c391-40f6-9dae-9ef10c8750ec": {
-          "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-block\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
+          "type": "shopify://apps/sezzle-widget/blocks/widget-block/f3a53793-e118-4764-a86b-a79bfedb0d5f",
           "settings": {
             "heading": "Sezzle Widget",
             "font_size": 14,
@@ -82,7 +91,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,13 +30,12 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Join our email list for exclusive offers and the latest news. <\/p>"
+            "text": "<p>Join our email list for exclusive offers and the latest news. </p>"
           }
         },
         "email-form": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -103,21 +111,21 @@
         "template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-1688390420c5779b6b-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Become a Certified Holistic Pet Health Coach Dr. Ruth Roberts<\/p>",
+            "heading": "<p>Become a Certified Holistic Pet Health Coach Dr. Ruth Roberts</p>",
             "heading_size": "hxl"
           }
         },
         "template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-1688390420c5779b6b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Transform  your passion for pet health & wellness into a meaningful and rewarding career<\/p>"
+            "text": "<p>Transform  your passion for pet health & wellness into a meaningful and rewarding career</p>"
           }
         },
         "template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-1688390420c5779b6b-2": {
           "type": "button",
           "settings": {
             "button_label": "Apply Now",
-            "button_link": "shopify:\/\/pages\/caochingpage1",
+            "button_link": "shopify://pages/caochingpage1",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -130,9 +138,7 @@
         "template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-1688390420c5779b6b-1",
         "template--14937311805505__9f3948d0-de6f-4f06-ae1d-6c4e6beed0e5-1688390420c5779b6b-2"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -144,11 +150,9 @@
     },
     "d490cb76-46ac-4bb2-832c-c029560ed07c": {
       "type": "image-banner",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_832.png",
+        "image": "shopify://shop_images/Group_832.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -166,21 +170,21 @@
         "template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-1688398836d45677e6-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Design Your Dream Career <br\/>and Lifestyle<\/p>",
+            "heading": "<p>Design Your Dream Career <br/>and Lifestyle</p>",
             "heading_size": "hxl"
           }
         },
         "template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-1688398836d45677e6-1": {
           "type": "text",
           "settings": {
-            "text": "<p>A Comprehensive Training in Pet Health and Wellness: Guide pet owners towards natural and holistic health solutions for their beloved animals as a certified pet health coach.<\/p>"
+            "text": "<p>A Comprehensive Training in Pet Health and Wellness: Guide pet owners towards natural and holistic health solutions for their beloved animals as a certified pet health coach.</p>"
           }
         },
         "template--14937311805505__534eb2ad-c509-4d10-9467-b66bcd445587-1688398836d45677e6-2": {
           "type": "button",
           "settings": {
             "button_label": "CHECK OUR CONSULTANT",
-            "button_link": "shopify:\/\/pages\/caochingpage1",
+            "button_link": "shopify://pages/caochingpage1",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -208,14 +212,14 @@
         "template--14937311805505__9dada5cc-fc40-492e-86a1-8bd668ef1cbf-1688481874202d73e1-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>How It Work During The Program<\/p>",
+            "heading": "<p>How It Work During The Program</p>",
             "heading_size": "h1"
           }
         },
         "template--14937311805505__9dada5cc-fc40-492e-86a1-8bd668ef1cbf-1688481874202d73e1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>From application to graduation, our program offer comprehensive journey towards becoming a certified holistic pet health coach. In this guide we will walk you through each step of the process and provide an overview of what you can expect as you embark on this exciting career path.<\/p>"
+            "text": "<p>From application to graduation, our program offer comprehensive journey towards becoming a certified holistic pet health coach. In this guide we will walk you through each step of the process and provide an overview of what you can expect as you embark on this exciting career path.</p>"
           }
         }
       },
@@ -239,7 +243,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -248,7 +252,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -257,7 +261,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -266,7 +270,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -275,7 +279,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -284,7 +288,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -293,7 +297,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -302,7 +306,7 @@
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -341,14 +345,14 @@
         "template--14937311805505__4e4ded4d-ded3-468a-ade7-88b2d92f34e0-16887331748a3eb3e4-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>After the program, Join our network of certified Holistic Pet Health Coaches<\/p>",
+            "heading": "<p>After the program, Join our network of certified Holistic Pet Health Coaches</p>",
             "heading_size": "h1"
           }
         },
         "template--14937311805505__4e4ded4d-ded3-468a-ade7-88b2d92f34e0-16887331748a3eb3e4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>From application to graduation, our program offers a comprehensive journey towards becoming a certified holistic pet health coach. In this guide, we will walk you through each step of the process and provide an overview of what you can expect as you embark on this exciting career path<br\/><\/p>"
+            "text": "<p>From application to graduation, our program offers a comprehensive journey towards becoming a certified holistic pet health coach. In this guide, we will walk you through each step of the process and provide an overview of what you can expect as you embark on this exciting career path<br/></p>"
           }
         }
       },
@@ -372,7 +376,7 @@
           "type": "column",
           "settings": {
             "title": "5-Implement the Care Plan",
-            "text": "<p>After graduation, you'll have the opportunity to be listed on our consultants’ page and  join a network of other Certified Holistic Pet Health Coaches. This program connects certified holistic pet health coaches with potential clients who are seeking high-quality, personalized care for their dogs and cats. By joining the Dr. Ruth Referral Program, you'll be listed on a dedicated page, giving you exposure to a wide audience of pet owners who are actively seeking holistic pet care services.<\/p>",
+            "text": "<p>After graduation, you'll have the opportunity to be listed on our consultants’ page and  join a network of other Certified Holistic Pet Health Coaches. This program connects certified holistic pet health coaches with potential clients who are seeking high-quality, personalized care for their dogs and cats. By joining the Dr. Ruth Referral Program, you'll be listed on a dedicated page, giving you exposure to a wide audience of pet owners who are actively seeking holistic pet care services.</p>",
             "link_label": "",
             "link": ""
           }
@@ -381,7 +385,7 @@
           "type": "column",
           "settings": {
             "title": "5-Implement the Care Plan",
-            "text": "<p>After graduation, you'll have the opportunity to be listed on our consultants’ page and  join a network of other Certified Holistic Pet Health Coaches. This program connects certified holistic pet health coaches with potential clients who are seeking high-quality, personalized care for their dogs and cats. By joining the Dr. Ruth Referral Program, you'll be listed on a dedicated page, giving you exposure to a wide audience of pet owners who are actively seeking holistic pet care services.<\/p>",
+            "text": "<p>After graduation, you'll have the opportunity to be listed on our consultants’ page and  join a network of other Certified Holistic Pet Health Coaches. This program connects certified holistic pet health coaches with potential clients who are seeking high-quality, personalized care for their dogs and cats. By joining the Dr. Ruth Referral Program, you'll be listed on a dedicated page, giving you exposure to a wide audience of pet owners who are actively seeking holistic pet care services.</p>",
             "link_label": "",
             "link": ""
           }
@@ -414,14 +418,14 @@
         "template--14937311805505__d4b8ad8d-fc10-4805-9c3d-90b9ad927f92-16889839432c321b59-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Talk about your brand</p>",
             "heading_size": "h1"
           }
         },
         "template--14937311805505__d4b8ad8d-fc10-4805-9c3d-90b9ad927f92-16889839432c321b59-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "template--14937311805505__d4b8ad8d-fc10-4805-9c3d-90b9ad927f92-16889839432c321b59-2": {
@@ -467,7 +471,7 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "left",
             "heading": "Image with text",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button",
             "button_link": ""
           }
@@ -486,7 +490,7 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "left",
             "heading": "Image with text",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button",
             "button_link": ""
           }
@@ -505,7 +509,7 @@
             "show_arrow_mobile": "yes",
             "mobile_content_alignment": "left",
             "heading": "Image with text",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button",
             "button_link": ""
           }
@@ -534,7 +538,7 @@
         "template--14937311805505__2d45edfa-bf59-4040-a1e6-eb755c54bf68-168897698343cabd60-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the <br\/>power of holistic approaches to pet health? If so, we invite you to join<br\/> our team as a Certified Holistic Pet Health Coach. By becoming a part <br\/>of our dedicated group of professionals, you can make a significant <br\/>impact in the lives of pets and their owners, helping them achieve <br\/>optimal health and happiness.<\/p>",
+            "text": "<p>Are you passionate about the well-being of animals? Do you believe in the <br/>power of holistic approaches to pet health? If so, we invite you to join<br/> our team as a Certified Holistic Pet Health Coach. By becoming a part <br/>of our dedicated group of professionals, you can make a significant <br/>impact in the lives of pets and their owners, helping them achieve <br/>optimal health and happiness.</p>",
             "text_style": "body"
           }
         },
@@ -573,7 +577,7 @@
             "slide_text": "sadfsadfsadfasd",
             "slide_type": "",
             "slide_val": "",
-            "link": "shopify:\/\/collections\/allergy-support-supplement"
+            "link": "shopify://collections/allergy-support-supplement"
           }
         },
         "8e95d1bb-39fa-4f1d-ac2c-09fc1e4b4b32": {
