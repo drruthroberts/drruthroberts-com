@@ -6,7 +6,7 @@ new Swiper('.custom-slider-banner-container .swiper-container', {
     autoplaySpeed: 2000,
     autoplay: true,
     pagination: {
-        el: '.swiper-pagination',
+        el: '.custom-slider-banner-container .swiper-pagination',
         clickable: true
     },
 });

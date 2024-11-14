@@ -1,0 +1,203 @@
+.product-slider-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.product-slider-block--text {
+    width: 30%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 70px 45px;
+
+}
+
+.block-text-heading {
+    color: #184B44;
+    font-family: BLT-Heirloom;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 116.667% */
+    padding-bottom: 12px;
+}
+
+.block-text-content {
+    color:#1E1E1E;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    padding-bottom: 17px;
+}
+
+.product-slider-block--items {
+    padding-bottom: 20px;
+}
+
+.product-slider-block-container {
+    width: 70%;
+    padding: 70px 45px;
+    border-left: 1px solid #E8E8E8;
+}
+
+.block-text-btn {
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 21px */
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    padding: 13px 35px;
+    border-radius: 25.5px;
+    border: 1px solid #184B44;
+    background: #184B44;
+    max-width: fit-content;
+    text-decoration: none;
+}
+
+.product-slider-heading {
+    text-align: center;
+    color: #184B44;
+    font-family: BLT-Heirloom;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; 
+    padding-bottom: 30px;
+}
+
+.product-slider-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 324px;
+}
+
+.product-slider-block--items .swiper-button-prev::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    border-left: solid;
+    border-bottom: solid;
+    left: -5px;
+  }
+  
+  .product-slider-block--items .swiper-button-next::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    transform: rotate(-135deg);
+    border-left: solid;
+    border-bottom: solid;
+    left: 5px;
+  }
+
+  .product-slider-block--items .swiper-button-next, .product-slider-block--items .swiper-button-prev {
+    display: block !important;
+    background: none;
+  }
+
+.block-text-content p {
+    margin: 0;
+}
+
+.product-slider-item--url {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-item-image img{
+    height: 170px;
+}
+
+.slider-item-title {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+}
+
+.slider-item-price {
+    color: #706E6E;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+}
+
+.slider-item-button span {
+    color: #1E1E1E;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 18px */
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+} 
+
+.slider-item-button {
+    padding: 7px 18px;
+    border-radius: 25.5px;
+    border: 1px solid #EFA316;
+    background: #EFA316;
+    max-width: fit-content;
+    text-decoration: none;
+    color: #1E1E1E ;
+}
+
+.product-slider-content .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -7px;
+}
+
+@media (max-width: 767px) {
+    .product-slider-block {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    } 
+
+    .product-slider-block--text {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .block-text-btn {
+        margin: 0 auto;
+    }
+
+    .product-slider-block-container {
+        padding: 16px;
+        width: 100%;
+        border-left: none;
+    }
+    
+}

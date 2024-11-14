@@ -9,7 +9,7 @@
     background-color: #F5F8F1;
 }
 
-.swiper-container {
+.product-testiminal-content.swiper-container {
     position: unset !important;
 }
 
@@ -114,12 +114,12 @@
     font-size: 23px !important;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.product-testiminal-content .swiper-button-prev, .product-testiminal-content .swiper-button-next {
     display: block !important;
     background: none;
-  } 
+} 
   
-  .swiper-button-prev::after {
+ .product-testiminal-content .swiper-button-prev::after {
     content: "";
     position: absolute;
     width: 24px;
@@ -131,7 +131,7 @@
     left: -10px;
   }
   
-  .swiper-button-next::after {
+  .product-testiminal-content .swiper-button-next::after {
     content: "";
     position: absolute;
     width: 24px;
