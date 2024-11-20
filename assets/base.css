@@ -8137,7 +8137,7 @@ h3.imgtitle {
     max-width: 450px !important;
     position: absolute; 
     margin-top: 12px !important;
-    top: 58px;
+    top: 0;
     height: auto !important;
     left: -90%;
   }

@@ -1,7 +1,7 @@
 <style>
     .rx-{{section.id}}.blog-article--cotainer {
       max-width: 100%;
-      background: {{ section.settings.cotainer_bg }}
+      background: {{ section.settings.cotainer_bg }};
     }
   
     .rx-{{section.id}} .container {
@@ -18,7 +18,7 @@
       max-width: 900px;
       max-height: 430px;
       width: 100%;
-      border-radius: 20px;
+      border-radius: 24px; /* Updated from 20px */
     }
   
     .rx-{{section.id}} .container .rx-text {
@@ -73,8 +73,8 @@
     .rx-{{section.id}}  .rx-text .content {
       font-family: 'Josefin Sans';
       font-style: normal;
-      font-weight: 500;
-      font-size: 18px;
+      font-weight: normal;
+      font-size: 18px; /* Adjusted to match the standard */
       line-height: 30px;
       color: #1E1E1E;
       margin: 0;
@@ -87,6 +87,83 @@
       line-clamp: 3;
       -webkit-box-orient: vertical;
     }
+
+    .rx-{{section.id}} .title {
+      font-family: "BLT-Heirloom";
+      font-weight: 600;
+      font-size: 30px;
+      text-align: center;
+      color: #000000;
+    }
+  
+    .rx-{{section.id}} .container h2 {
+      font-family: 'BLT-Heirloom', sans-serif;
+      font-size: 25px;
+      font-weight: bold;
+      color: #184b44;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      padding-top: 20px;
+    }
+
+    .rx-{{section.id}} .container h3 {
+      font-family: 'BLT-Heirloom';
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .rx-{{section.id}} .container p {
+      text-align: justify;
+      font-family: 'Josefin Sans';
+      color: black;
+      font-weight: normal;
+    }
+
+    .rx-{{section.id}} .container ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .rx-{{section.id}} .container li {
+      text-align: justify;
+      font-family: 'Josefin Sans';
+      color: black;
+      font-weight: normal;
+      font-size: 15px;
+      list-style: disc;
+      margin-left: 20px;
+    }
+
+    .rx-{{section.id}} .container .article-template {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    .rx-{{section.id}} .container .cus-text-dexore > img {
+      border-radius: 5px;
+    }
+
+    .rx-{{section.id}} .container .article-template__content span {
+      font-family: "Josefin Sans";
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 30px;
+      color: #000000;
+      width: 70%;
+    }
+
+    .field__input:focus {
+      box-shadow: none;
+    }
+
+    .field:hover {
+      border: none;
+      box-shadow: none;
+      --color-foreground: none;
+    }
+  
     .rx-{{ section.id }} .article-url {
         cursor: pointer;
         text-decoration-line: none;
@@ -99,7 +176,6 @@
         padding-right: 16px;
         padding-bottom: 30px;
         padding-top: 30px;
-  
       } 
   
       .rx-{{section.id}} .container .article-image .rx-image {
@@ -112,7 +188,7 @@
       .rx-{{section.id}} .container .rx-text {
         width: 100%;
         text-align: center;
-                                                                                                                                   padding-left: 20px;
+        padding-left: 20px;
         padding-right: 20px;
         padding-top: 20px;
       }
@@ -125,8 +201,9 @@
         margin-right: auto;
       }
     }
-  
-  </style>
+</style>
+
+
   {%- liquid
     assign blog = section.settings.blog
   -%}

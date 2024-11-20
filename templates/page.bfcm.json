@@ -58,7 +58,7 @@
         ".img {max-width: 100%; height: auto;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/HERO_minimal_1.png",
+        "image": "shopify://shop_images/HERO_minimal_6.png",
         "content_width": 70,
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -86,13 +86,13 @@
           "settings": {
             "caption": "Because a healthy pet is the ultimate peace of mind.",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "large"
           }
         },
         "9d62ce1a-9903-4161-96cc-cdd275625197": {
           "type": "text",
           "settings": {
-            "text": "<p>This Thanksgiving, we’re excited to bring pet parents like you our best holistic solutions to keep the holiday season stress-free and joyful for you and your furry family member.<br/>With travel-ready calming aids and our Ultimate Wellness Kit, now’s the time to invest in your pet’s health and happiness—with savings up to 50% off.</p>"
+            "text": "<p>This Thanksgiving, make the holiday season joyful and stress-free with our best holistic solutions for your furry family members! From travel-ready calming aids to our Ultimate Wellness Kit, we’ve got everything you need to keep tails wagging and purrs flowing. </p><p><strong>Shop from Nov 29 to Dec 2</strong> and enjoy <strong>savings of up to 25% off</strong>—because investing in your pet’s health and happiness is the ultimate holiday blessing.</p>"
           }
         }
       },
@@ -155,13 +155,13 @@
       ],
       "settings": {
         "unique_class": "",
-        "image": "shopify://shop_images/Ultimate_Pet_Wellness_Kit_1_5.png",
+        "image": "shopify://shop_images/Routine_weekly_images_4.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -209,13 +209,13 @@
       ],
       "settings": {
         "unique_class": "",
-        "image": "shopify://shop_images/BFCM_post_17.png",
+        "image": "shopify://shop_images/BFCM_post_24.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -263,13 +263,13 @@
       ],
       "settings": {
         "unique_class": "",
-        "image": "shopify://shop_images/BFCM_post_16.png",
+        "image": "shopify://shop_images/BFCM_post_1.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -552,7 +552,7 @@
         "template--14921792094273__c512dc9d-c418-41b5-90b5-035479911964-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p>The Sale is Live from November 18th -  November 25th at 12:59pm</p>",
+            "heading": "<p>Keep an eye on your inbox for all the details and get ready to save big on your favorite products!</p>",
             "heading_size": "h1"
           }
         },

@@ -412,7 +412,7 @@
         "title": "The Original CrockPET Diet",
         "subtitle": "<p>“One of my proudest achievements is creating The Original CrockPet Diet. It’s a a balanced home cooked diet for pets, as the foundation of health., encouraging both healing and vitality.” </p>",
         "description": "<p>Searching for a nourishing homemade solution to enhance your furry friend's well-being? Tired of toggling between raw feeding and dry kibbles without witnessing any positive changes in your pet's health?<br/>Introducing The Original CrockPet Diet – a meticulously crafted home-cooked pet diet prepared right in your kitchen using only genuine ingredients. Dr. Ruth's patented recipe offers complete balance for pets at every life stage, fostering better health for puppies, kittens, adult dogs, cats, and senior companions alike.</p>",
-        "btn_url": "#",
+        "btn_url": "https://drruthroberts.com/products/the-original-crockpet-diet-recipe",
         "btn_title": "learn more",
         "text_content_bg": "#f5f8f1",
         "padding_top": 0,
@@ -452,6 +452,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Image_3_f2c038b5-af4c-4553-9e18-48a5abd47eb8.png",
+        "img_url": "",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

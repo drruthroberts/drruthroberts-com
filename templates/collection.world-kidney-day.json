@@ -15,14 +15,14 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Thanksgiving & Black Friday Clearance Sale",
+            "heading": "Pet Wellness Must-Haves!",
             "heading_size": "h1"
           }
         },
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-text-1": {
           "type": "text",
           "settings": {
-            "text": "This Thanksgiving and Black Friday, we're offering exclusive discounts on top wellness essentials for pets—up to 50% off for a limited time! From November 18 to November 25, explore our Clearance Sale for unbeatable deals on holistic products that support calm, comfort, and vitality for your furry family member.",
+            "text": "From Nov 29 to Dec 2, stock up on holistic products for calm, comfort, and vitality. Hurry—some items are in limited supply! Don’t miss out!",
             "text_style": "body"
           }
         },
@@ -44,10 +44,10 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-buttons-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/CLEARANCE.png",
+        "image": "shopify://shop_images/WEBSITE_BANNER_2.png",
         "content_width": 100,
         "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -69,8 +69,8 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "description_enabled": false,
         "products_per_page": 16,
+        "description_enabled": false,
         "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,

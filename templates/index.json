@@ -15,7 +15,7 @@
         "slider_banner_FVMb8P": {
           "type": "slider-banner",
           "settings": {
-            "image": "shopify://shop_images/Dr.Ruth_cooking.jpg",
+            "image": "shopify://shop_images/HERO_crockpet_1920_700-svg.webp",
             "mobile_image": "shopify://shop_images/crockpet_1.png",
             "image_overlay_opacity": 0,
             "image_height": "large",
@@ -38,7 +38,7 @@
         "slider_banner_ymEyTt": {
           "type": "slider-banner",
           "settings": {
-            "image": "shopify://shop_images/LABOR_DAY_BANNER_2.png",
+            "image": "shopify://shop_images/HERO_course_1920_700-svg.webp",
             "mobile_image": "shopify://shop_images/COURSE.png",
             "image_overlay_opacity": 0,
             "image_height": "large",
@@ -63,6 +63,7 @@
         "slider_banner_FVMb8P",
         "slider_banner_ymEyTt"
       ],
+      "disabled": true,
       "settings": {}
     },
     "e8ef76fe-7f25-4f27-98ea-830e37605e09": {
@@ -134,7 +135,6 @@
         "2548be85-ca59-4cac-91f4-82dd357a90d6",
         "template--14898486050881__e8ef76fe-7f25-4f27-98ea-830e37605e09-168166524565a8e0f6-1"
       ],
-      "disabled": true,
       "settings": {
         "desktopMaxWidth": "100%",
         "auto_play": true
@@ -1100,30 +1100,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "custom_product_slider_Pfxkyt": {
-      "type": "custom-product-slider",
-      "blocks": {
-        "slider_item_D7GRaR": {
-          "type": "slider-item",
-          "settings": {
-            "collection": "general-wellness",
-            "bg_color": "#f8f6e6",
-            "slider_heading": "GET 10% OFF",
-            "slider_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Use discount code:</p>",
-            "btn_url": "#",
-            "btn_text": "Button"
-          }
-        }
-      },
-      "block_order": [
-        "slider_item_D7GRaR"
-      ],
-      "settings": {
-        "heading": "Product Slider",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
     }
   },
   "order": [
@@ -1150,7 +1126,6 @@
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
     "a22eed67-71d2-4d24-9266-adb3dc0550e6",
-    "1730143141e29568ad",
-    "custom_product_slider_Pfxkyt"
+    "1730143141e29568ad"
   ]
 }
