@@ -11,8 +11,17 @@
   {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true %}
 {% endcomment %}
 
+{%- assign valid_product_titles = "Holistic Total Body Support for Cats and Dogs - Glandular Supplements, Pet's Daily Wellness Formula - For Pets With Pork/Beef Allergy, Omega Pawz - Liquid Fish Oil Supplement for Pet’s Energy Booster, Hista Paws - Herbal Allergy Supplement for Cats and Dogs, Arthri-Pawz - Best Joint Supplement for Dogs and Cats" | split: ", " -%}  
+
+{%- assign product_in_valid_titles = false -%}  
+
+{%- for title in valid_product_titles -%}  
+  {%- if title == product.title -%}  
+    {%- assign product_in_valid_titles = true -%}  
+  {%- endif -%}  
+{%- endfor -%}
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
-<div class="product-form-container"{{ block.shopify_attributes }}>
+<div class="product-form-container {% if product_in_valid_titles %} cbb-frequently-box {% endif %}"{{ block.shopify_attributes }}>
   {%- if product != blank -%}
     <product-form class="product-form">
       <div class="product-form__error-message-wrapper" role="alert" hidden>
@@ -37,16 +46,7 @@
         novalidate: 'novalidate',
         data-type: 'add-to-cart-form'
       -%}
-      
-      {%- assign valid_product_titles = "Holistic Total Body Support for Cats and Dogs - Glandular Supplements, Pet's Daily Wellness Formula - For Pets With Pork/Beef Allergy, Omega Pawz - Liquid Fish Oil Supplement for Pet’s Energy Booster, Hista Paws - Herbal Allergy Supplement for Cats and Dogs, Arthri-Pawz - Best Joint Supplement for Dogs and Cats" | split: ", " -%}  
-
-      {%- assign product_in_valid_titles = false -%}  
-      
-      {%- for title in valid_product_titles -%}  
-        {%- if title == product.title -%}  
-          {%- assign product_in_valid_titles = true -%}  
-        {%- endif -%}  
-      {%- endfor -%}  
+        
       
       {% if product_in_valid_titles %}  
         {% render 'selling-plans-integration' %}  

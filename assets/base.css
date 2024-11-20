@@ -8133,7 +8133,7 @@ h3.imgtitle {
 }
 
 @media (min-width:1110px) {
-  .cbb-frequently-bought-container {
+  .cbb-frequently-box .cbb-frequently-bought-container {
     max-width: 450px !important;
     position: absolute; 
     margin-top: 12px !important;

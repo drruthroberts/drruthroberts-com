@@ -73,7 +73,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 10px;
+        padding: 24px 16px 10px 16px;
     }
 
     .desktop_media {
@@ -83,6 +83,15 @@
     .mobile_media {
         display: block;
     }
+
+    .custom-slider-banner-container .rx_banner__heading {
+        padding-bottom: 0 !important;
+    }
+
+    .custom-slider-banner-container .rx_banner__text {
+        padding-bottom: 8px !important;
+    }
+
 }
 
 @media (min-width: 767px) {
