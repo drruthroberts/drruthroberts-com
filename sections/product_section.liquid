@@ -121,6 +121,17 @@
   border-top-left-radius : 24px;
   border-bottom-left-radius : 24px;
 }
+
+.product-image_url {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-image_url img {
+  width: 100%;
+  height: auto;
+}
 @media(max-width : 1024px){
   .buttons{
     padding : 0;
@@ -148,13 +159,21 @@
   display: flex;
   align-items: baseline;
 }
-.product_image>img {
+.product_image > img {
     border-radius: 0;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
   }
-</style>
+}
 
+@media (max-width: 767px) {
+  .product_image{
+    width : 100%;
+    display: flex;
+    align-items: baseline;
+  }
+}
+</style>
 
 
 <div class="product_section">
@@ -181,7 +200,9 @@
       <div class="product_image">
         {% for image in section.settings.product.images %}
             {% if forloop.index == 1 %}
+              <a href="{{ section.settings.product.url }}" class="product-image_url">
               <img  src="{{ image.src | product_img_url: 'grande' }}">
+              </a>
             {% endif %}
           {% endfor %}
           <h3 class="product_price {% if section.settings.image_placement == "row" %} btn_reverse {% endif %}">{{ section.settings.product.price | money_with_currency }}</h3>
