@@ -1303,6 +1303,11 @@
         "default": 20
       },
       {
+        "type": "checkbox",
+        "id": "sale_badge",
+        "label": "Show Sales Badge"
+      },
+      {
         "type": "select",
         "id": "sale_badge_color_scheme",
         "options": [
