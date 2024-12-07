@@ -11,7 +11,7 @@
   
   
   /* Hide the images by default */
-  .rx-{{ section.id }} .imgWithText-slides:not(.imgWithText-slides:nth-of-type(1)) {
+  .rx-{{section.id}} .imgWithText-slides:not(.imgWithText-slides:nth-of-type(1)) {
     display: none;
   }
   
@@ -346,14 +346,19 @@
                     {% render 'icon-arrow' %}
                   </a>
               </div>
-              {%- endif -%}                       
+              {%- endif -%}
+              
+              
             </div>
           </div>
         </div>
       </div>
+
     </div>
   {%- endfor -%}
+
   </div>
+
 
   <!-- Next and previous buttons -->
   {% comment %} <a id="rx-prev-imgWithText" onclick="plusSlides_imgWithText(-1)">&#10094;</a>
@@ -368,8 +373,14 @@
 
 
 <script>
+
   let slideIndex_imgWithText = 1;
   showSlides_imgWithText(slideIndex_imgWithText);
+
+  {% comment %} // Next/previous controls
+  function plusSlides_imgWithText(n) {
+    showSlides_imgWithText(slideIndex_imgWithText += n);
+  } {% endcomment %}
 
   function currentSlide(n) {
     showSlides_imgWithText(slideIndex_imgWithText = n);
@@ -425,12 +436,15 @@
     for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
+
+    
     
     slides[autoSlideIndex_IWT-1].style.display = "block";
     dots[autoSlideIndex_IWT-1].className += " active";
 
     setTimeout(autoShowSlides_IWT, 8000); // Change image every 5 seconds
   }
+
 </script>
 
 

@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="customercontainer">
   <div class="customreviewside">
     <h2 class="starheadreview">{{section.settings.starreviewhead}}</h2>
@@ -69,48 +70,49 @@
 {% schema %}
 {
 "name": "custom-reviews",
+
 "settings": [
-  {
-      "type": "text",
-      "id": "starreviewhead",
-      "label": "starheadreview"
-  }
+{
+     "type": "text",
+    "id": "starreviewhead",
+    "label": "starheadreview"
+}
 ],
 "blocks":[
 {
 "type" : "block",
 "name" : "block",
 "settings" : [
+               {
+    "type": "image_picker",
+    "id": "mainimage",
+    "label": "Image"
+      },
+{
+            "type": "range",
+            "id": "rating",
+            "min": 0,
+            "max": 5,
+            "step": 1,
+            "label": "Rating",
+            "info": "Set less than '1' to disable Rating.",
+            "default": 5
+          },
     {
-      "type": "image_picker",
-      "id": "mainimage",
-      "label": "Image"
-    },
-    {
-      "type": "range",
-      "id": "rating",
-      "min": 0,
-      "max": 5,
-      "step": 1,
-      "label": "Rating",
-      "info": "Set less than '1' to disable Rating.",
-      "default": 5
-    },
-    {
-      "id" : "confimed",
-      "type" : "text",
-      "label" : "Revie Detail"
-    },
-    {
-      "id" : "confimedp",
-      "type" : "text",
-      "label" : "Revie Detail"
-    },
-    {
-      "id" : "signtext",
-      "type" : "text",
-      "label" : "text"
-    }
+        "id" : "confimed",
+        "type" : "text",
+        "label" : "Revie Detail"
+      },
+  {
+        "id" : "confimedp",
+        "type" : "text",
+        "label" : "Revie Detail"
+      },
+  {
+        "id" : "signtext",
+        "type" : "text",
+        "label" : "text"
+      }
 ]
 }
 
@@ -154,12 +156,12 @@ span.fa.fa-star.checked {
   border:none;
 }
 span.fa.fa-star{
-    border-color:#184B44;
+    borde-color:#184B44;
     background:none;
 }
   span.fa.fa-star-o{
     color: #184B44;}
-.starflex {
+.starflex{
     display:flex;
     justify-content:space-between;
    align-items: baseline;
@@ -228,7 +230,7 @@ slider-component.slider-mobile-gutter.page-width.page-width-desktop {
     text-transform: uppercase;
     color: #1E1E1E;
     text-align: left;
-    width: 70%;
+  width: 70%;
     }
     .customerdetail p {
     font-family: 'Josefin Sans';
@@ -238,7 +240,8 @@ slider-component.slider-mobile-gutter.page-width.page-width-desktop {
     line-height: 30px;
     color: #1E1E1E;
     text-align:left;
-    margin-bottom:0;
+ 
+margin-bottom:0;
     }
     a.readmorebtn{
       text-align:left;
@@ -248,16 +251,16 @@ slider-component.slider-mobile-gutter.page-width.page-width-desktop {
         padding-top: 4%;
       }
   .buttondiv a{
-    border: 1px solid #1229471f;
-    padding: 15px 20px;
-    font-size: 12px;
-    letter-spacing: 1px;
+      border: 1px solid #1229471f;
+      padding: 15px 20px;
+      font-size: 12px;
+        letter-spacing: 1px;
   }
 
-  .buttondiv a:hover {
-    background-color: #283953;
-    color: #fff;
-    transform: translateY(-1px);
+      .buttondiv a:hover {
+      background-color: #283953;
+      color: #fff;
+      transform: translateY(-1px);
   }
   .customercontainer {
      background-color:#F5F8F1;
@@ -273,12 +276,15 @@ slider-component.slider-mobile-gutter.page-width.page-width-desktop {
     position: absolute;
     left: -5%;
   }
-  button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
-    position: absolute;
+      button.drag.dogarrow2.slick-next.pull-right.slick-arrow {
+   position: absolute;
     right: -5%;
-    background: transparent;
-    border: unset;
+            background: transparent;
+            border: unset;
   }
+
+
+
   	.slick-slider {
     position: relative;
     display: block;

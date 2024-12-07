@@ -2,42 +2,6 @@
   margin-top: 5rem;
 }
 
-h2 {
-  font-family: 'BLT-Heirloom', sans-serif;
-  font-size: 25px; 
-  font-weight: bold; 
-  color: #184B44; 
-  margin-top: 15px; 
-  margin-bottom: 5px; 
-}
-
-h3 { 
-  font-family:"BLT-Heirloom";   
-  color: #184B44;
-  font-weight: bold;
-}
-
-p {
-  text-align: justify; 
-  font-family: "Josefin Sans";   
-  color: black; 
-  font-weight: normal;
-}
-
-ul, li {
-  text-align: justify; 
-  font-family: "Josefin Sans";   
-  color: black;
-  font-weight: normal;
-}
-
-ol, li {
-  text-align: justify; 
-  font-family: "Josefin Sans";   
-  color: black;
-  font-weight: normal;
-}
-
 @media screen and (min-width: 750px) {
   .article-template > *:first-child:not(.article-template__hero-container) {
     margin-top: calc(5rem + var(--page-width-margin));

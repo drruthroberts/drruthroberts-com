@@ -14,27 +14,26 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_rNqJTQ": {
+        "announcement_wMrdNA": {
           "type": "announcement",
           "settings": {
-            "text": "Be the First to Save Up on Pet Wellness Essentials—Sign Up for Early Access Now!",
+            "text": "🐾 Turn Your Passion for Pets Into Profit! Join our free workshop Dec 11, 1 PM EST. Sign up now!",
             "text_alignment": "center",
-            "link": "https://drruthroberts.com/pages/black-friday-cyber-monday-sale"
+            "link": "https://www.holisticpethealthcoach.com/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner"
           }
         },
-        "announcement_qWPKCT": {
+        "announcement_pCqCKn": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Last Chance! ⏰ Grab up to 50% Off our never-before-seen collection – Sale Ends at Midnight!",
+            "text": "Welcome to our store",
             "text_alignment": "center",
-            "link": "https://drruthroberts.com/collections/labor-day"
+            "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_rNqJTQ",
-        "announcement_qWPKCT"
+        "announcement_wMrdNA",
+        "announcement_pCqCKn"
       ],
       "custom_css": [],
       "settings": {}

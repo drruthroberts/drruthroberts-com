@@ -9,7 +9,6 @@ window.addEventListener('load', function() {
 
     x = this.setInterval(function(){
         var now = new Date().getTime();
-        console.log (now, "=>")
         var distance = countDown - now;
         if(distance > 0){
             Math.floor(distance/(date));

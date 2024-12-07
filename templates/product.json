@@ -80,12 +80,6 @@
           "settings": {
             "show_dynamic_checkout": false
           }
-        },
-        "880a5ead-be28-4912-b9d7-5a90d320fa21": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"product__tax caption rte\"><a href=\"/policies/shipping-policy\">Shipping</a> calculated at checkout.\n</div>"
-          }
         }
       },
       "block_order": [
@@ -99,8 +93,7 @@
         "caption",
         "c50958db-6d62-42c8-8a47-729c390a856f",
         "c3949539-dd47-4db5-86e8-4b2143f24749",
-        "87b6800d-0639-4f48-b6fd-18848b047f30",
-        "880a5ead-be28-4912-b9d7-5a90d320fa21"
+        "87b6800d-0639-4f48-b6fd-18848b047f30"
       ],
       "settings": {
         "enable_sticky_info": false,

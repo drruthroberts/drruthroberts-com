@@ -58,7 +58,7 @@
         ".img {max-width: 100%; height: auto;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/HERO_minimal_6.png",
+        "image": "shopify://shop_images/HERO_minimal_8.png",
         "content_width": 70,
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -156,6 +156,7 @@
       "settings": {
         "unique_class": "",
         "image": "shopify://shop_images/Routine_weekly_images_4.png",
+        "img_url": "https://drruthroberts.com/collections/ultimate-wellness-kit-stress-free-pet-collection",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -210,6 +211,7 @@
       "settings": {
         "unique_class": "",
         "image": "shopify://shop_images/BFCM_post_24.png",
+        "img_url": "https://drruthroberts.com/collections/stress-free-travel-pet-supplements",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -264,6 +266,7 @@
       "settings": {
         "unique_class": "",
         "image": "shopify://shop_images/BFCM_post_1.jpg",
+        "img_url": "https://drruthroberts.com/collections/clearance-sale",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -341,6 +344,57 @@
         "swipe_on_mobile": false,
         "padding_top": 32,
         "padding_bottom": 16
+      }
+    },
+    "custom_product_slider_gw9FGq": {
+      "type": "custom-product-slider",
+      "blocks": {
+        "slider_item_7KRFQx": {
+          "type": "slider-item",
+          "settings": {
+            "collection": "bfcm25",
+            "bg_color": "#f5f8f1",
+            "slider_heading": "Get 25% OFF",
+            "slider_content": "<p>Save 25% on top-selling pet supplements with code <strong>THANKS25</strong> – ultimate care for your furry friends!</p>",
+            "btn_url": "https://drruthroberts.com/collections/bfcm25",
+            "btn_text": "SEE MORE"
+          }
+        },
+        "slider_item_4xkYrn": {
+          "type": "slider-item",
+          "settings": {
+            "collection": "bfcm15",
+            "bg_color": "",
+            "slider_heading": "GET 15% OFF",
+            "slider_content": "<p>Support your pets’ immune health with premium medicinal mushroom supplements. Save 15% with code <strong>THANKS15</strong> – limited time only!</p>",
+            "btn_url": "https://drruthroberts.com/collections/bfcm15",
+            "btn_text": "SEE MORE"
+          }
+        },
+        "slider_item_LxAWMy": {
+          "type": "slider-item",
+          "settings": {
+            "collection": "bfcm10",
+            "bg_color": "#f5f8f1",
+            "slider_heading": "GET 10% OFF",
+            "slider_content": "<p>Help your pets stay calm and relaxed with mushroom drops. Save 10% with code <strong>THANKS10</strong> – limited time offer!</p>",
+            "btn_url": "https://drruthroberts.com/collections/bfcm10",
+            "btn_text": "SEE MORE"
+          }
+        }
+      },
+      "block_order": [
+        "slider_item_7KRFQx",
+        "slider_item_4xkYrn",
+        "slider_item_LxAWMy"
+      ],
+      "custom_css": [
+        "p {font-weight: normal;}"
+      ],
+      "settings": {
+        "heading": "",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "rich_text_G6XxMr": {
@@ -674,6 +728,7 @@
     "86e189a3-542b-4ac4-8666-f0054c07ccb2",
     "9f59e223-8662-4f2a-acc2-88be9484e91c",
     "17f3f27c-96bb-461c-aeaf-de6801eb573c",
+    "custom_product_slider_gw9FGq",
     "rich_text_G6XxMr",
     "product_section_ihw6he",
     "afd00670-eaa8-4072-be8f-77f6500b392c",

@@ -12,32 +12,10 @@
     "custom_slider_banner_hEcVXF": {
       "type": "custom-slider-banner",
       "blocks": {
-        "slider_banner_P3NTEU": {
-          "type": "slider-banner",
-          "settings": {
-            "image": "shopify://shop_images/Inflammation_Immunity_and_Leaky_Gut_Deciding_when_and_How_to_Treat_1.png",
-            "image_overlay_opacity": 0,
-            "image_height": "large",
-            "desktop_content_position": "middle-left",
-            "show_text_box": true,
-            "container_bg": "#ffffff",
-            "desktop_content_alignment": "center",
-            "heading_color": "#000000",
-            "text_color": "#000000",
-            "show_arrow_mobile": "yes",
-            "mobile_content_alignment": "center",
-            "stack_images_on_mobile": true,
-            "show_text_below": true,
-            "heading": "SAVE YOUR SEAT!",
-            "text": "Join us Nov 7 at 12 PM EST for expert tips from Dr. Ruth Roberts & Marketa Jefferson on safe holiday treats and foods to avoid for your pets!",
-            "button_label_1": "JOIN US HERE",
-            "button_link_1": "https://courses.drruthroberts.com/c/ask-dr-ruth-monthly-q-a/holiday-foods-for-pets-expert-advice-on-safe-treats-and-deadly-dangers"
-          }
-        },
         "slider_banner_896cCb": {
           "type": "slider-banner",
           "settings": {
-            "image": "shopify://shop_images/Spooky_Secrets_to_Natural_Pet_Allergy_Relief_2.png",
+            "image": "shopify://shop_images/DEC_5_website_banner_1.png",
             "image_overlay_opacity": 0,
             "image_height": "large",
             "desktop_content_position": "middle-left",
@@ -51,15 +29,37 @@
             "stack_images_on_mobile": true,
             "show_text_below": true,
             "heading": "SAVE YOUR SEAT!",
-            "text": "Trick or treat? This Halloween season, we’re not playing tricks—just sharing treats that can help your pets beat those pesky allergies once and for all!",
+            "text": "Join Dr. Lynda Loudon on Dec. 5 to empower your pet care journey with holistic tips and wellness strategies!",
             "button_label_1": "Stay Updated",
-            "button_link_1": "https://www.facebook.com/events/1073285250940472/?rdid=r6G2vanzPnFd4reL&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FoDGv2dQtwx9xWUmV%2F"
+            "button_link_1": "https://courses.drruthroberts.com/c/ask-dr-ruth-monthly-q-a/the-voice-of-change-how-guardians-and-coaches-can-transform-pet-wellness"
+          }
+        },
+        "slider_banner_P3NTEU": {
+          "type": "slider-banner",
+          "settings": {
+            "image": "shopify://shop_images/DEC_12_website_banner_3c7b4550-35a4-4658-adb9-b3e2aad23c6d.png",
+            "image_overlay_opacity": 0,
+            "image_height": "large",
+            "desktop_content_position": "middle-left",
+            "show_text_box": true,
+            "container_bg": "#ffffff",
+            "desktop_content_alignment": "center",
+            "heading_color": "#000000",
+            "text_color": "#000000",
+            "show_arrow_mobile": "yes",
+            "mobile_content_alignment": "center",
+            "stack_images_on_mobile": true,
+            "show_text_below": true,
+            "heading": "SAVE YOUR SEAT!",
+            "text": "Learn natural ways to keep your senior pet calm this holiday season with Dr. Ruth Roberts and pet expert Denise Bozenski!",
+            "button_label_1": "",
+            "button_link_1": "https://courses.drruthroberts.com/c/ask-dr-ruth-monthly-q-a/holiday-foods-for-pets-expert-advice-on-safe-treats-and-deadly-dangers"
           }
         }
       },
       "block_order": [
-        "slider_banner_P3NTEU",
-        "slider_banner_896cCb"
+        "slider_banner_896cCb",
+        "slider_banner_P3NTEU"
       ],
       "settings": {}
     },
@@ -100,43 +100,24 @@
     "custom_event_page_VdU6GR": {
       "type": "custom-event-page",
       "settings": {
-        "event_img": "shopify://shop_images/Inflammation_Immunity_and_Leaky_Gut_Deciding_when_and_How_to_Treat_2.png",
+        "event_img": "shopify://shop_images/DEC_5.png",
         "calendar_img": "shopify://shop_images/date_3.png",
         "week_text": "Thursday",
         "week": "4",
-        "month_text": "November",
-        "month": "10",
-        "date": 7,
+        "month_text": "December",
+        "month": "11",
+        "date": 5,
         "year": 2024,
         "time_img": "shopify://shop_images/time_3.png",
-        "start_hour": 12,
-        "end_hour": 2,
+        "start_hour": 11,
+        "end_hour": 1,
         "time_zone": "EST",
-        "title": "Holiday Foods for Pets: Expert Advice on Safe Treats and Deadly Dangers",
-        "description": "<p>Is your pet eyeing the holiday feast? Before you let them sneak a bite, let’s talk about what’s safe and what’s not for our furry friends this  holiday season! In this upcoming live, we’re joined by Marketa, a Certified Holistic Pet Health Coach (HPHC), Certified Groomer, Pet Massage Therapist, and CPR Instructor, who’s here to break down the best foods to give your pets during the holidays—and what to avoid at all <br/>costs!</p>",
-        "button_link_1": "https://courses.drruthroberts.com/c/ask-dr-ruth-monthly-q-a/holiday-foods-for-pets-expert-advice-on-safe-treats-and-deadly-dangers",
+        "title": "How Guardians and Coaches Can Transform Pet Wellness",
+        "description": "<p>Join Dr. Lynda Loudon, integrative emergency vet and founder of the Dog Mom Society, as she empowers holistic-minded pet parents to confidently navigate emergency care, prevent chronic illnesses, and advocate for their furry companions’ health. Discover natural health strategies, actionable wellness tips, and powerful tools to create a proactive approach to pet care. Mark your calendar and take the first step toward ensuring a healthier, happier life for your pet!</p>",
+        "button_link_1": "https://www.facebook.com/share/1Pmi5b58Yi/",
         "button_label_1": "JOIN US HERE",
-        "button_link_2": "#",
-        "button_label_2": ""
-      }
-    },
-    "custom_canlendar_event_9wRF4t": {
-      "type": "custom-canlendar-event",
-      "settings": {
-        "event_img": "shopify://shop_images/Spooky_Secrets_to_Natural_Pet_Allergy_Relief.png",
-        "week_text": "Thursday",
-        "week": "4",
-        "month_text": "November",
-        "month": "0",
-        "date": 7,
-        "year": 2024,
-        "start_hour": 1,
-        "end_hour": 2,
-        "time_zone": "EST",
-        "title": "The Allergy Busters’ Spooky Secrets to Natural Pet Allergy Relief",
-        "description": "<p>Join Dr. Ruth Roberts as she welcomes the amazing Dr. Jeff Grognet, DVM, for a thrilling dive into holistic pet allergy relief. Together, they’ll uncover spooky secrets that transform your furry friend's health—naturally. Whether it’s seasonal allergies or year-round sniffles, the Allergy Busters have the answers!</p>",
-        "button_link_1": "https://www.facebook.com/share/oDGv2dQtwx9xWUmV/",
-        "button_label_1": "Join Us Here"
+        "button_link_2": "https://courses.drruthroberts.com/c/ask-dr-ruth-monthly-q-a/the-voice-of-change-how-guardians-and-coaches-can-transform-pet-wellness",
+        "button_label_2": "LEARN MORE"
       }
     },
     "custom_canlendar_event_LbdpX6": {
@@ -145,15 +126,34 @@
         "event_img": "shopify://shop_images/event_page_website_1.png",
         "week_text": "Wednesday",
         "week": "3",
-        "month_text": "November",
-        "month": "10",
-        "date": 13,
+        "month_text": "December",
+        "month": "11",
+        "date": 11,
         "year": 2024,
         "start_hour": 10,
         "end_hour": 2,
         "time_zone": "ET",
         "title": "Holistic Pet Health Coach Live Workshop",
-        "description": "",
+        "description": "<p>Are you ready to combine your love for pets with a career that truly fulfills you? The pet industry is growing fast, and the need for holistic pet health coaches has never been greater. With over 90 million household dogs and cats in the U.S. but only 120,000 vets, there’s an urgent need for dedicated pet advocates like you.</p><p>Join me, Dr. Ruth Roberts, for a free <strong>live workshop on Dec 11 at 1 PM EST/10 AM PST</strong></p>",
+        "button_link_1": "https://www.holisticpethealthcoach.com/pet-health-training?utm_source=GHL&utm_medium=Email&utm_campaign=Workshop+Funnel+-+registration&utm_id=Workshop+series",
+        "button_label_1": "REGISTER HERE"
+      }
+    },
+    "custom_canlendar_event_9wRF4t": {
+      "type": "custom-canlendar-event",
+      "settings": {
+        "event_img": "shopify://shop_images/DEC_12.png",
+        "week_text": "Thursday",
+        "week": "4",
+        "month_text": "November",
+        "month": "0",
+        "date": 12,
+        "year": 2024,
+        "start_hour": 12,
+        "end_hour": 1,
+        "time_zone": "EST",
+        "title": "Stress-Free Holidays for Senior Pets: Natural Solutions for Calming & Brain Health",
+        "description": "<p>Wondering how to keep your senior pet calm during the holiday hustle? Join Dr. Ruth Roberts and Denise Bozenski, founder of Fetch This Canine, as they share holistic strategies to manage stress in older pets. Discover calming techniques, cognitive support tips, and simple ways to help your furry friend feel secure and stress-free this season. Don’t miss this heartfelt discussion packed with expert advice!</p>",
         "button_link_1": "",
         "button_label_1": "TBA"
       }
@@ -434,8 +434,8 @@
     "custom_slider_banner_hEcVXF",
     "rx_rich_text_yXXLjK",
     "custom_event_page_VdU6GR",
-    "custom_canlendar_event_9wRF4t",
     "custom_canlendar_event_LbdpX6",
+    "custom_canlendar_event_9wRF4t",
     "rx_rich_text_c8yeCp",
     "main",
     "image_banner_DifKD3",

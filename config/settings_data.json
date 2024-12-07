@@ -65,7 +65,8 @@
     "card_shadow_blur": 35,
     "collection_card_style": "standard",
     "collection_card_shadow_vertical_offset": 0,
-    "blog_card_style": "standard",
+    "blog_card_style": "card",
+    "blog_card_color_scheme": "background-1",
     "text_boxes_border_thickness": 0,
     "text_boxes_border_opacity": 10,
     "text_boxes_radius": 20,
@@ -95,6 +96,7 @@
     "drawer_shadow_blur": 5,
     "badge_position": "top left",
     "badge_corner_radius": 0,
+    "sale_badge": false,
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "text",
@@ -590,6 +592,11 @@
       },
       "4824701725375534060": {
         "type": "shopify://apps/blockify-checkout/blocks/block-checkout/a02f68fe-3bdb-4615-b9c5-7d181a329397",
+        "disabled": false,
+        "settings": {}
+      },
+      "18117893244055972010": {
+        "type": "shopify://apps/amai-preorder-manager-notify/blocks/app-embed-block/7053ce2a-18da-4e24-98b3-3fdd20b313e7",
         "disabled": false,
         "settings": {}
       }
