@@ -1,15 +1,14 @@
 {%- assign current_variant = product.selected_or_first_available_variant | default: product.variants.first -%}
-
   <div class="selling_plan_app_container" data-section-id='{{ section.id }}'>
     {% for variant in product.variants %}
-      {%liquid
+      {%
+        liquid
         assign variantPrice = variant.price | money | escape
         assign variantComparedAtPrice = variant.compare_at_price | money_with_currency | escape
       %}
-      <fieldset class="bulk-purchase-group">
+      <fieldset class="bulk-purchase-group" data-id="{{ product.id }}">
         <div class="bulk-purchase-container">
           <div for="custom-purchase-option" class="bulk-purchase-label">
-              {% comment %} <input type="radio" id="custom-subscription--input-save" name="purchaseOption_{{ section.id }}_{{ variant.id }}" value="save" class="group-input" data-radio-type='selling_plan_group'>  {% endcomment %}
               <div class="subscription-text">  
                 <div class="subscription-text--title">  
                     <span class="custom-subscription--input__text">  
@@ -31,7 +30,7 @@
                           data-variant-compare-at-price='{{ variantComparedAtPrice }}'
                           class="group-input"
                           checked
-                        />
+                      />
                       <div class="purchase-pack-box selected">
                         <span class="bulk-purchase-name">1-pack</span>
                         <div class="purchase-plan-price">{{ variantPrice }}</div>  
@@ -51,15 +50,17 @@
                           class="group-input"
                         />
                             <div class="purchase-pack-box">
-                              <span class="bulk-purchase-name">3-pack</span>
+                          <span class="bulk-purchase-name"> {% if product.id == 7469452525633 %} 5-pack {% else %}  3-pack {% endif %} </span>
                               <div class="purchase-price">
-                                {% assign origin_price = variant.price  | times: 3 %}
-                                {% assign discounted_price =  variant.price | times: 2.55 %}
-                                <span class="bulk-origin-price">{{ origin_price | money | escape }}</span>
-                                <span class="bulk-discounted-price">{{ discounted_price | money | escape }}</span>
+                                {% assign three_origin_price = variant.price  | times: 3 %}
+                                {% assign three_discounted_price =  three_origin_price | times: 0.85 %}
+                                {% assign five_origin_price = variant.price  | times: 5 %}
+                                {% assign five_discounted_price =  five_origin_price | times: 0.7 %}
+                                <span class="bulk-origin-price">{% if product.id == 7469452525633 %} {{ five_origin_price | money | escape }} {% else %} {{ three_origin_price | money | escape }}{% endif %}</span>
+                                <span class="bulk-discounted-price">{% if product.id == 7469452525633 %} {{ five_discounted_price | money | escape }} {% else %} {{ three_discounted_price | money | escape }}{% endif %}</span>
                               </div>  
                             </div>
-                          <span class="bulk-purchase-discount">Save 15%</span>
+                          <span class="bulk-purchase-discount">{% if product.id == 7469452525633 %} Save 30% {% else %}  Save 15% {% endif %}</span>
                     </label>
                   </div>
                   <div class="bulk-purchase-group-label">
@@ -75,15 +76,17 @@
                         class="group-input"
                       />
                       <div class="purchase-pack-box">
-                        <span class="bulk-purchase-name">6-pack</span>
+                        <span class="bulk-purchase-name">{% if product.id == 7469452525633 %} 10-pack {% else %}  6-pack {% endif %}</span>
                         <div class="purchase-price">
                           {% assign six_origin_price = variant.price | times: 6 %}
-                          {% assign six_discounted_price =  variant.price | times: 4.5 %}
-                          <span class="bulk-origin-price">{{ six_origin_price | money | escape }}</span>
-                          <span class="bulk-discounted-price">{{ six_discounted_price | money | escape }}</span>  
+                          {% assign six_discounted_price =  six_origin_price | times: 0.75 %}
+                          {% assign ten_origin_price = variant.price  | times: 10 %}
+                          {% assign ten_discounted_price =  ten_origin_price | times: 0.66 %}
+                          <span class="bulk-origin-price">{% if product.id == 7469452525633 %} {{ ten_origin_price | money | escape }} {% else %} {{ six_origin_price | money | escape }}{% endif %}</span>
+                          <span class="bulk-discounted-price">{% if product.id == 7469452525633 %} {{ ten_discounted_price | money | escape }} {% else %} {{ six_discounted_price | money | escape }}{% endif %}</span>  
                         </div>  
                       </div>
-                        <span class="bulk-purchase-discount">Save 25%</span>
+                        <span class="bulk-purchase-discount">{% if product.id == 7469452525633 %} Save 34% {% else %}  Save 25% {% endif %}</span>
                     </label>
                   </div>
               </div>
@@ -93,3 +96,6 @@
       </fieldset>
     {% endfor %}
   </div>
+
+
+  

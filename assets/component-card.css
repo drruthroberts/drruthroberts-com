@@ -369,3 +369,7 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+.media.media--transparent.media--hover-effect img {
+  object-fit: contain !important;
+}
