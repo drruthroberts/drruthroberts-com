@@ -14,25 +14,26 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_wMrdNA": {
+        "announcement_9VATqQ": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "🐾 Turn Your Passion for Pets Into Profit! Join our free workshop Dec 11, 1 PM EST. Sign up now!",
+            "text": "🐾 Turn Your Passion for Pets Into Profit! Join our free workshop Jan 15th, 1 PM EST. Sign up now!",
             "text_alignment": "center",
-            "link": "https://www.holisticpethealthcoach.com/pet-health-training?utm_source=Workshop+&utm_medium=June+&utm_id=Shopify+banner"
+            "link": ""
           }
         },
         "announcement_pCqCKn": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "🐾 Turn Your Passion for Pets Into Profit! Join our free workshop Jan 15th, 1 PM EST. Sign up now!",
             "text_alignment": "center",
-            "link": ""
+            "link": "https://drruthroberts.com/collections/boxing-day"
           }
         }
       },
       "block_order": [
-        "announcement_wMrdNA",
+        "announcement_9VATqQ",
         "announcement_pCqCKn"
       ],
       "custom_css": [],

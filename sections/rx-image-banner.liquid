@@ -38,20 +38,26 @@
 
   .section-{{section.id}} .rx_banner__heading {
     font-family: "BLT-Heirloom";
-    font-weight: 300;
-    font-size: 30px;
+    font-weight: 600;
+    font-size: {{ section.settings.font_size }}px;
     line-height: 40px;
-    color: {{section.settings.heading_color}};
+    color: {{section.settings.heading_color}} !important;
     margin: 0;
   }
 
+  .rx_banner__subheading {
+    color: #fff !important;
+    font-weight: 600;
+  }
+
+
   .section-{{section.id}} .rx_banner__text {
     font-family: "Josefin Sans";
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 20px;
     line-height: 30px;
     margin-bottom: 20px;
-    color: {{section.settings.text_color}}
+    color: {{ section.settings.text_color }}
   }
 
   .section-{{section.id}} .rx_banner__buttons {
@@ -68,6 +74,22 @@
     margin:0;
   }
 
+  .rx_image_banner_btn {
+    {% if section.settings.btn_background %}
+    background: {{ section.settings.btn_background }};
+    border: none;
+    color: {{ section.settings.btn_text_color }};
+    {% endif %}
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: inherit;
+  }
+
+  .rx_image_banner_btn:hover {
+    background: #EFA316;
+    color: #fff;
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{section.id}} .banner--desktop-transparent .rx_banner__box {
@@ -97,6 +119,9 @@
   @media screen and (max-width: 749px) {
     #Banner-{{ section.id }} .rx_read_more_arrow_img_banner {
       display: {% if section.settings.show_arrow_mobile == "no" %} none {% endif %};
+    }
+    .banner__content span {
+      color: unset !important;
     }
   }
 
@@ -171,8 +196,12 @@
   {%- endif -%}
   <div class="section-{{section.id}} banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="custom-box rx_banner__box content-container content-container--full-width-mobile rx-container-bg">
-      {%- for block in section.blocks -%}
+    {%- for block in section.blocks -%}
         {%- case block.type -%}
+          {%-  when 'subheading' -%}
+             <span class="rx_banner__subheading">
+              {{ block.settings.subheading }}
+             </span> 
           {%- when 'heading' -%}
             <p class="rx_banner__heading" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | escape }}</span>
@@ -190,7 +219,7 @@
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
-                  class="{% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
+                  class=" rx_image_banner_btn {% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
                 >
                   {{- block.settings.button_label_1 | escape -}}
                   {% render 'icon-arrow' %}
@@ -303,6 +332,16 @@
       "label": "t:sections.image-banner.settings.desktop_content_position.label"
     },
     {
+      "type": "range",
+      "id": "font_size",
+      "min": 12,
+      "max": 60,
+      "unit": "px",
+      "step": 1,
+      "label": "Header Font Size",
+      "default": 30
+    },
+    {
       "type": "checkbox",
       "id": "show_text_box",
       "default": true,
@@ -345,6 +384,16 @@
       "id": "text_color",
       "label": "Text Color",
       "default": "#000"
+    },
+    {
+      "type": "color",
+      "id": "btn_background",
+      "label": "Button background color"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "Button text color"
     },
     {
       "type": "header",
@@ -401,6 +450,19 @@
   ],
   "blocks": [
     {
+      "type": "subheading",
+      "name": "t:sections.image-banner.blocks.subheading.name",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "text",
+          "id": "subheading",
+          "default": "Image banner",
+          "label": "Subheading"
+        }
+      ]
+    },
+    {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
       "limit": 1,
@@ -411,6 +473,7 @@
           "default": "Image banner",
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         }
+    
       ]
     },
     {
@@ -450,6 +513,9 @@
     {
       "name": "RX-Image Banner",
       "blocks": [
+        {
+          "type": "subheading"
+        },
         {
           "type": "heading"
         },

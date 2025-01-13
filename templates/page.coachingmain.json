@@ -30,7 +30,7 @@
         "template--14909520412737__2681002e-3476-48db-92c0-2576d4ecdb80-1681376700e830d692-1": {
           "type": "text",
           "settings": {
-            "text": "Holistic Pet Health Coach                         by Dr. Ruth Roberts",
+            "text": "Holistic Pet Health Coach™                         by Dr. Ruth Roberts",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -60,6 +60,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Image_2x_c746e3b2-e6a4-4c8f-ac92-76c9900e5056.png",
+        "content_width": 100,
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
@@ -128,12 +129,12 @@
         ".appbtn {margin-top: -2%;}"
       ],
       "settings": {
-        "apphead": " Certified Holistic Pet Health Coach Program by Dr. Ruth Roberts",
-        "subappconhead": "A Comprehensive Training in Pet Health and Wellness: Guide pet owners towards natural and holistic health solutions for their beloved animals as a certified pet health coach.",
+        "apphead": " Certified Holistic Pet Health Coach Program™ by Dr. Ruth Roberts",
+        "subappconhead": "A Comprehensive Training in Pet Health and Wellness: Guide pet owners towards natural and holistic health solutions for their beloved animals as a Certified Holistic Pet Health Coach™.",
         "appdesc": "",
-        "appcontctdes": "The Certified Holistic Pet Health Coach Program offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness.",
-        "applbtn": "Apply Now",
-        "appbtnurl": "https://www.holisticpethealthcoach.com/application"
+        "appcontctdes": "The Certified Holistic Pet Health Coach Program™ offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness.",
+        "applbtn": "Learn More",
+        "appbtnurl": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify"
       }
     },
     "5d6ce464-4822-4265-978d-865c15a291eb": {
@@ -141,8 +142,8 @@
       "settings": {
         "textdesc": "Certified Holistic Pet Health Coaches are trained professionals who specialize in providing guidance and support to pet owners in achieving optimal health and well-being for their pets using holistic, integrative veterinary approaches. These coaches have an understanding of the various factors that impact pet health, such as nutrition, exercise, emotional health, and environmental factors. ",
         "about2img": "shopify://shop_images/Image_1.png",
-        "textdesc2": "By becoming a certified Holistic Pet Health Coach, you may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. You may also offer a range of services, the science behind Functional Medicine, supporting dogs and cats with traditional veterinary care, developing food and supplement plans tailored to each cat and dog, and lifestyle coaching to help domestic animals thrive and live healthier, happier lives. Additionally, the program has received approval for 40 hours of RACE CE Credits  for Veterinarians and Vet techs through AAVSB.",
-        "textdesc3": "Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach today!",
+        "textdesc2": "By becoming a certified Holistic Pet Health Coach™, you may provide your services in a variety of settings, including veterinary clinics, pet stores, animal shelters, or working one to one with pet parents. You may also offer a range of services, the science behind Functional Medicine, supporting dogs and cats with traditional veterinary care, developing food and supplement plans tailored to each cat and dog, and lifestyle coaching to help domestic animals thrive and live healthier, happier lives. Additionally, the program has received approval for 40 hours of RACE CE Credits  for Veterinarians and Vet techs through AAVSB.",
+        "textdesc3": "Our comprehensive training program equips you with the knowledge and skills needed to succeed in this rewarding field. Join the growing demand for pet care professionals and start your career as a Certified Holistic Pet Health Coach™ today!",
         "about2img2": "shopify://shop_images/Image_2.png"
       }
     },
@@ -211,8 +212,8 @@
       ],
       "settings": {
         "c_head": "",
-        "pro_btn1": "apply now",
-        "program_link1": "https://www.holisticpethealthcoach.com/application"
+        "pro_btn1": "Learn More",
+        "program_link1": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify"
       }
     },
     "00f4763c-eed7-470b-8ccb-45e5f7d30179": {
@@ -404,8 +405,8 @@
       "settings": {
         "programhead": "After the program",
         "programsubhead": "Join Our Network of Certified Holistic Pet Health Coaches",
-        "pro_btn": "Apply Now",
-        "program_link": "https://www.holisticpethealthcoach.com/application"
+        "pro_btn": "Learn More",
+        "program_link": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify"
       }
     },
     "956967f3-b758-4069-9de9-97161c47dbc6": {
@@ -543,8 +544,8 @@
         ".arrowheight {height: 600px;}"
       ],
       "settings": {
-        "arrowid": "https://www.holisticpethealthcoach.com/application",
-        "arrowtextbtn": "Apply Now"
+        "arrowid": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify",
+        "arrowtextbtn": "Learn More"
       }
     },
     "2baece1e-b3a3-41f8-b488-7eb4762ccade": {
@@ -638,6 +639,7 @@
         "04fdc4ce-fab1-4f25-aeb0-b2f038700b89",
         "5840cdfe-58d3-4503-87a5-a0b4415826dd"
       ],
+      "disabled": true,
       "custom_css": [
         "span {color: #184b44; font-family: \"BLT-Heirloom\"; font-style: normal; font-weight: 300; line-height: 40px; color: #184b44;}",
         "li {margin-top: 0;}",
@@ -649,8 +651,8 @@
         "pro_desc1": "",
         "proo_des": "The program fees for our certified holistic pet health coach program may seem like a significant investment, but it's important to remember that this is an investment in your future and the health of pets. Our flexible payment options make it easier for you to start your career without worrying about financial constraints. By becoming a certified holistic pet health coach, you'll be able to positively impact the lives of pets and their owners, while building a fulfilling and rewarding career. Don't hesitate to invest in yourself and the future of pet health - join our program today!",
         "profeeterm": "Terms and Conditions Apply",
-        "cost_btn": "apply now",
-        "cost_btnurl": "https://www.holisticpethealthcoach.com/application"
+        "cost_btn": "Learn More",
+        "cost_btnurl": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify"
       }
     },
     "d6fe8d30-271b-4552-b3ee-3cd7d95fc521": {
@@ -735,7 +737,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "APPLY TO THE PROGRAM",
-            "button_link_1": "https://www.holisticpethealthcoach.com/application",
+            "button_link_1": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "https://www.holisticpethealthcoach.com/application",
@@ -756,6 +758,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Rectangle_1.png",
+        "content_width": 100,
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-left",
@@ -1006,6 +1009,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/drruth3.jpg",
+        "content_width": 100,
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

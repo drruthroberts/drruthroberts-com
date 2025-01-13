@@ -1,0 +1,473 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rx_image_banner_zRqgKy": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "subheading_iJRbcF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "UP TO"
+          }
+        },
+        "heading_bijRXT": {
+          "type": "heading",
+          "settings": {
+            "heading": "50% Off"
+          }
+        },
+        "text_4HXHx3": {
+          "type": "text",
+          "settings": {
+            "text": "Holistic Pet Care Products"
+          }
+        },
+        "buttons_GQ8yHz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "#"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_iJRbcF",
+        "heading_bijRXT",
+        "text_4HXHx3",
+        "buttons_GQ8yHz"
+      ],
+      "custom_css": [
+        ".container {padding-top: 5px; padding-bottom: 5px;}",
+        ".content-container {padding-top: 5px; padding-bottom: 10px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Boxing_Day_Blowout_Hero_Image.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "font_size": 50,
+        "show_text_box": false,
+        "container_bg": "#ffffff",
+        "desktop_content_alignment": "center",
+        "heading_color": "#f4b649",
+        "text_color": "#f4b649",
+        "btn_background": "#c0f864",
+        "btn_text_color": "#000000",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "count_up_Wbpr4U": {
+      "type": "count-up",
+      "settings": {
+        "background_img": "shopify://shop_images/Rectangle_6466.png",
+        "subheading": "Giddy Up!",
+        "heading": "THE SALE END SOON",
+        "text_color": "#ffffff",
+        "month": "11",
+        "date": 26,
+        "year": 2024,
+        "end_hour": 10,
+        "time_zone": "ET",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "margin_top": 28,
+        "margin_bottom": 40
+      }
+    },
+    "product_boxing_YKakxc": {
+      "type": "product-boxing",
+      "blocks": {
+        "story_boxing_8ryDxY": {
+          "type": "story_boxing",
+          "settings": {
+            "background_color": "#e7cca1",
+            "heading": "A TAIL-WAGGING BUNDLE OF JOY",
+            "subheading": "Holistic Gift Ideas for Your Pet",
+            "content": "<p>our Personalized Supplement Gift Bundles for Cats & Dogs are designed to meet their unique needs and keep them happy and healthy! Keep those tails wagging and show them just how much they mean to you this holiday season.</p>",
+            "btn_url": "#",
+            "btn_text": "Check Out the Solutions",
+            "sub_content": "<p>This sale Won’t Last long, and bundles are limited. Don’t miss your chance to create a healthier, happier life for your pets</p>"
+          }
+        },
+        "image_boxing_m6PkBV": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/Group_1000002877.png",
+            "product_btn_url": "https://drruthroberts.com/products/paws-in-motion-support-joint-whole-body-wellness-for-pets",
+            "product_btn_text": "Buy now"
+          }
+        },
+        "image_boxing_8fjQij": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/Group_1000002878.png",
+            "product_btn_url": "https://drruthroberts.com/products/ultimate-pet-wellness-kit",
+            "product_btn_text": "buy now"
+          }
+        },
+        "image_boxing_RmBx3R": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/Group_1000002879_1.png",
+            "product_btn_url": "https://drruthroberts.com/products/tummy-rescue-digestive-relief-for-pets",
+            "product_btn_text": "buy now"
+          }
+        },
+        "image_boxing_hL6F7B": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/Group_1000002880.png",
+            "product_btn_url": "https://drruthroberts.com/products/serenity-calm-support-pet-bundle",
+            "product_btn_text": "buy now"
+          }
+        },
+        "image_boxing_tAc4zw": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/Group_1000002881.png",
+            "product_btn_url": "https://drruthroberts.com/products/itchy-skin-relief-for-dogs-cats",
+            "product_btn_text": "Buy now"
+          }
+        }
+      },
+      "block_order": [
+        "story_boxing_8ryDxY",
+        "image_boxing_m6PkBV",
+        "image_boxing_8fjQij",
+        "image_boxing_RmBx3R",
+        "image_boxing_hL6F7B",
+        "image_boxing_tAc4zw"
+      ],
+      "settings": {
+        "background_img": "shopify://shop_images/boxing_day_background_pic_1.png",
+        "padding_top": 60,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
+    "image_with_text_Dt3Hpq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_639dhx": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.protocol_name_heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_y8wPdq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.protocol_banner_text | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kcfx4U": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_639dhx",
+        "text_y8wPdq",
+        "button_kcfx4U"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "{{ collection.metafields.custom.image_banner.value }}",
+        "img_url": "",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "h1 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "accent-1"
+      }
+    },
+    "rx_img_with_text_cbVCWh": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "heading_8aVwNJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Original CrockPet Diet Collection",
+            "font_family": "font_blt"
+          }
+        },
+        "text_mx7YGm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you looking for a healthy homemade recipe to help your fur baby improve their current condition?<br/><br/>Have you been switching back and forth from raw feeding - dry kibbles but have not seen any improvement?<br/><br/>The Original CrockPet Diet is a home-cooked diet for your pet, made in your kitchen with only real foods. Dr. Ruth's patented recipe is fully balanced for pets in all life stages and can improve the health of puppies and kittens, adult cats and dogs, and senior pets.<br/><br/>Here's everything you need to get started making The Original CrockPet Diet or replenish your cupboard</p>"
+          }
+        },
+        "button_4MTUjz": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET THE RECIPE & COURSE",
+            "button_link": "https://drruthroberts.com/products/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8aVwNJ",
+        "text_mx7YGm",
+        "button_4MTUjz"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/crockpet_collection_1.png",
+        "img_url": "",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_title_alignment": "center",
+        "desktop_content_alignment": "center",
+        "desktop_button_alignment": "center",
+        "content_layout": "overlap",
+        "grid_type": "type2",
+        "imgText-bg-color": "#f5f8f1",
+        "show_arrow_mobile": "no",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "content_padding_top": 50,
+        "content_padding_bottom": 50
+      }
+    },
+    "custom_rich_text_LH4LfL": {
+      "type": "custom-rich-text",
+      "settings": {
+        "background_img": "shopify://shop_images/Rectangle_6496.png",
+        "heading": "Because Wellness is the Best Gift You Can Give",
+        "sub_heading": "",
+        "content": "<p>These bundles aren’t just supplements—they’re a promise of care, comfort, and love for the furry family members who mean so much.</p>",
+        "btn_url": "#",
+        "btn_text": "shop now!",
+        "text_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
+    "custom_rich_text_ytUdnb": {
+      "type": "custom-rich-text",
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "heading": "SHOP OUR BOXING DAY PET HEALTH COLLECTION",
+        "sub_heading": "<p>UP TO 50% OFF ON SELECTED ITEMS (WHILE THE STOCK LAST)</p>",
+        "content": "<p>This #BOXINGDAYSALE, it’s all about pampering your furry family members with holistic supplements aimed to meet their unique needs.  Get pet the selected pet health supplements, CrockPET Diet recipes, bundles and more—all crafted to support your pet’s health and happiness. These sets are perfect for ensuring your pets thrive, whether at home or on the go. With up to 50% OFF, there’s no better time to give your pets the care they deserve. <br/><br/><em>Don’t miss out—this offer is only available for a limited time!</em></p>",
+        "btn_url": "",
+        "btn_text": "",
+        "text_color": "#184b44",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 0
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "custom_css": [
+        ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}"
+      ],
+      "settings": {
+        "products_per_page": 9,
+        "description_enabled": false,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "show_special_offer": true,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 20,
+        "padding_bottom": 48,
+        "rating": 5
+      }
+    },
+    "featured_collection_C68bEB": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SAVE 50% OFF",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "clearance-sale",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_y44Ah8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SAVE 25% OFF use code: BOXINGDAY25",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "boxing-day-25-off",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_FHNtBM": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SAVE 10% OFF use code: BOXINGDAY10",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "boxing-day-10-off",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay in the Loop – Never Miss a Sale!",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Don’t let amazing deals slip by! </strong><br/>Subscribe to our email list and we’ll remind you about our Boxing Day sale and any upcoming offers.<br/><br/> Sign up now and let us help you stay in the loop!</p>"
+          }
+        },
+        "email-form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email-form"
+      ],
+      "custom_css": [
+        "input {box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));}"
+      ],
+      "settings": {
+        "bg_img": "shopify://shop_images/Rectangle_6490.png",
+        "bg_color": "rgba(217, 217, 217, 0.7)",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "rx_image_banner_zRqgKy",
+    "count_up_Wbpr4U",
+    "product_boxing_YKakxc",
+    "image_with_text_Dt3Hpq",
+    "main-collection-banner",
+    "rx_img_with_text_cbVCWh",
+    "custom_rich_text_LH4LfL",
+    "custom_rich_text_ytUdnb",
+    "main-collection-product-grid",
+    "featured_collection_C68bEB",
+    "featured_collection_y44Ah8",
+    "featured_collection_FHNtBM",
+    "newsletter"
+  ]
+}

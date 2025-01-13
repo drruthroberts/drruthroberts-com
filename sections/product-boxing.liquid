@@ -1,0 +1,174 @@
+{{ 'product-boxing.css' | asset_url | stylesheet_tag }}
+
+<style>
+    .boxing-{{ section.id }} {
+        background-image: url({{ section.settings.background_img |  image_url }});
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+    .boxing-wrapper {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+    }  
+</style>
+
+<div class="product-boxing--container boxing-{{ section.id }}">
+    <div class="boxing-wrapper page-width">
+        {% for block in section.blocks %}
+            {%- case block.type -%}
+                {%-  when 'story_boxing' -%}
+                    <div class="story-boxing" style="background: {{ block.settings.background_color }}">
+                        <span class="story-boxing--title">{{ block.settings.heading }}</span>
+                        <span class="story-boxing--subtitle">{{ block.settings.subheading }}</span>
+                        <div class="story-boxing--content">{{ block.settings.content }}</div>
+                        <a class="story-boxing--button" href="{{ block.settings.btn_url }}">
+                            {{ block.settings.btn_text }}
+                            {% render 'icon-arrow' %}
+                        </a>
+                        <div class="story-boxing--sub_content">{{ block.settings.sub_content }}</div>
+                    </div>
+                {%-  when 'image_boxing' -%}
+                    <div class="image-with-button-boxing">
+                        <img src="{{ block.settings.product_image | image_url: width: 550 }}" class="image_boxing--image">
+                        {% if block.settings.product_btn_url %}
+                            <a class="image-with-button-boxing--button" href="{{ block.settings.product_btn_url }}">
+                                {{ block.settings.product_btn_text }}
+                            </a>
+                        {% endif %}
+                    </div>
+            {% endcase %}
+        {% endfor %}
+    </div>
+</div>
+{% schema %}
+  {
+    "name": "Product boxing",
+    "tag": "section",
+    "class": "product-boxing",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "background_img",
+            "label": "Background image"
+        },
+        {
+            "type": "header",
+            "content": "Padding content"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Padding top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        },  
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Padding bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        },
+        {
+            "type": "range",
+            "id": "margin_top",
+            "label": "Margin top",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        },  
+        {
+            "type": "range",
+            "id": "margin_bottom",
+            "label": "Margin bottom",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "default": 40
+        }
+    ],
+    "blocks": [
+    {
+      "type": "story_boxing",
+      "name": "Story boxing",
+      "limit": 6,
+      "settings": [
+        {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background color"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Boxing title",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "default": "Boxing title",
+          "label": "Subheading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "default": "<p>Boxing title</p>",
+          "label": "Content"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button url"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button text"
+        },
+        {
+            "type": "richtext",
+            "id": "sub_content",
+            "label": "Sub content",
+            "default": "<p>Sub content</p>"
+        }
+      ]
+    },
+    {
+      "type": "image_boxing",
+      "name": "Image boxing",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "Product image"
+        },
+        {
+            "type": "url",
+            "id": "product_btn_url",
+            "label": "Button url"
+        },
+        {
+            "type": "text",
+            "id": "product_btn_text",
+            "label": "Button text",
+            "default": "Buy now"
+        }
+      ]
+    }
+  ],
+    "presets": [
+      {
+        "name": "Product boxing"
+      }
+    ]
+  }
+{% endschema %}

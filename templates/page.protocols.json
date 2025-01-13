@@ -45,9 +45,9 @@
         "template--14699863605313__dd0627fe-0396-47f2-aa7d-c437fbf15907-167156957804ee75b5-2"
       ],
       "settings": {
-        "image": "shopify://shop_images/LIM00435.jpg",
+        "image": "shopify://shop_images/Dr.Ruth_sunset.jpg",
         "content_width": 100,
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -178,7 +178,7 @@
         "45ceb5a6-9a6e-4e86-b31b-efeda236bdc3"
       ],
       "custom_css": [
-        "h2{text-align: center;}"
+        "h2 {text-align: center;}"
       ],
       "settings": {
         "title": "We made it easy for you to know what type of support you and your pet should get based on his/her current condition.",
