@@ -21,17 +21,24 @@
     position: relative;
     min-height: 500px;
     width: 100%;
+    background-image:url('{{ section.settings.bg_img | img_url:'master' }}'); 
+    background-color:{{ section.settings.bg_color }};
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .image-content .newsletter__wrapper {
     transform: translate(-50%, -50%);
     padding: 25px 40px !important;
-    max-width: 650px;
+    max-width: 700px;
     position: absolute;
     top: 50%;
     left: 50%;
     width: 100%;
     height: auto;
+    background-color:{{ section.settings.bg_color }}; 
+    border-radius: 30px; 
+    border: 1px solid transparent;
   }
 
   @media (max-width: 768px) {
@@ -48,8 +55,8 @@
   }
 {%- endstyle -%}
 
-<div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %} {% if section.settings.bg_img %}image-content{% endif %}" style="background-image:url('{{ section.settings.bg_img | img_url:'master' }}'); background-color:{{ section.settings.bg_color }};">
-  <div class="amr_container_1170 newsletter__wrapper  content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding" style=" background-color:{{ section.settings.bg_color }}; border-radius: 30px; opacity: 0.7">
+<div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %} {% if section.settings.bg_img %}image-content{% endif %}">
+  <div class="amr_container_1170 newsletter__wrapper  content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
@@ -130,7 +137,7 @@
       "label":"Background Image"
     },
     {
-      "type":"color",
+      "type":"color_background",
       "id":"bg_color",
       "label":"Background Color"
     },

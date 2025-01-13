@@ -380,7 +380,7 @@
     }
 
     .event-image img {
-        min-width: 330px;
+        max-width: 330px;
     } 
 
     .custom-event-page-wrapper {
