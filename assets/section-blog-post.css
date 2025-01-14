@@ -173,3 +173,29 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+h2 {
+  font-family: 'BLT-Heirloom', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #184b44;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+p {
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-weight: normal;
+}
+ol, ul, li {
+  text-align: justify;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-weight: normal;
+}
