@@ -24,14 +24,14 @@
         "75f8b834-2989-4cd9-8f87-b52303a677dc": {
           "type": "heading",
           "settings": {
-            "heading": "We are experts in enhancing your pet's well-being from nose to tail.",
+            "heading": "We are experts in supporting your pet's well-being from nose to tail.",
             "heading_size": "h2"
           }
         },
         "b1a1bd7d-4684-4962-9a30-44fb4cadcdcd": {
           "type": "text",
           "settings": {
-            "text": "Book a consultation today and embark on a personalized journey toward improving your beloved dog’s and cat’s quality of life under the guidance of Dr. Ruth Roberts.",
+            "text": "Book a consultation today and start a personalized journey to support your beloved dog’s and cat’s quality of life with the guidance of Dr. Ruth Roberts.",
             "text_style": "body"
           }
         },
@@ -57,7 +57,8 @@
       ],
       "settings": {
         "image": "shopify://shop_images/pet-and-owner-on-fall-walk.jpg",
-        "image_overlay_opacity": 30,
+        "content_width": 100,
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -345,6 +346,7 @@
       ],
       "settings": {
         "products_per_page": 12,
+        "description_enabled": false,
         "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": false,

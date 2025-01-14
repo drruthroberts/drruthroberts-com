@@ -442,7 +442,7 @@ img.amr_person_detail_img {
     font-family: BLT-Heirloom;
     font-size: 40px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 65.917px;
     text-transform: capitalize;
     margin: 0 0 24px;
@@ -1437,6 +1437,10 @@ button.amr_accordion {
 .amr_story_item img {
     width: fit-content;
     object-position: center;
+}
+.newsletter__wrapper h2 {
+    font-size: 30px;
+    line-height: 32px;
 }
 }
 @media screen and (max-width:600px){

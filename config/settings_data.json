@@ -537,11 +537,6 @@
           "async": false
         }
       },
-      "17368511000352060744": {
-        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
-        "disabled": false,
-        "settings": {}
-      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -597,6 +592,11 @@
       },
       "18117893244055972010": {
         "type": "shopify://apps/amai-preorder-manager-notify/blocks/app-embed-block/7053ce2a-18da-4e24-98b3-3fdd20b313e7",
+        "disabled": false,
+        "settings": {}
+      },
+      "5182184951224911228": {
+        "type": "shopify://apps/rapid-search/blocks/script/bd827795-feaa-41a8-9219-2b83f238aa7d",
         "disabled": false,
         "settings": {}
       }

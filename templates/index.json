@@ -329,7 +329,7 @@
         "testiminal_item_j7wQtP": {
           "type": "Testiminal-item",
           "settings": {
-            "product_url": "shopify://products/omega-pawz-liquid-fish-oil-supplement-for-pets-energy-booster",
+            "product_url": "shopify://products/omega-pawz-liquid-fish-oil-supplement-for-pets",
             "img_url": "shopify://shop_images/roxanne.webp",
             "testiminal_item_title": "High Quality omega-3 fatty acids",
             "testiminal_dscription": "<p>\"I have been using Omega Pawz for my dogs who have allergies and Mast cell cancer that is currently in remission. Purity is extremely important to me and this is a high quality supplement. They are all doing well and have beautiful fur.\"</p>",
@@ -571,7 +571,7 @@
         "button_TGQbL9": {
           "type": "button",
           "settings": {
-            "button_label": "See All Pet Protocols",
+            "button_label": "SEE ALL PET PROTOCOLS",
             "button_link": "https://drruthroberts.com/pages/pet-care-protocols",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -746,7 +746,7 @@
         "5fb9c748-259e-4fae-89fd-96ea2e0b57d7": {
           "type": "Product",
           "settings": {
-            "product_block": "kidney-health-care-course-for-dogs-and-cats"
+            "product_block": "kidney-health-care-course-for-pets"
           }
         }
       },
@@ -843,6 +843,7 @@
     },
     "c07243a3-5fee-499e-a09b-241b56f0595c": {
       "type": "rx-posts",
+      "disabled": true,
       "settings": {
         "desktopColumns": "3",
         "padding_top": 0,
@@ -878,46 +879,28 @@
         "show_author": false,
         "show_view_all": false,
         "padding_top": 24,
-        "padding_bottom": 52,
+        "padding_bottom": 0,
         "blogs_url": "",
         "blogs_btn": "Read More blogs"
       }
     },
-    "8960ec65-5cef-4d84-b887-aa69c09a76a9": {
-      "type": "rx-rich-text",
-      "blocks": {
-        "64cc34e2-c5f1-4bae-9401-969e0695ed68": {
-          "type": "button",
-          "settings": {
-            "button_label": "ALL BLOGS",
-            "button_link": "shopify://pages/all-blogs",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "template--14898486050881__8960ec65-5cef-4d84-b887-aa69c09a76a9-1680101985c1e6dc2c-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Our Podcast</p>"
-          }
-        }
-      },
-      "block_order": [
-        "64cc34e2-c5f1-4bae-9401-969e0695ed68",
-        "template--14898486050881__8960ec65-5cef-4d84-b887-aa69c09a76a9-1680101985c1e6dc2c-0"
-      ],
+    "rx_blog_phVE8P": {
+      "type": "rx-blog",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "caption_alignment": "center",
-        "section_bg_color": "#ffffff",
-        "image_width": "100%",
-        "full_width": true,
+        "heading": "",
+        "heading_size": "h1",
+        "blog": "video",
+        "background": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": false,
         "padding_top": 0,
-        "padding_bottom": 92
+        "padding_bottom": 36,
+        "blogs_url": "shopify://pages/all-blogs",
+        "blogs_btn": "More Pet Advice"
       }
     },
     "42a0c8a2-518d-4af7-81cd-2253cf91765e": {
@@ -967,11 +950,14 @@
         "image_overlay_opacity": 10,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
+        "font_size": 30,
         "show_text_box": true,
         "container_bg": "#f5f8f1",
         "desktop_content_alignment": "left",
         "heading_color": "#1e1e1e",
         "text_color": "#1e1e1e",
+        "btn_background": "",
+        "btn_text_color": "",
         "show_arrow_mobile": "no",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -1070,11 +1056,14 @@
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
+        "font_size": 30,
         "show_text_box": false,
         "container_bg": "#ffffff",
         "desktop_content_alignment": "left",
         "heading_color": "#ffffff",
         "text_color": "#ffffff",
+        "btn_background": "",
+        "btn_text_color": "",
         "show_arrow_mobile": "yes",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -1122,7 +1111,7 @@
     "35a9f240-35c6-4509-b3d7-77ac0c08d41c",
     "c07243a3-5fee-499e-a09b-241b56f0595c",
     "1d7acd25-827c-4f3c-8845-e495b1105759",
-    "8960ec65-5cef-4d84-b887-aa69c09a76a9",
+    "rx_blog_phVE8P",
     "42a0c8a2-518d-4af7-81cd-2253cf91765e",
     "2758b93a-1c5e-4890-87a5-086ee9572e15",
     "a22eed67-71d2-4d24-9266-adb3dc0550e6",

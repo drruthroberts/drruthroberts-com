@@ -1,0 +1,154 @@
+.boxing-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    row-gap: 54px;
+    column-gap: 60px;
+}
+
+.story-boxing {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    opacity: 0.85;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+   
+}
+
+.image-with-button-boxing {
+    border: 1px solid transparent;
+    border-radius: 25px;
+    position: relative;
+}
+
+.image_boxing--image {
+    width: 100%;
+    height: 100%;
+}
+
+.story-boxing--title {
+    color: #184B44;
+    text-align: center;
+    font-family: BLT-Heirloom;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+.story-boxing--subtitle {
+    color: #000;
+    text-align: center;
+    font-family: BLT-Heirloom;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px; /* 125% */
+    text-transform: capitalize;
+}
+.story-boxing--content {
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 194.444% */
+    text-transform: capitalize;
+}
+.story-boxing--button {
+    color: #C0F864;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 194.444% */
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: 1px solid #C0F864;
+    background: #184B44;
+    padding: 5px 14px;
+    text-decoration: none;
+}
+
+.story-boxing--button:hover {
+    background-color: transparent;
+    color: #184B44;
+    border-color: #184B44;
+}
+
+.story-boxing--sub_content {
+    color: #3C4C33;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35px; /* 194.444% */
+    text-transform: capitalize;
+}
+.image-with-button-boxing--button {
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 142.857% */
+    text-transform: uppercase;
+    border: 1px solid #C0F864;
+    border-radius: 30px;
+    background: #C0F864;
+    padding: 13px 21px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 991px) {
+    .boxing-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .story-boxing, .image-with-button-boxing {
+        width: 550px;
+        margin: 0 auto;
+    } 
+}
+
+@media (max-width: 767px) {
+    .story-boxing, .image-with-button-boxing {
+        width: unset;
+        margin: 0 auto;
+    } 
+    .story-boxing--title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .story-boxing--subtitle {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .story-boxing--content {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .story-boxing--button {
+        font-size: 16px;
+
+    }
+    .story-boxing--sub_content {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .image-with-button-boxing--button {
+        font-size: 19px;
+    }
+    
+}

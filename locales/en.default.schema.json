@@ -1232,6 +1232,14 @@
             }
           }
         },
+        "subheading": {
+          "name": "Subheading",
+          "settings": {
+            "subheading": {
+              "label": "Subheading"
+            }
+          }
+        },
         "text": {
           "name": "Text",
           "settings": {
