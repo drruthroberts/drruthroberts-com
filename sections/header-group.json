@@ -16,17 +16,17 @@
       "blocks": {
         "announcement_9VATqQ": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "🐾 Turn Your Passion for Pets Into Profit! Join our free workshop Jan 15th, 1 PM EST. Sign up now!",
+            "text": "🎉 Free Shipping Alert! 🐾 Spend $150+ and get FREE shipping on your pet’s holistic must-haves. Shop now! 🚚✨",
             "text_alignment": "center",
-            "link": ""
+            "link": "shopify://collections/all"
           }
         },
         "announcement_pCqCKn": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "🐾 Turn Your Passion for Pets Into Profit! Join our free workshop Jan 15th, 1 PM EST. Sign up now!",
+            "text": "🐾 Turn Your Passion for Pets Into Profit! Join our free workshop Feb 12th, 1 PM EST. Sign up now!",
             "text_alignment": "center",
             "link": "https://drruthroberts.com/collections/boxing-day"
           }

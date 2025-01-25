@@ -1485,7 +1485,7 @@ a.product__text {
 }
 
 .bulk-purchase-container {
-  padding: 20px 10px 10px 10px;
+  padding: 35px 10px 35px;
   border: 1px solid #BDBDBD;
   margin-top: 6px;
   border-radius: 25px;
@@ -1750,7 +1750,7 @@ text-transform: capitalize;
 }
 
 .bulk-purchase-group {
-  padding: 10px 12px;
+  padding: 18px 12px;
   border: none;
 }
 

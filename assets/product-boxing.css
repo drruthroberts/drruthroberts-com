@@ -60,7 +60,7 @@
     text-transform: capitalize;
 }
 .story-boxing--button {
-    color: #C0F864;
+    color: #000000;
     font-family: "Josefin Sans";
     font-size: 18px;
     font-style: normal;
@@ -68,16 +68,16 @@
     line-height: 35px; /* 194.444% */
     text-transform: capitalize;
     border-radius: 20px;
-    border: 1px solid #C0F864;
-    background: #184B44;
+    border: 1px solid #F4B649;
+    background: #F4B649;
     padding: 5px 14px;
     text-decoration: none;
 }
 
 .story-boxing--button:hover {
     background-color: transparent;
-    color: #184B44;
-    border-color: #184B44;
+    color: #F4B649;
+    border-color: #F4B649;
 }
 
 .story-boxing--sub_content {
@@ -99,9 +99,9 @@
     font-weight: 700;
     line-height: 40px; /* 142.857% */
     text-transform: uppercase;
-    border: 1px solid #C0F864;
+    border: 1px solid #F4B649;
     border-radius: 30px;
-    background: #C0F864;
+    background: #F4B649;
     padding: 13px 21px;
     text-decoration: none;
     position: absolute;

@@ -133,7 +133,23 @@
     },
     "39913493-0614-47e8-91ba-767b9479a307": {
       "type": "rx-review",
+      "disabled": true,
       "settings": {}
+    },
+    "173749296814a621b2": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_HVeqm8": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_HVeqm8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     },
     "0160467d-6f81-456d-840c-d702483cbcf3": {
       "type": "rx-rich-text",
@@ -285,6 +301,7 @@
     "main",
     "faq_accordion_qAWrky",
     "39913493-0614-47e8-91ba-767b9479a307",
+    "173749296814a621b2",
     "0160467d-6f81-456d-840c-d702483cbcf3",
     "168197142519de76d5",
     "related-products",

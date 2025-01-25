@@ -1,0 +1,594 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rx_image_banner_zRqgKy": {
+      "type": "rx-image-banner",
+      "blocks": {
+        "heading_bijRXT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gong Xi Fa Cai!"
+          }
+        },
+        "subheading_iJRbcF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Help your pets put their best paw forward and celebrate renewal with our exclusive sale-up to 35% Off!"
+          }
+        },
+        "text_4HXHx3": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "buttons_GQ8yHz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP THE SALE NOW!",
+            "button_link_1": "#1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bijRXT",
+        "subheading_iJRbcF",
+        "text_4HXHx3",
+        "buttons_GQ8yHz"
+      ],
+      "custom_css": [
+        ".container {padding-top: 200 px; padding-bottom: 200px;}",
+        ".content-container {padding-top: 20px; padding-bottom: 20px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/WEBSITE_BANNER_2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "font_size": 50,
+        "show_text_box": false,
+        "container_bg": "#ffffff",
+        "desktop_content_alignment": "left",
+        "heading_color": "#f4b649",
+        "text_color": "#ffffff",
+        "btn_background": "#f4b649",
+        "btn_text_color": "#ffffff",
+        "show_arrow_mobile": "yes",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "count_up_Wbpr4U": {
+      "type": "count-up",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "background_img": "shopify://shop_images/chinese_new_year_count_down_1.png",
+        "subheading": "",
+        "heading": "THE SALE iS STARTING SOON",
+        "text_color": "#ffffff",
+        "month": "11",
+        "date": 29,
+        "year": 2025,
+        "end_hour": 0,
+        "time_zone": "ET",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "margin_top": 20,
+        "margin_bottom": 20
+      }
+    },
+    "product_boxing_YKakxc": {
+      "type": "product-boxing",
+      "blocks": {
+        "story_boxing_8ryDxY": {
+          "type": "story_boxing",
+          "settings": {
+            "background_color": "#e7cca1",
+            "heading": "What’s Your Pet’s Element?",
+            "subheading": "",
+            "content": "<p>Discover your pet’s element this Chinese New Year—and gift them a bundle perfectly aligned with their unique energy! </p><p>Shop now and save $15 on every bundle—because wellness should always be in harmony. </p><p><em>Not sure which element aligns with your pet?</em></p>",
+            "btn_url": "https://drruthroberts.com/blogs/pet-blog/tcvm-inspired-personality-pet-care-tips-for-the-5-elements",
+            "btn_text": "Read Our Blog",
+            "sub_content": ""
+          }
+        },
+        "image_boxing_m6PkBV": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/wood_element_1.svg",
+            "product_btn_url": "https://drruthroberts.com/products/paws-in-motion-support-joint-whole-body-wellness-for-pets",
+            "product_btn_text": "Buy now"
+          }
+        },
+        "image_boxing_8fjQij": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/FIRE_ELEMENT.svg",
+            "product_btn_url": "https://drruthroberts.com/products/serenity-calm-support-pet-bundle",
+            "product_btn_text": "buy now"
+          }
+        },
+        "image_boxing_RmBx3R": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/WATER_ELEMENT.svg",
+            "product_btn_url": "https://drruthroberts.com/products/serenity-calm-support-pet-bundle",
+            "product_btn_text": "buy now"
+          }
+        },
+        "image_boxing_hL6F7B": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/EARTH.svg",
+            "product_btn_url": "https://drruthroberts.com/products/total-immunity-support-bundle-for-dogs-and-cats",
+            "product_btn_text": "buy now"
+          }
+        },
+        "image_boxing_tAc4zw": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/METAL_ELEMENT.svg",
+            "product_btn_url": "https://drruthroberts.com/products/itchy-skin-relief-for-dogs-cats",
+            "product_btn_text": "Buy now"
+          }
+        }
+      },
+      "block_order": [
+        "story_boxing_8ryDxY",
+        "image_boxing_m6PkBV",
+        "image_boxing_8fjQij",
+        "image_boxing_RmBx3R",
+        "image_boxing_hL6F7B",
+        "image_boxing_tAc4zw"
+      ],
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "margin_top": 20,
+        "margin_bottom": 20
+      }
+    },
+    "image_with_text_Dt3Hpq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_639dhx": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.protocol_name_heading.value }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_y8wPdq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.protocol_banner_text | metafield_tag }}</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kcfx4U": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_639dhx",
+        "text_y8wPdq",
+        "button_kcfx4U"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "unique_class": "",
+        "image": "{{ collection.metafields.custom.image_banner.value }}",
+        "img_url": "",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        "h1 {color: #efe6c5; font-size: 30px; margin: auto; padding-top: 20px;}",
+        "p {color: white; text-align: justify; margin: 0 px auto;}",
+        ".button {margin: auto; padding: 10px 20px;}",
+        "div {padding: 10px;}"
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "accent-1"
+      }
+    },
+    "rx_img_with_text_cbVCWh": {
+      "type": "rx-img-with-text",
+      "blocks": {
+        "heading_8aVwNJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Original CrockPet Diet Collection",
+            "font_family": "font_blt"
+          }
+        },
+        "text_mx7YGm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Are you looking for a healthy homemade recipe to help your fur baby improve their current condition?<br/><br/>Have you been switching back and forth from raw feeding - dry kibbles but have not seen any improvement?<br/><br/>The Original CrockPet Diet is a home-cooked diet for your pet, made in your kitchen with only real foods. Dr. Ruth's patented recipe is fully balanced for pets in all life stages and can improve the health of puppies and kittens, adult cats and dogs, and senior pets.<br/><br/>Here's everything you need to get started making The Original CrockPet Diet or replenish your cupboard</p>"
+          }
+        },
+        "button_4MTUjz": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET THE RECIPE & COURSE",
+            "button_link": "https://drruthroberts.com/products/the-original-crockpet-diet-recipes-and-ebook-by-dr-ruth-roberts"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8aVwNJ",
+        "text_mx7YGm",
+        "button_4MTUjz"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/crockpet_collection_1.png",
+        "img_url": "",
+        "height": "medium",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_title_alignment": "center",
+        "desktop_content_alignment": "center",
+        "desktop_button_alignment": "center",
+        "content_layout": "overlap",
+        "grid_type": "type2",
+        "imgText-bg-color": "#f5f8f1",
+        "show_arrow_mobile": "no",
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "content_padding_top": 50,
+        "content_padding_bottom": 50
+      }
+    },
+    "custom_rich_text_LH4LfL": {
+      "type": "custom-rich-text",
+      "disabled": true,
+      "settings": {
+        "background_img": "shopify://shop_images/chinese_new_year_CTA_Banner_1.png",
+        "heading": "Because Wellness is the Best Gift You Can Give",
+        "sub_heading": "",
+        "content": "<p>These bundles aren’t just supplements—they’re a promise of care, comfort, and love for the furry family members who mean so much.</p>",
+        "btn_url": "#",
+        "btn_text": "shop now!",
+        "text_color": "#6f140d",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
+    "custom_rich_text_ytUdnb": {
+      "type": "custom-rich-text",
+      "custom_css": [
+        "p {color: white;}"
+      ],
+      "settings": {
+        "background_img": "shopify://shop_images/email_subs_1.png",
+        "heading": "Celebrate the Year of the Snake and Save Up To 35% OFF",
+        "sub_heading": "<p>use code: BALANCE</p>",
+        "content": "<p>Snag the biggest discounts on your favorite pet health products before they’re gone <em>forever</em>. Stock up on wellness essentials for your furry friend and save big while supplies last. </p><p><strong>SHOP NOW!</strong></p>",
+        "btn_url": "",
+        "btn_text": "",
+        "text_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 0
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "custom_css": [
+        ".card__content {text-align: center; font-family: BLT-Heirloom; padding-bottom: 0px; margin: 0px; margin-bottom: 0px; padding-bottom: 10px;}",
+        ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}"
+      ],
+      "settings": {
+        "products_per_page": 9,
+        "description_enabled": false,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "show_special_offer": true,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 20,
+        "padding_bottom": 48,
+        "rating": 5
+      }
+    },
+    "featured_collection_UyL3GV": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "clearance-sale",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_C68bEB": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "SAVE 25% OFF",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "clearance-sale",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay in the Loop – Never Miss a Sale!",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Don’t let amazing deals slip by! </strong><br/>Subscribe to our email list and we’ll remind you about our upcoming offers and sales!<br/><br/> Sign up now and let us help you stay in the loop!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "input {box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));}"
+      ],
+      "settings": {
+        "bg_img": "shopify://shop_images/email_subs_1.png",
+        "bg_color": "rgba(217, 217, 217, 0.7)",
+        "full_width": true,
+        "padding_top": 68,
+        "padding_bottom": 52
+      }
+    },
+    "custom_rich_text_QTmJpd": {
+      "type": "custom-rich-text",
+      "settings": {
+        "background_img": "shopify://shop_images/chinese_new_year_banner.svg",
+        "heading": "TCVM PET CARE TIPS FOR THE 5 ELEMENTS",
+        "sub_heading": "",
+        "content": "<p>The 5 Elements—Fire, Water, Wood, Earth, and Metal—serve as a guide to understanding your pet’s personality and health. Let’s explore how these Chinese ancient principles can help you nurture your furry companion’s happiness and vitality this year!</p>",
+        "btn_url": "",
+        "btn_text": "button",
+        "text_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 14,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
+    "multirow_M3gUP6": {
+      "type": "multirow",
+      "blocks": {
+        "row_kELagH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/FIRE.svg",
+            "caption": "",
+            "heading": "Fire Element Pet",
+            "text": "<p>Fire-element pets are the life of the party—energetic, social, and full of adventure! But their fiery spirit needs balance to prevent overheating, anxiety, or heart issues. </p><p><strong>Signs Your Pet is a Fire Element:</strong></p><ul><li>Bursts of energy (Zoomies Champion!).</li><li>Social and affectionate—loves attention from people and other pets.</li><li>Overheats easily after activity or in hot weather.</li><li>Prone to anxiety or nervousness when overstimulated.</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_D6p8mn": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/WATER.svg",
+            "caption": "",
+            "heading": "Water Element Pet",
+            "text": "<p>Water-element pets are calm, gentle, and introspective but can be prone to anxiety, kidney issues, and joint problems. Supporting their Water energy keeps them hydrated, confident, and relaxed. </p><p><strong>Signs of a Water Pet:</strong></p><ul><li>Loves quiet, slow-paced days</li><li>Cautious in new situations</li><li>Prone to kidney, bladder, or joint issues</li><li>Easily anxious or fearful when stressed</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_U6ycRJ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/WOOD.svg",
+            "caption": "",
+            "heading": "Wood Element Pet",
+            "text": "<p>Bold, active, and curious, Wood-element pets thrive on adventure. But when out of balance, they may face allergies, itchy skin, or liver issues. </p><p><strong>Signs of a Wood Pet:</strong></p><ul><li>High energy and loves challenges</li><li>Prone to seasonal allergies or skin issues</li><li>Digestive upset or irritability under stress</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_yDqp4Q": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/EARTH_1.svg",
+            "caption": "",
+            "heading": "Earth Element Pet",
+            "text": "<p>Earth-element pets are loving, grounded, and loyal companions who thrive on routine and connection. But when out of balance, they may face weight gain, digestive issues, or low energy. </p><p><strong>Signs of an Earth Pet:</strong></p><ul><li>Affectionate and food-motivated</li><li>Prone to weight gain or sensitive digestion</li><li>Sluggish or tired when imbalanced</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_cd8jcK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/METAL.svg",
+            "caption": "",
+            "heading": "Metal Element Pet",
+            "text": "<p>Independent and reflective, Metal-element pets value order and quiet. But when unbalanced, they may face respiratory issues, dry skin, or emotional withdrawal. </p><p><strong>Signs of a Metal Pet:</strong></p><ul><li>Enjoys solitude and quiet time</li><li>Prone to respiratory issues or dry skin</li><li>May seem distant or withdrawn under stress</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kELagH",
+        "row_D6p8mn",
+        "row_U6ycRJ",
+        "row_yDqp4Q",
+        "row_cd8jcK"
+      ],
+      "custom_css": [
+        "p,ul,li {font-weight: normal;}",
+        ".placeholder {color: red;}"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_8eCNV4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YwyNLm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_4MrHL3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_Mnrjip": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "https://drruthroberts.com/blogs/pet-blog/tcvm-inspired-personality-pet-care-tips-for-the-5-elements",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YwyNLm",
+        "text_4MrHL3",
+        "button_Mnrjip"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "rx_image_banner_zRqgKy",
+    "count_up_Wbpr4U",
+    "product_boxing_YKakxc",
+    "image_with_text_Dt3Hpq",
+    "main-collection-banner",
+    "rx_img_with_text_cbVCWh",
+    "custom_rich_text_LH4LfL",
+    "custom_rich_text_ytUdnb",
+    "main-collection-product-grid",
+    "featured_collection_UyL3GV",
+    "featured_collection_C68bEB",
+    "newsletter",
+    "custom_rich_text_QTmJpd",
+    "multirow_M3gUP6",
+    "rich_text_8eCNV4"
+  ]
+}

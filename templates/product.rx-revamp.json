@@ -103,7 +103,23 @@
     },
     "39913493-0614-47e8-91ba-767b9479a307": {
       "type": "rx-review",
+      "disabled": true,
       "settings": {}
+    },
+    "1737496514cfdb6372": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_ciLPyT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_ciLPyT"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     },
     "0160467d-6f81-456d-840c-d702483cbcf3": {
       "type": "rx-rich-text",
@@ -123,6 +139,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -188,6 +205,7 @@
         "content_alignment": "center",
         "caption_alignment": "center",
         "section_bg_color": "#ffffff",
+        "image_width": "100%",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -228,6 +246,7 @@
         "785b1a70-42f4-4ec9-ad76-4a0d37da8b36"
       ],
       "settings": {
+        "rx-product_head": "",
         "title_font": "assistant_n4",
         "title_font_size": 40,
         "font": "assistant_n4",
@@ -247,6 +266,7 @@
   "order": [
     "main",
     "39913493-0614-47e8-91ba-767b9479a307",
+    "1737496514cfdb6372",
     "0160467d-6f81-456d-840c-d702483cbcf3",
     "168197142519de76d5",
     "related-products",

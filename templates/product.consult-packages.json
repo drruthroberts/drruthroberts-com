@@ -128,7 +128,11 @@
       "settings": {
         "enable_sticky_info": true,
         "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
@@ -199,6 +203,7 @@
     },
     "1654640689280d9521": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<!--Stamped - Begin Main Widget -->\n<div \nid=\"stamped-main-widget\"   \ndata-product-id=\"{{ product.id }}\"   \ndata-name=\"{{ product.title | escape }}\"   \ndata-url=\"{{ shop.url }}{{ product.url }}\"   \ndata-image-url=\"{{ product.featured_image | product_img_url: \"large\" |replace: '?', '%3F' | replace: '&','%26'}}\" \ndata-description=\"{{ product.description | escape }}\"   \ndata-product-sku=\"{{product.handle}}\"\ndata-product-title=\"{{product.title}}\" \ndata-product-type=\"{{product.type}}\">   \n{{product.metafields.stamped.reviews}}   \n</div>\n<!-- Stamped - End Main Widget -->",
         "color_scheme": "background-1",
@@ -222,12 +227,28 @@
         "padding_top": 36,
         "padding_bottom": 24
       }
+    },
+    "173749599431bed1bd": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_DgHBwp": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_DgHBwp"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "1654640556b41811c0",
     "1654640689280d9521",
+    "173749599431bed1bd",
     "related-products"
   ]
 }

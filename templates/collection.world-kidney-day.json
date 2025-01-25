@@ -15,21 +15,21 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Pet Wellness Must-Haves!",
+            "heading": "Gong Xi Fa Cai !",
             "heading_size": "h1"
           }
         },
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-text-1": {
           "type": "text",
           "settings": {
-            "text": "From Nov 29 to Dec 2, stock up on holistic products for calm, comfort, and vitality. Hurry—some items are in limited supply! Don’t miss out!",
+            "text": "Chinese New Year Clearance Sale: Up to 35% Off for Healthy, Happy Pets! Start 2025 with balance, wellness, and exclusive savings on holistic pet care essentials—January 29–31!",
             "text_style": "body"
           }
         },
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "USE CODE: THANKS25",
+            "button_label_1": "USE CODE: BALANCE",
             "button_link_1": "https://drruthroberts.com/collections/labor-day",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -44,7 +44,7 @@
         "template--14921794256961__8519c13e-f76e-4138-8e2e-7be289b7b7da-buttons-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/WEBSITE_BANNER_2.png",
+        "image": "shopify://shop_images/WEBSITE_BANNER_1.jpg",
         "content_width": 100,
         "image_overlay_opacity": 40,
         "image_height": "adapt",
