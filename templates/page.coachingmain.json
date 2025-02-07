@@ -134,7 +134,7 @@
         "appdesc": "",
         "appcontctdes": "The Certified Holistic Pet Health Coach Program™ offers a comprehensive and integrative approach to pet health and wellness. Through a series of coaching sessions, mentorship opportunities, and an in-depth curriculum, participants will gain the skills and knowledge needed to become qualified professionals in the field. With a focus on holistic approaches to pet health, including nutrition, behavior, and emotional well-being, graduates of this program will be equipped to support the whole pet and their owners in achieving optimal health and wellness.",
         "applbtn": "Learn More",
-        "appbtnurl": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify"
+        "appbtnurl": "https://www.holisticpethealthcoach.com/?utm_source=main+coaching+page&utm_medium=learn+more+button&utm_id=SHopify+"
       }
     },
     "5d6ce464-4822-4265-978d-865c15a291eb": {
@@ -213,7 +213,7 @@
       "settings": {
         "c_head": "",
         "pro_btn1": "Learn More",
-        "program_link1": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify"
+        "program_link1": "https://www.holisticpethealthcoach.com/?utm_source=main+coaching+page&utm_medium=learn+more+button&utm_id=SHopify+"
       }
     },
     "00f4763c-eed7-470b-8ccb-45e5f7d30179": {
@@ -406,7 +406,7 @@
         "programhead": "After the program",
         "programsubhead": "Join Our Network of Certified Holistic Pet Health Coaches",
         "pro_btn": "Learn More",
-        "program_link": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify"
+        "program_link": "https://www.holisticpethealthcoach.com/?utm_source=main+coaching+page&utm_medium=learn+more+button&utm_id=SHopify+"
       }
     },
     "956967f3-b758-4069-9de9-97161c47dbc6": {
@@ -737,10 +737,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "APPLY TO THE PROGRAM",
-            "button_link_1": "https://www.holisticpethealthcoach.com/register?utm_source=coaching+page&utm_id=Shopify",
+            "button_link_1": "https://www.holisticpethealthcoach.com/?utm_source=main+coaching+page&utm_medium=learn+more+button&utm_id=SHopify+",
             "button_style_secondary_1": false,
             "button_label_2": "",
-            "button_link_2": "https://www.holisticpethealthcoach.com/application",
+            "button_link_2": "https://www.holisticpethealthcoach.com/?utm_source=main+coaching+page&utm_medium=learn+more+button&utm_id=SHopify+",
             "button_style_secondary_2": false
           }
         }

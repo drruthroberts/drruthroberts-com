@@ -90,3 +90,36 @@ document.addEventListener('DOMContentLoaded',function(){
 
 });
 
+// Function to handle showing the scroll button and scrolling to the target section  
+function setupScrollButton(scrollButtonSelector, targetSectionSelector) {  
+    const scrollButton = document.querySelector(scrollButtonSelector);  
+    const targetSection = document.querySelector(targetSectionSelector);  
+
+    if (!scrollButton || !targetSection) return; // Exit if elements are not found  
+
+    // Adjust header height here if necessary  
+    const headerHeight = document.querySelector('header') ? document.querySelector('header').offsetHeight : 0;  
+
+    // Show/hide the button on scroll  
+    window.addEventListener('scroll', function() {  
+        // Check if the user has scrolled past the target section  
+        if (window.scrollY + window.innerHeight > targetSection.offsetTop) {  
+            scrollButton.classList.add('show');  
+        } else {  
+            scrollButton.classList.remove('show');  
+        }  
+    });  
+
+    // Smooth scroll to the target section when the button is clicked  
+    scrollButton.addEventListener('click', function(e) {  
+        e.preventDefault();  
+        window.scrollTo({  
+            top: targetSection.offsetTop - headerHeight, // Adjusting for header height  
+            behavior: 'smooth'  
+        });  
+    });  
+}  
+
+// Initialize scroll buttons  
+setupScrollButton('.rx_link_to_bundle', '.link_banner_button');  
+setupScrollButton('.story-boxing--button', '.link_bundle_button');

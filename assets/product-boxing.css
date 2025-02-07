@@ -29,7 +29,7 @@
 }
 
 .story-boxing--title {
-    color: #184B44;
+    color: #6F140D;
     text-align: center;
     font-family: BLT-Heirloom;
     font-size: 40px;
@@ -69,14 +69,14 @@
     text-transform: capitalize;
     border-radius: 20px;
     border: 1px solid #F4B649;
-    background: #F4B649;
+    background: #8CC677;
     padding: 5px 14px;
     text-decoration: none;
 }
 
 .story-boxing--button:hover {
     background-color: transparent;
-    color: #F4B649;
+    color: #8CC677;
     border-color: #F4B649;
 }
 
@@ -94,20 +94,25 @@
     color: #000;
     text-align: center;
     font-family: "Josefin Sans";
-    font-size: 28px;
+    font-size: 25px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 40px; /* 142.857% */
+    font-weight: 600;
+    line-height: 30px; /* 142.857% */
     text-transform: uppercase;
-    border: 1px solid #F4B649;
-    border-radius: 30px;
-    background: #F4B649;
-    padding: 13px 21px;
+    border: 1px solid #8CC677;
+    border-radius: 25px;
+    background: #8CC677;
+    padding: 13px 13px;
     text-decoration: none;
     position: absolute;
     bottom: 26px;
     left: 50%;
     transform: translateX(-50%);
+}
+.image-with-button-boxing--button:hover {
+    background: #EFA316;
+    color: #fff;
+
 }
 
 @media (max-width: 991px) {

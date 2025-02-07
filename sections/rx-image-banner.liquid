@@ -219,10 +219,10 @@
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
-                  class=" rx_image_banner_btn {% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
+                  class=" rx_image_banner_btn {% if section.settings.link_to_bundle_section == true  %}rx_link_to_bundle {% endif %} {% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
                 >
                   {{- block.settings.button_label_1 | escape -}}
-                  {% render 'icon-arrow' %}
+                  {% comment %} {% render 'icon-arrow' %} {% endcomment %}
                 </a>
                  
               {%- endif -%}
@@ -346,6 +346,12 @@
       "id": "show_text_box",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_box.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "link_to_bundle_section",
+      "default": true,
+      "label": "Link to bundle section"
     },
     {
       "type": "color",

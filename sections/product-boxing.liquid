@@ -29,15 +29,24 @@
                         </a>
                         <div class="story-boxing--sub_content">{{ block.settings.sub_content }}</div>
                     </div>
-                {%-  when 'image_boxing' -%}
-                    <div class="image-with-button-boxing">
-                        <img src="{{ block.settings.product_image | image_url: width: 550 }}" class="image_boxing--image">
-                        {% if block.settings.product_btn_url %}
-                            <a class="image-with-button-boxing--button" href="{{ block.settings.product_btn_url }}">
+                    {%-  when 'image_boxing' -%}
+                      {% if block.settings.product_btn_url %}
+                        <a href="{{ block.settings.product_btn_url }}" class="image-with-button-boxing">
+                          {{
+                            block.settings.product_image
+                            | image_url: width: 550
+                            | image_tag:
+                              loading: 'lazy',
+                              class: 'image_boxing--image',
+                              alt: 'image',
+                              widths: '330, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                          }}
+                          {% comment %} <img src="{{ block.settings.product_image | image_url: width: 550 }}" class="image_boxing--image"> {% endcomment %}
+                            <span class="image-with-button-boxing--button">
                                 {{ block.settings.product_btn_text }}
-                            </a>
-                        {% endif %}
-                    </div>
+                            </span>
+                        </a>
+                      {% endif %}
             {% endcase %}
         {% endfor %}
     </div>

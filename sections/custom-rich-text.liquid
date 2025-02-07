@@ -11,13 +11,13 @@
         background-repeat: no-repeat;
         background-size:cover;
     }
-    .rich-text--wrapper {
+  .custom-{{ section.id }} .rich-text--wrapper {
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
     }
 </style>
 
-<div class="custom-rich-text--container custom-{{ section.id }} {% if section.settings.background_img %} background-img {% endif %}">
+<div class="custom-rich-text--container custom-{{ section.id }} {% if section.settings.background_img %} background-img {% endif %} {% if section.settings.link_banner_button == "with banner" %} link_banner_button {% elsif section.settings.link_banner_button == "with bundle"%} link_bundle_button {% endif %}">
     <div class="rich-text--wrapper page-width">
         <div class="rich-text--blocks">
             {% if section.settings.heading %}
@@ -81,6 +81,11 @@
             "type": "color",
             "id": "text_color",
             "label": "Text color"
+        },
+        {
+            "type": "text",
+            "id": "link_banner_button",
+            "label": "Link with button"
         },
         {
             "type": "header",

@@ -1512,7 +1512,6 @@ a.product__text {
   flex-direction: column;
   cursor: pointer;
   position: relative;
-  padding-left: 20px;
 }
 
 #custom-subscription--input-save {
@@ -1674,6 +1673,7 @@ text-transform: capitalize;
 
 .custom-subscription--plan, .bulk-purchase-plan {
   display: flex;
+  justify-content: center;
 }
 
 @media (max-width:767px ) {

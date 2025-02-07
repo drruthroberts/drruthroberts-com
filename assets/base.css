@@ -8127,9 +8127,9 @@ h3.imgtitle {
     padding: 20px 6px !important;
   }
 
-  .custom-subscription--input-label, .bulk-purchase-label {
+  /* .custom-subscription--input-label, .bulk-purchase-label {
     padding-left: 5px !important;
-  }
+  } */
 }
 
 @media (min-width:1110px) {

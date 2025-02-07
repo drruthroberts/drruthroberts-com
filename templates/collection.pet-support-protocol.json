@@ -9,6 +9,23 @@
  */
 {
   "sections": {
+    "17388533479b66d4f1": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_MfEEW3": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-VmzmMv\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_MfEEW3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "image_with_text_Dt3Hpq": {
       "type": "image-with-text",
       "blocks": {
@@ -28,6 +45,7 @@
         },
         "button_kcfx4U": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "{{ collection.metafields.custom.download_protocol_label.value }}",
             "button_link": "{{ collection.metafields.custom.download_protocol_button.value }}"
@@ -48,6 +66,7 @@
       "settings": {
         "unique_class": "",
         "image": "{{ collection.metafields.custom.image_banner.value }}",
+        "img_url": "",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -133,8 +152,8 @@
         ".price__container {font-family: BLT-Heirloom; margin-left: 50px; color: #184b44; padding-top: 0px; font-size: 14px;}"
       ],
       "settings": {
-        "description_enabled": false,
         "products_per_page": 8,
+        "description_enabled": false,
         "columns_desktop": 3,
         "image_ratio": "adapt",
         "show_secondary_image": true,
@@ -324,6 +343,7 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "custom_css": [
         "input {box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));}"
       ],
@@ -333,9 +353,14 @@
         "padding_top": 68,
         "padding_bottom": 52
       }
+    },
+    "klaviyo_subscriptionform_TiggEj": {
+      "type": "klaviyo_subscriptionform",
+      "settings": {}
     }
   },
   "order": [
+    "17388533479b66d4f1",
     "image_with_text_Dt3Hpq",
     "main-collection-banner",
     "rx_img_with_text_cbVCWh",
@@ -343,6 +368,7 @@
     "collage",
     "collapsible_content_hxWG9U",
     "rx_rich_text_34a4nq",
-    "newsletter"
+    "newsletter",
+    "klaviyo_subscriptionform_TiggEj"
   ]
 }

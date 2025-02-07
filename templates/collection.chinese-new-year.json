@@ -21,19 +21,19 @@
         "subheading_iJRbcF": {
           "type": "subheading",
           "settings": {
-            "subheading": "Help your pets put their best paw forward and celebrate renewal with our exclusive sale-up to 35% Off!"
+            "subheading": "Happy Chinese New Year!"
           }
         },
         "text_4HXHx3": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "Help your pets put their best paw forward and celebrate renewal with our exclusive sales. Here's to a year of strong bonds and healthy paws!"
           }
         },
         "buttons_GQ8yHz": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP THE SALE NOW!",
+            "button_label_1": "GET UP TO 35% OFF",
             "button_link_1": "#1"
           }
         }
@@ -46,21 +46,24 @@
       ],
       "custom_css": [
         ".container {padding-top: 200 px; padding-bottom: 200px;}",
-        ".content-container {padding-top: 20px; padding-bottom: 20px;}"
+        ".content-container {padding-top: 40px; padding-bottom: 40px; opacity: 80%;}",
+        ".rx_banner__text {font-family: \"Josefin Sans\"; font-weight: normal;}",
+        ".rx_banner__subheading {font-family: \"BLT-Heirloom\"; font-size: 1.5em; padding-bottom: 10px; color: black;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/WEBSITE_BANNER_2.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image": "shopify://shop_images/chinese_new_year_banner_7.png",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
         "desktop_content_position": "middle-left",
         "font_size": 50,
-        "show_text_box": false,
-        "container_bg": "#ffffff",
+        "show_text_box": true,
+        "link_to_bundle_section": true,
+        "container_bg": "#c9b08b",
         "desktop_content_alignment": "left",
-        "heading_color": "#f4b649",
-        "text_color": "#ffffff",
-        "btn_background": "#f4b649",
-        "btn_text_color": "#ffffff",
+        "heading_color": "#6f140d",
+        "text_color": "#130200",
+        "btn_background": "#8cc677",
+        "btn_text_color": "#130200",
         "show_arrow_mobile": "yes",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -94,68 +97,69 @@
           "type": "story_boxing",
           "settings": {
             "background_color": "#e7cca1",
-            "heading": "What’s Your Pet’s Element?",
+            "heading": "Find the Perfect Bundle for Your Pet's Element",
             "subheading": "",
-            "content": "<p>Discover your pet’s element this Chinese New Year—and gift them a bundle perfectly aligned with their unique energy! </p><p>Shop now and save $15 on every bundle—because wellness should always be in harmony. </p><p><em>Not sure which element aligns with your pet?</em></p>",
+            "content": "<p>Discover your pet’s element this Chinese New Year—and gift them a bundle perfectly aligned with their unique energy!</p><p><strong>Shop now and save $15 on every bundle—because wellness should always be in harmony. </strong></p><p><em>Not sure which element aligns with your pet?</em></p>",
             "btn_url": "https://drruthroberts.com/blogs/pet-blog/tcvm-inspired-personality-pet-care-tips-for-the-5-elements",
-            "btn_text": "Read Our Blog",
+            "btn_text": "Learn More",
             "sub_content": ""
-          }
-        },
-        "image_boxing_m6PkBV": {
-          "type": "image_boxing",
-          "settings": {
-            "product_image": "shopify://shop_images/wood_element_1.svg",
-            "product_btn_url": "https://drruthroberts.com/products/paws-in-motion-support-joint-whole-body-wellness-for-pets",
-            "product_btn_text": "Buy now"
           }
         },
         "image_boxing_8fjQij": {
           "type": "image_boxing",
           "settings": {
-            "product_image": "shopify://shop_images/FIRE_ELEMENT.svg",
-            "product_btn_url": "https://drruthroberts.com/products/serenity-calm-support-pet-bundle",
+            "product_image": "shopify://shop_images/fireee.png",
+            "product_btn_url": "https://drruthroberts.com/products/ultimate-pet-wellness-kit",
             "product_btn_text": "buy now"
           }
         },
         "image_boxing_RmBx3R": {
           "type": "image_boxing",
           "settings": {
-            "product_image": "shopify://shop_images/WATER_ELEMENT.svg",
+            "product_image": "shopify://shop_images/waterr.svg",
             "product_btn_url": "https://drruthroberts.com/products/serenity-calm-support-pet-bundle",
             "product_btn_text": "buy now"
+          }
+        },
+        "image_boxing_m6PkBV": {
+          "type": "image_boxing",
+          "settings": {
+            "product_image": "shopify://shop_images/woood.svg",
+            "product_btn_url": "https://drruthroberts.com/products/paws-in-motion-support-joint-whole-body-wellness-for-pets",
+            "product_btn_text": "Buy now"
           }
         },
         "image_boxing_hL6F7B": {
           "type": "image_boxing",
           "settings": {
-            "product_image": "shopify://shop_images/EARTH.svg",
-            "product_btn_url": "https://drruthroberts.com/products/total-immunity-support-bundle-for-dogs-and-cats",
+            "product_image": "shopify://shop_images/earthh.svg",
+            "product_btn_url": "https://drruthroberts.com/products/tummy-rescue-digestive-relief-for-pets",
             "product_btn_text": "buy now"
           }
         },
         "image_boxing_tAc4zw": {
           "type": "image_boxing",
           "settings": {
-            "product_image": "shopify://shop_images/METAL_ELEMENT.svg",
-            "product_btn_url": "https://drruthroberts.com/products/itchy-skin-relief-for-dogs-cats",
+            "product_image": "shopify://shop_images/metalll_66a5c1f2-f527-428d-b6b2-abfaa2769c12.svg",
+            "product_btn_url": "https://drruthroberts.com/products/total-immunity-support-bundle-for-dogs-and-cats",
             "product_btn_text": "Buy now"
           }
         }
       },
       "block_order": [
         "story_boxing_8ryDxY",
-        "image_boxing_m6PkBV",
         "image_boxing_8fjQij",
         "image_boxing_RmBx3R",
+        "image_boxing_m6PkBV",
         "image_boxing_hL6F7B",
         "image_boxing_tAc4zw"
       ],
       "settings": {
-        "padding_top": 20,
+        "background_img": "shopify://shop_images/sales_background_pic_2.svg",
+        "padding_top": 19,
         "padding_bottom": 20,
         "margin_top": 20,
-        "margin_bottom": 20
+        "margin_bottom": 0
       }
     },
     "image_with_text_Dt3Hpq": {
@@ -288,6 +292,7 @@
         "btn_url": "#",
         "btn_text": "shop now!",
         "text_color": "#6f140d",
+        "link_banner_button": "",
         "padding_top": 40,
         "padding_bottom": 40,
         "margin_top": 40,
@@ -297,20 +302,22 @@
     "custom_rich_text_ytUdnb": {
       "type": "custom-rich-text",
       "custom_css": [
-        "p {color: white;}"
+        ".rich-text--heading {color: #ffffff; padding-top: 50px;}",
+        ".p {text-color: E7CCA1;}"
       ],
       "settings": {
-        "background_img": "shopify://shop_images/email_subs_1.png",
-        "heading": "Celebrate the Year of the Snake and Save Up To 35% OFF",
-        "sub_heading": "<p>use code: BALANCE</p>",
-        "content": "<p>Snag the biggest discounts on your favorite pet health products before they’re gone <em>forever</em>. Stock up on wellness essentials for your furry friend and save big while supplies last. </p><p><strong>SHOP NOW!</strong></p>",
-        "btn_url": "",
-        "btn_text": "",
-        "text_color": "#ffffff",
-        "padding_top": 40,
+        "background_img": "shopify://shop_images/product_section_banner_335f4546-5fb4-4643-9c1a-44eafe9312b1.svg",
+        "heading": "CELEBRATE THE YEAR OF SNAKE",
+        "sub_heading": "<p>Save Up To 35% OFF</p>",
+        "content": "<p>Snag the biggest discounts on your favorite pet health products before they’re gone <em>forever</em>. Stock up on wellness essentials for your furry friend and save big while supplies last. </p><p></p>",
+        "btn_url": "#",
+        "btn_text": "Use code: BALANCE",
+        "text_color": "#e7cca1",
+        "link_banner_button": "with banner",
+        "padding_top": 15,
         "padding_bottom": 40,
-        "margin_top": 40,
-        "margin_bottom": 0
+        "margin_top": 38,
+        "margin_bottom": 7
       }
     },
     "main-collection-product-grid": {
@@ -394,51 +401,23 @@
         "padding_bottom": 36
       }
     },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay in the Loop – Never Miss a Sale!",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p><strong>Don’t let amazing deals slip by! </strong><br/>Subscribe to our email list and we’ll remind you about our upcoming offers and sales!<br/><br/> Sign up now and let us help you stay in the loop!</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "input {box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));}"
-      ],
-      "settings": {
-        "bg_img": "shopify://shop_images/email_subs_1.png",
-        "bg_color": "rgba(217, 217, 217, 0.7)",
-        "full_width": true,
-        "padding_top": 68,
-        "padding_bottom": 52
-      }
-    },
     "custom_rich_text_QTmJpd": {
       "type": "custom-rich-text",
+      "custom_css": [
+        ".rich-text--heading {color: #ffffff; padding-top: 50px;}",
+        ".rich-text--content {text-color: E7CCA1; padding-top: 20px;}"
+      ],
       "settings": {
-        "background_img": "shopify://shop_images/chinese_new_year_banner.svg",
+        "background_img": "shopify://shop_images/5_ELEMENT_6.svg",
         "heading": "TCVM PET CARE TIPS FOR THE 5 ELEMENTS",
         "sub_heading": "",
         "content": "<p>The 5 Elements—Fire, Water, Wood, Earth, and Metal—serve as a guide to understanding your pet’s personality and health. Let’s explore how these Chinese ancient principles can help you nurture your furry companion’s happiness and vitality this year!</p>",
         "btn_url": "",
         "btn_text": "button",
-        "text_color": "#ffffff",
-        "padding_top": 40,
-        "padding_bottom": 14,
+        "text_color": "#f5f8f1",
+        "link_banner_button": "with bundle",
+        "padding_top": 37,
+        "padding_bottom": 29,
         "margin_top": 40,
         "margin_bottom": 40
       }
@@ -449,7 +428,7 @@
         "row_kELagH": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/FIRE.svg",
+            "image": "shopify://shop_images/FIRE_1.svg",
             "caption": "",
             "heading": "Fire Element Pet",
             "text": "<p>Fire-element pets are the life of the party—energetic, social, and full of adventure! But their fiery spirit needs balance to prevent overheating, anxiety, or heart issues. </p><p><strong>Signs Your Pet is a Fire Element:</strong></p><ul><li>Bursts of energy (Zoomies Champion!).</li><li>Social and affectionate—loves attention from people and other pets.</li><li>Overheats easily after activity or in hot weather.</li><li>Prone to anxiety or nervousness when overstimulated.</li></ul>",
@@ -460,7 +439,7 @@
         "row_D6p8mn": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/WATER.svg",
+            "image": "shopify://shop_images/WATER_1.svg",
             "caption": "",
             "heading": "Water Element Pet",
             "text": "<p>Water-element pets are calm, gentle, and introspective but can be prone to anxiety, kidney issues, and joint problems. Supporting their Water energy keeps them hydrated, confident, and relaxed. </p><p><strong>Signs of a Water Pet:</strong></p><ul><li>Loves quiet, slow-paced days</li><li>Cautious in new situations</li><li>Prone to kidney, bladder, or joint issues</li><li>Easily anxious or fearful when stressed</li></ul>",
@@ -471,7 +450,7 @@
         "row_U6ycRJ": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/WOOD.svg",
+            "image": "shopify://shop_images/WOOD_1.svg",
             "caption": "",
             "heading": "Wood Element Pet",
             "text": "<p>Bold, active, and curious, Wood-element pets thrive on adventure. But when out of balance, they may face allergies, itchy skin, or liver issues. </p><p><strong>Signs of a Wood Pet:</strong></p><ul><li>High energy and loves challenges</li><li>Prone to seasonal allergies or skin issues</li><li>Digestive upset or irritability under stress</li></ul>",
@@ -482,7 +461,7 @@
         "row_yDqp4Q": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/EARTH_1.svg",
+            "image": "shopify://shop_images/EARTH_2.svg",
             "caption": "",
             "heading": "Earth Element Pet",
             "text": "<p>Earth-element pets are loving, grounded, and loyal companions who thrive on routine and connection. But when out of balance, they may face weight gain, digestive issues, or low energy. </p><p><strong>Signs of an Earth Pet:</strong></p><ul><li>Affectionate and food-motivated</li><li>Prone to weight gain or sensitive digestion</li><li>Sluggish or tired when imbalanced</li></ul>",
@@ -493,7 +472,7 @@
         "row_cd8jcK": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/METAL.svg",
+            "image": "shopify://shop_images/METAL_1.svg",
             "caption": "",
             "heading": "Metal Element Pet",
             "text": "<p>Independent and reflective, Metal-element pets value order and quiet. But when unbalanced, they may face respiratory issues, dry skin, or emotional withdrawal. </p><p><strong>Signs of a Metal Pet:</strong></p><ul><li>Enjoys solitude and quiet time</li><li>Prone to respiratory issues or dry skin</li><li>May seem distant or withdrawn under stress</li></ul>",
@@ -511,7 +490,8 @@
       ],
       "custom_css": [
         "p,ul,li {font-weight: normal;}",
-        ".placeholder {color: red;}"
+        ".placeholder {color: red;}",
+        ".image-with-text__heading {font-family: \"BLT-Heirloom\";}"
       ],
       "settings": {
         "image_height": "medium",
@@ -521,53 +501,65 @@
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
-    "rich_text_8eCNV4": {
-      "type": "rich-text",
+    "custom_rich_text_WqBRzC": {
+      "type": "custom-rich-text",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "sub_heading": "",
+        "content": "",
+        "btn_url": "https://drruthroberts.com/blogs/pet-blog/tcvm-inspired-personality-pet-care-tips-for-the-5-elements",
+        "btn_text": "Read More on our Blog",
+        "text_color": "",
+        "link_banner_button": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "margin_top": 40,
+        "margin_bottom": 40
+      }
+    },
+    "newsletter_nAGMJf": {
+      "type": "newsletter",
       "blocks": {
-        "heading_YwyNLm": {
+        "heading_WicAca": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "<p>Talk about your brand</p>",
+            "heading": "Subscribe to our emails",
             "heading_size": "h1"
           }
         },
-        "text_4MrHL3": {
-          "type": "text",
-          "disabled": true,
+        "paragraph_LtadUM": {
+          "type": "paragraph",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
           }
         },
-        "button_Mnrjip": {
-          "type": "button",
-          "settings": {
-            "button_label": "LEARN MORE",
-            "button_link": "https://drruthroberts.com/blogs/pet-blog/tcvm-inspired-personality-pet-care-tips-for-the-5-elements",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
+        "email_form_CVXqkG": {
+          "type": "email_form",
+          "settings": {}
         }
       },
       "block_order": [
-        "heading_YwyNLm",
-        "text_4MrHL3",
-        "button_Mnrjip"
+        "heading_WicAca",
+        "paragraph_LtadUM",
+        "email_form_CVXqkG"
+      ],
+      "custom_css": [
+        "h2 {color: #ffffff;}",
+        "p {color: #ffffff;}",
+        ".newsletter-form__button {color: #8cc677;}"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
+        "bg_img": "shopify://shop_images/email_subs_1_a12f07dc-a0f7-4ffa-acc9-3722e0024533.png",
+        "bg_color": "",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -586,9 +578,9 @@
     "main-collection-product-grid",
     "featured_collection_UyL3GV",
     "featured_collection_C68bEB",
-    "newsletter",
     "custom_rich_text_QTmJpd",
     "multirow_M3gUP6",
-    "rich_text_8eCNV4"
+    "custom_rich_text_WqBRzC",
+    "newsletter_nAGMJf"
   ]
 }

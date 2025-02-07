@@ -4,15 +4,15 @@
     margin-bottom: 70px;
   }
 
-  .rx-{{section.id}} .container {
+  .rx-{{ section.id }} .container {
     display: flex;
-    flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%}
+    flex-direction: {% if section.settings.layout == "text_first" %} row-reverse {%else%} row {%endif%};
+    align-items: center;
   }
 
   .rx-{{section.id}} .container .rx-image {
-    max-width: 680px;
-    max-height: {{section.settings.image_max_height}};
     width: 50%;
+    height: 100%;
   }
 
   .rx-{{section.id}} .container .rx-text {
