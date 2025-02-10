@@ -101,7 +101,7 @@
     column-gap: 70px;
 }
 
-.shopify-section-group-header-group.header-menu {
+.shopify-section-group-header-group.custom-header-menu {
     position: fixed;
     top: 136px;
     width: 100%;

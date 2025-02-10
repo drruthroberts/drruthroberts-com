@@ -1682,6 +1682,15 @@ text-transform: capitalize;
     flex-direction: column;
     align-items: center;
   }
+  .custom-subscription--input__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .custom-subscription--input__subtext {
+    text-align: center;
+  }
 }
 
 

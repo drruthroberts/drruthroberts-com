@@ -57,25 +57,6 @@ class DetailsModal extends HTMLElement {
 }
 
 
-// document.querySelectorAll('.header__menu-item').forEach(item => {  
-//   item.addEventListener('mouseover', function() {  
-//     if (item.querySelector('.header__menu-option').textContent == "SHOP") {  
-//       document.querySelector('.custom-header-menu-container').classList.add('show');  
-//     }  
-//   }); 
-//   item.addEventListener('mouseout', function() {  
-//       document.querySelector('.custom-header-menu-container').classList.remove('show');  
-//   }); 
-  
-//   document.querySelector('.custom-header-menu-container').addEventListener('mouseover', function() {
-//     document.querySelector('.custom-header-menu-container').classList.add('show');
-//   });
-
-//   document.querySelector('.custom-header-menu-container').addEventListener('mouseout', function() {
-//     document.querySelector('.custom-header-menu-container').classList.remove('show');
-//   });
-// });  
-
 const menuItems = document.querySelectorAll('.header__menu-item');
 const customMenuContainer = document.querySelector('.custom-header-menu-container');
 
@@ -87,28 +68,43 @@ function hideMenu() {
   customMenuContainer.classList.remove('show');
 }
 
-menuItems.forEach(item => {
-  item.addEventListener('mouseover', function() {
-    const menuOption = item.querySelector('.header__menu-option');  
-    // console.log(menuOption.textContent, "ere");
-    if(menuOption){
-      if (menuOption.textContent === "SHOP" || customMenuContainer) {  
-        showMenu();  
-        
-      } else {  
-        console.error("Element with class 'header__menu-option' not found in item:", item);  
-      }
-  } 
-  });
+function handleMouseOver(item) {  
+  const menuOption = item.querySelector('.header__menu-option');  
+  if (menuOption) {  
+    if (menuOption.textContent === "SHOP" || customMenuContainer) {  
+      showMenu();  
+    } else {  
+      console.error("Element with class 'header__menu-option' not found in item:", item);  
+    }  
+  }   
+}  
 
-  item.addEventListener('mouseout', hideMenu);
-});
+menuItems.forEach(item => {  
+  item.addEventListener('mouseover', () => handleMouseOver(item));  
+  item.addEventListener('mouseout', hideMenu);  
+});  
 
-// Using a single listener for the custom menu container
-customMenuContainer.addEventListener('mouseover', showMenu);
-customMenuContainer.addEventListener('mouseout', hideMenu);
+customMenuContainer.addEventListener('mouseover', showMenu);  
+customMenuContainer.addEventListener('mouseout', hideMenu);  
 
+// Check current URL and remove event listeners if it matches  
+const currentUrl = window.location.href;  
+const menuContent = document.querySelector('.custom-header-menu');
+if (currentUrl === "https://drruthroberts.com/collections/all-products" && window.innerWidth >= 768) {   
+  console.log('here==>');  
+  customMenuContainer.classList.add('show');  
+  menuContent.style.position = 'unset';
 
+  // Remove event listeners from menu items  
+  menuItems.forEach(item => {  
+    item.removeEventListener('mouseover', () => handleMouseOver(item));  
+    item.removeEventListener('mouseout', hideMenu);  
+  });  
+
+  // Remove event listeners from the custom menu container  
+  customMenuContainer.removeEventListener('mouseover', showMenu);  
+  customMenuContainer.removeEventListener('mouseout', hideMenu);  
+} 
 
 
 customElements.define('details-modal', DetailsModal);
