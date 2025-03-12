@@ -17,17 +17,9 @@
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: 0px;
     }
-    
-    .rx-{{section.id}} .rx-review-price {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 0;
-    }
-
     .rx-review-price .rx-stamped-color .stamped-badge .stamped-fa.stamped-fa-star {
       color: #184B44 !important;
     }
-
     .rx-{{section.id}} .stamped-badge-caption {
       font-family: 'Josefin Sans';
       font-style: normal;
@@ -451,7 +443,7 @@
                 </a> {% endcomment %}
               </div>
             {%- when 'price' -%}
-              <div class="rx-review-price">
+              {% comment %} <div class="rx-review-price">
                 {% if  product.metafields.stamped.reviews_count != blank %}
                   <!-- Stamped - Begin Star Rating Badge -->
                   <div 
@@ -466,15 +458,15 @@
                    <!-- Stamped - End Star Rating Badge -->
                 {% endif %}
                   
-                {% comment %} <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+              <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- render 'price',
                     product: product,
                     use_variant: true,
                     show_badges: true
                   -%}
-                </div> {% endcomment %}
+                </div> 
                
-              </div>
+              </div> {% endcomment %}
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="product__tax caption rte">
                   {%- if shop.taxes_included -%}

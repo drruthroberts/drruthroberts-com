@@ -29,7 +29,7 @@
 }
 
 .story-boxing--title {
-    color: #6F140D;
+    color: #fff;
     text-align: center;
     font-family: BLT-Heirloom;
     font-size: 40px;
@@ -59,26 +59,6 @@
     line-height: 35px; /* 194.444% */
     text-transform: capitalize;
 }
-.story-boxing--button {
-    color: #000000;
-    font-family: "Josefin Sans";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px; /* 194.444% */
-    text-transform: capitalize;
-    border-radius: 20px;
-    border: 1px solid #F4B649;
-    background: #8CC677;
-    padding: 5px 14px;
-    text-decoration: none;
-}
-
-.story-boxing--button:hover {
-    background-color: transparent;
-    color: #8CC677;
-    border-color: #F4B649;
-}
 
 .story-boxing--sub_content {
     color: #3C4C33;
@@ -89,30 +69,6 @@
     font-weight: 400;
     line-height: 35px; /* 194.444% */
     text-transform: capitalize;
-}
-.image-with-button-boxing--button {
-    color: #000;
-    text-align: center;
-    font-family: "Josefin Sans";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px; /* 142.857% */
-    text-transform: uppercase;
-    border: 1px solid #8CC677;
-    border-radius: 25px;
-    background: #8CC677;
-    padding: 13px 13px;
-    text-decoration: none;
-    position: absolute;
-    bottom: 26px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.image-with-button-boxing--button:hover {
-    background: #EFA316;
-    color: #fff;
-
 }
 
 @media (max-width: 991px) {
@@ -145,7 +101,7 @@
         line-height: 24px;
     }
     .story-boxing--button {
-        font-size: 16px;
+        font-size: 16px !important;
 
     }
     .story-boxing--sub_content {

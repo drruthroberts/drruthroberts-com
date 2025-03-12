@@ -176,8 +176,13 @@
           Message
         </label>
       </div>
+      <div class="contact__button">
+        <button type="submit" class="button">
+          {{ 'templates.contact.form.send' | t }}
+        </button>
+      </div>
       
-      <div class="rx_contact_button">
+      {% comment %} <div class="rx_contact_button">
         <button type="submit" class="rx_read_more_btn_green">
          SUBMIT
          <img 
@@ -186,7 +191,7 @@
           src="https://cdn.shopify.com/s/files/1/0017/5443/1553/files/blog_arrow.png?v=1680443191"
         >
         </button>
-      </div>
+      </div> {% endcomment %}
     {%- endform -%}
   </div>
 </div>

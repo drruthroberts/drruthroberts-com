@@ -15,9 +15,44 @@
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .rich-text__btn {
+        color: {{ section.settings.button_color }};
+        text-align: center;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 200% */
+        text-transform: capitalize;
+        border: 1px solid transparent;
+        border-radius: 30px;
+        background: {{ section.settings.button_background }};
+        padding: 10px 11px;
+        text-decoration: none;
+    }
+    .rich-text__btn:hover {
+        color: {{ section.settings.button_background }};
+        background: {{ section.settings.button_color }};
+    }
+    @media(max-width:767px) {
+        .custom-{{ section.id }}.background-img {
+            display: none;    
+        }
+
+        .custom-{{ section.id }}.mobile-background-img {
+            background-image: url({{ section.settings.mobile_background_img |  image_url }});
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            max-height: 410px;
+        }
+        .rich-text--wrapper {
+            padding-bottom: 0;
+        }
+    }
 </style>
 
-<div class="custom-rich-text--container custom-{{ section.id }} {% if section.settings.background_img %} background-img {% endif %} {% if section.settings.link_banner_button == "with banner" %} link_banner_button {% elsif section.settings.link_banner_button == "with bundle"%} link_bundle_button {% endif %}">
+<div class="custom-rich-text--container custom-{{ section.id }} {% if section.settings.mobile_background_img %} mobile-background-img {% endif %}{% if section.settings.background_img %} background-img {% endif %} {% if section.settings.link_banner_button == "with banner" %} link_banner_button {% elsif section.settings.link_banner_button == "with bundle"%} link_bundle_button {% endif %}">
     <div class="rich-text--wrapper page-width">
         <div class="rich-text--blocks">
             {% if section.settings.heading %}
@@ -47,6 +82,16 @@
             "type": "image_picker",
             "id": "background_img",
             "label": "Background image"
+        },
+        {
+            "type": "image_picker",
+            "id": "mobile_background_img",
+            "label": "Mobile background image"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color"
         },
         {
             "type": "text",
@@ -79,8 +124,15 @@
         },
         {
             "type": "color",
-            "id": "text_color",
-            "label": "Text color"
+            "id": "button_color",
+            "label": "Button color",
+            "default": "#951125"
+        },
+        {
+            "type": "color",
+            "id": "button_background",
+            "label": "Button background color",
+            "default": "#fff"
         },
         {
             "type": "text",

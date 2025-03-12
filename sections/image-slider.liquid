@@ -1,0 +1,92 @@
+{% style %}
+    .{{ section.id }}--padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+    .image-slider-container {
+        background: {{ section.settings.background_color }};
+    }
+{% endstyle %}
+<div class="image-slider-container {{ section.id }}--padding">
+    <div class="swiper-container image-slider page-width">
+        <div class="swiper-wrapper">
+            {% for seal_item in shop.metaobjects.trust_seal.values %} 
+                {%- assign seal_img = seal_item.image -%}
+                {% if seal_img != blank %}
+                    <div class="swiper-slide">
+                          <img loading="eager" class="img-fluid mx-auto" src="{{ seal_img | image_url: width: 170 }}" style="object-fit:cover;" alt="{{ product.image.alt | escape }}"/>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<script src="{{ 'image-slide-list.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+    {
+      "name": "Trust Seal",
+      "settings": [    
+        {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background color"   
+        },
+          {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+          },
+          {
+            "type": "range",
+            "id": "padding_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_top",
+            "default": 60
+          },
+          {
+            "type": "range",
+            "id": "padding_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "t:sections.all.padding.padding_bottom",
+            "default": 60
+          },
+          {
+            "type": "header",
+            "content": "Section margin"
+          },
+          {
+            "type": "range",
+            "id": "margin_top",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Top margin",
+            "default": 60
+          },
+          {
+            "type": "range",
+            "id": "margin_bottom",
+            "min": 0,
+            "max": 100,
+            "step": 4,
+            "unit": "px",
+            "label": "Bottom margin",
+            "default": 0
+          }
+      ],
+    
+      "presets": [
+        {
+            "name": "Image slide"
+        }
+      ]
+    }
+  {% endschema %}

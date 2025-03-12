@@ -12,6 +12,7 @@
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
     }  
+    
 </style>
 
 <div class="product-boxing--container boxing-{{ section.id }}">
@@ -29,6 +30,26 @@
                         </a>
                         <div class="story-boxing--sub_content">{{ block.settings.sub_content }}</div>
                     </div>
+                    {%- style -%}
+                        .story-boxing--button {
+                            color: {{ block.settings.story_button_color }};
+                            font-family: "Josefin Sans";
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 35px; /* 194.444% */
+                            text-transform: capitalize;
+                            border-radius: 20px;
+                            background: {{ block.settings.story_button_background }};
+                            padding: 5px 14px;
+                            text-decoration: none;
+                        }
+
+                        .story-boxing--button:hover {
+                            background-color: {{ block.settings.story_button_color }};
+                            color: {{ block.settings.story_button_background }};
+                        }
+                    {%- endstyle -%}
                     {%-  when 'image_boxing' -%}
                       {% if block.settings.product_btn_url %}
                         <a href="{{ block.settings.product_btn_url }}" class="image-with-button-boxing">
@@ -45,6 +66,33 @@
                             <span class="image-with-button-boxing--button">
                                 {{ block.settings.product_btn_text }}
                             </span>
+                          {%- style -%}
+                              .image-with-button-boxing--button {
+                                    color: {{ block.settings.image_button_color }};
+                                    text-align: center;
+                                    font-family: "Josefin Sans";
+                                    font-size: 25px;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    line-height: 30px; /* 142.857% */
+                                    text-transform: uppercase;
+                                    border: 1px solid transparent;
+                                    border-radius: 25px;
+                                    background: {{ block.settings.image_button_background }};
+                                    padding: 13px 13px;
+                                    text-decoration: none;
+                                    position: absolute;
+                                    bottom: 26px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                }
+                                .image-with-button-boxing--button:hover {
+                                    background: {{ block.settings.image_button_color }};
+                                    border-color: transparent;
+                                    color: {{ block.settings.image_button_background }};
+
+                                }
+                          {%- endstyle -%}
                         </a>
                       {% endif %}
             {% endcase %}
@@ -143,6 +191,18 @@
             "label": "Button text"
         },
         {
+            "type":"color",
+            "id": "story_button_background",
+            "label": "Button background",
+            "default": "#fff"
+        },
+        {
+            "type":"color",
+            "id": "story_button_color",
+            "label": "Button text color",
+            "default": "#951125"
+        },
+        {
             "type": "richtext",
             "id": "sub_content",
             "label": "Sub content",
@@ -170,6 +230,18 @@
             "id": "product_btn_text",
             "label": "Button text",
             "default": "Buy now"
+        },
+        {
+            "type":"color",
+            "id": "image_button_background",
+            "label": "Button background",
+            "default": "#fff"
+        },
+        {
+            "type":"color",
+            "id": "image_button_color",
+            "label": "Button text color",
+            "default": "#951125"
         }
       ]
     }

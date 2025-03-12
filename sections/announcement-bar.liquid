@@ -1,11 +1,15 @@
-<style>  
-  .announcement-bar {  
-    background-color: #EFA316;  
-    text-align: center;
-    border-color: transparent;  
-    color: #fff;  
-    width: 100%;  
-  }  
+{% for block in section.blocks %}
+  {%- style -%}
+      .announcement-bar {  
+        background-color: {{ block.settings.announcement_color }};  
+        text-align: center;
+        border-color: transparent;  
+        color: #fff;  
+        width: 100%;  
+      } 
+  {%- endstyle -%}
+{% endfor %}
+<style>   
 
   .announcement-bar__link {  
     color: inherit;  
@@ -93,6 +97,12 @@
           "default": "Welcome to our store",  
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"  
         },  
+        {
+            "type": "color",
+            "id": "announcement_color",
+            "label": "Announcement bar color",
+            "default": "#4CAF50"
+        },
         {  
           "type": "select",  
           "id": "text_alignment",  

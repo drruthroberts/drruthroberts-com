@@ -52,7 +52,14 @@
       margin-bottom: 5rem;
     }
   }
-
+  @media (max-width:749px) {
+    .quick-add__submit {
+        margin-top: 0% !important;
+        margin-bottom: 8%;
+        background: #007a5c;
+        color: white;
+    }
+  }
   .search__button .icon {
     height: 1.8rem;
   }
@@ -233,7 +240,7 @@
                     {%- assign lazy_load = true -%}
                   {%- endif -%}
 
-                  <li class="grid__item">
+                  <li class="grid__item {% if item.object_type == "page" %} hidden {% endif %}">
                     {%- case item.object_type -%}
                       {%- when 'product' -%}
                         {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
@@ -257,7 +264,7 @@
                           lazy_load: lazy_load
                         %}
                       {%- when 'page' -%}
-                        <div class="article-card-wrapper card-wrapper underline-links-hover">
+                        <div class="article-card-wrapper card-wrapper underline-links-hover hidden">
                           <div class="card card--card card--text ratio color-{{ settings.blog_card_color_scheme }}" style="--ratio-percent: 100%;">
                             <div class="card__content">
                               <div class="card__information">

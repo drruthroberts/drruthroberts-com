@@ -1779,14 +1779,13 @@ text-transform: capitalize;
   line-height: 150%; 
   letter-spacing: 4.2px;
   text-transform: uppercase;
-  border: 1px solid #EFA316;
+  border: 1px solid #184B44;
   border-radius: 20px;
-  background-color: #EFA316;
+  background-color: #184B44;
   padding: 3px 10px;
   margin-top: 10px;
   max-width: fit-content;
 }
-
 
 .subscription-box-delivery {
   color: #000;

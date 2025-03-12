@@ -10,7 +10,9 @@
                     <div class="d_flex_maincrock">
                         <div class="width50_cou crockdummy">
                             <div class="cropet_content">
+                              <a href="{{ product.url }}" class="crockdummy_url">
                                 <h2 class="crockpettitle">{{ product.title }}</h2>
+                              </a>
                                 <p>
                                     <span class="price_in_c line_center_ crockprice"> {{ product.price | money }} USD</span>
                                 </p>
@@ -29,15 +31,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="width50_cou crocpet_img">
+                        <a class="width50_cou crocpet_img" href="{{ product.url }}">
                             <img class="width_img_cource diert" src="{{ image.src | product_img_url: 'master' }}">
-                        </div>
+                        </a>
                     </div>
                 {% endfor %}
         {% endfor -%}
     </div>
-
-       
 </section>
 
 {% schema %}
@@ -100,97 +100,101 @@
     text-transform: uppercase;
     color: #1E1E1E;
 }
+
+.crockdummy_url {
+   text-decoration: unset;
+}
 .cropet_content {
     padding: 4% 8%;
 }   
-              .d_flex_maincrock{
-                display:flex;
-                flex-wrap: wrap;
-                align-items: center;
-                justify-content: center;
-                margin-bottom: 4%;
-              }
-              .width50_cou.crocpet_img{
-                width:40%;
-              }
-              .width50_cou.crockdummy{
-                width:60%;
-              }
-              .width_img_cource.diert{
-                    width: 100%;
-                    border-radius: 24px;
-                    position: unset;
-              }
-              .container_cources{
-                max-width: 120rem;
-                margin: auto;
-              }
-            .crockpettitle{
-              font-family: 'BLT-Heirloom';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 30px;
-                line-height: 40px;
-                 color: #1E1E1E;
-                 padding:0;
-                 margin-bottom:0;
-            }
-            .price_in_c{
-              font-family: 'Josefin Sans';
-                  text-decoration-line: line-through;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 24px;
-          line-height: 30px;
-                color: #184B44;
-            }
-            .author_cource{
-            font-family: 'Josefin Sans';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 30px;
-            text-transform: uppercase;
-            color: #1E1E1E;
-            margin-top:0;
-            }
-            .crocktitle{
-                font-family: 'Oakley Script';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 64px;
-                line-height: 57px;
-                letter-spacing: 0.02em;
-                color: #184B44;
-                text-align:center;
-            }
-
-            .width50_cou.crockdummy {
-                background: #F5F8F1;
-                border-radius: 24px;
-                position: relative;
-                left: 5%;
-            }
-          .btnbynow_courc{
-            width: 100%;
-            border: 2px solid #184B44;
-        border-radius: 24px;
-          height: 51px;
-          background: white;
-            font-family: 'Josefin Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 150%;
-        leading-trim: both;
-        text-edge: cap;
-        letter-spacing: 0.3em;
-        text-transform: uppercase;
+    .d_flex_maincrock{
+      display:flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 4%;
+    }
+    .width50_cou.crocpet_img{
+      width:40%;
+    }
+    .width50_cou.crockdummy{
+      width:60%;
+    }
+    .width_img_cource.diert{
+          width: 100%;
+          border-radius: 24px;
+          position: unset;
+    }
+    .container_cources{
+      max-width: 120rem;
+      margin: auto;
+    }
+  .crockpettitle{
+    font-family: 'BLT-Heirloom';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 40px;
         color: #1E1E1E;
-                text-align: center;
-                padding: 15px 0;
-            cursor: pointer;
-          }
+        padding:0;
+        margin-bottom:0;
+  }
+  .price_in_c{
+    font-family: 'Josefin Sans';
+        text-decoration-line: line-through;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+      color: #184B44;
+  }
+  .author_cource{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+  margin-top:0;
+  }
+  .crocktitle{
+      font-family: 'Oakley Script';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 57px;
+      letter-spacing: 0.02em;
+      color: #184B44;
+      text-align:center;
+  }
+
+  .width50_cou.crockdummy {
+      background: #F5F8F1;
+      border-radius: 24px;
+      position: relative;
+      left: 5%;
+  }
+.btnbynow_courc{
+  width: 100%;
+  border: 2px solid #184B44;
+border-radius: 24px;
+height: 51px;
+background: white;
+  font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.3em;
+text-transform: uppercase;
+color: #1E1E1E;
+      text-align: center;
+      padding: 15px 0;
+  cursor: pointer;
+}
           input.btn.add_cart {
     border: 2px solid #184B44;
     border-radius: 25.5px;

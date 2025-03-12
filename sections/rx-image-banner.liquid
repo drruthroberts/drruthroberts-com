@@ -115,6 +115,9 @@
     }
 
   }
+  .rx_link_to_bundle {
+    cursor: pointer;
+  }
 
   @media screen and (max-width: 749px) {
     #Banner-{{ section.id }} .rx_read_more_arrow_img_banner {
@@ -130,10 +133,10 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
+  class="banner {% if section.settings.link_to_bundle_section == true  %}rx_link_to_bundle {% endif %} banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
 >
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media {% if section.settings.mobile_first_image %} small-hide {% endif %}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
       {%- liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         if section.settings.image_2 != blank
@@ -161,12 +164,12 @@
       }}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.mobile_first_image %} small-hide {% endif %}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
       {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
     </div>
   {%- endif -%}
   {%- if section.settings.image_2 != blank -%}
-    <div class="banner__media media{% if section.settings.image != blank %} banner__media-half{% endif %}">
+    <div class="banner__media media{% if section.settings.mobile_first_image %} small-hide {% endif %}{% if section.settings.image != blank %} banner__media-half{% endif %}">
       {%- liquid
         assign image_height_2 = section.settings.image_2.width | divided_by: section.settings.image_2.aspect_ratio
         if section.settings.image != blank
@@ -194,6 +197,19 @@
       }}
     </div>
   {%- endif -%}
+  {% if section.settings.mobile_first_image != blank %}
+    <div class="banner__media media large-up-hide medium-hide">
+      {{
+        section.settings.mobile_first_image
+        | image_url: width: 768
+        | image_tag:
+          loading: 'lazy',
+          class: first_image_class_mobile,
+          alt: 'image',
+          widths: '375, 550, 750'
+      }}
+    </div>
+  {% endif  %} 
   <div class="section-{{section.id}} banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="custom-box rx_banner__box content-container content-container--full-width-mobile rx-container-bg">
     {%- for block in section.blocks -%}
@@ -219,7 +235,7 @@
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
-                  class=" rx_image_banner_btn {% if section.settings.link_to_bundle_section == true  %}rx_link_to_bundle {% endif %} {% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
+                  class=" rx_image_banner_btn  {% if section.settings.show_text_box == false %} rx_read_more_btn_white {% else %} rx_read_more_btn_green {% endif %}"
                 >
                   {{- block.settings.button_label_1 | escape -}}
                   {% comment %} {% render 'icon-arrow' %} {% endcomment %}
@@ -251,6 +267,15 @@
       "type": "image_picker",
       "id": "image_2",
       "label": "t:sections.image-banner.settings.image_2.label"
+    },
+    {
+      "type": "header",
+      "content": "Mobile image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_first_image",
+      "label": "Mobile first image"
     },
     {
       "type": "range",

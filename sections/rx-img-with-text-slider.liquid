@@ -277,7 +277,7 @@
 
   </style>
 
-<div class="rx-{{section.id}}">
+<div class="rx-{{section.id}} rx-img-with-text-slider">
   
   <!-- Full-width images with number and caption text -->
   <div class= "slides-group">
@@ -334,7 +334,7 @@
                     {% else %}
                       href="{{ block.settings.button_link }}"
                     {% endif %}
-                    class="rx_read_more_btn_green"
+                    class="rx_read_more_btn_green {% if section.settings.link_to_under_section %} link-to-under-section {% endif %}"
                   >
                     {{ block.settings.button_label | escape }}
                     {% comment %} <img 
@@ -347,8 +347,6 @@
                   </a>
               </div>
               {%- endif -%}
-              
-              
             </div>
           </div>
         </div>
@@ -364,90 +362,100 @@
   {% comment %} <a id="rx-prev-imgWithText" onclick="plusSlides_imgWithText(-1)">&#10094;</a>
   <a id="rx-next-imgWithText" onclick="plusSlides_imgWithText(1)">&#10095;</a>
   <br> {% endcomment %}
-  <div style="text-align:center;margin-top: -3%;margin-bottom: 3%;">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
+  {% if section.blocks.size > 1 %}
+    <div style="text-align:center;margin-top: -3%;margin-bottom: 3%;">
+      {%- for block in section.blocks -%}
+        <span class="dot" onclick="currentSlide({{ forloop.index }})"></span>
+      {%- endfor -%} 
+    </div>
+  {% endif %} 
 </div>
 
 
-<script>
+<script>  
+  document.addEventListener("DOMContentLoaded", function() {  
+    let slideIndex_imgWithText = 1;  
+    showSlides_imgWithText(slideIndex_imgWithText);  
 
-  let slideIndex_imgWithText = 1;
-  showSlides_imgWithText(slideIndex_imgWithText);
+    function plusSlides_imgWithText(n) {  
+      showSlides_imgWithText(slideIndex_imgWithText += n);  
+    }  
 
-  {% comment %} // Next/previous controls
-  function plusSlides_imgWithText(n) {
-    showSlides_imgWithText(slideIndex_imgWithText += n);
-  } {% endcomment %}
+    function currentSlide(n) {  
+      showSlides_imgWithText(slideIndex_imgWithText = n);  
+    }  
 
-  function currentSlide(n) {
-    showSlides_imgWithText(slideIndex_imgWithText = n);
-  }
+    function showSlides_imgWithText(n) {  
+      let slides = document.getElementsByClassName("imgWithText-slides");  
+      let dots = document.querySelectorAll(".dot");  
+      if (dots.length > 0) {
 
-  {% comment %} let slides_imgWithText = document.getElementsByClassName("imgWithText-slides");
-  console.log("==sli===",slides.length)
-  if(slides_imgWithText.length === 1) {
-    let arrowNextImgWithText = document.getElementById("rx-next-imgWithText");
-    let arrowPreviousImgWithText = document.getElementById("rx-prev-imgWithText");
+        if (n > slides.length) { slideIndex_imgWithText = 1; }  
+        if (n < 1) { slideIndex_imgWithText = slides.length; }  
 
-    arrowNextImgWithText.style.display = "none";
-    arrowPreviousImgWithText.style.display = "none";
-  } {% endcomment %}
+        // Hide all slides  
+        Array.from(slides).forEach(slide => {  
+          slide.style.display = "none";  
+        });  
 
-  function showSlides_imgWithText(n) {
-    let i;
-    let slides = document.getElementsByClassName("imgWithText-slides");
-    let dots = document.getElementsByClassName("dot");
+        // Remove active class from all dots  
+        Array.from(dots).forEach(dot => {  
+          dot.classList.remove("active");  
+        });  
 
-    if (n > slides.length) {slideIndex_imgWithText = 1};
+        // Show the current slide and set the active dot  
+        
+        slides[slideIndex_imgWithText - 1].style.display = "block";  
+        dots[slideIndex_imgWithText - 1].classList.add("active");  
+      }
+    }  
 
-    if (n < 1) {slideIndex_imgWithText = slides.length};
+    let autoSlideIndex = 0;  
+    if ({{ section.settings.auto_play }}) autoShowSlides_IWT();  
+    function autoShowSlides_IWT() {  
+      let slides = document.getElementsByClassName("imgWithText-slides");  
+      let dots = document.getElementsByClassName("dot");  
+      if (dots.length > 0 ) {
 
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
+      // Hide all slides  
+      Array.from(slides).forEach(slide => {  
+        slide.style.display = "none";  
+      });  
 
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
+      autoSlideIndex++;  
 
-    slides[slideIndex_imgWithText-1].style.display = "block";
-    dots[slideIndex_imgWithText-1].className += " active";
-  }
+      if (autoSlideIndex > slides.length) { autoSlideIndex = 1; }  
 
-  let autoSlideIndex_IWT = 0;
-  if({{section.settings.auto_play}}) autoShowSlides_IWT();
+      // Remove active class from all dots  
+      Array.from(dots).forEach(dot => {  
+        dot.classList.remove("active");  
+      });  
 
-  function autoShowSlides_IWT() {
-    let i;
-    let slides = document.getElementsByClassName("imgWithText-slides");
-    let dots = document.getElementsByClassName("dot");
+      // Show the current slide and set the active dot  
+      slides[autoSlideIndex - 1].style.display = "block";  
+      dots[autoSlideIndex - 1].classList.add("active");  
 
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
+      setTimeout(autoShowSlides_IWT, 8000); // Change image every 8 seconds  
+      }
+    }  
 
-    autoSlideIndex_IWT++;
+    const section = document.querySelector('.rx-img-with-text-slider');  
+    const scrollButton = document.querySelector('.link-to-under-section');  
+    const headerHeight = document.querySelector('header') ? document.querySelector('.header').offsetHeight : 0;  
 
-    if (autoSlideIndex_IWT > slides.length) {autoSlideIndex_IWT = 1}
+    const sectionHeight = section ? section.offsetHeight : 0;  
 
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
-
-    
-    
-    slides[autoSlideIndex_IWT-1].style.display = "block";
-    dots[autoSlideIndex_IWT-1].className += " active";
-
-    setTimeout(autoShowSlides_IWT, 8000); // Change image every 5 seconds
-  }
-
+    if (scrollButton) {  
+      scrollButton.addEventListener('click', function(e) {  
+        e.preventDefault();  
+        window.scrollTo({  
+          top: sectionHeight + headerHeight,  
+          behavior: 'smooth'  
+        });  
+      });  
+    }  
+  });  
 </script>
-
-
 
 {% schema %}
 {
@@ -470,6 +478,12 @@
       "id": "auto_play",
       "default": true,
       "label": "Auto-rotate slides"
+    },
+    {
+      "type": "checkbox",
+      "id": "link_to_under_section",
+      "label": "Link to under section",
+      "default": false
     }
   ],
   "blocks": [

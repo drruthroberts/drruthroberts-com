@@ -25,6 +25,10 @@
       margin-top: 10px;
     }
 
+    .rx_product__title.producttitle h1 {
+      margin: 0;
+    }
+
     .rx-review-price .rx-stamped-color .stamped-badge .stamped-fa.stamped-fa-star {
       color: #184B44 !important;
     }
@@ -475,8 +479,8 @@
             
             
             {%- when 'price' -%}
-              <div class="rx-review-price">
-                {% if  product.metafields.stamped.reviews_count != blank %}
+              {% comment %} <div class="rx-review-price">
+             {% if  product.metafields.stamped.reviews_count != blank %}
                   <!-- Stamped - Begin Star Rating Badge -->
                   <div 
                     class="rx-stamped-color stamped-product-reviews-badge stamped-main-badge" 
@@ -489,18 +493,17 @@
                     {{product.metafields.stamped.badge}}
                   </div>
                    <!-- Stamped - End Star Rating Badge -->
-                {% endif %}
+                {% endif %} {% endcomment %}
                   
                 {% comment %} <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                  {%- render 'price',
-                    product: product,
+                  {%- render 'price',                    product: product,
                     use_variant: true,
                     show_badges: true
                   -%}
-                </div> {% endcomment %}
+                </div>
                <!-- Direct price display -->
                  <div class="coach-price">{{ product.price | money_with_currency }}</div>
-              </div>
+              </div> {% endcomment %}
             
               {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
                 <div class="product__tax caption rte">
@@ -1026,7 +1029,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-product.name",
+  "name": "Course product",
   "tag": "section",
   "class": "section",
   "blocks": [
